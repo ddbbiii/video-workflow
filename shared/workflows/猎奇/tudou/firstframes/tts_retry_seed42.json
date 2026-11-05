@@ -1,0 +1,63 @@
+{
+ "out_dir": "E:\\program\\1project\\video\\projects\\猎奇\\episodes\\tudou\\archive\\audio\\test_retry\\seed42",
+ "model_dir": "E:\\program\\1project\\video\\shared\\runtime\\engines\\tts\\voxcpm\\pretrained_models\\VoxCPM2",
+ "desc": "",
+ "desc_in_text": false,
+ "cfg_value": 2.0,
+ "inference_timesteps": 10,
+ "seed": 7,
+ "reference_wav": null,
+ "prompt_wav": null,
+ "prompt_text": null,
+ "mode": "ultimate",
+ "shots": [
+  {
+   "id": "s02",
+   "text": "小红，我们不是从小一个菜园子长大的吗？你说过不嫌弃我的。",
+   "voice": "lieqi-tudou-potato",
+   "desc_in_text": false,
+   "reference_wav": "E:\\program\\1project\\video\\shared\\runtime\\engines\\tts\\refs\\lieqi-tudou-potato_ref.wav",
+   "prompt_wav": "E:\\program\\1project\\video\\shared\\runtime\\engines\\tts\\refs\\lieqi-tudou-potato_ref.wav",
+   "prompt_text": "小红，我们不是从小一个菜园子长大的吗？你说过不嫌弃我的。伯父，我虽然土，但我实在，煎炒烹炸样样都行。你是谁？好。今日之辱，我记下了。三年之后，我让你们番茄家高攀不起！",
+   "cfg_value": 1.5,
+   "inference_timesteps": 20,
+   "seed": 42,
+   "vo_gate_pitch_band_hz": [
+    168.4,
+    238.2
+   ]
+  },
+  {
+   "id": "s04",
+   "text": "听见没？我们番茄家，红得发亮！你一个埋土里的，配吗？",
+   "voice": "lieqi-tudou-tomato-dad",
+   "desc_in_text": false,
+   "reference_wav": "E:\\program\\1project\\video\\shared\\runtime\\engines\\tts\\refs\\lieqi-tudou-tomato-dad_ref.wav",
+   "prompt_wav": "E:\\program\\1project\\video\\shared\\runtime\\engines\\tts\\refs\\lieqi-tudou-tomato-dad_ref.wav",
+   "prompt_text": "听见没？我们番茄家，红得发亮！你一个埋土里的，配吗？土就是土！这是你家给的彩礼？两袋化肥？拿回去！谁啊，这么大排场……这，这不是土豆吗？你怎么削皮了？",
+   "cfg_value": 1.5,
+   "inference_timesteps": 20,
+   "seed": 42,
+   "vo_gate_pitch_band_hz": [
+    136.1,
+    192.5
+   ]
+  },
+  {
+   "id": "s31",
+   "text": "黄瓜味薯片，上线！",
+   "voice": "lieqi-tudou-onion",
+   "desc_in_text": false,
+   "reference_wav": "E:\\program\\1project\\video\\shared\\runtime\\engines\\tts\\refs\\lieqi-tudou-onion_ref.wav",
+   "prompt_wav": "E:\\program\\1project\\video\\shared\\runtime\\engines\\tts\\refs\\lieqi-tudou-onion_ref.wav",
+   "prompt_text": "总裁，番茄家到了。呜……我没哭，是我自己辣眼睛。没错。番茄家欠了一屁股债，这块地，我们总裁已经收购了。黄瓜味薯片，上线！",
+   "cfg_value": 1.5,
+   "inference_timesteps": 30,
+   "seed": 42,
+   "vo_gate_pitch_band_hz": [
+    228.2,
+    322.8
+   ]
+  }
+ ]
+}

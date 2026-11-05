@@ -1,0 +1,19 @@
+{
+  "workspace": "E:/program/1project/video",
+  "clip_directory": "projects/助眠解说/episodes/b-geomagnetic-reversal/video/clips/final_r2",
+  "output": "projects/助眠解说/episodes/post-tests/sentence-intro-v1/render-v6b-video-pool",
+  "resolution": [1920, 1080],
+  "fps": 60,
+  "crf": 17,
+  "seed": 42,
+  "camera_zoom": 0,
+  "text_fade_ms": 1000,
+  "text_fade_out_ms": 1000,
+  "text_scale_start": 96,
+  "text_scale_end": 102,
+  "sentences": [
+    {"text": "你脚下的地球\n藏着一个看不见的磁场", "duration": 4.0},
+    {"text": "它保护着我们\n却并非永远保持同一个方向", "duration": 4.0},
+    {"text": "如果南北颠倒\n我们的世界会发生什么？", "duration": 4.0}
+  ]
+}

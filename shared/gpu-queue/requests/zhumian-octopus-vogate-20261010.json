@@ -1,0 +1,24 @@
+{
+    "id": "zhumian-octopus-vogate-20261010",
+    "owner_thread": "助眠解说",
+    "line": "助眠解说",
+    "submitted_at": "2026-10-10T15:44:36+08:00",
+    "priority": 100,
+    "status": "completed",
+    "task": "章鱼 vo_gate 全章",
+    "command_or_workflow_path": "C:\\Users\\10060\\agent-tools\\run_octopus_vogate.py",
+    "working_directory": "E:\\program\\1project\\video\\projects\\助眠解说\\episodes\\you-are-an-octopus",
+    "output_directory": "E:\\program\\1project\\video\\projects\\助眠解说\\episodes\\you-are-an-octopus\\audio\\vo_gate",
+    "estimated_minutes": 90,
+    "estimated_vram_mb": 8000,
+    "dependencies": [
+        "zhumian-octopus-tts-20261010"
+    ],
+    "authorization": "助眠解说自管",
+    "granted_at": "2026-10-10T15:44:36+08:00",
+    "pid": 48160,
+    "log_path": "E:\\program\\1project\\video\\projects\\助眠解说\\episodes\\you-are-an-octopus\\runs\\20261010-octopus-b01\\logs\\vo_gate.log",
+    "started_at": "2026-10-10T15:44:36+08:00",
+    "finished_at": "2026-10-10T15:52:28+08:00",
+    "fails": []
+}

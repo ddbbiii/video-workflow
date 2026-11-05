@@ -1,0 +1,242 @@
+{
+ "h-a": {
+  "id": "h-a",
+  "canvas": [
+   1920,
+   1080
+  ],
+  "main_size": 324,
+  "bracket_size": 146,
+  "hook_size": 64,
+  "shift_up": 0,
+  "items": {
+   "brand": {
+    "bbox": [
+     776,
+     114,
+     1143,
+     187
+    ],
+    "margins": {
+     "left": 776,
+     "top": 114,
+     "right": 777,
+     "bottom": 893
+    },
+    "safe_ok": true
+   },
+   "title": {
+    "bbox": [
+     195,
+     322,
+     1725,
+     617
+    ],
+    "margins": {
+     "left": 195,
+     "top": 322,
+     "right": 195,
+     "bottom": 463
+    },
+    "safe_ok": true
+   },
+   "hook": {
+    "bbox": [
+     370,
+     712,
+     1551,
+     779
+    ],
+    "margins": {
+     "left": 370,
+     "top": 712,
+     "right": 369,
+     "bottom": 301
+    },
+    "safe_ok": true
+   }
+  },
+  "text_zone_lum_after_scrim": 220.6,
+  "bg_mean_lum": 17.0
+ },
+ "h-b": {
+  "id": "h-b",
+  "canvas": [
+   1920,
+   1080
+  ],
+  "main_size": 324,
+  "bracket_size": 146,
+  "hook_size": 64,
+  "shift_up": 0,
+  "items": {
+   "brand": {
+    "bbox": [
+     776,
+     114,
+     1143,
+     187
+    ],
+    "margins": {
+     "left": 776,
+     "top": 114,
+     "right": 777,
+     "bottom": 893
+    },
+    "safe_ok": true
+   },
+   "title": {
+    "bbox": [
+     195,
+     322,
+     1725,
+     617
+    ],
+    "margins": {
+     "left": 195,
+     "top": 322,
+     "right": 195,
+     "bottom": 463
+    },
+    "safe_ok": true
+   },
+   "hook": {
+    "bbox": [
+     370,
+     712,
+     1551,
+     779
+    ],
+    "margins": {
+     "left": 370,
+     "top": 712,
+     "right": 369,
+     "bottom": 301
+    },
+    "safe_ok": true
+   }
+  },
+  "text_zone_lum_after_scrim": 220.9,
+  "bg_mean_lum": 25.9
+ },
+ "v-a": {
+  "id": "v-a",
+  "canvas": [
+   1080,
+   1920
+  ],
+  "main_size": 316,
+  "bracket_size": 142,
+  "hook_size": 58,
+  "shift_up": 0,
+  "items": {
+   "brand": {
+    "bbox": [
+     356,
+     198,
+     723,
+     271
+    ],
+    "margins": {
+     "left": 356,
+     "top": 198,
+     "right": 357,
+     "bottom": 1649
+    },
+    "safe_ok": true
+   },
+   "title": {
+    "bbox": [
+     179,
+     329,
+     901,
+     1022
+    ],
+    "margins": {
+     "left": 179,
+     "top": 329,
+     "right": 179,
+     "bottom": 898
+    },
+    "safe_ok": true
+   },
+   "hook": {
+    "bbox": [
+     228,
+     1083,
+     852,
+     1233
+    ],
+    "margins": {
+     "left": 228,
+     "top": 1083,
+     "right": 228,
+     "bottom": 687
+    },
+    "safe_ok": true
+   }
+  },
+  "text_zone_lum_after_scrim": 220.3,
+  "bg_mean_lum": 18.8
+ },
+ "v-b": {
+  "id": "v-b",
+  "canvas": [
+   1080,
+   1920
+  ],
+  "main_size": 316,
+  "bracket_size": 142,
+  "hook_size": 58,
+  "shift_up": 0,
+  "items": {
+   "brand": {
+    "bbox": [
+     356,
+     198,
+     723,
+     271
+    ],
+    "margins": {
+     "left": 356,
+     "top": 198,
+     "right": 357,
+     "bottom": 1649
+    },
+    "safe_ok": true
+   },
+   "title": {
+    "bbox": [
+     179,
+     329,
+     901,
+     1022
+    ],
+    "margins": {
+     "left": 179,
+     "top": 329,
+     "right": 179,
+     "bottom": 898
+    },
+    "safe_ok": true
+   },
+   "hook": {
+    "bbox": [
+     228,
+     1083,
+     852,
+     1233
+    ],
+    "margins": {
+     "left": 228,
+     "top": 1083,
+     "right": 228,
+     "bottom": 687
+    },
+    "safe_ok": true
+   }
+  },
+  "text_zone_lum_after_scrim": 220.2,
+  "bg_mean_lum": 15.7
+ }
+}

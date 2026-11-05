@@ -1,0 +1,21 @@
+{
+  "id": "sleep-intro-sentence-voice-preview-20261012",
+  "owner_thread": "019f9bb9-f2f6-76b2-b45c-648e54a773e7",
+  "line": "助眠解说",
+  "submitted_at": "2026-10-12T21:03:23+08:00",
+  "priority": null,
+  "status": "cancelled",
+  "cancellation_reason": "User suspended GPU queue on 2026-10-13; owner executes directly, not a production cancellation.",
+  "task": "整句大字片头三句旁白试听：VoxCPM2 b2-warm-male，seed7 CFG2 steps10；仅旁白，不混BGM",
+  "command_or_workflow_path": "E:/program/1project/video/shared/runtime/engines/tts/voxcpm/gen_shots.py",
+  "arguments": ["E:/program/1project/video/projects/助眠解说/episodes/post-tests/sentence-intro-v1/voice-preview-jobs.json"],
+  "python": "E:/program/1project/video/shared/runtime/engines/tts/voxcpm/.venv/Scripts/python.exe",
+  "working_directory": "E:/program/1project/video/shared/runtime/engines/tts/voxcpm",
+  "output_directory": "E:/program/1project/video/projects/助眠解说/episodes/post-tests/sentence-intro-v1/voice-preview",
+  "estimated_minutes": 5,
+  "estimated_vram_mb": 8000,
+  "dependencies": [],
+  "authorization": "用户2026-10-12明确要求给当前片头加配音试听；不修改正式生产资产",
+  "pid": null,
+  "log_path": "E:/program/1project/video/projects/助眠解说/episodes/post-tests/sentence-intro-v1/voice-preview/run.log"
+}

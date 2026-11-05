@@ -1,0 +1,63 @@
+{
+ "out_dir": "E:\\program\\1project\\video\\projects\\创意\\episodes\\a-space-cat\\archive\\audio\\voxcpm2-shots-v6-seed11",
+ "model_dir": "E:\\program\\1project\\video\\shared\\runtime\\engines\\tts\\voxcpm\\pretrained_models\\VoxCPM2",
+ "desc": "",
+ "desc_in_text": false,
+ "cfg_value": 2.0,
+ "inference_timesteps": 10,
+ "seed": 11,
+ "reference_wav": "E:\\program\\1project\\video\\shared\\runtime\\engines\\tts\\refs\\A3_Dry_R1.wav",
+ "prompt_wav": "E:\\program\\1project\\video\\shared\\runtime\\engines\\tts\\refs\\A3_dry_prompt2s.wav",
+ "prompt_text": "如果把一只银渐层猫，丢到1883年的喀拉喀托火山岛，它能撑多久？这一年八月，这座岛会发出人类有记录以来最响的爆炸声之一。",
+ "mode": "ultimate",
+ "shots": [
+  {
+   "id": "s02",
+   "text": "完成一场二十四小时的太空一日游，它能否靠着小动物的本能，侥幸活下来？"
+  },
+  {
+   "id": "s05",
+   "text": "藏着足以碾碎一切温柔的绝境。你习惯性蹭了蹭温热的被褥，"
+  },
+  {
+   "id": "s12",
+   "text": "升空初期，你还保留着家养猫咪的乖巧本能。"
+  },
+  {
+   "id": "s13",
+   "text": "失重让你的身体不受控制地漂浮，你努力收拢四肢，"
+  },
+  {
+   "id": "s14",
+   "text": "试图蹲坐成平日里讨食的模样。你贴着冰冷的舱壁缓慢挪动，鼻尖不停嗅探，"
+  },
+  {
+   "id": "s19",
+   "text": "灼热的温度透过舱体渗透进来，烘干了你绒毛里仅存的湿气。"
+  },
+  {
+   "id": "s29",
+   "text": "胃里不断翻涌，空空荡荡的腹腔反复抽搐，"
+  },
+  {
+   "id": "s30",
+   "text": "你吐不出任何食物，只能一次次呕出酸涩的胃液，黏在绒毛上，"
+  },
+  {
+   "id": "s39",
+   "text": "你习惯性张嘴等待，像往常一样等着主人递来水盆、粮碗，"
+  },
+  {
+   "id": "s41",
+   "text": "你不再挣扎着睁眼，不再试图张望熟悉的地球，"
+  },
+  {
+   "id": "s43",
+   "text": "你像是在做一场漫长又温柔的梦，梦里没有冰冷的金属舱体，"
+  },
+  {
+   "id": "s49",
+   "text": "再也不会睁眼、再也不会叫唤、再也不会蹭着掌心讨要温柔。"
+  }
+ ]
+}

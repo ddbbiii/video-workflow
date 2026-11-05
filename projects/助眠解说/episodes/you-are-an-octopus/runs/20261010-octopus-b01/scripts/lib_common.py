@@ -1,0 +1,96 @@
+﻿# -*- coding: utf-8 -*-
+"""Shared helpers for octopus assembly (20261010-octopus-b01)."""
+from __future__ import annotations
+import json, subprocess
+from pathlib import Path
+from datetime import datetime, timezone, timedelta
+
+EP = Path(r"E:\program\1project\video\projects\助眠解说\episodes\you-are-an-octopus")
+RUN = EP / "runs" / "20261010-octopus-b01"
+FFMPEG = Path(r"C:\Users\10060\AppData\Local\Microsoft\WinGet\Packages\Gyan.FFmpeg.Shared_Microsoft.Winget.Source_8wekyb3d8bbwe\ffmpeg-8.1.2-full_build-shared\bin\ffmpeg.exe")
+FFPROBE = FFMPEG.with_name("ffprobe.exe")
+PYTHON = Path(r"E:\program\language\python\Python-3.11.0\python.exe")
+PROCESS_PY = Path(r"E:\program\1project\video\shared\runtime\engines\tts\voxcpm\.venv\Scripts\python.exe")
+CAMERA_MOTION = Path(r"E:\program\1project\video\shared\camera-motion\camera_motion.py")
+BGM = Path(r"E:\program\1project\video\assets\助眠解说\audio\bgm\sleep-unified-v1\leberch-sleep-583079.mp3")
+FONT_DIR = Path(r"E:\program\1project\video\assets\助眠解说\subtitles\style-r4\fonts")
+FONT_FILE = FONT_DIR / "SourceHanSansSC-Heavy.otf"
+VO_DIR = EP / "audio" / "vo-processed" / "atempo07304"
+STILLS = EP / "image" / "stills_16x9"
+
+SR = 48000
+FPS = 30
+GAP_INTRA = 0.20
+GAP_INTER_PARA = 0.45
+GAP_INTER_CHAPTER = 0.80
+INTRO_HEAD = 0.40
+INTRO_BETWEEN = 0.45
+INTRO_TAIL = 0.80
+# AUDIO_LOCK: relative to VO -15.7..-19.7 LU starting point; do NOT multiply 1.30 again if reusing cockroach mix baseline
+BGM_GAIN = 1.0
+TZ = timezone(timedelta(hours=8))
+
+BODY_SECTIONS = ["bridge", "ch01", "ch02", "ch03", "ch04", "ch05", "ch06", "ch07", "ch08", "ch09", "ch10"]
+
+
+def now_iso() -> str:
+    return datetime.now(TZ).isoformat(timespec="seconds")
+
+
+def atomic_json(path: Path, data) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    tmp = path.with_suffix(path.suffix + ".tmp")
+    tmp.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    tmp.replace(path)
+
+
+def update_checkpoint(**kw):
+    ck = RUN / "CHECKPOINT.json"
+    d = {}
+    if ck.exists():
+        try:
+            d = json.loads(ck.read_text(encoding="utf-8"))
+        except Exception:
+            d = {}
+    d.update(kw)
+    d["updated_at"] = now_iso()
+    atomic_json(ck, d)
+
+
+def write_status(text: str) -> None:
+    (RUN / "STATUS.md").write_text(text if text.startswith("#") else f"# STATUS\n\n{text}\n", encoding="utf-8")
+
+
+def log_stage(name: str, text: str) -> Path:
+    p = RUN / "logs" / f"{name}.log"
+    p.parent.mkdir(parents=True, exist_ok=True)
+    with p.open("a", encoding="utf-8") as f:
+        f.write(f"[{now_iso()}] {text}\n")
+    return p
+
+
+def load_json(path: Path):
+    return json.loads(path.read_text(encoding="utf-8"))
+
+
+def vo_rel_path(uid: str) -> str:
+    section = uid.split("-")[0]
+    return f"{section}/{uid}.wav"
+
+
+def ffprobe_duration(path: Path) -> float:
+    r = subprocess.run(
+        [str(FFPROBE), "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", str(path)],
+        capture_output=True, text=True, check=True,
+    )
+    return float(r.stdout.strip())
+
+
+def run_cmd(cmd, log_path: Path, cwd=None) -> int:
+    log_path.parent.mkdir(parents=True, exist_ok=True)
+    with log_path.open("a", encoding="utf-8") as f:
+        f.write(f"\n$ {' '.join(map(str, cmd))}\n")
+        f.flush()
+        p = subprocess.run(cmd, cwd=cwd, stdout=f, stderr=subprocess.STDOUT)
+        f.write(f"exit={p.returncode}\n")
+    return p.returncode

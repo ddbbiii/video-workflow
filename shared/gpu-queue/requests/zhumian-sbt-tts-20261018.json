@@ -1,0 +1,30 @@
+{
+    "id": "zhumian-sbt-tts-20261018",
+    "owner_thread": "workbuddy-session-siffre-beyond-time",
+    "line": "助眠解说",
+    "submitted_at": "2026-10-19T22:40:00+08:00",
+    "priority": null,
+    "status": "completed",
+    "task": "《超出时间》(siffre-beyond-time) 全量 TTS:validate 验证批 5 单元先行,合格后 intro/bridge/ch01..ch10/epilogue 共 223 单元(VoxCPM2, b2-warm-male 轻语气, seed 7)",
+    "command_or_workflow_path": "E:\\program\\1project\\video\\projects\\助眠解说\\episodes\\siffre-beyond-time\\runs\\20261018-sbt-b01\\scripts\\06_run_tts.py",
+    "working_directory": "E:\\program\\1project\\video\\projects\\助眠解说\\episodes\\siffre-beyond-time\\runs\\20261018-sbt-b01",
+    "output_directory": "E:\\program\\1project\\video\\projects\\助眠解说\\episodes\\siffre-beyond-time\\audio\\vo-raw\\lightexpr-seed7",
+    "estimated_minutes": 120,
+    "estimated_vram_mb": 8000,
+    "dependencies": [
+        "siffre-i2v-batch-20261019"
+    ],
+    "authorization": "2026-10-07 用户授权助眠线自管 GPU;2026-10-19 用户锁定口播(NARRATION_MASTER v1.1)后授权 TTS;等 i2v 批量完成后按锁协议执行",
+    "pid": null,
+    "log_path": "E:\\program\\1project\\video\\projects\\助眠解说\\episodes\\siffre-beyond-time\\runs\\20261018-sbt-b01\\logs\\tts.log",
+    "granted_at": "2026-10-20T05:48:00+08:00",
+    "granted_by": "助眠解说自管",
+    "dependencies_state": "siffre-i2v-batch-20261019 completed ok=40 failed=[] (2026-10-20 05:45);三锁均无,nvidia-smi 无计算进程",
+    "completed_at": "2026-10-20T06:26:00+08:00",
+    "note": "validate 5/5 + intro/bridge/ch01..ch10/epilogue 全量 223/223 单元成功,零失败;VoxCPM2 b2-warm-male 轻语气 seed7;锁每作业后释放",
+    "result": {
+        "units_ok": 223,
+        "units_failed": 0,
+        "raw_total_s": 1650.2
+    }
+}

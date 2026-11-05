@@ -1,0 +1,4 @@
+# i2v-cmp-2026-10-01: extra mount for diffusion_models only (portable's own extra_model_paths.yaml has no diffusion_models entry)
+i2v_cmp_diffusion:
+  base_path: E:/program/1project/video/shared/runtime/comfy/models
+  diffusion_models: models/diffusion_models

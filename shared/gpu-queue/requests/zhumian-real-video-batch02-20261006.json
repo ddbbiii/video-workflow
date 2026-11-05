@@ -1,0 +1,23 @@
+{
+  "id": "zhumian-real-video-batch02-20261006",
+  "owner_thread": "01a10af6-0138-7ef0-8236-323efe9fd231",
+  "line": "zhumian-b-geomagnetic-reversal",
+  "submitted_at": "2026-10-06T08:30:00+08:00",
+  "status": "completed",
+  "finished_at": "2026-10-06T09:40:32+08:00",
+  "result": "Queue coordinator verified four manifest entries with decode_ok true, completion log and process exit. GPU slot released; visual QA remains pending.",
+  "task": "按已更新方案运行首轮低风险真实视频样片：ch2-c03 火山天文台、ch2-c04 月光崖壁溪水、ch2-c08 海上科考船、ch3-c07 海边暗色岩石与海浪。每镜约5秒、24fps、1280x720；保留原始视频和后处理版本，逐镜记录清晰度/变形/闪烁/解码QA。争议结果保留并标记，正式默认回退affine。",
+  "command_or_workflow_path": "E:\\program\\1project\\video\\projects\\助眠解说\\legacy-source\\zhumian\\b-geomagnetic-reversal\\gen_rebuild\\run_i2v_batch02.py",
+  "working_directory": "E:\\program\\1project\\video\\projects\\助眠解说\\legacy-source\\zhumian\\b-geomagnetic-reversal\\gen_rebuild",
+  "output_directory": "E:\\program\\1project\\video\\projects\\助眠解说\\legacy-source\\zhumian\\b-geomagnetic-reversal\\gen_rebuild\\runs\\20261006-ltx-real-video-batch02",
+  "estimated_minutes": 45,
+  "estimated_vram_mb": 15000,
+  "dependencies": ["LTX-2.3 local ComfyUI portable workflow", "shared GPU lock", "REAL_VIDEO_PLAN.md updated"],
+  "authorization": "用户要求先完成方案修改再运行GPU；已采纳高清图片+affine为默认、真实视频约20-30%的精选方案。",
+  "granted_at": "2026-10-06T08:56:00+08:00",
+  "hold_reason": null,
+  "release_note": "Idle H3 service PID 44620 stopped after user explicitly requested batch02 start; preflight must be repeated before launch.",
+  "started_at": "2026-10-06T09:02:00+08:00",
+  "pid": 36284,
+  "log_path": "E:\\program\\1project\\video\\projects\\助眠解说\\legacy-source\\zhumian\\b-geomagnetic-reversal\\gen_rebuild\\runs\\20261006-ltx-real-video-batch02\\batch02-run.log"
+}

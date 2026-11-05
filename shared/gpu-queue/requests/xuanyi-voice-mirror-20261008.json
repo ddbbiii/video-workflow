@@ -1,0 +1,18 @@
+{
+  "id": "xuanyi-voice-mirror-20261008",
+  "owner_thread": "悬疑动漫（Grok Bot 执行子代理）",
+  "line": "悬疑动漫",
+  "submitted_at": "2026-10-08T08:25:31+08:00",
+  "priority": null,
+  "status": "queued",
+  "task": "《镜子》约10秒音线对比试听：本地 VoxCPM2 声音设计（文字描述，无参考音频）三条音线（低温独白/紧绷耳语/清亮疏离）各一条，台词为 mirror-who-are-you L01_02+L01_03 原句，seed 7，坏片最多重试一次 seed 42。仅试听候选，不替换《镜子》现用配音，不改 registry、不进正文。",
+  "command_or_workflow_path": "E:\\program\\1project\\video\\assets\\悬疑动漫\\voices\\voice-design-2026-10-08-mirror\\run_vd.ps1",
+  "working_directory": "E:\\program\\1project\\video\\assets\\悬疑动漫\\voices\\voice-design-2026-10-08-mirror",
+  "output_directory": "E:\\program\\1project\\video\\assets\\悬疑动漫\\voices\\voice-design-2026-10-08-mirror\\out",
+  "estimated_minutes": 3,
+  "estimated_vram_mb": 8000,
+  "dependencies": [],
+  "authorization": "老大 2026-10-08 在悬疑动漫私聊要求「按照镜子的词和音轨来做」「给我十秒左右的测试音频就行」；仅生成试听候选。",
+  "pid": null,
+  "log_path": "E:\\program\\1project\\video\\assets\\悬疑动漫\\voices\\voice-design-2026-10-08-mirror\\run.log"
+}

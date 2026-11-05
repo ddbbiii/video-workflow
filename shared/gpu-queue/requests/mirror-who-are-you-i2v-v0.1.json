@@ -1,0 +1,21 @@
+{
+  "id": "mirror-who-are-you-i2v-v0.1",
+  "owner_thread": "01a10af5-7adb-71c0-82f4-641572aec029",
+  "line": "悬疑动漫",
+  "submitted_at": "2026-10-06T07:34:00+08:00",
+  "status": "completed",
+  "task": "《镜子》动态候选评估：正式默认高清静态图 + affine 推拉平移；仅对低细节、自然内部运动明显且确有必要的少量镜头（候选 S04/S09/S12/S21）生成 MiniMax H3 I2V 草稿，争议或清晰度下降时回退 affine；S24 保持确定性镜面过渡，不进入 I2V。",
+  "command_or_workflow_path": "E:\\program\\1project\\video\\projects\\悬疑动漫\\episodes\\mirror-who-are-you\\motion\\dynamic-plan-v0.1.json; E:\\program\\1project\\video\\shared\\project-tools\\workflows\\components\\41-minimax-h3-i2v-first-frame-v1.json",
+  "working_directory": "E:\\program\\1project\\video",
+  "output_directory": "E:\\program\\1project\\video\\projects\\悬疑动漫\\episodes\\mirror-who-are-you\\motion\\drafts\\v0.1",
+  "estimated_minutes": 30,
+  "estimated_vram_mb": 15500,
+  "dependencies": ["h3-node-ab-test-20261006"],
+  "authorization": "用户已授权开始图生视频；仅生成动态草稿，不合成正文，不生成配音、字幕或BGM。",
+  "granted_at": "2026-10-06T08:30:00+08:00",
+  "started_at": "2026-10-06T08:30:11+08:00",
+  "pid": 32068,
+  "log_path": "E:\\program\\1project\\video\\projects\\悬疑动漫\\episodes\\mirror-who-are-you\\motion\\drafts\\v0.1\\run.stdout.log"
+  ,"finished_at": "2026-10-06T08:54:00+08:00"
+  ,"result": "S04 and S21 generated successfully as diagnostic drafts but rejected for formal use after dynamic QA; formal route is affine. GPU slot released."
+}

@@ -1,0 +1,151 @@
+# Style B — sleep / concept科普
+# 口播文本规范 (VoxCPM2 无法控制分词，只能在文本上规避):
+#   - 不用破折号「——」(会被读成逗号)；句子要短，一口气读完；句尾落在实字上，少用「了/的/呢/吧/点」轻声收尾 (防气泡音)。
+#   - 术语「过拟合」「正则化」等前面不要紧贴会和首字粘成词的字，如「对抗过」「防过」「叫过」「做过」
+#     (旧稿「对抗过拟合」被读成「对抗过／拟合」)。改写成「来自过拟合…」「防止大脑过拟合」这类说法，或在术语前加逗号。
+#   - 配音后跑 scripts/vo_gate.py (下方 vo_gate 段: 术语表、粘连字、ASR 容错表、阈值)。
+id: b-sleep
+label: sleep-concept
+tts:
+  provider: voxcpm2          # voxcpm2 | edge-tts   (backup voice: indextts25, see below)
+  pause_sec: 0.5             # silence between shots when assembling per-shot wavs (sleep pace)
+  voxcpm2:                   # "V1b" — user-chosen voice (2026-09-28)
+    host: ddbbi              # GPU PC; runs E:\program\1project\video\shared\runtime\engines\tts\voxcpm\run_shots.ps1 -Jobs <jobs.json>
+    run_script: 'E:\program\1project\video\shared\runtime\engines\tts\voxcpm\run_shots.ps1'
+    model_dir: 'E:\program\1project\video\shared\runtime\engines\tts\voxcpm\pretrained_models\VoxCPM2'
+    # mode: how each shot is generated (all at seed 7, cfg 2.0, 10 steps)
+    #   ultimate     = continuation cloning of the approved V1b clip (reference_wav + prompt_wav + prompt_text)
+    #                  -> DEFAULT: pure per-shot voice design drifted 70-264 Hz between shots (2026-09-28 test)
+    #   clone        = reference_wav only
+    #   voice_design = description in (...) before each shot text, no audio (how V1b itself was made)
+    mode: ultimate
+    voice_design: "三十岁左右的成年男性，声音沉稳温暖，中低音但清晰明亮，吐字清楚，句尾平稳自然地收住，不压嗓，没有气泡音和沙哑感，语速舒缓从容，像纪录片或睡前故事的旁白，平静不夸张"
+    anchor_wav: 'E:\program\1project\video\shared\runtime\engines\tts\refs\b2-warm-male_ref.wav'   # A warm-male (scratch)
+    anchor_text: "发电机就在外核。液态铁被热量推着翻滚，切过磁场，生出电流，电流又生出磁场。地面上的罗盘，感受到的就是这股磁场。它藏在很深的地下，安安静静，日夜不息。"
+    cfg_value: 2.0
+    inference_timesteps: 10
+    seed: 7                  # torch.manual_seed(7) re-applied before every shot
+    optimize: false
+    denoiser: false
+    sample_rate: 48000
+    per_shot: true           # one generate() call per shot -> audio/voxcpm2-shots/<id>.wav
+  indextts25:                # BACKUP "I2" — not used by default
+    host: ddbbi
+    run_script: 'E:\program\1project\video\shared\runtime\engines\tts\index-tts\run_gen.ps1'   # gen_tts.py, job "I2"
+    repo: 'E:\program\1project\video\shared\runtime\engines\tts\index-tts'
+    reference_wav: 'E:\program\1project\video\shared\runtime\engines\tts\refs\b2-warm-male_ref.wav'  # A warm-male (scratch)
+    lang: ZH
+    duration_factor: 1.1
+    use_random: false
+    use_bf16: false          # fp32, ~8.7GB VRAM
+    use_cuda_kernel: false
+    sample_rate: 22050
+  edge-tts:                  # original temporary voice, still supported (scripts/tts_edge.py)
+    voice: zh-CN-YunxiNeural
+    rate: "-12%"
+    pitch: "-2Hz"
+# legacy block read by scripts/tts_edge.py (kept in sync with tts.edge-tts)
+voice:
+  provider: edge-tts
+  voice: zh-CN-YunxiNeural   # calm male; swap freely
+  rate: "-12%"               # slower, poetic
+  pitch: "-2Hz"
+palette:
+  bg: "#0b1020"
+  fg: "#c8d4e8"
+  accent: "#6b8cce"
+  muted: "#3a4560"
+  note: "soft night indigo; flat shapes; low contrast"
+cuts:
+  preference: slow
+  min_sec: 4.0
+  fade_sec: 0.6
+  ken_burns: false
+stills:                      # scripts/stills.py (design + thresholds: docs/stills-plan.md)
+  style: flat_dark_concept   # style/width/height/busy_comic: legacy keys for the PIL fallback (make_stills.py)
+  width: 1080
+  height: 1920
+  busy_comic: false
+  provider: comfyui          # comfyui | pil (last resort) | sdxl_lora (reserved slot, not implemented)
+  workflow: qwen_t2i_lightning   # Qwen-Image-2512 fp8 + Lightning 4-step (bake-off 2026-09-28 winner for B)
+  gen_size: [928, 1664]      # Qwen official 9:16 bucket
+  out_size: [1188, 2112]     # pick: Lanczos cover-fit (x1.28) = 1080x1920 + 10% Ken Burns headroom
+  candidates: 2              # per shot, varied by composition wording (seeds alone barely change Qwen images)
+  seed_base: 5100
+  prompt_lang: en            # bake-off: zh and en prompts gave equivalent Qwen images (compare_B_zh_vs_en.jpg); en also feeds CLIP
+  style_prefix: "Minimal calm night concept illustration for a sleep-aid science video. Dark, calm, soft and sparse: deep indigo and navy palette, low contrast, soft diffuse glow, large dark negative space, gentle film grain, quiet and soothing."
+  style_suffix: "Few elements, nothing bright or busy."
+  no_text_clause: "No text, no letters, no numbers, no watermark."   # appended unless still.allow_text: true
+  tag_suffix:                # still.tags -> extra wording
+    network: "Sparse network: only a few thin dim lines and a handful of small nodes, most of the frame is empty dark space, not dense, not bright."
+  composition_variants:      # used when a shot has no still.alt_compositions
+    - "Vertical composition, main subject centered slightly above the middle, lots of empty dark space around it."
+    - "Vertical composition, main subject smaller and lower in the frame, seen from a little further away, wide dark space above."
+  retry_variants:            # gate retry rounds (plus fix wording for the failed check, see qa.fix_wording)
+    - "Simpler composition with fewer elements, seen from a slightly different angle, darker overall."
+    - "A different viewpoint and framing, calmer and emptier, the subject small in a large dark space."
+  kenburns: {zoom: [1.0, 1.06], pan: none, alternate: true}   # written into still.kenburns by pick; compose animates it
+  comfyui:
+    instance: comfy-stills   # E:\program\1project\video\shared\runtime\engines\stills-runtime (ComfyUI v0.37.4, 127.0.0.1:8190, --disable-auto-launch)
+    run_script: 'E:\program\1project\video\shared\runtime\engines\stills-runtime\scripts\run_stills.ps1'
+    raw_dir: 'E:\program\1project\video\shared\runtime\engines\stills-runtime\out\{project}\{tag}'
+    ref_dir: 'E:\program\1project\video\shared\runtime\engines\stills-runtime\refs\{project}'
+    xfer: 'C:\Users\10060\Desktop\grok-bot-xfer\stills'
+    shutdown_after: true
+  qa:                        # scripts/still_gate.py; calibrated 2026-09-28 on 110 bake-off images + 8 PIL placeholders
+    clip_min: 0.20           # on-prompt generated B images 0.213-0.362
+    clip_margin_min: 0.0     # own prompt must beat every other shot's prompt; generated >= +0.028, PIL placeholders 7/8 < 0
+    aes_min: 4.5             # LAION MLP; dark minimal B images 4.58-6.26, placeholders 3.86-5.34 (floor only, ranking uses it)
+    nsfw_max: 0.2            # Falconsai p(nsfw); all bake-off images <= 0.005 (no positive samples to calibrate on)
+    ocr_min_score: 0.9       # garbage text "NFSB8T3" conf 1.00; false hits on fur/puzzles conf 0.62-0.92 and 2 chars
+    ocr_min_chars: 3         # (2 for CJK)
+    ocr_area_max: 0.0003     # PIL "s01" label = 0.0007-0.0012, NFSB8T3 = 0.0186
+    luma_max: 0.25           # HiDream gray B 0.286-0.472 vs good B <= 0.212
+    edge_density_max: 0.07   # Qwen s07 dense network (judged too busy) 0.095-0.103 vs all other B <= 0.047
+    blank_std_min: 3.0
+    dup_clip_max: 0.92       # cross-shot picks: different shots <= 0.887; same prompt re-seeded median 0.94
+    dup_phash_min: 10        # different shots >= 14 bits
+    cand_similar_warn: 0.95  # two candidates this similar = wording variation did not work (warning only)
+    max_retries: 2           # retry rounds per shot
+    pick_weights: {aes: 1.0, clip: 20.0, clip_margin: 10.0, subject_sim: 10.0}
+    fix_wording:
+      luma: "Very dark low-key night scene, dim light, deep shadows."
+      edge_density: "Very sparse and simple, only a few elements, mostly empty dark space, no fine detail."
+      ocr: "Absolutely no text, letters, numbers or symbols anywhere."
+      clip: ""
+      aes: "Beautiful, soft and clean illustration."
+      dup: "A clearly different composition and viewpoint from the other shots."
+      subject_sim: ""
+compose:
+  width: 1080
+  height: 1920
+  fps: 24
+  fit_audio: true
+
+vo_gate:                     # scripts/vo_gate.py (slim gate; thresholds calibrated 2026-09-28 on known good/bad samples, see docs/vo-gate-plan.md)
+  cer_max: 0.0               # CER after tolerance table + toneless-pinyin homophones (他/它, 不止/不只 pass)
+  insert_max: 1
+  break_gap_ms: 150          # gap between adjacent chars of one jieba word (Paraformer rarely shows it; precheck is the real guard)
+  f0_ref_hz: 109.2           # A warm-male (b2) reference F0 median; scratch only, do not commit to kepu-pipeline
+  f0_drift_st: 3.0           # fail if |12*log2(f0/96.7)| > 3.0 semitones (~81.4-115.0 Hz). Good takes <= 2.42 st,
+                             # confirmed drift (design shots 70/121/150/171/264 Hz) >= 3.91 st. Replaces fixed 90-110 Hz.
+  fry_shot_max: 0.32         # good shots <= 0.29, Yunyang E series 0.38-0.53, design drift shots 0.33/0.38
+  fry_end_warn: 0.9          # approved v2 had single ends up to 0.92 (warning in qa_state.json only)
+  retry_seeds: [11, 23, 42]  # base seed = tts.voxcpm2.seed (7)
+  max_retries: 3             # per shot
+  clip_pad_sec: 1.0
+  clip_bg: "0x0b1020"        # solid video track for qa_clips/*.mp4
+  retry_out_dir: 'E:\program\1project\video\shared\runtime\engines\tts\out\{project}\voxcpm2-v1b\{name}-seed{seed}'   # used when --base-jobs is not given
+  remote_cmd: null           # optional transport (push jobs, run run_shots.ps1, wait, pull wavs); none on the box yet
+  terms: [过拟合, 正则化, 噪声, 假说]
+  glue_prefix:               # term first char -> chars that glue onto it (a comma is auto-inserted)
+    过: 抗防叫做见听说有经超不难通错走想看用学试越度放太算改
+    正: 真纠改反修端公立方严刚不校
+  asr_tolerance:             # what ASR hears -> what was meant (same length)
+    过你和: 过拟合
+    过拟和: 过拟合
+    过你河: 过拟合
+    过逆合: 过拟合
+    正则话: 正则化
+    造生: 噪声
+    疲惫的太熟: 题背得太熟   # Paraformer LM bias: hears 疲惫 even on edge-tts Yunxi reading 题背 (Whisper hears 提背 = tí)

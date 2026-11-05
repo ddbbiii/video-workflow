@@ -1,0 +1,33 @@
+{
+  "owner_thread": "助眠线路 b-geomagnetic-reversal 动态阶段执行助手（经父会话下达；聊天 ID 由父会话补充/转达）",
+  "line": "zhumian-b-geomagnetic-reversal",
+  "submitted_at": "2026-10-07T10:59:30+08:00",
+  "priority": null,
+  "status": "completed",
+  "working_directory": "E:\\program\\1project\\video\\projects\\助眠解说\\legacy-source\\zhumian\\b-geomagnetic-reversal\\gen_rebuild\\runs\\20261007-v3-motion-b01",
+  "output_directory": "E:\\program\\1project\\video\\projects\\助眠解说\\legacy-source\\zhumian\\b-geomagnetic-reversal\\gen_rebuild\\runs\\20261007-v3-motion-b01\\vsr",
+  "dependencies": [
+    "zhumian-geomag-v3-i2v-ltx-20261007 completed",
+    "所属会话完成 I2V 抽帧 QA（qa\\i2v_qa.json）",
+    "shared GPU lock"
+  ],
+  "authorization": "老大 2026-10-07 明确本集跳过 E/G 关、自动做到成片（本集特例，见 P\\PROJECT_STATE.md）；动态阶段 I2V、15 镜 RealESRGAN、I2V 成片 VSR 由所属会话按老大指令下达，本轮不拼接。",
+  "pid": 12440,
+  "log_path": "E:\\program\\1project\\video\\projects\\助眠解说\\legacy-source\\zhumian\\b-geomagnetic-reversal\\gen_rebuild\\runs\\20261007-v3-motion-b01\\logs\\vsr.log",
+  "id": "zhumian-geomag-v3-vsr-i2v-20261007",
+  "task": "先 c04 单镜 RealBasicVSR 验证（最多 3 次，新目录），通过后对过了 I2V QA 的 7 个片段串行 VSR；不通过则放弃 VSR、用 Lanczos。使用原版 shared/video-restoration/run_vsr_streaming.py，未修改。",
+  "command_or_workflow_path": "E:\\program\\language\\python\\Python-3.11.0\\python.exe E:\\program\\1project\\video\\projects\\助眠解说\\legacy-source\\zhumian\\b-geomagnetic-reversal\\gen_rebuild\\runs\\20261007-v3-motion-b01\\scripts\\gpu_job.py zhumian-geomag-v3-vsr-i2v-20261007 E:\\program\\1project\\video\\projects\\助眠解说\\legacy-source\\zhumian\\b-geomagnetic-reversal\\gen_rebuild\\runs\\20261007-v3-motion-b01\\logs\\vsr.log E:\\program\\language\\python\\Python-3.11.0\\python.exe E:\\program\\1project\\video\\projects\\助眠解说\\legacy-source\\zhumian\\b-geomagnetic-reversal\\gen_rebuild\\runs\\20261007-v3-motion-b01\\scripts\\vsr_stage.py",
+  "estimated_minutes": 150,
+  "estimated_vram_mb": 12000,
+  "notes": [
+    "VSR 交付版 visual_qa 需人工看联系表后才改 passed",
+    "QA fail 时回退 Lanczos 基线"
+  ],
+  "task_revised_at": "2026-10-07T16:00+08:00（提交方修订）",
+  "granted_at": "2026-10-07T16:00:22+08:00",
+  "granted_by": "助眠解说线路自授（老大 2026-10-07 17:55 UTC+11 授权全程自行处理、不等管理聊天）；授予前已核对两处锁不存在、无其他 granted/running 请求",
+  "wrapper_pid": 31680,
+  "started_at": "2026-10-07T16:00:22+08:00",
+  "exit_code": 0,
+  "finished_at": "2026-10-07T16:55:38+08:00"
+}

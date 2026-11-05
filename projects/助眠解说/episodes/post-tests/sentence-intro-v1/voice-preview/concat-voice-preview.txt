@@ -1,0 +1,3 @@
+file 'E:/program/1project/video/projects/助眠解说/episodes/post-tests/sentence-intro-v1/voice-preview/part-01-silent.mp4'
+file 'E:/program/1project/video/projects/助眠解说/episodes/post-tests/sentence-intro-v1/voice-preview/part-02-silent.mp4'
+file 'E:/program/1project/video/projects/助眠解说/episodes/post-tests/sentence-intro-v1/voice-preview/part-03-silent.mp4'

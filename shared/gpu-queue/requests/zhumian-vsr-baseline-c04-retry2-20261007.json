@@ -1,0 +1,38 @@
+{
+  "id": "zhumian-vsr-baseline-c04-retry2-20261007",
+  "owner_thread": "01a10e62-835a-78b2-8c7b-6d79e97ce195",
+  "line": "zhumian-b-geomagnetic-reversal",
+  "submitted_at": "2026-10-07T06:00:00+08:00",
+  "priority": "normal",
+  "status": "failed",
+  "task": "再次重试单镜视频高清修复，仅处理 ch1-c04-v2-01。使用 portable Python 环境运行 ModelScope RealBasicVSR；保留原始视频、Lanczos 1080p 基线和前两次失败记录，输出独立的 RealBasicVSR 原始版及 1920x1080 版。",
+  "shots": [
+    "ch1-c04-v2-01"
+  ],
+  "command_or_workflow_path": "E:\\program\\1project\\video\\shared\\video-restoration\\run_vsr_test01_retry2.ps1",
+  "working_directory": "E:\\program\\1project\\video\\shared\\video-restoration",
+  "input_directory": "E:\\program\\1project\\video\\projects\\助眠解说\\legacy-source\\zhumian\\b-geomagnetic-reversal\\gen_rebuild\\runs\\20261007-ltx-cinematic-retry-c04",
+  "output_directory": "E:\\program\\1project\\video\\projects\\助眠解说\\legacy-source\\zhumian\\b-geomagnetic-reversal\\gen_rebuild\\runs\\20261007-vsr-baseline-c04-retry2",
+  "estimated_minutes": 20,
+  "estimated_vram_mb": 12000,
+  "dependencies": [
+    "source cinematic retry completed",
+    "RealBasicVSR weights cached",
+    "portable Python cv2/torchvision/simplejson/modelscope available",
+    "shared GPU lock"
+  ],
+  "authorization": "用户已批准继续该单镜高清修复测试，无需额外审批。",
+  "supersedes": "zhumian-vsr-baseline-c04-retry-20261007",
+  "notes": [
+    "必须使用 shared\\runtime\\comfy\\installs\\portable\\python_embeded\\python.exe",
+    "不得使用 shared\\runtime\\engines\\tts\\voxcpm\\.venv",
+    "不得覆盖原始视频、Lanczos 基线或旧失败目录",
+    "失败时保留日志，不自动扩展到其他镜头"
+  ],
+  "granted_at": "2026-10-07T05:50:18.1385622+08:00",
+  "pid": 11988,
+  "started_at": "2026-10-07T05:50:18.5276939+08:00",
+  "log_path": "E:\\program\\1project\\video\\shared\\video-restoration\\vsr-retry2.stdout.log",
+  "finished_at": "2026-10-07T06:02:00+08:00",
+  "error": "Portable ModelScope initialization failed because sortedcontainers is missing; no VSR output produced."
+}

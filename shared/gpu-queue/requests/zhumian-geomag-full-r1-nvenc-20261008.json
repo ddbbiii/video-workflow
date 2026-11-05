@@ -1,0 +1,25 @@
+{
+    "id":  "zhumian-geomag-full-r1-nvenc-20261008",
+    "owner_thread":  "助眠解说（Grok Bot 执行子代理）",
+    "line":  "助眠解说",
+    "submitted_at":  "2026-10-08T07:41:48+08:00",
+    "priority":  null,
+    "status":  "completed",
+    "task":  "地磁全片 r1 成片编码：干净母版/正片干净版/片头 用 h264_nvenc（仅 NVENC 编码单元，约 15 分钟，显存 \u003c1GB）",
+    "command_or_workflow_path":  "E:\\program\\1project\\video\\projects\\助眠解说\\legacy-source\\zhumian\\b-geomagnetic-reversal\\edit\\geomag_v3_full_r1\\scripts\\encode_full_r1.ps1",
+    "working_directory":  "E:\\program\\1project\\video\\projects\\助眠解说\\legacy-source\\zhumian\\b-geomagnetic-reversal\\edit\\geomag_v3_full_r1",
+    "output_directory":  "E:\\program\\1project\\video\\projects\\助眠解说\\legacy-source\\zhumian\\b-geomagnetic-reversal\\edit\\geomag_v3_full_r1\\full",
+    "estimated_minutes":  20,
+    "estimated_vram_mb":  1000,
+    "dependencies":  [
+
+                     ],
+    "authorization":  "老大 2026-10-07 授权助眠解说线路自行代管 GPU 请求；2026-10-08 老大批准出地磁完整版",
+    "log_path":  "E:\\program\\1project\\video\\projects\\助眠解说\\legacy-source\\zhumian\\b-geomagnetic-reversal\\edit\\geomag_v3_full_r1\\PROGRESS.md",
+    "granted_at":  "2026-10-08T07:41:48+08:00",
+    "pid":  37256,
+    "granted_by":  "助眠解说自管（老大授权）",
+    "started_at":  "2026-10-08T07:41:48+08:00",
+    "exit_codes":  "{\"full_clean\":0,\"intro_clean\":0,\"body_clean\":0,\"full_sub\":0,\"intro_sub\":0}",
+    "finished_at":  "2026-10-08T07:52:48+08:00"
+}

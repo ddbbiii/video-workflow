@@ -1,0 +1,27 @@
+{
+ "out_dir": "E:\\program\\1project\\video\\projects\\助眠解说\\episodes\\b-geomagnetic-reversal\\audio\\vo-raw\\ch2-6_A_v4\\takes-rewrite3-seed11",
+ "model_dir": "E:\\program\\1project\\video\\shared\\runtime\\engines\\tts\\voxcpm\\pretrained_models\\VoxCPM2",
+ "desc": "三十岁左右的成年男性，声音沉稳温暖，中低音但清晰明亮，吐字清楚，句尾平稳自然地收住，不压嗓，没有气泡音和沙哑感，语速舒缓从容，像纪录片或睡前故事的旁白，平静不夸张",
+ "desc_in_text": false,
+ "cfg_value": 2.0,
+ "inference_timesteps": 10,
+ "seed": 11,
+ "reference_wav": "E:\\program\\1project\\video\\shared\\runtime\\engines\\tts\\refs\\b2-warm-male_ref.wav",
+ "prompt_wav": "E:\\program\\1project\\video\\shared\\runtime\\engines\\tts\\refs\\b2-warm-male_ref.wav",
+ "prompt_text": "发电机就在外核。液态铁被热量推着翻滚，切过磁场，生出电流，电流又生出磁场。地面上的罗盘，感受到的就是这股磁场。它藏在很深的地下，安安静静，日夜不息。",
+ "mode": "ultimate",
+ "shots": [
+  {
+   "id": "ch5-c05",
+   "text": "二零二五年，密歇根大学的穆霍帕迪亚，和德国地学研究中心的帕诺夫斯卡，重建了那时的地磁。场强降到如今的一成左右。整次漂移持续约两千年，偶极减弱和倾斜，集中在约三百年之内。磁场一度有好几个极，结构像外行星。磁极甚至垂到了赤道附近。"
+  },
+  {
+   "id": "ch5-c07",
+   "text": "那时的人类，处境如何？现代人大约五万六千年前来到欧洲。大约四万年前，尼安德特人已经从欧洲消失。宇宙射线会削弱臭氧层，让更多紫外线照到地表。研究团队注意到，这段时间前后，现代人更多地使用洞穴和赭石。他们的遗址里，还有缝制合身衣物的针和锥子。合身的衣服更保暖，也让人能走得更远，去找食物。有实验显示，赭石涂在皮肤上，有类似防晒的效果。也有一些近代族群，主要就拿它防晒。他们提出一个假说，这些习惯，也许帮现代人挡住了更强的紫外线。作者自己强调，这只是相关，不是因果。"
+  },
+  {
+   "id": "ch6-c09",
+   "text": "这一期，我们问了六个问题。罗盘指北，是因为脚下的液态铁在流动。火山岩和海底，记下了它一次次翻身。翻转没有时刻表，一次常常要好几千年。差点翻过去的那一次，人类的祖先，仍在大地上繁衍。而今天，三颗卫星，每天替我们看着它。它们都还健康，有望工作到二零三零年以后。此刻，在你枕头下方约三千公里，液态的铁，仍在缓缓流动。罗盘仍然指着北方，也祝你晚安。"
+  }
+ ]
+}

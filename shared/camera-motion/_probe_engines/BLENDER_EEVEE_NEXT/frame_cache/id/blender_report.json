@@ -1,0 +1,13 @@
+{
+  "engine": "BLENDER_EEVEE_NEXT",
+  "blender_version": "4.5.14 LTS",
+  "frames_written": [
+    "E:\\program\\1project\\video\\shared\\camera-motion\\_probe_engines\\BLENDER_EEVEE_NEXT\\frame_cache\\id\\frames\\frame_00000.png",
+    "E:\\program\\1project\\video\\shared\\camera-motion\\_probe_engines\\BLENDER_EEVEE_NEXT\\frame_cache\\id\\frames\\frame_00001.png"
+  ],
+  "uv_v_flipped": false,
+  "ortho_scale_rule": "max_axis_AUTO_sensor_fit",
+  "plane_size_rule": "primitive_size2_scale_half_extent",
+  "coordinate_system": "source_pixels_after_exif_top_left_origin",
+  "use_gpu": true
+}

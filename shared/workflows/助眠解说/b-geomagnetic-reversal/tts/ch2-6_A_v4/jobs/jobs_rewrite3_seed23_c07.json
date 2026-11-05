@@ -1,0 +1,19 @@
+{
+ "out_dir": "E:\\program\\1project\\video\\projects\\助眠解说\\episodes\\b-geomagnetic-reversal\\audio\\vo-raw\\ch2-6_A_v4\\takes-rewrite3-seed23",
+ "model_dir": "E:\\program\\1project\\video\\shared\\runtime\\engines\\tts\\voxcpm\\pretrained_models\\VoxCPM2",
+ "desc": "三十岁左右的成年男性，声音沉稳温暖，中低音但清晰明亮，吐字清楚，句尾平稳自然地收住，不压嗓，没有气泡音和沙哑感，语速舒缓从容，像纪录片或睡前故事的旁白，平静不夸张",
+ "desc_in_text": false,
+ "cfg_value": 2.0,
+ "inference_timesteps": 10,
+ "seed": 23,
+ "reference_wav": "E:\\program\\1project\\video\\shared\\runtime\\engines\\tts\\refs\\b2-warm-male_ref.wav",
+ "prompt_wav": "E:\\program\\1project\\video\\shared\\runtime\\engines\\tts\\refs\\b2-warm-male_ref.wav",
+ "prompt_text": "发电机就在外核。液态铁被热量推着翻滚，切过磁场，生出电流，电流又生出磁场。地面上的罗盘，感受到的就是这股磁场。它藏在很深的地下，安安静静，日夜不息。",
+ "mode": "ultimate",
+ "shots": [
+  {
+   "id": "ch5-c07",
+   "text": "那时的人类，处境如何？现代人大约五万六千年前来到欧洲。大约四万年前，尼安德特人已经从欧洲消失。宇宙射线会削弱臭氧层，让更多紫外线照到地表。研究团队注意到，这段时间前后，现代人更多地使用洞穴和赭石。他们的遗址里，还有缝制合身衣物的针和锥子。合身的衣服更保暖，也让人能走得更远，去找食物。有实验显示，赭石涂在皮肤上，有类似防晒的效果。也有一些近代族群，主要就拿它防晒。他们提出一个假说，这些习惯，也许帮现代人挡住了更强的紫外线。作者自己强调，这只是相关，不是因果。"
+  }
+ ]
+}

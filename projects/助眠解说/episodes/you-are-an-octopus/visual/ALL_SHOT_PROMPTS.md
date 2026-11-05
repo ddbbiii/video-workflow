@@ -1,0 +1,1983 @@
+# 全量镜头提示词
+
+机器真源为SHOT_PLAN.json；以下镜头全部新生成，不复用旧集资产。
+
+## bridge-b01-s01
+
+对应口播：不过，今天的你，并不是故事最初的模样。很久以前，你的远古亲族还带着外壳，在另一片海里生活。我们会借不同世代的你，走过这段漫长的历史。你遇到危险，找到食物，留下后代。许多微小的差别，就这样在一代又一代之间积累。不是你想要什么，身体就会长出什么。而是在变化的海里，有些生命，恰好更容易把故事继续下去。
+
+组合：P1；2x2_tile
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 空旷古海与前景螺旋贝壳，远景只有柔和水光，不画现代章鱼变身。侧面环境中景，主体在右侧三分之一，前景低矮岩缘、中景主体、远景蓝色海水，主体占宽约25%，保留左侧空间。Preserve only the explicitly described subject and species anatomy; do not add an octopus or substitute another species. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：不生成模型动态
+
+## bridge-b01-s02
+
+对应口播：不过，今天的你，并不是故事最初的模样。很久以前，你的远古亲族还带着外壳，在另一片海里生活。我们会借不同世代的你，走过这段漫长的历史。你遇到危险，找到食物，留下后代。许多微小的差别，就这样在一代又一代之间积累。不是你想要什么，身体就会长出什么。而是在变化的海里，有些生命，恰好更容易把故事继续下去。
+
+组合：P1；2x2_tile
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 空旷古海与前景螺旋贝壳，远景只有柔和水光，不画现代章鱼变身。独立新构图的低机位宽景，主体在左侧三分之一，前景细砂或石纹、中景主体、远景水光，主体占宽约15%，不是上一图裁切或放大。Preserve only the explicitly described subject and species anatomy; do not add an octopus or substitute another species. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：不生成模型动态
+
+## ch01-b01-s01
+
+对应口播：你睁开眼。这里没有珊瑚礁，没有沉船，也没有我们熟悉的海底城市。光穿过浅浅的海水，落在细软的沉积物上。一些小动物贴着底部缓慢移动，另一些则埋在沙子里，只露出一点轮廓。你还不是今天的章鱼。我们把故事的起点，放在五亿多年前的晚寒武世附近。那个时候，化石记录里已经出现早期头足类。它们是你所属的大族群里，遥远的早期成员。至于最初的那一步，具体是哪一代跨出去的，岩石没有替我们完整保存答案。
+
+组合：V3；2x2_tile
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 晚寒武世浅海沉积物宽景，低矮微生物底质与零星小型无脊椎轮廓，没有现代珊瑚礁。侧面环境中景，主体在右侧三分之一，前景低矮岩缘、中景主体、远景蓝色海水，主体占宽约25%，保留左侧空间。Preserve only the explicitly described subject and species anatomy; do not add an octopus or substitute another species. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：One continuous original-speed calm shot. 晚寒武世浅海沉积物宽景，低矮微生物底质与零星小型无脊椎轮廓，没有现代珊瑚礁。细小水中颗粒漂移。 Preserve identity, anatomy, arm count, suckers, eyes, attached eggs and rock geometry. No cuts, shake, flicker, blur pulses, morphing, hatching, predation, sudden objects, reverse, speed ramps or generated audio.
+
+## ch01-b01-s02
+
+对应口播：你睁开眼。这里没有珊瑚礁，没有沉船，也没有我们熟悉的海底城市。光穿过浅浅的海水，落在细软的沉积物上。一些小动物贴着底部缓慢移动，另一些则埋在沙子里，只露出一点轮廓。你还不是今天的章鱼。我们把故事的起点，放在五亿多年前的晚寒武世附近。那个时候，化石记录里已经出现早期头足类。它们是你所属的大族群里，遥远的早期成员。至于最初的那一步，具体是哪一代跨出去的，岩石没有替我们完整保存答案。
+
+组合：P1；2x2_tile
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 晚寒武世浅海沉积物宽景，低矮微生物底质与零星小型无脊椎轮廓，没有现代珊瑚礁。独立新构图的低机位宽景，主体在左侧三分之一，前景细砂或石纹、中景主体、远景水光，主体占宽约15%，不是上一图裁切或放大。Preserve only the explicitly described subject and species anatomy; do not add an octopus or substitute another species. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：不生成模型动态
+
+## ch01-b02-s01
+
+对应口播：你现在带着一只壳。硬壳把柔软的身体围起来。危险靠近的时候，你可以把容易受伤的部分收回去。在一个没有门锁、也没有围墙的世界里，这层坚硬的保护，确实很有用。可是，一只壳也会改变你怎样生活。
+
+组合：V3；single
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 一只早期带壳头足类的保守复原，短直锥形分室外壳，壳口软体少量露出，禁止现代鹦鹉螺冒充祖先。侧面环境中景，主体在右侧三分之一，前景低矮岩缘、中景主体、远景蓝色海水，主体占宽约25%，保留左侧空间。Preserve only the explicitly described subject and species anatomy; do not add an octopus or substitute another species. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：One continuous original-speed calm shot. 一只早期带壳头足类的保守复原，短直锥形分室外壳，壳口软体少量露出，禁止现代鹦鹉螺冒充祖先。水中颗粒轻移，动物形态保持不变。 Preserve identity, anatomy, arm count, suckers, eyes, attached eggs and rock geometry. No cuts, shake, flicker, blur pulses, morphing, hatching, predation, sudden objects, reverse, speed ramps or generated audio.
+
+## ch01-b02-s02
+
+对应口播：你现在带着一只壳。硬壳把柔软的身体围起来。危险靠近的时候，你可以把容易受伤的部分收回去。在一个没有门锁、也没有围墙的世界里，这层坚硬的保护，确实很有用。可是，一只壳也会改变你怎样生活。
+
+组合：P1；single
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 一只早期带壳头足类的保守复原，短直锥形分室外壳，壳口软体少量露出，禁止现代鹦鹉螺冒充祖先。独立新构图的低机位宽景，主体在左侧三分之一，前景细砂或石纹、中景主体、远景水光，主体占宽约15%，不是上一图裁切或放大。Preserve only the explicitly described subject and species anatomy; do not add an octopus or substitute another species. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：不生成模型动态
+
+## ch01-b03-s01
+
+对应口播：你不能像后来那些柔软的亲族一样，把整个身体塞进一道细小的缝里。你去得了多窄的地方，要看壳有多宽。你改变方向时，也要带着它一起转过去。
+
+组合：V3；2x2_tile
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 带壳动物停在无法容纳外壳的窄石缝外，侧面中景明确壳宽与缝宽关系。侧面环境中景，主体在右侧三分之一，前景低矮岩缘、中景主体、远景蓝色海水，主体占宽约25%，保留左侧空间。Preserve only the explicitly described subject and species anatomy; do not add an octopus or substitute another species. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：One continuous original-speed calm shot. 带壳动物停在无法容纳外壳的窄石缝外，侧面中景明确壳宽与缝宽关系。背景水光缓慢变化，动物静止。 Preserve identity, anatomy, arm count, suckers, eyes, attached eggs and rock geometry. No cuts, shake, flicker, blur pulses, morphing, hatching, predation, sudden objects, reverse, speed ramps or generated audio.
+
+## ch01-b03-s02
+
+对应口播：你不能像后来那些柔软的亲族一样，把整个身体塞进一道细小的缝里。你去得了多窄的地方，要看壳有多宽。你改变方向时，也要带着它一起转过去。
+
+组合：P1；2x2_tile
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 带壳动物停在无法容纳外壳的窄石缝外，侧面中景明确壳宽与缝宽关系。独立新构图的低机位宽景，主体在左侧三分之一，前景细砂或石纹、中景主体、远景水光，主体占宽约15%，不是上一图裁切或放大。Preserve only the explicitly described subject and species anatomy; do not add an octopus or substitute another species. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：不生成模型动态
+
+## ch01-b04-s01
+
+对应口播：不过，壳并不只是沉重的负担。许多带壳头足类的壳里面，分出了一间又一间小室。动物主要住在靠近开口的那一间，而后方的小室参与浮力调节。你不必把全部重量都压在海底上，身体可以借着海水的托举，进入更开阔的空间。
+
+组合：V3；2x2_tile
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 完整带壳动物在水中悬浮的场景，不剖切，不画气室示意，不加漂浮气泡箭头。侧面环境中景，主体在右侧三分之一，前景低矮岩缘、中景主体、远景蓝色海水，主体占宽约25%，保留左侧空间。Preserve only the explicitly described subject and species anatomy; do not add an octopus or substitute another species. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：One continuous original-speed calm shot. 完整带壳动物在水中悬浮的场景，不剖切，不画气室示意，不加漂浮气泡箭头。背景颗粒轻移，动物不变形。 Preserve identity, anatomy, arm count, suckers, eyes, attached eggs and rock geometry. No cuts, shake, flicker, blur pulses, morphing, hatching, predation, sudden objects, reverse, speed ramps or generated audio.
+
+## ch01-b04-s02
+
+对应口播：不过，壳并不只是沉重的负担。许多带壳头足类的壳里面，分出了一间又一间小室。动物主要住在靠近开口的那一间，而后方的小室参与浮力调节。你不必把全部重量都压在海底上，身体可以借着海水的托举，进入更开阔的空间。
+
+组合：P1；2x2_tile
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 完整带壳动物在水中悬浮的场景，不剖切，不画气室示意，不加漂浮气泡箭头。独立新构图的低机位宽景，主体在左侧三分之一，前景细砂或石纹、中景主体、远景水光，主体占宽约15%，不是上一图裁切或放大。Preserve only the explicitly described subject and species anatomy; do not add an octopus or substitute another species. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：不生成模型动态
+
+## ch01-b05-s01
+
+对应口播：这件事很重要。以前留在底部附近的食物，如今可以从更多方向寻找。原本横在面前的小障碍，也不再一定需要沿着边缘绕过去。
+
+组合：V3；2x2_tile
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 古海开阔水层里的带壳头足类，低机位宽景、下方沉积物与稀疏猎物轮廓。侧面环境中景，主体在右侧三分之一，前景低矮岩缘、中景主体、远景蓝色海水，主体占宽约25%，保留左侧空间。Preserve only the explicitly described subject and species anatomy; do not add an octopus or substitute another species. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：One continuous original-speed calm shot. 古海开阔水层里的带壳头足类，低机位宽景、下方沉积物与稀疏猎物轮廓。开阔水层悬浮颗粒漂移。 Preserve identity, anatomy, arm count, suckers, eyes, attached eggs and rock geometry. No cuts, shake, flicker, blur pulses, morphing, hatching, predation, sudden objects, reverse, speed ramps or generated audio.
+
+## ch01-b05-s02
+
+对应口播：这件事很重要。以前留在底部附近的食物，如今可以从更多方向寻找。原本横在面前的小障碍，也不再一定需要沿着边缘绕过去。
+
+组合：P1；2x2_tile
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 古海开阔水层里的带壳头足类，低机位宽景、下方沉积物与稀疏猎物轮廓。独立新构图的低机位宽景，主体在左侧三分之一，前景细砂或石纹、中景主体、远景水光，主体占宽约15%，不是上一图裁切或放大。Preserve only the explicitly described subject and species anatomy; do not add an octopus or substitute another species. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：不生成模型动态
+
+## ch01-b06-s01
+
+对应口播：但开阔的海水，也意味着你更容易被看见。你离开底部，身后不再有沙和石头帮你遮挡。某个比你更大的身影，从水里慢慢靠近。你把身体收回壳口，等待它经过。这次，壳帮你留下来了。
+
+组合：V3；2x2_tile
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 带壳动物近景与远方模糊掠过的较大古海生物轮廓，安全距离，不指定无依据物种。独立细节近景，关键材质占画面约50%，仍保留自然连接与环境，侧面柔光。Preserve only the explicitly described subject and species anatomy; do not add an octopus or substitute another species. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：One continuous original-speed calm shot. 带壳动物近景与远方模糊掠过的较大古海生物轮廓，安全距离，不指定无依据物种。背景水光轻移，不追逐不攻击。 Preserve identity, anatomy, arm count, suckers, eyes, attached eggs and rock geometry. No cuts, shake, flicker, blur pulses, morphing, hatching, predation, sudden objects, reverse, speed ramps or generated audio.
+
+## ch01-b06-s02
+
+对应口播：但开阔的海水，也意味着你更容易被看见。你离开底部，身后不再有沙和石头帮你遮挡。某个比你更大的身影，从水里慢慢靠近。你把身体收回壳口，等待它经过。这次，壳帮你留下来了。
+
+组合：P1；2x2_tile
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 带壳动物近景与远方模糊掠过的较大古海生物轮廓，安全距离，不指定无依据物种。独立斜侧中景，将同一知识点放回真实栖息环境，主体占画面约30%，不裁切前图。Preserve only the explicitly described subject and species anatomy; do not add an octopus or substitute another species. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：不生成模型动态
+
+## ch01-b07-s01
+
+对应口播：它不是错误，也不是一件迟早必须丢掉的旧东西。它是当时许多生命真正依赖的办法。
+
+组合：V3；2x2_tile
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 一只完整带壳头足类安静悬浮，琥珀边光照亮壳面细纹，古海背景。侧面环境中景，主体在右侧三分之一，前景低矮岩缘、中景主体、远景蓝色海水，主体占宽约25%，保留左侧空间。Preserve only the explicitly described subject and species anatomy; do not add an octopus or substitute another species. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：One continuous original-speed calm shot. 一只完整带壳头足类安静悬浮，琥珀边光照亮壳面细纹，古海背景。细颗粒缓慢漂移。 Preserve identity, anatomy, arm count, suckers, eyes, attached eggs and rock geometry. No cuts, shake, flicker, blur pulses, morphing, hatching, predation, sudden objects, reverse, speed ramps or generated audio.
+
+## ch01-b07-s02
+
+对应口播：它不是错误，也不是一件迟早必须丢掉的旧东西。它是当时许多生命真正依赖的办法。
+
+组合：P1；2x2_tile
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 一只完整带壳头足类安静悬浮，琥珀边光照亮壳面细纹，古海背景。独立新构图的低机位宽景，主体在左侧三分之一，前景细砂或石纹、中景主体、远景水光，主体占宽约15%，不是上一图裁切或放大。Preserve only the explicitly described subject and species anatomy; do not add an octopus or substitute another species. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：不生成模型动态
+
+## ch01-b08-s01
+
+对应口播：后来，带壳头足类在海里出现了许多不同的形态。有的壳长而直，有的弯曲，有的盘成圈。它们并不是排着队，一步步变成章鱼，而是在不同海域、不同年代里，走出了各自的分支。
+
+组合：P1；2x2_tile
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 不同天然贝壳各自落在古海石面，形态多样而非演化队列，精致壳面材质。侧面环境中景，主体在右侧三分之一，前景低矮岩缘、中景主体、远景蓝色海水，主体占宽约25%，保留左侧空间。Preserve only the explicitly described subject and species anatomy; do not add an octopus or substitute another species. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：不生成模型动态
+
+## ch01-b08-s02
+
+对应口播：后来，带壳头足类在海里出现了许多不同的形态。有的壳长而直，有的弯曲，有的盘成圈。它们并不是排着队，一步步变成章鱼，而是在不同海域、不同年代里，走出了各自的分支。
+
+组合：P1；2x2_tile
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 不同天然贝壳各自落在古海石面，形态多样而非演化队列，精致壳面材质。独立新构图的低机位宽景，主体在左侧三分之一，前景细砂或石纹、中景主体、远景水光，主体占宽约15%，不是上一图裁切或放大。Preserve only the explicitly described subject and species anatomy; do not add an octopus or substitute another species. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：不生成模型动态
+
+## ch01-b09-s01
+
+对应口播：今天还能看见的鹦鹉螺，让我们容易想起这类生活方式。但它不是你的祖先本人。它和你一样，是一条经历漫长演化、一直延续到今天的支线。你只是这棵大树上，后来朝另一个方向伸出去的枝条。
+
+组合：V3；single
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 现代鹦鹉螺单独在深蓝海水里，天然卷壳与壳口众多细触手，禁止八腕章鱼解剖。侧面环境中景，主体在右侧三分之一，前景低矮岩缘、中景主体、远景蓝色海水，主体占宽约25%，保留左侧空间。Preserve only the explicitly described subject and species anatomy; do not add an octopus or substitute another species. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：One continuous original-speed calm shot. 现代鹦鹉螺单独在深蓝海水里，天然卷壳与壳口众多细触手，禁止八腕章鱼解剖。缓慢水中颗粒，不新增腕足。 Preserve identity, anatomy, arm count, suckers, eyes, attached eggs and rock geometry. No cuts, shake, flicker, blur pulses, morphing, hatching, predation, sudden objects, reverse, speed ramps or generated audio.
+
+## ch01-b09-s02
+
+对应口播：今天还能看见的鹦鹉螺，让我们容易想起这类生活方式。但它不是你的祖先本人。它和你一样，是一条经历漫长演化、一直延续到今天的支线。你只是这棵大树上，后来朝另一个方向伸出去的枝条。
+
+组合：P1；single
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 现代鹦鹉螺单独在深蓝海水里，天然卷壳与壳口众多细触手，禁止八腕章鱼解剖。独立新构图的低机位宽景，主体在左侧三分之一，前景细砂或石纹、中景主体、远景水光，主体占宽约15%，不是上一图裁切或放大。Preserve only the explicitly described subject and species anatomy; do not add an octopus or substitute another species. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：不生成模型动态
+
+## ch01-b10-s01
+
+对应口播：现在，海水仍然安静。你的壳在光里投下一道小小的影子。一只很小的猎物从下面经过，你把身体伸向壳口。世界并不知道，许多世代以后，你的后代会用一种完全不同的办法，靠近同样大小的一顿饭。
+
+组合：V3；2x2_tile
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 回到古海短直壳动物，沙底微小猎物在壳口前，侧面安静构图。侧面环境中景，主体在右侧三分之一，前景低矮岩缘、中景主体、远景蓝色海水，主体占宽约25%，保留左侧空间。Preserve only the explicitly described subject and species anatomy; do not add an octopus or substitute another species. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：One continuous original-speed calm shot. 回到古海短直壳动物，沙底微小猎物在壳口前，侧面安静构图。背景悬浮颗粒轻移，不捕杀。 Preserve identity, anatomy, arm count, suckers, eyes, attached eggs and rock geometry. No cuts, shake, flicker, blur pulses, morphing, hatching, predation, sudden objects, reverse, speed ramps or generated audio.
+
+## ch01-b10-s02
+
+对应口播：现在，海水仍然安静。你的壳在光里投下一道小小的影子。一只很小的猎物从下面经过，你把身体伸向壳口。世界并不知道，许多世代以后，你的后代会用一种完全不同的办法，靠近同样大小的一顿饭。
+
+组合：P1；2x2_tile
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 回到古海短直壳动物，沙底微小猎物在壳口前，侧面安静构图。独立新构图的低机位宽景，主体在左侧三分之一，前景细砂或石纹、中景主体、远景水光，主体占宽约15%，不是上一图裁切或放大。Preserve only the explicitly described subject and species anatomy; do not add an octopus or substitute another species. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：不生成模型动态
+
+## ch02-b01-s01
+
+对应口播：海水变深了。我们没有办法把所有中间的世代，一只接着一只摆出来。软体动物的身体很容易腐坏，许多关键变化，没有留下清楚的化石。所以，接下来不是一份完整的家谱。我们只是沿着已经找到的线索，靠近你这一支。
+
+组合：V3；2x2_tile
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 深蓝古海纵深宽景，柔和下射光和黑暗海床，没有现代人工建筑。侧面环境中景，主体在右侧三分之一，前景低矮岩缘、中景主体、远景蓝色海水，主体占宽约25%，保留左侧空间。Preserve only the explicitly described subject and species anatomy; do not add an octopus or substitute another species. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：One continuous original-speed calm shot. 深蓝古海纵深宽景，柔和下射光和黑暗海床，没有现代人工建筑。悬浮颗粒缓慢下沉。 Preserve identity, anatomy, arm count, suckers, eyes, attached eggs and rock geometry. No cuts, shake, flicker, blur pulses, morphing, hatching, predation, sudden objects, reverse, speed ramps or generated audio.
+
+## ch02-b01-s02
+
+对应口播：海水变深了。我们没有办法把所有中间的世代，一只接着一只摆出来。软体动物的身体很容易腐坏，许多关键变化，没有留下清楚的化石。所以，接下来不是一份完整的家谱。我们只是沿着已经找到的线索，靠近你这一支。
+
+组合：P1；2x2_tile
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 深蓝古海纵深宽景，柔和下射光和黑暗海床，没有现代人工建筑。独立新构图的低机位宽景，主体在左侧三分之一，前景细砂或石纹、中景主体、远景水光，主体占宽约15%，不是上一图裁切或放大。Preserve only the explicitly described subject and species anatomy; do not add an octopus or substitute another species. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：不生成模型动态
+
+## ch02-b02-s01
+
+对应口播：头足类里，有一些亲族的外壳逐渐被身体包围，留在了里面。研究者把这类头足动物归入鞘亚纲。今天的鱿鱼、乌贼和章鱼，都属于这个大分支。
+
+组合：V3；single
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 独立鱿鱼侧面全身照，纺锤形外套膜与鳍自然，八腕加一对长触腕，不当作章鱼祖先。侧面环境中景，主体在右侧三分之一，前景低矮岩缘、中景主体、远景蓝色海水，主体占宽约25%，保留左侧空间。Preserve only the explicitly described subject and species anatomy; do not add an octopus or substitute another species. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：One continuous original-speed calm shot. 独立鱿鱼侧面全身照，纺锤形外套膜与鳍自然，八腕加一对长触腕，不当作章鱼祖先。背景水光轻移，解剖形态静止。 Preserve identity, anatomy, arm count, suckers, eyes, attached eggs and rock geometry. No cuts, shake, flicker, blur pulses, morphing, hatching, predation, sudden objects, reverse, speed ramps or generated audio.
+
+## ch02-b02-s02
+
+对应口播：头足类里，有一些亲族的外壳逐渐被身体包围，留在了里面。研究者把这类头足动物归入鞘亚纲。今天的鱿鱼、乌贼和章鱼，都属于这个大分支。
+
+组合：P1；single
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 独立鱿鱼侧面全身照，纺锤形外套膜与鳍自然，八腕加一对长触腕，不当作章鱼祖先。独立新构图的低机位宽景，主体在左侧三分之一，前景细砂或石纹、中景主体、远景水光，主体占宽约15%，不是上一图裁切或放大。Preserve only the explicitly described subject and species anatomy; do not add an octopus or substitute another species. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：不生成模型动态
+
+## ch02-b03-s01
+
+对应口播：壳进入身体，并不等于它马上消失。不同支系保留的部分不同。有些留下明显的内部支撑，有些留下帮助浮力的结构，而另一些，把这套硬的东西缩减得越来越少。
+
+组合：V3；2x2_tile
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 独立乌贼全身中景，宽扁外套膜与裙边鳍，真实皮肤，禁止透明剖面或骨架标注。侧面环境中景，主体在右侧三分之一，前景低矮岩缘、中景主体、远景蓝色海水，主体占宽约25%，保留左侧空间。Preserve only the explicitly described subject and species anatomy; do not add an octopus or substitute another species. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：One continuous original-speed calm shot. 独立乌贼全身中景，宽扁外套膜与裙边鳍，真实皮肤，禁止透明剖面或骨架标注。背景悬浮颗粒漂移。 Preserve identity, anatomy, arm count, suckers, eyes, attached eggs and rock geometry. No cuts, shake, flicker, blur pulses, morphing, hatching, predation, sudden objects, reverse, speed ramps or generated audio.
+
+## ch02-b03-s02
+
+对应口播：壳进入身体，并不等于它马上消失。不同支系保留的部分不同。有些留下明显的内部支撑，有些留下帮助浮力的结构，而另一些，把这套硬的东西缩减得越来越少。
+
+组合：P1；2x2_tile
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 独立乌贼全身中景，宽扁外套膜与裙边鳍，真实皮肤，禁止透明剖面或骨架标注。独立新构图的低机位宽景，主体在左侧三分之一，前景细砂或石纹、中景主体、远景水光，主体占宽约15%，不是上一图裁切或放大。Preserve only the explicitly described subject and species anatomy; do not add an octopus or substitute another species. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：不生成模型动态
+
+## ch02-b04-s01
+
+对应口播：你站在一条更灵活的路上。这里的站，并不是说你真的拥有双脚。你只是再一次伸出身体，朝一只小猎物靠近。它察觉到水的变化，先一步离开。你没有追上。
+
+组合：V3；2x2_tile
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 浅海章鱼与一只小甲壳类保持距离，岩礁错落，未发生捕猎。侧面环境中景，主体在右侧三分之一，前景低矮岩缘、中景主体、远景蓝色海水，主体占宽约25%，保留左侧空间。One anatomically coherent octopus unless explicitly specified otherwise: one mantle, one head, eight arms belonging to this animal, natural occlusion allowed; never force every arm into view or add arms. Suckers on ventral arm surfaces, no squid feeding tentacles, no human fingers. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：One continuous original-speed calm shot. 浅海章鱼与一只小甲壳类保持距离，岩礁错落，未发生捕猎。一条已有腕足末端微微探索，不改变腕数。 Preserve identity, anatomy, arm count, suckers, eyes, attached eggs and rock geometry. No cuts, shake, flicker, blur pulses, morphing, hatching, predation, sudden objects, reverse, speed ramps or generated audio.
+
+## ch02-b04-s02
+
+对应口播：你站在一条更灵活的路上。这里的站，并不是说你真的拥有双脚。你只是再一次伸出身体，朝一只小猎物靠近。它察觉到水的变化，先一步离开。你没有追上。
+
+组合：P1；2x2_tile
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 浅海章鱼与一只小甲壳类保持距离，岩礁错落，未发生捕猎。独立新构图的低机位宽景，主体在左侧三分之一，前景细砂或石纹、中景主体、远景水光，主体占宽约15%，不是上一图裁切或放大。One anatomically coherent octopus unless explicitly specified otherwise: one mantle, one head, eight arms belonging to this animal, natural occlusion allowed; never force every arm into view or add arms. Suckers on ventral arm surfaces, no squid feeding tentacles, no human fingers. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：不生成模型动态
+
+## ch02-b05-s01
+
+对应口播：对主动捕食的动物来说，能不能改变方向，能不能有效移动，常常会影响下一顿饭在哪里。硬壳提供保护，而身体形态、浮力和运动能力之间，也存在需要付出的代价。
+
+组合：V3；2x2_tile
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 章鱼在两块礁石之间选择通道，侧后方宽景，前方有足够空间。侧面环境中景，主体在右侧三分之一，前景低矮岩缘、中景主体、远景蓝色海水，主体占宽约25%，保留左侧空间。One anatomically coherent octopus unless explicitly specified otherwise: one mantle, one head, eight arms belonging to this animal, natural occlusion allowed; never force every arm into view or add arms. Suckers on ventral arm surfaces, no squid feeding tentacles, no human fingers. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：One continuous original-speed calm shot. 章鱼在两块礁石之间选择通道，侧后方宽景，前方有足够空间。已有腕足末端小幅移动，身体不穿石。 Preserve identity, anatomy, arm count, suckers, eyes, attached eggs and rock geometry. No cuts, shake, flicker, blur pulses, morphing, hatching, predation, sudden objects, reverse, speed ramps or generated audio.
+
+## ch02-b05-s02
+
+对应口播：对主动捕食的动物来说，能不能改变方向，能不能有效移动，常常会影响下一顿饭在哪里。硬壳提供保护，而身体形态、浮力和运动能力之间，也存在需要付出的代价。
+
+组合：P1；2x2_tile
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 章鱼在两块礁石之间选择通道，侧后方宽景，前方有足够空间。独立新构图的低机位宽景，主体在左侧三分之一，前景细砂或石纹、中景主体、远景水光，主体占宽约15%，不是上一图裁切或放大。One anatomically coherent octopus unless explicitly specified otherwise: one mantle, one head, eight arms belonging to this animal, natural occlusion allowed; never force every arm into view or add arms. Suckers on ventral arm surfaces, no squid feeding tentacles, no human fingers. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：不生成模型动态
+
+## ch02-b06-s01
+
+对应口播：但我们不能把外壳缩小的全部历史，解释成一句话：为了追得更快，你就把壳扔掉了。没有哪一代能做出这种决定。只是有些差别，在某些环境里更有利。它们的拥有者留下了后代，差别便有机会继续存在。另一些环境，则仍然适合保留更多保护和支撑。
+
+组合：V3；2x2_tile
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 安静空海床与一枚天然贝壳，表现环境差异而非主动丢壳过程。侧面环境中景，主体在右侧三分之一，前景低矮岩缘、中景主体、远景蓝色海水，主体占宽约25%，保留左侧空间。Preserve only the explicitly described subject and species anatomy; do not add an octopus or substitute another species. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：One continuous original-speed calm shot. 安静空海床与一枚天然贝壳，表现环境差异而非主动丢壳过程。柔和水光移动。 Preserve identity, anatomy, arm count, suckers, eyes, attached eggs and rock geometry. No cuts, shake, flicker, blur pulses, morphing, hatching, predation, sudden objects, reverse, speed ramps or generated audio.
+
+## ch02-b06-s02
+
+对应口播：但我们不能把外壳缩小的全部历史，解释成一句话：为了追得更快，你就把壳扔掉了。没有哪一代能做出这种决定。只是有些差别，在某些环境里更有利。它们的拥有者留下了后代，差别便有机会继续存在。另一些环境，则仍然适合保留更多保护和支撑。
+
+组合：P1；2x2_tile
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 安静空海床与一枚天然贝壳，表现环境差异而非主动丢壳过程。独立新构图的低机位宽景，主体在左侧三分之一，前景细砂或石纹、中景主体、远景水光，主体占宽约15%，不是上一图裁切或放大。Preserve only the explicitly described subject and species anatomy; do not add an octopus or substitute another species. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：不生成模型动态
+
+## ch02-b07-s01
+
+对应口播：与此同时，你的身体拥有一种很特别的移动方式。你把水收进外套膜围成的腔里，再从漏斗排出去。水朝一个方向离开，身体就朝另一个方向移动。喷水推进并不是章鱼独有的发明，也不是失去外壳以后才突然出现的本领。许多头足类都依靠它。对后来生活在海底的你来说，它更像一条紧急离开的路。
+
+组合：V3；2x2_tile
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 完整章鱼侧面，漏斗位置自然可见但不做解剖，不添加水流箭头。侧面环境中景，主体在右侧三分之一，前景低矮岩缘、中景主体、远景蓝色海水，主体占宽约25%，保留左侧空间。One anatomically coherent octopus unless explicitly specified otherwise: one mantle, one head, eight arms belonging to this animal, natural occlusion allowed; never force every arm into view or add arms. Suckers on ventral arm surfaces, no squid feeding tentacles, no human fingers. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：One continuous original-speed calm shot. 完整章鱼侧面，漏斗位置自然可见但不做解剖，不添加水流箭头。水中颗粒轻移，不喷射大变形。 Preserve identity, anatomy, arm count, suckers, eyes, attached eggs and rock geometry. No cuts, shake, flicker, blur pulses, morphing, hatching, predation, sudden objects, reverse, speed ramps or generated audio.
+
+## ch02-b07-s02
+
+对应口播：与此同时，你的身体拥有一种很特别的移动方式。你把水收进外套膜围成的腔里，再从漏斗排出去。水朝一个方向离开，身体就朝另一个方向移动。喷水推进并不是章鱼独有的发明，也不是失去外壳以后才突然出现的本领。许多头足类都依靠它。对后来生活在海底的你来说，它更像一条紧急离开的路。
+
+组合：P1；2x2_tile
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 完整章鱼侧面，漏斗位置自然可见但不做解剖，不添加水流箭头。独立新构图的低机位宽景，主体在左侧三分之一，前景细砂或石纹、中景主体、远景水光，主体占宽约15%，不是上一图裁切或放大。One anatomically coherent octopus unless explicitly specified otherwise: one mantle, one head, eight arms belonging to this animal, natural occlusion allowed; never force every arm into view or add arms. Suckers on ventral arm surfaces, no squid feeding tentacles, no human fingers. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：不生成模型动态
+
+## ch02-b08-s01
+
+对应口播：平时，你可以用腕足慢慢移动。危险真的逼近时，再把水迅速推出去。你离开的那一刻，身后的水轻轻翻动。原本对准你的嘴，扑到了空处。你得到了机会，却没有得到永久的安全。
+
+组合：V3；2x2_tile
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 章鱼靠近洞口，岩石形成向外开阔的退路，安全距离无捕食者扑咬。侧面环境中景，主体在右侧三分之一，前景低矮岩缘、中景主体、远景蓝色海水，主体占宽约25%，保留左侧空间。One anatomically coherent octopus unless explicitly specified otherwise: one mantle, one head, eight arms belonging to this animal, natural occlusion allowed; never force every arm into view or add arms. Suckers on ventral arm surfaces, no squid feeding tentacles, no human fingers. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：One continuous original-speed calm shot. 章鱼靠近洞口，岩石形成向外开阔的退路，安全距离无捕食者扑咬。一条腕足末端轻探，不急速逃跑。 Preserve identity, anatomy, arm count, suckers, eyes, attached eggs and rock geometry. No cuts, shake, flicker, blur pulses, morphing, hatching, predation, sudden objects, reverse, speed ramps or generated audio.
+
+## ch02-b08-s02
+
+对应口播：平时，你可以用腕足慢慢移动。危险真的逼近时，再把水迅速推出去。你离开的那一刻，身后的水轻轻翻动。原本对准你的嘴，扑到了空处。你得到了机会，却没有得到永久的安全。
+
+组合：P1；2x2_tile
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 章鱼靠近洞口，岩石形成向外开阔的退路，安全距离无捕食者扑咬。独立新构图的低机位宽景，主体在左侧三分之一，前景细砂或石纹、中景主体、远景水光，主体占宽约15%，不是上一图裁切或放大。One anatomically coherent octopus unless explicitly specified otherwise: one mantle, one head, eight arms belonging to this animal, natural occlusion allowed; never force every arm into view or add arms. Suckers on ventral arm surfaces, no squid feeding tentacles, no human fingers. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：不生成模型动态
+
+## ch02-b09-s01
+
+对应口播：没有厚重外壳挡在外面，牙齿和钳子依然可能伤害你。你的身体越灵活，就越需要找到其他办法，弥补这层保护的缺席。前面有一道岩缝。它不够大，至少不够容纳一只带壳的动物。但这一次，你没有带着那样的壳。
+
+组合：V3；2x2_tile
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 章鱼停在岩缝口，暗处与远方暖光形成安全和开阔空间对照。侧面环境中景，主体在右侧三分之一，前景低矮岩缘、中景主体、远景蓝色海水，主体占宽约25%，保留左侧空间。One anatomically coherent octopus unless explicitly specified otherwise: one mantle, one head, eight arms belonging to this animal, natural occlusion allowed; never force every arm into view or add arms. Suckers on ventral arm surfaces, no squid feeding tentacles, no human fingers. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：One continuous original-speed calm shot. 章鱼停在岩缝口，暗处与远方暖光形成安全和开阔空间对照。细颗粒缓慢漂移。 Preserve identity, anatomy, arm count, suckers, eyes, attached eggs and rock geometry. No cuts, shake, flicker, blur pulses, morphing, hatching, predation, sudden objects, reverse, speed ramps or generated audio.
+
+## ch02-b09-s02
+
+对应口播：没有厚重外壳挡在外面，牙齿和钳子依然可能伤害你。你的身体越灵活，就越需要找到其他办法，弥补这层保护的缺席。前面有一道岩缝。它不够大，至少不够容纳一只带壳的动物。但这一次，你没有带着那样的壳。
+
+组合：P1；2x2_tile
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 章鱼停在岩缝口，暗处与远方暖光形成安全和开阔空间对照。独立新构图的低机位宽景，主体在左侧三分之一，前景细砂或石纹、中景主体、远景水光，主体占宽约15%，不是上一图裁切或放大。One anatomically coherent octopus unless explicitly specified otherwise: one mantle, one head, eight arms belonging to this animal, natural occlusion allowed; never force every arm into view or add arms. Suckers on ventral arm surfaces, no squid feeding tentacles, no human fingers. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：不生成模型动态
+
+## ch02-b10-s01
+
+对应口播：你伸进去一条腕足，摸到里面的石面。然后，是另一条。黑暗正在给你让出一个位置。
+
+组合：V3；2x2_tile
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 岩缝入口中景，章鱼一条已有腕足接触石面，身体仍完整处于缝外。侧面环境中景，主体在右侧三分之一，前景低矮岩缘、中景主体、远景蓝色海水，主体占宽约25%，保留左侧空间。One anatomically coherent octopus unless explicitly specified otherwise: one mantle, one head, eight arms belonging to this animal, natural occlusion allowed; never force every arm into view or add arms. Suckers on ventral arm surfaces, no squid feeding tentacles, no human fingers. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：One continuous original-speed calm shot. 岩缝入口中景，章鱼一条已有腕足接触石面，身体仍完整处于缝外。已接触的腕端微动，不让整个动物穿缝。 Preserve identity, anatomy, arm count, suckers, eyes, attached eggs and rock geometry. No cuts, shake, flicker, blur pulses, morphing, hatching, predation, sudden objects, reverse, speed ramps or generated audio.
+
+## ch02-b10-s02
+
+对应口播：你伸进去一条腕足，摸到里面的石面。然后，是另一条。黑暗正在给你让出一个位置。
+
+组合：P1；2x2_tile
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 岩缝入口中景，章鱼一条已有腕足接触石面，身体仍完整处于缝外。独立新构图的低机位宽景，主体在左侧三分之一，前景细砂或石纹、中景主体、远景水光，主体占宽约15%，不是上一图裁切或放大。One anatomically coherent octopus unless explicitly specified otherwise: one mantle, one head, eight arms belonging to this animal, natural occlusion allowed; never force every arm into view or add arms. Suckers on ventral arm surfaces, no squid feeding tentacles, no human fingers. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：不生成模型动态
+
+## ch03-b01-s01
+
+对应口播：你进入岩缝。身体沿着石头的轮廓改变形状，外面的光慢慢变窄。你停在一个宽一点的空隙里，等待危险过去。这里既是避难所，也像一个新的世界。
+
+组合：V3；2x2_tile
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 已在宽阔岩缝内的章鱼，入口透入金色水光，躯体不挤压变形。侧面环境中景，主体在右侧三分之一，前景低矮岩缘、中景主体、远景蓝色海水，主体占宽约25%，保留左侧空间。One anatomically coherent octopus unless explicitly specified otherwise: one mantle, one head, eight arms belonging to this animal, natural occlusion allowed; never force every arm into view or add arms. Suckers on ventral arm surfaces, no squid feeding tentacles, no human fingers. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：One continuous original-speed calm shot. 已在宽阔岩缝内的章鱼，入口透入金色水光，躯体不挤压变形。洞口水光轻移。 Preserve identity, anatomy, arm count, suckers, eyes, attached eggs and rock geometry. No cuts, shake, flicker, blur pulses, morphing, hatching, predation, sudden objects, reverse, speed ramps or generated audio.
+
+## ch03-b01-s02
+
+对应口播：你进入岩缝。身体沿着石头的轮廓改变形状，外面的光慢慢变窄。你停在一个宽一点的空隙里，等待危险过去。这里既是避难所，也像一个新的世界。
+
+组合：P1；2x2_tile
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 已在宽阔岩缝内的章鱼，入口透入金色水光，躯体不挤压变形。独立新构图的低机位宽景，主体在左侧三分之一，前景细砂或石纹、中景主体、远景水光，主体占宽约15%，不是上一图裁切或放大。One anatomically coherent octopus unless explicitly specified otherwise: one mantle, one head, eight arms belonging to this animal, natural occlusion allowed; never force every arm into view or add arms. Suckers on ventral arm surfaces, no squid feeding tentacles, no human fingers. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：不生成模型动态
+
+## ch03-b02-s01
+
+对应口播：有些食物躲在石头后面，有些埋在沙子里，还有一些藏在你看不见的小洞中。生活在这样的地方，不能只靠一直向前游。你的腕足，开始显得格外重要。
+
+组合：V3；2x2_tile
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 岩礁小洞旁一只甲壳类与远处章鱼，不发生捕杀，空间关系清楚。侧面环境中景，主体在右侧三分之一，前景低矮岩缘、中景主体、远景蓝色海水，主体占宽约25%，保留左侧空间。One anatomically coherent octopus unless explicitly specified otherwise: one mantle, one head, eight arms belonging to this animal, natural occlusion allowed; never force every arm into view or add arms. Suckers on ventral arm surfaces, no squid feeding tentacles, no human fingers. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：One continuous original-speed calm shot. 岩礁小洞旁一只甲壳类与远处章鱼，不发生捕杀，空间关系清楚。细颗粒漂移。 Preserve identity, anatomy, arm count, suckers, eyes, attached eggs and rock geometry. No cuts, shake, flicker, blur pulses, morphing, hatching, predation, sudden objects, reverse, speed ramps or generated audio.
+
+## ch03-b02-s02
+
+对应口播：有些食物躲在石头后面，有些埋在沙子里，还有一些藏在你看不见的小洞中。生活在这样的地方，不能只靠一直向前游。你的腕足，开始显得格外重要。
+
+组合：P1；2x2_tile
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 岩礁小洞旁一只甲壳类与远处章鱼，不发生捕杀，空间关系清楚。独立新构图的低机位宽景，主体在左侧三分之一，前景细砂或石纹、中景主体、远景水光，主体占宽约15%，不是上一图裁切或放大。One anatomically coherent octopus unless explicitly specified otherwise: one mantle, one head, eight arms belonging to this animal, natural occlusion allowed; never force every arm into view or add arms. Suckers on ventral arm surfaces, no squid feeding tentacles, no human fingers. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：不生成模型动态
+
+## ch03-b03-s01
+
+对应口播：在现代头足类的大分支里，章鱼这一边通常具有八条腕足。鱿鱼和乌贼那一边，则一般还拥有一对专门捕猎的长触腕。具体的演化分岔，比这样的对照更复杂，化石和遗传证据也仍在帮助我们修正它。
+
+组合：V3；2x2_tile
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 独立章鱼全身宽景，腕足自然分布在海床，八腕结构保持，不做对比图。侧面环境中景，主体在右侧三分之一，前景低矮岩缘、中景主体、远景蓝色海水，主体占宽约25%，保留左侧空间。One anatomically coherent octopus unless explicitly specified otherwise: one mantle, one head, eight arms belonging to this animal, natural occlusion allowed; never force every arm into view or add arms. Suckers on ventral arm surfaces, no squid feeding tentacles, no human fingers. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：One continuous original-speed calm shot. 独立章鱼全身宽景，腕足自然分布在海床，八腕结构保持，不做对比图。背景水光轻移。 Preserve identity, anatomy, arm count, suckers, eyes, attached eggs and rock geometry. No cuts, shake, flicker, blur pulses, morphing, hatching, predation, sudden objects, reverse, speed ramps or generated audio.
+
+## ch03-b03-s02
+
+对应口播：在现代头足类的大分支里，章鱼这一边通常具有八条腕足。鱿鱼和乌贼那一边，则一般还拥有一对专门捕猎的长触腕。具体的演化分岔，比这样的对照更复杂，化石和遗传证据也仍在帮助我们修正它。
+
+组合：P1；2x2_tile
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 独立章鱼全身宽景，腕足自然分布在海床，八腕结构保持，不做对比图。独立新构图的低机位宽景，主体在左侧三分之一，前景细砂或石纹、中景主体、远景水光，主体占宽约15%，不是上一图裁切或放大。One anatomically coherent octopus unless explicitly specified otherwise: one mantle, one head, eight arms belonging to this animal, natural occlusion allowed; never force every arm into view or add arms. Suckers on ventral arm surfaces, no squid feeding tentacles, no human fingers. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：不生成模型动态
+
+## ch03-b04-s01
+
+对应口播：八条，并不意味着你一夜之间失去了两条。我们看到的是漫长世代的结果，不是某只动物身体上的即时变化。至于和现代章鱼相近的身体，什么时候已经出现在海里，有一些保存得很特别的化石，可以给出更清楚的线索。
+
+组合：P1；single
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 独立鱿鱼自然全身照，八腕与两条捕猎触腕属于同一个体，不做腕足脱落演化。侧面环境中景，主体在右侧三分之一，前景低矮岩缘、中景主体、远景蓝色海水，主体占宽约25%，保留左侧空间。Preserve only the explicitly described subject and species anatomy; do not add an octopus or substitute another species. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：不生成模型动态
+
+## ch03-b04-s02
+
+对应口播：八条，并不意味着你一夜之间失去了两条。我们看到的是漫长世代的结果，不是某只动物身体上的即时变化。至于和现代章鱼相近的身体，什么时候已经出现在海里，有一些保存得很特别的化石，可以给出更清楚的线索。
+
+组合：P1；single
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 独立鱿鱼自然全身照，八腕与两条捕猎触腕属于同一个体，不做腕足脱落演化。独立新构图的低机位宽景，主体在左侧三分之一，前景细砂或石纹、中景主体、远景水光，主体占宽约15%，不是上一图裁切或放大。Preserve only the explicitly described subject and species anatomy; do not add an octopus or substitute another species. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：不生成模型动态
+
+## ch03-b05-s01
+
+对应口播：在今天黎巴嫩的一些岩层里，研究者发现过晚白垩世的章鱼化石。那大约是距今九千多万年的海洋。罕见的保存条件，让它们柔软身体留下的痕迹，也有机会被看见。有的标本还保存了退化的内部支撑结构。这些细节让研究者可以比较：它们和今天的章鱼，到底在哪里相似，又在哪里不同。
+
+组合：P1；single
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 无标签的浅色石灰岩上软体章鱼化石印痕，研究式保守表现，不用鲜活章鱼埋在石头里。侧面环境中景，主体在右侧三分之一，前景低矮岩缘、中景主体、远景蓝色海水，主体占宽约25%，保留左侧空间。Preserve only the explicitly described subject and species anatomy; do not add an octopus or substitute another species. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：不生成模型动态
+
+## ch03-b05-s02
+
+对应口播：在今天黎巴嫩的一些岩层里，研究者发现过晚白垩世的章鱼化石。那大约是距今九千多万年的海洋。罕见的保存条件，让它们柔软身体留下的痕迹，也有机会被看见。有的标本还保存了退化的内部支撑结构。这些细节让研究者可以比较：它们和今天的章鱼，到底在哪里相似，又在哪里不同。
+
+组合：P1；single
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 无标签的浅色石灰岩上软体章鱼化石印痕，研究式保守表现，不用鲜活章鱼埋在石头里。独立新构图的低机位宽景，主体在左侧三分之一，前景细砂或石纹、中景主体、远景水光，主体占宽约15%，不是上一图裁切或放大。Preserve only the explicitly described subject and species anatomy; do not add an octopus or substitute another species. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：不生成模型动态
+
+## ch03-b06-s01
+
+对应口播：这不是章鱼的出生证明。它只告诉我们，至少到了那段时间，章鱼样的动物已经生活在海里。它们的来路，可能还要往更早的年代寻找。软软的身体很少留下完整记录。你没有出现的那一页，未必真的没有你，也可能只是那一页没有保存下来。
+
+组合：P1；2x2_tile
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 石灰岩断面近景与深色环境，真实沉积层纹理，不画年代尺。独立细节近景，关键材质占画面约50%，仍保留自然连接与环境，侧面柔光。Preserve only the explicitly described subject and species anatomy; do not add an octopus or substitute another species. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：不生成模型动态
+
+## ch03-b06-s02
+
+对应口播：这不是章鱼的出生证明。它只告诉我们，至少到了那段时间，章鱼样的动物已经生活在海里。它们的来路，可能还要往更早的年代寻找。软软的身体很少留下完整记录。你没有出现的那一页，未必真的没有你，也可能只是那一页没有保存下来。
+
+组合：P1；2x2_tile
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 石灰岩断面近景与深色环境，真实沉积层纹理，不画年代尺。独立斜侧中景，将同一知识点放回真实栖息环境，主体占画面约30%，不裁切前图。Preserve only the explicitly described subject and species anatomy; do not add an octopus or substitute another species. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：不生成模型动态
+
+## ch03-b07-s01
+
+对应口播：现在，把目光从岩石里的痕迹，重新放回海底。你从洞口探出一条腕足。吸盘贴上石面。身体有了支点，另一条腕足便可以伸向更远的地方。你不需要像有骨骼的动物那样，围绕几个固定的关节转动。
+
+组合：V3；single
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 现代章鱼从洞口伸出一条腕足，吸盘贴石，侧面中景。侧面环境中景，主体在右侧三分之一，前景低矮岩缘、中景主体、远景蓝色海水，主体占宽约25%，保留左侧空间。One anatomically coherent octopus unless explicitly specified otherwise: one mantle, one head, eight arms belonging to this animal, natural occlusion allowed; never force every arm into view or add arms. Suckers on ventral arm surfaces, no squid feeding tentacles, no human fingers. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：One continuous original-speed calm shot. 现代章鱼从洞口伸出一条腕足，吸盘贴石，侧面中景。已有腕足末端细小探索。 Preserve identity, anatomy, arm count, suckers, eyes, attached eggs and rock geometry. No cuts, shake, flicker, blur pulses, morphing, hatching, predation, sudden objects, reverse, speed ramps or generated audio.
+
+## ch03-b07-s02
+
+对应口播：现在，把目光从岩石里的痕迹，重新放回海底。你从洞口探出一条腕足。吸盘贴上石面。身体有了支点，另一条腕足便可以伸向更远的地方。你不需要像有骨骼的动物那样，围绕几个固定的关节转动。
+
+组合：P1；single
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 现代章鱼从洞口伸出一条腕足，吸盘贴石，侧面中景。独立新构图的低机位宽景，主体在左侧三分之一，前景细砂或石纹、中景主体、远景水光，主体占宽约15%，不是上一图裁切或放大。One anatomically coherent octopus unless explicitly specified otherwise: one mantle, one head, eight arms belonging to this animal, natural occlusion allowed; never force every arm into view or add arms. Suckers on ventral arm surfaces, no squid feeding tentacles, no human fingers. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：不生成模型动态
+
+## ch03-b08-s01
+
+对应口播：腕足中的肌肉互相配合，既可以弯曲，也可以伸长和缩短。它们柔软，却不是没有力量。你慢慢越过一块石头，仿佛身体在顺着地形流动。
+
+组合：V3；single
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 单条章鱼腕足连接完整主体，自然弯曲贴在岩面，湿润皮肤和吸盘细节。侧面环境中景，主体在右侧三分之一，前景低矮岩缘、中景主体、远景蓝色海水，主体占宽约25%，保留左侧空间。One anatomically coherent octopus unless explicitly specified otherwise: one mantle, one head, eight arms belonging to this animal, natural occlusion allowed; never force every arm into view or add arms. Suckers on ventral arm surfaces, no squid feeding tentacles, no human fingers. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：One continuous original-speed calm shot. 单条章鱼腕足连接完整主体，自然弯曲贴在岩面，湿润皮肤和吸盘细节。腕端小幅自然弯曲，不拉成橡胶。 Preserve identity, anatomy, arm count, suckers, eyes, attached eggs and rock geometry. No cuts, shake, flicker, blur pulses, morphing, hatching, predation, sudden objects, reverse, speed ramps or generated audio.
+
+## ch03-b08-s02
+
+对应口播：腕足中的肌肉互相配合，既可以弯曲，也可以伸长和缩短。它们柔软，却不是没有力量。你慢慢越过一块石头，仿佛身体在顺着地形流动。
+
+组合：P1；single
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 单条章鱼腕足连接完整主体，自然弯曲贴在岩面，湿润皮肤和吸盘细节。独立新构图的低机位宽景，主体在左侧三分之一，前景细砂或石纹、中景主体、远景水光，主体占宽约15%，不是上一图裁切或放大。One anatomically coherent octopus unless explicitly specified otherwise: one mantle, one head, eight arms belonging to this animal, natural occlusion allowed; never force every arm into view or add arms. Suckers on ventral arm surfaces, no squid feeding tentacles, no human fingers. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：不生成模型动态
+
+## ch03-b09-s01
+
+对应口播：但柔软也不是万能的。你的喙仍然是坚硬的结构，身体也有真实的尺度限制。并不是任何一个针孔，你都能钻过去。水流太强、入口太窄，或者里面没有退路，都会让探索变成危险。你在缝口停下来，先用腕足试探。能够进去，与值得进去，是两回事。
+
+组合：V3；2x2_tile
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 章鱼停在极窄裂口之前，完整头部与身体，不做无限挤压。侧面环境中景，主体在右侧三分之一，前景低矮岩缘、中景主体、远景蓝色海水，主体占宽约25%，保留左侧空间。One anatomically coherent octopus unless explicitly specified otherwise: one mantle, one head, eight arms belonging to this animal, natural occlusion allowed; never force every arm into view or add arms. Suckers on ventral arm surfaces, no squid feeding tentacles, no human fingers. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：One continuous original-speed calm shot. 章鱼停在极窄裂口之前，完整头部与身体，不做无限挤压。背景水光轻移。 Preserve identity, anatomy, arm count, suckers, eyes, attached eggs and rock geometry. No cuts, shake, flicker, blur pulses, morphing, hatching, predation, sudden objects, reverse, speed ramps or generated audio.
+
+## ch03-b09-s02
+
+对应口播：但柔软也不是万能的。你的喙仍然是坚硬的结构，身体也有真实的尺度限制。并不是任何一个针孔，你都能钻过去。水流太强、入口太窄，或者里面没有退路，都会让探索变成危险。你在缝口停下来，先用腕足试探。能够进去，与值得进去，是两回事。
+
+组合：P1；2x2_tile
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 章鱼停在极窄裂口之前，完整头部与身体，不做无限挤压。独立新构图的低机位宽景，主体在左侧三分之一，前景细砂或石纹、中景主体、远景水光，主体占宽约15%，不是上一图裁切或放大。One anatomically coherent octopus unless explicitly specified otherwise: one mantle, one head, eight arms belonging to this animal, natural occlusion allowed; never force every arm into view or add arms. Suckers on ventral arm surfaces, no squid feeding tentacles, no human fingers. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：不生成模型动态
+
+## ch03-b10-s01
+
+对应口播：这时，你还没有对整片海底做出什么宏大的判断。你只是借着身体，把眼前的小问题，一个一个解决。
+
+组合：V3；2x2_tile
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 章鱼安全停在较宽洞口，低机位宽景，周围岩礁层次丰富。侧面环境中景，主体在右侧三分之一，前景低矮岩缘、中景主体、远景蓝色海水，主体占宽约25%，保留左侧空间。One anatomically coherent octopus unless explicitly specified otherwise: one mantle, one head, eight arms belonging to this animal, natural occlusion allowed; never force every arm into view or add arms. Suckers on ventral arm surfaces, no squid feeding tentacles, no human fingers. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：One continuous original-speed calm shot. 章鱼安全停在较宽洞口，低机位宽景，周围岩礁层次丰富。颗粒缓慢漂移。 Preserve identity, anatomy, arm count, suckers, eyes, attached eggs and rock geometry. No cuts, shake, flicker, blur pulses, morphing, hatching, predation, sudden objects, reverse, speed ramps or generated audio.
+
+## ch03-b10-s02
+
+对应口播：这时，你还没有对整片海底做出什么宏大的判断。你只是借着身体，把眼前的小问题，一个一个解决。
+
+组合：P1；2x2_tile
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 章鱼安全停在较宽洞口，低机位宽景，周围岩礁层次丰富。独立新构图的低机位宽景，主体在左侧三分之一，前景细砂或石纹、中景主体、远景水光，主体占宽约15%，不是上一图裁切或放大。One anatomically coherent octopus unless explicitly specified otherwise: one mantle, one head, eight arms belonging to this animal, natural occlusion allowed; never force every arm into view or add arms. Suckers on ventral arm surfaces, no squid feeding tentacles, no human fingers. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：不生成模型动态
+
+## ch04-b01-s01
+
+对应口播：洞口外，一只螃蟹躲到了石头后面。你的眼睛看不见它。但这并不意味着，寻找已经结束。
+
+组合：V3；2x2_tile
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 一只螃蟹在岩石后，章鱼在前景，明确相互遮挡与距离。侧面环境中景，主体在右侧三分之一，前景低矮岩缘、中景主体、远景蓝色海水，主体占宽约25%，保留左侧空间。One anatomically coherent octopus unless explicitly specified otherwise: one mantle, one head, eight arms belonging to this animal, natural occlusion allowed; never force every arm into view or add arms. Suckers on ventral arm surfaces, no squid feeding tentacles, no human fingers. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：One continuous original-speed calm shot. 一只螃蟹在岩石后，章鱼在前景，明确相互遮挡与距离。环境细颗粒漂移，不让螃蟹消失。 Preserve identity, anatomy, arm count, suckers, eyes, attached eggs and rock geometry. No cuts, shake, flicker, blur pulses, morphing, hatching, predation, sudden objects, reverse, speed ramps or generated audio.
+
+## ch04-b01-s02
+
+对应口播：洞口外，一只螃蟹躲到了石头后面。你的眼睛看不见它。但这并不意味着，寻找已经结束。
+
+组合：P1；2x2_tile
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 一只螃蟹在岩石后，章鱼在前景，明确相互遮挡与距离。独立新构图的低机位宽景，主体在左侧三分之一，前景细砂或石纹、中景主体、远景水光，主体占宽约15%，不是上一图裁切或放大。One anatomically coherent octopus unless explicitly specified otherwise: one mantle, one head, eight arms belonging to this animal, natural occlusion allowed; never force every arm into view or add arms. Suckers on ventral arm surfaces, no squid feeding tentacles, no human fingers. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：不生成模型动态
+
+## ch04-b02-s01
+
+对应口播：你把一条腕足伸过去。吸盘先碰到了粗糙的岩面，再摸到一处边缘。水和表面带来的化学线索，也参与了这次探索。对你来说，触碰不只是确认那里有东西。它还在帮助你判断，那可能是什么。
+
+组合：V3；single
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 章鱼一条已有腕足触碰粗糙岩面，吸盘湿润细纹可见，主体连接清楚。侧面环境中景，主体在右侧三分之一，前景低矮岩缘、中景主体、远景蓝色海水，主体占宽约25%，保留左侧空间。One anatomically coherent octopus unless explicitly specified otherwise: one mantle, one head, eight arms belonging to this animal, natural occlusion allowed; never force every arm into view or add arms. Suckers on ventral arm surfaces, no squid feeding tentacles, no human fingers. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：One continuous original-speed calm shot. 章鱼一条已有腕足触碰粗糙岩面，吸盘湿润细纹可见，主体连接清楚。腕端微小接触调整。 Preserve identity, anatomy, arm count, suckers, eyes, attached eggs and rock geometry. No cuts, shake, flicker, blur pulses, morphing, hatching, predation, sudden objects, reverse, speed ramps or generated audio.
+
+## ch04-b02-s02
+
+对应口播：你把一条腕足伸过去。吸盘先碰到了粗糙的岩面，再摸到一处边缘。水和表面带来的化学线索，也参与了这次探索。对你来说，触碰不只是确认那里有东西。它还在帮助你判断，那可能是什么。
+
+组合：P1；single
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 章鱼一条已有腕足触碰粗糙岩面，吸盘湿润细纹可见，主体连接清楚。独立新构图的低机位宽景，主体在左侧三分之一，前景细砂或石纹、中景主体、远景水光，主体占宽约15%，不是上一图裁切或放大。One anatomically coherent octopus unless explicitly specified otherwise: one mantle, one head, eight arms belonging to this animal, natural occlusion allowed; never force every arm into view or add arms. Suckers on ventral arm surfaces, no squid feeding tentacles, no human fingers. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：不生成模型动态
+
+## ch04-b03-s01
+
+对应口播：章鱼的吸盘有机械和化学感知的能力。有时，人们会把这说成用手品尝世界。这个比喻容易理解，但你并没有在每一个吸盘里面，装上一条人类的舌头。你的感知方式，属于你自己的身体。
+
+组合：P1；single
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 真实吸盘宏观特写，连接于自然腕足，石面附着微小生物膜，不画舌头神经光球。独立细节近景，关键材质占画面约50%，仍保留自然连接与环境，侧面柔光。Preserve only the explicitly described subject and species anatomy; do not add an octopus or substitute another species. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：不生成模型动态
+
+## ch04-b03-s02
+
+对应口播：章鱼的吸盘有机械和化学感知的能力。有时，人们会把这说成用手品尝世界。这个比喻容易理解，但你并没有在每一个吸盘里面，装上一条人类的舌头。你的感知方式，属于你自己的身体。
+
+组合：P1；single
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 真实吸盘宏观特写，连接于自然腕足，石面附着微小生物膜，不画舌头神经光球。独立斜侧中景，将同一知识点放回真实栖息环境，主体占画面约30%，不裁切前图。Preserve only the explicitly described subject and species anatomy; do not add an octopus or substitute another species. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：不生成模型动态
+
+## ch04-b04-s01
+
+对应口播：眼睛适合观察远处，腕足适合进入被石头挡住的地方。它们把不同的线索，送进同一个生活里。这份生活，也不是完全由头部逐条下达命令。
+
+组合：V3；2x2_tile
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 章鱼侧脸中景与前景腕足，眼睛看向远处而腕足进入石后。侧面环境中景，主体在右侧三分之一，前景低矮岩缘、中景主体、远景蓝色海水，主体占宽约25%，保留左侧空间。One anatomically coherent octopus unless explicitly specified otherwise: one mantle, one head, eight arms belonging to this animal, natural occlusion allowed; never force every arm into view or add arms. Suckers on ventral arm surfaces, no squid feeding tentacles, no human fingers. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：One continuous original-speed calm shot. 章鱼侧脸中景与前景腕足，眼睛看向远处而腕足进入石后。悬浮颗粒轻移，眼睛不变形。 Preserve identity, anatomy, arm count, suckers, eyes, attached eggs and rock geometry. No cuts, shake, flicker, blur pulses, morphing, hatching, predation, sudden objects, reverse, speed ramps or generated audio.
+
+## ch04-b04-s02
+
+对应口播：眼睛适合观察远处，腕足适合进入被石头挡住的地方。它们把不同的线索，送进同一个生活里。这份生活，也不是完全由头部逐条下达命令。
+
+组合：P1；2x2_tile
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 章鱼侧脸中景与前景腕足，眼睛看向远处而腕足进入石后。独立新构图的低机位宽景，主体在左侧三分之一，前景细砂或石纹、中景主体、远景水光，主体占宽约15%，不是上一图裁切或放大。One anatomically coherent octopus unless explicitly specified otherwise: one mantle, one head, eight arms belonging to this animal, natural occlusion allowed; never force every arm into view or add arms. Suckers on ventral arm surfaces, no squid feeding tentacles, no human fingers. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：不生成模型动态
+
+## ch04-b05-s01
+
+对应口播：你的腕足中分布着大量神经元。局部的神经网络可以处理一些感觉和动作，头部的中枢则参与整体协调和选择。因此，一条腕足在探索缝隙时，并不需要把每一个细小弯曲，都变成等待大脑批准的动作。
+
+组合：V3；2x2_tile
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 完整章鱼在礁石间自然探索，腕足连接同一主体，不透视神经或画八个大脑。侧面环境中景，主体在右侧三分之一，前景低矮岩缘、中景主体、远景蓝色海水，主体占宽约25%，保留左侧空间。One anatomically coherent octopus unless explicitly specified otherwise: one mantle, one head, eight arms belonging to this animal, natural occlusion allowed; never force every arm into view or add arms. Suckers on ventral arm surfaces, no squid feeding tentacles, no human fingers. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：One continuous original-speed calm shot. 完整章鱼在礁石间自然探索，腕足连接同一主体，不透视神经或画八个大脑。一条腕端轻探，其余稳定。 Preserve identity, anatomy, arm count, suckers, eyes, attached eggs and rock geometry. No cuts, shake, flicker, blur pulses, morphing, hatching, predation, sudden objects, reverse, speed ramps or generated audio.
+
+## ch04-b05-s02
+
+对应口播：你的腕足中分布着大量神经元。局部的神经网络可以处理一些感觉和动作，头部的中枢则参与整体协调和选择。因此，一条腕足在探索缝隙时，并不需要把每一个细小弯曲，都变成等待大脑批准的动作。
+
+组合：P1；2x2_tile
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 完整章鱼在礁石间自然探索，腕足连接同一主体，不透视神经或画八个大脑。独立新构图的低机位宽景，主体在左侧三分之一，前景细砂或石纹、中景主体、远景水光，主体占宽约15%，不是上一图裁切或放大。One anatomically coherent octopus unless explicitly specified otherwise: one mantle, one head, eight arms belonging to this animal, natural occlusion allowed; never force every arm into view or add arms. Suckers on ventral arm surfaces, no squid feeding tentacles, no human fingers. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：不生成模型动态
+
+## ch04-b06-s01
+
+对应口播：但这也不是八个小脑袋，分别过着八种生活。你的腕足有局部自主性，却仍然属于同一个动物。寻找食物、移动身体、避开危险，需要它们与中枢共同配合。这一刻，靠近洞口的腕足还在固定身体，另一条已经绕过岩石。更多的吸盘贴住表面，像在黑暗里一点点读出形状。
+
+组合：V3；2x2_tile
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 章鱼以不同腕足固定在两块石面，整体协调构图。侧面环境中景，主体在右侧三分之一，前景低矮岩缘、中景主体、远景蓝色海水，主体占宽约25%，保留左侧空间。One anatomically coherent octopus unless explicitly specified otherwise: one mantle, one head, eight arms belonging to this animal, natural occlusion allowed; never force every arm into view or add arms. Suckers on ventral arm surfaces, no squid feeding tentacles, no human fingers. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：One continuous original-speed calm shot. 章鱼以不同腕足固定在两块石面，整体协调构图。背景水光轻移。 Preserve identity, anatomy, arm count, suckers, eyes, attached eggs and rock geometry. No cuts, shake, flicker, blur pulses, morphing, hatching, predation, sudden objects, reverse, speed ramps or generated audio.
+
+## ch04-b06-s02
+
+对应口播：但这也不是八个小脑袋，分别过着八种生活。你的腕足有局部自主性，却仍然属于同一个动物。寻找食物、移动身体、避开危险，需要它们与中枢共同配合。这一刻，靠近洞口的腕足还在固定身体，另一条已经绕过岩石。更多的吸盘贴住表面，像在黑暗里一点点读出形状。
+
+组合：P1；2x2_tile
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 章鱼以不同腕足固定在两块石面，整体协调构图。独立新构图的低机位宽景，主体在左侧三分之一，前景细砂或石纹、中景主体、远景水光，主体占宽约15%，不是上一图裁切或放大。One anatomically coherent octopus unless explicitly specified otherwise: one mantle, one head, eight arms belonging to this animal, natural occlusion allowed; never force every arm into view or add arms. Suckers on ventral arm surfaces, no squid feeding tentacles, no human fingers. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：不生成模型动态
+
+## ch04-b07-s01
+
+对应口播：螃蟹往后退。它的钳子碰到了你。你收回那一小段，又从另一个角度靠近。这不是一场谁的力气更大的比较。你在改变接触的位置，也在重新组织身体。
+
+组合：V3；2x2_tile
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 螃蟹钳与章鱼腕端保持安全距离，侧面未接触画面，不做搏斗。侧面环境中景，主体在右侧三分之一，前景低矮岩缘、中景主体、远景蓝色海水，主体占宽约25%，保留左侧空间。One anatomically coherent octopus unless explicitly specified otherwise: one mantle, one head, eight arms belonging to this animal, natural occlusion allowed; never force every arm into view or add arms. Suckers on ventral arm surfaces, no squid feeding tentacles, no human fingers. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：One continuous original-speed calm shot. 螃蟹钳与章鱼腕端保持安全距离，侧面未接触画面，不做搏斗。水中颗粒漂移，不重复后退动作。 Preserve identity, anatomy, arm count, suckers, eyes, attached eggs and rock geometry. No cuts, shake, flicker, blur pulses, morphing, hatching, predation, sudden objects, reverse, speed ramps or generated audio.
+
+## ch04-b07-s02
+
+对应口播：螃蟹往后退。它的钳子碰到了你。你收回那一小段，又从另一个角度靠近。这不是一场谁的力气更大的比较。你在改变接触的位置，也在重新组织身体。
+
+组合：P1；2x2_tile
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 螃蟹钳与章鱼腕端保持安全距离，侧面未接触画面，不做搏斗。独立新构图的低机位宽景，主体在左侧三分之一，前景细砂或石纹、中景主体、远景水光，主体占宽约15%，不是上一图裁切或放大。One anatomically coherent octopus unless explicitly specified otherwise: one mantle, one head, eight arms belonging to this animal, natural occlusion allowed; never force every arm into view or add arms. Suckers on ventral arm surfaces, no squid feeding tentacles, no human fingers. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：不生成模型动态
+
+## ch04-b08-s01
+
+对应口播：最终，猎物没能从石头另一边离开。你把它拉近，送向腕足中央的口。坚硬的喙帮助你处理食物。某些章鱼捕猎时还会借助唾液中的物质，影响猎物，但不同物种和不同猎物，方式并不完全相同。你不需要我们替你写出一份详细步骤，才知道这一顿饭怎样靠近。
+
+组合：P1；single
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 章鱼靠近已静置的甲壳类，避免口部猎杀特写，细节清楚无血腥。独立细节近景，关键材质占画面约50%，仍保留自然连接与环境，侧面柔光。One anatomically coherent octopus unless explicitly specified otherwise: one mantle, one head, eight arms belonging to this animal, natural occlusion allowed; never force every arm into view or add arms. Suckers on ventral arm surfaces, no squid feeding tentacles, no human fingers. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：不生成模型动态
+
+## ch04-b08-s02
+
+对应口播：最终，猎物没能从石头另一边离开。你把它拉近，送向腕足中央的口。坚硬的喙帮助你处理食物。某些章鱼捕猎时还会借助唾液中的物质，影响猎物，但不同物种和不同猎物，方式并不完全相同。你不需要我们替你写出一份详细步骤，才知道这一顿饭怎样靠近。
+
+组合：P1；single
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 章鱼靠近已静置的甲壳类，避免口部猎杀特写，细节清楚无血腥。独立斜侧中景，将同一知识点放回真实栖息环境，主体占画面约30%，不裁切前图。One anatomically coherent octopus unless explicitly specified otherwise: one mantle, one head, eight arms belonging to this animal, natural occlusion allowed; never force every arm into view or add arms. Suckers on ventral arm surfaces, no squid feeding tentacles, no human fingers. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：不生成模型动态
+
+## ch04-b09-s01
+
+对应口播：你的身体，是在长期的生存中形成的。它能做的事情，既来自遗传留下的结构，也来自这一次实际接触的反馈。于是，眼前的你，显得既柔软又熟练。你没有走出海底，却已经拥有一套与人类很不一样的办法，理解身边的世界。
+
+组合：V3；2x2_tile
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 章鱼安静停在海床，皮肤细节与礁石光影相映，完整身体。侧面环境中景，主体在右侧三分之一，前景低矮岩缘、中景主体、远景蓝色海水，主体占宽约25%，保留左侧空间。One anatomically coherent octopus unless explicitly specified otherwise: one mantle, one head, eight arms belonging to this animal, natural occlusion allowed; never force every arm into view or add arms. Suckers on ventral arm surfaces, no squid feeding tentacles, no human fingers. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：One continuous original-speed calm shot. 章鱼安静停在海床，皮肤细节与礁石光影相映，完整身体。小幅已有腕端探索。 Preserve identity, anatomy, arm count, suckers, eyes, attached eggs and rock geometry. No cuts, shake, flicker, blur pulses, morphing, hatching, predation, sudden objects, reverse, speed ramps or generated audio.
+
+## ch04-b09-s02
+
+对应口播：你的身体，是在长期的生存中形成的。它能做的事情，既来自遗传留下的结构，也来自这一次实际接触的反馈。于是，眼前的你，显得既柔软又熟练。你没有走出海底，却已经拥有一套与人类很不一样的办法，理解身边的世界。
+
+组合：P1；2x2_tile
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 章鱼安静停在海床，皮肤细节与礁石光影相映，完整身体。独立新构图的低机位宽景，主体在左侧三分之一，前景细砂或石纹、中景主体、远景水光，主体占宽约15%，不是上一图裁切或放大。One anatomically coherent octopus unless explicitly specified otherwise: one mantle, one head, eight arms belonging to this animal, natural occlusion allowed; never force every arm into view or add arms. Suckers on ventral arm surfaces, no squid feeding tentacles, no human fingers. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：不生成模型动态
+
+## ch05-b01-s01
+
+对应口播：一片阴影，从上方落下来。你停止了寻找。海水里，有东西正在靠近。它不需要钻进岩缝，只要你留在外面，就可能被发现。
+
+组合：V3；2x2_tile
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 章鱼伏在石面，远处大鱼模糊剪影，上方阴影但没有攻击。侧面环境中景，主体在右侧三分之一，前景低矮岩缘、中景主体、远景蓝色海水，主体占宽约25%，保留左侧空间。One anatomically coherent octopus unless explicitly specified otherwise: one mantle, one head, eight arms belonging to this animal, natural occlusion allowed; never force every arm into view or add arms. Suckers on ventral arm surfaces, no squid feeding tentacles, no human fingers. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：One continuous original-speed calm shot. 章鱼伏在石面，远处大鱼模糊剪影，上方阴影但没有攻击。只有背景细颗粒移动。 Preserve identity, anatomy, arm count, suckers, eyes, attached eggs and rock geometry. No cuts, shake, flicker, blur pulses, morphing, hatching, predation, sudden objects, reverse, speed ramps or generated audio.
+
+## ch05-b01-s02
+
+对应口播：一片阴影，从上方落下来。你停止了寻找。海水里，有东西正在靠近。它不需要钻进岩缝，只要你留在外面，就可能被发现。
+
+组合：P1；2x2_tile
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 章鱼伏在石面，远处大鱼模糊剪影，上方阴影但没有攻击。独立新构图的低机位宽景，主体在左侧三分之一，前景细砂或石纹、中景主体、远景水光，主体占宽约15%，不是上一图裁切或放大。One anatomically coherent octopus unless explicitly specified otherwise: one mantle, one head, eight arms belonging to this animal, natural occlusion allowed; never force every arm into view or add arms. Suckers on ventral arm surfaces, no squid feeding tentacles, no human fingers. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：不生成模型动态
+
+## ch05-b02-s01
+
+对应口播：这一次，你没有立刻喷水逃走。你贴近石面，身体的颜色和明暗发生了变化。轮廓也不再那么容易辨认。刚才还像一只动物的你，现在更接近周围的一小块海底。
+
+组合：V3；2x2_tile
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 章鱼已经贴近石面，纹理和颜色接近石头，完整动物轮廓仍可辨认。侧面环境中景，主体在右侧三分之一，前景低矮岩缘、中景主体、远景蓝色海水，主体占宽约25%，保留左侧空间。One anatomically coherent octopus unless explicitly specified otherwise: one mantle, one head, eight arms belonging to this animal, natural occlusion allowed; never force every arm into view or add arms. Suckers on ventral arm surfaces, no squid feeding tentacles, no human fingers. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：One continuous original-speed calm shot. 章鱼已经贴近石面，纹理和颜色接近石头，完整动物轮廓仍可辨认。环境水光轻移，不消失。 Preserve identity, anatomy, arm count, suckers, eyes, attached eggs and rock geometry. No cuts, shake, flicker, blur pulses, morphing, hatching, predation, sudden objects, reverse, speed ramps or generated audio.
+
+## ch05-b02-s02
+
+对应口播：这一次，你没有立刻喷水逃走。你贴近石面，身体的颜色和明暗发生了变化。轮廓也不再那么容易辨认。刚才还像一只动物的你，现在更接近周围的一小块海底。
+
+组合：P1；2x2_tile
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 章鱼已经贴近石面，纹理和颜色接近石头，完整动物轮廓仍可辨认。独立新构图的低机位宽景，主体在左侧三分之一，前景细砂或石纹、中景主体、远景水光，主体占宽约15%，不是上一图裁切或放大。One anatomically coherent octopus unless explicitly specified otherwise: one mantle, one head, eight arms belonging to this animal, natural occlusion allowed; never force every arm into view or add arms. Suckers on ventral arm surfaces, no squid feeding tentacles, no human fingers. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：不生成模型动态
+
+## ch05-b03-s01
+
+对应口播：章鱼的伪装，不是一件固定的花衣服。皮肤里有能够改变显露面积的色素细胞，也有影响反射的结构。许多种类还能改变皮肤表面的起伏，让原本光滑的身体，出现像石头或藻类一样的质感。
+
+组合：P1；2x2_tile
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 章鱼皮肤自然色素斑与细小乳突宏观近景，不用网格像素图或细胞示意。独立细节近景，关键材质占画面约50%，仍保留自然连接与环境，侧面柔光。One anatomically coherent octopus unless explicitly specified otherwise: one mantle, one head, eight arms belonging to this animal, natural occlusion allowed; never force every arm into view or add arms. Suckers on ventral arm surfaces, no squid feeding tentacles, no human fingers. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：不生成模型动态
+
+## ch05-b03-s02
+
+对应口播：章鱼的伪装，不是一件固定的花衣服。皮肤里有能够改变显露面积的色素细胞，也有影响反射的结构。许多种类还能改变皮肤表面的起伏，让原本光滑的身体，出现像石头或藻类一样的质感。
+
+组合：P1；2x2_tile
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 章鱼皮肤自然色素斑与细小乳突宏观近景，不用网格像素图或细胞示意。独立斜侧中景，将同一知识点放回真实栖息环境，主体占画面约30%，不裁切前图。One anatomically coherent octopus unless explicitly specified otherwise: one mantle, one head, eight arms belonging to this animal, natural occlusion allowed; never force every arm into view or add arms. Suckers on ventral arm surfaces, no squid feeding tentacles, no human fingers. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：不生成模型动态
+
+## ch05-b04-s01
+
+对应口播：颜色、纹理、姿态和轮廓，一起参与这场隐藏。如果你只是把皮肤变成相近的颜色，却仍然高高地立在那里，敌人可能还是认得出来。所以，你放低身体，调整腕足的位置。身体边缘不再像刚才那样完整，石头的阴影也加入了你的轮廓。
+
+组合：V3；2x2_tile
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 章鱼与粗糙礁石的侧面中景，颜色纹理姿态共同融入环境。侧面环境中景，主体在右侧三分之一，前景低矮岩缘、中景主体、远景蓝色海水，主体占宽约25%，保留左侧空间。One anatomically coherent octopus unless explicitly specified otherwise: one mantle, one head, eight arms belonging to this animal, natural occlusion allowed; never force every arm into view or add arms. Suckers on ventral arm surfaces, no squid feeding tentacles, no human fingers. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：One continuous original-speed calm shot. 章鱼与粗糙礁石的侧面中景，颜色纹理姿态共同融入环境。背景水光移动，不重塑皮肤。 Preserve identity, anatomy, arm count, suckers, eyes, attached eggs and rock geometry. No cuts, shake, flicker, blur pulses, morphing, hatching, predation, sudden objects, reverse, speed ramps or generated audio.
+
+## ch05-b04-s02
+
+对应口播：颜色、纹理、姿态和轮廓，一起参与这场隐藏。如果你只是把皮肤变成相近的颜色，却仍然高高地立在那里，敌人可能还是认得出来。所以，你放低身体，调整腕足的位置。身体边缘不再像刚才那样完整，石头的阴影也加入了你的轮廓。
+
+组合：P1；2x2_tile
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 章鱼与粗糙礁石的侧面中景，颜色纹理姿态共同融入环境。独立新构图的低机位宽景，主体在左侧三分之一，前景细砂或石纹、中景主体、远景水光，主体占宽约15%，不是上一图裁切或放大。One anatomically coherent octopus unless explicitly specified otherwise: one mantle, one head, eight arms belonging to this animal, natural occlusion allowed; never force every arm into view or add arms. Suckers on ventral arm surfaces, no squid feeding tentacles, no human fingers. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：不生成模型动态
+
+## ch05-b05-s01
+
+对应口播：这不是你把自己真的变成了石头。它只是让别的动物，更难把你从背景里分离出来。你在等待。那个身影慢慢经过。它看向前方，没有在你这里停下。
+
+组合：V3；2x2_tile
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 伪装章鱼仍清晰连接自身腕足，海底环境高级精致而非石头变动物。侧面环境中景，主体在右侧三分之一，前景低矮岩缘、中景主体、远景蓝色海水，主体占宽约25%，保留左侧空间。One anatomically coherent octopus unless explicitly specified otherwise: one mantle, one head, eight arms belonging to this animal, natural occlusion allowed; never force every arm into view or add arms. Suckers on ventral arm surfaces, no squid feeding tentacles, no human fingers. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：One continuous original-speed calm shot. 伪装章鱼仍清晰连接自身腕足，海底环境高级精致而非石头变动物。轻微颗粒漂移。 Preserve identity, anatomy, arm count, suckers, eyes, attached eggs and rock geometry. No cuts, shake, flicker, blur pulses, morphing, hatching, predation, sudden objects, reverse, speed ramps or generated audio.
+
+## ch05-b05-s02
+
+对应口播：这不是你把自己真的变成了石头。它只是让别的动物，更难把你从背景里分离出来。你在等待。那个身影慢慢经过。它看向前方，没有在你这里停下。
+
+组合：P1；2x2_tile
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 伪装章鱼仍清晰连接自身腕足，海底环境高级精致而非石头变动物。独立新构图的低机位宽景，主体在左侧三分之一，前景细砂或石纹、中景主体、远景水光，主体占宽约15%，不是上一图裁切或放大。One anatomically coherent octopus unless explicitly specified otherwise: one mantle, one head, eight arms belonging to this animal, natural occlusion allowed; never force every arm into view or add arms. Suckers on ventral arm surfaces, no squid feeding tentacles, no human fingers. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：不生成模型动态
+
+## ch05-b06-s01
+
+对应口播：许多时候，生存的收益就这么安静。你没有赢下一场搏斗，也没有让敌人受伤。你只是没被选中。
+
+组合：V3；2x2_tile
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 空旷水层与前景隐蔽章鱼，没有反复游过的敌人。侧面环境中景，主体在右侧三分之一，前景低矮岩缘、中景主体、远景蓝色海水，主体占宽约25%，保留左侧空间。One anatomically coherent octopus unless explicitly specified otherwise: one mantle, one head, eight arms belonging to this animal, natural occlusion allowed; never force every arm into view or add arms. Suckers on ventral arm surfaces, no squid feeding tentacles, no human fingers. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：One continuous original-speed calm shot. 空旷水层与前景隐蔽章鱼，没有反复游过的敌人。柔和水光移动。 Preserve identity, anatomy, arm count, suckers, eyes, attached eggs and rock geometry. No cuts, shake, flicker, blur pulses, morphing, hatching, predation, sudden objects, reverse, speed ramps or generated audio.
+
+## ch05-b06-s02
+
+对应口播：许多时候，生存的收益就这么安静。你没有赢下一场搏斗，也没有让敌人受伤。你只是没被选中。
+
+组合：P1；2x2_tile
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 空旷水层与前景隐蔽章鱼，没有反复游过的敌人。独立新构图的低机位宽景，主体在左侧三分之一，前景细砂或石纹、中景主体、远景水光，主体占宽约15%，不是上一图裁切或放大。One anatomically coherent octopus unless explicitly specified otherwise: one mantle, one head, eight arms belonging to this animal, natural occlusion allowed; never force every arm into view or add arms. Suckers on ventral arm surfaces, no squid feeding tentacles, no human fingers. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：不生成模型动态
+
+## ch05-b07-s01
+
+对应口播：但伪装也有边界。如果对方主要依靠气味、触碰，或者其他线索寻找猎物，融入背景就未必足够。如果身体正处在开阔的水中，旁边没有石头和沙地，原本有效的纹理也可能失去作用。下一次，你还是得逃。
+
+组合：V3；single
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 开阔沙地上的章鱼，周边缺少遮挡，无敌人嘴部特写。独立细节近景，关键材质占画面约50%，仍保留自然连接与环境，侧面柔光。One anatomically coherent octopus unless explicitly specified otherwise: one mantle, one head, eight arms belonging to this animal, natural occlusion allowed; never force every arm into view or add arms. Suckers on ventral arm surfaces, no squid feeding tentacles, no human fingers. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：One continuous original-speed calm shot. 开阔沙地上的章鱼，周边缺少遮挡，无敌人嘴部特写。腕端轻微试探。 Preserve identity, anatomy, arm count, suckers, eyes, attached eggs and rock geometry. No cuts, shake, flicker, blur pulses, morphing, hatching, predation, sudden objects, reverse, speed ramps or generated audio.
+
+## ch05-b07-s02
+
+对应口播：但伪装也有边界。如果对方主要依靠气味、触碰，或者其他线索寻找猎物，融入背景就未必足够。如果身体正处在开阔的水中，旁边没有石头和沙地，原本有效的纹理也可能失去作用。下一次，你还是得逃。
+
+组合：P1；single
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 开阔沙地上的章鱼，周边缺少遮挡，无敌人嘴部特写。独立斜侧中景，将同一知识点放回真实栖息环境，主体占画面约30%，不裁切前图。One anatomically coherent octopus unless explicitly specified otherwise: one mantle, one head, eight arms belonging to this animal, natural occlusion allowed; never force every arm into view or add arms. Suckers on ventral arm surfaces, no squid feeding tentacles, no human fingers. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：不生成模型动态
+
+## ch05-b08-s01
+
+对应口播：水从漏斗里排出去，身体离开原来的位置。有些章鱼还会释放墨汁，干扰追捕者的判断。它不是一道保证安全的魔法，只是为离开争取一点机会。你回到了洞里。海底再一次安静下来。
+
+组合：V3；2x2_tile
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 已扩散的少量墨云在远处海水中，章鱼在安全洞口，禁止喷墨爆炸或捕食。侧面环境中景，主体在右侧三分之一，前景低矮岩缘、中景主体、远景蓝色海水，主体占宽约25%，保留左侧空间。One anatomically coherent octopus unless explicitly specified otherwise: one mantle, one head, eight arms belonging to this animal, natural occlusion allowed; never force every arm into view or add arms. Suckers on ventral arm surfaces, no squid feeding tentacles, no human fingers. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：One continuous original-speed calm shot. 已扩散的少量墨云在远处海水中，章鱼在安全洞口，禁止喷墨爆炸或捕食。既有墨云单向缓慢扩散，不循环。 Preserve identity, anatomy, arm count, suckers, eyes, attached eggs and rock geometry. No cuts, shake, flicker, blur pulses, morphing, hatching, predation, sudden objects, reverse, speed ramps or generated audio.
+
+## ch05-b08-s02
+
+对应口播：水从漏斗里排出去，身体离开原来的位置。有些章鱼还会释放墨汁，干扰追捕者的判断。它不是一道保证安全的魔法，只是为离开争取一点机会。你回到了洞里。海底再一次安静下来。
+
+组合：P1；2x2_tile
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 已扩散的少量墨云在远处海水中，章鱼在安全洞口，禁止喷墨爆炸或捕食。独立新构图的低机位宽景，主体在左侧三分之一，前景细砂或石纹、中景主体、远景水光，主体占宽约15%，不是上一图裁切或放大。One anatomically coherent octopus unless explicitly specified otherwise: one mantle, one head, eight arms belonging to this animal, natural occlusion allowed; never force every arm into view or add arms. Suckers on ventral arm surfaces, no squid feeding tentacles, no human fingers. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：不生成模型动态
+
+## ch05-b09-s01
+
+对应口播：我们不知道章鱼谱系里，这样复杂的伪装能力究竟在哪一个具体年代，第一次达到今天的样子。普通化石很难保存皮肤瞬间变化的过程，更难留下当时的行为。所以，我们在这里讲的是现代章鱼展现的生活能力，不把它们硬塞进一个已经确定的古代时间表。你的历史，留下了身体的某些痕迹。你的今天，则让我们看见，这副身体能够怎样使用。两种线索，彼此帮助，却不能完全代替。
+
+组合：V3；2x2_tile
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 章鱼安静藏在礁石阴影，现代场景，不配虚构古年代。侧面环境中景，主体在右侧三分之一，前景低矮岩缘、中景主体、远景蓝色海水，主体占宽约25%，保留左侧空间。One anatomically coherent octopus unless explicitly specified otherwise: one mantle, one head, eight arms belonging to this animal, natural occlusion allowed; never force every arm into view or add arms. Suckers on ventral arm surfaces, no squid feeding tentacles, no human fingers. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：One continuous original-speed calm shot. 章鱼安静藏在礁石阴影，现代场景，不配虚构古年代。背景颗粒缓慢漂移。 Preserve identity, anatomy, arm count, suckers, eyes, attached eggs and rock geometry. No cuts, shake, flicker, blur pulses, morphing, hatching, predation, sudden objects, reverse, speed ramps or generated audio.
+
+## ch05-b09-s02
+
+对应口播：我们不知道章鱼谱系里，这样复杂的伪装能力究竟在哪一个具体年代，第一次达到今天的样子。普通化石很难保存皮肤瞬间变化的过程，更难留下当时的行为。所以，我们在这里讲的是现代章鱼展现的生活能力，不把它们硬塞进一个已经确定的古代时间表。你的历史，留下了身体的某些痕迹。你的今天，则让我们看见，这副身体能够怎样使用。两种线索，彼此帮助，却不能完全代替。
+
+组合：P1；2x2_tile
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 章鱼安静藏在礁石阴影，现代场景，不配虚构古年代。独立新构图的低机位宽景，主体在左侧三分之一，前景细砂或石纹、中景主体、远景水光，主体占宽约15%，不是上一图裁切或放大。One anatomically coherent octopus unless explicitly specified otherwise: one mantle, one head, eight arms belonging to this animal, natural occlusion allowed; never force every arm into view or add arms. Suckers on ventral arm surfaces, no squid feeding tentacles, no human fingers. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：不生成模型动态
+
+## ch06-b01-s01
+
+对应口播：这一片海底，铺着细细的沙。附近没有刚才那样的岩缝。你很容易被看见，周围的遮挡也少了许多。我们换到章鱼家族的另一条支线，看看有些亲族怎样面对这个问题。
+
+组合：V3；2x2_tile
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 宽阔热带火山沙地，少量海底孔洞，暂无章鱼，丰富沙粒纹理。侧面环境中景，主体在右侧三分之一，前景低矮岩缘、中景主体、远景蓝色海水，主体占宽约25%，保留左侧空间。Preserve only the explicitly described subject and species anatomy; do not add an octopus or substitute another species. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：One continuous original-speed calm shot. 宽阔热带火山沙地，少量海底孔洞，暂无章鱼，丰富沙粒纹理。水中细颗粒轻移。 Preserve identity, anatomy, arm count, suckers, eyes, attached eggs and rock geometry. No cuts, shake, flicker, blur pulses, morphing, hatching, predation, sudden objects, reverse, speed ramps or generated audio.
+
+## ch06-b01-s02
+
+对应口播：这一片海底，铺着细细的沙。附近没有刚才那样的岩缝。你很容易被看见，周围的遮挡也少了许多。我们换到章鱼家族的另一条支线，看看有些亲族怎样面对这个问题。
+
+组合：P1；2x2_tile
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 宽阔热带火山沙地，少量海底孔洞，暂无章鱼，丰富沙粒纹理。独立新构图的低机位宽景，主体在左侧三分之一，前景细砂或石纹、中景主体、远景水光，主体占宽约15%，不是上一图裁切或放大。Preserve only the explicitly described subject and species anatomy; do not add an octopus or substitute another species. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：不生成模型动态
+
+## ch06-b02-s01
+
+对应口播：其中，有一种被人们称为拟态章鱼。
+
+组合：V3；single
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 单只拟态章鱼在沙地，细长八腕、自然黑白条纹，禁止小飞象鳍。侧面环境中景，主体在右侧三分之一，前景低矮岩缘、中景主体、远景蓝色海水，主体占宽约25%，保留左侧空间。Preserve only the explicitly described subject and species anatomy; do not add an octopus or substitute another species. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：One continuous original-speed calm shot. 单只拟态章鱼在沙地，细长八腕、自然黑白条纹，禁止小飞象鳍。一条腕足末端小幅移动。 Preserve identity, anatomy, arm count, suckers, eyes, attached eggs and rock geometry. No cuts, shake, flicker, blur pulses, morphing, hatching, predation, sudden objects, reverse, speed ramps or generated audio.
+
+## ch06-b02-s02
+
+对应口播：其中，有一种被人们称为拟态章鱼。
+
+组合：P1；single
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 单只拟态章鱼在沙地，细长八腕、自然黑白条纹，禁止小飞象鳍。独立新构图的低机位宽景，主体在左侧三分之一，前景细砂或石纹、中景主体、远景水光，主体占宽约15%，不是上一图裁切或放大。Preserve only the explicitly described subject and species anatomy; do not add an octopus or substitute another species. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：不生成模型动态
+
+## ch06-b03-s01
+
+对应口播：它能够借身体的颜色、轮廓和动作，呈现出与某些其他海洋动物相似的样子。有些姿态，让观察者想起狮子鱼、比目鱼或海蛇。这并不意味着，它在头脑里收藏了一本动物图鉴，先选好角色，再进行一场有意识的表演。我们能观察到行为，也能研究行为产生的效果。至于它当时怎样体验世界，不能直接按人类的想法填写。
+
+组合：P1；single
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 拟态章鱼保持展平的既定自然姿态在沙地，禁止变成鱼蛇或混种。侧面环境中景，主体在右侧三分之一，前景低矮岩缘、中景主体、远景蓝色海水，主体占宽约25%，保留左侧空间。Preserve only the explicitly described subject and species anatomy; do not add an octopus or substitute another species. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：不生成模型动态
+
+## ch06-b03-s02
+
+对应口播：它能够借身体的颜色、轮廓和动作，呈现出与某些其他海洋动物相似的样子。有些姿态，让观察者想起狮子鱼、比目鱼或海蛇。这并不意味着，它在头脑里收藏了一本动物图鉴，先选好角色，再进行一场有意识的表演。我们能观察到行为，也能研究行为产生的效果。至于它当时怎样体验世界，不能直接按人类的想法填写。
+
+组合：P1；single
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 拟态章鱼保持展平的既定自然姿态在沙地，禁止变成鱼蛇或混种。独立新构图的低机位宽景，主体在左侧三分之一，前景细砂或石纹、中景主体、远景水光，主体占宽约15%，不是上一图裁切或放大。Preserve only the explicitly described subject and species anatomy; do not add an octopus or substitute another species. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：不生成模型动态
+
+## ch06-b04-s01
+
+对应口播：换一种轮廓，可能让追捕者犹豫。更贴近背景，也可能帮助它靠近猎物。究竟是哪一种效果，要看具体的动物、动作和环境。它是章鱼众多生活方式中的一种，不是所有章鱼最后都会获得的本领。
+
+组合：V3；single
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 拟态章鱼低机位侧面与宽阔沙地，远处鱼小且模糊。侧面环境中景，主体在右侧三分之一，前景低矮岩缘、中景主体、远景蓝色海水，主体占宽约25%，保留左侧空间。Preserve only the explicitly described subject and species anatomy; do not add an octopus or substitute another species. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：One continuous original-speed calm shot. 拟态章鱼低机位侧面与宽阔沙地，远处鱼小且模糊。背景颗粒轻移。 Preserve identity, anatomy, arm count, suckers, eyes, attached eggs and rock geometry. No cuts, shake, flicker, blur pulses, morphing, hatching, predation, sudden objects, reverse, speed ramps or generated audio.
+
+## ch06-b04-s02
+
+对应口播：换一种轮廓，可能让追捕者犹豫。更贴近背景，也可能帮助它靠近猎物。究竟是哪一种效果，要看具体的动物、动作和环境。它是章鱼众多生活方式中的一种，不是所有章鱼最后都会获得的本领。
+
+组合：P1；single
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 拟态章鱼低机位侧面与宽阔沙地，远处鱼小且模糊。独立新构图的低机位宽景，主体在左侧三分之一，前景细砂或石纹、中景主体、远景水光，主体占宽约15%，不是上一图裁切或放大。Preserve only the explicitly described subject and species anatomy; do not add an octopus or substitute another species. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：不生成模型动态
+
+## ch06-b05-s01
+
+对应口播：再往更深的海里走。光渐渐少了，水温降低。礁石上密集的活动，换成了更稀疏的相遇。这里的食物，并不总能轻易找到。有些章鱼亲族在这样的世界生活。
+
+组合：V3；2x2_tile
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 深海广阔水层，冷蓝暗光、海雪、无阳光柱到达深渊。侧面环境中景，主体在右侧三分之一，前景低矮岩缘、中景主体、远景蓝色海水，主体占宽约25%，保留左侧空间。Preserve only the explicitly described subject and species anatomy; do not add an octopus or substitute another species. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：One continuous original-speed calm shot. 深海广阔水层，冷蓝暗光、海雪、无阳光柱到达深渊。海雪颗粒缓慢下沉。 Preserve identity, anatomy, arm count, suckers, eyes, attached eggs and rock geometry. No cuts, shake, flicker, blur pulses, morphing, hatching, predation, sudden objects, reverse, speed ramps or generated audio.
+
+## ch06-b05-s02
+
+对应口播：再往更深的海里走。光渐渐少了，水温降低。礁石上密集的活动，换成了更稀疏的相遇。这里的食物，并不总能轻易找到。有些章鱼亲族在这样的世界生活。
+
+组合：P1；2x2_tile
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 深海广阔水层，冷蓝暗光、海雪、无阳光柱到达深渊。独立新构图的低机位宽景，主体在左侧三分之一，前景细砂或石纹、中景主体、远景水光，主体占宽约15%，不是上一图裁切或放大。Preserve only the explicitly described subject and species anatomy; do not add an octopus or substitute another species. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：不生成模型动态
+
+## ch06-b06-s01
+
+对应口播：你也许见过一种深海章鱼，身体两侧的鳍像一对小耳朵，因而得到了小飞象章鱼这样的名字。它们可以借鳍和腕足间的组织活动，不必照搬浅海岩缝里的生活方式。
+
+组合：V3；single
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 单只小飞象章鱼，圆润外套膜两侧一对天然鳍、腕间蹼、八腕，禁止条纹拟态章鱼。侧面环境中景，主体在右侧三分之一，前景低矮岩缘、中景主体、远景蓝色海水，主体占宽约25%，保留左侧空间。Preserve only the explicitly described subject and species anatomy; do not add an octopus or substitute another species. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：One continuous original-speed calm shot. 单只小飞象章鱼，圆润外套膜两侧一对天然鳍、腕间蹼、八腕，禁止条纹拟态章鱼。一对已有小鳍轻轻摆动，不增加鳍。 Preserve identity, anatomy, arm count, suckers, eyes, attached eggs and rock geometry. No cuts, shake, flicker, blur pulses, morphing, hatching, predation, sudden objects, reverse, speed ramps or generated audio.
+
+## ch06-b06-s02
+
+对应口播：你也许见过一种深海章鱼，身体两侧的鳍像一对小耳朵，因而得到了小飞象章鱼这样的名字。它们可以借鳍和腕足间的组织活动，不必照搬浅海岩缝里的生活方式。
+
+组合：P1；single
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 单只小飞象章鱼，圆润外套膜两侧一对天然鳍、腕间蹼、八腕，禁止条纹拟态章鱼。独立新构图的低机位宽景，主体在左侧三分之一，前景细砂或石纹、中景主体、远景水光，主体占宽约15%，不是上一图裁切或放大。Preserve only the explicitly described subject and species anatomy; do not add an octopus or substitute another species. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：不生成模型动态
+
+## ch06-b07-s01
+
+对应口播：没有强烈阳光的海底，伪装面对的问题也与浅海不同。身体的形态、活动方式和生活节奏，要适应另一些条件。这里不是浅海章鱼通关以后，才能进入的高级地图。深海与浅海，是不同的环境。各条支线都在自己的条件下延续，没有一条天然更先进。
+
+组合：V3；single
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 深海小飞象章鱼远景悬浮，海雪与黑暗纵深，不画人工灯和城市。侧面环境中景，主体在右侧三分之一，前景低矮岩缘、中景主体、远景蓝色海水，主体占宽约25%，保留左侧空间。Preserve only the explicitly described subject and species anatomy; do not add an octopus or substitute another species. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：One continuous original-speed calm shot. 深海小飞象章鱼远景悬浮，海雪与黑暗纵深，不画人工灯和城市。海雪下沉，已有鳍微动。 Preserve identity, anatomy, arm count, suckers, eyes, attached eggs and rock geometry. No cuts, shake, flicker, blur pulses, morphing, hatching, predation, sudden objects, reverse, speed ramps or generated audio.
+
+## ch06-b07-s02
+
+对应口播：没有强烈阳光的海底，伪装面对的问题也与浅海不同。身体的形态、活动方式和生活节奏，要适应另一些条件。这里不是浅海章鱼通关以后，才能进入的高级地图。深海与浅海，是不同的环境。各条支线都在自己的条件下延续，没有一条天然更先进。
+
+组合：P1；single
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 深海小飞象章鱼远景悬浮，海雪与黑暗纵深，不画人工灯和城市。独立新构图的低机位宽景，主体在左侧三分之一，前景细砂或石纹、中景主体、远景水光，主体占宽约15%，不是上一图裁切或放大。Preserve only the explicitly described subject and species anatomy; do not add an octopus or substitute another species. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：不生成模型动态
+
+## ch06-b08-s01
+
+对应口播：有些亲族更常贴近海底，有些利用开阔的水层。有些幼体会经历漂浮生活，有些孵化后就更接近海底。章鱼这个名字下面，放着许多并不相同的一生。
+
+组合：V3；2x2_tile
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 单只幼小浅海章鱼在蓝色水层中漂浮，细小透明轮廓，不复制群体。侧面环境中景，主体在右侧三分之一，前景低矮岩缘、中景主体、远景蓝色海水，主体占宽约25%，保留左侧空间。One anatomically coherent octopus unless explicitly specified otherwise: one mantle, one head, eight arms belonging to this animal, natural occlusion allowed; never force every arm into view or add arms. Suckers on ventral arm surfaces, no squid feeding tentacles, no human fingers. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：One continuous original-speed calm shot. 单只幼小浅海章鱼在蓝色水层中漂浮，细小透明轮廓，不复制群体。周围颗粒轻移。 Preserve identity, anatomy, arm count, suckers, eyes, attached eggs and rock geometry. No cuts, shake, flicker, blur pulses, morphing, hatching, predation, sudden objects, reverse, speed ramps or generated audio.
+
+## ch06-b08-s02
+
+对应口播：有些亲族更常贴近海底，有些利用开阔的水层。有些幼体会经历漂浮生活，有些孵化后就更接近海底。章鱼这个名字下面，放着许多并不相同的一生。
+
+组合：P1；2x2_tile
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 单只幼小浅海章鱼在蓝色水层中漂浮，细小透明轮廓，不复制群体。独立新构图的低机位宽景，主体在左侧三分之一，前景细砂或石纹、中景主体、远景水光，主体占宽约15%，不是上一图裁切或放大。One anatomically coherent octopus unless explicitly specified otherwise: one mantle, one head, eight arms belonging to this animal, natural occlusion allowed; never force every arm into view or add arms. Suckers on ventral arm surfaces, no squid feeding tentacles, no human fingers. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：不生成模型动态
+
+## ch06-b09-s01
+
+对应口播：为了继续讲你的故事，我们回到那片有岩石、有沙地，也有足够光线的海域。你从洞口出来。这里已经不完全陌生。某块石头下面有没有缝，哪一处水流带着食物的线索，你开始有了自己的经验。没有壳，并没有让你的生活变得简单。它给了你自由，也让你需要不断观察、试探和调整。你的身体适合变化。而接下来，你还要学会，怎样面对变化。
+
+组合：V3；2x2_tile
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 回到浅海礁石章鱼，岩缝、沙地与金色反光，明确与深海不同场景。侧面环境中景，主体在右侧三分之一，前景低矮岩缘、中景主体、远景蓝色海水，主体占宽约25%，保留左侧空间。One anatomically coherent octopus unless explicitly specified otherwise: one mantle, one head, eight arms belonging to this animal, natural occlusion allowed; never force every arm into view or add arms. Suckers on ventral arm surfaces, no squid feeding tentacles, no human fingers. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：One continuous original-speed calm shot. 回到浅海礁石章鱼，岩缝、沙地与金色反光，明确与深海不同场景。一条已有腕端探索。 Preserve identity, anatomy, arm count, suckers, eyes, attached eggs and rock geometry. No cuts, shake, flicker, blur pulses, morphing, hatching, predation, sudden objects, reverse, speed ramps or generated audio.
+
+## ch06-b09-s02
+
+对应口播：为了继续讲你的故事，我们回到那片有岩石、有沙地，也有足够光线的海域。你从洞口出来。这里已经不完全陌生。某块石头下面有没有缝，哪一处水流带着食物的线索，你开始有了自己的经验。没有壳，并没有让你的生活变得简单。它给了你自由，也让你需要不断观察、试探和调整。你的身体适合变化。而接下来，你还要学会，怎样面对变化。
+
+组合：P1；2x2_tile
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 回到浅海礁石章鱼，岩缝、沙地与金色反光，明确与深海不同场景。独立新构图的低机位宽景，主体在左侧三分之一，前景细砂或石纹、中景主体、远景水光，主体占宽约15%，不是上一图裁切或放大。One anatomically coherent octopus unless explicitly specified otherwise: one mantle, one head, eight arms belonging to this animal, natural occlusion allowed; never force every arm into view or add arms. Suckers on ventral arm surfaces, no squid feeding tentacles, no human fingers. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：不生成模型动态
+
+## ch07-b01-s01
+
+对应口播：你又来到那块倾斜的岩石下面。上一次，这里藏着一只螃蟹。你从正面伸出腕足，碰到的却是一对张开的钳子。那顿饭，没有顺利得到。
+
+组合：V3；2x2_tile
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 章鱼停在倾斜岩石侧面，螃蟹隐藏于深处，不重演失败搏斗。侧面环境中景，主体在右侧三分之一，前景低矮岩缘、中景主体、远景蓝色海水，主体占宽约25%，保留左侧空间。One anatomically coherent octopus unless explicitly specified otherwise: one mantle, one head, eight arms belonging to this animal, natural occlusion allowed; never force every arm into view or add arms. Suckers on ventral arm surfaces, no squid feeding tentacles, no human fingers. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：One continuous original-speed calm shot. 章鱼停在倾斜岩石侧面，螃蟹隐藏于深处，不重演失败搏斗。背景颗粒轻移。 Preserve identity, anatomy, arm count, suckers, eyes, attached eggs and rock geometry. No cuts, shake, flicker, blur pulses, morphing, hatching, predation, sudden objects, reverse, speed ramps or generated audio.
+
+## ch07-b01-s02
+
+对应口播：你又来到那块倾斜的岩石下面。上一次，这里藏着一只螃蟹。你从正面伸出腕足，碰到的却是一对张开的钳子。那顿饭，没有顺利得到。
+
+组合：P1；2x2_tile
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 章鱼停在倾斜岩石侧面，螃蟹隐藏于深处，不重演失败搏斗。独立新构图的低机位宽景，主体在左侧三分之一，前景细砂或石纹、中景主体、远景水光，主体占宽约15%，不是上一图裁切或放大。One anatomically coherent octopus unless explicitly specified otherwise: one mantle, one head, eight arms belonging to this animal, natural occlusion allowed; never force every arm into view or add arms. Suckers on ventral arm surfaces, no squid feeding tentacles, no human fingers. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：不生成模型动态
+
+## ch07-b02-s01
+
+对应口播：这一次，你没有立刻伸进去。你沿着石面移动，先试探另一侧。这样的场景，是我们借习性构建的想象。但章鱼可以学习、形成记忆，并根据经验改变一些行为，这件事有实验和观察支持。
+
+组合：V3；2x2_tile
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 章鱼从岩石另一侧接近，构图明确可行路线，未接触猎物。侧面环境中景，主体在右侧三分之一，前景低矮岩缘、中景主体、远景蓝色海水，主体占宽约25%，保留左侧空间。One anatomically coherent octopus unless explicitly specified otherwise: one mantle, one head, eight arms belonging to this animal, natural occlusion allowed; never force every arm into view or add arms. Suckers on ventral arm surfaces, no squid feeding tentacles, no human fingers. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：One continuous original-speed calm shot. 章鱼从岩石另一侧接近，构图明确可行路线，未接触猎物。一条已有腕端轻探。 Preserve identity, anatomy, arm count, suckers, eyes, attached eggs and rock geometry. No cuts, shake, flicker, blur pulses, morphing, hatching, predation, sudden objects, reverse, speed ramps or generated audio.
+
+## ch07-b02-s02
+
+对应口播：这一次，你没有立刻伸进去。你沿着石面移动，先试探另一侧。这样的场景，是我们借习性构建的想象。但章鱼可以学习、形成记忆，并根据经验改变一些行为，这件事有实验和观察支持。
+
+组合：P1；2x2_tile
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 章鱼从岩石另一侧接近，构图明确可行路线，未接触猎物。独立新构图的低机位宽景，主体在左侧三分之一，前景细砂或石纹、中景主体、远景水光，主体占宽约15%，不是上一图裁切或放大。One anatomically coherent octopus unless explicitly specified otherwise: one mantle, one head, eight arms belonging to this animal, natural occlusion allowed; never force every arm into view or add arms. Suckers on ventral arm surfaces, no squid feeding tentacles, no human fingers. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：不生成模型动态
+
+## ch07-b03-s01
+
+对应口播：对你来说，学习不是坐在一张桌子前，听别人告诉你答案。它发生在吸盘触碰石头的时候，在一个办法没有奏效的时候，也发生在你再次遇见相似情形的时候。环境里有规律。不是每一道阴影都危险，不是每一条缝隙都有食物。对这些差别作出反应，能让生活更有效率。
+
+组合：V3；2x2_tile
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 章鱼腕端触石，近景材质细腻，不放教室桌椅。独立细节近景，关键材质占画面约50%，仍保留自然连接与环境，侧面柔光。One anatomically coherent octopus unless explicitly specified otherwise: one mantle, one head, eight arms belonging to this animal, natural occlusion allowed; never force every arm into view or add arms. Suckers on ventral arm surfaces, no squid feeding tentacles, no human fingers. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：One continuous original-speed calm shot. 章鱼腕端触石，近景材质细腻，不放教室桌椅。微小腕端探索。 Preserve identity, anatomy, arm count, suckers, eyes, attached eggs and rock geometry. No cuts, shake, flicker, blur pulses, morphing, hatching, predation, sudden objects, reverse, speed ramps or generated audio.
+
+## ch07-b03-s02
+
+对应口播：对你来说，学习不是坐在一张桌子前，听别人告诉你答案。它发生在吸盘触碰石头的时候，在一个办法没有奏效的时候，也发生在你再次遇见相似情形的时候。环境里有规律。不是每一道阴影都危险，不是每一条缝隙都有食物。对这些差别作出反应，能让生活更有效率。
+
+组合：P1；2x2_tile
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 章鱼腕端触石，近景材质细腻，不放教室桌椅。独立斜侧中景，将同一知识点放回真实栖息环境，主体占画面约30%，不裁切前图。One anatomically coherent octopus unless explicitly specified otherwise: one mantle, one head, eight arms belonging to this animal, natural occlusion allowed; never force every arm into view or add arms. Suckers on ventral arm surfaces, no squid feeding tentacles, no human fingers. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：不生成模型动态
+
+## ch07-b04-s01
+
+对应口播：在实验环境里，有些章鱼能区分不同线索，学习得到食物的办法，也能应对一些需要操作的物体。
+
+组合：V3；single
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 简洁真实海水研究缸内一只章鱼与一个透明食品容器，无标志文字无实验图表。侧面环境中景，主体在右侧三分之一，前景低矮岩缘、中景主体、远景蓝色海水，主体占宽约25%，保留左侧空间。One anatomically coherent octopus unless explicitly specified otherwise: one mantle, one head, eight arms belonging to this animal, natural occlusion allowed; never force every arm into view or add arms. Suckers on ventral arm surfaces, no squid feeding tentacles, no human fingers. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：One continuous original-speed calm shot. 简洁真实海水研究缸内一只章鱼与一个透明食品容器，无标志文字无实验图表。背景水流轻移，容器静止。 Preserve identity, anatomy, arm count, suckers, eyes, attached eggs and rock geometry. No cuts, shake, flicker, blur pulses, morphing, hatching, predation, sudden objects, reverse, speed ramps or generated audio.
+
+## ch07-b04-s02
+
+对应口播：在实验环境里，有些章鱼能区分不同线索，学习得到食物的办法，也能应对一些需要操作的物体。
+
+组合：P1；single
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 简洁真实海水研究缸内一只章鱼与一个透明食品容器，无标志文字无实验图表。独立新构图的低机位宽景，主体在左侧三分之一，前景细砂或石纹、中景主体、远景水光，主体占宽约15%，不是上一图裁切或放大。One anatomically coherent octopus unless explicitly specified otherwise: one mantle, one head, eight arms belonging to this animal, natural occlusion allowed; never force every arm into view or add arms. Suckers on ventral arm surfaces, no squid feeding tentacles, no human fingers. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：不生成模型动态
+
+## ch07-b05-s01
+
+对应口播：人们尤其喜欢看它们打开容器。柔软的腕足贴住表面，吸盘固定位置，身体不断试探。一件对其他动物不容易操作的东西，在它这里，也许有不同的解法。
+
+组合：P1；single
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 章鱼腕足贴着关闭的透明容器，器皿边缘结构可信，不生成打开过程。侧面环境中景，主体在右侧三分之一，前景低矮岩缘、中景主体、远景蓝色海水，主体占宽约25%，保留左侧空间。One anatomically coherent octopus unless explicitly specified otherwise: one mantle, one head, eight arms belonging to this animal, natural occlusion allowed; never force every arm into view or add arms. Suckers on ventral arm surfaces, no squid feeding tentacles, no human fingers. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：不生成模型动态
+
+## ch07-b05-s02
+
+对应口播：人们尤其喜欢看它们打开容器。柔软的腕足贴住表面，吸盘固定位置，身体不断试探。一件对其他动物不容易操作的东西，在它这里，也许有不同的解法。
+
+组合：P1；single
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 章鱼腕足贴着关闭的透明容器，器皿边缘结构可信，不生成打开过程。独立新构图的低机位宽景，主体在左侧三分之一，前景细砂或石纹、中景主体、远景水光，主体占宽约15%，不是上一图裁切或放大。One anatomically coherent octopus unless explicitly specified otherwise: one mantle, one head, eight arms belonging to this animal, natural occlusion allowed; never force every arm into view or add arms. Suckers on ventral arm surfaces, no squid feeding tentacles, no human fingers. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：不生成模型动态
+
+## ch07-b06-s01
+
+对应口播：不过，一段精彩的视频，并不意味着每一只章鱼都能解决同一个问题。实验条件、以前的经验、个体的状态，都可能影响表现。把聪明说得太神奇，反而会让我们忽略它真正的样子。你没有永远正确。你也会探索没有收获的地方，会碰到危险，会暂时找不到办法。你能做的，是在一些情形里调整行为，而不是凭空知道所有答案。
+
+组合：V3；single
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 研究缸章鱼独立新角度，容器在远处而非主体，安静停留。侧面环境中景，主体在右侧三分之一，前景低矮岩缘、中景主体、远景蓝色海水，主体占宽约25%，保留左侧空间。One anatomically coherent octopus unless explicitly specified otherwise: one mantle, one head, eight arms belonging to this animal, natural occlusion allowed; never force every arm into view or add arms. Suckers on ventral arm surfaces, no squid feeding tentacles, no human fingers. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：One continuous original-speed calm shot. 研究缸章鱼独立新角度，容器在远处而非主体，安静停留。已有腕端小幅活动。 Preserve identity, anatomy, arm count, suckers, eyes, attached eggs and rock geometry. No cuts, shake, flicker, blur pulses, morphing, hatching, predation, sudden objects, reverse, speed ramps or generated audio.
+
+## ch07-b06-s02
+
+对应口播：不过，一段精彩的视频，并不意味着每一只章鱼都能解决同一个问题。实验条件、以前的经验、个体的状态，都可能影响表现。把聪明说得太神奇，反而会让我们忽略它真正的样子。你没有永远正确。你也会探索没有收获的地方，会碰到危险，会暂时找不到办法。你能做的，是在一些情形里调整行为，而不是凭空知道所有答案。
+
+组合：P1；single
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 研究缸章鱼独立新角度，容器在远处而非主体，安静停留。独立新构图的低机位宽景，主体在左侧三分之一，前景细砂或石纹、中景主体、远景水光，主体占宽约15%，不是上一图裁切或放大。One anatomically coherent octopus unless explicitly specified otherwise: one mantle, one head, eight arms belonging to this animal, natural occlusion allowed; never force every arm into view or add arms. Suckers on ventral arm surfaces, no squid feeding tentacles, no human fingers. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：不生成模型动态
+
+## ch07-b07-s01
+
+对应口播：一只螃蟹从石头后面露出一点身体。你绕过它的正面，改变接触的位置。这一次，猎物退进的地方，恰好更方便你伸入腕足。成功没有带来一阵掌声。你只是得到了一顿饭。对于海底的生命，这已经很重要。食物帮助身体成长，也支持下一次探索。少受一次伤，就可能多留下一次繁殖的机会。
+
+组合：V3；2x2_tile
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 章鱼在倾斜石另一侧，一只螃蟹处于可接近的狭小空隙，不做抓捕。侧面环境中景，主体在右侧三分之一，前景低矮岩缘、中景主体、远景蓝色海水，主体占宽约25%，保留左侧空间。One anatomically coherent octopus unless explicitly specified otherwise: one mantle, one head, eight arms belonging to this animal, natural occlusion allowed; never force every arm into view or add arms. Suckers on ventral arm surfaces, no squid feeding tentacles, no human fingers. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：One continuous original-speed calm shot. 章鱼在倾斜石另一侧，一只螃蟹处于可接近的狭小空隙，不做抓捕。环境悬浮颗粒轻移。 Preserve identity, anatomy, arm count, suckers, eyes, attached eggs and rock geometry. No cuts, shake, flicker, blur pulses, morphing, hatching, predation, sudden objects, reverse, speed ramps or generated audio.
+
+## ch07-b07-s02
+
+对应口播：一只螃蟹从石头后面露出一点身体。你绕过它的正面，改变接触的位置。这一次，猎物退进的地方，恰好更方便你伸入腕足。成功没有带来一阵掌声。你只是得到了一顿饭。对于海底的生命，这已经很重要。食物帮助身体成长，也支持下一次探索。少受一次伤，就可能多留下一次繁殖的机会。
+
+组合：P1；2x2_tile
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 章鱼在倾斜石另一侧，一只螃蟹处于可接近的狭小空隙，不做抓捕。独立新构图的低机位宽景，主体在左侧三分之一，前景细砂或石纹、中景主体、远景水光，主体占宽约15%，不是上一图裁切或放大。One anatomically coherent octopus unless explicitly specified otherwise: one mantle, one head, eight arms belonging to this animal, natural occlusion allowed; never force every arm into view or add arms. Suckers on ventral arm surfaces, no squid feeding tentacles, no human fingers. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：不生成模型动态
+
+## ch07-b08-s01
+
+对应口播：你的聪明，不是悬在生活之外的一件奖品。它就在生活里面。你用它选择方向，认识物体，调整捕猎方式。身体的局部控制和中枢的协调，也让你能够应对形状复杂的海底。如果聪明在这里有价值，它就不需要先变成人类的那一种，才算数。
+
+组合：V3；2x2_tile
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 章鱼探索有三层岩礁的开阔海床，前景粗石、主体中景、远景水光。侧面环境中景，主体在右侧三分之一，前景低矮岩缘、中景主体、远景蓝色海水，主体占宽约25%，保留左侧空间。One anatomically coherent octopus unless explicitly specified otherwise: one mantle, one head, eight arms belonging to this animal, natural occlusion allowed; never force every arm into view or add arms. Suckers on ventral arm surfaces, no squid feeding tentacles, no human fingers. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：One continuous original-speed calm shot. 章鱼探索有三层岩礁的开阔海床，前景粗石、主体中景、远景水光。一条已有腕端探查。 Preserve identity, anatomy, arm count, suckers, eyes, attached eggs and rock geometry. No cuts, shake, flicker, blur pulses, morphing, hatching, predation, sudden objects, reverse, speed ramps or generated audio.
+
+## ch07-b08-s02
+
+对应口播：你的聪明，不是悬在生活之外的一件奖品。它就在生活里面。你用它选择方向，认识物体，调整捕猎方式。身体的局部控制和中枢的协调，也让你能够应对形状复杂的海底。如果聪明在这里有价值，它就不需要先变成人类的那一种，才算数。
+
+组合：P1；2x2_tile
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 章鱼探索有三层岩礁的开阔海床，前景粗石、主体中景、远景水光。独立新构图的低机位宽景，主体在左侧三分之一，前景细砂或石纹、中景主体、远景水光，主体占宽约15%，不是上一图裁切或放大。One anatomically coherent octopus unless explicitly specified otherwise: one mantle, one head, eight arms belonging to this animal, natural occlusion allowed; never force every arm into view or add arms. Suckers on ventral arm surfaces, no squid feeding tentacles, no human fingers. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：不生成模型动态
+
+## ch07-b09-s01
+
+对应口播：可是，人类还是会忍不住继续问。既然你这么会学习，为什么海底没有出现章鱼的城市？为什么我们看到的，仍然是一个个独自探索的身体？要回答这个问题，目光就不能只停在你这一次怎样抓住螃蟹。我们还得看看，你能把什么留给下一代。
+
+组合：V3；2x2_tile
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 独处章鱼望向空旷海底，不画章鱼城市、人类工程师或文明阶梯。侧面环境中景，主体在右侧三分之一，前景低矮岩缘、中景主体、远景蓝色海水，主体占宽约25%，保留左侧空间。One anatomically coherent octopus unless explicitly specified otherwise: one mantle, one head, eight arms belonging to this animal, natural occlusion allowed; never force every arm into view or add arms. Suckers on ventral arm surfaces, no squid feeding tentacles, no human fingers. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：One continuous original-speed calm shot. 独处章鱼望向空旷海底，不画章鱼城市、人类工程师或文明阶梯。柔和悬浮颗粒移动。 Preserve identity, anatomy, arm count, suckers, eyes, attached eggs and rock geometry. No cuts, shake, flicker, blur pulses, morphing, hatching, predation, sudden objects, reverse, speed ramps or generated audio.
+
+## ch07-b09-s02
+
+对应口播：可是，人类还是会忍不住继续问。既然你这么会学习，为什么海底没有出现章鱼的城市？为什么我们看到的，仍然是一个个独自探索的身体？要回答这个问题，目光就不能只停在你这一次怎样抓住螃蟹。我们还得看看，你能把什么留给下一代。
+
+组合：P1；2x2_tile
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 独处章鱼望向空旷海底，不画章鱼城市、人类工程师或文明阶梯。独立新构图的低机位宽景，主体在左侧三分之一，前景细砂或石纹、中景主体、远景水光，主体占宽约15%，不是上一图裁切或放大。One anatomically coherent octopus unless explicitly specified otherwise: one mantle, one head, eight arms belonging to this animal, natural occlusion allowed; never force every arm into view or add arms. Suckers on ventral arm surfaces, no squid feeding tentacles, no human fingers. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：不生成模型动态
+
+## ch08-b01-s01
+
+对应口播：你认识这块岩石。你也认识附近那道更窄的缝。水流往哪个方向走，哪一处能暂时藏身，你已经积累了一些经验。但假如下一代来到这里，它会知道吗？
+
+组合：V3；single
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 章鱼在熟悉岩缝前安静停留，细腻石面与吸盘，单个主体。侧面环境中景，主体在右侧三分之一，前景低矮岩缘、中景主体、远景蓝色海水，主体占宽约25%，保留左侧空间。One anatomically coherent octopus unless explicitly specified otherwise: one mantle, one head, eight arms belonging to this animal, natural occlusion allowed; never force every arm into view or add arms. Suckers on ventral arm surfaces, no squid feeding tentacles, no human fingers. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：One continuous original-speed calm shot. 章鱼在熟悉岩缝前安静停留，细腻石面与吸盘，单个主体。已有腕端微动。 Preserve identity, anatomy, arm count, suckers, eyes, attached eggs and rock geometry. No cuts, shake, flicker, blur pulses, morphing, hatching, predation, sudden objects, reverse, speed ramps or generated audio.
+
+## ch08-b01-s02
+
+对应口播：你认识这块岩石。你也认识附近那道更窄的缝。水流往哪个方向走，哪一处能暂时藏身，你已经积累了一些经验。但假如下一代来到这里，它会知道吗？
+
+组合：P1；single
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 章鱼在熟悉岩缝前安静停留，细腻石面与吸盘，单个主体。独立新构图的低机位宽景，主体在左侧三分之一，前景细砂或石纹、中景主体、远景水光，主体占宽约15%，不是上一图裁切或放大。One anatomically coherent octopus unless explicitly specified otherwise: one mantle, one head, eight arms belonging to this animal, natural occlusion allowed; never force every arm into view or add arms. Suckers on ventral arm surfaces, no squid feeding tentacles, no human fingers. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：不生成模型动态
+
+## ch08-b02-s01
+
+对应口播：你的记忆，不会像身体的一些遗传特征那样，直接写进孩子的身体。它们可以继承学习和感知所依赖的能力，却不会天生知道，你昨天在哪里抓到过螃蟹。这并不是章鱼特别失败的地方。许多动物都面临同样的问题。一个个体学会的具体事情，通常不能仅靠繁殖，变成后代已经拥有的记忆。
+
+组合：V3；2x2_tile
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 另一处独立场景中的幼小章鱼，岩石尺度更大，不画记忆传输特效。侧面环境中景，主体在右侧三分之一，前景低矮岩缘、中景主体、远景蓝色海水，主体占宽约25%，保留左侧空间。One anatomically coherent octopus unless explicitly specified otherwise: one mantle, one head, eight arms belonging to this animal, natural occlusion allowed; never force every arm into view or add arms. Suckers on ventral arm surfaces, no squid feeding tentacles, no human fingers. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：One continuous original-speed calm shot. 另一处独立场景中的幼小章鱼，岩石尺度更大，不画记忆传输特效。悬浮颗粒漂移。 Preserve identity, anatomy, arm count, suckers, eyes, attached eggs and rock geometry. No cuts, shake, flicker, blur pulses, morphing, hatching, predation, sudden objects, reverse, speed ramps or generated audio.
+
+## ch08-b02-s02
+
+对应口播：你的记忆，不会像身体的一些遗传特征那样，直接写进孩子的身体。它们可以继承学习和感知所依赖的能力，却不会天生知道，你昨天在哪里抓到过螃蟹。这并不是章鱼特别失败的地方。许多动物都面临同样的问题。一个个体学会的具体事情，通常不能仅靠繁殖，变成后代已经拥有的记忆。
+
+组合：P1；2x2_tile
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 另一处独立场景中的幼小章鱼，岩石尺度更大，不画记忆传输特效。独立新构图的低机位宽景，主体在左侧三分之一，前景细砂或石纹、中景主体、远景水光，主体占宽约15%，不是上一图裁切或放大。One anatomically coherent octopus unless explicitly specified otherwise: one mantle, one head, eight arms belonging to this animal, natural occlusion allowed; never force every arm into view or add arms. Suckers on ventral arm surfaces, no squid feeding tentacles, no human fingers. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：不生成模型动态
+
+## ch08-b03-s01
+
+对应口播：经验想留下来，还需要另一条路。在一些动物中，后代可以长时间跟着亲代生活，看它怎样寻找食物，怎样应对危险。群体成员之间的观察和模仿，也可能帮助行为传播。到了人类这里，语言、长期共同生活和外部记录，让知识能够跨过一个人的生命。后来的孩子，不必亲自失败一次，才知道所有事情。
+
+组合：V3；2x2_tile
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 两只同种章鱼远距离处于不同洞穴入口，各自完整，无亲子教学动作。侧面环境中景，主体在右侧三分之一，前景低矮岩缘、中景主体、远景蓝色海水，主体占宽约25%，保留左侧空间。One anatomically coherent octopus unless explicitly specified otherwise: one mantle, one head, eight arms belonging to this animal, natural occlusion allowed; never force every arm into view or add arms. Suckers on ventral arm surfaces, no squid feeding tentacles, no human fingers. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：One continuous original-speed calm shot. 两只同种章鱼远距离处于不同洞穴入口，各自完整，无亲子教学动作。背景颗粒漂移，不交互。 Preserve identity, anatomy, arm count, suckers, eyes, attached eggs and rock geometry. No cuts, shake, flicker, blur pulses, morphing, hatching, predation, sudden objects, reverse, speed ramps or generated audio.
+
+## ch08-b03-s02
+
+对应口播：经验想留下来，还需要另一条路。在一些动物中，后代可以长时间跟着亲代生活，看它怎样寻找食物，怎样应对危险。群体成员之间的观察和模仿，也可能帮助行为传播。到了人类这里，语言、长期共同生活和外部记录，让知识能够跨过一个人的生命。后来的孩子，不必亲自失败一次，才知道所有事情。
+
+组合：P1；2x2_tile
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 两只同种章鱼远距离处于不同洞穴入口，各自完整，无亲子教学动作。独立新构图的低机位宽景，主体在左侧三分之一，前景细砂或石纹、中景主体、远景水光，主体占宽约15%，不是上一图裁切或放大。One anatomically coherent octopus unless explicitly specified otherwise: one mantle, one head, eight arms belonging to this animal, natural occlusion allowed; never force every arm into view or add arms. Suckers on ventral arm surfaces, no squid feeding tentacles, no human fingers. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：不生成模型动态
+
+## ch08-b04-s01
+
+对应口播：但你的生活，并没有安排同样的条件。多数章鱼主要独自活动。许多种类与同类的接触，并不构成长久而稳定的教学关系。
+
+组合：V3；2x2_tile
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 单只章鱼在独立庇护所，周围无人，景观细节丰富。侧面环境中景，主体在右侧三分之一，前景低矮岩缘、中景主体、远景蓝色海水，主体占宽约25%，保留左侧空间。One anatomically coherent octopus unless explicitly specified otherwise: one mantle, one head, eight arms belonging to this animal, natural occlusion allowed; never force every arm into view or add arms. Suckers on ventral arm surfaces, no squid feeding tentacles, no human fingers. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：One continuous original-speed calm shot. 单只章鱼在独立庇护所，周围无人，景观细节丰富。一条已有腕端微动。 Preserve identity, anatomy, arm count, suckers, eyes, attached eggs and rock geometry. No cuts, shake, flicker, blur pulses, morphing, hatching, predation, sudden objects, reverse, speed ramps or generated audio.
+
+## ch08-b04-s02
+
+对应口播：但你的生活，并没有安排同样的条件。多数章鱼主要独自活动。许多种类与同类的接触，并不构成长久而稳定的教学关系。
+
+组合：P1；2x2_tile
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 单只章鱼在独立庇护所，周围无人，景观细节丰富。独立新构图的低机位宽景，主体在左侧三分之一，前景细砂或石纹、中景主体、远景水光，主体占宽约15%，不是上一图裁切或放大。One anatomically coherent octopus unless explicitly specified otherwise: one mantle, one head, eight arms belonging to this animal, natural occlusion allowed; never force every arm into view or add arms. Suckers on ventral arm surfaces, no squid feeding tentacles, no human fingers. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：不生成模型动态
+
+## ch08-b05-s01
+
+对应口播：这不是说，你的家族完全没有社会行为。有些章鱼会聚集，会争夺空间，会通过身体信号相互影响。它们与同类的关系，比一句绝对孤独更丰富。然而，能够接触同类，与把复杂经验持续传给下一代，仍然是两回事。
+
+组合：V3；2x2_tile
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 两只章鱼隔着足够距离位于不同石面，侧面宽景，不做拥抱或人类对话。侧面环境中景，主体在右侧三分之一，前景低矮岩缘、中景主体、远景蓝色海水，主体占宽约25%，保留左侧空间。One anatomically coherent octopus unless explicitly specified otherwise: one mantle, one head, eight arms belonging to this animal, natural occlusion allowed; never force every arm into view or add arms. Suckers on ventral arm surfaces, no squid feeding tentacles, no human fingers. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：One continuous original-speed calm shot. 两只章鱼隔着足够距离位于不同石面，侧面宽景，不做拥抱或人类对话。仅水中颗粒缓慢漂移。 Preserve identity, anatomy, arm count, suckers, eyes, attached eggs and rock geometry. No cuts, shake, flicker, blur pulses, morphing, hatching, predation, sudden objects, reverse, speed ramps or generated audio.
+
+## ch08-b05-s02
+
+对应口播：这不是说，你的家族完全没有社会行为。有些章鱼会聚集，会争夺空间，会通过身体信号相互影响。它们与同类的关系，比一句绝对孤独更丰富。然而，能够接触同类，与把复杂经验持续传给下一代，仍然是两回事。
+
+组合：P1；2x2_tile
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 两只章鱼隔着足够距离位于不同石面，侧面宽景，不做拥抱或人类对话。独立新构图的低机位宽景，主体在左侧三分之一，前景细砂或石纹、中景主体、远景水光，主体占宽约15%，不是上一图裁切或放大。One anatomically coherent octopus unless explicitly specified otherwise: one mantle, one head, eight arms belonging to this animal, natural occlusion allowed; never force every arm into view or add arms. Suckers on ventral arm surfaces, no squid feeding tentacles, no human fingers. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：不生成模型动态
+
+## ch08-b06-s01
+
+对应口播：在许多章鱼的生活史里，幼体没有机会长期跟在母亲身边，看她怎样捕猎，怎样避开危险，怎样选择洞穴。于是，你已经认识的那片海底，对于后代来说，仍然需要重新探索。
+
+组合：V3；single
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 雌性章鱼与一小簇附着洞顶的卵，完整软体，卵不发光不变眼球。侧面环境中景，主体在右侧三分之一，前景低矮岩缘、中景主体、远景蓝色海水，主体占宽约25%，保留左侧空间。One anatomically coherent octopus unless explicitly specified otherwise: one mantle, one head, eight arms belonging to this animal, natural occlusion allowed; never force every arm into view or add arms. Suckers on ventral arm surfaces, no squid feeding tentacles, no human fingers. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：One continuous original-speed calm shot. 雌性章鱼与一小簇附着洞顶的卵，完整软体，卵不发光不变眼球。环境细颗粒轻移，卵簇不动。 Preserve identity, anatomy, arm count, suckers, eyes, attached eggs and rock geometry. No cuts, shake, flicker, blur pulses, morphing, hatching, predation, sudden objects, reverse, speed ramps or generated audio.
+
+## ch08-b06-s02
+
+对应口播：在许多章鱼的生活史里，幼体没有机会长期跟在母亲身边，看她怎样捕猎，怎样避开危险，怎样选择洞穴。于是，你已经认识的那片海底，对于后代来说，仍然需要重新探索。
+
+组合：P1；single
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 雌性章鱼与一小簇附着洞顶的卵，完整软体，卵不发光不变眼球。独立新构图的低机位宽景，主体在左侧三分之一，前景细砂或石纹、中景主体、远景水光，主体占宽约15%，不是上一图裁切或放大。One anatomically coherent octopus unless explicitly specified otherwise: one mantle, one head, eight arms belonging to this animal, natural occlusion allowed; never force every arm into view or add arms. Suckers on ventral arm surfaces, no squid feeding tentacles, no human fingers. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：不生成模型动态
+
+## ch08-b07-s01
+
+对应口播：还有时间。许多浅海章鱼的一生，只有一年到两年左右。不同种类差别很大，寒冷海域和深海中的某些种类，有更漫长的节奏。我们不能把所有章鱼，都放进同一只钟表里。但对许多种类来说，成长、探索、交配和繁殖，集中在相对短暂的一生。这并不让学习变得无用。恰恰相反，你需要尽快认识环境。你不能花很多年，才弄明白一只螃蟹怎样抓，或者一个洞口是否危险。只是，快速学会自己的生存办法，与建立一种长期累积经验的生活，需要的条件并不一样。
+
+组合：V3；2x2_tile
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 浅海独处成年章鱼中景，皮肤自然纹理，没有计时器钟表。侧面环境中景，主体在右侧三分之一，前景低矮岩缘、中景主体、远景蓝色海水，主体占宽约25%，保留左侧空间。One anatomically coherent octopus unless explicitly specified otherwise: one mantle, one head, eight arms belonging to this animal, natural occlusion allowed; never force every arm into view or add arms. Suckers on ventral arm surfaces, no squid feeding tentacles, no human fingers. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：One continuous original-speed calm shot. 浅海独处成年章鱼中景，皮肤自然纹理，没有计时器钟表。已有腕端轻微移动。 Preserve identity, anatomy, arm count, suckers, eyes, attached eggs and rock geometry. No cuts, shake, flicker, blur pulses, morphing, hatching, predation, sudden objects, reverse, speed ramps or generated audio.
+
+## ch08-b07-s02
+
+对应口播：还有时间。许多浅海章鱼的一生，只有一年到两年左右。不同种类差别很大，寒冷海域和深海中的某些种类，有更漫长的节奏。我们不能把所有章鱼，都放进同一只钟表里。但对许多种类来说，成长、探索、交配和繁殖，集中在相对短暂的一生。这并不让学习变得无用。恰恰相反，你需要尽快认识环境。你不能花很多年，才弄明白一只螃蟹怎样抓，或者一个洞口是否危险。只是，快速学会自己的生存办法，与建立一种长期累积经验的生活，需要的条件并不一样。
+
+组合：P1；2x2_tile
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 浅海独处成年章鱼中景，皮肤自然纹理，没有计时器钟表。独立新构图的低机位宽景，主体在左侧三分之一，前景细砂或石纹、中景主体、远景水光，主体占宽约15%，不是上一图裁切或放大。One anatomically coherent octopus unless explicitly specified otherwise: one mantle, one head, eight arms belonging to this animal, natural occlusion allowed; never force every arm into view or add arms. Suckers on ventral arm surfaces, no squid feeding tentacles, no human fingers. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：不生成模型动态
+
+## ch08-b08-s01
+
+对应口播：于是，我们看见了一种很特别的反差。一个个体，可以在自己的生活里变得熟练和灵活。它甚至能让观察者感到惊讶。一个种群，却不一定会把这些经验，堆积成越来越厚的知识。这些条件，帮助我们理解你为什么能够灵活学习，却未必形成持续积累的跨代知识。但好像没有用，只是站在人类期待里产生的感觉。你得到食物，避开危险，选择藏身的地方，这些都是真实的收益。聪明已经参与了你的生存，并没有闲置。至于为什么没有人类式的文明，也没有一个单独因素能够解释全部。寿命、社会关系、交流方式、身体和环境，都可能影响知识积累的条件。我们也没有替另一种生命，预先规定必须走到哪里去的理由。进化没有承诺，学习能力强的动物，最后都要建造城市。你不是一位被困在海底、始终没有机会成为人类的工程师。你是一只章鱼，生活在你自己的世界。你收回腕足，离开那块倾斜的岩石。海底没有因为你学会一个新办法，就变得完全安全。但今天，你比昨天更熟悉这里。这已经是聪明带给你的好处。
+
+组合：V3；2x2_tile
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 章鱼熟练伏在倾斜石侧面，独处景观而非成败排行榜。侧面环境中景，主体在右侧三分之一，前景低矮岩缘、中景主体、远景蓝色海水，主体占宽约25%，保留左侧空间。One anatomically coherent octopus unless explicitly specified otherwise: one mantle, one head, eight arms belonging to this animal, natural occlusion allowed; never force every arm into view or add arms. Suckers on ventral arm surfaces, no squid feeding tentacles, no human fingers. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：One continuous original-speed calm shot. 章鱼熟练伏在倾斜石侧面，独处景观而非成败排行榜。背景水光移动。 Preserve identity, anatomy, arm count, suckers, eyes, attached eggs and rock geometry. No cuts, shake, flicker, blur pulses, morphing, hatching, predation, sudden objects, reverse, speed ramps or generated audio.
+
+## ch08-b08-s02
+
+对应口播：于是，我们看见了一种很特别的反差。一个个体，可以在自己的生活里变得熟练和灵活。它甚至能让观察者感到惊讶。一个种群，却不一定会把这些经验，堆积成越来越厚的知识。这些条件，帮助我们理解你为什么能够灵活学习，却未必形成持续积累的跨代知识。但好像没有用，只是站在人类期待里产生的感觉。你得到食物，避开危险，选择藏身的地方，这些都是真实的收益。聪明已经参与了你的生存，并没有闲置。至于为什么没有人类式的文明，也没有一个单独因素能够解释全部。寿命、社会关系、交流方式、身体和环境，都可能影响知识积累的条件。我们也没有替另一种生命，预先规定必须走到哪里去的理由。进化没有承诺，学习能力强的动物，最后都要建造城市。你不是一位被困在海底、始终没有机会成为人类的工程师。你是一只章鱼，生活在你自己的世界。你收回腕足，离开那块倾斜的岩石。海底没有因为你学会一个新办法，就变得完全安全。但今天，你比昨天更熟悉这里。这已经是聪明带给你的好处。
+
+组合：P1；2x2_tile
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 章鱼熟练伏在倾斜石侧面，独处景观而非成败排行榜。独立新构图的低机位宽景，主体在左侧三分之一，前景细砂或石纹、中景主体、远景水光，主体占宽约15%，不是上一图裁切或放大。One anatomically coherent octopus unless explicitly specified otherwise: one mantle, one head, eight arms belonging to this animal, natural occlusion allowed; never force every arm into view or add arms. Suckers on ventral arm surfaces, no squid feeding tentacles, no human fingers. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：不生成模型动态
+
+## ch08-b09-s01
+
+对应口播：后来，洞穴里出现了一串串卵。你会留在它们旁边。你能够做的，是让水流经过它们的表面，清理和守护，增加它们醒来的机会。你不能把所有走过的路，都讲给它们听。你留下的，也不是一张通向食物的地图。至于岩石下面有什么，阴影后面藏着谁，又该怎样把一条柔软的腕足伸进陌生的缝隙，那将是它们自己的故事。
+
+组合：V3；single
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 雌性章鱼守在洞顶卵簇下方，宽景明确洞穴位置，禁止孵化和死亡变形。侧面环境中景，主体在右侧三分之一，前景低矮岩缘、中景主体、远景蓝色海水，主体占宽约25%，保留左侧空间。One anatomically coherent octopus unless explicitly specified otherwise: one mantle, one head, eight arms belonging to this animal, natural occlusion allowed; never force every arm into view or add arms. Suckers on ventral arm surfaces, no squid feeding tentacles, no human fingers. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：One continuous original-speed calm shot. 雌性章鱼守在洞顶卵簇下方，宽景明确洞穴位置，禁止孵化和死亡变形。轻柔水中颗粒，卵保持附着。 Preserve identity, anatomy, arm count, suckers, eyes, attached eggs and rock geometry. No cuts, shake, flicker, blur pulses, morphing, hatching, predation, sudden objects, reverse, speed ramps or generated audio.
+
+## ch08-b09-s02
+
+对应口播：后来，洞穴里出现了一串串卵。你会留在它们旁边。你能够做的，是让水流经过它们的表面，清理和守护，增加它们醒来的机会。你不能把所有走过的路，都讲给它们听。你留下的，也不是一张通向食物的地图。至于岩石下面有什么，阴影后面藏着谁，又该怎样把一条柔软的腕足伸进陌生的缝隙，那将是它们自己的故事。
+
+组合：P1；single
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 雌性章鱼守在洞顶卵簇下方，宽景明确洞穴位置，禁止孵化和死亡变形。独立新构图的低机位宽景，主体在左侧三分之一，前景细砂或石纹、中景主体、远景水光，主体占宽约15%，不是上一图裁切或放大。One anatomically coherent octopus unless explicitly specified otherwise: one mantle, one head, eight arms belonging to this animal, natural occlusion allowed; never force every arm into view or add arms. Suckers on ventral arm surfaces, no squid feeding tentacles, no human fingers. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：不生成模型动态
+
+## ch09-b01-s01
+
+对应口播：洞口的光，随着海水轻轻晃动。你待在里面，身边挂着一串串卵。它们很小，安静地停在水中，还没有你熟悉的探索和动作。
+
+组合：V3；single
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 雌性浅海章鱼守卵洞穴，暖光洞口与冷蓝内部，少量真实卵串附着顶面。侧面环境中景，主体在右侧三分之一，前景低矮岩缘、中景主体、远景蓝色海水，主体占宽约25%，保留左侧空间。One anatomically coherent octopus unless explicitly specified otherwise: one mantle, one head, eight arms belonging to this animal, natural occlusion allowed; never force every arm into view or add arms. Suckers on ventral arm surfaces, no squid feeding tentacles, no human fingers. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：One continuous original-speed calm shot. 雌性浅海章鱼守卵洞穴，暖光洞口与冷蓝内部，少量真实卵串附着顶面。环境细颗粒轻移。 Preserve identity, anatomy, arm count, suckers, eyes, attached eggs and rock geometry. No cuts, shake, flicker, blur pulses, morphing, hatching, predation, sudden objects, reverse, speed ramps or generated audio.
+
+## ch09-b01-s02
+
+对应口播：洞口的光，随着海水轻轻晃动。你待在里面，身边挂着一串串卵。它们很小，安静地停在水中，还没有你熟悉的探索和动作。
+
+组合：P1；single
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 雌性浅海章鱼守卵洞穴，暖光洞口与冷蓝内部，少量真实卵串附着顶面。独立新构图的低机位宽景，主体在左侧三分之一，前景细砂或石纹、中景主体、远景水光，主体占宽约15%，不是上一图裁切或放大。One anatomically coherent octopus unless explicitly specified otherwise: one mantle, one head, eight arms belonging to this animal, natural occlusion allowed; never force every arm into view or add arms. Suckers on ventral arm surfaces, no squid feeding tentacles, no human fingers. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：不生成模型动态
+
+## ch09-b02-s01
+
+对应口播：从这里开始，我们跟随的是一只守卵的雌性章鱼。繁殖后的经历，也不是每个性别、每个物种都一样。很多章鱼的繁殖，只发生在生命中的一个阶段。随后，成年动物逐渐衰老，走向生命终点。对不少守卵的雌性来说，最后的日子，会围绕这些卵展开。
+
+组合：V3；single
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 同一类雌性章鱼独立侧面近景，守卵姿态，禁画雄性同时产卵。独立细节近景，关键材质占画面约50%，仍保留自然连接与环境，侧面柔光。One anatomically coherent octopus unless explicitly specified otherwise: one mantle, one head, eight arms belonging to this animal, natural occlusion allowed; never force every arm into view or add arms. Suckers on ventral arm surfaces, no squid feeding tentacles, no human fingers. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：One continuous original-speed calm shot. 同一类雌性章鱼独立侧面近景，守卵姿态，禁画雄性同时产卵。细小腕端清理动作，不接触卵引发变形。 Preserve identity, anatomy, arm count, suckers, eyes, attached eggs and rock geometry. No cuts, shake, flicker, blur pulses, morphing, hatching, predation, sudden objects, reverse, speed ramps or generated audio.
+
+## ch09-b02-s02
+
+对应口播：从这里开始，我们跟随的是一只守卵的雌性章鱼。繁殖后的经历，也不是每个性别、每个物种都一样。很多章鱼的繁殖，只发生在生命中的一个阶段。随后，成年动物逐渐衰老，走向生命终点。对不少守卵的雌性来说，最后的日子，会围绕这些卵展开。
+
+组合：P1；single
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 同一类雌性章鱼独立侧面近景，守卵姿态，禁画雄性同时产卵。独立斜侧中景，将同一知识点放回真实栖息环境，主体占画面约30%，不裁切前图。One anatomically coherent octopus unless explicitly specified otherwise: one mantle, one head, eight arms belonging to this animal, natural occlusion allowed; never force every arm into view or add arms. Suckers on ventral arm surfaces, no squid feeding tentacles, no human fingers. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：不生成模型动态
+
+## ch09-b03-s01
+
+对应口播：你调整身体，让水流经过它们。水带来氧气，也带走一些积聚的东西。你用腕足清理，留意靠近洞穴的动静。
+
+组合：V3；single
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 雌性章鱼靠近卵串，腕端在附近而非缠断卵，侧面中景。侧面环境中景，主体在右侧三分之一，前景低矮岩缘、中景主体、远景蓝色海水，主体占宽约25%，保留左侧空间。One anatomically coherent octopus unless explicitly specified otherwise: one mantle, one head, eight arms belonging to this animal, natural occlusion allowed; never force every arm into view or add arms. Suckers on ventral arm surfaces, no squid feeding tentacles, no human fingers. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：One continuous original-speed calm shot. 雌性章鱼靠近卵串，腕端在附近而非缠断卵，侧面中景。细颗粒表示缓慢水流，卵静止。 Preserve identity, anatomy, arm count, suckers, eyes, attached eggs and rock geometry. No cuts, shake, flicker, blur pulses, morphing, hatching, predation, sudden objects, reverse, speed ramps or generated audio.
+
+## ch09-b03-s02
+
+对应口播：你调整身体，让水流经过它们。水带来氧气，也带走一些积聚的东西。你用腕足清理，留意靠近洞穴的动静。
+
+组合：P1；single
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 雌性章鱼靠近卵串，腕端在附近而非缠断卵，侧面中景。独立新构图的低机位宽景，主体在左侧三分之一，前景细砂或石纹、中景主体、远景水光，主体占宽约15%，不是上一图裁切或放大。One anatomically coherent octopus unless explicitly specified otherwise: one mantle, one head, eight arms belonging to this animal, natural occlusion allowed; never force every arm into view or add arms. Suckers on ventral arm surfaces, no squid feeding tentacles, no human fingers. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：不生成模型动态
+
+## ch09-b04-s01
+
+对应口播：在许多种类中，母亲会减少甚至停止进食，持续守护。身体状况随之改变。但这不是它先想清楚了牺牲的意义，然后作出一份人类式决定。繁殖行为和身体内部的调节，共同推动了这段生活。
+
+组合：V3；single
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 守卵雌性安静停在洞内，正常皮肤，避免饥饿血腥和尸体。侧面环境中景，主体在右侧三分之一，前景低矮岩缘、中景主体、远景蓝色海水，主体占宽约25%，保留左侧空间。Preserve only the explicitly described subject and species anatomy; do not add an octopus or substitute another species. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：One continuous original-speed calm shot. 守卵雌性安静停在洞内，正常皮肤，避免饥饿血腥和尸体。环境水光轻移。 Preserve identity, anatomy, arm count, suckers, eyes, attached eggs and rock geometry. No cuts, shake, flicker, blur pulses, morphing, hatching, predation, sudden objects, reverse, speed ramps or generated audio.
+
+## ch09-b04-s02
+
+对应口播：在许多种类中，母亲会减少甚至停止进食，持续守护。身体状况随之改变。但这不是它先想清楚了牺牲的意义，然后作出一份人类式决定。繁殖行为和身体内部的调节，共同推动了这段生活。
+
+组合：P1；single
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 守卵雌性安静停在洞内，正常皮肤，避免饥饿血腥和尸体。独立新构图的低机位宽景，主体在左侧三分之一，前景细砂或石纹、中景主体、远景水光，主体占宽约15%，不是上一图裁切或放大。Preserve only the explicitly described subject and species anatomy; do not add an octopus or substitute another species. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：不生成模型动态
+
+## ch09-b05-s01
+
+对应口播：研究者也在探索章鱼繁殖后衰老的生理机制。其中，眼柄附近的视腺参与内分泌调节，是重要的研究线索。我们不必把它说成一个按下去就会立刻死亡的开关。实际变化有过程，也涉及多种信号。你的生活重心，已经和之前不同。过去，你离开洞穴，是为了寻找下一顿饭。现在，洞穴里那些尚未醒来的生命，占据了更多时间。外面仍然有猎物经过。熟悉的水流还在，岩石的轮廓也没有改变。只是你伸出腕足的方向，变了。
+
+组合：P1；2x2_tile
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 章鱼正常眼部和头部侧面近景，真实皮肤，禁止虚构可见视腺或死亡开关。独立细节近景，关键材质占画面约50%，仍保留自然连接与环境，侧面柔光。One anatomically coherent octopus unless explicitly specified otherwise: one mantle, one head, eight arms belonging to this animal, natural occlusion allowed; never force every arm into view or add arms. Suckers on ventral arm surfaces, no squid feeding tentacles, no human fingers. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：不生成模型动态
+
+## ch09-b05-s02
+
+对应口播：研究者也在探索章鱼繁殖后衰老的生理机制。其中，眼柄附近的视腺参与内分泌调节，是重要的研究线索。我们不必把它说成一个按下去就会立刻死亡的开关。实际变化有过程，也涉及多种信号。你的生活重心，已经和之前不同。过去，你离开洞穴，是为了寻找下一顿饭。现在，洞穴里那些尚未醒来的生命，占据了更多时间。外面仍然有猎物经过。熟悉的水流还在，岩石的轮廓也没有改变。只是你伸出腕足的方向，变了。
+
+组合：P1；2x2_tile
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 章鱼正常眼部和头部侧面近景，真实皮肤，禁止虚构可见视腺或死亡开关。独立斜侧中景，将同一知识点放回真实栖息环境，主体占画面约30%，不裁切前图。One anatomically coherent octopus unless explicitly specified otherwise: one mantle, one head, eight arms belonging to this animal, natural occlusion allowed; never force every arm into view or add arms. Suckers on ventral arm surfaces, no squid feeding tentacles, no human fingers. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：不生成模型动态
+
+## ch09-b06-s01
+
+对应口播：守护需要多久，要看物种，也要看环境。温度会影响发育的节奏。有的章鱼卵比较快就能孵化，而一些深海种类，守卵的过程可以长得惊人。那里冷，许多变化都缓慢下来。这又一次提醒我们，章鱼的一生，没有一个适用于所有成员的版本。
+
+组合：V3；single
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 冷暗深海岩壁上单只守卵章鱼，稀疏海雪，非浅海日光洞穴。侧面环境中景，主体在右侧三分之一，前景低矮岩缘、中景主体、远景蓝色海水，主体占宽约25%，保留左侧空间。One anatomically coherent octopus unless explicitly specified otherwise: one mantle, one head, eight arms belonging to this animal, natural occlusion allowed; never force every arm into view or add arms. Suckers on ventral arm surfaces, no squid feeding tentacles, no human fingers. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：One continuous original-speed calm shot. 冷暗深海岩壁上单只守卵章鱼，稀疏海雪，非浅海日光洞穴。海雪缓慢下沉，卵不晃动。 Preserve identity, anatomy, arm count, suckers, eyes, attached eggs and rock geometry. No cuts, shake, flicker, blur pulses, morphing, hatching, predation, sudden objects, reverse, speed ramps or generated audio.
+
+## ch09-b06-s02
+
+对应口播：守护需要多久，要看物种，也要看环境。温度会影响发育的节奏。有的章鱼卵比较快就能孵化，而一些深海种类，守卵的过程可以长得惊人。那里冷，许多变化都缓慢下来。这又一次提醒我们，章鱼的一生，没有一个适用于所有成员的版本。
+
+组合：P1；single
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 冷暗深海岩壁上单只守卵章鱼，稀疏海雪，非浅海日光洞穴。独立新构图的低机位宽景，主体在左侧三分之一，前景细砂或石纹、中景主体、远景水光，主体占宽约15%，不是上一图裁切或放大。One anatomically coherent octopus unless explicitly specified otherwise: one mantle, one head, eight arms belonging to this animal, natural occlusion allowed; never force every arm into view or add arms. Suckers on ventral arm surfaces, no squid feeding tentacles, no human fingers. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：不生成模型动态
+
+## ch09-b07-s01
+
+对应口播：你面前的这些卵，也不会都迎来同样的命运。孵化并不意味着安全。海水里有捕食者，食物不总够用，幼小的身体还要面对复杂的水流和环境。你能守住的，只是其中一段。
+
+组合：P1；single
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 洞顶自然半透明卵串细节，卵囊中形态朦胧，不画人类胎儿。侧面环境中景，主体在右侧三分之一，前景低矮岩缘、中景主体、远景蓝色海水，主体占宽约25%，保留左侧空间。Preserve only the explicitly described subject and species anatomy; do not add an octopus or substitute another species. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：不生成模型动态
+
+## ch09-b07-s02
+
+对应口播：你面前的这些卵，也不会都迎来同样的命运。孵化并不意味着安全。海水里有捕食者，食物不总够用，幼小的身体还要面对复杂的水流和环境。你能守住的，只是其中一段。
+
+组合：P1；single
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 洞顶自然半透明卵串细节，卵囊中形态朦胧，不画人类胎儿。独立新构图的低机位宽景，主体在左侧三分之一，前景细砂或石纹、中景主体、远景水光，主体占宽约15%，不是上一图裁切或放大。Preserve only the explicitly described subject and species anatomy; do not add an octopus or substitute another species. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：不生成模型动态
+
+## ch09-b08-s01
+
+对应口播：终于，有一枚卵发生了变化。里面的小生命开始离开它原来的边界。随后，是更多。有些种类的幼体会进入漂浮的生活，随着水流遇见新的地方。有些则更接近一只缩小的海底章鱼，开始寻找自己的遮挡和食物。
+
+组合：V3；single
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 已经孵化的一只幼小章鱼在卵簇外，完整八腕，避免卵转成动物的过程。侧面环境中景，主体在右侧三分之一，前景低矮岩缘、中景主体、远景蓝色海水，主体占宽约25%，保留左侧空间。One anatomically coherent octopus unless explicitly specified otherwise: one mantle, one head, eight arms belonging to this animal, natural occlusion allowed; never force every arm into view or add arms. Suckers on ventral arm surfaces, no squid feeding tentacles, no human fingers. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：One continuous original-speed calm shot. 已经孵化的一只幼小章鱼在卵簇外，完整八腕，避免卵转成动物的过程。微小水中颗粒漂移。 Preserve identity, anatomy, arm count, suckers, eyes, attached eggs and rock geometry. No cuts, shake, flicker, blur pulses, morphing, hatching, predation, sudden objects, reverse, speed ramps or generated audio.
+
+## ch09-b08-s02
+
+对应口播：终于，有一枚卵发生了变化。里面的小生命开始离开它原来的边界。随后，是更多。有些种类的幼体会进入漂浮的生活，随着水流遇见新的地方。有些则更接近一只缩小的海底章鱼，开始寻找自己的遮挡和食物。
+
+组合：P1；single
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 已经孵化的一只幼小章鱼在卵簇外，完整八腕，避免卵转成动物的过程。独立新构图的低机位宽景，主体在左侧三分之一，前景细砂或石纹、中景主体、远景水光，主体占宽约15%，不是上一图裁切或放大。One anatomically coherent octopus unless explicitly specified otherwise: one mantle, one head, eight arms belonging to this animal, natural occlusion allowed; never force every arm into view or add arms. Suckers on ventral arm surfaces, no squid feeding tentacles, no human fingers. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：不生成模型动态
+
+## ch09-b09-s01
+
+对应口播：我们在故事里，跟随其中一个，离开母亲守过的洞穴。它并不知道哪块岩石下面曾经有螃蟹，也不知道哪条路，是母亲尝试以后放弃的。但它不是一片空白。它拥有身体，拥有感知世界的结构，也拥有在经验里改变行为的可能。这些来自漫长世代的遗传与发育，帮助它开始自己的生活。它伸出一条小小的腕足。一块石头，第一次被它摸到。
+
+组合：V3；2x2_tile
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 独立幼小章鱼在小石面探索，远方模糊洞穴，无母亲传递地图。侧面环境中景，主体在右侧三分之一，前景低矮岩缘、中景主体、远景蓝色海水，主体占宽约25%，保留左侧空间。One anatomically coherent octopus unless explicitly specified otherwise: one mantle, one head, eight arms belonging to this animal, natural occlusion allowed; never force every arm into view or add arms. Suckers on ventral arm surfaces, no squid feeding tentacles, no human fingers. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：One continuous original-speed calm shot. 独立幼小章鱼在小石面探索，远方模糊洞穴，无母亲传递地图。已有腕端极小幅触碰石面。 Preserve identity, anatomy, arm count, suckers, eyes, attached eggs and rock geometry. No cuts, shake, flicker, blur pulses, morphing, hatching, predation, sudden objects, reverse, speed ramps or generated audio.
+
+## ch09-b09-s02
+
+对应口播：我们在故事里，跟随其中一个，离开母亲守过的洞穴。它并不知道哪块岩石下面曾经有螃蟹，也不知道哪条路，是母亲尝试以后放弃的。但它不是一片空白。它拥有身体，拥有感知世界的结构，也拥有在经验里改变行为的可能。这些来自漫长世代的遗传与发育，帮助它开始自己的生活。它伸出一条小小的腕足。一块石头，第一次被它摸到。
+
+组合：P1；2x2_tile
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 独立幼小章鱼在小石面探索，远方模糊洞穴，无母亲传递地图。独立新构图的低机位宽景，主体在左侧三分之一，前景细砂或石纹、中景主体、远景水光，主体占宽约15%，不是上一图裁切或放大。One anatomically coherent octopus unless explicitly specified otherwise: one mantle, one head, eight arms belonging to this animal, natural occlusion allowed; never force every arm into view or add arms. Suckers on ventral arm surfaces, no squid feeding tentacles, no human fingers. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：不生成模型动态
+
+## ch10-b01-s01
+
+对应口播：你又睁开眼。这一次，眼前的海底是新的。岩石的位置不同，水流的方向不同，洞口外经过的影子，也与上一代遇见的不完全一样。你的故事继续了。
+
+组合：V3；2x2_tile
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 新一代章鱼在另一片岩礁醒来式停留，布局与开篇不同，无人类眼睑动作。侧面环境中景，主体在右侧三分之一，前景低矮岩缘、中景主体、远景蓝色海水，主体占宽约25%，保留左侧空间。One anatomically coherent octopus unless explicitly specified otherwise: one mantle, one head, eight arms belonging to this animal, natural occlusion allowed; never force every arm into view or add arms. Suckers on ventral arm surfaces, no squid feeding tentacles, no human fingers. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：One continuous original-speed calm shot. 新一代章鱼在另一片岩礁醒来式停留，布局与开篇不同，无人类眼睑动作。细颗粒缓慢移动。 Preserve identity, anatomy, arm count, suckers, eyes, attached eggs and rock geometry. No cuts, shake, flicker, blur pulses, morphing, hatching, predation, sudden objects, reverse, speed ramps or generated audio.
+
+## ch10-b01-s02
+
+对应口播：你又睁开眼。这一次，眼前的海底是新的。岩石的位置不同，水流的方向不同，洞口外经过的影子，也与上一代遇见的不完全一样。你的故事继续了。
+
+组合：P1；2x2_tile
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 新一代章鱼在另一片岩礁醒来式停留，布局与开篇不同，无人类眼睑动作。独立新构图的低机位宽景，主体在左侧三分之一，前景细砂或石纹、中景主体、远景水光，主体占宽约15%，不是上一图裁切或放大。One anatomically coherent octopus unless explicitly specified otherwise: one mantle, one head, eight arms belonging to this animal, natural occlusion allowed; never force every arm into view or add arms. Suckers on ventral arm surfaces, no squid feeding tentacles, no human fingers. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：不生成模型动态
+
+## ch10-b02-s01
+
+对应口播：但继续，不代表每一代都会更大、更聪明，或者更接近人类。进化不是一条永远向上的楼梯。它发生在种群里，也受到环境影响。某种特征在这里有利，换一个地方，可能就需要付出不同的代价。今天合适的生活方式，未来也可能面对新的问题。
+
+组合：V3；2x2_tile
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 完整章鱼自然体型静停海床，不画巨型怪物或进化阶梯。侧面环境中景，主体在右侧三分之一，前景低矮岩缘、中景主体、远景蓝色海水，主体占宽约25%，保留左侧空间。One anatomically coherent octopus unless explicitly specified otherwise: one mantle, one head, eight arms belonging to this animal, natural occlusion allowed; never force every arm into view or add arms. Suckers on ventral arm surfaces, no squid feeding tentacles, no human fingers. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：One continuous original-speed calm shot. 完整章鱼自然体型静停海床，不画巨型怪物或进化阶梯。已有腕端微动。 Preserve identity, anatomy, arm count, suckers, eyes, attached eggs and rock geometry. No cuts, shake, flicker, blur pulses, morphing, hatching, predation, sudden objects, reverse, speed ramps or generated audio.
+
+## ch10-b02-s02
+
+对应口播：但继续，不代表每一代都会更大、更聪明，或者更接近人类。进化不是一条永远向上的楼梯。它发生在种群里，也受到环境影响。某种特征在这里有利，换一个地方，可能就需要付出不同的代价。今天合适的生活方式，未来也可能面对新的问题。
+
+组合：P1；2x2_tile
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 完整章鱼自然体型静停海床，不画巨型怪物或进化阶梯。独立新构图的低机位宽景，主体在左侧三分之一，前景细砂或石纹、中景主体、远景水光，主体占宽约15%，不是上一图裁切或放大。One anatomically coherent octopus unless explicitly specified otherwise: one mantle, one head, eight arms belonging to this animal, natural occlusion allowed; never force every arm into view or add arms. Suckers on ventral arm surfaces, no squid feeding tentacles, no human fingers. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：不生成模型动态
+
+## ch10-b03-s01
+
+对应口播：从早期带壳的亲族，到外壳进入身体的分支，再到拥有八条腕足的章鱼，历史留下了许多形态，也留下了许多没有走到今天的支线。你不是它们共同追求的最终答案。你只是其中一条仍在延续的路。
+
+组合：V3；2x2_tile
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 现代海床上的一枚自然空贝壳与远处章鱼，非直接祖先家谱。侧面环境中景，主体在右侧三分之一，前景低矮岩缘、中景主体、远景蓝色海水，主体占宽约25%，保留左侧空间。One anatomically coherent octopus unless explicitly specified otherwise: one mantle, one head, eight arms belonging to this animal, natural occlusion allowed; never force every arm into view or add arms. Suckers on ventral arm surfaces, no squid feeding tentacles, no human fingers. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：One continuous original-speed calm shot. 现代海床上的一枚自然空贝壳与远处章鱼，非直接祖先家谱。背景水光轻移。 Preserve identity, anatomy, arm count, suckers, eyes, attached eggs and rock geometry. No cuts, shake, flicker, blur pulses, morphing, hatching, predation, sudden objects, reverse, speed ramps or generated audio.
+
+## ch10-b03-s02
+
+对应口播：从早期带壳的亲族，到外壳进入身体的分支，再到拥有八条腕足的章鱼，历史留下了许多形态，也留下了许多没有走到今天的支线。你不是它们共同追求的最终答案。你只是其中一条仍在延续的路。
+
+组合：P1；2x2_tile
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 现代海床上的一枚自然空贝壳与远处章鱼，非直接祖先家谱。独立新构图的低机位宽景，主体在左侧三分之一，前景细砂或石纹、中景主体、远景水光，主体占宽约15%，不是上一图裁切或放大。One anatomically coherent octopus unless explicitly specified otherwise: one mantle, one head, eight arms belonging to this animal, natural occlusion allowed; never force every arm into view or add arms. Suckers on ventral arm surfaces, no squid feeding tentacles, no human fingers. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：不生成模型动态
+
+## ch10-b04-s01
+
+对应口播：失去外壳，并没有让所有危险离开。它让柔软身体有机会进入狭窄的空间，也让防御更多依靠躲藏、伪装和及时离开。腕足让你探索石头背后的世界，却也需要感觉、控制和协调。学习让你应对一些陌生问题，却不保证你永远正确，更不保证你积累的全部经验，都能传给下一代。
+
+组合：V3；2x2_tile
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 柔软章鱼停在合适宽度岩缝，身体不压扁，不做变身。侧面环境中景，主体在右侧三分之一，前景低矮岩缘、中景主体、远景蓝色海水，主体占宽约25%，保留左侧空间。One anatomically coherent octopus unless explicitly specified otherwise: one mantle, one head, eight arms belonging to this animal, natural occlusion allowed; never force every arm into view or add arms. Suckers on ventral arm surfaces, no squid feeding tentacles, no human fingers. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：One continuous original-speed calm shot. 柔软章鱼停在合适宽度岩缝，身体不压扁，不做变身。背景悬浮颗粒轻移。 Preserve identity, anatomy, arm count, suckers, eyes, attached eggs and rock geometry. No cuts, shake, flicker, blur pulses, morphing, hatching, predation, sudden objects, reverse, speed ramps or generated audio.
+
+## ch10-b04-s02
+
+对应口播：失去外壳，并没有让所有危险离开。它让柔软身体有机会进入狭窄的空间，也让防御更多依靠躲藏、伪装和及时离开。腕足让你探索石头背后的世界，却也需要感觉、控制和协调。学习让你应对一些陌生问题，却不保证你永远正确，更不保证你积累的全部经验，都能传给下一代。
+
+组合：P1；2x2_tile
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 柔软章鱼停在合适宽度岩缝，身体不压扁，不做变身。独立新构图的低机位宽景，主体在左侧三分之一，前景细砂或石纹、中景主体、远景水光，主体占宽约15%，不是上一图裁切或放大。One anatomically coherent octopus unless explicitly specified otherwise: one mantle, one head, eight arms belonging to this animal, natural occlusion allowed; never force every arm into view or add arms. Suckers on ventral arm surfaces, no squid feeding tentacles, no human fingers. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：不生成模型动态
+
+## ch10-b05-s01
+
+对应口播：这些办法都有边界。它们合在一起，才成为你的一生。
+
+组合：V3；2x2_tile
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 章鱼在丰富岩礁层次中安静生活，真实皮肤与石面反光。侧面环境中景，主体在右侧三分之一，前景低矮岩缘、中景主体、远景蓝色海水，主体占宽约25%，保留左侧空间。One anatomically coherent octopus unless explicitly specified otherwise: one mantle, one head, eight arms belonging to this animal, natural occlusion allowed; never force every arm into view or add arms. Suckers on ventral arm surfaces, no squid feeding tentacles, no human fingers. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：One continuous original-speed calm shot. 章鱼在丰富岩礁层次中安静生活，真实皮肤与石面反光。已有腕端轻探。 Preserve identity, anatomy, arm count, suckers, eyes, attached eggs and rock geometry. No cuts, shake, flicker, blur pulses, morphing, hatching, predation, sudden objects, reverse, speed ramps or generated audio.
+
+## ch10-b05-s02
+
+对应口播：这些办法都有边界。它们合在一起，才成为你的一生。
+
+组合：P1；2x2_tile
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 章鱼在丰富岩礁层次中安静生活，真实皮肤与石面反光。独立新构图的低机位宽景，主体在左侧三分之一，前景细砂或石纹、中景主体、远景水光，主体占宽约15%，不是上一图裁切或放大。One anatomically coherent octopus unless explicitly specified otherwise: one mantle, one head, eight arms belonging to this animal, natural occlusion allowed; never force every arm into view or add arms. Suckers on ventral arm surfaces, no squid feeding tentacles, no human fingers. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：不生成模型动态
+
+## ch10-b06-s01
+
+对应口播：今天的海洋还在变化。水温、氧气、食物和栖息环境，都可能改变章鱼种群面对的条件。人类活动，也进入了许多海域。我们不能提前知道，未来会留下哪一种章鱼，或者它们会变成什么模样。更不能因为你会学习，就断言你一定能适应所有变化。个体可以调整一些行为，种群也可能在世代之间发生变化。但这些过程都需要条件，没有一张保证成功的通行证。
+
+组合：V3；2x2_tile
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 礁石环境与远方水层宽景，自然海藻稀疏，不画灾难或末日建筑。侧面环境中景，主体在右侧三分之一，前景低矮岩缘、中景主体、远景蓝色海水，主体占宽约25%，保留左侧空间。Preserve only the explicitly described subject and species anatomy; do not add an octopus or substitute another species. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：One continuous original-speed calm shot. 礁石环境与远方水层宽景，自然海藻稀疏，不画灾难或末日建筑。海藻末梢轻柔摆动。 Preserve identity, anatomy, arm count, suckers, eyes, attached eggs and rock geometry. No cuts, shake, flicker, blur pulses, morphing, hatching, predation, sudden objects, reverse, speed ramps or generated audio.
+
+## ch10-b06-s02
+
+对应口播：今天的海洋还在变化。水温、氧气、食物和栖息环境，都可能改变章鱼种群面对的条件。人类活动，也进入了许多海域。我们不能提前知道，未来会留下哪一种章鱼，或者它们会变成什么模样。更不能因为你会学习，就断言你一定能适应所有变化。个体可以调整一些行为，种群也可能在世代之间发生变化。但这些过程都需要条件，没有一张保证成功的通行证。
+
+组合：P1；2x2_tile
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 礁石环境与远方水层宽景，自然海藻稀疏，不画灾难或末日建筑。独立新构图的低机位宽景，主体在左侧三分之一，前景细砂或石纹、中景主体、远景水光，主体占宽约15%，不是上一图裁切或放大。Preserve only the explicitly described subject and species anatomy; do not add an octopus or substitute another species. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：不生成模型动态
+
+## ch10-b07-s01
+
+对应口播：现在，我们暂时不往很远的未来走。海底就在这里。你沿着一块岩石缓慢移动。吸盘碰到粗糙的表面，另一条腕足伸向阴影。你停下来，感受水和石头带来的线索。
+
+组合：V3；single
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 章鱼沿石面停留，吸盘接触石头，低机位舒缓构图。侧面环境中景，主体在右侧三分之一，前景低矮岩缘、中景主体、远景蓝色海水，主体占宽约25%，保留左侧空间。One anatomically coherent octopus unless explicitly specified otherwise: one mantle, one head, eight arms belonging to this animal, natural occlusion allowed; never force every arm into view or add arms. Suckers on ventral arm surfaces, no squid feeding tentacles, no human fingers. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：One continuous original-speed calm shot. 章鱼沿石面停留，吸盘接触石头，低机位舒缓构图。一条已有腕端小幅探索。 Preserve identity, anatomy, arm count, suckers, eyes, attached eggs and rock geometry. No cuts, shake, flicker, blur pulses, morphing, hatching, predation, sudden objects, reverse, speed ramps or generated audio.
+
+## ch10-b07-s02
+
+对应口播：现在，我们暂时不往很远的未来走。海底就在这里。你沿着一块岩石缓慢移动。吸盘碰到粗糙的表面，另一条腕足伸向阴影。你停下来，感受水和石头带来的线索。
+
+组合：P1；single
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 章鱼沿石面停留，吸盘接触石头，低机位舒缓构图。独立新构图的低机位宽景，主体在左侧三分之一，前景细砂或石纹、中景主体、远景水光，主体占宽约15%，不是上一图裁切或放大。One anatomically coherent octopus unless explicitly specified otherwise: one mantle, one head, eight arms belonging to this animal, natural occlusion allowed; never force every arm into view or add arms. Suckers on ventral arm surfaces, no squid feeding tentacles, no human fingers. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：不生成模型动态
+
+## ch10-b08-s01
+
+对应口播：上方有一道影子经过。你放低身体，调整颜色。那块石头的边缘，仿佛又多了一点不起眼的纹理。影子没有停留。你等了一会儿，重新伸出腕足。这一幕并不壮烈。没有一次决定世界的胜利，也没有一场把你变成更高级生命的升级。你只是又找到了一点空间。在五亿多年前的海里，早期亲族借着外壳保护自己。在后来不同的海洋里，许多分支走出了各自的办法。到了你这里，身体的柔软、皮肤的变化和探索的能力，让一些事情变得可能。
+
+组合：V3；2x2_tile
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 章鱼已伏低融入礁石，远方仅静态模糊阴影，避免重复捕食事件。侧面环境中景，主体在右侧三分之一，前景低矮岩缘、中景主体、远景蓝色海水，主体占宽约25%，保留左侧空间。One anatomically coherent octopus unless explicitly specified otherwise: one mantle, one head, eight arms belonging to this animal, natural occlusion allowed; never force every arm into view or add arms. Suckers on ventral arm surfaces, no squid feeding tentacles, no human fingers. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：One continuous original-speed calm shot. 章鱼已伏低融入礁石，远方仅静态模糊阴影，避免重复捕食事件。环境颗粒漂移。 Preserve identity, anatomy, arm count, suckers, eyes, attached eggs and rock geometry. No cuts, shake, flicker, blur pulses, morphing, hatching, predation, sudden objects, reverse, speed ramps or generated audio.
+
+## ch10-b08-s02
+
+对应口播：上方有一道影子经过。你放低身体，调整颜色。那块石头的边缘，仿佛又多了一点不起眼的纹理。影子没有停留。你等了一会儿，重新伸出腕足。这一幕并不壮烈。没有一次决定世界的胜利，也没有一场把你变成更高级生命的升级。你只是又找到了一点空间。在五亿多年前的海里，早期亲族借着外壳保护自己。在后来不同的海洋里，许多分支走出了各自的办法。到了你这里，身体的柔软、皮肤的变化和探索的能力，让一些事情变得可能。
+
+组合：P1；2x2_tile
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 章鱼已伏低融入礁石，远方仅静态模糊阴影，避免重复捕食事件。独立新构图的低机位宽景，主体在左侧三分之一，前景细砂或石纹、中景主体、远景水光，主体占宽约15%，不是上一图裁切或放大。One anatomically coherent octopus unless explicitly specified otherwise: one mantle, one head, eight arms belonging to this animal, natural occlusion allowed; never force every arm into view or add arms. Suckers on ventral arm surfaces, no squid feeding tentacles, no human fingers. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：不生成模型动态
+
+## ch10-b09-s01
+
+对应口播：你没有骨头，也没有覆盖全身的硬壳。但你有八条腕足，有能够感受表面的吸盘，有认识环境和调整行为的能力。你不必成为海里最强大的动物，才能让生命继续。下一顿饭，下一处阴影，下一个可以藏身的洞口。有时候，故事就是靠这样很小的事情，一点点留下来的。
+
+组合：V3；2x2_tile
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 完整章鱼安静侧面，八腕自然遮挡，有精致材质与温柔金色边光。侧面环境中景，主体在右侧三分之一，前景低矮岩缘、中景主体、远景蓝色海水，主体占宽约25%，保留左侧空间。One anatomically coherent octopus unless explicitly specified otherwise: one mantle, one head, eight arms belonging to this animal, natural occlusion allowed; never force every arm into view or add arms. Suckers on ventral arm surfaces, no squid feeding tentacles, no human fingers. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：One continuous original-speed calm shot. 完整章鱼安静侧面，八腕自然遮挡，有精致材质与温柔金色边光。已有腕端小幅移动。 Preserve identity, anatomy, arm count, suckers, eyes, attached eggs and rock geometry. No cuts, shake, flicker, blur pulses, morphing, hatching, predation, sudden objects, reverse, speed ramps or generated audio.
+
+## ch10-b09-s02
+
+对应口播：你没有骨头，也没有覆盖全身的硬壳。但你有八条腕足，有能够感受表面的吸盘，有认识环境和调整行为的能力。你不必成为海里最强大的动物，才能让生命继续。下一顿饭，下一处阴影，下一个可以藏身的洞口。有时候，故事就是靠这样很小的事情，一点点留下来的。
+
+组合：P1；2x2_tile
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 完整章鱼安静侧面，八腕自然遮挡，有精致材质与温柔金色边光。独立新构图的低机位宽景，主体在左侧三分之一，前景细砂或石纹、中景主体、远景水光，主体占宽约15%，不是上一图裁切或放大。One anatomically coherent octopus unless explicitly specified otherwise: one mantle, one head, eight arms belonging to this animal, natural occlusion allowed; never force every arm into view or add arms. Suckers on ventral arm surfaces, no squid feeding tentacles, no human fingers. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：不生成模型动态
+
+## ch10-b10-s01
+
+对应口播：水流轻轻经过。你收回腕足，把身体放进岩缝里面。外面还有许多声音和影子，但这一刻，石头替你挡住了它们。你的皮肤慢慢安静下来。你是一只章鱼。你没有走到进化的终点。你只是，在这一片海里，暂时找到了自己的位置。
+
+组合：V3；2x2_tile
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 章鱼已经安顿在岩缝内部，远方柔和蓝光，宁静结尾不追逐。侧面环境中景，主体在右侧三分之一，前景低矮岩缘、中景主体、远景蓝色海水，主体占宽约25%，保留左侧空间。One anatomically coherent octopus unless explicitly specified otherwise: one mantle, one head, eight arms belonging to this animal, natural occlusion allowed; never force every arm into view or add arms. Suckers on ventral arm surfaces, no squid feeding tentacles, no human fingers. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：One continuous original-speed calm shot. 章鱼已经安顿在岩缝内部，远方柔和蓝光，宁静结尾不追逐。背景水光慢移，动物静止。 Preserve identity, anatomy, arm count, suckers, eyes, attached eggs and rock geometry. No cuts, shake, flicker, blur pulses, morphing, hatching, predation, sudden objects, reverse, speed ramps or generated audio.
+
+## ch10-b10-s02
+
+对应口播：水流轻轻经过。你收回腕足，把身体放进岩缝里面。外面还有许多声音和影子，但这一刻，石头替你挡住了它们。你的皮肤慢慢安静下来。你是一只章鱼。你没有走到进化的终点。你只是，在这一片海里，暂时找到了自己的位置。
+
+组合：P1；2x2_tile
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 章鱼已经安顿在岩缝内部，远方柔和蓝光，宁静结尾不追逐。独立新构图的低机位宽景，主体在左侧三分之一，前景细砂或石纹、中景主体、远景水光，主体占宽约15%，不是上一图裁切或放大。One anatomically coherent octopus unless explicitly specified otherwise: one mantle, one head, eight arms belonging to this animal, natural occlusion allowed; never force every arm into view or add arms. Suckers on ventral arm surfaces, no squid feeding tentacles, no human fingers. No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. 
+
+动态：不生成模型动态
+
+## intro-art-01
+
+对应口播：片头独立素材
+
+组合：片头布局；single
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 浅海礁石宽景，金色月光穿水，左前景安静章鱼。No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. Preserve explicitly named species anatomy; no extra arms.
+
+动态：不生成模型动态
+
+## intro-art-02
+
+对应口播：片头独立素材
+
+组合：片头布局；single
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 章鱼自然眼部侧面与粗糙岩面，极精致皮肤。No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. Preserve explicitly named species anatomy; no extra arms.
+
+动态：不生成模型动态
+
+## intro-art-03
+
+对应口播：片头独立素材
+
+组合：片头布局；single
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 深海小飞象章鱼独立全身，天然两鳍与蹼，深蓝海雪。No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. Preserve explicitly named species anatomy; no extra arms.
+
+动态：不生成模型动态
+
+## intro-art-04
+
+对应口播：片头独立素材
+
+组合：片头布局；single
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 古海短直壳头足类，壳面细纹与琥珀轮廓光。No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. Preserve explicitly named species anatomy; no extra arms.
+
+动态：不生成模型动态
+
+## intro-art-05
+
+对应口播：片头独立素材
+
+组合：片头布局；single
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 章鱼已伪装伏在礁石上，自然纹理，未变身。No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. Preserve explicitly named species anatomy; no extra arms.
+
+动态：不生成模型动态
+
+## intro-art-06
+
+对应口播：片头独立素材
+
+组合：片头布局；single
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 岩缝中的章鱼与洞外蓝色水光，细腻吸盘。No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. Preserve explicitly named species anatomy; no extra arms.
+
+动态：不生成模型动态
+
+## intro-art-07
+
+对应口播：片头独立素材
+
+组合：片头布局；single
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 拟态章鱼在火山沙地自然静置，细长八腕条纹。No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. Preserve explicitly named species anatomy; no extra arms.
+
+动态：不生成模型动态
+
+## intro-art-08
+
+对应口播：片头独立素材
+
+组合：片头布局；single
+
+图片：Cinematic science-fantasy underwater documentary, calm dreamlike mood, 16:9 widescreen, deep teal-blue with controlled amber caustics, photorealistic skin, rock, sand and water, intricate material detail, layered foreground midground background, soft volumetric light, elegant asymmetrical composition. Fantasy is confined to atmosphere and lighting. 完整现代浅海章鱼在绚丽大尺度礁石景观，主体居中下方，上方留艺术字空间，不复用正文第一镜。No text, letters, numbers, captions, labels, arrows, diagrams, UI, PPT, watermark, city, robot, jewelry, armor, human face, gore, mutated anatomy, extra arms, tentacle tangle, oversaturated neon, threatening closeup. Preserve explicitly named species anatomy; no extra arms.
+
+动态：不生成模型动态

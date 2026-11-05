@@ -1,0 +1,23 @@
+{
+  "id": "zhumian-geomag-extension-long-20261009",
+  "owner_thread": "01a10af6-0138-7ef0-8236-323efe9fd231",
+  "line": "助眠解说",
+  "submitted_at": "2026-10-09T20:52:02+08:00",
+  "status": "cancelled",
+  "priority": null,
+  "task": "延长策略第4组：沿地磁c04旧121帧的底图、完整LTX图、seed701与提示词生成193帧@24fps（约8秒），仅改帧数。输出原5秒/新8秒/新8秒0.9倍速的同构图1080p Lanczos对照。只生成一次，不自动重试，不跑VSR。",
+  "command_or_workflow_path": "E:/program/language/python/Python-3.11.0/python.exe E:/program/1project/video/projects/助眠解说/episodes/b-geomagnetic-reversal/video/tail-tests/20261009-combinations/run_long_gpu.py",
+  "working_directory": "E:/program/1project/video",
+  "output_directory": "E:/program/1project/video/projects/助眠解说/episodes/b-geomagnetic-reversal/video/tail-tests/20261009-combinations",
+  "estimated_minutes": 40,
+  "estimated_vram_mb": 15000,
+  "dependencies": [
+    "port8191 free",
+    "shared GPU locks free",
+    "LTX-2.3 models"
+  ],
+  "authorization": "用户2026-10-09批准四组测试并要求开始；GPU必须由管理队列granted。",
+  "pid": null,
+  "log_path": null,
+  "note": "stale:地磁一期已归档完结,本请求作废(2026-10-20 助眠线队列卫生)"
+}

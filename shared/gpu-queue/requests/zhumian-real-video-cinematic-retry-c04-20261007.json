@@ -1,0 +1,36 @@
+{
+  "id": "zhumian-real-video-cinematic-retry-c04-20261007",
+  "owner_thread": "01a10af6-0138-7ef0-8236-323efe9fd231",
+  "line": "zhumian-b-geomagnetic-reversal",
+  "submitted_at": "2026-10-07T00:00:00+08:00",
+  "status": "completed",
+  "task": "真实图生视频单镜重试，仅处理 ch1-c04-v2-01（轨道地球与磁场），不使用 affine。使用 LTX-2.3 生成约5秒、24fps、1280x704 原始视频，并保留 1280x720 交付版与 1920x1080 高码率 Lanczos+轻度锐化版。其余三个镜头本轮不启动。",
+  "shots": [
+    "ch1-c04-v2-01"
+  ],
+  "command_or_workflow_path": "E:\\program\\1project\\video\\projects\\助眠解说\\legacy-source\\zhumian\\b-geomagnetic-reversal\\gen_rebuild\\run_i2v_cinematic_retry_c04.py",
+  "working_directory": "E:\\program\\1project\\video\\projects\\助眠解说\\legacy-source\\zhumian\\b-geomagnetic-reversal\\gen_rebuild",
+  "input_directory": "E:\\program\\1project\\video\\projects\\助眠解说\\legacy-source\\zhumian\\b-geomagnetic-reversal\\gen_rebuild\\runs\\20261007-cinematic-style-grid01",
+  "output_directory": "E:\\program\\1project\\video\\projects\\助眠解说\\legacy-source\\zhumian\\b-geomagnetic-reversal\\gen_rebuild\\runs\\20261007-ltx-cinematic-retry-c04",
+  "estimated_minutes": 12,
+  "estimated_vram_mb": 15000,
+  "dependencies": [
+    "LTX-2.3 local ComfyUI portable workflow",
+    "shared GPU lock",
+    "ffmpeg with libx264"
+  ],
+  "authorization": "用户已明确要求先只做一个镜头；无需额外审批。",
+  "priority": "normal",
+  "notes": [
+    "不得扩展到其余镜头",
+    "不得改成 affine 或静态推拉平移",
+    "不得绕过 gpu-queue 直接启动 GPU",
+    "失败时保留日志，不自动重试或扩大范围"
+  ],
+  "supersedes": "zhumian-real-video-cinematic-test01-20261007",
+  "pid": 20120,
+  "log_path": "E:\\program\\1project\\video\\projects\\助眠解说\\legacy-source\\zhumian\\b-geomagnetic-reversal\\gen_rebuild\\cinematic-retry-c04.stdout.log",
+  "granted_at": "2026-10-07T04:59:10.8545732+08:00",
+  "started_at": "2026-10-07T04:59:10.9149163+08:00",
+  "finished_at": "2026-10-07T05:16:37+08:00"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "zhumian-real-video-cinematic-test01-20261007",
+  "owner_thread": "01a10af6-0138-7ef0-8236-323efe9fd231",
+  "line": "zhumian-b-geomagnetic-reversal",
+  "submitted_at": "2026-10-07T00:00:00+08:00",
+  "status": "failed",
+  "task": "真实图生视频四镜测试，不使用 affine 推拉平移。使用 LTX-2.3 对四张已验收的 16:9 横屏图片逐镜生成约5秒、24fps、1280x704 原始视频；每镜保留模型原始视频、1280x720交付编码和1920x1080高码率增强编码。记录 seed、耗时、解码QA、清晰度指标、闪烁、变形和新增物体检查结果。增强版仅使用 Lanczos 放大和轻度 unsharp，不宣称恢复模型已丢失细节。",
+  "shots": [
+    "ch1-c04-v2-01",
+    "ch1-c11-v2-01",
+    "ch1-c12-v2-01",
+    "ch2-c09-v2-01"
+  ],
+  "command_or_workflow_path": "E:\\program\\1project\\video\\projects\\助眠解说\\legacy-source\\zhumian\\b-geomagnetic-reversal\\gen_rebuild\\run_i2v_cinematic_test01.py",
+  "working_directory": "E:\\program\\1project\\video\\projects\\助眠解说\\legacy-source\\zhumian\\b-geomagnetic-reversal\\gen_rebuild",
+  "input_directory": "E:\\program\\1project\\video\\projects\\助眠解说\\legacy-source\\zhumian\\b-geomagnetic-reversal\\gen_rebuild\\runs\\20261007-cinematic-style-grid01",
+  "output_directory": "E:\\program\\1project\\video\\projects\\助眠解说\\legacy-source\\zhumian\\b-geomagnetic-reversal\\gen_rebuild\\runs\\20261007-ltx-cinematic-test01",
+  "estimated_minutes": 50,
+  "estimated_vram_mb": 15000,
+  "dependencies": [
+    "LTX-2.3 local ComfyUI portable workflow",
+    "shared GPU lock",
+    "ffmpeg with libx264"
+  ],
+  "authorization": "用户已批准针对这四个镜头继续测试，并明确本轮目标是真实图生视频；无需等待额外审批。",
+  "priority": "normal",
+  "notes": [
+    "不得改成 affine 或静态推拉平移",
+    "不得直接绕过 gpu-queue 启动 GPU",
+    "原始、1280x720和1920x1080版本全部保留",
+    "完成后仅向提交线程回报文本化 manifest 和 QA 路径"
+  ],
+  "granted_at": "2026-10-07T04:37:43.960135+08:00",
+  "pid": 18700,
+  "started_at": "2026-10-07T04:37:44.0091762+08:00",
+  "log_path": "E:\\program\\1project\\video\\projects\\助眠解说\\legacy-source\\zhumian\\b-geomagnetic-reversal\\gen_rebuild\\cinematic-test01.stdout.log",
+  "finished_at": "2026-10-07T04:39:31+08:00",
+  "error": "ComfyUI exited during first-shot text encoding; runner RuntimeError. No manifest produced. Processes exited and locks released.",
+  "superseded_by": "zhumian-real-video-cinematic-retry-c04-20261007"
+}

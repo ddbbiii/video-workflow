@@ -1,0 +1,25 @@
+{
+    "id":  "zhumian-geomag-intro-op4-vo-tts-20261008",
+    "owner_thread":  "助眠解说（Grok Bot 执行子代理）",
+    "line":  "助眠解说",
+    "submitted_at":  "2026-10-08T06:30:47+08:00",
+    "priority":  null,
+    "status":  "completed",
+    "task":  "地磁片头范例 A 版口播 3 句，VoxCPM2 b2-warm-male seed7/cfg2/10steps（GPU TTS，约 1–3 分钟）",
+    "command_or_workflow_path":  "E:\\program\\1project\\video\\projects\\助眠解说\\legacy-source\\zhumian\\b-geomagnetic-reversal\\intro\\pilot-grok-op4-vo\\jobs\\run_tts_holdlock.ps1",
+    "working_directory":  "E:\\program\\1project\\video\\shared\\runtime\\engines\\tts\\voxcpm",
+    "output_directory":  "E:\\program\\1project\\video\\projects\\助眠解说\\legacy-source\\zhumian\\b-geomagnetic-reversal\\intro\\pilot-grok-op4-vo\\tts\\takes-seed7",
+    "estimated_minutes":  5,
+    "estimated_vram_mb":  8000,
+    "dependencies":  [
+
+                     ],
+    "authorization":  "老大 2026-10-07 授权助眠解说线路自行代管 GPU 请求；本任务 2026-10-08 06:27 老大批准片头范例",
+    "log_path":  "E:\\program\\1project\\video\\projects\\助眠解说\\legacy-source\\zhumian\\b-geomagnetic-reversal\\intro\\pilot-grok-op4-vo\\logs\\run_tts.log",
+    "granted_by":  "助眠解说自管（老大授权）",
+    "granted_at":  "2026-10-08T06:31:15+08:00",
+    "started_at":  "2026-10-08T06:31:15+08:00",
+    "finished_at":  "2026-10-08T06:32:21+08:00",
+    "pid":  41672,
+    "exit_code":  0
+}

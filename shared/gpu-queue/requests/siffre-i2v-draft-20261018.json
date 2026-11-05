@@ -1,0 +1,29 @@
+{
+    "id": "siffre-i2v-draft-20261018",
+    "owner_thread": "workbuddy-session-siffre-beyond-time",
+    "line": "助眠解说",
+    "submitted_at": null,
+    "priority": null,
+    "status": "superseded",
+    "do_not_schedule": true,
+    "task": "《超出时间》(siffre-beyond-time) 全量 40 颗 i2v 镜头图生视频(每镜单一温和运动,tail_extension 2.5s)——【草案,禁止调度】",
+    "command_or_workflow_path": null,
+    "working_directory": "E:/program/1project/video/projects/助眠解说/episodes/siffre-beyond-time",
+    "output_directory": "E:/program/1project/video/projects/助眠解说/episodes/siffre-beyond-time/runs/20261018-sbt-b01/media/i2v",
+    "estimated_minutes": null,
+    "estimated_vram_mb": null,
+    "dependencies": [
+        "静帧子代理完成 image/stills 全量产出并逐镜验收(20261018-sbt-b01 在跑)",
+        "i2v 引擎/模型选定并填入本草案(newton 先例: LTX-2.3 本地 i2v, 12s/镜)",
+        "用户对 i2v 批次授权"
+    ],
+    "authorization": null,
+    "pid": null,
+    "log_path": null,
+    "plan_manifest": "E:/program/1project/video/projects/助眠解说/episodes/siffre-beyond-time/runs/20261018-sbt-b01/manifests/i2v_plan.json",
+    "jobs": 40,
+    "fallback": "i2v 失败回退 P1 affine 运镜并记 manifest(章鱼集 fallback 流程)",
+    "note": "DRAFT ONLY(2026-10-18 管线移植子代理生成):本文件为 i2v 批次占位草案,status=draft 不在 queued/granted/running 生命周期内,管理聊天勿调度、勿通知。静帧验收+引擎选定+用户授权后:补全 command/estimated_vram/authorization,把 status 改为 queued、submitted_at 填真实时间(或另存正式 id 文件),才算提交。",
+    "superseded_by": "siffre-i2v-batch-20261019",
+    "superseded_at": "2026-10-19T22:13:42+08:00"
+}

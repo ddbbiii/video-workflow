@@ -1,0 +1,54 @@
+{
+  "engine_version": "1.1",
+  "engine_sha256": "4002c6e53a7d2eaa0dafedb093e5734eaa83ec38dcaa870d0f96635615aff19c",
+  "plan": "E:\\program\\1project\\video\\shared\\camera-motion\\_probe_engines\\plan_BLENDER_EEVEE_NEXT.json",
+  "backend": "blender",
+  "status": "complete",
+  "shots": [
+    {
+      "id": "id",
+      "fingerprint": "97f3c10646b8676a4ca0ad80c18f2d508569fd3425630a381749784367639ad8",
+      "status": "complete",
+      "backend": "blender",
+      "video": "E:\\program\\1project\\video\\shared\\camera-motion\\_probe_engines\\BLENDER_EEVEE_NEXT\\id.mp4",
+      "video_sha256": "284b2f4c2976708365c7b223bb8d75ef18fcb1aee788ac60e9a69d8762bb4c00",
+      "duration_s": 0.16666666666666666,
+      "qa": {
+        "source_bounds_checked": true,
+        "required_regions_checked": true,
+        "max_center_step_output_px": 0.0,
+        "max_scale_step": 0.0,
+        "scope": "Planned trajectory only; encoded motion and visual texture require separate QA"
+      },
+      "timing": {
+        "init_s": 0.00360700000601355,
+        "render_s": 2.251556099996378,
+        "encode_s": 0.20930820000648964,
+        "frames": 2,
+        "gpu_lock": "E:\\program\\1project\\video\\shared\\work\\cache\\gpu.lock",
+        "blender_report": {
+          "engine": "BLENDER_EEVEE_NEXT",
+          "blender_version": "4.5.14 LTS",
+          "frames_written": [
+            "E:\\program\\1project\\video\\shared\\camera-motion\\_probe_engines\\BLENDER_EEVEE_NEXT\\frame_cache\\id\\frames\\frame_00000.png",
+            "E:\\program\\1project\\video\\shared\\camera-motion\\_probe_engines\\BLENDER_EEVEE_NEXT\\frame_cache\\id\\frames\\frame_00001.png"
+          ],
+          "uv_v_flipped": false,
+          "ortho_scale_rule": "max_axis_AUTO_sensor_fit",
+          "plane_size_rule": "primitive_size2_scale_half_extent",
+          "coordinate_system": "source_pixels_after_exif_top_left_origin",
+          "use_gpu": true
+        },
+        "total_s": 2.464679200005776,
+        "avg_frame_s": 1.125778049998189
+      }
+    }
+  ],
+  "limitations": [
+    "Affine sampling uses OpenCV 1/32-pixel interpolation table.",
+    "Blender backend uses orthographic camera + emission-textured plane; no parallax.",
+    "No invented parallax, internal animation or depth.",
+    "Rendered temporal tracking must be verified separately from planned trajectory.",
+    "Missing Blender install fails hard; never silent-falls back to affine."
+  ]
+}

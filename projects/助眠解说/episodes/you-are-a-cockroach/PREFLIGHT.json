@@ -1,0 +1,13 @@
+{
+  "source_sha256": "1a5a7e60458b4f86d1bc2bc9d5ad4b1fc3ce0a6766bb844bd71369773f3ad646",
+  "paragraph_count": 87,
+  "utterance_count": 157,
+  "runnable_utterance_count": 156,
+  "placeholder_count": 1,
+  "body_shots": 168,
+  "intro_images": 8,
+  "video_candidates": 90,
+  "exact_text_reconstruction": true,
+  "unique_ids": true,
+  "media_executed": false
+}

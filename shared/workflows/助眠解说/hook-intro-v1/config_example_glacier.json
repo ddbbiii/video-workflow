@@ -1,0 +1,72 @@
+{
+  "enabled": true,
+  "name": "glacier-hook-v1",
+  "episode_ep": "E:/program/1project/video/4",
+  "font": "E:/program/1project/video/assets/助眠解说/intro/fonts/MaShanZheng-Regular.ttf",
+  "font_size": 132,
+  "text_color": [
+    246,
+    241,
+    233
+  ],
+  "stroke_color": [
+    10,
+    16,
+    24
+  ],
+  "stroke": 5,
+  "hook_line_1": "你以为冰川一动不动？",
+  "hook_line_2": "其实，它是一条流动的河，只是慢到你几乎看不见。",
+  "display_text_1": [
+    "你以为冰川一动不动？"
+  ],
+  "display_text_2": [
+    "其实，它是一条流动的河。"
+  ],
+  "transition_narration": "接下来的三十多分钟里，你会跟随一片雪花，从高山出发，经历积雪、压实、成为冰川，再慢慢走向山谷。你会发现，那些看起来永远静止的冰，其实一直在改变自己的形状，也在缓慢地改变脚下的世界。",
+  "intro_asset": "image/stills_16x9/c1-s13.jpg",
+  "text_animation": {
+    "scale_start": 0.66,
+    "scale_end": 1.45,
+    "fade_in_s": 0.1,
+    "fade_out_s": 0.4,
+    "y_drift_px": -8,
+    "whoosh_scale": 1.18,
+    "whoosh_s": 0.08,
+    "settle_s": 0.22
+  },
+  "camera_motion": {
+    "zoom_start": 1.0,
+    "zoom_end": 1.18,
+    "pan_px": 0
+  },
+  "voice_timing": {
+    "head_s": 0.35,
+    "gap1_s": 0.45,
+    "gap2_s": 0.55,
+    "tail_s": 0.3
+  },
+  "intro_duration": "auto",
+  "bgm": null,
+  "out": "runs/20261105-hook-b01",
+  "intro_assets": [
+    {
+      "zoom_end": 1.06,
+      "zoom_start": 1.0,
+      "switch_s": 3.3,
+      "path": "image/stills_16x9/c1-s01.jpg"
+    },
+    {
+      "zoom_end": 1.18,
+      "zoom_start": 1.03,
+      "switch_s": 3.3,
+      "path": "image/stills_16x9/c1-s13.jpg"
+    }
+  ],
+  "bg_xfade_s": 0.0,
+  "center_title": "冰川之河",
+  "center_title_delay_s": 0.15,
+  "center_title_s": 3.2,
+  "font_size_1": 172,
+  "font_size_2": 145
+}

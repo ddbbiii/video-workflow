@@ -1,0 +1,17 @@
+{
+  "out_dir": "E:/program/1project/video/projects/助眠解说/episodes/post-tests/sentence-intro-v1/voice-preview/raw",
+  "model_dir": "E:/program/1project/video/shared/runtime/engines/tts/voxcpm/pretrained_models/VoxCPM2",
+  "seed": 7,
+  "prompt_wav": "E:/program/1project/video/shared/runtime/engines/tts/refs/b2-warm-male_ref.wav",
+  "reference_wav": "E:/program/1project/video/shared/runtime/engines/tts/refs/b2-warm-male_ref.wav",
+  "prompt_text": "发电机就在外核。液态铁被热量推着翻滚，切过磁场，生出电流，电流又生出磁场。地面上的罗盘，感受到的就是这股磁场。它藏在很深的地下，安安静静，日夜不息。",
+  "mode": "ultimate",
+  "desc_in_text": false,
+  "cfg_value": 2.0,
+  "inference_timesteps": 10,
+  "shots": [
+    {"id": "i01", "text": "你脚下的地球，藏着一个看不见的磁场。"},
+    {"id": "i02", "text": "它保护着我们，却并非永远保持同一个方向。"},
+    {"id": "i03", "text": "如果南北颠倒，我们的世界会发生什么？"}
+  ]
+}

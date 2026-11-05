@@ -1,0 +1,21 @@
+{
+    "id": "zhumian-sbt-intro-v4-tts-20261020",
+    "owner_thread": "workbuddy-session-siffre-beyond-time",
+    "line": "助眠解说",
+    "submitted_at": "2026-10-20T20:58:23+08:00",
+    "priority": 50,
+    "status": "completed",
+    "task": "《超出时间》(siffre-beyond-time) 片头 v4 快钩标准四段重制:intro 全单元重配 intro-p01-u01/intro-p02-u01/intro-p03-u01 三单元(NARRATION_MASTER 片头段已改 v4 文案;VoxCPM2, b2-warm-male 轻语气, seed 7/cfg 2.0/steps 10, 与 b2 正文同参数)",
+    "command_or_workflow_path": "E:\\program\u0001project\u000bideo\\projects\\助眠解说\\episodes\\siffre-beyond-time\runs61018-sbt-b01\\scripts\u0006_run_tts.py",
+    "working_directory": "E:\\program\u0001project\u000bideo\\projects\\助眠解说\\episodes\\siffre-beyond-time\runs61018-sbt-b01",
+    "output_directory": "E:\\program\u0001project\u000bideo\\projects\\助眠解说\\episodes\\siffre-beyond-time\u0007udio\u000bo-raw\\lightexpr-seed7",
+    "estimated_minutes": 5,
+    "estimated_vram_mb": 8000,
+    "dependencies": [],
+    "authorization": "2026-10-07 用户授权助眠线自管 GPU;2026-10-20 片头 v4 任务书指定本请求;GPU 已让出(mariana 已暂停,两处 shared gpu.lock 已清),自管取锁,结束即放锁;主会话看护按本 ID 等 completed 后自动恢复 mariana",
+    "dependencies_state": "gpu.lock 两处不存在(已清);无持锁进程",
+    "pid": 49856,
+    "log_path": "E:\\program\\1project\\video\\projects\\助眠解说\\episodes\\siffre-beyond-time\\runs\\20261018-sbt-b01\\logs\\tts.log",
+    "completed_at": "2026-10-20T20:59:17+08:00",
+    "note": "intro 3/3"
+}

@@ -1,0 +1,445 @@
+{
+ "kind": "kepu-stills",
+ "tag": "a-space-cat_shot25_reshoot_v1",
+ "project": "stills-jobs",
+ "raw_dir": "E:\\program\\1project\\video\\shared\\runtime\\engines\\stills-runtime\\out\\stills-jobs\\a-space-cat_shot25_reshoot_v1",
+ "instance": "comfy-stills",
+ "pull_zip": "E:\\program\\1project\\video\\shared\\exchange\\pipeline\\stills\\a-space-cat_shot25_reshoot_v1.zip",
+ "shutdown_after": true,
+ "refs": [
+  {
+   "win": "E:\\program\\1project\\video\\shared\\runtime\\engines\\stills-runtime\\refs\\stills-jobs\\silver-cat-01_ref.png",
+   "box": "/workspace/kepu-pipeline/projects/a-smoke-cat/characters/silver-cat-01/ref.png"
+  }
+ ],
+ "jobs": [
+  {
+   "id": "s25_c1",
+   "shot": "s25",
+   "index": 25,
+   "cand": 1,
+   "round": 0,
+   "seed": 9601,
+   "provider": "comfyui",
+   "workflow": "qwen_edit_ref_lightning",
+   "w": 928,
+   "h": 1664,
+   "text": "Place the exact same cat (identical face, emerald-green eyes, silver-tipped shaded coat without tabby stripes, and body shape) from image 1 into a new scene. Cinematic realistic film still, vertical composition. Inside the same cramped modern low-Earth-orbit crewed spacecraft cabin: grey padded wall panels, metal handrails, white storage bags with straps, cool LED strips, round porthole showing the night side of Earth with tiny warm city lights, cold desaturated blue cabin light. The silver shaded cat floats in microgravity hunched into a tight compact ball, shivering with cold, legs held stiff and tucked under its body, front paws pulled in under the chest, bushy tail wrapped tightly around its body, fur slightly puffed; worried cold expression; both ears clearly UPRIGHT normal pointed cat ears standing on top of the head (NOT folded, NOT Scottish-fold, NOT pressed flat). Cold desaturated blue/cyan cabin light across walls bags handrails and silver fur, soft blue shadows, pale icy-blue LED strips; NOT neutral grey, NOT warm. Close-up shot. Close centred view of the curled shivering cat filling the frame, cold blue cabin and night-Earth porthole behind. Natural light interaction on the animal, sharp focus. No text, no letters, no watermark.",
+   "clip_text": "A silver shaded British Shorthair cat. Inside the same cramped modern low-Earth-orbit crewed spacecraft cabin: grey padded wall panels, metal handrails, white storage bags with straps, cool LED strips, round porthole showing the night side of Earth with tiny warm city lights, cold desaturated blue cabin light. The silver shaded cat floats in microgravity hunched into a tight compact ball, shivering with cold, legs held stiff and tucked under its body, front paws pulled in under the chest, bushy tail wrapped tightly around its body, fur slightly puffed; worried cold expression; both ears clearly UPRIGHT normal pointed cat ears standing on top of the head (NOT folded, NOT Scottish-fold, NOT pressed flat).",
+   "composition": "Close centred view of the curled shivering cat filling the frame, cold blue cabin and night-Earth porthole behind.",
+   "extra": [],
+   "allow_text": false,
+   "character": "silver-cat-01",
+   "shot_size": "close",
+   "refs_win": [
+    "E:\\program\\1project\\video\\shared\\runtime\\engines\\stills-runtime\\refs\\stills-jobs\\silver-cat-01_ref.png"
+   ],
+   "project": "stills-jobs",
+   "negative": null,
+   "character_spec": {
+    "id": "silver-cat-01",
+    "provider": "comfyui",
+    "lora": [],
+    "ref": "/workspace/kepu-pipeline/projects/a-smoke-cat/characters/silver-cat-01/ref.png"
+   },
+   "instance": "comfy-stills",
+   "prompt": {
+    "1": {
+     "class_type": "UNETLoader",
+     "inputs": {
+      "unet_name": "qwen_image_edit_2511_fp8mixed.safetensors",
+      "weight_dtype": "default"
+     }
+    },
+    "2": {
+     "class_type": "CLIPLoader",
+     "inputs": {
+      "clip_name": "qwen_2.5_vl_7b_fp8_scaled.safetensors",
+      "type": "qwen_image",
+      "device": "default"
+     }
+    },
+    "3": {
+     "class_type": "VAELoader",
+     "inputs": {
+      "vae_name": "qwen_image_vae.safetensors"
+     }
+    },
+    "4": {
+     "class_type": "ModelSamplingAuraFlow",
+     "inputs": {
+      "model": [
+       "1",
+       0
+      ],
+      "shift": 3.1
+     }
+    },
+    "5": {
+     "class_type": "CFGNorm",
+     "inputs": {
+      "model": [
+       "4",
+       0
+      ],
+      "strength": 1.0
+     }
+    },
+    "6": {
+     "class_type": "LoraLoaderModelOnly",
+     "inputs": {
+      "model": [
+       "5",
+       0
+      ],
+      "lora_name": "Qwen-Image-Edit-2511-Lightning-4steps-V1.0-bf16.safetensors",
+      "strength_model": 1.0
+     }
+    },
+    "7": {
+     "class_type": "LoadImage",
+     "inputs": {
+      "image": "@ref:E:\\program\\1project\\video\\shared\\runtime\\engines\\stills-runtime\\refs\\stills-jobs\\silver-cat-01_ref.png"
+     }
+    },
+    "8": {
+     "class_type": "FluxKontextImageScale",
+     "inputs": {
+      "image": [
+       "7",
+       0
+      ]
+     }
+    },
+    "9": {
+     "class_type": "TextEncodeQwenImageEditPlus",
+     "inputs": {
+      "clip": [
+       "2",
+       0
+      ],
+      "prompt": "Place the exact same cat (identical face, emerald-green eyes, silver-tipped shaded coat without tabby stripes, and body shape) from image 1 into a new scene. Cinematic realistic film still, vertical composition. Inside the same cramped modern low-Earth-orbit crewed spacecraft cabin: grey padded wall panels, metal handrails, white storage bags with straps, cool LED strips, round porthole showing the night side of Earth with tiny warm city lights, cold desaturated blue cabin light. The silver shaded cat floats in microgravity hunched into a tight compact ball, shivering with cold, legs held stiff and tucked under its body, front paws pulled in under the chest, bushy tail wrapped tightly around its body, fur slightly puffed; worried cold expression; both ears clearly UPRIGHT normal pointed cat ears standing on top of the head (NOT folded, NOT Scottish-fold, NOT pressed flat). Cold desaturated blue/cyan cabin light across walls bags handrails and silver fur, soft blue shadows, pale icy-blue LED strips; NOT neutral grey, NOT warm. Close-up shot. Close centred view of the curled shivering cat filling the frame, cold blue cabin and night-Earth porthole behind. Natural light interaction on the animal, sharp focus. No text, no letters, no watermark.",
+      "vae": [
+       "3",
+       0
+      ],
+      "image1": [
+       "8",
+       0
+      ]
+     }
+    },
+    "10": {
+     "class_type": "TextEncodeQwenImageEditPlus",
+     "inputs": {
+      "clip": [
+       "2",
+       0
+      ],
+      "prompt": "",
+      "vae": [
+       "3",
+       0
+      ],
+      "image1": [
+       "8",
+       0
+      ]
+     }
+    },
+    "11": {
+     "class_type": "FluxKontextMultiReferenceLatentMethod",
+     "inputs": {
+      "conditioning": [
+       "9",
+       0
+      ],
+      "reference_latents_method": "index_timestep_zero"
+     }
+    },
+    "12": {
+     "class_type": "FluxKontextMultiReferenceLatentMethod",
+     "inputs": {
+      "conditioning": [
+       "10",
+       0
+      ],
+      "reference_latents_method": "index_timestep_zero"
+     }
+    },
+    "13": {
+     "class_type": "EmptySD3LatentImage",
+     "inputs": {
+      "width": 928,
+      "height": 1664,
+      "batch_size": 1
+     }
+    },
+    "14": {
+     "class_type": "KSampler",
+     "inputs": {
+      "model": [
+       "6",
+       0
+      ],
+      "positive": [
+       "11",
+       0
+      ],
+      "negative": [
+       "12",
+       0
+      ],
+      "latent_image": [
+       "13",
+       0
+      ],
+      "seed": 9601,
+      "steps": 4,
+      "cfg": 1.0,
+      "sampler_name": "euler",
+      "scheduler": "simple",
+      "denoise": 1.0
+     }
+    },
+    "15": {
+     "class_type": "VAEDecode",
+     "inputs": {
+      "samples": [
+       "14",
+       0
+      ],
+      "vae": [
+       "3",
+       0
+      ]
+     }
+    },
+    "99": {
+     "class_type": "SaveImage",
+     "inputs": {
+      "images": [
+       "15",
+       0
+      ],
+      "filename_prefix": "stills/stills-jobs/s25_c1"
+     }
+    }
+   }
+  },
+  {
+   "id": "s25_c2",
+   "shot": "s25",
+   "index": 25,
+   "cand": 2,
+   "round": 0,
+   "seed": 9602,
+   "provider": "comfyui",
+   "workflow": "qwen_edit_ref_lightning",
+   "w": 928,
+   "h": 1664,
+   "text": "Place the exact same cat (identical face, emerald-green eyes, silver-tipped shaded coat without tabby stripes, and body shape) from image 1 into a new scene. Cinematic realistic film still, vertical composition. Inside the same cramped modern low-Earth-orbit crewed spacecraft cabin: grey padded wall panels, metal handrails, white storage bags with straps, cool LED strips, round porthole showing the night side of Earth with tiny warm city lights, cold desaturated blue cabin light. The silver shaded cat floats in microgravity hunched into a tight compact ball, shivering with cold, legs held stiff and tucked under its body, front paws pulled in under the chest, bushy tail wrapped tightly around its body, fur slightly puffed; worried cold expression; both ears clearly UPRIGHT normal pointed cat ears standing on top of the head (NOT folded, NOT Scottish-fold, NOT pressed flat). Cold desaturated blue/cyan cabin light across walls bags handrails and silver fur, soft blue shadows, pale icy-blue LED strips; NOT neutral grey, NOT warm. Close-up shot. Slightly wider cabin view with more padded wall and the porthole city lights, cat still large and curled in center. Natural light interaction on the animal, sharp focus. No text, no letters, no watermark.",
+   "clip_text": "A silver shaded British Shorthair cat. Inside the same cramped modern low-Earth-orbit crewed spacecraft cabin: grey padded wall panels, metal handrails, white storage bags with straps, cool LED strips, round porthole showing the night side of Earth with tiny warm city lights, cold desaturated blue cabin light. The silver shaded cat floats in microgravity hunched into a tight compact ball, shivering with cold, legs held stiff and tucked under its body, front paws pulled in under the chest, bushy tail wrapped tightly around its body, fur slightly puffed; worried cold expression; both ears clearly UPRIGHT normal pointed cat ears standing on top of the head (NOT folded, NOT Scottish-fold, NOT pressed flat).",
+   "composition": "Slightly wider cabin view with more padded wall and the porthole city lights, cat still large and curled in center.",
+   "extra": [],
+   "allow_text": false,
+   "character": "silver-cat-01",
+   "shot_size": "close",
+   "refs_win": [
+    "E:\\program\\1project\\video\\shared\\runtime\\engines\\stills-runtime\\refs\\stills-jobs\\silver-cat-01_ref.png"
+   ],
+   "project": "stills-jobs",
+   "negative": null,
+   "character_spec": {
+    "id": "silver-cat-01",
+    "provider": "comfyui",
+    "lora": [],
+    "ref": "/workspace/kepu-pipeline/projects/a-smoke-cat/characters/silver-cat-01/ref.png"
+   },
+   "instance": "comfy-stills",
+   "prompt": {
+    "1": {
+     "class_type": "UNETLoader",
+     "inputs": {
+      "unet_name": "qwen_image_edit_2511_fp8mixed.safetensors",
+      "weight_dtype": "default"
+     }
+    },
+    "2": {
+     "class_type": "CLIPLoader",
+     "inputs": {
+      "clip_name": "qwen_2.5_vl_7b_fp8_scaled.safetensors",
+      "type": "qwen_image",
+      "device": "default"
+     }
+    },
+    "3": {
+     "class_type": "VAELoader",
+     "inputs": {
+      "vae_name": "qwen_image_vae.safetensors"
+     }
+    },
+    "4": {
+     "class_type": "ModelSamplingAuraFlow",
+     "inputs": {
+      "model": [
+       "1",
+       0
+      ],
+      "shift": 3.1
+     }
+    },
+    "5": {
+     "class_type": "CFGNorm",
+     "inputs": {
+      "model": [
+       "4",
+       0
+      ],
+      "strength": 1.0
+     }
+    },
+    "6": {
+     "class_type": "LoraLoaderModelOnly",
+     "inputs": {
+      "model": [
+       "5",
+       0
+      ],
+      "lora_name": "Qwen-Image-Edit-2511-Lightning-4steps-V1.0-bf16.safetensors",
+      "strength_model": 1.0
+     }
+    },
+    "7": {
+     "class_type": "LoadImage",
+     "inputs": {
+      "image": "@ref:E:\\program\\1project\\video\\shared\\runtime\\engines\\stills-runtime\\refs\\stills-jobs\\silver-cat-01_ref.png"
+     }
+    },
+    "8": {
+     "class_type": "FluxKontextImageScale",
+     "inputs": {
+      "image": [
+       "7",
+       0
+      ]
+     }
+    },
+    "9": {
+     "class_type": "TextEncodeQwenImageEditPlus",
+     "inputs": {
+      "clip": [
+       "2",
+       0
+      ],
+      "prompt": "Place the exact same cat (identical face, emerald-green eyes, silver-tipped shaded coat without tabby stripes, and body shape) from image 1 into a new scene. Cinematic realistic film still, vertical composition. Inside the same cramped modern low-Earth-orbit crewed spacecraft cabin: grey padded wall panels, metal handrails, white storage bags with straps, cool LED strips, round porthole showing the night side of Earth with tiny warm city lights, cold desaturated blue cabin light. The silver shaded cat floats in microgravity hunched into a tight compact ball, shivering with cold, legs held stiff and tucked under its body, front paws pulled in under the chest, bushy tail wrapped tightly around its body, fur slightly puffed; worried cold expression; both ears clearly UPRIGHT normal pointed cat ears standing on top of the head (NOT folded, NOT Scottish-fold, NOT pressed flat). Cold desaturated blue/cyan cabin light across walls bags handrails and silver fur, soft blue shadows, pale icy-blue LED strips; NOT neutral grey, NOT warm. Close-up shot. Slightly wider cabin view with more padded wall and the porthole city lights, cat still large and curled in center. Natural light interaction on the animal, sharp focus. No text, no letters, no watermark.",
+      "vae": [
+       "3",
+       0
+      ],
+      "image1": [
+       "8",
+       0
+      ]
+     }
+    },
+    "10": {
+     "class_type": "TextEncodeQwenImageEditPlus",
+     "inputs": {
+      "clip": [
+       "2",
+       0
+      ],
+      "prompt": "",
+      "vae": [
+       "3",
+       0
+      ],
+      "image1": [
+       "8",
+       0
+      ]
+     }
+    },
+    "11": {
+     "class_type": "FluxKontextMultiReferenceLatentMethod",
+     "inputs": {
+      "conditioning": [
+       "9",
+       0
+      ],
+      "reference_latents_method": "index_timestep_zero"
+     }
+    },
+    "12": {
+     "class_type": "FluxKontextMultiReferenceLatentMethod",
+     "inputs": {
+      "conditioning": [
+       "10",
+       0
+      ],
+      "reference_latents_method": "index_timestep_zero"
+     }
+    },
+    "13": {
+     "class_type": "EmptySD3LatentImage",
+     "inputs": {
+      "width": 928,
+      "height": 1664,
+      "batch_size": 1
+     }
+    },
+    "14": {
+     "class_type": "KSampler",
+     "inputs": {
+      "model": [
+       "6",
+       0
+      ],
+      "positive": [
+       "11",
+       0
+      ],
+      "negative": [
+       "12",
+       0
+      ],
+      "latent_image": [
+       "13",
+       0
+      ],
+      "seed": 9602,
+      "steps": 4,
+      "cfg": 1.0,
+      "sampler_name": "euler",
+      "scheduler": "simple",
+      "denoise": 1.0
+     }
+    },
+    "15": {
+     "class_type": "VAEDecode",
+     "inputs": {
+      "samples": [
+       "14",
+       0
+      ],
+      "vae": [
+       "3",
+       0
+      ]
+     }
+    },
+    "99": {
+     "class_type": "SaveImage",
+     "inputs": {
+      "images": [
+       "15",
+       0
+      ],
+      "filename_prefix": "stills/stills-jobs/s25_c2"
+     }
+    }
+   }
+  }
+ ]
+}

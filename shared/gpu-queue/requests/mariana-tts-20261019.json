@@ -1,0 +1,27 @@
+{
+    "id": "mariana-tts-20261019",
+    "owner_thread": "助眠解说-mariana会话",
+    "line": "助眠解说",
+    "submitted_at": "2026-10-19T23:55:00+08:00",
+    "priority": null,
+    "status": "completed",
+    "task": "《下潜一万米》(mariana-descent) 全量 TTS:validate 验证批 5 单元先行,合格后 intro/bridge/ch01..ch10/epilogue 共 169 单元(VoxCPM2, b2-warm-male 轻语气, seed 7)",
+    "command_or_workflow_path": "E:\\program\\1project\\video\\projects\\助眠解说\\episodes\\mariana-descent\\runs\\20261019-mdb-b01\\scripts\\06_run_tts.py",
+    "working_directory": "E:\\program\\1project\\video\\projects\\助眠解说\\episodes\\mariana-descent\\runs\\20261019-mdb-b01",
+    "output_directory": "E:\\program\\1project\\video\\projects\\助眠解说\\episodes\\mariana-descent\\audio\\vo-raw\\lightexpr-seed7",
+    "estimated_minutes": 110,
+    "estimated_vram_mb": 8000,
+    "dependencies": [
+        "zhumian-sbt-tts-20261018"
+    ],
+    "authorization": "2026-10-07 用户授权助眠线自管 GPU;2026-10-19 用户指示'自己看情况往下推进直到做出最终视频',口播 v1 同日锁定;排在 siffre TTS 完成后按锁协议执行",
+    "pid": 24252,
+    "log_path": "E:\\program\\1project\\video\\projects\\助眠解说\\episodes\\mariana-descent\\runs\\20261019-mdb-b01\\logs\\tts.log",
+    "orchestrator": "runs/20261019-mdb-b01/scripts/tts_orchestrator.py(等待依赖完成与锁释放后自动 validate→全量→08→09)",
+    "granted_at": "2026-10-20T09:38:48+08:00",
+    "granted_by": "mariana自管(依赖siffre TTS完成)",
+    "stage": "tts+08+09 done",
+    "started_at": "2026-10-20T09:38:48+08:00",
+    "completed_at": "2026-10-20T12:02:14+08:00",
+    "note": "intro 4/4"
+}

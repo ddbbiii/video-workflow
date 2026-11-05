@@ -1,0 +1,35 @@
+{
+  "id": "zhumian-vsr-baseline-c04-streaming-20261007",
+  "owner_thread": "01a10e62-835a-78b2-8c7b-6d79e97ce195",
+  "line": "zhumian-b-geomagnetic-reversal",
+  "submitted_at": "2026-10-07T06:45:00+08:00",
+  "priority": "normal",
+  "status": "failed",
+  "task": "单镜 RealBasicVSR 高清修复，使用流式分段推理避免完整视频超分结果一次性占用 CPU 内存。仅处理 ch1-c04-v2-01。",
+  "shots": [
+    "ch1-c04-v2-01"
+  ],
+  "command_or_workflow_path": "E:\\program\\1project\\video\\shared\\video-restoration\\run_vsr_streaming.ps1",
+  "working_directory": "E:\\program\\1project\\video\\shared\\video-restoration",
+  "input_directory": "E:\\program\\1project\\video\\projects\\助眠解说\\legacy-source\\zhumian\\b-geomagnetic-reversal\\gen_rebuild\\runs\\20261007-ltx-cinematic-retry-c04",
+  "output_directory": "E:\\program\\1project\\video\\projects\\助眠解说\\legacy-source\\zhumian\\b-geomagnetic-reversal\\gen_rebuild\\runs\\20261007-vsr-baseline-c04-streaming",
+  "estimated_minutes": 25,
+  "estimated_vram_mb": 12000,
+  "dependencies": [
+    "portable ModelScope pipeline initialized",
+    "simplejson and sortedcontainers installed",
+    "streaming runner avoids output concat memory spike"
+  ],
+  "authorization": "用户临时授权本次自行处理并继续单镜测试。",
+  "supersedes": "zhumian-vsr-baseline-c04-retry3-20261007",
+  "notes": [
+    "必须使用 portable Python",
+    "不得覆盖源视频、Lanczos 基线或旧失败目录",
+    "不得扩展到其他镜头"
+  ],
+  "pid": 50660,
+  "started_at": "2026-10-07T06:55:59.5294494+08:00",
+  "log_path": "E:\\program\\1project\\video\\shared\\video-restoration\\vsr-streaming.stdout.log",
+  "finished_at": "2026-10-07T06:58:00+08:00",
+  "error": "Streaming runner failed on first chunk: input torch.cuda.FloatTensor and CPU model weights were on different devices; no VSR video produced."
+}

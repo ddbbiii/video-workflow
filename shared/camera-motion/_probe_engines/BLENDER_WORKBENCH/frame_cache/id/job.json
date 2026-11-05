@@ -1,0 +1,28 @@
+{
+  "image": "E:\\program\\1project\\video\\shared\\camera-motion\\_probe_engines\\marked.png",
+  "width": 320,
+  "height": 180,
+  "source_size": [
+    320,
+    180
+  ],
+  "views": [
+    [
+      0.0,
+      0.0,
+      1.0,
+      1.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0,
+      1.0
+    ]
+  ],
+  "frames_dir": "E:\\program\\1project\\video\\shared\\camera-motion\\_probe_engines\\BLENDER_WORKBENCH\\frame_cache\\id\\frames",
+  "report_path": "E:\\program\\1project\\video\\shared\\camera-motion\\_probe_engines\\BLENDER_WORKBENCH\\frame_cache\\id\\blender_report.json",
+  "start_frame": 0,
+  "engine": "BLENDER_WORKBENCH",
+  "use_gpu": false
+}

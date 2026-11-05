@@ -1,0 +1,36 @@
+{
+  "id": "zhumian-vsr-baseline-c04-streaming-retry4-20261007",
+  "owner_thread": "01a10e62-835a-78b2-8c7b-6d79e97ce195",
+  "line": "zhumian-b-geomagnetic-reversal",
+  "submitted_at": "2026-10-07T07:10:00+08:00",
+  "priority": "normal",
+  "status": "failed",
+  "task": "单镜 RealBasicVSR 流式高清修复，显式将模型和输入移动到同一设备，避免 CUDA/CPU 设备不一致。仅处理 ch1-c04-v2-01。",
+  "shots": [
+    "ch1-c04-v2-01"
+  ],
+  "command_or_workflow_path": "E:\\program\\1project\\video\\shared\\video-restoration\\run_streaming_retry4.ps1",
+  "working_directory": "E:\\program\\1project\\video\\shared\\video-restoration",
+  "input_directory": "E:\\program\\1project\\video\\projects\\助眠解说\\legacy-source\\zhumian\\b-geomagnetic-reversal\\gen_rebuild\\runs\\20261007-ltx-cinematic-retry-c04",
+  "output_directory": "E:\\program\\1project\\video\\projects\\助眠解说\\legacy-source\\zhumian\\b-geomagnetic-reversal\\gen_rebuild\\runs\\20261007-vsr-baseline-c04-streaming-retry4",
+  "estimated_minutes": 25,
+  "estimated_vram_mb": 12000,
+  "dependencies": [
+    "portable ModelScope dependencies installed",
+    "streaming runner py_compile passed",
+    "explicit model device placement"
+  ],
+  "authorization": "用户临时授权本次自行处理并继续单镜测试。",
+  "supersedes": "zhumian-vsr-baseline-c04-streaming-20261007",
+  "notes": [
+    "必须使用 portable Python",
+    "不得覆盖源视频、Lanczos 基线或旧失败目录",
+    "不得扩展到其他镜头"
+  ],
+  "pid": 34164,
+  "started_at": "2026-10-07T07:11:24.2570270+08:00",
+  "log_path": "E:\\program\\1project\\video\\shared\\video-restoration\\vsr-streaming-retry4.stdout.log",
+  "finished_at": "2026-10-07T14:56:28+08:00",
+  "error": "进程消失：PID 34164 已不存在，两处 GPU 锁均不存在，显卡空闲；raw mp4（51380268 字节，最后写入 07:37:30 +08:00）缺 moov 头，为未闭合的半截文件，未产出交付版。stderr 停在模型加载完成后，无异常记录。",
+  "closed_by": "助眠解说线路经老大 2026-10-07 授权（\"全程由你自己处理，就不要问别人\"）代管收尾；半截文件与输出目录原样保留，未删除、未移动。"
+}

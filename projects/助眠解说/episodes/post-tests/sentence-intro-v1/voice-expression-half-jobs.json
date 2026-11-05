@@ -1,0 +1,16 @@
+{
+  "out_dir": "E:/program/1project/video/projects/助眠解说/episodes/post-tests/sentence-intro-v1/voice-expression-half/raw",
+  "model_dir": "E:/program/1project/video/shared/runtime/engines/tts/voxcpm/pretrained_models/VoxCPM2",
+  "seed": 7,
+  "reference_wav": "E:/program/1project/video/shared/runtime/engines/tts/refs/b2-warm-male_ref.wav",
+  "prompt_wav": "E:/program/1project/video/projects/助眠解说/episodes/post-tests/sentence-intro-v1/voice-preview/raw/i01.wav",
+  "prompt_text": "你脚下的地球，藏着一个看不见的磁场。",
+  "desc_in_text": false,
+  "cfg_value": 2.0,
+  "inference_timesteps": 10,
+  "shots": [
+    {"id": "i01", "text": "你脚下的地球，藏着一个看不见的磁场。"},
+    {"id": "i02", "text": "它保护着我们，却并非永远保持同一个方向。"},
+    {"id": "i03", "text": "如果南北颠倒，我们的世界会发生什么？"}
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "zhumian-ntc-tts-full-20261014",
+  "owner_thread": "workbuddy-session-newton-to-chaos",
+  "line": "助眠解说",
+  "submitted_at": "2026-10-14T11:15:00+08:00",
+  "priority": null,
+  "status": "cancelled",
+  "task": "牛顿到混沌 全量TTS 10个章节作业 208单元（b2-warm-male light-expression，VoxCPM2）",
+  "command_or_workflow_path": "E:/program/1project/video/projects/助眠解说/episodes/newton-to-chaos/runs/20261014-ntc-b01/scripts/",
+  "working_directory": "E:/program/1project/video/projects/助眠解说/episodes/newton-to-chaos",
+  "output_directory": "E:/program/1project/video/projects/助眠解说/episodes/newton-to-chaos/runs/20261014-ntc-b01/media",
+  "estimated_minutes": 100,
+  "estimated_vram_mb": 8000,
+  "dependencies": [],
+  "authorization": "用户2026-10-14交接授权本集制作；IM通知被宿主策略阻断，按STATE.md 2026-10-13指令所属会话自管直跑（先核对双锁无占用）",
+  "pid": null,
+  "log_path": "E:/program/1project/video/projects/助眠解说/episodes/newton-to-chaos/runs/20261014-ntc-b01/logs/",
+  "note": "stale:newton-to-chaos TTS 已完成并交付,本请求作废(2026-10-20 助眠线队列卫生)"
+}

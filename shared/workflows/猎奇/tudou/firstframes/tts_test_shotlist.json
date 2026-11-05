@@ -1,0 +1,247 @@
+{
+  "title": "土豆退婚流（纯对话版）分镜表 v1",
+  "profile": "profiles/lieqi.yaml",
+  "language": "zh-CN",
+  "notes": "Step 5 shotlist draft v1 (猎奇线, 2026-10-01). Script: E:/program/1project/video/projects/猎奇/episodes/tudou/story/tudou_tuihun_script.md (定稿, 28 lines, no narrator), used word for word; split lines are marked line_part. duration_hint_sec = Hanzi/5.5 + 0.3 (the 0.3 only on the last part of a split line); real durations come from the VO that passes vo_gate. profile profiles/lieqi.yaml is registered for multi-voice dialogue. Extra per-shot fields (act, speaker, voice, characters_in_frame, location, camera, action_zh, motion_prompt_en, i2v_method, props) are ignored by current scripts (schema allows additionalProperties). Character refs are three-view sheets (absolute paths, project not under kepu-pipeline/projects). cucumber_heir sheet shows a luxury-brand-like monogram tracksuit and logo sneakers: every prompt overrides it to a plain polka-dot tracksuit, no logos. Ending: machinery and chips only, no blood. Canonical pipeline format is JSON (scripts json.loads the shotlist): shotlist_v1.json is generated from the same data.",
+  "characters": {
+    "potato_poor": {
+      "id": "potato_poor",
+      "name": "土豆（落魄版）",
+      "identity_en": "the poor potato youth: his head is a real dirty lumpy raw potato with caked mud, pits, dark blemishes and pale sprouting shoots, with an uncanny hyper-realistic human face (wet human eyes, thick brows, crooked yellowish teeth); skinny real human body with veiny dirty hands, ragged patched burlap vest, rolled-up patched grey trousers, straw sandals, mud splatters",
+      "description_en": "the poor potato youth: his head is a real dirty lumpy raw potato with caked mud, pits, dark blemishes and pale sprouting shoots, with an uncanny hyper-realistic human face (wet human eyes, thick brows, crooked yellowish teeth); skinny real human body with veiny dirty hands, ragged patched burlap vest, rolled-up patched grey trousers, straw sandals, mud splatters",
+      "ref": "E:/program/1project/video/assets/猎奇/characters/tudou-threeview/step1b/tudou_ugly_C2.png"
+    },
+    "potato_ceo": {
+      "id": "potato_ceo",
+      "name": "土豆（总裁版）",
+      "identity_en": "the CEO potato: the same uncanny human face, but his head is now a PEELED smooth pale-yellow potato with a moist sheen and a few small peeling gouges, slicked-back glossy black hair; skinny body in a sharp black suit, white shirt, red tie, big gold watch, shiny black leather shoes",
+      "description_en": "the CEO potato: the same uncanny human face, but his head is now a PEELED smooth pale-yellow potato with a moist sheen and a few small peeling gouges, slicked-back glossy black hair; skinny body in a sharp black suit, white shirt, red tie, big gold watch, shiny black leather shoes",
+      "ref": "E:/program/1project/video/assets/猎奇/characters/tudou-threeview/step2-ceo/tudou_ceo_2.png"
+    },
+    "tomato_heiress": {
+      "id": "tomato_heiress",
+      "name": "番茄千金（小红）",
+      "identity_en": "the tomato heiress: her head is a glossy ripe red tomato with a green calyx on top, uncanny human face with heavy makeup, arched brows, false lashes, bright red lips, pearl drop earrings; skinny body in a fitted hot-pink satin mini dress with a ruffled collar, hot-pink high heels",
+      "description_en": "the tomato heiress: her head is a glossy ripe red tomato with a green calyx on top, uncanny human face with heavy makeup, arched brows, false lashes, bright red lips, pearl drop earrings; skinny body in a fitted hot-pink satin mini dress with a ruffled collar, hot-pink high heels",
+      "ref": "E:/program/1project/video/assets/猎奇/characters/tudou-threeview/step3-cast/tomato_heiress_1.png"
+    },
+    "tomato_dad": {
+      "id": "tomato_dad",
+      "name": "番茄老爹",
+      "identity_en": "the tomato dad: his head is an overripe wrinkled slightly cracked big tomato with a curly green stem, uneven droopy mustache and a snobbish sideways glare; potbellied body in a glossy burgundy suit, dark shirt, oversized gold chain, red pocket square, black loafers",
+      "description_en": "the tomato dad: his head is an overripe wrinkled slightly cracked big tomato with a curly green stem, uneven droopy mustache and a snobbish sideways glare; potbellied body in a glossy burgundy suit, dark shirt, oversized gold chain, red pocket square, black loafers",
+      "ref": "E:/program/1project/video/assets/猎奇/characters/tudou-threeview/step3-cast/tomato_dad_2.png"
+    },
+    "cucumber_heir": {
+      "id": "cucumber_heir",
+      "name": "黄瓜大少",
+      "identity_en": "the cucumber heir: his head is a long bumpy spiky green cucumber with a yellow cucumber flower on top, tinted oval sunglasses, smug lopsided grin; skinny body in a tropical floral shirt under a PLAIN black tracksuit with a simple tiny white polka-dot pattern and plain white side stripes, plain black sneakers, no logos, no monogram, no brand marks",
+      "description_en": "the cucumber heir: his head is a long bumpy spiky green cucumber with a yellow cucumber flower on top, tinted oval sunglasses, smug lopsided grin; skinny body in a tropical floral shirt under a PLAIN black tracksuit with a simple tiny white polka-dot pattern and plain white side stripes, plain black sneakers, no logos, no monogram, no brand marks",
+      "ref": "E:/program/1project/video/assets/猎奇/characters/tudou-threeview/step3-cast/cucumber_heir_2.png",
+      "note": "三视图上的运动服是类似奢侈品牌的字母印花+红绿条纹、球鞋有圆形标：出图时必须用 prompt 覆盖成素色波点+白条纹、无标，见 notes"
+    },
+    "cucumber_wilted": {
+      "id": "cucumber_wilted",
+      "name": "黄瓜大少（蔫了版，第三幕）",
+      "identity_en": "the same cucumber heir, now wilted: his cucumber head is soft, wrinkled, slightly yellowed and drooping to one side, the yellow flower on top limp and brown at the edges, one sunglasses lens cracked; the same floral shirt and PLAIN black polka-dot tracksuit with plain white side stripes now dirty and creased, scuffed plain black sneakers, no logos, no monogram",
+      "description_en": "the same cucumber heir, now wilted: his cucumber head is soft, wrinkled, slightly yellowed and drooping to one side, the yellow flower on top limp and brown at the edges, one sunglasses lens cracked; the same floral shirt and PLAIN black polka-dot tracksuit with plain white side stripes now dirty and creased, scuffed plain black sneakers, no logos, no monogram",
+      "ref": "E:/program/1project/video/assets/猎奇/characters/tudou-threeview/step3-cast/cucumber_heir_2.png",
+      "note": "同一张参考图，靠 prompt 做「蔫」；不另出三视图"
+    },
+    "onion_secretary": {
+      "id": "onion_secretary",
+      "name": "洋葱秘书",
+      "identity_en": "the onion secretary: her head is a red onion with papery peeling brown outer skin and purple-white layers, round gold glasses, constantly teary trembling wet eyes with tear streaks, resigned pout; skinny body in a deep plum skirt suit, cream blouse, small pearl brooch, plum heels",
+      "description_en": "the onion secretary: her head is a red onion with papery peeling brown outer skin and purple-white layers, round gold glasses, constantly teary trembling wet eyes with tear streaks, resigned pout; skinny body in a deep plum skirt suit, cream blouse, small pearl brooch, plum heels",
+      "ref": "E:/program/1project/video/assets/猎奇/characters/tudou-threeview/step3-cast/onion_secretary_2.png"
+    }
+  },
+  "shots": [
+    {
+      "id": "s02",
+      "act": 1,
+      "text": "小红，我们不是从小一个菜园子长大的吗？你说过不嫌弃我的。",
+      "speaker": "土豆",
+      "voice": "lieqi-tudou-potato",
+      "script_line": 2,
+      "hanzi": 25,
+      "duration_hint_sec": 4.85,
+      "mood": "act1-dialogue",
+      "visual_prompt": "Close-up of the poor potato youth in the banquet hall, aggrieved puppy-dog face with wet watery eyes and trembling lips, clutching the hem of his burlap vest with dirty hands, crumbs of mud falling from his head.",
+      "characters_in_frame": [
+        {
+          "id": "potato_poor",
+          "ref": "E:/program/1project/video/assets/猎奇/characters/tudou-threeview/step1b/tudou_ugly_C2.png"
+        }
+      ],
+      "location": {
+        "id": "L1",
+        "name_zh": "订婚宴大厅"
+      },
+      "camera": "近景，轻微手持",
+      "action_zh": "土豆眼泪汪汪、委屈巴巴，双手攥着衣角，泥渣往下掉",
+      "motion_prompt_en": "He talks pleadingly, lips trembling, eyes watering, a crumb of mud falls; slight handheld sway.",
+      "i2v_method": "AI 图生视频 LTX-2.3",
+      "still": {
+        "prompt_en": "Close-up of the poor potato youth in the banquet hall, aggrieved puppy-dog face with wet watery eyes and trembling lips, clutching the hem of his burlap vest with dirty hands, crumbs of mud falling from his head. Characters: The poor potato youth: his head is a real dirty lumpy raw potato with caked mud, pits, dark blemishes and pale sprouting shoots, with an uncanny hyper-realistic human face (wet human eyes, thick brows, crooked yellowish teeth); skinny real human body with veiny dirty hands, ragged patched burlap vest, rolled-up patched grey trousers, straw sandals, mud splatters. Setting: a tacky over-the-top Chinese engagement banquet hall in red and gold: crystal chandeliers, round tables with red tablecloths and gold chair covers, a red carpet aisle, a stage with a red-and-gold floral backdrop (no characters or lettering), a tiered cake topped with cherry tomatoes; background guests only as soft out-of-focus silhouettes. Photoreal live-action film still, vertical 9:16. Real vegetable heads with macro skin texture and uncanny hyper-realistic human faces on skinny realistic human bodies with real hands; creepy macro realism, ugly-funny, absurd comedy. Cinematic lighting, shallow depth of field. No blood, no gore, no wounds, no text, no letters, no logos.",
+        "shot_size": "close",
+        "character": {
+          "id": "potato_poor"
+        },
+        "refs": [],
+        "allow_text": false,
+        "negative": "blood, gore, wounds, guts, text, letters, subtitles, watermark, logo, brand monogram, cartoon, anime, plush toy, clay, extra limbs, extra fingers, deformed hands, extra people"
+      }
+    },
+    {
+      "id": "s04",
+      "act": 1,
+      "text": "听见没？我们番茄家，红得发亮！你一个埋土里的，配吗？",
+      "speaker": "番茄老爹",
+      "voice": "lieqi-tudou-tomato-dad",
+      "script_line": 4,
+      "hanzi": 21,
+      "duration_hint_sec": 4.12,
+      "mood": "act1-dialogue",
+      "visual_prompt": "Low-angle medium shot of the tomato dad stepping forward in the banquet hall, belly thrust out, gold chain glinting, polishing his shiny wrinkled tomato head with a red handkerchief, looking down his nose.",
+      "characters_in_frame": [
+        {
+          "id": "tomato_dad",
+          "ref": "E:/program/1project/video/assets/猎奇/characters/tudou-threeview/step3-cast/tomato_dad_2.png"
+        }
+      ],
+      "location": {
+        "id": "L1",
+        "name_zh": "订婚宴大厅"
+      },
+      "camera": "低机位中景，静止",
+      "action_zh": "老爹挡到女儿前面挺肚子，用手帕擦亮自己的番茄脑袋，再往下指",
+      "motion_prompt_en": "He talks pompously, rubs his head with the handkerchief until it shines, then points down; static camera.",
+      "i2v_method": "AI 图生视频 LTX-2.3",
+      "still": {
+        "prompt_en": "Low-angle medium shot of the tomato dad stepping forward in the banquet hall, belly thrust out, gold chain glinting, polishing his shiny wrinkled tomato head with a red handkerchief, looking down his nose. Characters: The tomato dad: his head is an overripe wrinkled slightly cracked big tomato with a curly green stem, uneven droopy mustache and a snobbish sideways glare; potbellied body in a glossy burgundy suit, dark shirt, oversized gold chain, red pocket square, black loafers. Setting: a tacky over-the-top Chinese engagement banquet hall in red and gold: crystal chandeliers, round tables with red tablecloths and gold chair covers, a red carpet aisle, a stage with a red-and-gold floral backdrop (no characters or lettering), a tiered cake topped with cherry tomatoes; background guests only as soft out-of-focus silhouettes. Photoreal live-action film still, vertical 9:16. Real vegetable heads with macro skin texture and uncanny hyper-realistic human faces on skinny realistic human bodies with real hands; creepy macro realism, ugly-funny, absurd comedy. Cinematic lighting, shallow depth of field. No blood, no gore, no wounds, no text, no letters, no logos.",
+        "shot_size": "medium",
+        "character": {
+          "id": "tomato_dad"
+        },
+        "refs": [],
+        "allow_text": false,
+        "negative": "blood, gore, wounds, guts, text, letters, subtitles, watermark, logo, brand monogram, cartoon, anime, plush toy, clay, extra limbs, extra fingers, deformed hands, extra people"
+      }
+    },
+    {
+      "id": "s21",
+      "act": 2,
+      "text": "土豆哥哥！我错了！我当年是被黄瓜骗了！",
+      "speaker": "番茄千金",
+      "voice": "lieqi-tudou-tomato-heiress",
+      "script_line": 18,
+      "line_part": {
+        "of_line": 18,
+        "part": 1,
+        "of": 2
+      },
+      "hanzi": 16,
+      "duration_hint_sec": 2.91,
+      "mood": "act2-dialogue",
+      "visual_prompt": "Medium shot of the tomato heiress running out of the mansion gate toward camera in her hot-pink dress, wobbling on high heels, arms reaching out, mascara running down her tomato face.",
+      "characters_in_frame": [
+        {
+          "id": "tomato_heiress",
+          "ref": "E:/program/1project/video/assets/猎奇/characters/tudou-threeview/step3-cast/tomato_heiress_1.png"
+        }
+      ],
+      "location": {
+        "id": "L2",
+        "name_zh": "番茄家豪宅大门"
+      },
+      "camera": "中景，跟拍（她跑向镜头）",
+      "action_zh": "千金从大门里踩着高跟鞋踉跄冲出来，睫毛膏花了",
+      "motion_prompt_en": "She runs toward camera crying out, heels wobbling; camera tracks back.",
+      "i2v_method": "AI 图生视频 LTX-2.3",
+      "still": {
+        "prompt_en": "Medium shot of the tomato heiress running out of the mansion gate toward camera in her hot-pink dress, wobbling on high heels, arms reaching out, mascara running down her tomato face. Characters: The tomato heiress: her head is a glossy ripe red tomato with a green calyx on top, uncanny human face with heavy makeup, arched brows, false lashes, bright red lips, pearl drop earrings; skinny body in a fitted hot-pink satin mini dress with a ruffled collar, hot-pink high heels. Setting: the gate of the tomato family mansion: a red-painted European-style villa behind a gilded wrought-iron gate with tomato-shaped finials, but visibly in decline (peeling red paint, weeds in the driveway, a dry fountain); a line of glossy black luxury sedans without badges parked outside, overcast golden afternoon light. Photoreal live-action film still, vertical 9:16. Real vegetable heads with macro skin texture and uncanny hyper-realistic human faces on skinny realistic human bodies with real hands; creepy macro realism, ugly-funny, absurd comedy. Cinematic lighting, shallow depth of field. No blood, no gore, no wounds, no text, no letters, no logos.",
+        "shot_size": "medium",
+        "character": {
+          "id": "tomato_heiress"
+        },
+        "refs": [],
+        "allow_text": false,
+        "negative": "blood, gore, wounds, guts, text, letters, subtitles, watermark, logo, brand monogram, cartoon, anime, plush toy, clay, extra limbs, extra fingers, deformed hands, extra people"
+      }
+    },
+    {
+      "id": "s29",
+      "act": 3,
+      "text": "别提了，冰箱断电，我都快蔫了。求您给口饭吃！",
+      "speaker": "黄瓜大少",
+      "voice": "lieqi-tudou-cucumber",
+      "script_line": 24,
+      "hanzi": 18,
+      "duration_hint_sec": 3.57,
+      "mood": "act3-dialogue",
+      "visual_prompt": "Close-up of the wilted cucumber heir begging with hands pressed together, his soft wrinkled yellowing cucumber head drooping, limp flower on top, one cracked sunglasses lens, tearful pathetic face.",
+      "characters_in_frame": [
+        {
+          "id": "cucumber_wilted",
+          "ref": "E:/program/1project/video/assets/猎奇/characters/tudou-threeview/step3-cast/cucumber_heir_2.png"
+        }
+      ],
+      "location": {
+        "id": "L3",
+        "name_zh": "金脆脆薯片工厂生产线"
+      },
+      "camera": "近景，静止",
+      "action_zh": "黄瓜双手合十求饶，蔫软的脑袋往下耷拉，花也蔫了，眼泪鼻涕",
+      "motion_prompt_en": "He begs while talking, his soft head droops further; static camera.",
+      "i2v_method": "AI 图生视频 LTX-2.3",
+      "still": {
+        "prompt_en": "Close-up of the wilted cucumber heir begging with hands pressed together, his soft wrinkled yellowing cucumber head drooping, limp flower on top, one cracked sunglasses lens, tearful pathetic face. Characters: The same cucumber heir, now wilted: his cucumber head is soft, wrinkled, slightly yellowed and drooping to one side, the yellow flower on top limp and brown at the edges, one sunglasses lens cracked; the same floral shirt and PLAIN black polka-dot tracksuit with plain white side stripes now dirty and creased, scuffed plain black sneakers, no logos, no monogram. Setting: a huge bright modern potato-chip factory floor: gleaming stainless-steel conveyor belts, a giant washing drum, a fryer line with golden light and steam, an elevated steel catwalk with railings, a control panel with one big plain red button; sacks and piles of potatoes. Photoreal live-action film still, vertical 9:16. Real vegetable heads with macro skin texture and uncanny hyper-realistic human faces on skinny realistic human bodies with real hands; creepy macro realism, ugly-funny, absurd comedy. Cinematic lighting, shallow depth of field. No blood, no gore, no wounds, no text, no letters, no logos.",
+        "shot_size": "close",
+        "character": {
+          "id": "cucumber_wilted"
+        },
+        "refs": [],
+        "allow_text": false,
+        "negative": "blood, gore, wounds, guts, text, letters, subtitles, watermark, logo, brand monogram, cartoon, anime, plush toy, clay, extra limbs, extra fingers, deformed hands, extra people"
+      }
+    },
+    {
+      "id": "s31",
+      "act": 3,
+      "text": "黄瓜味薯片，上线！",
+      "speaker": "洋葱秘书",
+      "voice": "lieqi-tudou-onion",
+      "script_line": 26,
+      "hanzi": 7,
+      "duration_hint_sec": 1.57,
+      "mood": "act3-dialogue",
+      "visual_prompt": "Close-up of the onion secretary at the factory control panel, teary but determined, slamming her palm down on one big plain red button.",
+      "characters_in_frame": [
+        {
+          "id": "onion_secretary",
+          "ref": "E:/program/1project/video/assets/猎奇/characters/tudou-threeview/step3-cast/onion_secretary_2.png"
+        }
+      ],
+      "location": {
+        "id": "L3",
+        "name_zh": "金脆脆薯片工厂生产线"
+      },
+      "camera": "近景，静止",
+      "action_zh": "洋葱秘书含泪但坚定，一掌拍下控制台上的大红按钮",
+      "motion_prompt_en": "She shouts and slams the red button, tears fly off; static camera.",
+      "i2v_method": "AI 图生视频 LTX-2.3",
+      "still": {
+        "prompt_en": "Close-up of the onion secretary at the factory control panel, teary but determined, slamming her palm down on one big plain red button. Characters: The onion secretary: her head is a red onion with papery peeling brown outer skin and purple-white layers, round gold glasses, constantly teary trembling wet eyes with tear streaks, resigned pout; skinny body in a deep plum skirt suit, cream blouse, small pearl brooch, plum heels. Setting: a huge bright modern potato-chip factory floor: gleaming stainless-steel conveyor belts, a giant washing drum, a fryer line with golden light and steam, an elevated steel catwalk with railings, a control panel with one big plain red button; sacks and piles of potatoes. Photoreal live-action film still, vertical 9:16. Real vegetable heads with macro skin texture and uncanny hyper-realistic human faces on skinny realistic human bodies with real hands; creepy macro realism, ugly-funny, absurd comedy. Cinematic lighting, shallow depth of field. No blood, no gore, no wounds, no text, no letters, no logos.",
+        "shot_size": "close",
+        "character": {
+          "id": "onion_secretary"
+        },
+        "refs": [],
+        "allow_text": false,
+        "negative": "blood, gore, wounds, guts, text, letters, subtitles, watermark, logo, brand monogram, cartoon, anime, plush toy, clay, extra limbs, extra fingers, deformed hands, extra people"
+      },
+      "vo_gate_skip": true
+    }
+  ]
+}

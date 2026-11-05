@@ -1,0 +1,35 @@
+{
+  "id": "zhumian-vsr-baseline-c04-20261007",
+  "owner_thread": "01a10af6-0138-7ef0-8236-323efe9fd231",
+  "line": "zhumian-b-geomagnetic-reversal",
+  "submitted_at": "2026-10-07T00:00:00+08:00",
+  "priority": "normal",
+  "status": "failed",
+  "task": "对真实图生视频完成后的单个基准镜头 ch1-c04-v2-01 做开源视频高清修复测试。保留现有 Lanczos 1080p 版本作为基线，新增 RealBasicVSR 或 BasicVSR++ 时序超分版本，比较清晰度、闪烁、边缘稳定性和假细节。只处理这一镜，测试通过后再决定是否扩展其余镜头。",
+  "command_or_workflow_path": "E:\\program\\1project\\video\\shared\\video-restoration\\run_vsr_test01.py",
+  "working_directory": "E:\\program\\1project\\video\\shared\\video-restoration",
+  "input_directory": "E:\\program\\1project\\video\\projects\\助眠解说\\legacy-source\\zhumian\\b-geomagnetic-reversal\\gen_rebuild\\runs\\20261007-ltx-cinematic-retry-c04",
+  "output_directory": "E:\\program\\1project\\video\\projects\\助眠解说\\legacy-source\\zhumian\\b-geomagnetic-reversal\\gen_rebuild\\runs\\20261007-vsr-baseline-c04",
+  "estimated_minutes": 20,
+  "estimated_vram_mb": 12000,
+  "dependencies": [
+    "zhumian-real-video-cinematic-retry-c04-20261007 must be completed",
+    "ch1-c04-v2-01 raw or 1280x720 video must exist",
+    "RealBasicVSR weights cached at C:\\Users\\10060\\.cache\\modelscope\\models\\damo--cv_realbasicvsr_video-super-resolution_videolq\\snapshots\\master",
+    "Lanczos 1080p baseline must be preserved"
+  ],
+  "hold_until_dependency": "zhumian-real-video-cinematic-retry-c04-20261007 completed",
+  "authorization": "用户已采纳先做一个镜头的开源视频高清修复测试；测试通过后再扩展，不需要再次审批。",
+  "notes": [
+    "不得修改或覆盖真实视频生成任务",
+    "不得覆盖原始视频或 Lanczos 基线",
+    "若时序超分引入闪烁或假细节，标记失败并保留结果"
+  ],
+  "runner_ready": true,
+  "weights_ready": true,
+  "pid": 37708,
+  "log_path": "E:\\program\\1project\\video\\shared\\video-restoration\\vsr-test01.stdout.log",
+  "hold_reason": "ModelScope pipeline initialization failed: opencv-python and torchvision missing; no VSR output produced.",
+  "granted_at": "2026-10-07T05:28:12.2100762+08:00",
+  "started_at": "2026-10-07T05:28:12.2949834+08:00"
+}

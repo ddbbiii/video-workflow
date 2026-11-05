@@ -1,0 +1,19 @@
+{
+  "id": "mirror-voice-test-20261006",
+  "owner_thread": "01a10af5-7adb-71c0-82f4-641572aec029",
+  "line": "悬疑动漫",
+  "submitted_at": "2026-10-06T12:50:00+08:00",
+  "status": "completed",
+  "task": "用第一条低冷声线配置和seed7，一次生成《镜子》开头连续三句约15秒试听，检查句间衔接；不修改registry、不进入正式正文。",
+  "command_or_workflow_path": "E:\\program\\1project\\video\\assets\\悬疑动漫\\voices\\mirror-test-20261006\\generate.py",
+  "working_directory": "E:\\program\\1project\\video",
+  "output_directory": "E:\\program\\1project\\video\\assets\\悬疑动漫\\voices\\mirror-test-20261006",
+  "estimated_minutes": 2,
+  "estimated_vram_mb": 8000,
+  "dependencies": [],
+  "authorization": "用户明确要求第一条声线生成《镜子》约15秒实测试听。",
+  "pid": 52392,
+  "log_path": "E:\\program\\1project\\video\\assets\\悬疑动漫\\voices\\mirror-test-20261006\\run.stdout.log",
+  "granted_at": "2026-10-06T14:37:49.4920161+08:00",
+  "finished_at": "2026-10-06T14:39:56+0800"
+}

@@ -1,0 +1,17 @@
+{
+ "out_dir": "E:\\program\\1project\\video\\4\\runs\\20261105-hook-b01\\audio\\raw",
+ "model_dir": "E:\\program\\1project\\video\\shared\\runtime\\engines\\tts\\voxcpm\\pretrained_models\\VoxCPM2",
+ "seed": 7,
+ "cfg_value": 2.0,
+ "inference_timesteps": 10,
+ "desc": "",
+ "desc_in_text": false,
+ "reference_wav": "E:/program/1project/video/shared/runtime/engines/tts/refs/b2-warm-male_ref.wav",
+ "prompt_wav": "E:/program/1project/video/shared/runtime/engines/tts/voice-assets/b2-warm-male/refs/light-expression-20261013/prompt.wav",
+ "prompt_text": "你脚下的地球，藏着一个看不见的磁场。",
+ "shots": [
+  {"id": "hook-l1", "text": "你以为冰川一动不动？"},
+  {"id": "hook-l2", "text": "其实，它是一条流动的河，只是慢到你几乎看不见。"},
+  {"id": "hook-trans", "text": "接下来的三十多分钟里，你会跟随一片雪花，从高山出发，经历积雪、压实、成为冰川，再慢慢走向山谷。你会发现，那些看起来永远静止的冰，其实一直在改变自己的形状，也在缓慢地改变脚下的世界。"}
+ ]
+}

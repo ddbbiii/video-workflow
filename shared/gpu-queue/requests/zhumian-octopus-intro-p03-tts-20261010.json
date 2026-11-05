@@ -1,0 +1,26 @@
+{
+    "id": "zhumian-octopus-intro-p03-tts-20261010",
+    "owner_thread": "助眠解说",
+    "line": "助眠解说",
+    "submitted_at": "2026-10-10T15:59:48+08:00",
+    "priority": 95,
+    "status": "completed",
+    "task": "章鱼片头第三句 intro-p003-u01（44分钟回填）VoxCPM2 b2 seed7",
+    "command_or_workflow_path": "E:\\program\\1project\\video\\projects\\助眠解说\\episodes\\you-are-an-octopus\\audio\\jobs\\intro-minute-resolved.json",
+    "working_directory": "E:\\program\\1project\\video\\projects\\助眠解说\\episodes\\you-are-an-octopus",
+    "output_directory": "E:\\program\\1project\\video\\projects\\助眠解说\\episodes\\you-are-an-octopus\\audio\\vo-raw\\seed7",
+    "estimated_minutes": 3,
+    "estimated_vram_mb": 8000,
+    "dependencies": [
+        "zhumian-octopus-tts-20261010"
+    ],
+    "authorization": "助眠解说自管",
+    "granted_at": "2026-10-10T15:59:48+08:00",
+    "pid": 22824,
+    "log_path": "E:\\program\\1project\\video\\projects\\助眠解说\\episodes\\you-are-an-octopus\\runs\\20261010-octopus-b01\\logs\\intro_p03_tts.log",
+    "finished_at": "2026-10-10T16:02:17+08:00",
+    "result": {
+        "wav": "audio/vo-raw/seed7/intro-p003-u01.wav",
+        "processed_s": 11.683
+    }
+}

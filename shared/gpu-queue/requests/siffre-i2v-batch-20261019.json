@@ -1,0 +1,56 @@
+{
+  "id": "siffre-i2v-batch-20261019",
+  "owner_thread": "助眠解说",
+  "line": "助眠解说",
+  "submitted_at": "2026-10-19T22:13:42+08:00",
+  "priority": 90,
+  "status": "completed",
+  "task": "《超出时间》(siffre-beyond-time) 40 镜批量 LTX-2.3 I2V ~12s/镜(先 2 镜试点 brg-s01/c6-s02,合格后全量)",
+  "command_or_workflow_path": "E:\\program\\1project\\video\\projects\\助眠解说\\episodes\\siffre-beyond-time\\runs\\20261018-sbt-b01\\scripts\\run_siffre_i2v_batch.py",
+  "working_directory": "E:\\program\\1project\\video\\projects\\助眠解说\\episodes\\siffre-beyond-time\\runs\\20261018-sbt-b01",
+  "output_directory": "E:\\program\\1project\\video\\projects\\助眠解说\\episodes\\siffre-beyond-time\\runs\\20261018-sbt-b01\\i2v",
+  "estimated_minutes": 480,
+  "estimated_vram_mb": 15000,
+  "dependencies": [],
+  "authorization": "2026-10-07 用户授权助眠线自管 GPU;2026-10-19 用户验收静帧后启动 i2v",
+  "pid": 20444,
+  "log_path": "E:\\program\\1project\\video\\projects\\助眠解说\\episodes\\siffre-beyond-time\\runs\\20261018-sbt-b01\\i2v_work\\logs\\i2v.log",
+  "granted_at": "2026-10-19T22:13:42+08:00",
+  "granted_by": "助眠解说自管",
+  "plan_manifest": "E:\\program\\1project\\video\\projects\\助眠解说\\episodes\\siffre-beyond-time\\runs\\20261018-sbt-b01\\manifests\\i2v_plan.json",
+  "jobs": 40,
+  "engine": "LTX-2.3 distilled I2V(与章鱼集 20261010 批次同工作流/模型/参数:289f@24fps, 1280x704, seed42)",
+  "fallback": "失败镜回退 P1 affine 运镜并记 manifest(章鱼集 fallback 流程);≤5 失败属正常",
+  "pre_grant_check": {
+    "checked_at": "2026-10-19T22:13:42+08:00",
+    "gpu_locks": "shared/work/cache/gpu.lock 与 shared/runtime/comfy/cache/gpu.lock 与 video/work/cache/gpu.lock 均不存在",
+    "gpu_processes": "nvidia-smi 无 python/计算进程(仅桌面应用)",
+    "comfy_ports": "8188/8189/8191 均未监听",
+    "stale_queued_note": "队列中 4 个 queued 为 2026-10-08~10-14 历史条目;按 STATE.md 2026-10-13 用户覆盖指令(队列暂废、直接执行、旧 queued 不自动重启)不视为占位,且实际占用为零"
+  },
+  "task_mode": "pilot",
+  "pilot": [
+    "brg-s01",
+    "c6-s02"
+  ],
+  "started_at": "2026-10-20T05:15:39+08:00",
+  "finished_at": "2026-10-20T05:45:10+08:00",
+  "ok": 40,
+  "failed": [],
+  "aborted": false,
+  "total_gpu_minutes": 401.9,
+  "resume_note": "第二次被外部杀停(13/40,零失败)。本次改为分离进程续跑(runner 自管锁/重试/终态)。若需人为停止:taskkill /PID <request.pid> /T /F,或等批次完成。zhumian-sbt-tts-20261018 依赖本任务完成后执行。",
+  "interruptions": [
+    {
+      "at": "2026-10-19T23:53+08:00",
+      "what": "background task killed externally; pid 6852 exited, Comfy 8191 down, locks stale (cleaned)",
+      "done_at_kill": 7
+    },
+    {
+      "at": "2026-10-20T00:55~01:01+08:00",
+      "what": "second external kill of runner (pid 7456); c4-s09 interrupted; 13/40 done, 0 failed",
+      "pattern": "both kills ~1h after start, not script errors"
+    }
+  ],
+  "remaining": []
+}
