@@ -1,0 +1,21 @@
+{
+ "steps": 20,
+ "cfg": 2.0,
+ "seed": 7,
+ "text": "其中一片雪花，旋转着，穿过安静的空气，最后落在山坡上。",
+ "sr": 48000,
+ "results": {
+  "p1_refprompt": {
+   "gen_s": 14.9,
+   "audio_s": 6.08
+  },
+  "p2_denprompt": {
+   "gen_s": 11.0,
+   "audio_s": 5.76
+  },
+  "p3_lightonly": {
+   "gen_s": 11.3,
+   "audio_s": 5.76
+  }
+ }
+}

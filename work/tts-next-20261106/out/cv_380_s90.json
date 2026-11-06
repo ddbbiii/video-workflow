@@ -1,0 +1,14 @@
+{
+ "name": "cv_380_s90",
+ "speed": 0.9,
+ "target_cps": 3.8,
+ "chars": 271,
+ "sentences": 11,
+ "speech_s": 57.59,
+ "gap_s": 1.37,
+ "audio_s": 71.32,
+ "actual_cps": 3.8,
+ "trim_db": -42.0,
+ "gen_total_s": 180.2,
+ "sr": 24000
+}

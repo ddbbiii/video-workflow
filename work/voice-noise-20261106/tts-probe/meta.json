@@ -1,0 +1,43 @@
+{
+ "ref": "E:\\program\\1project\\video\\shared\\runtime\\engines\\tts\\refs\\b2-warm-male_ref.wav",
+ "prompt": "E:\\program\\1project\\video\\shared\\runtime\\engines\\tts\\voice-assets\\b2-warm-male\\refs\\light-expression-20261013\\prompt.wav",
+ "prompt_text": "你脚下的地球，藏着一个看不见的磁场。",
+ "text": "其中一片雪花，旋转着，穿过安静的空气，最后落在山坡上。",
+ "cfg_value": 2.0,
+ "seed": 7,
+ "denoise": false,
+ "sr": 48000,
+ "torch": "2.8.0+cu128",
+ "load_s": 16.0,
+ "results": {
+  "s10": {
+   "variant": "s10",
+   "inference_timesteps": 10,
+   "seed": 7,
+   "gen_s": 25.5,
+   "audio_s": 5.76
+  },
+  "s20": {
+   "variant": "s20",
+   "inference_timesteps": 20,
+   "seed": 7,
+   "gen_s": 10.8,
+   "audio_s": 5.76
+  },
+  "s30": {
+   "variant": "s30",
+   "inference_timesteps": 30,
+   "seed": 7,
+   "gen_s": 14.5,
+   "audio_s": 5.76
+  },
+  "s20cfg24": {
+   "variant": "s20cfg24",
+   "inference_timesteps": 20,
+   "cfg_value": 2.4,
+   "seed": 7,
+   "gen_s": 11.2,
+   "audio_s": 5.44
+  }
+ }
+}

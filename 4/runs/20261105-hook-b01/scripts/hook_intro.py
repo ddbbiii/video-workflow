@@ -370,12 +370,24 @@ def write_hook_ass(meta, cues, path):
         fe = int(round(fs * T_ANIM["scale_end"]))
         ws = int(round(T_ANIM.get("whoosh_s", 0.08) * 1000))
         st = int(round(T_ANIM.get("settle_s", 0.22) * 1000))
+        fi = int(round(T_ANIM.get("fade_in_ms", 90)))
+        zm = int(round(T_ANIM.get("zoom_ms", 0)))
+        if zm > 0:
+            zs = ws + st
+            ze = max(zs + 1, min(ms - 1, zs + zm))
+            zoom = f"\\t({zs},{ze},\\fs{fe})"
+        else:
+            ex = int(round(T_ANIM.get("exit_ms", 0)))
+            hold = (ms - ex) if ex > 0 else (ws + st)
+            hold = max(ws + st, min(ms - 1, hold))
+            zoom = f"\\t({hold},{ms},\\fs{fe})"
+        settle = f"\\t({ws},{ws + st},\\fs{fs})" if st > 0 else ""
         return (f"{{\\fs{f0}\\an5\\move(960,548,960,540,0,{ms})"
                 f"\\alpha&HFF&"
                 f"\\t(0,{ws},\\fs{fw})"
-                f"\\t(0,90,\\alpha&H00&)"
-                f"\\t({ws},{ws + st},\\fs{fs})"
-                f"\\t({ws + st},{ms},\\fs{fe})"
+                f"\\t(0,{fi},\\alpha&H00&)"
+                f"{settle}"
+                f"{zoom}"
                 f"\\t({out0},{ms},\\alpha&HFF&)}}")
 
     fs1 = int(CFG.get("font_size_1", CFG.get("font_size", 132)))
@@ -443,7 +455,7 @@ def main():
                                               encoding="utf-8")
     intro_sub = render_intro(meta, cues)
     # A: 现有成片 30s
-    subprocess.run([FF, "-y", "-t", "30", "-i", str(EP / "video/final/glacier-river_sub.mp4"),
+    subprocess.run([FF, "-y", "-t", "30", "-i", str(EP.parent / "shared/delivery/finals/glacier-river_sub.mp4"),
                     "-c:v", "libx264", "-preset", "veryfast", "-crf", "20",
                     "-pix_fmt", "yuv420p", "-c:a", "aac", "-b:a", "192k",
                     str(RUN / "preview" / "A_current_30s.mp4")], check=True, capture_output=True)
@@ -455,7 +467,7 @@ def main():
     body_start = 10.59
     XF = 0.5
     body_len = 10.5
-    body = EP / "video/final/glacier-river_clean.mp4"
+    body = EP.parent / "shared/delivery/finals/glacier-river_clean.mp4"
     body_seg = RUN / "preview" / "body10.mp4"
     subprocess.run([FF, "-y", "-ss", str(body_start), "-t", str(body_len), "-i", str(body),
                     "-c:v", "libx264", "-preset", "veryfast", "-crf", "20",

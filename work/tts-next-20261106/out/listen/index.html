@@ -1,0 +1,13 @@
+<!doctype html><meta charset='utf-8'><title>助眠 TTS 新方案试听</title>
+<style>body{background:#12161c;color:#e8eef6;font:15px/1.65 system-ui,'Microsoft YaHei';max-width:960px;margin:36px auto;padding:0 20px}
+h1{font-size:21px;font-weight:600}.lead{color:#9fb0c3;margin-bottom:22px}
+.clip{margin:16px 0;padding:14px 18px;background:#1b222c;border-radius:10px;border-left:3px solid #2e3b4a}
+.name{font-weight:600;color:#ffd27d}.desc{color:#9fb0c3;margin:3px 0 6px;font-size:13.5px}
+.m{color:#6f8095;font-size:12px;margin-bottom:8px}audio{width:100%}</style>
+<h1>助眠解说 · 换线试听（Qwen3-TTS vs CosyVoice3）</h1>
+<div class='lead'>同一段 70 字、同一参考音（b2-warm-male 16s）、统一到 −21 dBFS RMS。重点听三处：<b>句号后的换气</b>、<b>“溪水/细小”的字头</b>、<b>整体有没有金属拖尾</b>。<br>00 是现在成片的声音，01–04 是新模型。</div>
+<div class='clip'><div class='name'>00_current_L7</div><div class='desc'>对照：当前生产链（VoxCPM2 轻语 prompt + 10 步 + atempo + 后期）</div><div class='m'>时长 20.62s · 48 kHz · 谐波间噪声 0.080（越低越干净） · 通量 p90 1.73</div><audio controls preload='none' src='00_current_L7.wav'></audio></div>
+<div class='clip'><div class='name'>01_qwen3</div><div class='desc'>Qwen3-TTS 1.7B Base：3 秒克隆 + 原速（无变速）</div><div class='m'>时长 13.36s · 24 kHz · 谐波间噪声 0.086（越低越干净） · 通量 p90 2.23</div><audio controls preload='none' src='01_qwen3.wav'></audio></div>
+<div class='clip'><div class='name'>02_cosyvoice3</div><div class='desc'>CosyVoice3 0.5B：zero-shot 克隆 + speed=1.0（无 atempo）</div><div class='m'>时长 15.28s · 24 kHz · 谐波间噪声 0.092（越低越干净） · 通量 p90 2.36</div><audio controls preload='none' src='02_cosyvoice3.wav'></audio></div>
+<div class='clip'><div class='name'>03_cosyvoice3_breath</div><div class='desc'>CosyVoice3：[breath] 显式放在三个句号后</div><div class='m'>时长 15.76s · 24 kHz · 谐波间噪声 0.063（越低越干净） · 通量 p90 2.14</div><audio controls preload='none' src='03_cosyvoice3_breath.wav'></audio></div>
+<div class='clip'><div class='name'>04_cosyvoice3_slow</div><div class='desc'>CosyVoice3：speed=0.78 原生减速（目标语速，无 atempo）</div><div class='m'>时长 18.50s · 24 kHz · 谐波间噪声 0.068（越低越干净） · 通量 p90 1.47</div><audio controls preload='none' src='04_cosyvoice3_slow.wav'></audio></div>

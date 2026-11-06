@@ -16,7 +16,9 @@
 ## 交付前必跑
 
 - 像素级 QA（白/黑屏 ≥1 s、音视差 ≤1 帧、CFR 均匀性）——阈值与实现见 `../../rules/shared/delivery/final-delivery.md`。
-- 当前成片统一归档在 `shared/delivery/finals/`，命名 `<episode>_clean.mp4` / `_sub.mp4`。
+- **白边检测**：抽开头/中段/结尾及原白边镜头，四边 2 px 按 `visual.md`“白边门禁”判定；FAIL 则内裁 4 px 重出，不带白边交付。
+- **字幕 G7**：带字幕版必须通过 `subtitles.md` G7（逐句对应、无抢句、单行 ≤80%、持续到下一句）；未通过不得登记交付。
+- 当前成片统一归档在 `shared/delivery/finals/`，命名 `<episode>_clean.mp4` / `_sub.mp4`；拷贝后核对文件大小与哈希，磁盘不足时先清理已验收中间体。
 
 ## 封面
 

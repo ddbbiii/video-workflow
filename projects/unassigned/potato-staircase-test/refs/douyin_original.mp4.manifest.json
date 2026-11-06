@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "status": "completed",
+  "aweme_id": "7692236683694486437",
+  "canonical_url": "https://www.douyin.com/video/7692236683694486437",
+  "output_path": "E:\\program\\1project\\video\\projects\\unassigned\\potato-staircase-test\\refs\\douyin_original.mp4",
+  "resolver_used": "playwright",
+  "quality_requested": "best",
+  "selection_reason": "quality=best; selected video ?x? by resolution/bitrate/size score; audio=selected",
+  "selected_streams": {
+    "video": {
+      "kind": "video",
+      "mime_type": "video/mp4",
+      "width": null,
+      "height": null,
+      "bitrate": 377,
+      "content_length": 3000644
+    },
+    "audio": {
+      "kind": "audio",
+      "mime_type": "video/mp4",
+      "width": null,
+      "height": null,
+      "bitrate": 30,
+      "content_length": 239244
+    }
+  },
+  "probe": {
+    "path": "E:\\program\\1project\\video\\projects\\unassigned\\potato-staircase-test\\refs\\douyin_original.mp4",
+    "duration_seconds": 62.166016,
+    "width": 1080,
+    "height": 1920,
+    "fps": 30.0,
+    "video_codec": "h264",
+    "audio_codec": "aac",
+    "audio_sample_rate": 44100,
+    "audio_channels": 2,
+    "media_mode": "audio_video",
+    "size_bytes": 3263439,
+    "sha256": "7ab6a41af2d66e417f8270108e9aee664e5631c01a265675d507f792c7cc14cc",
+    "decode_checks": [
+      {
+        "position_seconds": 0.0,
+        "status": "passed",
+        "detail": null
+      },
+      {
+        "position_seconds": 31.083,
+        "status": "passed",
+        "detail": null
+      },
+      {
+        "position_seconds": 60.666,
+        "status": "passed",
+        "detail": null
+      }
+    ],
+    "valid_for_analysis": true,
+    "issues": []
+  },
+  "media_mode": "audio_video",
+  "warnings": []
+}

@@ -23,7 +23,7 @@
 | `intro_assets` | **至少 2 张**背景图；每项含 `path`、`switch_s`、`zoom_start`、`zoom_end` |
 | `bg_xfade_s` | 图片间叠化；0＝硬切（两张都有月亮/强主体时用硬切避免重影） |
 | `font` / `font_size` / `font_size_1` / `font_size_2` / `text_color` / `stroke_color` / `stroke` | 字体与样式；`font_size_1/2` 为分屏字号 |
-| `text_animation` | `scale_start`、`scale_end`、`fade_in_s`、`fade_out_s`、`y_drift_px`、`whoosh_scale`、`whoosh_s`、`settle_s` |
+| `text_animation` | `scale_start`、`scale_end`、`whoosh_scale`、`whoosh_s`、`settle_s`、`zoom_ms`、`fade_in_ms`、`fade_out_s`、`y_drift_px` |
 | `center_title` | 四字标题；空则不出 |
 | `center_title_delay_s` / `center_title_s` | 标题相对过渡开口的延迟 / 停留秒数 |
 | `voice_timing` | `head_s`、`gap1_s`、`gap2_s`、`tail_s` |
@@ -54,7 +54,7 @@ python <run>\scripts\15_assemble.py
 
 | 段 | 时间 | 说明 |
 |---|---|---|
-| Hook1 大字 | 0.25–3.1 s | 语音 0.35–2.93 s；0.08 s 从 66% 冲到 118%，回落 100%，再放大到 145%（越出左右屏边） |
+| Hook1 大字 | 0.25–3.1 s | 语音 0.35–2.93 s；0.35 s 浮现 96%→100%，**不停顿**直接 1.7 s 到 110%，定格到句末；淡入 300 ms；不裁字 |
 | Hook2 大字 | 3.28–9.35 s | 语音 3.38–9.12 s；3.3 s 背景硬切第二张 |
 | 过渡旁白 | 9.67–32.82 s | 常规字幕，23.15 s；大字已退场 |
 | 进入正文 | 33.13 s | 与正文 0.5 s 叠化 |

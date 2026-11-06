@@ -1,0 +1,17 @@
+<!doctype html><meta charset='utf-8'><title>助眠声线长段 A/B</title>
+<style>body{background:#12161c;color:#e8eef6;font:15px/1.65 system-ui,'Microsoft YaHei';max-width:960px;margin:36px auto;padding:0 20px}
+h1{font-size:21px;font-weight:600}.lead{color:#9fb0c3;margin-bottom:24px}
+.clip{margin:18px 0;padding:14px 18px;background:#1b222c;border-radius:10px;border-left:3px solid #2e3b4a}
+.name{font-weight:600;color:#ffd27d}.desc{color:#9fb0c3;margin:3px 0 6px;font-size:13.5px}
+.m{color:#6f8095;font-size:12px;margin-bottom:8px}audio{width:100%}</style>
+<h1>助眠解说 · 整段对比（77 字 / 4 句）</h1>
+<div class='lead'>文本：很远的地方，有一座高山。山脚下或许还有树林，或许还有尚未结冰的溪水。但在山顶，空气已经足够寒冷。云层贴着山脊缓缓移动，细小的冰晶在云里生长，然后开始落下。<br>重点听句末换气，以及“溪水 / 细小的冰晶”这类气声词。L6/L7 是不增加算力的方案。</div>
+<div class='clip'><div class='name'>L1_current</div><div class='desc'>当前配方：轻语 prompt + 10 步 + atempo（对照基准）</div><div class='m'>时长 20.64s · 谐波间噪声 0.092（越低越干净） · 频谱通量 p90 1.99</div><audio controls preload='none' src='L1_current.wav'></audio></div>
+<div class='clip'><div class='name'>L2_current_finish</div><div class='desc'>当前音色不动，只加后期链（高通 55 / 去齿音 / 气息门）</div><div class='m'>时长 20.64s · 谐波间噪声 0.089（越低越干净） · 频谱通量 p90 2.04</div><audio controls preload='none' src='L2_current_finish.wav'></audio></div>
+<div class='clip'><div class='name'>L3_orig20</div><div class='desc'>原版参考音 prompt + 20 步</div><div class='m'>时长 20.92s · 谐波间噪声 0.076（越低越干净） · 频谱通量 p90 1.72</div><audio controls preload='none' src='L3_orig20.wav'></audio></div>
+<div class='clip'><div class='name'>L4_orig20_finish</div><div class='desc'>原版 prompt + 20 步 + 后期链</div><div class='m'>时长 20.92s · 谐波间噪声 0.074（越低越干净） · 频谱通量 p90 1.66</div><audio controls preload='none' src='L4_orig20_finish.wav'></audio></div>
+<div class='clip'><div class='name'>L5_orig20_rubberband</div><div class='desc'>原版 prompt + 20 步 + rubberband（已知更差，可跳过）</div><div class='m'>时长 20.93s · 谐波间噪声 0.117（越低越干净） · 频谱通量 p90 1.82</div><audio controls preload='none' src='L5_orig20_rubberband.wav'></audio></div>
+<div class='clip'><div class='name'>L6_orig10</div><div class='desc'>原版 prompt + 仍用 10 步（零额外算力）</div><div class='m'>时长 20.62s · 谐波间噪声 0.083（越低越干净） · 频谱通量 p90 1.77</div><audio controls preload='none' src='L6_orig10.wav'></audio></div>
+<div class='clip'><div class='name'>L7_orig10_finish</div><div class='desc'>原版 prompt + 10 步 + 后期链（零额外算力 + CPU 收尾）</div><div class='m'>时长 20.62s · 谐波间噪声 0.080（越低越干净） · 频谱通量 p90 1.73</div><audio controls preload='none' src='L7_orig10_finish.wav'></audio></div>
+<div class='clip'><div class='name'>L15_orig10_slowgate</div><div class='desc'>原版 prompt + 10 步 + 慢速轻压门（80 ms 攻击 / −10 dB）</div><div class='m'>时长 20.62s · 谐波间噪声 0.080（越低越干净） · 频谱通量 p90 1.73</div><audio controls preload='none' src='L15_orig10_slowgate.wav'></audio></div>
+<div class='clip'><div class='name'>L16_orig10_hp_deess</div><div class='desc'>原版 prompt + 10 步 + 只做高通/去齿音，不压门</div><div class='m'>时长 20.62s · 谐波间噪声 0.082（越低越干净） · 频谱通量 p90 1.76</div><audio controls preload='none' src='L16_orig10_hp_deess.wav'></audio></div>

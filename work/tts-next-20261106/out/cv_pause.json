@@ -1,0 +1,12 @@
+{
+ "name": "cv_pause",
+ "sr": 24000,
+ "audio_s": 20.73,
+ "chars": 70,
+ "mode": "pause",
+ "speed": 1.0,
+ "gap_s": 0.55,
+ "gen_s": 21.5,
+ "rtf": 1.04,
+ "vram_peak_gb": 3.86
+}

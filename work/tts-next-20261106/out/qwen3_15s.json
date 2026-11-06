@@ -1,0 +1,11 @@
+{
+ "model": "E:\\program\\1project\\video\\work\\tts-next-20261106\\models\\Qwen3-TTS-1.7B-Base",
+ "ref": "E:\\program\\1project\\video\\shared\\runtime\\engines\\tts\\refs\\b2-warm-male_ref.wav",
+ "text": "很远的地方，有一座高山。山脚下或许还有树林，或许还有尚未结冰的溪水。但在山顶，空气已经足够寒冷。云层贴着山脊缓缓移动，细小的冰晶在云里生长。",
+ "chars": 70,
+ "sr": 24000,
+ "audio_s": 13.36,
+ "gen_s": 26.9,
+ "rtf": 2.01,
+ "vram_peak_gb": 4.99
+}

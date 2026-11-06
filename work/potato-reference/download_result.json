@@ -1,0 +1,29 @@
+{
+  "meta": null,
+  "content": [
+    {
+      "type": "text",
+      "text": "{\n  \"status\": \"completed\",\n  \"output_path\": \"E:\\\\program\\\\1project\\\\video\\\\projects\\\\unassigned\\\\potato-staircase-test\\\\refs\\\\douyin_original.mp4\",\n  \"manifest_path\": \"E:\\\\program\\\\1project\\\\video\\\\projects\\\\unassigned\\\\potato-staircase-test\\\\refs\\\\douyin_original.mp4.manifest.json\",\n  \"aweme_id\": \"7692236683694486437\",\n  \"duration_seconds\": 62.166016,\n  \"width\": 1080,\n  \"height\": 1920,\n  \"fps\": 30.0,\n  \"video_codec\": \"h264\",\n  \"audio_codec\": \"aac\",\n  \"media_mode\": \"audio_video\",\n  \"size_bytes\": 3263439,\n  \"sha256\": \"7ab6a41af2d66e417f8270108e9aee664e5631c01a265675d507f792c7cc14cc\",\n  \"resolver_used\": \"playwright\",\n  \"warnings\": []\n}",
+      "annotations": null,
+      "meta": null
+    }
+  ],
+  "structuredContent": {
+    "status": "completed",
+    "output_path": "E:\\program\\1project\\video\\projects\\unassigned\\potato-staircase-test\\refs\\douyin_original.mp4",
+    "manifest_path": "E:\\program\\1project\\video\\projects\\unassigned\\potato-staircase-test\\refs\\douyin_original.mp4.manifest.json",
+    "aweme_id": "7692236683694486437",
+    "duration_seconds": 62.166016,
+    "width": 1080,
+    "height": 1920,
+    "fps": 30.0,
+    "video_codec": "h264",
+    "audio_codec": "aac",
+    "media_mode": "audio_video",
+    "size_bytes": 3263439,
+    "sha256": "7ab6a41af2d66e417f8270108e9aee664e5631c01a265675d507f792c7cc14cc",
+    "resolver_used": "playwright",
+    "warnings": []
+  },
+  "isError": false
+}

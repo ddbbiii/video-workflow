@@ -1,0 +1,225 @@
+{
+ "sample_rate": 48000,
+ "head_s": 0.3774,
+ "unit_gap_s": 2.5,
+ "para_gap_s": 2.5,
+ "chap_gap_s": 0.7547,
+ "sections": {
+  "ch01": {
+   "start_s": 0.0,
+   "end_s": 161.557,
+   "seconds": 161.557,
+   "units": [
+    "ch01-p01-u01",
+    "ch01-p02-u01",
+    "ch01-p03-u01",
+    "ch01-p04-u01",
+    "ch01-p05-u01",
+    "ch01-p05-u02",
+    "ch01-p06-u01",
+    "ch01-p07-u01",
+    "ch01-p08-u01",
+    "ch01-p09-u01",
+    "ch01-p10-u01",
+    "ch01-p11-u01"
+   ],
+   "wav": "E:\\program\\1project\\video\\4\\runs\\20261106-cosy3-test\\chapters\\ch01.wav",
+   "chars": 614,
+   "speech_s": 133.68,
+   "gap_s": 2.5,
+   "gap_unclamped_s": 2.502,
+   "clamped": true
+  }
+ },
+ "paragraphs": {
+  "ch01-p01": {
+   "section": "ch01",
+   "start_s": 0.377,
+   "end_s": 2.907
+  },
+  "ch01-p02": {
+   "section": "ch01",
+   "start_s": 5.407,
+   "end_s": 23.557
+  },
+  "ch01-p03": {
+   "section": "ch01",
+   "start_s": 26.057,
+   "end_s": 31.987
+  },
+  "ch01-p04": {
+   "section": "ch01",
+   "start_s": 34.487,
+   "end_s": 44.457
+  },
+  "ch01-p05": {
+   "section": "ch01",
+   "start_s": 46.957,
+   "end_s": 71.177
+  },
+  "ch01-p06": {
+   "section": "ch01",
+   "start_s": 73.677,
+   "end_s": 87.907
+  },
+  "ch01-p07": {
+   "section": "ch01",
+   "start_s": 90.407,
+   "end_s": 103.077
+  },
+  "ch01-p08": {
+   "section": "ch01",
+   "start_s": 105.577,
+   "end_s": 116.387
+  },
+  "ch01-p09": {
+   "section": "ch01",
+   "start_s": 118.887,
+   "end_s": 134.157
+  },
+  "ch01-p10": {
+   "section": "ch01",
+   "start_s": 136.657,
+   "end_s": 149.887
+  },
+  "ch01-p11": {
+   "section": "ch01",
+   "start_s": 152.387,
+   "end_s": 161.557
+  }
+ },
+ "utterances": [
+  {
+   "id": "ch01-p01-u01",
+   "paragraph_id": "ch01-p01",
+   "section": "ch01",
+   "start_s": 0.377,
+   "end_s": 2.907,
+   "start_sample": 18115,
+   "end_sample": 139555,
+   "seconds": 2.53
+  },
+  {
+   "id": "ch01-p02-u01",
+   "paragraph_id": "ch01-p02",
+   "section": "ch01",
+   "start_s": 5.407,
+   "end_s": 23.557,
+   "start_sample": 259555,
+   "end_sample": 1130755,
+   "seconds": 18.15
+  },
+  {
+   "id": "ch01-p03-u01",
+   "paragraph_id": "ch01-p03",
+   "section": "ch01",
+   "start_s": 26.057,
+   "end_s": 31.987,
+   "start_sample": 1250755,
+   "end_sample": 1535395,
+   "seconds": 5.93
+  },
+  {
+   "id": "ch01-p04-u01",
+   "paragraph_id": "ch01-p04",
+   "section": "ch01",
+   "start_s": 34.487,
+   "end_s": 44.457,
+   "start_sample": 1655395,
+   "end_sample": 2133955,
+   "seconds": 9.97
+  },
+  {
+   "id": "ch01-p05-u01",
+   "paragraph_id": "ch01-p05",
+   "section": "ch01",
+   "start_s": 46.957,
+   "end_s": 59.627,
+   "start_sample": 2253955,
+   "end_sample": 2862115,
+   "seconds": 12.67
+  },
+  {
+   "id": "ch01-p05-u02",
+   "paragraph_id": "ch01-p05",
+   "section": "ch01",
+   "start_s": 62.127,
+   "end_s": 71.177,
+   "start_sample": 2982115,
+   "end_sample": 3416515,
+   "seconds": 9.05
+  },
+  {
+   "id": "ch01-p06-u01",
+   "paragraph_id": "ch01-p06",
+   "section": "ch01",
+   "start_s": 73.677,
+   "end_s": 87.907,
+   "start_sample": 3536515,
+   "end_sample": 4219555,
+   "seconds": 14.23
+  },
+  {
+   "id": "ch01-p07-u01",
+   "paragraph_id": "ch01-p07",
+   "section": "ch01",
+   "start_s": 90.407,
+   "end_s": 103.077,
+   "start_sample": 4339555,
+   "end_sample": 4947715,
+   "seconds": 12.67
+  },
+  {
+   "id": "ch01-p08-u01",
+   "paragraph_id": "ch01-p08",
+   "section": "ch01",
+   "start_s": 105.577,
+   "end_s": 116.387,
+   "start_sample": 5067715,
+   "end_sample": 5586595,
+   "seconds": 10.81
+  },
+  {
+   "id": "ch01-p09-u01",
+   "paragraph_id": "ch01-p09",
+   "section": "ch01",
+   "start_s": 118.887,
+   "end_s": 134.157,
+   "start_sample": 5706595,
+   "end_sample": 6439555,
+   "seconds": 15.27
+  },
+  {
+   "id": "ch01-p10-u01",
+   "paragraph_id": "ch01-p10",
+   "section": "ch01",
+   "start_s": 136.657,
+   "end_s": 149.887,
+   "start_sample": 6559555,
+   "end_sample": 7194595,
+   "seconds": 13.23
+  },
+  {
+   "id": "ch01-p11-u01",
+   "paragraph_id": "ch01-p11",
+   "section": "ch01",
+   "start_s": 152.387,
+   "end_s": 161.557,
+   "start_sample": 7314595,
+   "end_sample": 7754755,
+   "seconds": 9.17
+  }
+ ],
+ "audio_plan": {
+  "voice_id": "b2-warm-male-cosy3",
+  "engine": "CosyVoice3-0.5B",
+  "speed": 0.9,
+  "target_cps": 3.8,
+  "trim_rms_db": -42.0,
+  "no_atempo": true,
+  "profile": "E:\\program\\1project\\video\\shared\\runtime\\engines\\tts\\voice-assets\\b2-warm-male-cosy3\\profile.json"
+ },
+ "body_seconds": 161.557,
+ "body_samples": 7754755,
+ "body_wav": "E:\\program\\1project\\video\\4\\runs\\20261106-cosy3-test\\chapters\\body_narration.wav"
+}

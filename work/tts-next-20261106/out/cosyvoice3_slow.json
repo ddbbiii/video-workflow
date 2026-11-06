@@ -1,0 +1,12 @@
+{
+ "model": "E:\\program\\1project\\video\\work\\tts-next-20261106\\models\\Fun-CosyVoice3-0.5B",
+ "name": "cosyvoice3_slow",
+ "chars": 70,
+ "speed": 0.78,
+ "cross": false,
+ "sr": 24000,
+ "audio_s": 18.5,
+ "gen_s": 16.7,
+ "rtf": 0.9,
+ "vram_peak_gb": 3.89
+}

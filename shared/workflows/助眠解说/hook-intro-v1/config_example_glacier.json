@@ -26,14 +26,16 @@
   "transition_narration": "接下来的三十多分钟里，你会跟随一片雪花，从高山出发，经历积雪、压实、成为冰川，再慢慢走向山谷。你会发现，那些看起来永远静止的冰，其实一直在改变自己的形状，也在缓慢地改变脚下的世界。",
   "intro_asset": "image/stills_16x9/c1-s13.jpg",
   "text_animation": {
-    "scale_start": 0.66,
-    "scale_end": 1.45,
+    "scale_start": 0.96,
+    "scale_end": 1.1,
     "fade_in_s": 0.1,
     "fade_out_s": 0.4,
     "y_drift_px": -8,
-    "whoosh_scale": 1.18,
-    "whoosh_s": 0.08,
-    "settle_s": 0.22
+    "whoosh_scale": 1.0,
+    "whoosh_s": 0.35,
+    "settle_s": 0.0,
+    "zoom_ms": 1700,
+    "fade_in_ms": 300
   },
   "camera_motion": {
     "zoom_start": 1.0,

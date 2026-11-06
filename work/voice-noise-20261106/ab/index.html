@@ -1,0 +1,18 @@
+<!doctype html><meta charset='utf-8'><title>助眠声线 A/B</title>
+<style>body{background:#12161c;color:#e8eef6;font:15px/1.65 system-ui,'Microsoft YaHei';max-width:960px;margin:36px auto;padding:0 20px}
+h1{font-size:21px;font-weight:600;margin-bottom:6px}.lead{color:#9fb0c3;margin-bottom:26px}
+.clip{margin:20px 0;padding:14px 18px;background:#1b222c;border-radius:10px;border-left:3px solid #2e3b4a}
+.name{font-weight:600;color:#ffd27d}.desc{color:#9fb0c3;margin:3px 0 8px;font-size:13.5px}
+.m{color:#6f8095;font-size:12px;margin-bottom:8px}audio{width:100%}</style>
+<h1>助眠解说 · 同一句声线对比</h1>
+<div class='lead'>文本：其中一片雪花，旋转着，穿过安静的空气，最后落在山坡上。<br>全部按生产口径裁剪、变速、统一到约 −21 dBFS RMS。戴耳机听换气、齿音、金属感，选一个最不“机器”的。</div>
+<div class='clip'><div class='name'>01 · 当前生产版</div><div class='desc'>轻语 prompt + 10 步 + atempo。就是冰川/编剧3 成片里的声音。</div><div class='m'>时长 6.91s · RMS -21.0 dBFS · 6k+ 能量 0.48% · 频谱平坦度 0.00009</div><audio controls preload='none' src='01_prod_atempo_s10.wav'></audio></div>
+<div class='clip'><div class='name'>02 · 20 步</div><div class='desc'>只把推理步数从 10 提到 20，其余不变。</div><div class='m'>时长 6.89s · RMS -21.0 dBFS · 6k+ 能量 0.35% · 频谱平坦度 0.00009</div><audio controls preload='none' src='02_s20_atempo.wav'></audio></div>
+<div class='clip'><div class='name'>03 · 30 步</div><div class='desc'>步数 30，其余不变。</div><div class='m'>时长 6.89s · RMS -21.0 dBFS · 6k+ 能量 0.36% · 频谱平坦度 0.00009</div><audio controls preload='none' src='03_s30_atempo.wav'></audio></div>
+<div class='clip'><div class='name'>04 · 原版参考音 prompt</div><div class='desc'>改用 2026-10-02 批准的原始 16s 参考音当 prompt，20 步。</div><div class='m'>时长 7.13s · RMS -21.0 dBFS · 6k+ 能量 0.47% · 频谱平坦度 0.00013</div><audio controls preload='none' src='04_p1_refprompt_atempo.wav'></audio></div>
+<div class='clip'><div class='name'>05 · 轻语 prompt 先降噪</div><div class='desc'>对轻语 prompt 做频谱降噪后再克隆，20 步。</div><div class='m'>时长 6.89s · RMS -21.0 dBFS · 6k+ 能量 0.40% · 频谱平坦度 0.00010</div><audio controls preload='none' src='05_p2_denprompt_atempo.wav'></audio></div>
+<div class='clip'><div class='name'>06 · rubberband 变速</div><div class='desc'>20 步，变速器换成 rubberband（替代 atempo）。</div><div class='m'>时长 6.91s · RMS -21.0 dBFS · 6k+ 能量 0.41% · 频谱平坦度 0.00009</div><audio controls preload='none' src='06_s20_rubberband.wav'></audio></div>
+<div class='clip'><div class='name'>07 · 20 步 + 后期链</div><div class='desc'>高通 55Hz + 去齿音 + 气息门（−38 dB 以下压 18 dB）。</div><div class='m'>时长 6.89s · RMS -21.9 dBFS · 6k+ 能量 0.42% · 频谱平坦度 0.00017</div><audio controls preload='none' src='07_s20_atempo_finish.wav'></audio></div>
+<div class='clip'><div class='name'>08 · 原版 prompt + 后期链</div><div class='desc'>原版参考音 prompt，20 步，加同一条后期链。</div><div class='m'>时长 7.13s · RMS -21.7 dBFS · 6k+ 能量 0.48% · 频谱平坦度 0.00020</div><audio controls preload='none' src='08_p1_atempo_finish.wav'></audio></div>
+<div class='clip'><div class='name'>09 · 现有成片只做后期</div><div class='desc'>不重新生成，只对当前生产版做频谱降噪 + 后期链。验证能否救回已交付的声音。</div><div class='m'>时长 6.91s · RMS -22.2 dBFS · 6k+ 能量 0.62% · 频谱平坦度 0.00019</div><audio controls preload='none' src='09_prod_denoise_finish.wav'></audio></div>
+<p style='color:#6f8095;font-size:12.5px'>注：指标只作参考，最终以听感为准。“6k+ 能量”越低越不刺；“频谱平坦度”越高越像噪声。</p>

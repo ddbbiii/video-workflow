@@ -5,8 +5,10 @@
 
 ## 可复用工艺
 
-| 目录 | 内容 | 规则 | 入口 |
+| 目录/文件 | 内容 | 规则 | 入口 |
 |---|---|---|---|
+| `voice-cosy3/` | **新单集默认配音**：CosyVoice3 逐单元生成 + 紧裁 + 3.8 字/秒句间留白 + timeline | `rules/助眠解说/audio.md` §当前默认 | `run_vo.ps1 -Episode <ep> -RunId <id>` |
+| `EPISODE_INPUT_TEMPLATE.md` | 单集输入单（助眠精简版；必填 4 行在上，含标题 / 引入校验） | `rules/助眠解说/input-spec.md` | 复制后填“你填”列 |
 | `intro-v5-stacked/` | 短标题型三句堆叠片头（10–12 s）＋ DP 字幕重对齐参考 | `rules/助眠解说/intro.md` §6 | `reference_build_intro_v2.py`、`reference_realign_subtitles.py` |
 | `hook-intro-v1/` | Hook 型（两拍钩子＋四字标题＋ASS 矢量动画，30–35 s，**新单集默认**） | `rules/助眠解说/intro.md` §7 | `reference_hook_intro.py <config.json>` |
 
@@ -15,6 +17,8 @@
 ```text
 shared/workflows/助眠解说/
   README.md                 本索引
+  EPISODE_INPUT_TEMPLATE.md 单集输入单（新单/续跑都从这张表开始）
+  voice-cosy3/              默认配音：生成/裁剪/装配 + 声线配置
   intro-v5-stacked/         片头模板 + 参考实现
   hook-intro-v1/            片头模板 + 参考实现 + 配置样例
   b-geomagnetic-reversal/   历史存档（地磁单集 81 个脚本），不作新单集模板

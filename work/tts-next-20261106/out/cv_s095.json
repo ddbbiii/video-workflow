@@ -1,0 +1,11 @@
+{
+ "name": "cv_s095",
+ "sr": 24000,
+ "audio_s": 16.08,
+ "chars": 70,
+ "mode": "speed",
+ "speed": 0.95,
+ "gen_s": 12.9,
+ "rtf": 0.8,
+ "vram_peak_gb": 3.86
+}

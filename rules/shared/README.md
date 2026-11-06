@@ -6,6 +6,7 @@
 
 | 当前在做什么 | 必读 | 按需 |
 |---|---|---|
+| 接单/续跑（助眠） | `../助眠解说/input-spec.md` | `../助眠解说/README.md` |
 | 任何生产动作 | `video-workflow.md` | — |
 | 写稿/改稿 | `script-workflow.md` ＋ `../助眠解说/narrative.md` | — |
 | 分镜/生图 | `image-grid-generation.md` ＋ `../助眠解说/visual.md` | `visual/cover-and-intro.md` |
@@ -55,6 +56,10 @@
 
 ## 最近写回
 
+- 2026-11-07：强化偏离审批与字幕样式一致性——`rules/助眠解说/subtitles.md` 新增“样式唯一真源与改动纪律”（片头/正文同一常量、预烧层必须随样式重建、全片一致性检查、偏离先获批）；`video-workflow.md` §3 增加第 10 条“任何违反规则/工作流必须先获用户确认”；`README.md` 增加执行前加载规则与资产的要求；事故复盘补“片头/正文样式分裂”。
+- 2026-11-06：助眠事故复盘落盘 `rules/助眠解说/incidents-20261106.md`；新增白边门禁（`visual.md`）、字幕 G7（`subtitles.md`）、E 版片头与字体/首帧约束（`intro.md`）、交付前白边与 G7 终检（`delivery.md`）；`video-workflow.md` §2.K/L/M 同步引用。
+- 2026-11-06：助眠默认配音换线为 **CosyVoice3 0.5B**（声线 `b2-warm-male-cosy3`）：逐单元 `speed=0.90`、3.8 字/秒句间留白、−42 dB 紧裁、24k→48k，取消 atempo；新执行件 `shared/workflows/助眠解说/voice-cosy3/`。旧 VoxCPM2 轻语链转历史复现，已交付成片不回灌。
+- 2026-11-06：新增助眠输入契约 `rules/助眠解说/input-spec.md` 与填写单 `shared/workflows/助眠解说/EPISODE_INPUT_TEMPLATE.md`；定义 A/B 门禁授权、默认值表、8 条硬停与 A→M 映射。
 - 2026-11-06：助眠线路规则重组为 8 份（入口 `rules/助眠解说/README.md`）；新增本文件“按阶段加载”表与文件加载时机；`project-rules.md` 由摘要改为索引；原文备份 `shared/archive/rules-premerge-20261106/`。
 - 2026-11-05：新增 `cost-evaluation.md`；成本只算本机占用时间与 token。
 - 2026-09-17：`video-workflow.md` §4 改为 H3 关键 / Wan 微动 / LTX 特殊；`script-workflow.md` v1.3 对齐「静态不强制人审」。
