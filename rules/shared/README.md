@@ -21,6 +21,7 @@
 | 评估成本 | `cost-evaluation.md` | — |
 | 整理文档 | `document-organization.md` | — |
 | 权限/会话边界 | `governance/session-governance.md` | — |
+| 规则/资产清理 | `governance/cleanup-policy.md` | 删除前做精确引用核查与 Git checkpoint |
 | 项目记忆 | `memory/project-rules.md`（索引） | `../../.codex-memory/project-rules.md` |
 
 ## 文件清单
@@ -38,6 +39,7 @@
 | `document-organization.md` | 文档分层、MD 拆分时机、引用规则 |
 | `cost-evaluation.md` | 成本口径（只算机器时间与 token） |
 | `governance/session-governance.md` | 会话职责与规则写权限 |
+| `governance/cleanup-policy.md` | 旧规则、实验产物与临时文件的主动清理流程 |
 | `memory/project-rules.md` | 项目级持久规则索引 |
 
 ## 优先级
