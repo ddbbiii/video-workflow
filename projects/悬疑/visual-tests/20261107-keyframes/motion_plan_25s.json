@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "backend": "affine",
+  "output": {"width": 1920, "height": 1080, "fps": 24},
+  "overview": false,
+  "transition_s": 0,
+  "shots": [
+    {
+      "id": "K01-cold-open",
+      "source": "E:/program/1project/video/projects/悬疑/visual-tests/20261107-keyframes/K01-cold-open.png",
+      "duration_s": 8.0,
+      "start_view": [0.02, 0.02, 0.96, 0.96],
+      "end_view": [0.07, 0.07, 0.86, 0.86],
+      "curve": {"type": "ramped_linear", "ramp_s": 1.2},
+      "required_regions": [[0.10, 0.12, 0.78, 0.76]]
+    },
+    {
+      "id": "K02-fridge",
+      "source": "E:/program/1project/video/projects/悬疑/visual-tests/20261107-keyframes/K02b-fridge.png",
+      "duration_s": 8.0,
+      "start_view": [0.08, 0.06, 0.82, 0.82],
+      "end_view": [0.03, 0.03, 0.94, 0.94],
+      "curve": {"type": "ramped_linear", "ramp_s": 1.2},
+      "required_regions": [[0.12, 0.06, 0.34, 0.40], [0.40, 0.34, 0.40, 0.46]]
+    },
+    {
+      "id": "K03-zhouyan",
+      "source": "E:/program/1project/video/projects/悬疑/visual-tests/20261107-keyframes/K03-zhouyan.png",
+      "duration_s": 9.0,
+      "start_view": [0.03, 0.03, 0.94, 0.94],
+      "end_view": [0.10, 0.08, 0.80, 0.80],
+      "curve": {"type": "ramped_linear", "ramp_s": 1.2},
+      "required_regions": [[0.35, 0.15, 0.45, 0.65]]
+    }
+  ]
+}

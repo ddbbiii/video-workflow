@@ -1,0 +1,1556 @@
+{
+ "episode": "",
+ "total": 220,
+ "counts": {
+  "C": 55,
+  "E": 48,
+  "M": 117
+ },
+ "ratios": {
+  "E": 0.2182,
+  "M": 0.5318,
+  "C": 0.25
+ },
+ "shots": [
+  {
+   "id": "S01",
+   "shot_type": "C",
+   "scene_id": "misc",
+   "has_character": true,
+   "chapter": "序幕 第0天 深夜"
+  },
+  {
+   "id": "S02",
+   "shot_type": "C",
+   "scene_id": "502",
+   "has_character": true,
+   "chapter": "序幕 第0天 深夜"
+  },
+  {
+   "id": "S03",
+   "shot_type": "E",
+   "scene_id": "502",
+   "has_character": false,
+   "chapter": "序幕 第0天 深夜"
+  },
+  {
+   "id": "S04",
+   "shot_type": "C",
+   "scene_id": "502",
+   "has_character": true,
+   "chapter": "序幕 第0天 深夜"
+  },
+  {
+   "id": "S05",
+   "shot_type": "C",
+   "scene_id": "502",
+   "has_character": true,
+   "chapter": "序幕 第0天 深夜"
+  },
+  {
+   "id": "S06",
+   "shot_type": "C",
+   "scene_id": "502",
+   "has_character": true,
+   "chapter": "序幕 第0天 深夜"
+  },
+  {
+   "id": "S07",
+   "shot_type": "C",
+   "scene_id": "502",
+   "has_character": true,
+   "chapter": "序幕 第0天 深夜"
+  },
+  {
+   "id": "S08",
+   "shot_type": "E",
+   "scene_id": "502",
+   "has_character": false,
+   "chapter": "序幕 第0天 深夜"
+  },
+  {
+   "id": "S09",
+   "shot_type": "C",
+   "scene_id": "502",
+   "has_character": false,
+   "chapter": "序幕 第0天 深夜"
+  },
+  {
+   "id": "S10",
+   "shot_type": "C",
+   "scene_id": "502",
+   "has_character": false,
+   "chapter": "序幕 第0天 深夜"
+  },
+  {
+   "id": "S11",
+   "shot_type": "E",
+   "scene_id": "corridor",
+   "has_character": false,
+   "chapter": "序幕 第0天 深夜"
+  },
+  {
+   "id": "S12",
+   "shot_type": "C",
+   "scene_id": "502",
+   "has_character": true,
+   "chapter": "序幕 第0天 深夜"
+  },
+  {
+   "id": "S13",
+   "shot_type": "C",
+   "scene_id": "street",
+   "has_character": false,
+   "chapter": "序幕 第0天 深夜"
+  },
+  {
+   "id": "S14",
+   "shot_type": "C",
+   "scene_id": "corridor",
+   "has_character": false,
+   "chapter": "序幕 第0天 深夜"
+  },
+  {
+   "id": "S15",
+   "shot_type": "C",
+   "scene_id": "corridor",
+   "has_character": false,
+   "chapter": "序幕 第0天 深夜"
+  },
+  {
+   "id": "S16",
+   "shot_type": "C",
+   "scene_id": "502",
+   "has_character": true,
+   "chapter": "序幕 第0天 深夜"
+  },
+  {
+   "id": "S17",
+   "shot_type": "E",
+   "scene_id": "502",
+   "has_character": false,
+   "chapter": "第一章 第1天 规则降临"
+  },
+  {
+   "id": "S18",
+   "shot_type": "C",
+   "scene_id": "502",
+   "has_character": true,
+   "chapter": "第一章 第1天 规则降临"
+  },
+  {
+   "id": "S19",
+   "shot_type": "C",
+   "scene_id": "corridor",
+   "has_character": false,
+   "chapter": "第一章 第1天 规则降临"
+  },
+  {
+   "id": "S20",
+   "shot_type": "E",
+   "scene_id": "corridor",
+   "has_character": false,
+   "chapter": "第一章 第1天 规则降临"
+  },
+  {
+   "id": "S21",
+   "shot_type": "C",
+   "scene_id": "502",
+   "has_character": false,
+   "chapter": "第一章 第1天 规则降临"
+  },
+  {
+   "id": "S22",
+   "shot_type": "C",
+   "scene_id": "502",
+   "has_character": false,
+   "chapter": "第一章 第1天 规则降临"
+  },
+  {
+   "id": "S23",
+   "shot_type": "C",
+   "scene_id": "502",
+   "has_character": false,
+   "chapter": "第一章 第1天 规则降临"
+  },
+  {
+   "id": "S24",
+   "shot_type": "C",
+   "scene_id": "502",
+   "has_character": true,
+   "chapter": "第一章 第1天 规则降临"
+  },
+  {
+   "id": "S25",
+   "shot_type": "C",
+   "scene_id": "502",
+   "has_character": true,
+   "chapter": "第一章 第1天 规则降临"
+  },
+  {
+   "id": "S26",
+   "shot_type": "E",
+   "scene_id": "502",
+   "has_character": false,
+   "chapter": "第一章 第1天 规则降临"
+  },
+  {
+   "id": "S27",
+   "shot_type": "C",
+   "scene_id": "502",
+   "has_character": true,
+   "chapter": "第一章 第1天 规则降临"
+  },
+  {
+   "id": "S28",
+   "shot_type": "C",
+   "scene_id": "502",
+   "has_character": true,
+   "chapter": "第一章 第1天 规则降临"
+  },
+  {
+   "id": "S29",
+   "shot_type": "C",
+   "scene_id": "502",
+   "has_character": true,
+   "chapter": "第一章 第1天 规则降临"
+  },
+  {
+   "id": "S30",
+   "shot_type": "C",
+   "scene_id": "502",
+   "has_character": true,
+   "chapter": "第一章 第1天 规则降临"
+  },
+  {
+   "id": "S31",
+   "shot_type": "C",
+   "scene_id": "502",
+   "has_character": true,
+   "chapter": "第一章 第1天 规则降临"
+  },
+  {
+   "id": "S32",
+   "shot_type": "E",
+   "scene_id": "502",
+   "has_character": false,
+   "chapter": "第一章 第1天 规则降临"
+  },
+  {
+   "id": "S33",
+   "shot_type": "E",
+   "scene_id": "502",
+   "has_character": false,
+   "chapter": "第一章 第1天 规则降临"
+  },
+  {
+   "id": "S34",
+   "shot_type": "C",
+   "scene_id": "502",
+   "has_character": true,
+   "chapter": "第一章 第1天 规则降临"
+  },
+  {
+   "id": "S35",
+   "shot_type": "C",
+   "scene_id": "502",
+   "has_character": true,
+   "chapter": "第一章 第1天 规则降临"
+  },
+  {
+   "id": "S36",
+   "shot_type": "C",
+   "scene_id": "502",
+   "has_character": true,
+   "chapter": "第一章 第1天 规则降临"
+  },
+  {
+   "id": "S37",
+   "shot_type": "C",
+   "scene_id": "502",
+   "has_character": true,
+   "chapter": "第一章 第1天 规则降临"
+  },
+  {
+   "id": "S38",
+   "shot_type": "C",
+   "scene_id": "502",
+   "has_character": true,
+   "chapter": "第一章 第1天 规则降临"
+  },
+  {
+   "id": "S39",
+   "shot_type": "E",
+   "scene_id": "502",
+   "has_character": false,
+   "chapter": "第一章 第1天 规则降临"
+  },
+  {
+   "id": "S40",
+   "shot_type": "C",
+   "scene_id": "502",
+   "has_character": true,
+   "chapter": "第一章 第1天 规则降临"
+  },
+  {
+   "id": "S41",
+   "shot_type": "E",
+   "scene_id": "502",
+   "has_character": false,
+   "chapter": "第一章 第1天 规则降临"
+  },
+  {
+   "id": "S42",
+   "shot_type": "C",
+   "scene_id": "502",
+   "has_character": true,
+   "chapter": "第一章 第1天 规则降临"
+  },
+  {
+   "id": "S43",
+   "shot_type": "C",
+   "scene_id": "502",
+   "has_character": false,
+   "chapter": "第一章 第1天 规则降临"
+  },
+  {
+   "id": "S44",
+   "shot_type": "C",
+   "scene_id": "502",
+   "has_character": true,
+   "chapter": "第一章 第1天 规则降临"
+  },
+  {
+   "id": "S45",
+   "shot_type": "M",
+   "scene_id": "502",
+   "has_character": true,
+   "chapter": "第一章 第1天 规则降临"
+  },
+  {
+   "id": "S46",
+   "shot_type": "M",
+   "scene_id": "502",
+   "has_character": true,
+   "chapter": "第一章 第1天 规则降临"
+  },
+  {
+   "id": "S47",
+   "shot_type": "E",
+   "scene_id": "502",
+   "has_character": false,
+   "chapter": "第一章 第1天 规则降临"
+  },
+  {
+   "id": "S48",
+   "shot_type": "M",
+   "scene_id": "502",
+   "has_character": true,
+   "chapter": "第一章 第1天 规则降临"
+  },
+  {
+   "id": "S49",
+   "shot_type": "M",
+   "scene_id": "502",
+   "has_character": true,
+   "chapter": "第一章 第1天 规则降临"
+  },
+  {
+   "id": "S50",
+   "shot_type": "E",
+   "scene_id": "502",
+   "has_character": false,
+   "chapter": "第一章 第1天 规则降临"
+  },
+  {
+   "id": "S51",
+   "shot_type": "M",
+   "scene_id": "502",
+   "has_character": true,
+   "chapter": "第一章 第1天 规则降临"
+  },
+  {
+   "id": "S52",
+   "shot_type": "M",
+   "scene_id": "502",
+   "has_character": true,
+   "chapter": "第一章 第1天 规则降临"
+  },
+  {
+   "id": "S53",
+   "shot_type": "C",
+   "scene_id": "502",
+   "has_character": true,
+   "chapter": "第一章 第1天 规则降临"
+  },
+  {
+   "id": "S54",
+   "shot_type": "E",
+   "scene_id": "502",
+   "has_character": false,
+   "chapter": "第一章 第1天 规则降临"
+  },
+  {
+   "id": "S55",
+   "shot_type": "M",
+   "scene_id": "502",
+   "has_character": true,
+   "chapter": "第一章 第1天 规则降临"
+  },
+  {
+   "id": "S56",
+   "shot_type": "M",
+   "scene_id": "502",
+   "has_character": true,
+   "chapter": "第一章 第1天 规则降临"
+  },
+  {
+   "id": "S57",
+   "shot_type": "E",
+   "scene_id": "street",
+   "has_character": false,
+   "chapter": "第二章 第2天 第一道坎"
+  },
+  {
+   "id": "S58",
+   "shot_type": "M",
+   "scene_id": "502",
+   "has_character": true,
+   "chapter": "第二章 第2天 第一道坎"
+  },
+  {
+   "id": "S59",
+   "shot_type": "M",
+   "scene_id": "502",
+   "has_character": true,
+   "chapter": "第二章 第2天 第一道坎"
+  },
+  {
+   "id": "S60",
+   "shot_type": "M",
+   "scene_id": "502",
+   "has_character": true,
+   "chapter": "第二章 第2天 第一道坎"
+  },
+  {
+   "id": "S61",
+   "shot_type": "M",
+   "scene_id": "502",
+   "has_character": true,
+   "chapter": "第二章 第2天 第一道坎"
+  },
+  {
+   "id": "S62",
+   "shot_type": "M",
+   "scene_id": "502",
+   "has_character": true,
+   "chapter": "第二章 第2天 第一道坎"
+  },
+  {
+   "id": "S63",
+   "shot_type": "E",
+   "scene_id": "502",
+   "has_character": false,
+   "chapter": "第二章 第2天 第一道坎"
+  },
+  {
+   "id": "S64",
+   "shot_type": "M",
+   "scene_id": "street",
+   "has_character": true,
+   "chapter": "第二章 第2天 第一道坎"
+  },
+  {
+   "id": "S65",
+   "shot_type": "C",
+   "scene_id": "502",
+   "has_character": true,
+   "chapter": "第二章 第2天 第一道坎"
+  },
+  {
+   "id": "S66",
+   "shot_type": "E",
+   "scene_id": "misc",
+   "has_character": false,
+   "chapter": "第二章 第2天 第一道坎"
+  },
+  {
+   "id": "S67",
+   "shot_type": "M",
+   "scene_id": "502",
+   "has_character": true,
+   "chapter": "第二章 第2天 第一道坎"
+  },
+  {
+   "id": "S68",
+   "shot_type": "M",
+   "scene_id": "502",
+   "has_character": false,
+   "chapter": "第二章 第2天 第一道坎"
+  },
+  {
+   "id": "S69",
+   "shot_type": "M",
+   "scene_id": "502",
+   "has_character": true,
+   "chapter": "第二章 第2天 第一道坎"
+  },
+  {
+   "id": "S70",
+   "shot_type": "C",
+   "scene_id": "502",
+   "has_character": true,
+   "chapter": "第二章 第2天 第一道坎"
+  },
+  {
+   "id": "S71",
+   "shot_type": "E",
+   "scene_id": "corridor",
+   "has_character": false,
+   "chapter": "第二章 第2天 第一道坎"
+  },
+  {
+   "id": "S72",
+   "shot_type": "C",
+   "scene_id": "502",
+   "has_character": true,
+   "chapter": "第二章 第2天 第一道坎"
+  },
+  {
+   "id": "S73",
+   "shot_type": "M",
+   "scene_id": "502",
+   "has_character": true,
+   "chapter": "第二章 第2天 第一道坎"
+  },
+  {
+   "id": "S74",
+   "shot_type": "M",
+   "scene_id": "corridor",
+   "has_character": false,
+   "chapter": "第二章 第2天 第一道坎"
+  },
+  {
+   "id": "S75",
+   "shot_type": "M",
+   "scene_id": "502",
+   "has_character": false,
+   "chapter": "第二章 第2天 第一道坎"
+  },
+  {
+   "id": "S76",
+   "shot_type": "M",
+   "scene_id": "502",
+   "has_character": true,
+   "chapter": "第二章 第2天 第一道坎"
+  },
+  {
+   "id": "S77",
+   "shot_type": "E",
+   "scene_id": "corridor",
+   "has_character": false,
+   "chapter": "第二章 第2天 第一道坎"
+  },
+  {
+   "id": "S78",
+   "shot_type": "M",
+   "scene_id": "502",
+   "has_character": true,
+   "chapter": "第二章 第2天 第一道坎"
+  },
+  {
+   "id": "S79",
+   "shot_type": "E",
+   "scene_id": "502",
+   "has_character": false,
+   "chapter": "第三章 第3-5天 两个人"
+  },
+  {
+   "id": "S80",
+   "shot_type": "M",
+   "scene_id": "corridor",
+   "has_character": true,
+   "chapter": "第三章 第3-5天 两个人"
+  },
+  {
+   "id": "S81",
+   "shot_type": "M",
+   "scene_id": "corridor",
+   "has_character": true,
+   "chapter": "第三章 第3-5天 两个人"
+  },
+  {
+   "id": "S82",
+   "shot_type": "M",
+   "scene_id": "503",
+   "has_character": true,
+   "chapter": "第三章 第3-5天 两个人"
+  },
+  {
+   "id": "S83",
+   "shot_type": "M",
+   "scene_id": "corridor",
+   "has_character": true,
+   "chapter": "第三章 第3-5天 两个人"
+  },
+  {
+   "id": "S84",
+   "shot_type": "M",
+   "scene_id": "502",
+   "has_character": false,
+   "chapter": "第三章 第3-5天 两个人"
+  },
+  {
+   "id": "S85",
+   "shot_type": "E",
+   "scene_id": "503",
+   "has_character": false,
+   "chapter": "第三章 第3-5天 两个人"
+  },
+  {
+   "id": "S86",
+   "shot_type": "M",
+   "scene_id": "502",
+   "has_character": true,
+   "chapter": "第三章 第3-5天 两个人"
+  },
+  {
+   "id": "S87",
+   "shot_type": "M",
+   "scene_id": "502",
+   "has_character": true,
+   "chapter": "第三章 第3-5天 两个人"
+  },
+  {
+   "id": "S88",
+   "shot_type": "C",
+   "scene_id": "502",
+   "has_character": true,
+   "chapter": "第三章 第3-5天 两个人"
+  },
+  {
+   "id": "S89",
+   "shot_type": "M",
+   "scene_id": "502",
+   "has_character": true,
+   "chapter": "第三章 第3-5天 两个人"
+  },
+  {
+   "id": "S90",
+   "shot_type": "M",
+   "scene_id": "502",
+   "has_character": true,
+   "chapter": "第三章 第3-5天 两个人"
+  },
+  {
+   "id": "S91",
+   "shot_type": "E",
+   "scene_id": "502",
+   "has_character": false,
+   "chapter": "第三章 第3-5天 两个人"
+  },
+  {
+   "id": "S92",
+   "shot_type": "C",
+   "scene_id": "502",
+   "has_character": true,
+   "chapter": "第三章 第3-5天 两个人"
+  },
+  {
+   "id": "S93",
+   "shot_type": "C",
+   "scene_id": "502",
+   "has_character": true,
+   "chapter": "第三章 第3-5天 两个人"
+  },
+  {
+   "id": "S94",
+   "shot_type": "M",
+   "scene_id": "502",
+   "has_character": true,
+   "chapter": "第三章 第3-5天 两个人"
+  },
+  {
+   "id": "S95",
+   "shot_type": "E",
+   "scene_id": "502",
+   "has_character": false,
+   "chapter": "第三章 第3-5天 两个人"
+  },
+  {
+   "id": "S96",
+   "shot_type": "M",
+   "scene_id": "502",
+   "has_character": false,
+   "chapter": "第三章 第3-5天 两个人"
+  },
+  {
+   "id": "S97",
+   "shot_type": "M",
+   "scene_id": "misc",
+   "has_character": true,
+   "chapter": "第三章 第3-5天 两个人"
+  },
+  {
+   "id": "S98",
+   "shot_type": "C",
+   "scene_id": "502",
+   "has_character": true,
+   "chapter": "第三章 第3-5天 两个人"
+  },
+  {
+   "id": "S99",
+   "shot_type": "M",
+   "scene_id": "502",
+   "has_character": true,
+   "chapter": "第三章 第3-5天 两个人"
+  },
+  {
+   "id": "S100",
+   "shot_type": "E",
+   "scene_id": "502",
+   "has_character": false,
+   "chapter": "第三章 第3-5天 两个人"
+  },
+  {
+   "id": "S101",
+   "shot_type": "M",
+   "scene_id": "502",
+   "has_character": false,
+   "chapter": "第三章 第3-5天 两个人"
+  },
+  {
+   "id": "S102",
+   "shot_type": "M",
+   "scene_id": "502",
+   "has_character": true,
+   "chapter": "第三章 第3-5天 两个人"
+  },
+  {
+   "id": "S103",
+   "shot_type": "M",
+   "scene_id": "503",
+   "has_character": true,
+   "chapter": "第三章 第3-5天 两个人"
+  },
+  {
+   "id": "S104",
+   "shot_type": "M",
+   "scene_id": "502",
+   "has_character": true,
+   "chapter": "第三章 第3-5天 两个人"
+  },
+  {
+   "id": "S105",
+   "shot_type": "E",
+   "scene_id": "502",
+   "has_character": false,
+   "chapter": "第三章 第3-5天 两个人"
+  },
+  {
+   "id": "S106",
+   "shot_type": "M",
+   "scene_id": "502",
+   "has_character": true,
+   "chapter": "第四章 第6-9天 秩序与隐患"
+  },
+  {
+   "id": "S107",
+   "shot_type": "E",
+   "scene_id": "502",
+   "has_character": false,
+   "chapter": "第四章 第6-9天 秩序与隐患"
+  },
+  {
+   "id": "S108",
+   "shot_type": "M",
+   "scene_id": "502",
+   "has_character": true,
+   "chapter": "第四章 第6-9天 秩序与隐患"
+  },
+  {
+   "id": "S109",
+   "shot_type": "M",
+   "scene_id": "502",
+   "has_character": true,
+   "chapter": "第四章 第6-9天 秩序与隐患"
+  },
+  {
+   "id": "S110",
+   "shot_type": "M",
+   "scene_id": "502",
+   "has_character": true,
+   "chapter": "第四章 第6-9天 秩序与隐患"
+  },
+  {
+   "id": "S111",
+   "shot_type": "C",
+   "scene_id": "502",
+   "has_character": true,
+   "chapter": "第四章 第6-9天 秩序与隐患"
+  },
+  {
+   "id": "S112",
+   "shot_type": "M",
+   "scene_id": "502",
+   "has_character": true,
+   "chapter": "第四章 第6-9天 秩序与隐患"
+  },
+  {
+   "id": "S113",
+   "shot_type": "E",
+   "scene_id": "502",
+   "has_character": false,
+   "chapter": "第四章 第6-9天 秩序与隐患"
+  },
+  {
+   "id": "S114",
+   "shot_type": "M",
+   "scene_id": "502",
+   "has_character": false,
+   "chapter": "第四章 第6-9天 秩序与隐患"
+  },
+  {
+   "id": "S115",
+   "shot_type": "M",
+   "scene_id": "502",
+   "has_character": true,
+   "chapter": "第四章 第6-9天 秩序与隐患"
+  },
+  {
+   "id": "S116",
+   "shot_type": "M",
+   "scene_id": "502",
+   "has_character": false,
+   "chapter": "第四章 第6-9天 秩序与隐患"
+  },
+  {
+   "id": "S117",
+   "shot_type": "M",
+   "scene_id": "502",
+   "has_character": true,
+   "chapter": "第四章 第6-9天 秩序与隐患"
+  },
+  {
+   "id": "S118",
+   "shot_type": "M",
+   "scene_id": "store",
+   "has_character": true,
+   "chapter": "第四章 第6-9天 秩序与隐患"
+  },
+  {
+   "id": "S119",
+   "shot_type": "E",
+   "scene_id": "corridor",
+   "has_character": false,
+   "chapter": "第四章 第6-9天 秩序与隐患"
+  },
+  {
+   "id": "S120",
+   "shot_type": "M",
+   "scene_id": "502",
+   "has_character": true,
+   "chapter": "第四章 第6-9天 秩序与隐患"
+  },
+  {
+   "id": "S121",
+   "shot_type": "M",
+   "scene_id": "502",
+   "has_character": true,
+   "chapter": "第四章 第6-9天 秩序与隐患"
+  },
+  {
+   "id": "S122",
+   "shot_type": "M",
+   "scene_id": "502",
+   "has_character": true,
+   "chapter": "第四章 第6-9天 秩序与隐患"
+  },
+  {
+   "id": "S123",
+   "shot_type": "E",
+   "scene_id": "502",
+   "has_character": false,
+   "chapter": "第四章 第6-9天 秩序与隐患"
+  },
+  {
+   "id": "S124",
+   "shot_type": "M",
+   "scene_id": "502",
+   "has_character": true,
+   "chapter": "第四章 第6-9天 秩序与隐患"
+  },
+  {
+   "id": "S125",
+   "shot_type": "M",
+   "scene_id": "502",
+   "has_character": false,
+   "chapter": "第四章 第6-9天 秩序与隐患"
+  },
+  {
+   "id": "S126",
+   "shot_type": "M",
+   "scene_id": "502",
+   "has_character": true,
+   "chapter": "第四章 第6-9天 秩序与隐患"
+  },
+  {
+   "id": "S127",
+   "shot_type": "M",
+   "scene_id": "502",
+   "has_character": true,
+   "chapter": "第四章 第6-9天 秩序与隐患"
+  },
+  {
+   "id": "S128",
+   "shot_type": "M",
+   "scene_id": "502",
+   "has_character": true,
+   "chapter": "第四章 第6-9天 秩序与隐患"
+  },
+  {
+   "id": "S129",
+   "shot_type": "E",
+   "scene_id": "502",
+   "has_character": false,
+   "chapter": "第四章 第6-9天 秩序与隐患"
+  },
+  {
+   "id": "S130",
+   "shot_type": "C",
+   "scene_id": "502",
+   "has_character": true,
+   "chapter": "第四章 第6-9天 秩序与隐患"
+  },
+  {
+   "id": "S131",
+   "shot_type": "C",
+   "scene_id": "corridor",
+   "has_character": false,
+   "chapter": "第四章 第6-9天 秩序与隐患"
+  },
+  {
+   "id": "S132",
+   "shot_type": "M",
+   "scene_id": "502",
+   "has_character": true,
+   "chapter": "第五章 第10天 撤离路"
+  },
+  {
+   "id": "S133",
+   "shot_type": "E",
+   "scene_id": "corridor",
+   "has_character": false,
+   "chapter": "第五章 第10天 撤离路"
+  },
+  {
+   "id": "S134",
+   "shot_type": "C",
+   "scene_id": "corridor",
+   "has_character": false,
+   "chapter": "第五章 第10天 撤离路"
+  },
+  {
+   "id": "S135",
+   "shot_type": "C",
+   "scene_id": "corridor",
+   "has_character": true,
+   "chapter": "第五章 第10天 撤离路"
+  },
+  {
+   "id": "S136",
+   "shot_type": "E",
+   "scene_id": "corridor",
+   "has_character": false,
+   "chapter": "第五章 第10天 撤离路"
+  },
+  {
+   "id": "S137",
+   "shot_type": "M",
+   "scene_id": "corridor",
+   "has_character": false,
+   "chapter": "第五章 第10天 撤离路"
+  },
+  {
+   "id": "S138",
+   "shot_type": "C",
+   "scene_id": "corridor",
+   "has_character": true,
+   "chapter": "第五章 第10天 撤离路"
+  },
+  {
+   "id": "S139",
+   "shot_type": "M",
+   "scene_id": "corridor",
+   "has_character": false,
+   "chapter": "第五章 第10天 撤离路"
+  },
+  {
+   "id": "S140",
+   "shot_type": "M",
+   "scene_id": "corridor",
+   "has_character": true,
+   "chapter": "第五章 第10天 撤离路"
+  },
+  {
+   "id": "S141",
+   "shot_type": "M",
+   "scene_id": "lobby",
+   "has_character": true,
+   "chapter": "第五章 第10天 撤离路"
+  },
+  {
+   "id": "S142",
+   "shot_type": "E",
+   "scene_id": "lobby",
+   "has_character": false,
+   "chapter": "第五章 第10天 撤离路"
+  },
+  {
+   "id": "S143",
+   "shot_type": "M",
+   "scene_id": "lobby",
+   "has_character": false,
+   "chapter": "第五章 第10天 撤离路"
+  },
+  {
+   "id": "S144",
+   "shot_type": "M",
+   "scene_id": "lobby",
+   "has_character": true,
+   "chapter": "第五章 第10天 撤离路"
+  },
+  {
+   "id": "S145",
+   "shot_type": "M",
+   "scene_id": "lobby",
+   "has_character": true,
+   "chapter": "第五章 第10天 撤离路"
+  },
+  {
+   "id": "S146",
+   "shot_type": "E",
+   "scene_id": "lobby",
+   "has_character": false,
+   "chapter": "第五章 第10天 撤离路"
+  },
+  {
+   "id": "S147",
+   "shot_type": "M",
+   "scene_id": "lobby",
+   "has_character": true,
+   "chapter": "第五章 第10天 撤离路"
+  },
+  {
+   "id": "S148",
+   "shot_type": "M",
+   "scene_id": "lobby",
+   "has_character": true,
+   "chapter": "第五章 第10天 撤离路"
+  },
+  {
+   "id": "S149",
+   "shot_type": "M",
+   "scene_id": "lobby",
+   "has_character": true,
+   "chapter": "第五章 第10天 撤离路"
+  },
+  {
+   "id": "S150",
+   "shot_type": "M",
+   "scene_id": "lobby",
+   "has_character": true,
+   "chapter": "第五章 第10天 撤离路"
+  },
+  {
+   "id": "S151",
+   "shot_type": "E",
+   "scene_id": "lobby",
+   "has_character": false,
+   "chapter": "第五章 第10天 撤离路"
+  },
+  {
+   "id": "S152",
+   "shot_type": "M",
+   "scene_id": "lobby",
+   "has_character": true,
+   "chapter": "第五章 第10天 撤离路"
+  },
+  {
+   "id": "S153",
+   "shot_type": "C",
+   "scene_id": "misc",
+   "has_character": true,
+   "chapter": "第五章 第10天 撤离路"
+  },
+  {
+   "id": "S154",
+   "shot_type": "M",
+   "scene_id": "street",
+   "has_character": false,
+   "chapter": "第五章 第10天 撤离路"
+  },
+  {
+   "id": "S155",
+   "shot_type": "M",
+   "scene_id": "street",
+   "has_character": true,
+   "chapter": "第五章 第10天 撤离路"
+  },
+  {
+   "id": "S156",
+   "shot_type": "M",
+   "scene_id": "store",
+   "has_character": true,
+   "chapter": "第五章 第10天 撤离路"
+  },
+  {
+   "id": "S157",
+   "shot_type": "E",
+   "scene_id": "store",
+   "has_character": false,
+   "chapter": "第五章 第10天 撤离路"
+  },
+  {
+   "id": "S158",
+   "shot_type": "M",
+   "scene_id": "store",
+   "has_character": false,
+   "chapter": "第五章 第10天 撤离路"
+  },
+  {
+   "id": "S159",
+   "shot_type": "E",
+   "scene_id": "store",
+   "has_character": false,
+   "chapter": "第五章 第10天 撤离路"
+  },
+  {
+   "id": "S160",
+   "shot_type": "M",
+   "scene_id": "store",
+   "has_character": true,
+   "chapter": "第五章 第10天 撤离路"
+  },
+  {
+   "id": "S161",
+   "shot_type": "M",
+   "scene_id": "store",
+   "has_character": true,
+   "chapter": "第五章 第10天 撤离路"
+  },
+  {
+   "id": "S162",
+   "shot_type": "M",
+   "scene_id": "store",
+   "has_character": true,
+   "chapter": "第六章 第11-12天 补给与变数"
+  },
+  {
+   "id": "S163",
+   "shot_type": "E",
+   "scene_id": "store",
+   "has_character": false,
+   "chapter": "第六章 第11-12天 补给与变数"
+  },
+  {
+   "id": "S164",
+   "shot_type": "M",
+   "scene_id": "store",
+   "has_character": true,
+   "chapter": "第六章 第11-12天 补给与变数"
+  },
+  {
+   "id": "S165",
+   "shot_type": "C",
+   "scene_id": "store",
+   "has_character": true,
+   "chapter": "第六章 第11-12天 补给与变数"
+  },
+  {
+   "id": "S166",
+   "shot_type": "C",
+   "scene_id": "store",
+   "has_character": true,
+   "chapter": "第六章 第11-12天 补给与变数"
+  },
+  {
+   "id": "S167",
+   "shot_type": "M",
+   "scene_id": "store",
+   "has_character": true,
+   "chapter": "第六章 第11-12天 补给与变数"
+  },
+  {
+   "id": "S168",
+   "shot_type": "E",
+   "scene_id": "store",
+   "has_character": false,
+   "chapter": "第六章 第11-12天 补给与变数"
+  },
+  {
+   "id": "S169",
+   "shot_type": "M",
+   "scene_id": "store",
+   "has_character": true,
+   "chapter": "第六章 第11-12天 补给与变数"
+  },
+  {
+   "id": "S170",
+   "shot_type": "M",
+   "scene_id": "store",
+   "has_character": true,
+   "chapter": "第六章 第11-12天 补给与变数"
+  },
+  {
+   "id": "S171",
+   "shot_type": "M",
+   "scene_id": "store",
+   "has_character": true,
+   "chapter": "第六章 第11-12天 补给与变数"
+  },
+  {
+   "id": "S172",
+   "shot_type": "M",
+   "scene_id": "store",
+   "has_character": true,
+   "chapter": "第六章 第11-12天 补给与变数"
+  },
+  {
+   "id": "S173",
+   "shot_type": "M",
+   "scene_id": "store",
+   "has_character": true,
+   "chapter": "第六章 第11-12天 补给与变数"
+  },
+  {
+   "id": "S174",
+   "shot_type": "E",
+   "scene_id": "store",
+   "has_character": false,
+   "chapter": "第六章 第11-12天 补给与变数"
+  },
+  {
+   "id": "S175",
+   "shot_type": "M",
+   "scene_id": "store",
+   "has_character": true,
+   "chapter": "第六章 第11-12天 补给与变数"
+  },
+  {
+   "id": "S176",
+   "shot_type": "M",
+   "scene_id": "store",
+   "has_character": true,
+   "chapter": "第六章 第11-12天 补给与变数"
+  },
+  {
+   "id": "S177",
+   "shot_type": "E",
+   "scene_id": "store",
+   "has_character": false,
+   "chapter": "第六章 第11-12天 补给与变数"
+  },
+  {
+   "id": "S178",
+   "shot_type": "C",
+   "scene_id": "store",
+   "has_character": true,
+   "chapter": "第六章 第11-12天 补给与变数"
+  },
+  {
+   "id": "S179",
+   "shot_type": "C",
+   "scene_id": "store",
+   "has_character": true,
+   "chapter": "第六章 第11-12天 补给与变数"
+  },
+  {
+   "id": "S180",
+   "shot_type": "M",
+   "scene_id": "store",
+   "has_character": true,
+   "chapter": "第六章 第11-12天 补给与变数"
+  },
+  {
+   "id": "S181",
+   "shot_type": "M",
+   "scene_id": "store",
+   "has_character": true,
+   "chapter": "第六章 第11-12天 补给与变数"
+  },
+  {
+   "id": "S182",
+   "shot_type": "M",
+   "scene_id": "store",
+   "has_character": true,
+   "chapter": "第六章 第11-12天 补给与变数"
+  },
+  {
+   "id": "S183",
+   "shot_type": "E",
+   "scene_id": "street",
+   "has_character": false,
+   "chapter": "第六章 第11-12天 补给与变数"
+  },
+  {
+   "id": "S184",
+   "shot_type": "M",
+   "scene_id": "gate",
+   "has_character": true,
+   "chapter": "第六章 第11-12天 补给与变数"
+  },
+  {
+   "id": "S185",
+   "shot_type": "M",
+   "scene_id": "gate",
+   "has_character": true,
+   "chapter": "第六章 第11-12天 补给与变数"
+  },
+  {
+   "id": "S186",
+   "shot_type": "M",
+   "scene_id": "gate",
+   "has_character": false,
+   "chapter": "第六章 第11-12天 补给与变数"
+  },
+  {
+   "id": "S187",
+   "shot_type": "M",
+   "scene_id": "gate",
+   "has_character": false,
+   "chapter": "第六章 第11-12天 补给与变数"
+  },
+  {
+   "id": "S188",
+   "shot_type": "E",
+   "scene_id": "gate",
+   "has_character": false,
+   "chapter": "第六章 第11-12天 补给与变数"
+  },
+  {
+   "id": "S189",
+   "shot_type": "M",
+   "scene_id": "gate",
+   "has_character": true,
+   "chapter": "第七章 第13天 第三锤"
+  },
+  {
+   "id": "S190",
+   "shot_type": "E",
+   "scene_id": "gate",
+   "has_character": false,
+   "chapter": "第七章 第13天 第三锤"
+  },
+  {
+   "id": "S191",
+   "shot_type": "M",
+   "scene_id": "gate",
+   "has_character": true,
+   "chapter": "第七章 第13天 第三锤"
+  },
+  {
+   "id": "S192",
+   "shot_type": "M",
+   "scene_id": "gate",
+   "has_character": true,
+   "chapter": "第七章 第13天 第三锤"
+  },
+  {
+   "id": "S193",
+   "shot_type": "M",
+   "scene_id": "gate",
+   "has_character": false,
+   "chapter": "第七章 第13天 第三锤"
+  },
+  {
+   "id": "S194",
+   "shot_type": "M",
+   "scene_id": "gate",
+   "has_character": true,
+   "chapter": "第七章 第13天 第三锤"
+  },
+  {
+   "id": "S195",
+   "shot_type": "M",
+   "scene_id": "gate",
+   "has_character": false,
+   "chapter": "第七章 第13天 第三锤"
+  },
+  {
+   "id": "S196",
+   "shot_type": "E",
+   "scene_id": "gate",
+   "has_character": false,
+   "chapter": "第七章 第13天 第三锤"
+  },
+  {
+   "id": "S197",
+   "shot_type": "M",
+   "scene_id": "gate",
+   "has_character": true,
+   "chapter": "第七章 第13天 第三锤"
+  },
+  {
+   "id": "S198",
+   "shot_type": "M",
+   "scene_id": "gate",
+   "has_character": false,
+   "chapter": "第七章 第13天 第三锤"
+  },
+  {
+   "id": "S199",
+   "shot_type": "C",
+   "scene_id": "gate",
+   "has_character": true,
+   "chapter": "第七章 第13天 第三锤"
+  },
+  {
+   "id": "S200",
+   "shot_type": "M",
+   "scene_id": "gate",
+   "has_character": true,
+   "chapter": "第七章 第13天 第三锤"
+  },
+  {
+   "id": "S201",
+   "shot_type": "M",
+   "scene_id": "gate",
+   "has_character": true,
+   "chapter": "第七章 第13天 第三锤"
+  },
+  {
+   "id": "S202",
+   "shot_type": "E",
+   "scene_id": "gate",
+   "has_character": false,
+   "chapter": "第七章 第13天 第三锤"
+  },
+  {
+   "id": "S203",
+   "shot_type": "M",
+   "scene_id": "gate",
+   "has_character": true,
+   "chapter": "第七章 第13天 第三锤"
+  },
+  {
+   "id": "S204",
+   "shot_type": "M",
+   "scene_id": "gate",
+   "has_character": true,
+   "chapter": "第七章 第13天 第三锤"
+  },
+  {
+   "id": "S205",
+   "shot_type": "M",
+   "scene_id": "gate",
+   "has_character": false,
+   "chapter": "第七章 第13天 第三锤"
+  },
+  {
+   "id": "S206",
+   "shot_type": "M",
+   "scene_id": "gate",
+   "has_character": true,
+   "chapter": "第七章 第13天 第三锤"
+  },
+  {
+   "id": "S207",
+   "shot_type": "M",
+   "scene_id": "gate",
+   "has_character": true,
+   "chapter": "第七章 第13天 第三锤"
+  },
+  {
+   "id": "S208",
+   "shot_type": "E",
+   "scene_id": "gate",
+   "has_character": false,
+   "chapter": "第七章 第13天 第三锤"
+  },
+  {
+   "id": "S209",
+   "shot_type": "M",
+   "scene_id": "gate",
+   "has_character": true,
+   "chapter": "第七章 第13天 第三锤"
+  },
+  {
+   "id": "S210",
+   "shot_type": "C",
+   "scene_id": "gate",
+   "has_character": true,
+   "chapter": "第七章 第13天 第三锤"
+  },
+  {
+   "id": "S211",
+   "shot_type": "M",
+   "scene_id": "gate",
+   "has_character": true,
+   "chapter": "第七章 第13天 第三锤"
+  },
+  {
+   "id": "S212",
+   "shot_type": "M",
+   "scene_id": "gate",
+   "has_character": false,
+   "chapter": "第七章 第13天 第三锤"
+  },
+  {
+   "id": "S213",
+   "shot_type": "M",
+   "scene_id": "gate",
+   "has_character": false,
+   "chapter": "第七章 第13天 第三锤"
+  },
+  {
+   "id": "S214",
+   "shot_type": "E",
+   "scene_id": "gate",
+   "has_character": false,
+   "chapter": "第七章 第13天 第三锤"
+  },
+  {
+   "id": "S215",
+   "shot_type": "M",
+   "scene_id": "gate",
+   "has_character": false,
+   "chapter": "第七章 第13天 第三锤"
+  },
+  {
+   "id": "S216",
+   "shot_type": "M",
+   "scene_id": "gate",
+   "has_character": false,
+   "chapter": "第七章 第13天 第三锤"
+  },
+  {
+   "id": "S217",
+   "shot_type": "M",
+   "scene_id": "gate",
+   "has_character": false,
+   "chapter": "第七章 第13天 第三锤"
+  },
+  {
+   "id": "S218",
+   "shot_type": "M",
+   "scene_id": "corridor",
+   "has_character": false,
+   "chapter": "第七章 第13天 第三锤"
+  },
+  {
+   "id": "S219",
+   "shot_type": "M",
+   "scene_id": "street",
+   "has_character": false,
+   "chapter": "第七章 第13天 第三锤"
+  },
+  {
+   "id": "S220",
+   "shot_type": "E",
+   "scene_id": "gate",
+   "has_character": false,
+   "chapter": "第七章 第13天 第三锤"
+  }
+ ]
+}

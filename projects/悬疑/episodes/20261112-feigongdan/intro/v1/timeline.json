@@ -1,0 +1,43 @@
+{
+ "version": "v1",
+ "fps": 24,
+ "frames": 289,
+ "total": 12.042,
+ "hooks": [
+  {
+   "key": "u0001",
+   "text": "本该作废的工单，又被派了出来。",
+   "start": 0.35,
+   "vo": 2.68
+  },
+  {
+   "key": "u0002",
+   "text": "上面没有报修人，只有一个老楼地址。",
+   "start": 3.53,
+   "vo": 3.08
+  },
+  {
+   "key": "u0003",
+   "text": "没人知道，那里面等着什么。",
+   "start": 7.06,
+   "vo": 1.84
+  }
+ ],
+ "title": {
+  "text": "《废弃工单》",
+  "start": 9.4,
+  "size": 270,
+  "width_px": 1627,
+  "width_pct": 84.7,
+  "vo": 2.32,
+  "tail": 0.3217
+ },
+ "kicker": {
+  "text": "一口气看完",
+  "size": 202,
+  "width_px": 1014
+ },
+ "hook_size": 96,
+ "flash_frames": 2,
+ "bgm": null
+}

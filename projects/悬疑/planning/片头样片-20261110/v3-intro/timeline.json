@@ -1,0 +1,49 @@
+{
+ "version": "V3",
+ "total": 13.917,
+ "frames": 334,
+ "fps": 24,
+ "hooks": [
+  {
+   "key": "hook1",
+   "start": 0.35,
+   "dur": 3.18,
+   "font": "Ma Shan Zheng",
+   "px": 96
+  },
+  {
+   "key": "hook2",
+   "start": 4.0,
+   "dur": 3.38,
+   "font": "Ma Shan Zheng",
+   "px": 96
+  },
+  {
+   "key": "hook3",
+   "start": 7.792,
+   "dur": 2.7,
+   "font": "Ma Shan Zheng",
+   "px": 96
+  }
+ ],
+ "title": {
+  "start": 10.792,
+  "dur": 3.0,
+  "font": "Xiangcui Jixuesong (香萃积雪宋)",
+  "px": 450
+ },
+ "sub": {
+  "font": "Source Han Sans SC Heavy",
+  "px": 88
+ },
+ "bgm": {
+  "perc": "The Depths of Hell (HPF 120)",
+  "sub": "ua006 (LPF 90)",
+  "g_perc": 0.24,
+  "g_sub": 0.104,
+  "phone_rel_voice": -10.5,
+  "mix_lufs": -20.17,
+  "mix_tp": -1.01,
+  "title_hit": "45 Hz sine + 140 Hz brown noise, 1 s decay"
+ }
+}

@@ -1,0 +1,136 @@
+{
+  "engine_version": "1.1",
+  "engine_sha256": "46d51c50f94f7e04c07f474e375a12409541a022afcfa52addc01c34140c3fb7",
+  "plan": "E:\\program\\1project\\video\\projects\\悬疑\\episodes\\20261112-tuoshui\\intro\\v3\\motion_plan.json",
+  "backend": "affine",
+  "status": "complete",
+  "shots": [
+    {
+      "id": "hook1_machine",
+      "fingerprint": "ca9e080e210bc040b62da93fa598640e685fcd983b521ed037116eb66aeab29e",
+      "status": "complete",
+      "backend": "affine",
+      "video": "E:\\program\\1project\\video\\projects\\悬疑\\episodes\\20261112-tuoshui\\intro\\v3\\motion-bg\\hook1_machine.mp4",
+      "video_sha256": "f69da733b32a3790ed9afba2edc4a1b332b78fd005de8e9a9c11501f1d7db54c",
+      "duration_s": 1.5,
+      "qa": {
+        "source_bounds_checked": true,
+        "required_regions_checked": true,
+        "max_center_step_output_px": 0.49739757855229527,
+        "max_scale_step": 0.0038379442789537865,
+        "scope": "Planned trajectory only; encoded motion and visual texture require separate QA"
+      },
+      "timing": {
+        "backend": "affine",
+        "source_size_rendered": [
+          1536,
+          864
+        ]
+      },
+      "trajectory_sha256": "894a34a49f2b866111f4f6ee0ecc5267b651c6524983e3c88665f7ebf41df770"
+    },
+    {
+      "id": "hook1_phone",
+      "fingerprint": "3361d88c8a675bacf26bbb3ae9a16a331d5b74e6590b63f211f66593b10f6c9b",
+      "status": "complete",
+      "backend": "affine",
+      "video": "E:\\program\\1project\\video\\projects\\悬疑\\episodes\\20261112-tuoshui\\intro\\v3\\motion-bg\\hook1_phone.mp4",
+      "video_sha256": "15b3ba6c9e2570a3013f12997aa81df464b6199ea5700b5b7fa5e99cf0b3c1a6",
+      "duration_s": 2.3333333333333335,
+      "qa": {
+        "source_bounds_checked": true,
+        "required_regions_checked": true,
+        "max_center_step_output_px": 0.44451648559186197,
+        "max_scale_step": 0.001920750246384717,
+        "scope": "Planned trajectory only; encoded motion and visual texture require separate QA"
+      },
+      "timing": {
+        "backend": "affine",
+        "source_size_rendered": [
+          1920,
+          1080
+        ]
+      },
+      "trajectory_sha256": "535d245ce18902fd1e51d5eca75367ee09bc31622088423f7770743a538c92e1"
+    },
+    {
+      "id": "hook2_pipe",
+      "fingerprint": "047788cc5e9c0a38ab0de201430d439bf23efd8814f78da67b822dfa1784900b",
+      "status": "complete",
+      "backend": "affine",
+      "video": "E:\\program\\1project\\video\\projects\\悬疑\\episodes\\20261112-tuoshui\\intro\\v3\\motion-bg\\hook2_pipe.mp4",
+      "video_sha256": "f2210c5709ab153cf98b2b026313b560ee78f7db78f52293ac1856493a0ae1d6",
+      "duration_s": 4.458333333333333,
+      "qa": {
+        "source_bounds_checked": true,
+        "required_regions_checked": true,
+        "max_center_step_output_px": 0.5067455360548365,
+        "max_scale_step": 0.0025024470916288344,
+        "scope": "Planned trajectory only; encoded motion and visual texture require separate QA"
+      },
+      "timing": {
+        "backend": "affine",
+        "source_size_rendered": [
+          1536,
+          864
+        ]
+      },
+      "trajectory_sha256": "85a6366c0c1ac42643b5bdf067285e584c14aa7b98d9f2c844828e587816adf0"
+    },
+    {
+      "id": "hook3_pair",
+      "fingerprint": "44b2fa94cef211911edcba5f27c7915b6a9585b294f75bf135a3629510f9a9c7",
+      "status": "complete",
+      "backend": "affine",
+      "video": "E:\\program\\1project\\video\\projects\\悬疑\\episodes\\20261112-tuoshui\\intro\\v3\\motion-bg\\hook3_pair.mp4",
+      "video_sha256": "4b6a3c16e9e63062e2d1877d74c38534cb70ed4657bbf9326a8c994e2f132848",
+      "duration_s": 3.75,
+      "qa": {
+        "source_bounds_checked": true,
+        "required_regions_checked": true,
+        "max_center_step_output_px": 0.16890866112203184,
+        "max_scale_step": 0.0007819845422314398,
+        "scope": "Planned trajectory only; encoded motion and visual texture require separate QA"
+      },
+      "timing": {
+        "backend": "affine",
+        "source_size_rendered": [
+          1920,
+          1080
+        ]
+      },
+      "trajectory_sha256": "701f53c15ce750db96cdd5382bc80b59bd98d904d85700963e20b5657115d2f5"
+    },
+    {
+      "id": "title",
+      "fingerprint": "f44c27144ee94df627cb7b099da55967e4152100bda74d06df9cb9100de15e92",
+      "status": "complete",
+      "backend": "affine",
+      "video": "E:\\program\\1project\\video\\projects\\悬疑\\episodes\\20261112-tuoshui\\intro\\v3\\motion-bg\\title.mp4",
+      "video_sha256": "bc04a1a3c24abcc3dc8df25fc05e80fce28dd9fdd371ef785a18a77ee4e47bad",
+      "duration_s": 3.0,
+      "qa": {
+        "source_bounds_checked": true,
+        "required_regions_checked": true,
+        "max_center_step_output_px": 0.3511317155306415,
+        "max_scale_step": 0.003363330608530779,
+        "scope": "Planned trajectory only; encoded motion and visual texture require separate QA"
+      },
+      "timing": {
+        "backend": "affine",
+        "source_size_rendered": [
+          1536,
+          864
+        ]
+      },
+      "trajectory_sha256": "d7bd854e018abfef295fe42b3b32b2fc8c628faf748040aecf5bdb484e9f89d7"
+    }
+  ],
+  "limitations": [
+    "Affine sampling uses OpenCV 1/32-pixel interpolation table.",
+    "Blender backend uses orthographic camera + emission-textured plane; no parallax.",
+    "No invented parallax, internal animation or depth.",
+    "Rendered temporal tracking must be verified separately from planned trajectory.",
+    "Missing Blender install fails hard; never silent-falls back to affine."
+  ]
+}

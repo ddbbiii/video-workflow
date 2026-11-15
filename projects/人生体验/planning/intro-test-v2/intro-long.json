@@ -1,0 +1,14 @@
+{
+  "duration": 6.6,
+  "timeline": {
+    "hook_start": 1.5,
+    "hook_end": 4.2,
+    "level_start": 4.4,
+    "level_end": 5.2,
+    "chapter_start": 5.2,
+    "chapter_end": 6.4
+  },
+  "hook": {"line1": "城市空了", "line2": "只剩你一人", "start": 1.5, "end": 4.2},
+  "level": {"text": "第一级", "start": 4.4, "end": 5.2},
+  "chapter": {"text": "空城的回声", "start": 5.2, "end": 6.4}
+}

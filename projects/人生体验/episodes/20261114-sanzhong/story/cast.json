@@ -1,0 +1,1102 @@
+{
+ "S01": {
+  "cast": "catman",
+  "closeup_part": "face",
+  "view_angle": "front"
+ },
+ "S02": {
+  "cast": "catman",
+  "closeup_part": "face",
+  "view_angle": "front"
+ },
+ "S03": {
+  "cast": "none",
+  "closeup_part": "none",
+  "view_angle": "none"
+ },
+ "S04": {
+  "cast": "body-only",
+  "closeup_part": "face",
+  "view_angle": "front"
+ },
+ "S05": {
+  "cast": "body-only",
+  "closeup_part": "face",
+  "view_angle": "front"
+ },
+ "S06": {
+  "cast": "catman",
+  "closeup_part": "face",
+  "view_angle": "front"
+ },
+ "S07": {
+  "cast": "catman",
+  "closeup_part": "paw",
+  "view_angle": "back"
+ },
+ "S08": {
+  "cast": "none",
+  "closeup_part": "none",
+  "view_angle": "none"
+ },
+ "S09": {
+  "cast": "none",
+  "closeup_part": "prop",
+  "view_angle": "none"
+ },
+ "S10": {
+  "cast": "none",
+  "closeup_part": "prop",
+  "view_angle": "none"
+ },
+ "S11": {
+  "cast": "none",
+  "closeup_part": "none",
+  "view_angle": "none"
+ },
+ "S12": {
+  "cast": "body-only",
+  "closeup_part": "face",
+  "view_angle": "three-quarter"
+ },
+ "S13": {
+  "cast": "none",
+  "closeup_part": "prop",
+  "view_angle": "none"
+ },
+ "S14": {
+  "cast": "none",
+  "closeup_part": "prop",
+  "view_angle": "none"
+ },
+ "S15": {
+  "cast": "none",
+  "closeup_part": "prop",
+  "view_angle": "none"
+ },
+ "S16": {
+  "cast": "catman",
+  "closeup_part": "face",
+  "view_angle": "front"
+ },
+ "S17": {
+  "cast": "none",
+  "closeup_part": "none",
+  "view_angle": "none"
+ },
+ "S18": {
+  "cast": "catman",
+  "closeup_part": "paw",
+  "view_angle": "front"
+ },
+ "S19": {
+  "cast": "none",
+  "closeup_part": "prop",
+  "view_angle": "none"
+ },
+ "S20": {
+  "cast": "none",
+  "closeup_part": "none",
+  "view_angle": "none"
+ },
+ "S21": {
+  "cast": "none",
+  "closeup_part": "prop",
+  "view_angle": "none"
+ },
+ "S22": {
+  "cast": "body-only",
+  "closeup_part": "hand",
+  "view_angle": "none"
+ },
+ "S23": {
+  "cast": "none",
+  "closeup_part": "prop",
+  "view_angle": "none"
+ },
+ "S24": {
+  "cast": "body-only",
+  "closeup_part": "face",
+  "view_angle": "front"
+ },
+ "S25": {
+  "cast": "catman",
+  "closeup_part": "paw",
+  "view_angle": "front"
+ },
+ "S26": {
+  "cast": "none",
+  "closeup_part": "none",
+  "view_angle": "none"
+ },
+ "S27": {
+  "cast": "body-only",
+  "closeup_part": "paw",
+  "view_angle": "front"
+ },
+ "S28": {
+  "cast": "catman",
+  "closeup_part": "paw",
+  "view_angle": "front"
+ },
+ "S29": {
+  "cast": "catman",
+  "closeup_part": "paw",
+  "view_angle": "front"
+ },
+ "S30": {
+  "cast": "catman",
+  "closeup_part": "paw",
+  "view_angle": "front"
+ },
+ "S31": {
+  "cast": "catman",
+  "closeup_part": "paw",
+  "view_angle": "front"
+ },
+ "S32": {
+  "cast": "none",
+  "closeup_part": "none",
+  "view_angle": "none"
+ },
+ "S33": {
+  "cast": "none",
+  "closeup_part": "none",
+  "view_angle": "none"
+ },
+ "S34": {
+  "cast": "catman",
+  "closeup_part": "paw",
+  "view_angle": "front"
+ },
+ "S35": {
+  "cast": "catman",
+  "closeup_part": "face",
+  "view_angle": "front"
+ },
+ "S36": {
+  "cast": "body-only",
+  "closeup_part": "face",
+  "view_angle": "front"
+ },
+ "S37": {
+  "cast": "catman",
+  "closeup_part": "face",
+  "view_angle": "front"
+ },
+ "S38": {
+  "cast": "catman",
+  "closeup_part": "paw",
+  "view_angle": "front"
+ },
+ "S39": {
+  "cast": "none",
+  "closeup_part": "none",
+  "view_angle": "none"
+ },
+ "S40": {
+  "cast": "catman",
+  "closeup_part": "face",
+  "view_angle": "front"
+ },
+ "S41": {
+  "cast": "none",
+  "closeup_part": "none",
+  "view_angle": "none"
+ },
+ "S42": {
+  "cast": "body-only",
+  "closeup_part": "paw",
+  "view_angle": "front"
+ },
+ "S43": {
+  "cast": "none",
+  "closeup_part": "prop",
+  "view_angle": "none"
+ },
+ "S44": {
+  "cast": "body-only",
+  "closeup_part": "face",
+  "view_angle": "front"
+ },
+ "S45": {
+  "cast": "body-only",
+  "closeup_part": "none",
+  "view_angle": "front"
+ },
+ "S46": {
+  "cast": "body-only",
+  "closeup_part": "none",
+  "view_angle": "front"
+ },
+ "S47": {
+  "cast": "none",
+  "closeup_part": "none",
+  "view_angle": "none"
+ },
+ "S48": {
+  "cast": "body-only",
+  "closeup_part": "none",
+  "view_angle": "front"
+ },
+ "S49": {
+  "cast": "body-only",
+  "closeup_part": "none",
+  "view_angle": "front"
+ },
+ "S50": {
+  "cast": "none",
+  "closeup_part": "none",
+  "view_angle": "none"
+ },
+ "S51": {
+  "cast": "body-only",
+  "closeup_part": "none",
+  "view_angle": "front"
+ },
+ "S52": {
+  "cast": "body-only",
+  "closeup_part": "none",
+  "view_angle": "back"
+ },
+ "S53": {
+  "cast": "body-only",
+  "closeup_part": "face",
+  "view_angle": "front"
+ },
+ "S54": {
+  "cast": "none",
+  "closeup_part": "none",
+  "view_angle": "none"
+ },
+ "S55": {
+  "cast": "body-only",
+  "closeup_part": "none",
+  "view_angle": "front"
+ },
+ "S56": {
+  "cast": "body-only",
+  "closeup_part": "none",
+  "view_angle": "front"
+ },
+ "S57": {
+  "cast": "none",
+  "closeup_part": "none",
+  "view_angle": "none"
+ },
+ "S58": {
+  "cast": "body-only",
+  "closeup_part": "none",
+  "view_angle": "front"
+ },
+ "S59": {
+  "cast": "catman",
+  "closeup_part": "none",
+  "view_angle": "front"
+ },
+ "S60": {
+  "cast": "catman",
+  "closeup_part": "none",
+  "view_angle": "front"
+ },
+ "S61": {
+  "cast": "body-only",
+  "closeup_part": "none",
+  "view_angle": "three-quarter"
+ },
+ "S62": {
+  "cast": "catman",
+  "closeup_part": "none",
+  "view_angle": "front"
+ },
+ "S63": {
+  "cast": "body-only",
+  "closeup_part": "paw",
+  "view_angle": "front"
+ },
+ "S64": {
+  "cast": "body-only",
+  "closeup_part": "none",
+  "view_angle": "front"
+ },
+ "S65": {
+  "cast": "body-only",
+  "closeup_part": "face",
+  "view_angle": "three-quarter"
+ },
+ "S66": {
+  "cast": "none",
+  "closeup_part": "none",
+  "view_angle": "none"
+ },
+ "S67": {
+  "cast": "body-only",
+  "closeup_part": "none",
+  "view_angle": "front"
+ },
+ "S68": {
+  "cast": "none",
+  "closeup_part": "none",
+  "view_angle": "none"
+ },
+ "S69": {
+  "cast": "catman",
+  "closeup_part": "none",
+  "view_angle": "front"
+ },
+ "S70": {
+  "cast": "body-only",
+  "closeup_part": "paw",
+  "view_angle": "front"
+ },
+ "S71": {
+  "cast": "none",
+  "closeup_part": "none",
+  "view_angle": "none"
+ },
+ "S72": {
+  "cast": "catman",
+  "closeup_part": "face",
+  "view_angle": "three-quarter"
+ },
+ "S73": {
+  "cast": "catman",
+  "closeup_part": "none",
+  "view_angle": "front"
+ },
+ "S74": {
+  "cast": "none",
+  "closeup_part": "none",
+  "view_angle": "none"
+ },
+ "S75": {
+  "cast": "chen",
+  "closeup_part": "none",
+  "view_angle": "front"
+ },
+ "S76": {
+  "cast": "body-only",
+  "closeup_part": "none",
+  "view_angle": "front"
+ },
+ "S77": {
+  "cast": "none",
+  "closeup_part": "none",
+  "view_angle": "none"
+ },
+ "S78": {
+  "cast": "body-only",
+  "closeup_part": "none",
+  "view_angle": "front"
+ },
+ "S79": {
+  "cast": "none",
+  "closeup_part": "none",
+  "view_angle": "none"
+ },
+ "S80": {
+  "cast": "body-only",
+  "closeup_part": "hand",
+  "view_angle": "none"
+ },
+ "S81": {
+  "cast": "catman",
+  "closeup_part": "none",
+  "view_angle": "front"
+ },
+ "S82": {
+  "cast": "body-only",
+  "closeup_part": "none",
+  "view_angle": "front"
+ },
+ "S83": {
+  "cast": "catman",
+  "closeup_part": "none",
+  "view_angle": "front"
+ },
+ "S84": {
+  "cast": "none",
+  "closeup_part": "none",
+  "view_angle": "none"
+ },
+ "S85": {
+  "cast": "none",
+  "closeup_part": "none",
+  "view_angle": "none"
+ },
+ "S86": {
+  "cast": "catman+chen",
+  "closeup_part": "none",
+  "view_angle": "front"
+ },
+ "S87": {
+  "cast": "catman+chen",
+  "closeup_part": "none",
+  "view_angle": "front"
+ },
+ "S88": {
+  "cast": "chen",
+  "closeup_part": "face",
+  "view_angle": "three-quarter"
+ },
+ "S89": {
+  "cast": "chen",
+  "closeup_part": "none",
+  "view_angle": "front"
+ },
+ "S90": {
+  "cast": "catman+chen",
+  "closeup_part": "none",
+  "view_angle": "front"
+ },
+ "S91": {
+  "cast": "none",
+  "closeup_part": "none",
+  "view_angle": "none"
+ },
+ "S92": {
+  "cast": "chen",
+  "closeup_part": "face",
+  "view_angle": "front"
+ },
+ "S93": {
+  "cast": "chen",
+  "closeup_part": "face",
+  "view_angle": "three-quarter"
+ },
+ "S94": {
+  "cast": "catman+chen",
+  "closeup_part": "none",
+  "view_angle": "front"
+ },
+ "S95": {
+  "cast": "none",
+  "closeup_part": "none",
+  "view_angle": "none"
+ },
+ "S96": {
+  "cast": "none",
+  "closeup_part": "none",
+  "view_angle": "none"
+ },
+ "S97": {
+  "cast": "catman",
+  "closeup_part": "none",
+  "view_angle": "front"
+ },
+ "S98": {
+  "cast": "chen",
+  "closeup_part": "face",
+  "view_angle": "front"
+ },
+ "S99": {
+  "cast": "chen",
+  "closeup_part": "none",
+  "view_angle": "front"
+ },
+ "S100": {
+  "cast": "none",
+  "closeup_part": "none",
+  "view_angle": "none"
+ },
+ "S101": {
+  "cast": "none",
+  "closeup_part": "none",
+  "view_angle": "none"
+ },
+ "S102": {
+  "cast": "catman+chen",
+  "closeup_part": "none",
+  "view_angle": "front"
+ },
+ "S103": {
+  "cast": "chen",
+  "closeup_part": "none",
+  "view_angle": "front"
+ },
+ "S104": {
+  "cast": "body-only",
+  "closeup_part": "none",
+  "view_angle": "front"
+ },
+ "S105": {
+  "cast": "none",
+  "closeup_part": "none",
+  "view_angle": "none"
+ },
+ "S106": {
+  "cast": "body-only",
+  "closeup_part": "none",
+  "view_angle": "front"
+ },
+ "S107": {
+  "cast": "none",
+  "closeup_part": "none",
+  "view_angle": "none"
+ },
+ "S108": {
+  "cast": "catman+chen",
+  "closeup_part": "none",
+  "view_angle": "front"
+ },
+ "S109": {
+  "cast": "catman",
+  "closeup_part": "none",
+  "view_angle": "front"
+ },
+ "S110": {
+  "cast": "catman",
+  "closeup_part": "none",
+  "view_angle": "front"
+ },
+ "S111": {
+  "cast": "catman",
+  "closeup_part": "face",
+  "view_angle": "front"
+ },
+ "S112": {
+  "cast": "catman+chen",
+  "closeup_part": "none",
+  "view_angle": "front"
+ },
+ "S113": {
+  "cast": "none",
+  "closeup_part": "none",
+  "view_angle": "none"
+ },
+ "S114": {
+  "cast": "none",
+  "closeup_part": "none",
+  "view_angle": "none"
+ },
+ "S115": {
+  "cast": "catman",
+  "closeup_part": "none",
+  "view_angle": "front"
+ },
+ "S116": {
+  "cast": "none",
+  "closeup_part": "none",
+  "view_angle": "none"
+ },
+ "S117": {
+  "cast": "body-only",
+  "closeup_part": "none",
+  "view_angle": "front"
+ },
+ "S118": {
+  "cast": "body-only",
+  "closeup_part": "none",
+  "view_angle": "front"
+ },
+ "S119": {
+  "cast": "none",
+  "closeup_part": "none",
+  "view_angle": "none"
+ },
+ "S120": {
+  "cast": "catman",
+  "closeup_part": "none",
+  "view_angle": "front"
+ },
+ "S121": {
+  "cast": "catman+chen",
+  "closeup_part": "none",
+  "view_angle": "three-quarter"
+ },
+ "S122": {
+  "cast": "catman+chen",
+  "closeup_part": "none",
+  "view_angle": "front"
+ },
+ "S123": {
+  "cast": "none",
+  "closeup_part": "none",
+  "view_angle": "none"
+ },
+ "S124": {
+  "cast": "catman",
+  "closeup_part": "none",
+  "view_angle": "front"
+ },
+ "S125": {
+  "cast": "none",
+  "closeup_part": "none",
+  "view_angle": "none"
+ },
+ "S126": {
+  "cast": "catman",
+  "closeup_part": "none",
+  "view_angle": "front"
+ },
+ "S127": {
+  "cast": "catman+chen",
+  "closeup_part": "none",
+  "view_angle": "front"
+ },
+ "S128": {
+  "cast": "body-only",
+  "closeup_part": "none",
+  "view_angle": "front"
+ },
+ "S129": {
+  "cast": "none",
+  "closeup_part": "none",
+  "view_angle": "none"
+ },
+ "S130": {
+  "cast": "body-only",
+  "closeup_part": "face",
+  "view_angle": "front"
+ },
+ "S131": {
+  "cast": "none",
+  "closeup_part": "prop",
+  "view_angle": "none"
+ },
+ "S132": {
+  "cast": "catman+chen",
+  "closeup_part": "none",
+  "view_angle": "front"
+ },
+ "S133": {
+  "cast": "none",
+  "closeup_part": "none",
+  "view_angle": "none"
+ },
+ "S134": {
+  "cast": "none",
+  "closeup_part": "prop",
+  "view_angle": "none"
+ },
+ "S135": {
+  "cast": "catman+chen",
+  "closeup_part": "face",
+  "view_angle": "front"
+ },
+ "S136": {
+  "cast": "none",
+  "closeup_part": "none",
+  "view_angle": "none"
+ },
+ "S137": {
+  "cast": "none",
+  "closeup_part": "none",
+  "view_angle": "none"
+ },
+ "S138": {
+  "cast": "chen",
+  "closeup_part": "face",
+  "view_angle": "front"
+ },
+ "S139": {
+  "cast": "none",
+  "closeup_part": "none",
+  "view_angle": "none"
+ },
+ "S140": {
+  "cast": "catman+chen",
+  "closeup_part": "none",
+  "view_angle": "front"
+ },
+ "S141": {
+  "cast": "catman",
+  "closeup_part": "none",
+  "view_angle": "back"
+ },
+ "S142": {
+  "cast": "none",
+  "closeup_part": "none",
+  "view_angle": "none"
+ },
+ "S143": {
+  "cast": "none",
+  "closeup_part": "none",
+  "view_angle": "none"
+ },
+ "S144": {
+  "cast": "body-only",
+  "closeup_part": "none",
+  "view_angle": "front"
+ },
+ "S145": {
+  "cast": "body-only",
+  "closeup_part": "none",
+  "view_angle": "front"
+ },
+ "S146": {
+  "cast": "none",
+  "closeup_part": "none",
+  "view_angle": "none"
+ },
+ "S147": {
+  "cast": "body-only",
+  "closeup_part": "none",
+  "view_angle": "three-quarter"
+ },
+ "S148": {
+  "cast": "body-only",
+  "closeup_part": "none",
+  "view_angle": "front"
+ },
+ "S149": {
+  "cast": "catman+chen",
+  "closeup_part": "none",
+  "view_angle": "three-quarter"
+ },
+ "S150": {
+  "cast": "catman+chen",
+  "closeup_part": "none",
+  "view_angle": "front"
+ },
+ "S151": {
+  "cast": "none",
+  "closeup_part": "none",
+  "view_angle": "none"
+ },
+ "S152": {
+  "cast": "body-only",
+  "closeup_part": "none",
+  "view_angle": "front"
+ },
+ "S153": {
+  "cast": "catman+chen",
+  "closeup_part": "face",
+  "view_angle": "front"
+ },
+ "S154": {
+  "cast": "none",
+  "closeup_part": "none",
+  "view_angle": "none"
+ },
+ "S155": {
+  "cast": "body-only",
+  "closeup_part": "none",
+  "view_angle": "front"
+ },
+ "S156": {
+  "cast": "catman+chen",
+  "closeup_part": "none",
+  "view_angle": "front"
+ },
+ "S157": {
+  "cast": "none",
+  "closeup_part": "none",
+  "view_angle": "none"
+ },
+ "S158": {
+  "cast": "none",
+  "closeup_part": "none",
+  "view_angle": "none"
+ },
+ "S159": {
+  "cast": "none",
+  "closeup_part": "none",
+  "view_angle": "none"
+ },
+ "S160": {
+  "cast": "body-only",
+  "closeup_part": "none",
+  "view_angle": "front"
+ },
+ "S161": {
+  "cast": "chen",
+  "closeup_part": "none",
+  "view_angle": "front"
+ },
+ "S162": {
+  "cast": "chen",
+  "closeup_part": "none",
+  "view_angle": "front"
+ },
+ "S163": {
+  "cast": "none",
+  "closeup_part": "none",
+  "view_angle": "none"
+ },
+ "S164": {
+  "cast": "catman+chen",
+  "closeup_part": "none",
+  "view_angle": "front"
+ },
+ "S165": {
+  "cast": "catman",
+  "closeup_part": "face",
+  "view_angle": "front"
+ },
+ "S166": {
+  "cast": "chen",
+  "closeup_part": "face",
+  "view_angle": "front"
+ },
+ "S167": {
+  "cast": "catman+chen",
+  "closeup_part": "none",
+  "view_angle": "front"
+ },
+ "S168": {
+  "cast": "none",
+  "closeup_part": "none",
+  "view_angle": "none"
+ },
+ "S169": {
+  "cast": "catman",
+  "closeup_part": "none",
+  "view_angle": "front"
+ },
+ "S170": {
+  "cast": "catman+chen",
+  "closeup_part": "none",
+  "view_angle": "front"
+ },
+ "S171": {
+  "cast": "chen",
+  "closeup_part": "none",
+  "view_angle": "front"
+ },
+ "S172": {
+  "cast": "chen",
+  "closeup_part": "hand",
+  "view_angle": "three-quarter"
+ },
+ "S173": {
+  "cast": "catman+chen",
+  "closeup_part": "none",
+  "view_angle": "front"
+ },
+ "S174": {
+  "cast": "none",
+  "closeup_part": "none",
+  "view_angle": "none"
+ },
+ "S175": {
+  "cast": "catman+chen",
+  "closeup_part": "none",
+  "view_angle": "front"
+ },
+ "S176": {
+  "cast": "catman",
+  "closeup_part": "none",
+  "view_angle": "front"
+ },
+ "S177": {
+  "cast": "none",
+  "closeup_part": "none",
+  "view_angle": "none"
+ },
+ "S178": {
+  "cast": "catman+chen",
+  "closeup_part": "face",
+  "view_angle": "front"
+ },
+ "S179": {
+  "cast": "catman",
+  "closeup_part": "face",
+  "view_angle": "front"
+ },
+ "S180": {
+  "cast": "chen",
+  "closeup_part": "none",
+  "view_angle": "front"
+ },
+ "S181": {
+  "cast": "chen",
+  "closeup_part": "hand",
+  "view_angle": "none"
+ },
+ "S182": {
+  "cast": "catman+chen",
+  "closeup_part": "none",
+  "view_angle": "front"
+ },
+ "S183": {
+  "cast": "none",
+  "closeup_part": "none",
+  "view_angle": "none"
+ },
+ "S184": {
+  "cast": "catman+chen",
+  "closeup_part": "none",
+  "view_angle": "front"
+ },
+ "S185": {
+  "cast": "catman+chen",
+  "closeup_part": "none",
+  "view_angle": "front"
+ },
+ "S186": {
+  "cast": "none",
+  "closeup_part": "none",
+  "view_angle": "none"
+ },
+ "S187": {
+  "cast": "none",
+  "closeup_part": "none",
+  "view_angle": "none"
+ },
+ "S188": {
+  "cast": "none",
+  "closeup_part": "none",
+  "view_angle": "none"
+ },
+ "S189": {
+  "cast": "chen",
+  "closeup_part": "none",
+  "view_angle": "front"
+ },
+ "S190": {
+  "cast": "none",
+  "closeup_part": "none",
+  "view_angle": "none"
+ },
+ "S191": {
+  "cast": "chen",
+  "closeup_part": "none",
+  "view_angle": "front"
+ },
+ "S192": {
+  "cast": "catman",
+  "closeup_part": "none",
+  "view_angle": "front"
+ },
+ "S193": {
+  "cast": "none",
+  "closeup_part": "none",
+  "view_angle": "none"
+ },
+ "S194": {
+  "cast": "catman",
+  "closeup_part": "none",
+  "view_angle": "front"
+ },
+ "S195": {
+  "cast": "none",
+  "closeup_part": "none",
+  "view_angle": "none"
+ },
+ "S196": {
+  "cast": "none",
+  "closeup_part": "none",
+  "view_angle": "none"
+ },
+ "S197": {
+  "cast": "catman",
+  "closeup_part": "none",
+  "view_angle": "front"
+ },
+ "S198": {
+  "cast": "none",
+  "closeup_part": "none",
+  "view_angle": "none"
+ },
+ "S199": {
+  "cast": "chen",
+  "closeup_part": "face",
+  "view_angle": "front"
+ },
+ "S200": {
+  "cast": "chen",
+  "closeup_part": "none",
+  "view_angle": "front"
+ },
+ "S201": {
+  "cast": "catman",
+  "closeup_part": "none",
+  "view_angle": "three-quarter"
+ },
+ "S202": {
+  "cast": "chen",
+  "closeup_part": "none",
+  "view_angle": "front"
+ },
+ "S203": {
+  "cast": "catman+chen",
+  "closeup_part": "none",
+  "view_angle": "front"
+ },
+ "S204": {
+  "cast": "catman",
+  "closeup_part": "none",
+  "view_angle": "front"
+ },
+ "S205": {
+  "cast": "none",
+  "closeup_part": "none",
+  "view_angle": "none"
+ },
+ "S206": {
+  "cast": "body-only",
+  "closeup_part": "none",
+  "view_angle": "front"
+ },
+ "S207": {
+  "cast": "catman+chen",
+  "closeup_part": "none",
+  "view_angle": "front"
+ },
+ "S208": {
+  "cast": "body-only",
+  "closeup_part": "paw",
+  "view_angle": "none"
+ },
+ "S209": {
+  "cast": "chen",
+  "closeup_part": "none",
+  "view_angle": "front"
+ },
+ "S210": {
+  "cast": "catman",
+  "closeup_part": "face",
+  "view_angle": "three-quarter"
+ },
+ "S211": {
+  "cast": "catman",
+  "closeup_part": "paw",
+  "view_angle": "front"
+ },
+ "S212": {
+  "cast": "none",
+  "closeup_part": "none",
+  "view_angle": "none"
+ },
+ "S213": {
+  "cast": "none",
+  "closeup_part": "none",
+  "view_angle": "none"
+ },
+ "S214": {
+  "cast": "none",
+  "closeup_part": "none",
+  "view_angle": "none"
+ },
+ "S215": {
+  "cast": "none",
+  "closeup_part": "none",
+  "view_angle": "none"
+ },
+ "S216": {
+  "cast": "none",
+  "closeup_part": "none",
+  "view_angle": "none"
+ },
+ "S217": {
+  "cast": "none",
+  "closeup_part": "none",
+  "view_angle": "none"
+ },
+ "S218": {
+  "cast": "none",
+  "closeup_part": "none",
+  "view_angle": "none"
+ },
+ "S219": {
+  "cast": "none",
+  "closeup_part": "none",
+  "view_angle": "none"
+ },
+ "S220": {
+  "cast": "none",
+  "closeup_part": "none",
+  "view_angle": "none"
+ }
+}

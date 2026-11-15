@@ -1,0 +1,35 @@
+{
+ "total": 13.917,
+ "frames": 334,
+ "fps": 24,
+ "hooks": [
+  {
+   "key": "hook1",
+   "start": 0.35,
+   "dur": 3.18
+  },
+  {
+   "key": "hook2",
+   "start": 4.0,
+   "dur": 3.38
+  },
+  {
+   "key": "hook3",
+   "start": 7.792,
+   "dur": 2.7
+  }
+ ],
+ "title": {
+  "start": 10.792,
+  "dur": 3.0
+ },
+ "bg_cuts": [
+  0.0,
+  4.0,
+  7.792,
+  10.792,
+  13.917
+ ],
+ "audio": "VO only, no BGM/SFX",
+ "font": "Xiangcui Jixuesong (OFL)"
+}

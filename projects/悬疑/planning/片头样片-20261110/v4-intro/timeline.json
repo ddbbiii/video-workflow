@@ -1,0 +1,97 @@
+{
+ "version": "V4",
+ "total": 13.917,
+ "frames": 334,
+ "fps": 24,
+ "hooks": [
+  {
+   "key": "hook1",
+   "start": 0.35,
+   "dur": 3.18,
+   "font": "Ma Shan Zheng",
+   "px": 96
+  },
+  {
+   "key": "hook2",
+   "start": 4.0,
+   "dur": 3.38,
+   "font": "Ma Shan Zheng",
+   "px": 96
+  },
+  {
+   "key": "hook3",
+   "start": 7.792,
+   "dur": 2.7,
+   "font": "Ma Shan Zheng",
+   "px": 96
+  }
+ ],
+ "title": {
+  "start": 10.792,
+  "dur": 3.0,
+  "font": "Xiangcui Jixuesong (香萃积雪宋)",
+  "px": 450,
+  "in_scale": 1.08,
+  "in_ms": 120
+ },
+ "impact": {
+  "flash_frames": 2,
+  "impact_frames": 6,
+  "shake": "9px/7px decaying",
+  "rgb_split_px": 16,
+  "zoom": "1870->1920 crop punch"
+ },
+ "audio": {
+  "bgm": null,
+  "title_hit": null,
+  "vo": "b2 suspense",
+  "sfx": [
+   {
+    "name": "breath_open",
+    "at": 0.0,
+    "dur": 0.32,
+    "src": "assets\\悬疑\\audio\\sfx\\breath-male-fear-v1\\audio.wav",
+    "src_rms_dbfs": -35.6,
+    "target_rms_dbfs": -34.0,
+    "gain_db": 1.6
+   },
+   {
+    "name": "whisper_gap1",
+    "at": 3.55,
+    "dur": 0.42,
+    "src": "assets\\悬疑\\audio\\sfx\\whisper-male-conspiracy-v1\\audio.wav",
+    "src_rms_dbfs": -27.6,
+    "target_rms_dbfs": -26.0,
+    "gain_db": 1.6
+   },
+   {
+    "name": "crowd_gap2",
+    "at": 7.4,
+    "dur": 0.38,
+    "src": "assets\\悬疑\\audio\\sfx\\whisper-crowd-male-v1\\audio.wav",
+    "src_rms_dbfs": -31.8,
+    "target_rms_dbfs": -26.0,
+    "gain_db": 5.8
+   },
+   {
+    "name": "gasp_pre_title",
+    "at": 10.5,
+    "dur": 0.29,
+    "src": "assets\\悬疑\\audio\\sfx\\gasp-female-astonished-v1\\audio.wav",
+    "src_rms_dbfs": -26.0,
+    "target_rms_dbfs": -24.0,
+    "gain_db": 2.0
+   },
+   {
+    "name": "crowd_title",
+    "at": 10.52,
+    "dur": 3.3,
+    "src": "assets\\悬疑\\audio\\sfx\\whisper-crowd-male-v1\\audio.wav",
+    "src_rms_dbfs": -34.5,
+    "target_rms_dbfs": -28.0,
+    "gain_db": 6.5
+   }
+  ],
+  "mix_rms_dbfs": -19.21
+ }
+}

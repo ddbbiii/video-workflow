@@ -1,0 +1,4 @@
+file 'E:/program/1project/video/projects/悬疑/planning/片头样片-20261110/v2-intro/build/graded/ib0.mp4'
+file 'E:/program/1project/video/projects/悬疑/planning/片头样片-20261110/v2-intro/build/graded/ib1.mp4'
+file 'E:/program/1project/video/projects/悬疑/planning/片头样片-20261110/v2-intro/build/graded/ib2.mp4'
+file 'E:/program/1project/video/projects/悬疑/planning/片头样片-20261110/v2-intro/build/graded/ib3.mp4'

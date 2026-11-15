@@ -1,0 +1,389 @@
+{
+ "shots": {
+  "A1": {
+   "tag": "A1",
+   "kind": "A 环境空镜",
+   "title": "老楼道：四层走廊，尽头窗",
+   "shot_type": "E",
+   "scene_id": "corridor-4f",
+   "character_ids": [],
+   "evidence_id": "",
+   "anchor": "",
+   "channel": "new2",
+   "policy": "v6-new2-dklb-old",
+   "attempts": 1,
+   "fallback_from": "",
+   "pass": true,
+   "qa": [],
+   "metrics": {
+    "std_lum": 25.8,
+    "mean_lum": 52.8,
+    "mean_sat": 57.4,
+    "lap_var": 174.2,
+    "delivery_lap_var": 107.0
+   },
+   "dims": [
+    1672,
+    941
+   ],
+   "file": "raw/A1.png",
+   "sha256": "c1e77d51d5c8c08ec3d331472ae95a3caf154f3d9ef73638715f0859441e2881",
+   "prompt": "desaturated graphic-novel panel, mature simplified cel-shaded anime characters, flat color blocks with hard-edged cel shadows, clean ink linework, cold grey-blue palette, one controlled warm practical light, ordinary Chinese urban interior or street, worn and lived-in surfaces, legible horror staging, clear foreground subject and evidence prop, slightly off-center composition, deep focus, layered foreground occlusion in wide shots, volumetric dust in cold window light, 16:9, camera: medium position, eye level, standing at the stair landing looking down the corridor; lens: 24mm wide-angle, deep focus, near and far both readable; composition: the corridor recedes along the right third line, off-center, never symmetrical; foreground: a rusted steel door frame and the peeling dark-green edge of its door press the left quarter, subject: no people, an empty fourth-floor corridor of an old six-storey walk-up in a southern Chinese city, layers: foreground: the door frame with a strip of grey duct tape across its corner; middle ground: a yellowed plastic stool beside a taped-over electrical junction box, a folded drying rack with two dark shirts hanging on it; background: the far window at the corridor end, its frame swollen and repainted three times, cold grey dusk light beyond it, decay: peeling green paint along the skirting, a dark water stain spreading down from the window frame, rust bleeding from the door hinge, scuffed skirting board, light: cold grey window light from the far end, one single warm practical light leaking under one closed door on the left as the only warm spot in frame, hard constraints: no people, no readable text, no printed signs, no door numbers, no posters, no UI, no glitch bars",
+   "attempt_log": [
+    {
+     "attempt": 1,
+     "ok": true,
+     "http_status": 200,
+     "elapsed_s": 43.3,
+     "dims": [
+      1672,
+      941
+     ],
+     "qa": [],
+     "error": null
+    }
+   ]
+  },
+  "A2": {
+   "tag": "A2",
+   "kind": "A 环境空镜",
+   "title": "出租屋室内：折叠桌、床、窗",
+   "shot_type": "E",
+   "scene_id": "room-rental-302",
+   "character_ids": [],
+   "evidence_id": "",
+   "anchor": "",
+   "channel": "new2",
+   "policy": "v6-new2-dklb-old",
+   "attempts": 1,
+   "fallback_from": "",
+   "pass": true,
+   "qa": [],
+   "metrics": {
+    "std_lum": 36.0,
+    "mean_lum": 62.1,
+    "mean_sat": 47.5,
+    "lap_var": 313.9,
+    "delivery_lap_var": 190.9
+   },
+   "dims": [
+    1672,
+    941
+   ],
+   "file": "raw/A2.png",
+   "sha256": "c9e9760283447c834065682079c7cba4730defe11593b409dff7fe0ee28ae445",
+   "prompt": "desaturated graphic-novel panel, mature simplified cel-shaded anime characters, flat color blocks with hard-edged cel shadows, clean ink linework, cold grey-blue palette, one controlled warm practical light, ordinary Chinese urban interior or street, worn and lived-in surfaces, legible horror staging, clear foreground subject and evidence prop, slightly off-center composition, deep focus, layered foreground occlusion in wide shots, volumetric dust in cold window light, 16:9, camera: medium position, slightly low, from the doorway looking into the room; lens: 24mm wide-angle, deep focus; composition: the bed sits on the right third line, the door opening on the left, off-center; foreground: a faded floral fabric door curtain hangs on the left edge, its hem taped to the frame, pressing the left fifth, subject: no people, one rented single room, lived in, layers: foreground: the curtain hem and two strips of clear repair tape on the frame; middle ground: a folding square table with two upside-down bowls and a stainless thermos, a plastic stool pushed under it, one pair of worn slippers beside the bed; background: a steel-framed window with a clothes-hanging rod outside, cold overcast light through dusty glass, decay: wallpaper lifting in a corner above the bed, cracked tile at the threshold, a ring of water stain around the window sill, light: cold overcast window light from the right, one single warm desk lamp on the table as the only warm spot, hard constraints: no people, no readable text, no wall calendar, no posters, no packaging with lettering, no UI",
+   "attempt_log": [
+    {
+     "attempt": 1,
+     "ok": true,
+     "http_status": 200,
+     "elapsed_s": 34.2,
+     "dims": [
+      1672,
+      941
+     ],
+     "qa": [],
+     "error": null
+    }
+   ]
+  },
+  "B1": {
+   "tag": "B1",
+   "kind": "B 人物中景",
+   "title": "门口：周叙侧背身扶门框，往屋内看",
+   "shot_type": "M",
+   "scene_id": "room-rental-302",
+   "character_ids": [
+    "zhouxu-20261110-pool"
+   ],
+   "evidence_id": "",
+   "anchor": "zhouxu:front,side,face",
+   "channel": "new2",
+   "policy": "v6-new2-dklb-old",
+   "attempts": 1,
+   "fallback_from": "",
+   "pass": true,
+   "qa": [],
+   "metrics": {
+    "std_lum": 24.8,
+    "mean_lum": 69.0,
+    "mean_sat": 58.3,
+    "lap_var": 90.7,
+    "delivery_lap_var": 55.7
+   },
+   "dims": [
+    1672,
+    941
+   ],
+   "file": "raw/B1.png",
+   "sha256": "e182753686413ad4fa1b3e856358ffce4589055c1f6bfa7b8c35948548847ace",
+   "prompt": "desaturated graphic-novel panel, mature simplified cel-shaded anime characters, flat color blocks with hard-edged cel shadows, clean ink linework, cold grey-blue palette, one controlled warm practical light, ordinary Chinese urban interior or street, worn and lived-in surfaces, legible horror staging, clear foreground subject and evidence prop, slightly off-center composition, deep focus, layered foreground occlusion in wide shots, volumetric dust in cold window light, 16:9, Character reference sheet attached: the same character shown from several angles, same outfit. Keep his exact design — thin 14-year-old Chinese boy, short slightly messy black hair with a side part, narrow dark brown eyes, straight brows, low nose bridge, thin lips, fair skin, navy-blue zip-up school jacket with white piping, white crew-neck T-shirt, grey straight trousers, white canvas sneakers, no glasses, no backpack, no accessories. Render ONE new single scene as described below; do not redraw the reference sheet, do not repeat its layout, no panels, no multiple views, no text., 2D cel animation key visual, flat unshaded color areas, hard-edged shadow shapes, no gradients on fabric or walls, clean black linework, anime screencap, camera: medium position, eye level, from the corridor four metres back, the whole door frame visible from floor to top; lens: 28mm wide-angle, deep focus; composition: he stands in the doorway on the left third line, the hall behind him readable, the door frame about half the frame height and the boy about one third of the frame height — his height about 0.6 of the door height, not centered, not shrunk; foreground: a hanging plaid curtain on the right edge presses the right quarter, subject: one person, a thin 14-year-old Chinese boy in a navy zip-up school jacket with white piping, grey straight trousers and white canvas sneakers, standing in the doorway seen from behind and side, his right hand on the door frame, head turned slightly toward the dark room, face not fully visible, layers: foreground: the door frame edge and the curtain, both in sharp focus; middle ground: the boy, the scuffed door leaf with a taped repair along its edge, a pair of slippers just inside the threshold; background: the dark hallway inside with one bathroom door ajar, cold light from a small window beyond, decay: peeling paint on the door frame, a water stain on the wall beside it, a chipped tile at the threshold, light: cold corridor light from behind him, one single warm light from the half-open bathroom door as the only warm spot, hard constraints: no readable text, no badges, no lettering on the jacket, no extra people, no UI",
+   "attempt_log": [
+    {
+     "attempt": 1,
+     "ok": true,
+     "http_status": 200,
+     "elapsed_s": 49.3,
+     "dims": [
+      1672,
+      941
+     ],
+     "qa": [],
+     "error": null
+    }
+   ],
+   "revision": "v1: 门框被裁出画、人物高约占画面 0.89，比例无法按门核对；归档 raw/B1-v1.png",
+   "attempts_total": 2
+  },
+  "B2": {
+   "tag": "B2",
+   "kind": "B 人物中景",
+   "title": "走廊尽端：周叙背影，望向半开的安全门",
+   "shot_type": "M",
+   "scene_id": "corridor-4f",
+   "character_ids": [
+    "zhouxu-20261110-pool"
+   ],
+   "evidence_id": "",
+   "anchor": "zhouxu:back,side,face",
+   "channel": "new2",
+   "policy": "v6-new2-dklb-old",
+   "attempts": 1,
+   "fallback_from": "",
+   "pass": true,
+   "qa": [],
+   "metrics": {
+    "std_lum": 24.3,
+    "mean_lum": 64.7,
+    "mean_sat": 56.3,
+    "lap_var": 81.5,
+    "delivery_lap_var": 50.4
+   },
+   "dims": [
+    1672,
+    941
+   ],
+   "file": "raw/B2.png",
+   "sha256": "fc0e20d79f2ddae3e5a9bf3c9e81dbb82eac159d148adf96482e77432c6cf2c8",
+   "prompt": "desaturated graphic-novel panel, mature simplified cel-shaded anime characters, flat color blocks with hard-edged cel shadows, clean ink linework, cold grey-blue palette, one controlled warm practical light, ordinary Chinese urban interior or street, worn and lived-in surfaces, legible horror staging, clear foreground subject and evidence prop, slightly off-center composition, deep focus, layered foreground occlusion in wide shots, volumetric dust in cold window light, 16:9, Character reference sheet attached: the same character shown from several angles, same outfit. Keep his exact design — thin 14-year-old Chinese boy, short slightly messy black hair with a side part, narrow dark brown eyes, straight brows, low nose bridge, thin lips, fair skin, navy-blue zip-up school jacket with white piping, white crew-neck T-shirt, grey straight trousers, white canvas sneakers, no glasses, no backpack, no accessories. Render ONE new single scene as described below; do not redraw the reference sheet, do not repeat its layout, no panels, no multiple views, no text., 2D cel animation key visual, flat unshaded color areas, hard-edged shadow shapes, no gradients on fabric or walls, clean black linework, anime screencap, camera: far position, eye level, from the far end of the same corridor; lens: 24mm wide-angle, deep focus; composition: he stands on the right third line near the corridor end, his height about 0.6 of the door height, not centered; foreground: a laundry pole with two dark garments crosses the top left, a metal railing clips the bottom left corner, subject: one person, the same thin 14-year-old Chinese boy in the navy school jacket, grey trousers and white canvas sneakers, back three-quarters to camera, looking toward the half-open steel safety door, layers: foreground: the laundry pole, the hanging garments and the railing, all in sharp focus; middle ground: the boy, a stack of cardboard boxes and a plastic stool against the wall; background: the half-open steel safety door at the corridor end, cold light beyond it, the stairwell edge further out, decay: peeling wall paint, a long water stain along the ceiling edge, rust on the electrical meter box, light: cold light through the safety door, one single warm bulb above a door on the left as the only warm spot, hard constraints: no readable text, no signs, no lettering on the boxes, no extra people, no UI",
+   "attempt_log": [
+    {
+     "attempt": 1,
+     "ok": true,
+     "http_status": 200,
+     "elapsed_s": 53.4,
+     "dims": [
+      1672,
+      941
+     ],
+     "qa": [],
+     "error": null
+    }
+   ]
+  },
+  "C1": {
+   "tag": "C1",
+   "kind": "C 证据特写",
+   "title": "桌面证据：黄铜钥匙 + 褪色红绳",
+   "shot_type": "C",
+   "scene_id": "room-rental-302",
+   "character_ids": [],
+   "evidence_id": "TEST-KEY-01",
+   "anchor": "",
+   "channel": "new2",
+   "policy": "v6-new2-dklb-old",
+   "attempts": 1,
+   "fallback_from": "",
+   "pass": true,
+   "qa": [],
+   "metrics": {
+    "std_lum": 41.8,
+    "mean_lum": 69.7,
+    "mean_sat": 73.4,
+    "lap_var": 348.5,
+    "delivery_lap_var": 215.1
+   },
+   "dims": [
+    1672,
+    941
+   ],
+   "file": "raw/C1.png",
+   "sha256": "63112e28ed4dd6ebcd28d2a14b80d77f89157e0eb08c93d3fa0b82560f4246a2",
+   "prompt": "desaturated graphic-novel panel, mature simplified cel-shaded anime characters, flat color blocks with hard-edged cel shadows, clean ink linework, cold grey-blue palette, one controlled warm practical light, ordinary Chinese urban interior or street, worn and lived-in surfaces, legible horror staging, clear foreground subject and evidence prop, slightly off-center composition, deep focus, layered foreground occlusion in wide shots, volumetric dust in cold window light, 16:9, 2D cel animation key visual, flat unshaded color areas, hard-edged shadow shapes, no gradients on fabric or walls, clean black linework, anime screencap, camera: close position, camera slightly above table height, looking down from the window side; lens: 28mm wide-angle, deep focus; composition: the key lies on the left third line, off-center, the key itself at least one sixth of the frame width; foreground: the corner of a woven placemat and the table edge press the bottom right, subject: one old brass door key with a worn bow and a short length of faded red cord tied through it, lying alone on the table, no people, layers: foreground: the placemat corner and the table edge in sharp focus; middle ground: the bare wooden table top with a ring-shaped water stain and a cigarette burn, a single chipped enamel mug; background: the dark kitchen doorway with one cold window beyond, decay: scratched and water-ringed table top, cracked floor tile behind, chipped enamel on the mug, light: cold grey window light from the right, one single warm bulb above the table as the only warm spot, evidence: the evidence is the brass key: it sits at the left third line, fully visible, uncovered by foreground, at least one sixth of the frame width, hard constraints: no readable text, no engraving, no numbers, no label on the key, no UI",
+   "attempt_log": [
+    {
+     "attempt": 1,
+     "ok": true,
+     "http_status": 200,
+     "elapsed_s": 35.4,
+     "dims": [
+      1672,
+      941
+     ],
+     "qa": [],
+     "error": null
+    }
+   ]
+  },
+  "C2": {
+   "tag": "C2",
+   "kind": "C 证据特写",
+   "title": "手部持物：周叙的手捏着同一把钥匙",
+   "shot_type": "C",
+   "scene_id": "room-rental-302",
+   "character_ids": [
+    "zhouxu-20261110-pool"
+   ],
+   "evidence_id": "TEST-KEY-02",
+   "anchor": "zhouxu:front,face",
+   "channel": "new2",
+   "policy": "v6-new2-dklb-old",
+   "attempts": 1,
+   "fallback_from": "",
+   "pass": true,
+   "qa": [],
+   "metrics": {
+    "std_lum": 36.6,
+    "mean_lum": 70.2,
+    "mean_sat": 55.4,
+    "lap_var": 151.4,
+    "delivery_lap_var": 92.9
+   },
+   "dims": [
+    1672,
+    941
+   ],
+   "file": "raw/C2.png",
+   "sha256": "82bedd679d158a7d8fac23bd248700857af0ad205cbe1ee364ca6d1326faff75",
+   "prompt": "desaturated graphic-novel panel, mature simplified cel-shaded anime characters, flat color blocks with hard-edged cel shadows, clean ink linework, cold grey-blue palette, one controlled warm practical light, ordinary Chinese urban interior or street, worn and lived-in surfaces, legible horror staging, clear foreground subject and evidence prop, slightly off-center composition, deep focus, layered foreground occlusion in wide shots, volumetric dust in cold window light, 16:9, Character reference sheet attached: the same character shown from several angles, same outfit. Keep his exact design — thin 14-year-old Chinese boy, short slightly messy black hair with a side part, narrow dark brown eyes, straight brows, low nose bridge, thin lips, fair skin, navy-blue zip-up school jacket with white piping, white crew-neck T-shirt, grey straight trousers, white canvas sneakers, no glasses, no backpack, no accessories. Render ONE new single scene as described below; do not redraw the reference sheet, do not repeat its layout, no panels, no multiple views, no text., 2D cel animation key visual, flat unshaded color areas, hard-edged shadow shapes, no gradients on fabric or walls, clean black linework, anime screencap, camera: close position, slightly above, looking down; lens: 28mm wide-angle, deep focus; composition: the hand enters from the bottom right, the key held up between thumb and forefinger at the right third line, the key itself at least one quarter of the frame width, off-center; foreground: the edge of the fabric curtain presses the top left corner, subject: one hand, the right hand of the same 14-year-old boy, fair skin, short clean nails, holding the old brass key between thumb and forefinger, the key long and clearly shaped with its bow and teeth fully visible, the back of the hand toward camera, forearm entering from the bottom right, layers: foreground: the curtain edge in sharp focus; middle ground: the hand and the large key, the scratched table top, a stainless thermos lying on its side; background: the dark kitchen doorway, decay: water stains on the table, a taped repair on the table edge, chipped enamel on the thermos, light: cold window light from the left, one single warm bulb above the hand as the only warm spot, evidence: the evidence is the key between his fingers: at the right third line, at least one quarter of the frame width, uncovered, large in frame, hard constraints: no readable text, no engraving, no numbers, no rings, no nail polish, no extra fingers, no tiny key, no UI",
+   "attempt_log": [
+    {
+     "attempt": 1,
+     "ok": true,
+     "http_status": 200,
+     "elapsed_s": 43.7,
+     "dims": [
+      1672,
+      941
+     ],
+     "qa": [],
+     "error": null
+    }
+   ],
+   "revision": "v1: 钥匙仅约 1/16 画面宽，证据占比不足；归档 raw/C2-v1.png",
+   "attempts_total": 2
+  },
+  "D1": {
+   "tag": "D1",
+   "kind": "D 空间异常",
+   "title": "走廊尽头：本该是窗，却是一道半开的门，门后又是同一条走廊",
+   "shot_type": "E",
+   "scene_id": "corridor-4f",
+   "character_ids": [],
+   "evidence_id": "",
+   "anchor": "",
+   "channel": "new2",
+   "policy": "v6-new2-dklb-old",
+   "attempts": 1,
+   "fallback_from": "",
+   "pass": true,
+   "qa": [],
+   "metrics": {
+    "std_lum": 25.8,
+    "mean_lum": 59.7,
+    "mean_sat": 76.1,
+    "lap_var": 302.9,
+    "delivery_lap_var": 186.7
+   },
+   "dims": [
+    1672,
+    941
+   ],
+   "file": "raw/D1.png",
+   "sha256": "d8106cdbfb69949367a83dbccabe2be918633c989e96d93d0ccb41873e2f7f6d",
+   "prompt": "desaturated graphic-novel panel, mature simplified cel-shaded anime characters, flat color blocks with hard-edged cel shadows, clean ink linework, cold grey-blue palette, one controlled warm practical light, ordinary Chinese urban interior or street, worn and lived-in surfaces, legible horror staging, clear foreground subject and evidence prop, slightly off-center composition, deep focus, layered foreground occlusion in wide shots, volumetric dust in cold window light, 16:9, camera: far position, locked-off tripod at chest height, facing the corridor end, the corridor axis sits left of centre; lens: 28mm wide-angle, deep focus; composition: the corridor recedes along the left third, the right third blocked by the railing, never symmetrical; foreground: a rusted iron railing and a rolled bamboo blind leaning at the right edge press the right quarter, subject: no people, a fixed wide shot down an old corridor, layers: foreground: the railing and the rolled blind in sharp focus; middle ground: worn floor tiles, a mop leaning against the wall, a plastic bucket; background: at the corridor end, where a window should be, a door stands wide open, and through it the same corridor continues — the same tiled floor, the same four doors on the same sides, another window at its far end with cold light beyond, an impossible second corridor, decay: cracked floor tiles, a long water stain on the ceiling, scuffed skirting, light: cold daylight from the far end of the duplicate corridor, one single warm light at the left door crack as the only warm spot, hard constraints: no people, no shadow of a person, no monster, no glitch bars, no readable text, no door numbers, no meter boxes, no name plates, no labels, no UI",
+   "attempt_log": [
+    {
+     "attempt": 1,
+     "ok": true,
+     "http_status": 200,
+     "elapsed_s": 36.7,
+     "dims": [
+      1672,
+      941
+     ],
+     "qa": [],
+     "error": null
+    }
+   ],
+   "revision": "v1: 尽端仍是普通窗、异常未成立，另有电表箱标牌伪文字风险；归档 raw/D1-v1.png（a1 尺寸 1672x940 已弃）",
+   "attempts_total": 2
+  },
+  "D2": {
+   "tag": "D2",
+   "kind": "D 空间异常",
+   "title": "楼梯井：井底平台没有门，却摆着一把凳子和一只碗",
+   "shot_type": "E",
+   "scene_id": "stairwell",
+   "character_ids": [],
+   "evidence_id": "",
+   "anchor": "",
+   "channel": "new2",
+   "policy": "v6-new2-dklb-old",
+   "attempts": 1,
+   "fallback_from": "",
+   "pass": true,
+   "qa": [],
+   "metrics": {
+    "std_lum": 29.7,
+    "mean_lum": 59.4,
+    "mean_sat": 44.4,
+    "lap_var": 229.2,
+    "delivery_lap_var": 140.8
+   },
+   "dims": [
+    1672,
+    941
+   ],
+   "file": "raw/D2.png",
+   "sha256": "8b4453300fcc0fe63133fbd3a062f8332d436307e2c1aa9fd869879bc586eefc",
+   "prompt": "desaturated graphic-novel panel, mature simplified cel-shaded anime characters, flat color blocks with hard-edged cel shadows, clean ink linework, cold grey-blue palette, one controlled warm practical light, ordinary Chinese urban interior or street, worn and lived-in surfaces, legible horror staging, clear foreground subject and evidence prop, slightly off-center composition, deep focus, layered foreground occlusion in wide shots, volumetric dust in cold window light, 16:9, camera: far position, locked-off tripod at chest height, at the fifth-floor landing looking down into the stairwell; lens: 24mm wide-angle, deep focus; composition: the stairwell falls along the right third, the left third is railing and a drying cloth, off-center; foreground: the steel handrail and a towel hanging over it press the left quarter, subject: no people, looking straight down an old apartment stairwell, layers: foreground: the handrail and the towel in sharp focus; middle ground: concrete steps with chipped nosing, a wall-mounted meter box, a mop; background: the bottom landing, where a single plastic stool faces the wall with an empty bowl on it, and that landing has no door at all, decay: chipped step edges, water stains running down the wall, rust on the handrail, light: cold grey light falling down the well from above, one single warm bulb on the fifth-floor wall as the only warm spot, hard constraints: no people, no blood, no graffiti, no readable text, no glitch bars, no UI",
+   "attempt_log": [
+    {
+     "attempt": 1,
+     "ok": true,
+     "http_status": 200,
+     "elapsed_s": 34.2,
+     "dims": [
+      1672,
+      941
+     ],
+     "qa": [],
+     "error": null
+    }
+   ]
+  }
+ },
+ "run": "20261114-pilot-8shots",
+ "generated_at": "2026-11-14T20:39:17",
+ "channel_policy": "v6-new2-dklb-old",
+ "channel": "new2",
+ "style_pos": "desaturated graphic-novel panel, mature simplified cel-shaded anime characters, flat color blocks with hard-edged cel shadows, clean ink linework, cold grey-blue palette, one controlled warm practical light, ordinary Chinese urban interior or street, worn and lived-in surfaces, legible horror staging, clear foreground subject and evidence prop, slightly off-center composition, deep focus, layered foreground occlusion in wide shots, volumetric dust in cold window light, 16:9",
+ "style_neg": "photograph, photorealistic, 3d render, cgi, live action, film still, cinematic still, 35mm, shallow depth of field, bokeh, motion blur, glossy skin, hyperreal texture, clean new building, spotless, pristine, showroom, symmetrical centered hero shot, chibi, big eyes, text, letters, numbers, labels, watermark, UI, logo, gore, monster, jump-scare face",
+ "cel_boost": "2D cel animation key visual, flat unshaded color areas, hard-edged shadow shapes, no gradients on fabric or walls, clean black linework, anime screencap",
+ "rule": "rules/悬疑/visual.md §二–§四；rules/shared/shot-composition.md §五",
+ "calls_total": 12,
+ "cost_cny": 0.216,
+ "size_note": "new2 固定 1672x941；D1 a1 返回 1672x940 触发尺寸断言重抽",
+ "verdict": {
+  "A1": "pass",
+  "A2": "pass",
+  "B1": "pass（比例待裁决）",
+  "B2": "pass",
+  "C1": "pass",
+  "C2": "pass（手部略僵）",
+  "D1": "pass（异常偏含蓄）",
+  "D2": "pass"
+ }
+}

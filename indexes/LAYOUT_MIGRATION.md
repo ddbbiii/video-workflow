@@ -21,3 +21,25 @@
 - Syncthing folder ID `grokbot-xfer` 已指向 `shared/exchange/sync/`，服务恢复且 folder 未暂停。
 - `indexes/` 只保留索引、规范、迁移记录和机器可读核验结果；执行脚本归档到 `shared/project-tools/archive/layout-migration/`。
 - 唯一 GPU 锁主路径为 `shared/work/cache/gpu.lock`；`shared/runtime/comfy/cache/gpu.lock` 仅保留为兼容性保护检查，两者不是 Junction 或同一文件。
+
+## 线路收敛与根目录清理（2026-11-10）
+
+用户确认当前只保留五条视频线：助眠解说、悬疑、小球、人生体验、萌宠。
+
+| 原位置 | 新位置 | 说明 |
+| --- | --- | --- |
+| `projects/猎奇/`、`assets/猎奇/`、`shared/workflows/猎奇/` | `shared/archive/retired-lines-20261110/猎奇/{project,assets,workflows}/` | 整线归档冻结 |
+| `projects/音乐线/`、`assets/音乐线/` | `shared/archive/retired-lines-20261110/音乐线/{project,assets}/` | 空壳线归档 |
+| `projects/抖音特效/`、`assets/抖音特效/` | `shared/archive/retired-lines-20261110/抖音特效/{project,assets}/` | 空壳线归档 |
+| `projects/unassigned/外卖之谜/`、`projects/unassigned/archive/外卖之谜/` | `shared/archive/retired-lines-20261110/外卖之谜/{project,archive-v1}/` | 未分配项目归档 |
+| `projects/unassigned/potato-grow-test/` | `shared/archive/retired-lines-20261110/potato-grow-test/` | 测试工程归档 |
+| `projects/unassigned/potato-staircase-test/` | `projects/小球/episodes/potato-staircase-test/` | 提升为小球线首个工程 |
+| `4/` | `projects/助眠解说/episodes/glacier-river/` | 只改名移动，未改文件内容 |
+| `编剧3/` | `projects/助眠解说/episodes/life-manual/` | 只改名移动，未改文件内容 |
+| `5/` | `projects/助眠解说/episodes/birthday-paradox/` | 只改名移动；新增 README |
+| `助眠/INPUT_shopping_100_yuan.md`、`助眠/NARRATION_shopping_100_yuan.txt` | `projects/助眠解说/episodes/shopping-100-yuan/`（后者在 `story/`） | 输入稿归位，`助眠/` 清空删除 |
+
+- 逐条移动记录：`shared/archive/retired-lines-20261110/moves.json`。
+- 未删除任何线路数据；归档区在 `shared/archive/` 下，按 `.gitignore` 不入库。
+- **路径处理**：`glacier-river`、`life-manual` 单集脚本、concat 清单、配置与报告中原 `video\4\...`、`video\编剧3\...` 绝对路径，以及小球工程的 `projects\unassigned\potato-staircase-test` 路径，已按新目录批量替换（68 个文件，UTF-8 无 BOM）；仅 `PROJECT_STATE` 的历史说明保留旧位置文字。搬家同盘完成，媒体文件内容与 mtime 未变。
+- 迁移后根目录为 `projects/ assets/ rules/ indexes/ shared/ todos/ README.md` 六项，`4/5/编剧3/助眠` 已不存在。

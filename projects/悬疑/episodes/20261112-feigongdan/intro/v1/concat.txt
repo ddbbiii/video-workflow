@@ -1,0 +1,5 @@
+file 'E:/program/1project/video/projects/悬疑/episodes/20261112-feigongdan/intro/v1/motion-bg/hook1a_box.mp4'
+file 'E:/program/1project/video/projects/悬疑/episodes/20261112-feigongdan/intro/v1/motion-bg/hook1b_latch.mp4'
+file 'E:/program/1project/video/projects/悬疑/episodes/20261112-feigongdan/intro/v1/motion-bg/hook2_door.mp4'
+file 'E:/program/1project/video/projects/悬疑/episodes/20261112-feigongdan/intro/v1/motion-bg/hook3_dark.mp4'
+file 'E:/program/1project/video/projects/悬疑/episodes/20261112-feigongdan/intro/v1/motion-bg/title_trail.mp4'

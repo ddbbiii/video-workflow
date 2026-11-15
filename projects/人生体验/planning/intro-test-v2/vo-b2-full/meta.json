@@ -1,0 +1,25 @@
+{
+ "engine": "CosyVoice3-0.5B",
+ "ref": "E:\\program\\1project\\video\\shared\\runtime\\engines\\tts\\refs\\b2-warm-male_ref.wav",
+ "speed": 1.2,
+ "items": {
+  "line1-world": {
+   "text": "这是你剩下的世界。",
+   "wav": "E:\\program\\1project\\video\\projects\\人生体验\\planning\\intro-test-v2\\vo-b2-full\\line1-world.wav",
+   "duration_s": 2.2,
+   "gen_s": 6.3
+  },
+  "line2-empty": {
+   "text": "城市空了，只剩你一个人。",
+   "wav": "E:\\program\\1project\\video\\projects\\人生体验\\planning\\intro-test-v2\\vo-b2-full\\line2-empty.wav",
+   "duration_s": 2.62,
+   "gen_s": 5.1
+  },
+  "line3-level": {
+   "text": "第一级，空城的回声。",
+   "wav": "E:\\program\\1project\\video\\projects\\人生体验\\planning\\intro-test-v2\\vo-b2-full\\line3-level.wav",
+   "duration_s": 2.92,
+   "gen_s": 5.2
+  }
+ }
+}

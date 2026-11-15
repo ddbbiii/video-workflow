@@ -1,0 +1,788 @@
+{
+ "schema": 1,
+ "episode": "20261112-feigongdan",
+ "shots": [
+  {
+   "id": "S01",
+   "section": "body",
+   "weight": 15,
+   "cue_ids": [
+    "u0004"
+   ],
+   "cue": "工单灰在列表底端，姓名栏空白。",
+   "visual": "close-up of a gloved hand holding a rugged handheld dispatch terminal inside a dark van at night, the screen is a blank pale glow, dashboard lights blurred behind, rain-flecked window, no readable content",
+   "move": "push",
+   "evidence": "",
+   "characters": [],
+   "prompt_full": "2D animated film still, hand-painted anime background art, mature semi-realistic illustration, visible brush texture, cel-shaded lighting with soft gradients, desaturated cold teal and grey palette, old 1990s Chinese residential building, lived-in grime and dust, volumetric dust, shallow depth of field, 16:9 composition, close-up of a gloved hand holding a rugged handheld dispatch terminal inside a dark van at night, the screen is a blank pale glow, dashboard lights blurred behind, rain-flecked window, no readable content",
+   "negative": "photograph, photorealistic, 3d render, cgi, live action, hyperreal, text, letters, numbers, watermark, UI, logo, gore, blood, monster, ghost, creature, corpse, chibi, childish cartoon, extra fingers, deformed hands, six fingers, blurry, low quality, oversaturated, daylight, cozy warm, clean new building, smiling"
+  },
+  {
+   "id": "S02",
+   "section": "body",
+   "weight": 17,
+   "cue_ids": [
+    "u0005"
+   ],
+   "cue": "巷口信号时断时续，单元门一推就开。",
+   "visual": "narrow alley between old six-storey apartment blocks at night, a steel unit door standing slightly ajar, one dim sodium lamp far at the alley mouth, wet concrete, tangled overhead cables, no people",
+   "move": "pull",
+   "evidence": "",
+   "characters": [],
+   "prompt_full": "2D animated film still, hand-painted anime background art, mature semi-realistic illustration, visible brush texture, cel-shaded lighting with soft gradients, desaturated cold teal and grey palette, old 1990s Chinese residential building, lived-in grime and dust, volumetric dust, shallow depth of field, 16:9 composition, narrow alley between old six-storey apartment blocks at night, a steel unit door standing slightly ajar, one dim sodium lamp far at the alley mouth, wet concrete, tangled overhead cables, no people",
+   "negative": "photograph, photorealistic, 3d render, cgi, live action, hyperreal, text, letters, numbers, watermark, UI, logo, gore, blood, monster, ghost, creature, corpse, chibi, childish cartoon, extra fingers, deformed hands, six fingers, blurry, low quality, oversaturated, daylight, cozy warm, clean new building, smiling"
+  },
+  {
+   "id": "S03",
+   "section": "body",
+   "weight": 11,
+   "cue_ids": [
+    "u0006"
+   ],
+   "cue": "他捏紧手电，抬脚迈入。",
+   "visual": "medium shot from behind: a lean Chinese man in his late thirties, short black buzz cut, light stubble, dark navy work jacket with a blank rectangular badge patch on the left chest, dark grey work trousers, black grip gloves steps over the threshold of the ajar steel door into a pitch-dark stairwell, a hard beam of light from his off-frame hand cutting through dust and cold haze, worn concrete floor",
+   "move": "push",
+   "evidence": "",
+   "characters": [
+    "chenmo"
+   ],
+   "prompt_full": "2D animated film still, hand-painted anime background art, mature semi-realistic illustration, visible brush texture, cel-shaded lighting with soft gradients, desaturated cold teal and grey palette, old 1990s Chinese residential building, lived-in grime and dust, volumetric dust, shallow depth of field, 16:9 composition, medium shot from behind: a lean Chinese man in his late thirties, short black buzz cut, light stubble, dark navy work jacket with a blank rectangular badge patch on the left chest, dark grey work trousers, black grip gloves steps over the threshold of the ajar steel door into a pitch-dark stairwell, a hard beam of light from his off-frame hand cutting through dust and cold haze, worn concrete floor",
+   "negative": "photograph, photorealistic, 3d render, cgi, live action, hyperreal, text, letters, numbers, watermark, UI, logo, gore, blood, monster, ghost, creature, corpse, chibi, childish cartoon, extra fingers, deformed hands, six fingers, blurry, low quality, oversaturated, daylight, cozy warm, clean new building, smiling"
+  },
+  {
+   "id": "S04",
+   "section": "body",
+   "weight": 8,
+   "cue_ids": [
+    "u0007"
+   ],
+   "cue": "楼道里没有风。",
+   "visual": "dim fourth-floor corridor of an old apartment building, no wind, dust suspended in the air, dead sensor lamp, one faint grey window glow at the far end, peeling green wall paint, no people",
+   "move": "static",
+   "evidence": "",
+   "characters": [],
+   "prompt_full": "2D animated film still, hand-painted anime background art, mature semi-realistic illustration, visible brush texture, cel-shaded lighting with soft gradients, desaturated cold teal and grey palette, old 1990s Chinese residential building, lived-in grime and dust, volumetric dust, shallow depth of field, 16:9 composition, dim fourth-floor corridor of an old apartment building, no wind, dust suspended in the air, dead sensor lamp, one faint grey window glow at the far end, peeling green wall paint, no people",
+   "negative": "photograph, photorealistic, 3d render, cgi, live action, hyperreal, text, letters, numbers, watermark, UI, logo, gore, blood, monster, ghost, creature, corpse, chibi, childish cartoon, extra fingers, deformed hands, six fingers, blurry, low quality, oversaturated, daylight, cozy warm, clean new building, smiling"
+  },
+  {
+   "id": "S05",
+   "section": "body",
+   "weight": 18,
+   "cue_ids": [
+    "u0008"
+   ],
+   "cue": "手电扫过去，光纤箱的盖子歪悬在一旁。",
+   "visual": "close-up of a dusty beige metal junction box mounted on an old corridor wall, its flat lid hanging open at an angle from one broken hinge, the inside is completely empty and dark, no wires, a hard beam of light from off-frame right, dust in the air, no people",
+   "move": "push",
+   "evidence": "",
+   "characters": [],
+   "prompt_full": "2D animated film still, hand-painted anime background art, mature semi-realistic illustration, visible brush texture, cel-shaded lighting with soft gradients, desaturated cold teal and grey palette, old 1990s Chinese residential building, lived-in grime and dust, volumetric dust, shallow depth of field, 16:9 composition, close-up of a dusty beige metal junction box mounted on an old corridor wall, its flat lid hanging open at an angle from one broken hinge, the inside is completely empty and dark, no wires, a hard beam of light from off-frame right, dust in the air, no people",
+   "negative": "photograph, photorealistic, 3d render, cgi, live action, hyperreal, text, letters, numbers, watermark, UI, logo, gore, blood, monster, ghost, creature, corpse, chibi, childish cartoon, extra fingers, deformed hands, six fingers, blurry, low quality, oversaturated, daylight, cozy warm, clean new building, smiling"
+  },
+  {
+   "id": "S06",
+   "section": "body",
+   "weight": 37,
+   "cue_ids": [
+    "u0009",
+    "u0010"
+   ],
+   "cue": "锁扣是从里面顶开的，铁片向外翻翘，像是有什么东西，从箱体内部往外推了一把。",
+   "visual": "extreme close-up of the junction box latch: the steel plate is bent outward and torn, the hinge buckled, rusted metal curled away from the box as if pushed from inside, cold raking light, empty dark inside",
+   "move": "push",
+   "evidence": "",
+   "characters": [],
+   "prompt_full": "2D animated film still, hand-painted anime background art, mature semi-realistic illustration, visible brush texture, cel-shaded lighting with soft gradients, desaturated cold teal and grey palette, old 1990s Chinese residential building, lived-in grime and dust, volumetric dust, shallow depth of field, 16:9 composition, extreme close-up of the junction box latch: the steel plate is bent outward and torn, the hinge buckled, rusted metal curled away from the box as if pushed from inside, cold raking light, empty dark inside",
+   "negative": "photograph, photorealistic, 3d render, cgi, live action, hyperreal, text, letters, numbers, watermark, UI, logo, gore, blood, monster, ghost, creature, corpse, chibi, childish cartoon, extra fingers, deformed hands, six fingers, blurry, low quality, oversaturated, daylight, cozy warm, clean new building, smiling"
+  },
+  {
+   "id": "S07",
+   "section": "body",
+   "weight": 9,
+   "cue_ids": [
+    "u0011"
+   ],
+   "cue": "箱子里没有光纤。",
+   "visual": "looking into the open compartment of a dusty beige metal junction box on a corridor wall, the compartment is empty, bare grey metal backplate, a few screws, no wires at all, a beam of light from off-frame dies in the dark",
+   "move": "push",
+   "evidence": "",
+   "characters": [],
+   "prompt_full": "2D animated film still, hand-painted anime background art, mature semi-realistic illustration, visible brush texture, cel-shaded lighting with soft gradients, desaturated cold teal and grey palette, old 1990s Chinese residential building, lived-in grime and dust, volumetric dust, shallow depth of field, 16:9 composition, looking into the open compartment of a dusty beige metal junction box on a corridor wall, the compartment is empty, bare grey metal backplate, a few screws, no wires at all, a beam of light from off-frame dies in the dark",
+   "negative": "photograph, photorealistic, 3d render, cgi, live action, hyperreal, text, letters, numbers, watermark, UI, logo, gore, blood, monster, ghost, creature, corpse, chibi, childish cartoon, extra fingers, deformed hands, six fingers, blurry, low quality, oversaturated, daylight, cozy warm, clean new building, smiling"
+  },
+  {
+   "id": "S08",
+   "section": "body",
+   "weight": 11,
+   "cue_ids": [
+    "u0012"
+   ],
+   "cue": "一卷旧铜线盘在箱底。",
+   "visual": "close-up inside the empty metal junction box: a coil of old copper wire lies on the bottom, the copper core gleams unnaturally bright, dust and dark red soil beneath it, a beam of light from off-frame",
+   "move": "push",
+   "evidence": "",
+   "characters": [],
+   "prompt_full": "2D animated film still, hand-painted anime background art, mature semi-realistic illustration, visible brush texture, cel-shaded lighting with soft gradients, desaturated cold teal and grey palette, old 1990s Chinese residential building, lived-in grime and dust, volumetric dust, shallow depth of field, 16:9 composition, close-up inside the empty metal junction box: a coil of old copper wire lies on the bottom, the copper core gleams unnaturally bright, dust and dark red soil beneath it, a beam of light from off-frame",
+   "negative": "photograph, photorealistic, 3d render, cgi, live action, hyperreal, text, letters, numbers, watermark, UI, logo, gore, blood, monster, ghost, creature, corpse, chibi, childish cartoon, extra fingers, deformed hands, six fingers, blurry, low quality, oversaturated, daylight, cozy warm, clean new building, smiling"
+  },
+  {
+   "id": "S09",
+   "section": "body",
+   "weight": 8,
+   "cue_ids": [
+    "u0013"
+   ],
+   "cue": "铜芯泛着亮光。",
+   "visual": "macro shot of the copper wire core, unnaturally bright polished copper catching the light, the rest of the coil dull and oxidized, dark box interior behind",
+   "move": "push",
+   "evidence": "",
+   "characters": [],
+   "prompt_full": "2D animated film still, hand-painted anime background art, mature semi-realistic illustration, visible brush texture, cel-shaded lighting with soft gradients, desaturated cold teal and grey palette, old 1990s Chinese residential building, lived-in grime and dust, volumetric dust, shallow depth of field, 16:9 composition, macro shot of the copper wire core, unnaturally bright polished copper catching the light, the rest of the coil dull and oxidized, dark box interior behind",
+   "negative": "photograph, photorealistic, 3d render, cgi, live action, hyperreal, text, letters, numbers, watermark, UI, logo, gore, blood, monster, ghost, creature, corpse, chibi, childish cartoon, extra fingers, deformed hands, six fingers, blurry, low quality, oversaturated, daylight, cozy warm, clean new building, smiling"
+  },
+  {
+   "id": "S10",
+   "section": "body",
+   "weight": 7,
+   "cue_ids": [
+    "u0014"
+   ],
+   "cue": "亮得不对劲。",
+   "visual": "extreme macro of the bright copper strand against dull dusty metal, the gleam looks fresh and wrong, cold light, shallow focus, dark box interior",
+   "move": "push",
+   "evidence": "",
+   "characters": [],
+   "prompt_full": "2D animated film still, hand-painted anime background art, mature semi-realistic illustration, visible brush texture, cel-shaded lighting with soft gradients, desaturated cold teal and grey palette, old 1990s Chinese residential building, lived-in grime and dust, volumetric dust, shallow depth of field, 16:9 composition, extreme macro of the bright copper strand against dull dusty metal, the gleam looks fresh and wrong, cold light, shallow focus, dark box interior",
+   "negative": "photograph, photorealistic, 3d render, cgi, live action, hyperreal, text, letters, numbers, watermark, UI, logo, gore, blood, monster, ghost, creature, corpse, chibi, childish cartoon, extra fingers, deformed hands, six fingers, blurry, low quality, oversaturated, daylight, cozy warm, clean new building, smiling"
+  },
+  {
+   "id": "S11",
+   "section": "body",
+   "weight": 18,
+   "cue_ids": [
+    "u0015"
+   ],
+   "cue": "铜线下面垫着一层土，暗红色，干得泛白。",
+   "visual": "close-up: under the copper coil lies a layer of dark red soil, dry and pale-crusted on the surface, the box bottom gritty, cold raking light across it",
+   "move": "push",
+   "evidence": "",
+   "characters": [],
+   "prompt_full": "2D animated film still, hand-painted anime background art, mature semi-realistic illustration, visible brush texture, cel-shaded lighting with soft gradients, desaturated cold teal and grey palette, old 1990s Chinese residential building, lived-in grime and dust, volumetric dust, shallow depth of field, 16:9 composition, close-up: under the copper coil lies a layer of dark red soil, dry and pale-crusted on the surface, the box bottom gritty, cold raking light across it",
+   "negative": "photograph, photorealistic, 3d render, cgi, live action, hyperreal, text, letters, numbers, watermark, UI, logo, gore, blood, monster, ghost, creature, corpse, chibi, childish cartoon, extra fingers, deformed hands, six fingers, blurry, low quality, oversaturated, daylight, cozy warm, clean new building, smiling"
+  },
+  {
+   "id": "S12",
+   "section": "body",
+   "weight": 14,
+   "cue_ids": [
+    "u0016"
+   ],
+   "cue": "他用指背蹭了蹭，土面是潮的。",
+   "visual": "close-up: a gloved knuckle brushes the dark red soil, the crust breaks and the soil underneath is dark and damp, red clay smeared on the glove, cold light",
+   "move": "push",
+   "evidence": "",
+   "characters": [],
+   "prompt_full": "2D animated film still, hand-painted anime background art, mature semi-realistic illustration, visible brush texture, cel-shaded lighting with soft gradients, desaturated cold teal and grey palette, old 1990s Chinese residential building, lived-in grime and dust, volumetric dust, shallow depth of field, 16:9 composition, close-up: a gloved knuckle brushes the dark red soil, the crust breaks and the soil underneath is dark and damp, red clay smeared on the glove, cold light",
+   "negative": "photograph, photorealistic, 3d render, cgi, live action, hyperreal, text, letters, numbers, watermark, UI, logo, gore, blood, monster, ghost, creature, corpse, chibi, childish cartoon, extra fingers, deformed hands, six fingers, blurry, low quality, oversaturated, daylight, cozy warm, clean new building, smiling",
+   "view_start": [
+    0.1,
+    0.08,
+    0.74,
+    0.74
+   ],
+   "view_end": [
+    0.22,
+    0.18,
+    0.52,
+    0.52
+   ]
+  },
+  {
+   "id": "S13",
+   "section": "body",
+   "weight": 14,
+   "cue_ids": [
+    "u0017"
+   ],
+   "cue": "潮意新鲜，像刚从土里刨出来。",
+   "visual": "extreme close-up of the disturbed red soil: the damp patch glistens, freshly turned, a few pale crumbs of dry crust beside it, cold light, shallow focus",
+   "move": "push",
+   "evidence": "",
+   "characters": [],
+   "prompt_full": "2D animated film still, hand-painted anime background art, mature semi-realistic illustration, visible brush texture, cel-shaded lighting with soft gradients, desaturated cold teal and grey palette, old 1990s Chinese residential building, lived-in grime and dust, volumetric dust, shallow depth of field, 16:9 composition, extreme close-up of the disturbed red soil: the damp patch glistens, freshly turned, a few pale crumbs of dry crust beside it, cold light, shallow focus",
+   "negative": "photograph, photorealistic, 3d render, cgi, live action, hyperreal, text, letters, numbers, watermark, UI, logo, gore, blood, monster, ghost, creature, corpse, chibi, childish cartoon, extra fingers, deformed hands, six fingers, blurry, low quality, oversaturated, daylight, cozy warm, clean new building, smiling",
+   "view_start": [
+    0.22,
+    0.18,
+    0.52,
+    0.52
+   ],
+   "view_end": [
+    0.32,
+    0.27,
+    0.38,
+    0.38
+   ]
+  },
+  {
+   "id": "S14",
+   "section": "body",
+   "weight": 24,
+   "cue_ids": [
+    "u0018",
+    "u0019"
+   ],
+   "cue": "手电继续往深处探。光沉进去，弥散开来，照不见底。",
+   "visual": "close-up: a beam of light pushed into the deep end of the open junction box, the light sinks into blackness and does not reach the bottom, dust motes, the box looks far deeper than it should",
+   "move": "push",
+   "evidence": "",
+   "characters": [],
+   "prompt_full": "2D animated film still, hand-painted anime background art, mature semi-realistic illustration, visible brush texture, cel-shaded lighting with soft gradients, desaturated cold teal and grey palette, old 1990s Chinese residential building, lived-in grime and dust, volumetric dust, shallow depth of field, 16:9 composition, close-up: a beam of light pushed into the deep end of the open junction box, the light sinks into blackness and does not reach the bottom, dust motes, the box looks far deeper than it should",
+   "negative": "photograph, photorealistic, 3d render, cgi, live action, hyperreal, text, letters, numbers, watermark, UI, logo, gore, blood, monster, ghost, creature, corpse, chibi, childish cartoon, extra fingers, deformed hands, six fingers, blurry, low quality, oversaturated, daylight, cozy warm, clean new building, smiling"
+  },
+  {
+   "id": "S15",
+   "section": "body",
+   "weight": 38,
+   "cue_ids": [
+    "u0020",
+    "u0021",
+    "u0022",
+    "u0023"
+   ],
+   "cue": "箱里响了一声。很轻。像是很远的地方，有人用指节叩了下桌面。他屏住呼吸。",
+   "visual": "static shot of the open junction box in a dark corridor, interior almost black, a thin edge of light on the rim, dust hanging still, no people",
+   "move": "static",
+   "evidence": "",
+   "characters": [],
+   "prompt_full": "2D animated film still, hand-painted anime background art, mature semi-realistic illustration, visible brush texture, cel-shaded lighting with soft gradients, desaturated cold teal and grey palette, old 1990s Chinese residential building, lived-in grime and dust, volumetric dust, shallow depth of field, 16:9 composition, static shot of the open junction box in a dark corridor, interior almost black, a thin edge of light on the rim, dust hanging still, no people",
+   "negative": "photograph, photorealistic, 3d render, cgi, live action, hyperreal, text, letters, numbers, watermark, UI, logo, gore, blood, monster, ghost, creature, corpse, chibi, childish cartoon, extra fingers, deformed hands, six fingers, blurry, low quality, oversaturated, daylight, cozy warm, clean new building, smiling"
+  },
+  {
+   "id": "S16",
+   "section": "body",
+   "weight": 10,
+   "cue_ids": [
+    "u0024"
+   ],
+   "cue": "隔了两秒，又是一声。",
+   "visual": "the same dark corridor, the open junction box barely visible, a hint of cold light on the torn latch, dust, empty space, tension, no people",
+   "move": "static",
+   "evidence": "",
+   "characters": [],
+   "prompt_full": "2D animated film still, hand-painted anime background art, mature semi-realistic illustration, visible brush texture, cel-shaded lighting with soft gradients, desaturated cold teal and grey palette, old 1990s Chinese residential building, lived-in grime and dust, volumetric dust, shallow depth of field, 16:9 composition, the same dark corridor, the open junction box barely visible, a hint of cold light on the torn latch, dust, empty space, tension, no people",
+   "negative": "photograph, photorealistic, 3d render, cgi, live action, hyperreal, text, letters, numbers, watermark, UI, logo, gore, blood, monster, ghost, creature, corpse, chibi, childish cartoon, extra fingers, deformed hands, six fingers, blurry, low quality, oversaturated, daylight, cozy warm, clean new building, smiling"
+  },
+  {
+   "id": "S17",
+   "section": "body",
+   "weight": 29,
+   "cue_ids": [
+    "u0025",
+    "u0026",
+    "u0027",
+    "u0028"
+   ],
+   "cue": "这一下他听真切了。不是叩击。是打字。很慢，一字一顿。",
+   "visual": "the open junction box seen very close in the dark, a faint pale glimmer deep inside the box like distant screen light, dust drifting in the beam, no visible device",
+   "move": "push",
+   "evidence": "",
+   "characters": [],
+   "prompt_full": "2D animated film still, hand-painted anime background art, mature semi-realistic illustration, visible brush texture, cel-shaded lighting with soft gradients, desaturated cold teal and grey palette, old 1990s Chinese residential building, lived-in grime and dust, volumetric dust, shallow depth of field, 16:9 composition, the open junction box seen very close in the dark, a faint pale glimmer deep inside the box like distant screen light, dust drifting in the beam, no visible device",
+   "negative": "photograph, photorealistic, 3d render, cgi, live action, hyperreal, text, letters, numbers, watermark, UI, logo, gore, blood, monster, ghost, creature, corpse, chibi, childish cartoon, extra fingers, deformed hands, six fingers, blurry, low quality, oversaturated, daylight, cozy warm, clean new building, smiling"
+  },
+  {
+   "id": "S18",
+   "section": "body",
+   "weight": 13,
+   "cue_ids": [
+    "u0029"
+   ],
+   "cue": "握着手电的那只手，僵住了。",
+   "visual": "close-up of a gloved hand gripping a black metal flashlight, knuckles pale, grip rigid, the beam pointing away from camera onto the wall, cold light",
+   "move": "push",
+   "evidence": "",
+   "characters": [],
+   "prompt_full": "2D animated film still, hand-painted anime background art, mature semi-realistic illustration, visible brush texture, cel-shaded lighting with soft gradients, desaturated cold teal and grey palette, old 1990s Chinese residential building, lived-in grime and dust, volumetric dust, shallow depth of field, 16:9 composition, close-up of a gloved hand gripping a black metal flashlight, knuckles pale, grip rigid, the beam pointing away from camera onto the wall, cold light",
+   "negative": "photograph, photorealistic, 3d render, cgi, live action, hyperreal, text, letters, numbers, watermark, UI, logo, gore, blood, monster, ghost, creature, corpse, chibi, childish cartoon, extra fingers, deformed hands, six fingers, blurry, low quality, oversaturated, daylight, cozy warm, clean new building, smiling"
+  },
+  {
+   "id": "S19",
+   "section": "body",
+   "weight": 20,
+   "cue_ids": [
+    "u0030"
+   ],
+   "cue": "他在心里跟自己说，这层楼道，只有他一个人。",
+   "visual": "medium shot: a lean Chinese man in his late thirties, short black buzz cut, light stubble, dark navy work jacket with a blank rectangular badge patch on the left chest, dark grey work trousers, black grip gloves stands small in the corridor before the open junction box, a beam of light on the box, the corridor stretching into darkness around him, isolation",
+   "move": "wide",
+   "evidence": "",
+   "characters": [
+    "chenmo"
+   ],
+   "prompt_full": "2D animated film still, hand-painted anime background art, mature semi-realistic illustration, visible brush texture, cel-shaded lighting with soft gradients, desaturated cold teal and grey palette, old 1990s Chinese residential building, lived-in grime and dust, volumetric dust, shallow depth of field, 16:9 composition, medium shot: a lean Chinese man in his late thirties, short black buzz cut, light stubble, dark navy work jacket with a blank rectangular badge patch on the left chest, dark grey work trousers, black grip gloves stands small in the corridor before the open junction box, a beam of light on the box, the corridor stretching into darkness around him, isolation",
+   "negative": "photograph, photorealistic, 3d render, cgi, live action, hyperreal, text, letters, numbers, watermark, UI, logo, gore, blood, monster, ghost, creature, corpse, chibi, childish cartoon, extra fingers, deformed hands, six fingers, blurry, low quality, oversaturated, daylight, cozy warm, clean new building, smiling"
+  },
+  {
+   "id": "S20",
+   "section": "body",
+   "weight": 9,
+   "cue_ids": [
+    "u0031"
+   ],
+   "cue": "然后他转头回望。",
+   "visual": "over-the-shoulder shot from behind: a lean Chinese man in his late thirties, short black buzz cut, light stubble, dark navy work jacket with a blank rectangular badge patch on the left chest, dark grey work trousers, black grip gloves turns his head back over his shoulder, face mostly in shadow, only the edge of his jaw lit, eyes searching the dark corridor behind",
+   "move": "push",
+   "evidence": "",
+   "characters": [
+    "chenmo"
+   ],
+   "prompt_full": "2D animated film still, hand-painted anime background art, mature semi-realistic illustration, visible brush texture, cel-shaded lighting with soft gradients, desaturated cold teal and grey palette, old 1990s Chinese residential building, lived-in grime and dust, volumetric dust, shallow depth of field, 16:9 composition, over-the-shoulder shot from behind: a lean Chinese man in his late thirties, short black buzz cut, light stubble, dark navy work jacket with a blank rectangular badge patch on the left chest, dark grey work trousers, black grip gloves turns his head back over his shoulder, face mostly in shadow, only the edge of his jaw lit, eyes searching the dark corridor behind",
+   "negative": "photograph, photorealistic, 3d render, cgi, live action, hyperreal, text, letters, numbers, watermark, UI, logo, gore, blood, monster, ghost, creature, corpse, chibi, childish cartoon, extra fingers, deformed hands, six fingers, blurry, low quality, oversaturated, daylight, cozy warm, clean new building, smiling"
+  },
+  {
+   "id": "S21",
+   "section": "body",
+   "weight": 8,
+   "cue_ids": [
+    "u0032"
+   ],
+   "cue": "身后空空荡荡。",
+   "visual": "the empty corridor behind him: long perspective, all doors shut, dead sensor lamps, a single cold window at the end, dust, absolutely no people",
+   "move": "static",
+   "evidence": "",
+   "characters": [],
+   "prompt_full": "2D animated film still, hand-painted anime background art, mature semi-realistic illustration, visible brush texture, cel-shaded lighting with soft gradients, desaturated cold teal and grey palette, old 1990s Chinese residential building, lived-in grime and dust, volumetric dust, shallow depth of field, 16:9 composition, the empty corridor behind him: long perspective, all doors shut, dead sensor lamps, a single cold window at the end, dust, absolutely no people",
+   "negative": "photograph, photorealistic, 3d render, cgi, live action, hyperreal, text, letters, numbers, watermark, UI, logo, gore, blood, monster, ghost, creature, corpse, chibi, childish cartoon, extra fingers, deformed hands, six fingers, blurry, low quality, oversaturated, daylight, cozy warm, clean new building, smiling"
+  },
+  {
+   "id": "S22",
+   "section": "body",
+   "weight": 7,
+   "cue_ids": [
+    "u0033"
+   ],
+   "cue": "感应灯灭了。",
+   "visual": "near-black frame: the corridor lamp has gone dark, only a faint spill of pale light on the floor and wall, shapes of doors barely legible, heavy stillness",
+   "move": "static",
+   "evidence": "",
+   "characters": [],
+   "prompt_full": "2D animated film still, hand-painted anime background art, mature semi-realistic illustration, visible brush texture, cel-shaded lighting with soft gradients, desaturated cold teal and grey palette, old 1990s Chinese residential building, lived-in grime and dust, volumetric dust, shallow depth of field, 16:9 composition, near-black frame: the corridor lamp has gone dark, only a faint spill of pale light on the floor and wall, shapes of doors barely legible, heavy stillness",
+   "negative": "photograph, photorealistic, 3d render, cgi, live action, hyperreal, text, letters, numbers, watermark, UI, logo, gore, blood, monster, ghost, creature, corpse, chibi, childish cartoon, extra fingers, deformed hands, six fingers, blurry, low quality, oversaturated, daylight, cozy warm, clean new building, smiling"
+  },
+  {
+   "id": "S23",
+   "section": "body",
+   "weight": 27,
+   "cue_ids": [
+    "u0034",
+    "u0035"
+   ],
+   "cue": "铁门漆皮剥落大半，底下锈迹翻出来。他侧过身子挤进去。",
+   "visual": "medium shot: a lean Chinese man in his late thirties, short black buzz cut, light stubble, dark navy work jacket with a blank rectangular badge patch on the left chest, dark grey work trousers, black grip gloves squeezes sideways through a heavy iron stairwell door, paint peeling off in large flakes, rust bleeding through, cold light from the corridor behind him",
+   "move": "push",
+   "evidence": "",
+   "characters": [
+    "chenmo"
+   ],
+   "prompt_full": "2D animated film still, hand-painted anime background art, mature semi-realistic illustration, visible brush texture, cel-shaded lighting with soft gradients, desaturated cold teal and grey palette, old 1990s Chinese residential building, lived-in grime and dust, volumetric dust, shallow depth of field, 16:9 composition, medium shot: a lean Chinese man in his late thirties, short black buzz cut, light stubble, dark navy work jacket with a blank rectangular badge patch on the left chest, dark grey work trousers, black grip gloves squeezes sideways through a heavy iron stairwell door, paint peeling off in large flakes, rust bleeding through, cold light from the corridor behind him",
+   "negative": "photograph, photorealistic, 3d render, cgi, live action, hyperreal, text, letters, numbers, watermark, UI, logo, gore, blood, monster, ghost, creature, corpse, chibi, childish cartoon, extra fingers, deformed hands, six fingers, blurry, low quality, oversaturated, daylight, cozy warm, clean new building, smiling"
+  },
+  {
+   "id": "S24",
+   "section": "body",
+   "weight": 10,
+   "cue_ids": [
+    "u0036"
+   ],
+   "cue": "楼梯间比外面更冷。",
+   "visual": "wide low-angle view of an old concrete stairwell, cold grey walls, iron handrail, paint flaking, empty and silent, a faint draft of dust, no people",
+   "move": "wide",
+   "evidence": "",
+   "characters": [],
+   "prompt_full": "2D animated film still, hand-painted anime background art, mature semi-realistic illustration, visible brush texture, cel-shaded lighting with soft gradients, desaturated cold teal and grey palette, old 1990s Chinese residential building, lived-in grime and dust, volumetric dust, shallow depth of field, 16:9 composition, wide low-angle view of an old concrete stairwell, cold grey walls, iron handrail, paint flaking, empty and silent, a faint draft of dust, no people",
+   "negative": "photograph, photorealistic, 3d render, cgi, live action, hyperreal, text, letters, numbers, watermark, UI, logo, gore, blood, monster, ghost, creature, corpse, chibi, childish cartoon, extra fingers, deformed hands, six fingers, blurry, low quality, oversaturated, daylight, cozy warm, clean new building, smiling"
+  },
+  {
+   "id": "S25",
+   "section": "body",
+   "weight": 40,
+   "cue_ids": [
+    "u0037",
+    "u0038"
+   ],
+   "cue": "不是深夜那种寒凉。是空置很久的屋子独有的冷意，从墙体里慢慢渗出来，贴着皮肤游走。",
+   "visual": "detail shot: a bare hand touches the cold painted stairwell wall, condensation and grime, fingers tense, cold blue light, the wall looks damp and chilled",
+   "move": "push",
+   "evidence": "",
+   "characters": [],
+   "prompt_full": "2D animated film still, hand-painted anime background art, mature semi-realistic illustration, visible brush texture, cel-shaded lighting with soft gradients, desaturated cold teal and grey palette, old 1990s Chinese residential building, lived-in grime and dust, volumetric dust, shallow depth of field, 16:9 composition, detail shot: a bare hand touches the cold painted stairwell wall, condensation and grime, fingers tense, cold blue light, the wall looks damp and chilled",
+   "negative": "photograph, photorealistic, 3d render, cgi, live action, hyperreal, text, letters, numbers, watermark, UI, logo, gore, blood, monster, ghost, creature, corpse, chibi, childish cartoon, extra fingers, deformed hands, six fingers, blurry, low quality, oversaturated, daylight, cozy warm, clean new building, smiling"
+  },
+  {
+   "id": "S26",
+   "section": "body",
+   "weight": 19,
+   "cue_ids": [
+    "u0039"
+   ],
+   "cue": "他踏上第三级台阶，四楼的感应灯才亮起。",
+   "visual": "wide shot: a lean Chinese man in his late thirties, short black buzz cut, light stubble, dark navy work jacket with a blank rectangular badge patch on the left chest, dark grey work trousers, black grip gloves stands on the third step of the stairwell, looking up; far above, a fluorescent lamp flickers on at the fourth-floor landing, cold halo in the dark",
+   "move": "wide",
+   "evidence": "",
+   "characters": [
+    "chenmo"
+   ],
+   "prompt_full": "2D animated film still, hand-painted anime background art, mature semi-realistic illustration, visible brush texture, cel-shaded lighting with soft gradients, desaturated cold teal and grey palette, old 1990s Chinese residential building, lived-in grime and dust, volumetric dust, shallow depth of field, 16:9 composition, wide shot: a lean Chinese man in his late thirties, short black buzz cut, light stubble, dark navy work jacket with a blank rectangular badge patch on the left chest, dark grey work trousers, black grip gloves stands on the third step of the stairwell, looking up; far above, a fluorescent lamp flickers on at the fourth-floor landing, cold halo in the dark",
+   "negative": "photograph, photorealistic, 3d render, cgi, live action, hyperreal, text, letters, numbers, watermark, UI, logo, gore, blood, monster, ghost, creature, corpse, chibi, childish cartoon, extra fingers, deformed hands, six fingers, blurry, low quality, oversaturated, daylight, cozy warm, clean new building, smiling"
+  },
+  {
+   "id": "S27",
+   "section": "body",
+   "weight": 20,
+   "cue_ids": [
+    "u0040",
+    "u0041"
+   ],
+   "cue": "灯管两端发黑，像被烧过。可它偏偏亮了。",
+   "visual": "close-up of an old fluorescent tube: both ends blackened and burnt, yet it is lit, flickering cold white, dust and dead insects on the diffuser, dark ceiling around",
+   "move": "push",
+   "evidence": "",
+   "characters": [],
+   "prompt_full": "2D animated film still, hand-painted anime background art, mature semi-realistic illustration, visible brush texture, cel-shaded lighting with soft gradients, desaturated cold teal and grey palette, old 1990s Chinese residential building, lived-in grime and dust, volumetric dust, shallow depth of field, 16:9 composition, close-up of an old fluorescent tube: both ends blackened and burnt, yet it is lit, flickering cold white, dust and dead insects on the diffuser, dark ceiling around",
+   "negative": "photograph, photorealistic, 3d render, cgi, live action, hyperreal, text, letters, numbers, watermark, UI, logo, gore, blood, monster, ghost, creature, corpse, chibi, childish cartoon, extra fingers, deformed hands, six fingers, blurry, low quality, oversaturated, daylight, cozy warm, clean new building, smiling"
+  },
+  {
+   "id": "S28",
+   "section": "body",
+   "weight": 7,
+   "cue_ids": [
+    "u0042"
+   ],
+   "cue": "他咳了一声。",
+   "visual": "medium close-up from the side: a lean Chinese man in his late thirties, short black buzz cut, light stubble, dark navy work jacket with a blank rectangular badge patch on the left chest, dark grey work trousers, black grip gloves coughs into his fist, eyes narrowed, half his face in shadow, cold lamp light from above, dust in the air",
+   "move": "push",
+   "evidence": "",
+   "characters": [
+    "chenmo"
+   ],
+   "prompt_full": "2D animated film still, hand-painted anime background art, mature semi-realistic illustration, visible brush texture, cel-shaded lighting with soft gradients, desaturated cold teal and grey palette, old 1990s Chinese residential building, lived-in grime and dust, volumetric dust, shallow depth of field, 16:9 composition, medium close-up from the side: a lean Chinese man in his late thirties, short black buzz cut, light stubble, dark navy work jacket with a blank rectangular badge patch on the left chest, dark grey work trousers, black grip gloves coughs into his fist, eyes narrowed, half his face in shadow, cold lamp light from above, dust in the air",
+   "negative": "photograph, photorealistic, 3d render, cgi, live action, hyperreal, text, letters, numbers, watermark, UI, logo, gore, blood, monster, ghost, creature, corpse, chibi, childish cartoon, extra fingers, deformed hands, six fingers, blurry, low quality, oversaturated, daylight, cozy warm, clean new building, smiling"
+  },
+  {
+   "id": "S29",
+   "section": "body",
+   "weight": 49,
+   "cue_ids": [
+    "u0043",
+    "u0044",
+    "u0045"
+   ],
+   "cue": "声响撞在墙面上，转瞬消散。不是声音轻，是消散得太快。仿佛这堵墙背后一无所有，声音一落进去，就被吞掉。",
+   "visual": "static shot of a bare corridor wall, flat painted concrete, no seams, no hollows, faint dust, cold light raking from the side, unnaturally solid and mute",
+   "move": "static",
+   "evidence": "",
+   "characters": [],
+   "prompt_full": "2D animated film still, hand-painted anime background art, mature semi-realistic illustration, visible brush texture, cel-shaded lighting with soft gradients, desaturated cold teal and grey palette, old 1990s Chinese residential building, lived-in grime and dust, volumetric dust, shallow depth of field, 16:9 composition, static shot of a bare corridor wall, flat painted concrete, no seams, no hollows, faint dust, cold light raking from the side, unnaturally solid and mute",
+   "negative": "photograph, photorealistic, 3d render, cgi, live action, hyperreal, text, letters, numbers, watermark, UI, logo, gore, blood, monster, ghost, creature, corpse, chibi, childish cartoon, extra fingers, deformed hands, six fingers, blurry, low quality, oversaturated, daylight, cozy warm, clean new building, smiling"
+  },
+  {
+   "id": "S30",
+   "section": "body",
+   "weight": 12,
+   "cue_ids": [
+    "u0046"
+   ],
+   "cue": "他抬手，在墙上敲了两下。",
+   "visual": "close-up: a gloved fist knocks twice on the corridor wall, knuckles against paint, small flakes of paint falling, cold light",
+   "move": "push",
+   "evidence": "",
+   "characters": [],
+   "prompt_full": "2D animated film still, hand-painted anime background art, mature semi-realistic illustration, visible brush texture, cel-shaded lighting with soft gradients, desaturated cold teal and grey palette, old 1990s Chinese residential building, lived-in grime and dust, volumetric dust, shallow depth of field, 16:9 composition, close-up: a gloved fist knocks twice on the corridor wall, knuckles against paint, small flakes of paint falling, cold light",
+   "negative": "photograph, photorealistic, 3d render, cgi, live action, hyperreal, text, letters, numbers, watermark, UI, logo, gore, blood, monster, ghost, creature, corpse, chibi, childish cartoon, extra fingers, deformed hands, six fingers, blurry, low quality, oversaturated, daylight, cozy warm, clean new building, smiling"
+  },
+  {
+   "id": "S31",
+   "section": "body",
+   "weight": 11,
+   "cue_ids": [
+    "u0047"
+   ],
+   "cue": "墙体是实的，没有空腔。",
+   "visual": "close-up: a gloved palm pressed flat against the wall, listening, fingers spread, the wall solid and cold, faint grime under the glove",
+   "move": "push",
+   "evidence": "",
+   "characters": [],
+   "prompt_full": "2D animated film still, hand-painted anime background art, mature semi-realistic illustration, visible brush texture, cel-shaded lighting with soft gradients, desaturated cold teal and grey palette, old 1990s Chinese residential building, lived-in grime and dust, volumetric dust, shallow depth of field, 16:9 composition, close-up: a gloved palm pressed flat against the wall, listening, fingers spread, the wall solid and cold, faint grime under the glove",
+   "negative": "photograph, photorealistic, 3d render, cgi, live action, hyperreal, text, letters, numbers, watermark, UI, logo, gore, blood, monster, ghost, creature, corpse, chibi, childish cartoon, extra fingers, deformed hands, six fingers, blurry, low quality, oversaturated, daylight, cozy warm, clean new building, smiling"
+  },
+  {
+   "id": "S32",
+   "section": "body",
+   "weight": 28,
+   "cue_ids": [
+    "u0048",
+    "u0049"
+   ],
+   "cue": "老楼的墙不该是这样。老墙里面布着管线，敲上去会有空响。",
+   "visual": "detail of an old wall where plaster has fallen away, revealing bundled electrical conduit and a rusted pipe inside the cavity, the hollow gap visible, cold light, no text",
+   "move": "push",
+   "evidence": "",
+   "characters": [],
+   "prompt_full": "2D animated film still, hand-painted anime background art, mature semi-realistic illustration, visible brush texture, cel-shaded lighting with soft gradients, desaturated cold teal and grey palette, old 1990s Chinese residential building, lived-in grime and dust, volumetric dust, shallow depth of field, 16:9 composition, detail of an old wall where plaster has fallen away, revealing bundled electrical conduit and a rusted pipe inside the cavity, the hollow gap visible, cold light, no text",
+   "negative": "photograph, photorealistic, 3d render, cgi, live action, hyperreal, text, letters, numbers, watermark, UI, logo, gore, blood, monster, ghost, creature, corpse, chibi, childish cartoon, extra fingers, deformed hands, six fingers, blurry, low quality, oversaturated, daylight, cozy warm, clean new building, smiling"
+  },
+  {
+   "id": "S33",
+   "section": "body",
+   "weight": 6,
+   "cue_ids": [
+    "u0050"
+   ],
+   "cue": "他收回手。",
+   "visual": "medium shot from behind: a lean Chinese man in his late thirties, short black buzz cut, light stubble, dark navy work jacket with a blank rectangular badge patch on the left chest, dark grey work trousers, black grip gloves lowers his hand from the wall, light sweeping down toward the steps, dust in the beam, cold stairwell",
+   "move": "push",
+   "evidence": "",
+   "characters": [
+    "chenmo"
+   ],
+   "prompt_full": "2D animated film still, hand-painted anime background art, mature semi-realistic illustration, visible brush texture, cel-shaded lighting with soft gradients, desaturated cold teal and grey palette, old 1990s Chinese residential building, lived-in grime and dust, volumetric dust, shallow depth of field, 16:9 composition, medium shot from behind: a lean Chinese man in his late thirties, short black buzz cut, light stubble, dark navy work jacket with a blank rectangular badge patch on the left chest, dark grey work trousers, black grip gloves lowers his hand from the wall, light sweeping down toward the steps, dust in the beam, cold stairwell",
+   "negative": "photograph, photorealistic, 3d render, cgi, live action, hyperreal, text, letters, numbers, watermark, UI, logo, gore, blood, monster, ghost, creature, corpse, chibi, childish cartoon, extra fingers, deformed hands, six fingers, blurry, low quality, oversaturated, daylight, cozy warm, clean new building, smiling"
+  },
+  {
+   "id": "S34",
+   "section": "body",
+   "weight": 32,
+   "cue_ids": [
+    "u0051"
+   ],
+   "cue": "台阶正中留着一道痕迹，湿的，从楼上一路拖下来，尽头刚好到光纤箱下方。",
+   "visual": "wide shot of the stairwell steps: a dark wet drag mark runs down the centre of the steps from above, narrow, one palm wide, glistening faintly, ending at the bottom near the junction box below",
+   "move": "wide",
+   "evidence": "",
+   "characters": [],
+   "prompt_full": "2D animated film still, hand-painted anime background art, mature semi-realistic illustration, visible brush texture, cel-shaded lighting with soft gradients, desaturated cold teal and grey palette, old 1990s Chinese residential building, lived-in grime and dust, volumetric dust, shallow depth of field, 16:9 composition, wide shot of the stairwell steps: a dark wet drag mark runs down the centre of the steps from above, narrow, one palm wide, glistening faintly, ending at the bottom near the junction box below",
+   "negative": "photograph, photorealistic, 3d render, cgi, live action, hyperreal, text, letters, numbers, watermark, UI, logo, gore, blood, monster, ghost, creature, corpse, chibi, childish cartoon, extra fingers, deformed hands, six fingers, blurry, low quality, oversaturated, daylight, cozy warm, clean new building, smiling"
+  },
+  {
+   "id": "S35",
+   "section": "body",
+   "weight": 8,
+   "cue_ids": [
+    "u0052"
+   ],
+   "cue": "他蹲下身细看。",
+   "visual": "medium shot: a lean Chinese man in his late thirties, short black buzz cut, light stubble, dark navy work jacket with a blank rectangular badge patch on the left chest, dark grey work trousers, black grip gloves crouches at the bottom of the stairs beside the wet drag mark, light held low over the stain, one knee down, tool bag on the step",
+   "move": "push",
+   "evidence": "",
+   "characters": [
+    "chenmo"
+   ],
+   "prompt_full": "2D animated film still, hand-painted anime background art, mature semi-realistic illustration, visible brush texture, cel-shaded lighting with soft gradients, desaturated cold teal and grey palette, old 1990s Chinese residential building, lived-in grime and dust, volumetric dust, shallow depth of field, 16:9 composition, medium shot: a lean Chinese man in his late thirties, short black buzz cut, light stubble, dark navy work jacket with a blank rectangular badge patch on the left chest, dark grey work trousers, black grip gloves crouches at the bottom of the stairs beside the wet drag mark, light held low over the stain, one knee down, tool bag on the step",
+   "negative": "photograph, photorealistic, 3d render, cgi, live action, hyperreal, text, letters, numbers, watermark, UI, logo, gore, blood, monster, ghost, creature, corpse, chibi, childish cartoon, extra fingers, deformed hands, six fingers, blurry, low quality, oversaturated, daylight, cozy warm, clean new building, smiling"
+  },
+  {
+   "id": "S36",
+   "section": "body",
+   "weight": 14,
+   "cue_ids": [
+    "u0053"
+   ],
+   "cue": "痕迹不宽，约莫一掌，边缘齐整。",
+   "visual": "close-up of the wet drag mark on a concrete step: about one palm wide, edges unnaturally neat, dark damp concrete, a few red-brown grains, cold raking light",
+   "move": "push",
+   "evidence": "",
+   "characters": [],
+   "prompt_full": "2D animated film still, hand-painted anime background art, mature semi-realistic illustration, visible brush texture, cel-shaded lighting with soft gradients, desaturated cold teal and grey palette, old 1990s Chinese residential building, lived-in grime and dust, volumetric dust, shallow depth of field, 16:9 composition, close-up of the wet drag mark on a concrete step: about one palm wide, edges unnaturally neat, dark damp concrete, a few red-brown grains, cold raking light",
+   "negative": "photograph, photorealistic, 3d render, cgi, live action, hyperreal, text, letters, numbers, watermark, UI, logo, gore, blood, monster, ghost, creature, corpse, chibi, childish cartoon, extra fingers, deformed hands, six fingers, blurry, low quality, oversaturated, daylight, cozy warm, clean new building, smiling"
+  },
+  {
+   "id": "S37",
+   "section": "body",
+   "weight": 17,
+   "cue_ids": [
+    "u0054"
+   ],
+   "cue": "像是一捆线缆拖行时蹭出来的印子。",
+   "visual": "close-up: the wet trail continues past the last step and stops exactly beneath the open junction box, the box's shadow above, damp concrete, no people",
+   "move": "push",
+   "evidence": "",
+   "characters": [],
+   "prompt_full": "2D animated film still, hand-painted anime background art, mature semi-realistic illustration, visible brush texture, cel-shaded lighting with soft gradients, desaturated cold teal and grey palette, old 1990s Chinese residential building, lived-in grime and dust, volumetric dust, shallow depth of field, 16:9 composition, close-up: the wet trail continues past the last step and stops exactly beneath the open junction box, the box's shadow above, damp concrete, no people",
+   "negative": "photograph, photorealistic, 3d render, cgi, live action, hyperreal, text, letters, numbers, watermark, UI, logo, gore, blood, monster, ghost, creature, corpse, chibi, childish cartoon, extra fingers, deformed hands, six fingers, blurry, low quality, oversaturated, daylight, cozy warm, clean new building, smiling"
+  },
+  {
+   "id": "S38",
+   "section": "body",
+   "weight": 10,
+   "cue_ids": [
+    "u0055"
+   ],
+   "cue": "四零四的房门紧闭。",
+   "visual": "wide shot: at the end of a dim old apartment corridor, one single solid dark-red steel apartment door, scratched and peeling paint, one small round peephole, a small blank nameplate above, the door seam is black, no light behind it, cold dim light, no people",
+   "move": "wide",
+   "evidence": "",
+   "characters": [],
+   "prompt_full": "2D animated film still, hand-painted anime background art, mature semi-realistic illustration, visible brush texture, cel-shaded lighting with soft gradients, desaturated cold teal and grey palette, old 1990s Chinese residential building, lived-in grime and dust, volumetric dust, shallow depth of field, 16:9 composition, wide shot: at the end of a dim old apartment corridor, one single solid dark-red steel apartment door, scratched and peeling paint, one small round peephole, a small blank nameplate above, the door seam is black, no light behind it, cold dim light, no people",
+   "negative": "photograph, photorealistic, 3d render, cgi, live action, hyperreal, text, letters, numbers, watermark, UI, logo, gore, blood, monster, ghost, creature, corpse, chibi, childish cartoon, extra fingers, deformed hands, six fingers, blurry, low quality, oversaturated, daylight, cozy warm, clean new building, smiling"
+  },
+  {
+   "id": "S39",
+   "section": "body",
+   "weight": 9,
+   "cue_ids": [
+    "u0056"
+   ],
+   "cue": "门缝不漏一点光。",
+   "visual": "close-up of the door seam: pitch black gap, no light leaking, chipped dark red paint, cold light from the side, absolute silence",
+   "move": "push",
+   "evidence": "",
+   "characters": [],
+   "prompt_full": "2D animated film still, hand-painted anime background art, mature semi-realistic illustration, visible brush texture, cel-shaded lighting with soft gradients, desaturated cold teal and grey palette, old 1990s Chinese residential building, lived-in grime and dust, volumetric dust, shallow depth of field, 16:9 composition, close-up of the door seam: pitch black gap, no light leaking, chipped dark red paint, cold light from the side, absolute silence",
+   "negative": "photograph, photorealistic, 3d render, cgi, live action, hyperreal, text, letters, numbers, watermark, UI, logo, gore, blood, monster, ghost, creature, corpse, chibi, childish cartoon, extra fingers, deformed hands, six fingers, blurry, low quality, oversaturated, daylight, cozy warm, clean new building, smiling"
+  },
+  {
+   "id": "S40",
+   "section": "body",
+   "weight": 19,
+   "cue_ids": [
+    "u0057"
+   ],
+   "cue": "他把手掌贴上门板，凉意顺着皮肤漫上来。",
+   "visual": "close-up: a gloved palm pressed flat against the cold dark-red steel door, condensation, chipped paint, the cold seeping through, no face",
+   "move": "push",
+   "evidence": "",
+   "characters": [],
+   "prompt_full": "2D animated film still, hand-painted anime background art, mature semi-realistic illustration, visible brush texture, cel-shaded lighting with soft gradients, desaturated cold teal and grey palette, old 1990s Chinese residential building, lived-in grime and dust, volumetric dust, shallow depth of field, 16:9 composition, close-up: a gloved palm pressed flat against the cold dark-red steel door, condensation, chipped paint, the cold seeping through, no face",
+   "negative": "photograph, photorealistic, 3d render, cgi, live action, hyperreal, text, letters, numbers, watermark, UI, logo, gore, blood, monster, ghost, creature, corpse, chibi, childish cartoon, extra fingers, deformed hands, six fingers, blurry, low quality, oversaturated, daylight, cozy warm, clean new building, smiling"
+  },
+  {
+   "id": "S41",
+   "section": "body",
+   "weight": 8,
+   "cue_ids": [
+    "u0058"
+   ],
+   "cue": "他敲了两下门。",
+   "visual": "close-up: gloved knuckles knocking twice on the dark-red steel door, paint flakes, the door seam dark, cold light from the side",
+   "move": "push",
+   "evidence": "",
+   "characters": [],
+   "prompt_full": "2D animated film still, hand-painted anime background art, mature semi-realistic illustration, visible brush texture, cel-shaded lighting with soft gradients, desaturated cold teal and grey palette, old 1990s Chinese residential building, lived-in grime and dust, volumetric dust, shallow depth of field, 16:9 composition, close-up: gloved knuckles knocking twice on the dark-red steel door, paint flakes, the door seam dark, cold light from the side",
+   "negative": "photograph, photorealistic, 3d render, cgi, live action, hyperreal, text, letters, numbers, watermark, UI, logo, gore, blood, monster, ghost, creature, corpse, chibi, childish cartoon, extra fingers, deformed hands, six fingers, blurry, low quality, oversaturated, daylight, cozy warm, clean new building, smiling"
+  },
+  {
+   "id": "S42",
+   "section": "body",
+   "weight": 25,
+   "cue_ids": [
+    "u0059",
+    "u0060"
+   ],
+   "cue": "门内传来一声轻响。像是有人把椅子往后挪了半尺。",
+   "visual": "static shot of the closed dark-red steel door, the corridor dark around it, dust in the cold light, the door seam perfectly black, no people",
+   "move": "static",
+   "evidence": "",
+   "characters": [],
+   "prompt_full": "2D animated film still, hand-painted anime background art, mature semi-realistic illustration, visible brush texture, cel-shaded lighting with soft gradients, desaturated cold teal and grey palette, old 1990s Chinese residential building, lived-in grime and dust, volumetric dust, shallow depth of field, 16:9 composition, static shot of the closed dark-red steel door, the corridor dark around it, dust in the cold light, the door seam perfectly black, no people",
+   "negative": "photograph, photorealistic, 3d render, cgi, live action, hyperreal, text, letters, numbers, watermark, UI, logo, gore, blood, monster, ghost, creature, corpse, chibi, childish cartoon, extra fingers, deformed hands, six fingers, blurry, low quality, oversaturated, daylight, cozy warm, clean new building, smiling"
+  },
+  {
+   "id": "S43",
+   "section": "body",
+   "weight": 12,
+   "cue_ids": [
+    "u0061"
+   ],
+   "cue": "他顿住脚步，又叩了三下。",
+   "visual": "medium close-up from behind and slightly to the side: a lean Chinese man in his late thirties, short black buzz cut, light stubble, dark navy work jacket with a blank rectangular badge patch on the left chest, dark grey work trousers, black grip gloves freezes before the door, fist half raised, breath held, shoulders tense, dark corridor behind",
+   "move": "push",
+   "evidence": "",
+   "characters": [
+    "chenmo"
+   ],
+   "prompt_full": "2D animated film still, hand-painted anime background art, mature semi-realistic illustration, visible brush texture, cel-shaded lighting with soft gradients, desaturated cold teal and grey palette, old 1990s Chinese residential building, lived-in grime and dust, volumetric dust, shallow depth of field, 16:9 composition, medium close-up from behind and slightly to the side: a lean Chinese man in his late thirties, short black buzz cut, light stubble, dark navy work jacket with a blank rectangular badge patch on the left chest, dark grey work trousers, black grip gloves freezes before the door, fist half raised, breath held, shoulders tense, dark corridor behind",
+   "negative": "photograph, photorealistic, 3d render, cgi, live action, hyperreal, text, letters, numbers, watermark, UI, logo, gore, blood, monster, ghost, creature, corpse, chibi, childish cartoon, extra fingers, deformed hands, six fingers, blurry, low quality, oversaturated, daylight, cozy warm, clean new building, smiling"
+  },
+  {
+   "id": "S44",
+   "section": "body",
+   "weight": 9,
+   "cue_ids": [
+    "u0062"
+   ],
+   "cue": "里面再没有动静。",
+   "visual": "the closed dark-red steel door again, utterly still, a faint scuff of dust on the floor, cold corridor light, silence",
+   "move": "static",
+   "evidence": "",
+   "characters": [],
+   "prompt_full": "2D animated film still, hand-painted anime background art, mature semi-realistic illustration, visible brush texture, cel-shaded lighting with soft gradients, desaturated cold teal and grey palette, old 1990s Chinese residential building, lived-in grime and dust, volumetric dust, shallow depth of field, 16:9 composition, the closed dark-red steel door again, utterly still, a faint scuff of dust on the floor, cold corridor light, silence",
+   "negative": "photograph, photorealistic, 3d render, cgi, live action, hyperreal, text, letters, numbers, watermark, UI, logo, gore, blood, monster, ghost, creature, corpse, chibi, childish cartoon, extra fingers, deformed hands, six fingers, blurry, low quality, oversaturated, daylight, cozy warm, clean new building, smiling"
+  },
+  {
+   "id": "S45",
+   "section": "body",
+   "weight": 10,
+   "cue_ids": [
+    "u0063"
+   ],
+   "cue": "他把耳朵凑近门缝。",
+   "visual": "close-up: a lean Chinese man in his late thirties, short black buzz cut, light stubble, dark navy work jacket with a blank rectangular badge patch on the left chest, dark grey work trousers, black grip gloves presses his ear close to the black door seam, eyes shut, jaw tight, cold light from below, face partly in shadow, tension",
+   "move": "push",
+   "evidence": "",
+   "characters": [
+    "chenmo"
+   ],
+   "prompt_full": "2D animated film still, hand-painted anime background art, mature semi-realistic illustration, visible brush texture, cel-shaded lighting with soft gradients, desaturated cold teal and grey palette, old 1990s Chinese residential building, lived-in grime and dust, volumetric dust, shallow depth of field, 16:9 composition, close-up: a lean Chinese man in his late thirties, short black buzz cut, light stubble, dark navy work jacket with a blank rectangular badge patch on the left chest, dark grey work trousers, black grip gloves presses his ear close to the black door seam, eyes shut, jaw tight, cold light from below, face partly in shadow, tension",
+   "negative": "photograph, photorealistic, 3d render, cgi, live action, hyperreal, text, letters, numbers, watermark, UI, logo, gore, blood, monster, ghost, creature, corpse, chibi, childish cartoon, extra fingers, deformed hands, six fingers, blurry, low quality, oversaturated, daylight, cozy warm, clean new building, smiling"
+  },
+  {
+   "id": "S46",
+   "section": "body",
+   "weight": 22,
+   "cue_ids": [
+    "u0064"
+   ],
+   "cue": "门缝底下飘来一丝微风，极轻，拂过他的手背，冰凉。",
+   "visual": "macro shot near the bottom of the steel door: a bare hand back held close to the seam, a thin thread of dust drifting outward, faint moisture on the concrete, cold light",
+   "move": "push",
+   "evidence": "",
+   "characters": [],
+   "prompt_full": "2D animated film still, hand-painted anime background art, mature semi-realistic illustration, visible brush texture, cel-shaded lighting with soft gradients, desaturated cold teal and grey palette, old 1990s Chinese residential building, lived-in grime and dust, volumetric dust, shallow depth of field, 16:9 composition, macro shot near the bottom of the steel door: a bare hand back held close to the seam, a thin thread of dust drifting outward, faint moisture on the concrete, cold light",
+   "negative": "photograph, photorealistic, 3d render, cgi, live action, hyperreal, text, letters, numbers, watermark, UI, logo, gore, blood, monster, ghost, creature, corpse, chibi, childish cartoon, extra fingers, deformed hands, six fingers, blurry, low quality, oversaturated, daylight, cozy warm, clean new building, smiling"
+  },
+  {
+   "id": "S47",
+   "section": "body",
+   "weight": 15,
+   "cue_ids": [
+    "u0065"
+   ],
+   "cue": "他调出工单上的号码，拨了出去。",
+   "visual": "close-up: a gloved thumb tapping a phone screen in the dark corridor, the screen glow cold on the glove, no readable content, the steel door blurred behind",
+   "move": "push",
+   "evidence": "",
+   "characters": [],
+   "prompt_full": "2D animated film still, hand-painted anime background art, mature semi-realistic illustration, visible brush texture, cel-shaded lighting with soft gradients, desaturated cold teal and grey palette, old 1990s Chinese residential building, lived-in grime and dust, volumetric dust, shallow depth of field, 16:9 composition, close-up: a gloved thumb tapping a phone screen in the dark corridor, the screen glow cold on the glove, no readable content, the steel door blurred behind",
+   "negative": "photograph, photorealistic, 3d render, cgi, live action, hyperreal, text, letters, numbers, watermark, UI, logo, gore, blood, monster, ghost, creature, corpse, chibi, childish cartoon, extra fingers, deformed hands, six fingers, blurry, low quality, oversaturated, daylight, cozy warm, clean new building, smiling"
+  },
+  {
+   "id": "S48",
+   "section": "body",
+   "weight": 4,
+   "cue_ids": [
+    "u0066"
+   ],
+   "cue": "空号。",
+   "visual": "medium close-up: a lean Chinese man in his late thirties, short black buzz cut, light stubble, dark navy work jacket with a blank rectangular badge patch on the left chest, dark grey work trousers, black grip gloves holds the phone to his ear, face turned three-quarters away from camera, lit only by the cold screen and corridor light, the closed dark-red steel door behind him, silence",
+   "move": "push",
+   "evidence": "",
+   "characters": [
+    "chenmo"
+   ],
+   "prompt_full": "2D animated film still, hand-painted anime background art, mature semi-realistic illustration, visible brush texture, cel-shaded lighting with soft gradients, desaturated cold teal and grey palette, old 1990s Chinese residential building, lived-in grime and dust, volumetric dust, shallow depth of field, 16:9 composition, medium close-up: a lean Chinese man in his late thirties, short black buzz cut, light stubble, dark navy work jacket with a blank rectangular badge patch on the left chest, dark grey work trousers, black grip gloves holds the phone to his ear, face turned three-quarters away from camera, lit only by the cold screen and corridor light, the closed dark-red steel door behind him, silence",
+   "negative": "photograph, photorealistic, 3d render, cgi, live action, hyperreal, text, letters, numbers, watermark, UI, logo, gore, blood, monster, ghost, creature, corpse, chibi, childish cartoon, extra fingers, deformed hands, six fingers, blurry, low quality, oversaturated, daylight, cozy warm, clean new building, smiling"
+  }
+ ],
+ "count": 48
+}

@@ -1,0 +1,363 @@
+{
+ "style": "photoreal cinematic film still, cold grey-blue desaturated palette, one small warm practical light at most, ordinary old Chinese apartment interior with lived-in details, legible horror staged through objects and space, shallow depth of field, 35mm, volumetric dust, no text, no letters, no numbers, no labels, no UI, no watermark, no gore, no visible face",
+ "character": {
+  "liwei": "27-year-old Chinese man, short black hair, thin build, dark grey zip jacket, seen from behind or in silhouette, face never visible",
+  "mashi": "55-year-old Chinese repairman, short grey hair, faded blue work jacket, canvas tool bag, face never visible",
+  "zhang": "60-year-old Chinese woman, thin, dark cardigan, seen from behind, face never visible"
+ },
+ "shots": [
+  {
+   "id": "S01",
+   "section": "ch01",
+   "motion": "push",
+   "prompt": "dim old apartment bathroom, a white front-load washing machine against stained white tiles, round glass door open, a wet navy blue work jacket crumpled inside the stainless steel drum, water dripping to the tile floor, only a cold fluorescent tube overhead, no lamp, no other light source, deep shadows, no people",
+   "cue": "洗衣机已经停了"
+  },
+  {
+   "id": "S02",
+   "section": "ch01",
+   "motion": "push",
+   "prompt": "extreme close-up of a wet navy blue work jacket cuff hanging from a washing machine drum, dark water dripping onto wet white tiles, cold light, shallow depth of field, no people",
+   "cue": "不是他的"
+  },
+  {
+   "id": "S03",
+   "section": "ch01",
+   "motion": "static",
+   "prompt": "a smartphone lying face-up on the edge of a bathroom sink, its screen glowing faintly in the dark, water droplets on the glass, wet tiles, cold blue light with one small warm screen glow, no people, no readable text",
+   "cue": "他掏出手机"
+  },
+  {
+   "id": "S04",
+   "section": "ch01",
+   "motion": "push",
+   "prompt": "a man's hand pressed flat against a damp wooden floor beside a white washing machine, cold fluorescent light, dust in the air, no face, no people",
+   "cue": "他蹲下去"
+  },
+  {
+   "id": "S05",
+   "section": "ch02",
+   "motion": "pan",
+   "prompt": "wide dusk exterior of an old six-storey Chinese residential building, one ground-floor window lit warm, wet concrete yard, bicycles, bare trees, cold blue hour, no people",
+   "cue": "小李二十七岁"
+  },
+  {
+   "id": "S06",
+   "section": "ch02",
+   "motion": "push",
+   "prompt": "narrow entry hall of a cheap ground-floor apartment, worn wooden floor, a pair of work shoes, a cheap shoe cabinet, cold daylight from the door, no people",
+   "cue": "他住老小区"
+  },
+  {
+   "id": "S07",
+   "section": "ch02",
+   "motion": "static",
+   "prompt": "a young man in a dark grey zip jacket seen from behind, taking off his jacket at the door of a dim apartment, face away from camera, cold light, no text",
+   "cue": "房东王姐在外地"
+  },
+  {
+   "id": "S08",
+   "section": "ch02",
+   "motion": "push",
+   "prompt": "close-up of an old washing machine's power plug in a yellowed wall socket with a smart plug adapter, dust, cold light, no people, no text",
+   "cue": "洗衣机是房东留下"
+  },
+  {
+   "id": "S09",
+   "section": "ch02",
+   "motion": "push",
+   "prompt": "a man's hand holding a smartphone in a dim living room, the screen's pale glow lighting his fingers and the sleeve of a dark grey jacket, no face, no readable text",
+   "cue": "他试过改名"
+  },
+  {
+   "id": "S10",
+   "section": "ch02",
+   "motion": "push",
+   "prompt": "open front-load washing machine drum packed with dark clothes, a measuring cap of detergent balanced on top of the machine, grey daylight from a small window, cold tone, no people, no text",
+   "cue": "周末他自己洗衣服"
+  },
+  {
+   "id": "S11",
+   "section": "ch02",
+   "motion": "pan",
+   "prompt": "a young man seen from behind folding clothes on a worn sofa in a small apartment, late afternoon light, a phone on the table, no face, no text",
+   "cue": "衣服攒到周末洗"
+  },
+  {
+   "id": "S12",
+   "section": "ch03",
+   "motion": "push",
+   "prompt": "two wet navy blue work jackets hanging on a balcony clothesline in cold grey daylight, identical cut, water dripping, old residential building beyond, no people",
+   "cue": "第二周，又一件"
+  },
+  {
+   "id": "S13",
+   "section": "ch03",
+   "motion": "push",
+   "prompt": "a single wet navy blue work jacket lying inside the empty front-load washing machine drum, round glass door ajar, cold grey light, no lamp, no people",
+   "cue": "同款，同味"
+  },
+  {
+   "id": "S15",
+   "section": "ch03",
+   "motion": "push",
+   "prompt": "close-up of the left chest of a navy blue work jacket, a dark oil stain ground into the fabric, water droplets, cold light, no text",
+   "cue": "外套总是湿的"
+  },
+  {
+   "id": "S14",
+   "section": "ch03",
+   "motion": "static",
+   "prompt": "three identical navy blue work jackets hanging side by side on a balcony line, cold grey light, wet fabric, no people",
+   "cue": "三件外套挂在阳台"
+  },
+  {
+   "id": "S16",
+   "section": "ch03",
+   "motion": "push",
+   "prompt": "close-up of a washing machine's rubber door seal peeled back, dark wet groove, empty, cold light, no people",
+   "cue": "他把滚筒门封"
+  },
+  {
+   "id": "S17",
+   "section": "ch03",
+   "motion": "static",
+   "prompt": "a neighbour woman in a dark cardigan at an apartment doorway seen from inside, face turned away, a young man's shoulder in the foreground, dim hallway, no text",
+   "cue": "楼下张阿姨"
+  },
+  {
+   "id": "S18",
+   "section": "ch03",
+   "motion": "push",
+   "prompt": "close-up of a wall calendar with a few dates marked in red ink, blurred numbers, a man's hand holding a pen, cold light, no legible text",
+   "cue": "他开始记日子"
+  },
+  {
+   "id": "S19",
+   "section": "ch04",
+   "motion": "push",
+   "prompt": "a hand pulling a faded paper receipt from the inner pocket of a navy work jacket, dim room, cold light, no legible text",
+   "cue": "第三件外套的内袋"
+  },
+  {
+   "id": "S20",
+   "section": "ch04",
+   "motion": "pan",
+   "prompt": "small dry cleaner storefront on a Chinese street, grey afternoon, racks of plastic-covered clothes visible through the glass, no people, no legible signage",
+   "cue": "干洗店就在小区门口"
+  },
+  {
+   "id": "S21",
+   "section": "ch04",
+   "motion": "push",
+   "prompt": "inside a small dry cleaner, rows of clothes in plastic covers, the owner's back at the counter, cold fluorescent light, no face, no text",
+   "cue": "老板记得周栋"
+  },
+  {
+   "id": "S22",
+   "section": "ch04",
+   "motion": "push",
+   "prompt": "a navy blue work jacket in a clear plastic bag hanging on a rack, left chest oil stain visible, cold light, no text",
+   "cue": "老板从架子上取下"
+  },
+  {
+   "id": "S23",
+   "section": "ch04",
+   "motion": "static",
+   "prompt": "a property management office desk with stacked paper files and a dusty computer, a clerk's hands sorting papers, cold fluorescent light, no face, no legible text",
+   "cue": "物业说，周栋"
+  },
+  {
+   "id": "S24",
+   "section": "ch04",
+   "motion": "push",
+   "prompt": "a man's hand holding a phone in a dark room, screen glow on his fingers, a chat interface out of focus, no face, no legible text",
+   "cue": "王姐在微信里"
+  },
+  {
+   "id": "S25",
+   "section": "ch05",
+   "motion": "static",
+   "prompt": "a repairman in a faded blue work jacket kneeling beside a washing machine, tool bag open on the floor, seen from behind, bathroom, cold light, no face",
+   "cue": "马师傅上门"
+  },
+  {
+   "id": "S26",
+   "section": "ch05",
+   "motion": "push",
+   "prompt": "a washing machine's bottom service panel removed, hoses and a drain filter visible, a flashlight beam, wet floor, no people",
+   "cue": "他拧开排水滤网"
+  },
+  {
+   "id": "S27",
+   "section": "ch05",
+   "motion": "push",
+   "prompt": "a gloved hand holding a clear plastic bag containing a lump of grey-white grease, bathroom light, cold, no face",
+   "cue": "不是皂垢"
+  },
+  {
+   "id": "S28",
+   "section": "ch05",
+   "motion": "static",
+   "prompt": "a repairman's hands writing on a carbon-copy work order braced on his knee, kneeling on a bathroom floor, cold light, no legible text",
+   "cue": "马师傅不修了"
+  },
+  {
+   "id": "S29",
+   "section": "ch05",
+   "motion": "push",
+   "plated": "workorder",
+   "cue": "他蹲在地上手写工单"
+  },
+  {
+   "id": "S30",
+   "section": "ch05",
+   "motion": "static",
+   "prompt": "a repairman standing at a bathroom door, seen from behind, looking back at the wooden floor, cold hallway light, no face",
+   "cue": "走到门口，他回头"
+  },
+  {
+   "id": "S31",
+   "section": "ch05",
+   "motion": "static",
+   "prompt": "an old apartment stairwell at night, sound-activated light flickering, worn concrete steps, no people",
+   "cue": "临下楼"
+  },
+  {
+   "id": "S32",
+   "section": "ch06",
+   "motion": "push",
+   "prompt": "close-up of a washing machine control panel in the dark, the start button depressed, a faint glow, no legible text",
+   "cue": "马师傅还没出门"
+  },
+  {
+   "id": "S33",
+   "section": "ch06",
+   "motion": "push",
+   "prompt": "empty washing machine drum spinning fast behind the glass door, motion blur, dark bathroom, cold light, no people",
+   "cue": "面板上的启动键"
+  },
+  {
+   "id": "S34",
+   "section": "ch06",
+   "motion": "static",
+   "prompt": "a washing machine shaking violently on a wooden floor, a glass of water rattling on a shelf above, motion blur, cold light, no people",
+   "cue": "整台机器像被人"
+  },
+  {
+   "id": "S35",
+   "section": "ch06",
+   "motion": "pan",
+   "prompt": "a repairman hurrying down an old apartment stairwell, canvas tool bag, seen from behind, motion blur, cold light, no face",
+   "cue": "马师傅骂了一句"
+  },
+  {
+   "id": "S36",
+   "section": "ch06",
+   "motion": "static",
+   "prompt": "a young man standing at a bathroom doorway in silhouette, the washing machine's light on his shoulder, dark apartment, no face",
+   "cue": "小李站在卫生间门口"
+  },
+  {
+   "id": "S37",
+   "section": "ch07",
+   "motion": "static",
+   "plated": "phone_history",
+   "prompt": "phone history UI plate",
+   "cue": "他打开历史记录"
+  },
+  {
+   "id": "S38",
+   "section": "ch07",
+   "motion": "push",
+   "prompt": "a folded paper health check form lying on a table, cold light, blurred rows, no legible text, no people",
+   "cue": "从78.6到"
+  },
+  {
+   "id": "S39",
+   "section": "ch07",
+   "motion": "static",
+   "plated": "phone_form_pair",
+   "prompt": "phone reading vs health form plate",
+   "cue": "他盯着这两个数"
+  },
+  {
+   "id": "S40",
+   "section": "ch07",
+   "motion": "push",
+   "prompt": "a young man sitting at a cheap table with his head in his hands, seen from behind, single warm lamp, cold room, no face",
+   "cue": "今天下午两点"
+  },
+  {
+   "id": "S41",
+   "section": "ch08",
+   "motion": "push",
+   "prompt": "behind a washing machine, a grey corrugated drain hose disappearing into a narrow gap between dark wet floorboards, baseboard, cold light, no people",
+   "cue": "他关了机器"
+  },
+  {
+   "id": "S42",
+   "section": "ch08",
+   "motion": "push",
+   "prompt": "a hand pushing a flathead screwdriver under a floorboard, prying it up, dust, cold light, no face",
+   "cue": "他拿螺丝刀撬开"
+  },
+  {
+   "id": "S43",
+   "section": "ch08",
+   "motion": "push",
+   "prompt": "a lifted floorboard revealing a narrow black slit, dust and nails, a flashlight beam, no people",
+   "cue": "下面是一个四十厘米"
+  },
+  {
+   "id": "S44",
+   "section": "ch08",
+   "motion": "static",
+   "prompt": "a dark cavity under a wooden floor, black standing water, a white plastic pipe entering, the edge of a wet navy jacket, flashlight beam, partial view, no people",
+   "cue": "一根白色塑料管"
+  },
+  {
+   "id": "S45",
+   "section": "ch08",
+   "motion": "push",
+   "prompt": "a man's hand reaching down into a dark floor cavity toward a wet navy jacket, flashlight, no face",
+   "cue": "他伸手去够"
+  },
+  {
+   "id": "S46",
+   "section": "ch08",
+   "motion": "push",
+   "prompt": "a white plastic pipe pulled taut, a navy jacket sleeve dragged into a floor gap, black water rippling, flashlight, no people",
+   "cue": "管子突然绷紧"
+  },
+  {
+   "id": "S47",
+   "section": "ch08",
+   "motion": "push",
+   "prompt": "a washing machine display glowing in a dark bathroom, blurred digits, cold light, no legible text",
+   "cue": "身后的机器"
+  },
+  {
+   "id": "S48",
+   "section": "ch08",
+   "motion": "static",
+   "plated": "phone_dial",
+   "prompt": "phone dial UI plate",
+   "cue": "他拨了110"
+  },
+  {
+   "id": "S49",
+   "section": "ch08",
+   "motion": "static",
+   "prompt": "wide dark bathroom at night, a white washing machine humming, the wooden floorboards slightly raised, one warm phone glow on the floor, cold blue, no people",
+   "cue": "他走回去"
+  },
+  {
+   "id": "S50",
+   "section": "ch08",
+   "motion": "push",
+   "prompt": "extreme close-up of old wooden floorboards bulging upward, dust falling, cold light, no people",
+   "cue": "地板条一条一条"
+  }
+ ]
+}

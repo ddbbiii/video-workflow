@@ -1,0 +1,136 @@
+{
+  "engine_version": "1.1",
+  "engine_sha256": "46d51c50f94f7e04c07f474e375a12409541a022afcfa52addc01c34140c3fb7",
+  "plan": "E:\\program\\1project\\video\\projects\\悬疑\\episodes\\20261112-feigongdan\\intro\\v1\\motion_plan.json",
+  "backend": "affine",
+  "status": "complete",
+  "shots": [
+    {
+      "id": "hook1a_box",
+      "fingerprint": "738d40ebdfc16f4022ed260e4f2245905e61bb661b1fa42c6f87cac7c6ff3350",
+      "status": "complete",
+      "backend": "affine",
+      "video": "E:\\program\\1project\\video\\projects\\悬疑\\episodes\\20261112-feigongdan\\intro\\v1\\motion-bg\\hook1a_box.mp4",
+      "video_sha256": "2a62f335048439e4c700137afce1f5d2ea8bf82a539b10df1fbccdac6b425fc8",
+      "duration_s": 0.3333333333333333,
+      "qa": {
+        "source_bounds_checked": true,
+        "required_regions_checked": true,
+        "max_center_step_output_px": 2.6181818181818244,
+        "max_scale_step": 0.025252525252525304,
+        "scope": "Planned trajectory only; encoded motion and visual texture require separate QA"
+      },
+      "timing": {
+        "backend": "affine",
+        "source_size_rendered": [
+          1536,
+          864
+        ]
+      },
+      "trajectory_sha256": "71f5dfdc051e821ffa733d32f5791421b1971859f691b4a633654f12ece8e180"
+    },
+    {
+      "id": "hook1b_latch",
+      "fingerprint": "53f2cf5116ac19b0ba7d1a27689999b47ccb499c31ed75f69010ddfd52a08dc3",
+      "status": "complete",
+      "backend": "affine",
+      "video": "E:\\program\\1project\\video\\projects\\悬疑\\episodes\\20261112-feigongdan\\intro\\v1\\motion-bg\\hook1b_latch.mp4",
+      "video_sha256": "353761150158054f37dec6b801ed781da99316e38574252f41e359dc25674ac8",
+      "duration_s": 3.2083333333333335,
+      "qa": {
+        "source_bounds_checked": true,
+        "required_regions_checked": true,
+        "max_center_step_output_px": 0.5058595649408062,
+        "max_scale_step": 0.0037471078884503406,
+        "scope": "Planned trajectory only; encoded motion and visual texture require separate QA"
+      },
+      "timing": {
+        "backend": "affine",
+        "source_size_rendered": [
+          1536,
+          864
+        ]
+      },
+      "trajectory_sha256": "11b8818808b23399ab8d734701361fe91005924af43b68c3f1a839dd19b08ebe"
+    },
+    {
+      "id": "hook2_door",
+      "fingerprint": "7726abfa51c9f7aeec7ede9703c2e349241765251c2f71cdfe0f57bc903ecc22",
+      "status": "complete",
+      "backend": "affine",
+      "video": "E:\\program\\1project\\video\\projects\\悬疑\\episodes\\20261112-feigongdan\\intro\\v1\\motion-bg\\hook2_door.mp4",
+      "video_sha256": "8d297036121e870c9c911104d7396cf3a0b953c95be2d557ba659b75c420fda0",
+      "duration_s": 3.5,
+      "qa": {
+        "source_bounds_checked": true,
+        "required_regions_checked": true,
+        "max_center_step_output_px": 0.48138557951642724,
+        "max_scale_step": 0.00267436433064705,
+        "scope": "Planned trajectory only; encoded motion and visual texture require separate QA"
+      },
+      "timing": {
+        "backend": "affine",
+        "source_size_rendered": [
+          1536,
+          864
+        ]
+      },
+      "trajectory_sha256": "1bbe28a08165b3021934f99233d14bb0a532c10dd93a566b53608ce3df509138"
+    },
+    {
+      "id": "hook3_dark",
+      "fingerprint": "a0845c216d45c92e8685c52405d4475ceddb2d3ba6a74e56cf5258e34b1e1db0",
+      "status": "complete",
+      "backend": "affine",
+      "video": "E:\\program\\1project\\video\\projects\\悬疑\\episodes\\20261112-feigongdan\\intro\\v1\\motion-bg\\hook3_dark.mp4",
+      "video_sha256": "3b8fea6fcb8de9567bbab40bf3f3becefadfcfd3cf383738a5f592bc126a57cb",
+      "duration_s": 2.375,
+      "qa": {
+        "source_bounds_checked": true,
+        "required_regions_checked": true,
+        "max_center_step_output_px": 0.3184894794634374,
+        "max_scale_step": 0.0035387719940396245,
+        "scope": "Planned trajectory only; encoded motion and visual texture require separate QA"
+      },
+      "timing": {
+        "backend": "affine",
+        "source_size_rendered": [
+          1536,
+          864
+        ]
+      },
+      "trajectory_sha256": "b458c8359c2b46e6a94dc83d3094bc0cda021a2b05bc9534f863912d51867180"
+    },
+    {
+      "id": "title_trail",
+      "fingerprint": "53c0b8f7248025030341f6732f0319d74219253b23693e1083af9aa0f417eb28",
+      "status": "complete",
+      "backend": "affine",
+      "video": "E:\\program\\1project\\video\\projects\\悬疑\\episodes\\20261112-feigongdan\\intro\\v1\\motion-bg\\title_trail.mp4",
+      "video_sha256": "076d8b44d0edfe521cafc711abbf74170ed3495a91e98d007c0ea02c18e3da49",
+      "duration_s": 2.625,
+      "qa": {
+        "source_bounds_checked": true,
+        "required_regions_checked": true,
+        "max_center_step_output_px": 0.40239127327640745,
+        "max_scale_step": 0.003854322540962851,
+        "scope": "Planned trajectory only; encoded motion and visual texture require separate QA"
+      },
+      "timing": {
+        "backend": "affine",
+        "source_size_rendered": [
+          1536,
+          864
+        ]
+      },
+      "trajectory_sha256": "616ae8facebc37531ad6678943a6c1aa5f37ae62f32b5a9cb1a54ecd7a1de732"
+    }
+  ],
+  "limitations": [
+    "Affine sampling uses OpenCV 1/32-pixel interpolation table.",
+    "Blender backend uses orthographic camera + emission-textured plane; no parallax.",
+    "No invented parallax, internal animation or depth.",
+    "Rendered temporal tracking must be verified separately from planned trajectory.",
+    "Missing Blender install fails hard; never silent-falls back to affine."
+  ]
+}

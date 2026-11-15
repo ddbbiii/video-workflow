@@ -69,7 +69,7 @@
 - `zhumian-real-video-batch02-20261006`：`running`，助眠线路，提交助手 `01a10af6-0138-7ef0-8236-323efe9fd231`；09:02 启动，PID `36284`，子 ComfyUI 8191 PID `5016`。首个 `ch2-c03` 已提交 prompt `e3ae69f9-9558-4c6c-b654-1400861f4d52`。日志：`projects/助眠解说/legacy-source/zhumian/b-geomagnetic-reversal/gen_rebuild/runs/20261006-ltx-real-video-batch02/batch02-run.log`。当前 GPU 约 97%，13856/16311 MiB。
 - 请求文件：`shared/gpu-queue/requests/zhumian-real-video-batch02-20261006.json`；不要重新放行已取消的 batch01。
 - `mirror-who-are-you-s04-i2v-v0.2`：已取消并移除请求文件，不执行。改由 v0.3 统一处理 S04/S21。
-- `mirror-who-are-you-i2v-v0.3`：`queued`，悬疑动漫线路，提交助手 `01a10af5-7adb-71c0-82f4-641572aec029`，09:10 提交，排在正在运行的 batch02 之后。S04/S21 均先不变形裁成 864x480 横屏，72 帧、24fps、EasyCache 开，串行生成；不得竖屏、拉伸、凭空增加手机或改变镜面几何，失败回退 affine。
+- `mirror-who-are-you-i2v-v0.3`：已取消；旧悬疑动漫项目已删除（2026-11-07）。
 
 上述 PID 与指标需在下一次放行前重新核对；不得凭此快照终止进程或删除锁。
 

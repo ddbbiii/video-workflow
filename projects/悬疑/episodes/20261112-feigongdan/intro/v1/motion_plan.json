@@ -1,0 +1,118 @@
+{
+ "schema_version": 1,
+ "backend": "affine",
+ "output": {
+  "width": 1920,
+  "height": 1080,
+  "fps": 24
+ },
+ "overview": false,
+ "transition_s": 0,
+ "shots": [
+  {
+   "id": "hook1a_box",
+   "source": "E:\\program\\1project\\video\\projects\\悬疑\\episodes\\20261112-feigongdan\\image\\stills-raw\\S05.png",
+   "duration_s": 0.3333333333333333,
+   "start_view": [
+    0.02,
+    0.02,
+    0.96,
+    0.96
+   ],
+   "end_view": [
+    0.07,
+    0.06,
+    0.86,
+    0.86
+   ],
+   "curve": {
+    "type": "ramped_linear",
+    "ramp_s": 0.08333333333333333
+   }
+  },
+  {
+   "id": "hook1b_latch",
+   "source": "E:\\program\\1project\\video\\projects\\悬疑\\episodes\\20261112-feigongdan\\image\\stills-raw\\S06.png",
+   "duration_s": 3.2083333333333335,
+   "start_view": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "end_view": [
+    0.08,
+    0.06,
+    0.84,
+    0.84
+   ],
+   "curve": {
+    "type": "ramped_linear",
+    "ramp_s": 0.8
+   }
+  },
+  {
+   "id": "hook2_door",
+   "source": "E:\\program\\1project\\video\\projects\\悬疑\\episodes\\20261112-feigongdan\\image\\stills-raw\\S38.png",
+   "duration_s": 3.5,
+   "start_view": [
+    0.03,
+    0.02,
+    0.94,
+    0.94
+   ],
+   "end_view": [
+    0.09,
+    0.06,
+    0.82,
+    0.82
+   ],
+   "curve": {
+    "type": "ramped_linear",
+    "ramp_s": 0.8
+   }
+  },
+  {
+   "id": "hook3_dark",
+   "source": "E:\\program\\1project\\video\\projects\\悬疑\\episodes\\20261112-feigongdan\\image\\stills-raw\\S22.png",
+   "duration_s": 2.375,
+   "start_view": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "end_view": [
+    0.06,
+    0.05,
+    0.88,
+    0.88
+   ],
+   "curve": {
+    "type": "ramped_linear",
+    "ramp_s": 0.59375
+   }
+  },
+  {
+   "id": "title_trail",
+   "source": "E:\\program\\1project\\video\\projects\\悬疑\\episodes\\20261112-feigongdan\\image\\stills-raw\\S34.png",
+   "duration_s": 2.625,
+   "start_view": [
+    0.04,
+    0.02,
+    0.92,
+    0.92
+   ],
+   "end_view": [
+    0.1,
+    0.07,
+    0.8,
+    0.8
+   ],
+   "curve": {
+    "type": "ramped_linear",
+    "ramp_s": 0.65625
+   }
+  }
+ ]
+}

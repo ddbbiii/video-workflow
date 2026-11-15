@@ -2,7 +2,7 @@ import subprocess,json
 from pathlib import Path
 from PIL import Image,ImageDraw
 import numpy as np
-base=Path(r'E:/program/1project/video/projects/unassigned/potato-staircase-test/out/ellipse_v2')
+base=Path(r'E:/program/1project/video/projects/小球/episodes/potato-staircase-test/out/ellipse_v2')
 out=base/'qa';out.mkdir(exist_ok=True)
 video=base/'potato_ellipse_v2.mp4'
 def frame(t):

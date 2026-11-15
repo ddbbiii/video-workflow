@@ -1,0 +1,161 @@
+{
+ "run": "20261114-pilot-8shots",
+ "generated_at": "2026-11-14T20:48:22",
+ "channel_policy": "v6-new2-dklb-old",
+ "channel": "new2",
+ "grid_size": "1672x941",
+ "cell_size": [
+  836,
+  471
+ ],
+ "inset_px": 4,
+ "calls": 2,
+ "results": [
+  {
+   "tag": "G1",
+   "kind": "A+B：楼道 / 出租屋 / 门口 / 走廊尽端",
+   "prompt": "desaturated graphic-novel panel, mature simplified cel-shaded anime characters, flat color blocks with hard-edged cel shadows, clean ink linework, cold grey-blue palette, one controlled warm practical light, ordinary Chinese urban interior or street, worn and lived-in surfaces, legible horror staging, clear foreground subject and evidence prop, slightly off-center composition, deep focus, layered foreground occlusion in wide shots, volumetric dust in cold window light, 16:9, 2D cel animation key visual, flat unshaded color areas, hard-edged shadow shapes, no gradients on fabric or walls, clean black linework, anime screencap, four-panel 2x2 storyboard grid on one square-grid canvas, four independent wide shots of the same old Chinese apartment building in a southern city, same cold grey-blue world, same worn surfaces, each panel a separate 16:9 composition with its own camera, equal quarters separated by thin dark gutters; no borders, no panel numbers, no captions, no text, no watermark, P1 (top left) — shot A1: camera medium at the stair landing, 24mm wide-angle, deep focus; empty fourth-floor corridor receding to the right third, no people; foreground: rusted steel door frame with a strip of grey duct tape pressing the left quarter; middle ground: yellowed plastic stool, drying rack with two dark shirts, taped-over electrical box; background: far window at the corridor end, cold dusk light; decay: peeling green paint along the skirting, dark water stain from the window frame, rust on the hinge; light: cold window light, one warm light under a closed door on the left, P2 (top right) — shot A2: camera medium from the doorway, 24mm, deep focus; one rented single room, no people; foreground: faded floral door curtain on the left edge with two strips of repair tape; middle ground: folding table with two upside-down bowls and a thermos, blue plastic stool, slippers beside the bed; background: steel window with laundry hanging outside; decay: wallpaper lifting in the corner, cracked threshold tile, water ring on the sill; light: cold overcast window light, one warm desk lamp, P3 (bottom left) — shot B1: camera medium four metres back, 28mm, deep focus; the boy standing in the doorway on the left third, back three-quarters, right hand on the frame, about one third of the panel height; foreground: plaid curtain pressing the right quarter; middle ground: scuffed door leaf with a taped repair, slippers inside the threshold; background: dark hall with one bathroom door ajar; decay: peeling frame paint, water stain beside it, chipped threshold tile; light: cold corridor light from behind, one warm light from the bathroom, P4 (bottom right) — shot B2: camera far, 24mm, deep focus; the same boy standing at the right third near the corridor end, back three-quarters, looking at the half-open steel safety door; foreground: laundry pole with two dark garments top left, metal railing bottom left; middle ground: cardboard boxes, plastic stool; background: the safety door with cold light beyond; decay: peeling wall paint, long ceiling water stain, rusted meter box; light: cold light through the door, one warm bulb above the left door, continuity: panels 3 and 4 show the same thin 14-year-old boy, same navy school jacket with white piping, same grey trousers and white sneakers, same hair, hard constraints: no extra people, no text on any surface, no signs, no door numbers, no lettering on boxes or clothing, no panel borders inside a panel, no glitch bars",
+   "anchor": "E:\\program\\1project\\video\\projects\\悬疑\\visual-tests\\20261114-pilot-8shots\\anchors\\zhouxu-front-side-face.png",
+   "ok": true,
+   "dims": [
+    1672,
+    941
+   ],
+   "cells": [
+    {
+     "panel": "P1",
+     "file": "cells/G1-P1.png",
+     "dims": [
+      828,
+      462
+     ],
+     "metrics": {
+      "std_lum": 26.0,
+      "mean_sat": 66.9,
+      "lap_var": 205.4,
+      "delivery_lap_var": 13.0
+     },
+     "shot": "A1"
+    },
+    {
+     "panel": "P2",
+     "file": "cells/G1-P2.png",
+     "dims": [
+      828,
+      462
+     ],
+     "metrics": {
+      "std_lum": 27.6,
+      "mean_sat": 50.9,
+      "lap_var": 250.7,
+      "delivery_lap_var": 15.3
+     },
+     "shot": "A2"
+    },
+    {
+     "panel": "P3",
+     "file": "cells/G1-P3.png",
+     "dims": [
+      828,
+      463
+     ],
+     "metrics": {
+      "std_lum": 22.3,
+      "mean_sat": 51.5,
+      "lap_var": 250.9,
+      "delivery_lap_var": 15.1
+     },
+     "shot": "B1"
+    },
+    {
+     "panel": "P4",
+     "file": "cells/G1-P4.png",
+     "dims": [
+      828,
+      463
+     ],
+     "metrics": {
+      "std_lum": 22.1,
+      "mean_sat": 61.1,
+      "lap_var": 210.4,
+      "delivery_lap_var": 13.2
+     },
+     "shot": "B2"
+    }
+   ]
+  },
+  {
+   "tag": "G2",
+   "kind": "C+D：桌面证据 / 手部持物 / 走廊尽头 / 楼梯井",
+   "prompt": "desaturated graphic-novel panel, mature simplified cel-shaded anime characters, flat color blocks with hard-edged cel shadows, clean ink linework, cold grey-blue palette, one controlled warm practical light, ordinary Chinese urban interior or street, worn and lived-in surfaces, legible horror staging, clear foreground subject and evidence prop, slightly off-center composition, deep focus, layered foreground occlusion in wide shots, volumetric dust in cold window light, 16:9, 2D cel animation key visual, flat unshaded color areas, hard-edged shadow shapes, no gradients on fabric or walls, clean black linework, anime screencap, four-panel 2x2 storyboard grid on one square-grid canvas, four independent wide shots of the same old Chinese apartment building in a southern city, same cold grey-blue world, same worn surfaces, each panel a separate 16:9 composition with its own camera, equal quarters separated by thin dark gutters; no borders, no panel numbers, no captions, no text, no watermark, P1 (top left) — shot C1: camera close, slightly above table height, 28mm, deep focus; one old brass key with a faded red cord lying on a wooden table at the left third, the key at least a fifth of the panel width, no people; foreground: woven placemat pressing the bottom right; middle ground: ring-shaped water stain, cigarette burn, chipped enamel mug; background: dark kitchen doorway; decay: scratched table, cracked floor tile; light: cold window light, one warm bulb above the table, P2 (top right) — shot C2: camera close, slightly above, 28mm, deep focus; the boy's right hand entering from the bottom right, holding the same brass key upright between thumb and forefinger at the right third, the key about a third of the panel height; foreground: curtain edge pressing the top left; middle ground: scratched table, thermos lying on its side; background: dark kitchen doorway; decay: table water stains, taped table edge, chipped enamel; light: cold window light, one warm bulb above the hand, P3 (bottom left) — shot D1: camera far, locked-off at chest height, 28mm, deep focus; corridor axis left of centre, no people; foreground: rusted iron railing and a rolled bamboo blind pressing the right quarter; middle ground: worn floor tiles, mop, plastic bucket; background: where a window should be a door stands wide open and the same corridor continues behind it, same tiles, same four doors, another window at its far end, cold light; decay: cracked floor tiles, long ceiling water stain, scuffed skirting; light: cold daylight from the far end, one warm light at the left door crack, P4 (bottom right) — shot D2: camera far, locked-off, looking down the stairwell from the fifth-floor landing, 24mm, deep focus; the well falls along the right third, no people; foreground: steel handrail with a towel over it pressing the left quarter; middle ground: chipped concrete steps, meter box, mop; background: the bottom landing where a single plastic stool faces the wall with an empty bowl on it, and that landing has no door at all; decay: chipped step edges, water stains down the wall, rust on the handrail; light: cold grey light from above, one warm bulb on the fifth-floor wall, continuity: panel 2 shows the right hand of the same 14-year-old boy from the other grid; the brass key with the faded red cord is the same key in panels 1 and 2, hard constraints: no extra people, no faces, no readable text, no engraving or numbers on the key, no labels or name plates, no blood, no glitch bars",
+   "anchor": "E:\\program\\1project\\video\\projects\\悬疑\\visual-tests\\20261114-pilot-8shots\\anchors\\zhouxu-front-face.png",
+   "ok": true,
+   "dims": [
+    1672,
+    941
+   ],
+   "cells": [
+    {
+     "panel": "P1",
+     "file": "cells/G2-P1.png",
+     "dims": [
+      828,
+      462
+     ],
+     "metrics": {
+      "std_lum": 32.4,
+      "mean_sat": 60.4,
+      "lap_var": 345.2,
+      "delivery_lap_var": 19.6
+     },
+     "shot": "C1"
+    },
+    {
+     "panel": "P2",
+     "file": "cells/G2-P2.png",
+     "dims": [
+      828,
+      462
+     ],
+     "metrics": {
+      "std_lum": 35.3,
+      "mean_sat": 44.6,
+      "lap_var": 194.4,
+      "delivery_lap_var": 11.5
+     },
+     "shot": "C2"
+    },
+    {
+     "panel": "P3",
+     "file": "cells/G2-P3.png",
+     "dims": [
+      828,
+      463
+     ],
+     "metrics": {
+      "std_lum": 26.6,
+      "mean_sat": 40.2,
+      "lap_var": 363.0,
+      "delivery_lap_var": 22.1
+     },
+     "shot": "D1"
+    },
+    {
+     "panel": "P4",
+     "file": "cells/G2-P4.png",
+     "dims": [
+      828,
+      463
+     ],
+     "metrics": {
+      "std_lum": 28.1,
+      "mean_sat": 35.4,
+      "lap_var": 192.3,
+      "delivery_lap_var": 12.1
+     },
+     "shot": "D2"
+    }
+   ]
+  }
+ ]
+}

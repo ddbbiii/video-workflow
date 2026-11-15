@@ -1,15 +1,31 @@
 # 助眠解说线路状态
 
-状态：active
+- 状态：active；最新单集 `episodes/catching-a-second`（《捕捉一秒钟》），旧口径 v1 已出（含片头），不回改。
+- 更新：2026-11-14（规则收敛为纯正文）。
 
-2026-10-18：已完结归档——地磁（2026-10-08）、蟑螂（2026-10-10）、章鱼（2026-10-14，成片约44分钟）。《牛顿到混沌》制作完成，待用户验收（BGM 与字幕用户手动）。新单集 `episodes/siffre-beyond-time/`（《超出时间——他在冰川下住了两个月，只过了一个月》，2026-10-20 用户定题；原工作题降为发布备选钩子）剧本侧交付完毕、执行已启动。**执行交接真源：`episodes/siffre-beyond-time/HANDOFF_AGENT_超出时间_20261018.md`**。2026-10-18 用户指示执行改由剧本会话的子代理承担（独立执行会话暂不介入）。进度：口播 NARRATION_MASTER **v1.1**（约 6880 字，估 30.3–39.8 分钟；经独立审读修订+事实裁决，**待用户锁定**）；FACT_NOTES 十项全部带验证 DOI；SHOT_PLAN v1（135 镜）；制作管线已移植就绪（19 脚本编译通过，AUDIO_PLAN 待音频参数定稿，i2v 预备件 40 镜为 draft 未入队）。**静帧 135/135 完成，2026-10-19 用户验收通过（联综表：`runs/20261018-sbt-b01/qa/contact_sheets/`）。声线确认沿用 b2-warm-male，AUDIO_PLAN.py 已回填（VoxCPM2/atempo 0.774224/BGM -10dB）。i2v 40 镜已派执行子代理（LTX-2.3 沿章鱼管线，先试点后批量，GPU 自管授权 2026-10-07）。**选型规则修订（single 例外化＋调用预算前置）2026-10-19 已入 `rules/shared/image-grid-generation.md`，自下一集起生效。状态门：口播已锁定（分钟数已回填 35）。**最终交付 v5（2026-10-20 定稿）：片头 23.8s/7 卡全程统一分句文字卡（《超出时间》标题卡方案废弃，封面归用户自制），音频与 v4 逐字节一致；clean 总长 2088.6s=34.81min；字幕 r3；终检 PASS。片头五版史：43.4s慢钩→43.4s修正→11.3s紧凑（否决）→23.8s+标题卡→23.8s纯文字卡（定稿）。covers/ 四候选保留备用。待用户：BGM、字幕 7 处内插复核、发布登记、封面自制。**视觉两条全线原则（禁代码图表类画面、i2v 与推拉镜分工及三镜法）已并入 `rules/助眠解说/visual.md` 2026-10-18 节；片头分两型（快钩 ≤20 秒默认 / 慢钩 ≤45 秒）已并入 `rules/助眠解说/intro.md`。
+## 规则现状
 
-旧内容位置：`projects\助眠解说\legacy-source\zhumian` 已退役；两份 full_r1 成片已补搬。脚本在 `shared\workflows\助眠解说\`，口播检查环境在 `shared\runtime\envs\vo-gate\`。
+| 文件 | 状态 |
+|---|---|
+| `README.md` | 已按纯正文重写：无片头/配音/烧录/成品库模块 |
+| `input-spec.md` | v2.0：四项必填；交付 = 正文视频 + SRT |
+| `production.md` | 账号、调度、检查点；门禁只剩两道 |
+| `narrative.md` / `language-style.md` / `visual.md` | 可用 |
+| `audio.md` | 只留 3.8 字/秒语速与停顿 |
+| `delivery.md` | 30 fps、白边门禁、路径 |
 
-新项目统一进入：`projects\助眠解说\episodes\`
+## 现有单集
 
-线路重点：舒缓旁白、稳定声线、低刺激画面、网格分镜和轻微运动。
+- `catching-a-second`：旧口径成片与 SRT 留在 `video/final/`、`video/srt/`；`intro/`、`runs/.../delivery`、`audio` 为历史产物，不移动、不回改。
+- `antikythera-mechanism`、`banach-tarski`、`birthday-paradox`、`infinite-hotel`、`sky-boundary`：空壳占位，未开工。
 
-线路专属视觉规则：`../../rules/助眠解说/visual-motion.md`。景深、受控运动和图生视频按逐镜需求选择，不作为其他线路的通用规则。
+## 下一步
 
-2026-11-07：新单集 `episodes/unproven-laws/`（《没有人证明过的规律》，物理／数学线）成片 v6b 交付。CosyVoice3（234 段）；7 处多音字句改写重录；正文 159 镜亚像素 affine，终版内裁 4px 去白边；片头 E 版 30.03s；BGM 20%；字幕全片 style_r4 96 大字幕（片头 6 条＋正文 376 条，起点中位 60ms）；clean 30:51.4＋字幕版，均已进 `shared/delivery/finals/`。
+1. 新单按 `input-spec.md` v2.0 填单（标题/主题/引入/章节大纲）；
+2. 按 3.8 字/秒排镜头与 SRT；
+3. 交付只放 `video/final/` 与 `video/srt/`。
+
+## 明确不做
+
+- 片头（E 版/Hook 版）、标题卡、交棒句；片头规则与执行件已归档。
+- 配音、混音、BGM、字幕烧录、封面、成品库、成品卡。

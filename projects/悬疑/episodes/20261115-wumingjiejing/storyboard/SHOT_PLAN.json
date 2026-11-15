@@ -1,0 +1,1375 @@
+{
+  "title": "无名捷径",
+  "source": "用户确认的终修版剧本",
+  "format": "16:9",
+  "style_source": "rules/悬疑/visual.md §二",
+  "locations": {
+    "night_route": {
+      "anchors": [
+        "写字楼玻璃门外的旧石阶",
+        "路边卷帘门与斑驳围墙",
+        "冷白路灯"
+      ],
+      "decay": [
+        "peeling paint on a shutter",
+        "water stain on the wall",
+        "scuffed curb"
+      ],
+      "life": [
+        "stacked plastic crates",
+        "old delivery bicycle"
+      ]
+    },
+    "nameless_alley": {
+      "anchors": [
+        "两侧高墙",
+        "墙根窄排水沟",
+        "巷口斑驳木门框"
+      ],
+      "decay": [
+        "peeling plaster",
+        "water stains",
+        "cracked paving"
+      ],
+      "life": [
+        "discarded plastic stool",
+        "old broom"
+      ]
+    },
+    "apartment_entry": {
+      "anchors": [
+        "旧小区铁门",
+        "掉漆绿色信箱",
+        "缺角灰色地砖"
+      ],
+      "decay": [
+        "peeling paint",
+        "rust on the gate",
+        "cracked tile"
+      ],
+      "life": [
+        "parked delivery bicycle",
+        "plastic slippers"
+      ]
+    },
+    "bedroom": {
+      "anchors": [
+        "床边木地板接缝",
+        "床头旧充电线",
+        "通往玄关的窄走廊"
+      ],
+      "decay": [
+        "scuffed skirting",
+        "water stain near the window",
+        "scratched door frame"
+      ],
+      "life": [
+        "worn slippers",
+        "folded work shirt",
+        "phone charger"
+      ]
+    }
+  },
+  "character": {
+    "character_id": "linxu-20261115-episode",
+    "name": "林旭",
+    "reuse": "new face; existing reuse pool has no age-compatible adult man",
+    "anchors": "CHARACTER_LOCK.md"
+  },
+  "shots": [
+    {
+      "id": "S01",
+      "type": "E",
+      "scene": "night_route",
+      "cast": "none",
+      "fact": "深夜的写字楼出口空无一人。",
+      "visual": "空荡的写字楼出口，玻璃门内只有几盏熄灭的顶灯，门外冷白路灯照着旧石阶。",
+      "evidence": "旧石阶连接亮着的街道，入口位置一眼可辨。",
+      "shot_type": "E",
+      "scene_id": "night_route",
+      "has_character": false,
+      "character_ids": [],
+      "line": "悬疑",
+      "step": "static",
+      "character_closeup": false,
+      "hands_visible": false,
+      "evidence_id": "",
+      "subject_class": "environment",
+      "push_ratio": 0.0,
+      "needs_2048": false,
+      "location_anchors": [
+        "写字楼玻璃门外的旧石阶",
+        "路边卷帘门与斑驳围墙",
+        "冷白路灯"
+      ]
+    },
+    {
+      "id": "S02",
+      "type": "E",
+      "scene": "night_route",
+      "cast": "none",
+      "fact": "回家的大路沿老小区围墙笔直延伸。",
+      "visual": "沿老小区围墙向街道尽头看去，整条熟悉的大路没有岔口，关闭的卷帘门与路灯连续排列。",
+      "evidence": "道路只有一个方向，没有可见巷口。",
+      "shot_type": "E",
+      "scene_id": "night_route",
+      "has_character": false,
+      "character_ids": [],
+      "line": "悬疑",
+      "step": "static",
+      "character_closeup": false,
+      "hands_visible": false,
+      "evidence_id": "",
+      "subject_class": "environment",
+      "push_ratio": 0.0,
+      "needs_2048": false,
+      "location_anchors": [
+        "写字楼玻璃门外的旧石阶",
+        "路边卷帘门与斑驳围墙",
+        "冷白路灯"
+      ]
+    },
+    {
+      "id": "S03",
+      "type": "M",
+      "scene": "night_route",
+      "cast": "linxu",
+      "fact": "林旭站在写字楼门口点开手机导航。",
+      "visual": "约三十岁的中国男性上班族林旭穿深灰通勤外套、浅灰衬衫、黑色长裤和旧黑皮鞋，站在门槛内侧低头操作手机。",
+      "evidence": "他双脚停在石阶顶端，手机在手中。",
+      "shot_type": "M",
+      "scene_id": "night_route",
+      "has_character": true,
+      "character_ids": [
+        "linxu-20261115-episode"
+      ],
+      "line": "悬疑",
+      "step": "static",
+      "character_closeup": false,
+      "hands_visible": false,
+      "evidence_id": "",
+      "subject_class": "person",
+      "push_ratio": 0.0,
+      "needs_2048": false,
+      "location_anchors": [
+        "写字楼玻璃门外的旧石阶",
+        "路边卷帘门与斑驳围墙",
+        "冷白路灯"
+      ]
+    },
+    {
+      "id": "S04",
+      "type": "M",
+      "scene": "night_route",
+      "cast": "linxu",
+      "fact": "导航出现异常路线时林旭仍停在原地。",
+      "visual": "林旭侧身站在路灯下，手机冷光照亮疲惫的脸，他盯着屏幕，双脚并拢没有迈步。",
+      "evidence": "静止的鞋尖与亮起的手机同时清楚可见。",
+      "shot_type": "M",
+      "scene_id": "night_route",
+      "has_character": true,
+      "character_ids": [
+        "linxu-20261115-episode"
+      ],
+      "line": "悬疑",
+      "step": "static",
+      "character_closeup": false,
+      "hands_visible": false,
+      "evidence_id": "",
+      "subject_class": "person",
+      "push_ratio": 0.0,
+      "needs_2048": false,
+      "location_anchors": [
+        "写字楼玻璃门外的旧石阶",
+        "路边卷帘门与斑驳围墙",
+        "冷白路灯"
+      ]
+    },
+    {
+      "id": "S37",
+      "type": "M",
+      "scene": "night_route",
+      "cast": "linxu",
+      "fact": "林旭站在卷帘门边确认导航时，双脚仍停在原地。",
+      "visual": "林旭停在路灯下，身后的旧卷帘门映着手机冷光，他低头看屏幕，鞋尖并排没有迈步。",
+      "evidence": "静止鞋尖与手机光同时可见。",
+      "shot_type": "M",
+      "scene_id": "night_route",
+      "has_character": true,
+      "character_ids": [
+        "linxu-20261115-episode"
+      ],
+      "line": "悬疑",
+      "step": "static",
+      "character_closeup": false,
+      "hands_visible": false,
+      "evidence_id": "",
+      "subject_class": "person",
+      "push_ratio": 0.0,
+      "needs_2048": false,
+      "location_anchors": [
+        "写字楼玻璃门外的旧石阶",
+        "路边卷帘门与斑驳围墙",
+        "冷白路灯"
+      ]
+    },
+    {
+      "id": "S38",
+      "type": "C",
+      "scene": "night_route",
+      "cast": "none",
+      "fact": "导航预计到达时间出现负值。",
+      "visual": "手机地图的抽象路线与一个极简时间字段，时间字段留白，预留后期叠加负数，不出现真实文字或数字。",
+      "evidence": "空白时间栏与异常地图点清晰分开。",
+      "shot_type": "C",
+      "scene_id": "night_route",
+      "has_character": false,
+      "character_ids": [],
+      "line": "悬疑",
+      "step": "static",
+      "character_closeup": false,
+      "hands_visible": false,
+      "evidence_id": "S38",
+      "subject_class": "environment",
+      "push_ratio": 0.0,
+      "needs_2048": false,
+      "location_anchors": [
+        "写字楼玻璃门外的旧石阶",
+        "路边卷帘门与斑驳围墙",
+        "冷白路灯"
+      ]
+    },
+    {
+      "id": "S05",
+      "type": "C",
+      "scene": "night_route",
+      "cast": "hand",
+      "fact": "手机上的定位圆点在路线图上向前移动。",
+      "visual": "林旭的手握着手机，屏幕只呈现无字的抽象地图线与两个简单圆点，其中一个圆点向前偏移；不出现任何字母、数字或可读界面。",
+      "evidence": "屏幕上的移动圆点与握紧手机的手同时清晰。",
+      "shot_type": "C",
+      "scene_id": "night_route",
+      "has_character": true,
+      "character_ids": [
+        "linxu-20261115-episode"
+      ],
+      "line": "悬疑",
+      "step": "static",
+      "character_closeup": true,
+      "hands_visible": true,
+      "evidence_id": "S05",
+      "subject_class": "person",
+      "push_ratio": 0.0,
+      "needs_2048": false,
+      "location_anchors": [
+        "写字楼玻璃门外的旧石阶",
+        "路边卷帘门与斑驳围墙",
+        "冷白路灯"
+      ]
+    },
+    {
+      "id": "S06",
+      "type": "E",
+      "scene": "nameless_alley",
+      "cast": "none",
+      "fact": "老围墙之间出现一条没有路灯的狭窄巷口。",
+      "visual": "从街道远处看两片老住宅墙体之间一条极窄黑巷，入口被墙体遮挡一半，巷内没有灯。",
+      "evidence": "入口与两侧墙体的关系清楚，空间仍像普通旧城区。",
+      "shot_type": "E",
+      "scene_id": "nameless_alley",
+      "has_character": false,
+      "character_ids": [],
+      "line": "悬疑",
+      "step": "static",
+      "character_closeup": false,
+      "hands_visible": false,
+      "evidence_id": "",
+      "subject_class": "environment",
+      "push_ratio": 0.0,
+      "needs_2048": false,
+      "location_anchors": [
+        "两侧高墙",
+        "墙根窄排水沟",
+        "巷口斑驳木门框"
+      ]
+    },
+    {
+      "id": "S07",
+      "type": "E",
+      "scene": "nameless_alley",
+      "cast": "none",
+      "fact": "巷子尽头的蓝色便利店灯牌透出熟悉的光。",
+      "visual": "从巷口沿窄巷望向远端，一块小小的蓝色灯牌亮在巷子尽头，墙面剥落但没有坍塌或废墟。",
+      "evidence": "高墙、排水沟、远端灯牌三层纵深可辨。",
+      "shot_type": "E",
+      "scene_id": "nameless_alley",
+      "has_character": false,
+      "character_ids": [],
+      "line": "悬疑",
+      "step": "static",
+      "character_closeup": false,
+      "hands_visible": false,
+      "evidence_id": "",
+      "subject_class": "environment",
+      "push_ratio": 0.0,
+      "needs_2048": false,
+      "location_anchors": [
+        "两侧高墙",
+        "墙根窄排水沟",
+        "巷口斑驳木门框"
+      ]
+    },
+    {
+      "id": "S08",
+      "type": "M",
+      "scene": "nameless_alley",
+      "cast": "linxu",
+      "fact": "林旭站在巷口回头看向逐盏熄灭的路灯。",
+      "visual": "林旭立在巷口门槛上回头，身体朝向巷内，肩膀僵硬；远处街灯一盏亮一盏暗。",
+      "evidence": "他的脚仍在巷口边界，背后街道可读。",
+      "shot_type": "M",
+      "scene_id": "nameless_alley",
+      "has_character": true,
+      "character_ids": [
+        "linxu-20261115-episode"
+      ],
+      "line": "悬疑",
+      "step": "static",
+      "character_closeup": false,
+      "hands_visible": false,
+      "evidence_id": "",
+      "subject_class": "person",
+      "push_ratio": 0.0,
+      "needs_2048": false,
+      "location_anchors": [
+        "两侧高墙",
+        "墙根窄排水沟",
+        "巷口斑驳木门框"
+      ]
+    },
+    {
+      "id": "S40",
+      "type": "M",
+      "scene": "nameless_alley",
+      "cast": "linxu",
+      "fact": "林旭抬头辨认巷子尽头那块熟悉的蓝色灯牌。",
+      "visual": "林旭站在巷口边缘抬头看向远处蓝色灯牌，一只手握住手机，肩膀紧绷。",
+      "evidence": "他的视线方向与远处灯牌一致。",
+      "shot_type": "M",
+      "scene_id": "nameless_alley",
+      "has_character": true,
+      "character_ids": [
+        "linxu-20261115-episode"
+      ],
+      "line": "悬疑",
+      "step": "static",
+      "character_closeup": false,
+      "hands_visible": false,
+      "evidence_id": "",
+      "subject_class": "person",
+      "push_ratio": 0.0,
+      "needs_2048": false,
+      "location_anchors": [
+        "两侧高墙",
+        "墙根窄排水沟",
+        "巷口斑驳木门框"
+      ]
+    },
+    {
+      "id": "S09",
+      "type": "M",
+      "scene": "nameless_alley",
+      "cast": "linxu",
+      "fact": "林旭攥着手机走进巷子。",
+      "visual": "林旭沿墙根谨慎向巷内走，手机攥在右手，肩背略缩，脚步朝蓝色灯牌方向。",
+      "evidence": "巷口仍在身后，前方灯牌在远端。",
+      "shot_type": "M",
+      "scene_id": "nameless_alley",
+      "has_character": true,
+      "character_ids": [
+        "linxu-20261115-episode"
+      ],
+      "line": "悬疑",
+      "step": "static",
+      "character_closeup": false,
+      "hands_visible": false,
+      "evidence_id": "",
+      "subject_class": "person",
+      "push_ratio": 0.0,
+      "needs_2048": false,
+      "location_anchors": [
+        "两侧高墙",
+        "墙根窄排水沟",
+        "巷口斑驳木门框"
+      ]
+    },
+    {
+      "id": "S10",
+      "type": "M",
+      "scene": "nameless_alley",
+      "cast": "linxu",
+      "fact": "林旭在没有路灯的巷子里停步聆听。",
+      "visual": "林旭停在高墙之间，侧耳听向空巷，手里的手机屏幕发出微弱冷光。",
+      "evidence": "人物与窄巷的压迫距离明确，环境没有其他人。",
+      "shot_type": "M",
+      "scene_id": "nameless_alley",
+      "has_character": true,
+      "character_ids": [
+        "linxu-20261115-episode"
+      ],
+      "line": "悬疑",
+      "step": "static",
+      "character_closeup": false,
+      "hands_visible": false,
+      "evidence_id": "",
+      "subject_class": "person",
+      "push_ratio": 0.0,
+      "needs_2048": false,
+      "location_anchors": [
+        "两侧高墙",
+        "墙根窄排水沟",
+        "巷口斑驳木门框"
+      ]
+    },
+    {
+      "id": "S39",
+      "type": "E",
+      "scene": "nameless_alley",
+      "cast": "none",
+      "fact": "巷子中段没有岔路，两侧高墙夹出唯一通道。",
+      "visual": "固定机位沿巷子中段向两端看，高墙和窄排水沟将空间压成一条直通道，没有岔口。",
+      "evidence": "唯一通道和两端出口同时可辨。",
+      "shot_type": "E",
+      "scene_id": "nameless_alley",
+      "has_character": false,
+      "character_ids": [],
+      "line": "悬疑",
+      "step": "static",
+      "character_closeup": false,
+      "hands_visible": false,
+      "evidence_id": "",
+      "subject_class": "environment",
+      "push_ratio": 0.0,
+      "needs_2048": false,
+      "location_anchors": [
+        "两侧高墙",
+        "墙根窄排水沟",
+        "巷口斑驳木门框"
+      ]
+    },
+    {
+      "id": "S11",
+      "type": "C",
+      "scene": "nameless_alley",
+      "cast": "none",
+      "fact": "巷内墙根排水沟一直延伸到黑暗深处。",
+      "visual": "墙根排水沟和几块开裂地砖通向巷子深处，边上有旧扫帚和灰色塑料凳。",
+      "evidence": "地面连续透视强化巷子只有一条方向。",
+      "shot_type": "C",
+      "scene_id": "nameless_alley",
+      "has_character": false,
+      "character_ids": [],
+      "line": "悬疑",
+      "step": "static",
+      "character_closeup": false,
+      "hands_visible": false,
+      "evidence_id": "S11",
+      "subject_class": "environment",
+      "push_ratio": 0.0,
+      "needs_2048": false,
+      "location_anchors": [
+        "两侧高墙",
+        "墙根窄排水沟",
+        "巷口斑驳木门框"
+      ]
+    },
+    {
+      "id": "S12",
+      "type": "C",
+      "scene": "nameless_alley",
+      "cast": "linxu",
+      "fact": "林旭脚下越过巷内一条明显的地砖裂缝。",
+      "visual": "林旭的黑皮鞋迈过一条横穿巷道的裂缝，裤脚和手持手机的手入画，另一只脚还留在裂缝前。",
+      "evidence": "跨越裂缝的前后脚位置明确。",
+      "shot_type": "C",
+      "scene_id": "nameless_alley",
+      "has_character": true,
+      "character_ids": [
+        "linxu-20261115-episode"
+      ],
+      "line": "悬疑",
+      "step": "static",
+      "character_closeup": true,
+      "hands_visible": false,
+      "evidence_id": "S12",
+      "subject_class": "person",
+      "push_ratio": 0.0,
+      "needs_2048": false,
+      "location_anchors": [
+        "两侧高墙",
+        "墙根窄排水沟",
+        "巷口斑驳木门框"
+      ]
+    },
+    {
+      "id": "S41",
+      "type": "M",
+      "scene": "nameless_alley",
+      "cast": "linxu",
+      "fact": "林旭从巷子尽头跨回小区入口一侧。",
+      "visual": "林旭从巷道尽头跨到熟悉的灰色地砖上，身体仍朝向巷内，背后没有可见巷口。",
+      "evidence": "鞋子跨过巷道与小区地面的接缝。",
+      "shot_type": "M",
+      "scene_id": "nameless_alley",
+      "has_character": true,
+      "character_ids": [
+        "linxu-20261115-episode"
+      ],
+      "line": "悬疑",
+      "step": "static",
+      "character_closeup": false,
+      "hands_visible": false,
+      "evidence_id": "",
+      "subject_class": "person",
+      "push_ratio": 0.0,
+      "needs_2048": false,
+      "location_anchors": [
+        "两侧高墙",
+        "墙根窄排水沟",
+        "巷口斑驳木门框"
+      ]
+    },
+    {
+      "id": "S42",
+      "type": "C",
+      "scene": "nameless_alley",
+      "cast": "none",
+      "fact": "巷子尽头的墙面封闭，没有开口通往小区。",
+      "visual": "巷子尽头墙体与排水沟相接的静物近景，墙面连续无洞口，边上有旧扫帚和裂纹地砖。",
+      "evidence": "连续墙面没有门洞或通道。",
+      "shot_type": "C",
+      "scene_id": "nameless_alley",
+      "has_character": false,
+      "character_ids": [],
+      "line": "悬疑",
+      "step": "static",
+      "character_closeup": false,
+      "hands_visible": false,
+      "evidence_id": "S42",
+      "subject_class": "environment",
+      "push_ratio": 0.0,
+      "needs_2048": false,
+      "location_anchors": [
+        "两侧高墙",
+        "墙根窄排水沟",
+        "巷口斑驳木门框"
+      ]
+    },
+    {
+      "id": "S13",
+      "type": "E",
+      "scene": "apartment_entry",
+      "cast": "none",
+      "fact": "单元楼门口的绿色信箱和缺角地砖标出熟悉的小区入口。",
+      "visual": "旧小区单元入口外景，铁门旁一排掉漆绿色信箱，门内是灰色楼梯和停放的旧自行车。",
+      "evidence": "铁门、信箱、地砖构成稳定入口锚点。",
+      "shot_type": "E",
+      "scene_id": "apartment_entry",
+      "has_character": false,
+      "character_ids": [],
+      "line": "悬疑",
+      "step": "static",
+      "character_closeup": false,
+      "hands_visible": false,
+      "evidence_id": "",
+      "subject_class": "environment",
+      "push_ratio": 0.0,
+      "needs_2048": false,
+      "location_anchors": [
+        "旧小区铁门",
+        "掉漆绿色信箱",
+        "缺角灰色地砖"
+      ]
+    },
+    {
+      "id": "S14",
+      "type": "E",
+      "scene": "apartment_entry",
+      "cast": "none",
+      "fact": "单元门内侧是通往楼梯的平台，没有巷口。",
+      "visual": "从楼梯平台看向关闭的单元铁门，门边绿色信箱和几辆旧自行车，墙面有水渍。",
+      "evidence": "门外只有围墙和街道，没有隐藏通道。",
+      "shot_type": "E",
+      "scene_id": "apartment_entry",
+      "has_character": false,
+      "character_ids": [],
+      "line": "悬疑",
+      "step": "static",
+      "character_closeup": false,
+      "hands_visible": false,
+      "evidence_id": "",
+      "subject_class": "environment",
+      "push_ratio": 0.0,
+      "needs_2048": false,
+      "location_anchors": [
+        "旧小区铁门",
+        "掉漆绿色信箱",
+        "缺角灰色地砖"
+      ]
+    },
+    {
+      "id": "S15",
+      "type": "M",
+      "scene": "apartment_entry",
+      "cast": "linxu",
+      "fact": "林旭从小区门口走向单元楼。",
+      "visual": "林旭从铁门走进小区，经过绿色信箱和旧自行车，疲惫地向楼梯走去。",
+      "evidence": "同一外套和黑皮鞋，行走方向通向楼梯。",
+      "shot_type": "M",
+      "scene_id": "apartment_entry",
+      "has_character": true,
+      "character_ids": [
+        "linxu-20261115-episode"
+      ],
+      "line": "悬疑",
+      "step": "static",
+      "character_closeup": false,
+      "hands_visible": false,
+      "evidence_id": "",
+      "subject_class": "person",
+      "push_ratio": 0.0,
+      "needs_2048": false,
+      "location_anchors": [
+        "旧小区铁门",
+        "掉漆绿色信箱",
+        "缺角灰色地砖"
+      ]
+    },
+    {
+      "id": "S16",
+      "type": "M",
+      "scene": "apartment_entry",
+      "cast": "linxu",
+      "fact": "林旭站在楼下回头确认身后的墙没有巷口。",
+      "visual": "林旭站在单元楼入口内回头看向围墙，手扶旧门框，墙外没有门洞。",
+      "evidence": "门框、信箱和围墙关系清晰。",
+      "shot_type": "M",
+      "scene_id": "apartment_entry",
+      "has_character": true,
+      "character_ids": [
+        "linxu-20261115-episode"
+      ],
+      "line": "悬疑",
+      "step": "static",
+      "character_closeup": false,
+      "hands_visible": false,
+      "evidence_id": "",
+      "subject_class": "person",
+      "push_ratio": 0.0,
+      "needs_2048": false,
+      "location_anchors": [
+        "旧小区铁门",
+        "掉漆绿色信箱",
+        "缺角灰色地砖"
+      ]
+    },
+    {
+      "id": "S17",
+      "type": "C",
+      "scene": "apartment_entry",
+      "cast": "none",
+      "fact": "单元楼外侧围墙连续封住了巷子可能出现的位置。",
+      "visual": "小区外墙与铁门相接处的静物近景，墙体连续无开口，铁门铰链锈迹和水渍清晰。",
+      "evidence": "连续墙面直接否定实体巷口。",
+      "shot_type": "C",
+      "scene_id": "apartment_entry",
+      "has_character": false,
+      "character_ids": [],
+      "line": "悬疑",
+      "step": "static",
+      "character_closeup": false,
+      "hands_visible": false,
+      "evidence_id": "S17",
+      "subject_class": "environment",
+      "push_ratio": 0.0,
+      "needs_2048": false,
+      "location_anchors": [
+        "旧小区铁门",
+        "掉漆绿色信箱",
+        "缺角灰色地砖"
+      ]
+    },
+    {
+      "id": "S18",
+      "type": "M",
+      "scene": "apartment_entry",
+      "cast": "linxu",
+      "fact": "林旭回家后将手机和钥匙放在玄关柜上。",
+      "visual": "林旭进屋后在玄关柜前放下手机与钥匙，身体还朝着刚关上的门。",
+      "evidence": "玄关、门、柜面三者同框。",
+      "shot_type": "M",
+      "scene_id": "apartment_entry",
+      "has_character": true,
+      "character_ids": [
+        "linxu-20261115-episode"
+      ],
+      "line": "悬疑",
+      "step": "static",
+      "character_closeup": false,
+      "hands_visible": false,
+      "evidence_id": "",
+      "subject_class": "person",
+      "push_ratio": 0.0,
+      "needs_2048": false,
+      "location_anchors": [
+        "旧小区铁门",
+        "掉漆绿色信箱",
+        "缺角灰色地砖"
+      ]
+    },
+    {
+      "id": "S43",
+      "type": "M",
+      "scene": "apartment_entry",
+      "cast": "linxu",
+      "fact": "林旭在单元楼下停住脚步，确认自己已回到家。",
+      "visual": "林旭站在绿色信箱旁抬头看向熟悉的单元楼，手机握在手中，门内楼梯灯亮着。",
+      "evidence": "信箱和楼梯入口共同标明地点。",
+      "shot_type": "M",
+      "scene_id": "apartment_entry",
+      "has_character": true,
+      "character_ids": [
+        "linxu-20261115-episode"
+      ],
+      "line": "悬疑",
+      "step": "static",
+      "character_closeup": false,
+      "hands_visible": false,
+      "evidence_id": "",
+      "subject_class": "person",
+      "push_ratio": 0.0,
+      "needs_2048": false,
+      "location_anchors": [
+        "旧小区铁门",
+        "掉漆绿色信箱",
+        "缺角灰色地砖"
+      ]
+    },
+    {
+      "id": "S19",
+      "type": "E",
+      "scene": "bedroom",
+      "cast": "none",
+      "fact": "卧室、床边和通往玄关的窄走廊同处一室。",
+      "visual": "从卧室门外远看小户型卧室，床靠右侧墙，床边木地板接缝延伸向玄关走廊。",
+      "evidence": "床与门口的相对位置明确，留下前中后景。",
+      "shot_type": "E",
+      "scene_id": "bedroom",
+      "has_character": false,
+      "character_ids": [],
+      "line": "悬疑",
+      "step": "static",
+      "character_closeup": false,
+      "hands_visible": false,
+      "evidence_id": "",
+      "subject_class": "environment",
+      "push_ratio": 0.0,
+      "needs_2048": false,
+      "location_anchors": [
+        "床边木地板接缝",
+        "床头旧充电线",
+        "通往玄关的窄走廊"
+      ]
+    },
+    {
+      "id": "S20",
+      "type": "E",
+      "scene": "bedroom",
+      "cast": "none",
+      "fact": "床边旧充电线连接手机，玄关走廊在远处。",
+      "visual": "床头桌上有旧充电线和磨损台灯，远处窄走廊通向玄关，门框掉漆。",
+      "evidence": "充电线、手机位置和走廊方向明确。",
+      "shot_type": "E",
+      "scene_id": "bedroom",
+      "has_character": false,
+      "character_ids": [],
+      "line": "悬疑",
+      "step": "static",
+      "character_closeup": false,
+      "hands_visible": false,
+      "evidence_id": "",
+      "subject_class": "environment",
+      "push_ratio": 0.0,
+      "needs_2048": false,
+      "location_anchors": [
+        "床边木地板接缝",
+        "床头旧充电线",
+        "通往玄关的窄走廊"
+      ]
+    },
+    {
+      "id": "S21",
+      "type": "M",
+      "scene": "bedroom",
+      "cast": "linxu",
+      "fact": "林旭把两只拖鞋随意踢在玄关边。",
+      "visual": "林旭弯腰脱下黑皮鞋，脚边两只拖鞋被随意踢开，一只朝墙一只朝门。",
+      "evidence": "双鞋朝向不一致，人物动作明确。",
+      "shot_type": "M",
+      "scene_id": "bedroom",
+      "has_character": true,
+      "character_ids": [
+        "linxu-20261115-episode"
+      ],
+      "line": "悬疑",
+      "step": "static",
+      "character_closeup": false,
+      "hands_visible": false,
+      "evidence_id": "",
+      "subject_class": "person",
+      "push_ratio": 0.0,
+      "needs_2048": false,
+      "location_anchors": [
+        "床边木地板接缝",
+        "床头旧充电线",
+        "通往玄关的窄走廊"
+      ]
+    },
+    {
+      "id": "S22",
+      "type": "M",
+      "scene": "bedroom",
+      "cast": "linxu",
+      "fact": "第二天林旭站在门边看见拖鞋并排朝向屋内。",
+      "visual": "林旭背对镜头站在玄关门边，低头看两只并排朝内的拖鞋，手里还拿着公文包。",
+      "evidence": "鞋的排列和他的视线同时清楚。",
+      "shot_type": "M",
+      "scene_id": "bedroom",
+      "has_character": true,
+      "character_ids": [
+        "linxu-20261115-episode"
+      ],
+      "line": "悬疑",
+      "step": "static",
+      "character_closeup": false,
+      "hands_visible": false,
+      "evidence_id": "",
+      "subject_class": "person",
+      "push_ratio": 0.0,
+      "needs_2048": false,
+      "location_anchors": [
+        "床边木地板接缝",
+        "床头旧充电线",
+        "通往玄关的窄走廊"
+      ]
+    },
+    {
+      "id": "S23",
+      "type": "C",
+      "scene": "bedroom",
+      "cast": "none",
+      "fact": "两只拖鞋并排摆好，鞋尖都朝向屋内。",
+      "visual": "一双旧拖鞋在磨损木地板上整齐并排，鞋尖朝向房间深处，墙根有细小刮痕。",
+      "evidence": "鞋尖方向占据画面中心偏左，无遮挡。",
+      "shot_type": "C",
+      "scene_id": "bedroom",
+      "has_character": false,
+      "character_ids": [],
+      "line": "悬疑",
+      "step": "static",
+      "character_closeup": false,
+      "hands_visible": false,
+      "evidence_id": "S23",
+      "subject_class": "environment",
+      "push_ratio": 0.0,
+      "needs_2048": false,
+      "location_anchors": [
+        "床边木地板接缝",
+        "床头旧充电线",
+        "通往玄关的窄走廊"
+      ]
+    },
+    {
+      "id": "S24",
+      "type": "M",
+      "scene": "bedroom",
+      "cast": "linxu",
+      "fact": "林旭把一只拖鞋翻成鞋底朝上并拍照。",
+      "visual": "林旭蹲在玄关边，用手机拍下鞋底朝上的拖鞋，另一只鞋仍歪在一旁。",
+      "evidence": "鞋底、手机取景动作和另一只鞋都可见。",
+      "shot_type": "M",
+      "scene_id": "bedroom",
+      "has_character": true,
+      "character_ids": [
+        "linxu-20261115-episode"
+      ],
+      "line": "悬疑",
+      "step": "static",
+      "character_closeup": false,
+      "hands_visible": false,
+      "evidence_id": "",
+      "subject_class": "person",
+      "push_ratio": 0.0,
+      "needs_2048": false,
+      "location_anchors": [
+        "床边木地板接缝",
+        "床头旧充电线",
+        "通往玄关的窄走廊"
+      ]
+    },
+    {
+      "id": "S25",
+      "type": "C",
+      "scene": "bedroom",
+      "cast": "none",
+      "fact": "林旭拍照标记过的拖鞋又被摆回并排朝内。",
+      "visual": "玄关木地板上两只拖鞋再次并排朝内，其中一只鞋底略有磨损，手机照片不入画。",
+      "evidence": "鞋的方向和成对排列清晰。",
+      "shot_type": "C",
+      "scene_id": "bedroom",
+      "has_character": false,
+      "character_ids": [],
+      "line": "悬疑",
+      "step": "static",
+      "character_closeup": false,
+      "hands_visible": false,
+      "evidence_id": "S25",
+      "subject_class": "environment",
+      "push_ratio": 0.0,
+      "needs_2048": false,
+      "location_anchors": [
+        "床边木地板接缝",
+        "床头旧充电线",
+        "通往玄关的窄走廊"
+      ]
+    },
+    {
+      "id": "S44",
+      "type": "E",
+      "scene": "bedroom",
+      "cast": "none",
+      "fact": "床与卧室门分处房间两端，门外连接玄关走廊。",
+      "visual": "从卧室门外远看整间卧室，床靠房间深处，门内侧接向窄玄关走廊，空间关系完整。",
+      "evidence": "床、门和走廊连成一条可读路径。",
+      "shot_type": "E",
+      "scene_id": "bedroom",
+      "has_character": false,
+      "character_ids": [],
+      "line": "悬疑",
+      "step": "static",
+      "character_closeup": false,
+      "hands_visible": false,
+      "evidence_id": "",
+      "subject_class": "environment",
+      "push_ratio": 0.0,
+      "needs_2048": false,
+      "location_anchors": [
+        "床边木地板接缝",
+        "床头旧充电线",
+        "通往玄关的窄走廊"
+      ]
+    },
+    {
+      "id": "S26",
+      "type": "M",
+      "scene": "bedroom",
+      "cast": "linxu",
+      "fact": "林旭站在玄关门外握着钥匙迟迟没有开门。",
+      "visual": "林旭站在旧单元门外，钥匙悬在锁孔前，脸朝门缝，背后楼道空无一人。",
+      "evidence": "钥匙尚未插入锁孔。",
+      "shot_type": "M",
+      "scene_id": "bedroom",
+      "has_character": true,
+      "character_ids": [
+        "linxu-20261115-episode"
+      ],
+      "line": "悬疑",
+      "step": "static",
+      "character_closeup": false,
+      "hands_visible": false,
+      "evidence_id": "",
+      "subject_class": "person",
+      "push_ratio": 0.0,
+      "needs_2048": false,
+      "location_anchors": [
+        "床边木地板接缝",
+        "床头旧充电线",
+        "通往玄关的窄走廊"
+      ]
+    },
+    {
+      "id": "S27",
+      "type": "M",
+      "scene": "bedroom",
+      "cast": "linxu",
+      "fact": "林旭在卧室里听见门外没有回应。",
+      "visual": "林旭坐在床沿握着手机望向卧室门，门外窄走廊空着，床边木地板接缝可见。",
+      "evidence": "卧室门与空走廊方向一致。",
+      "shot_type": "M",
+      "scene_id": "bedroom",
+      "has_character": true,
+      "character_ids": [
+        "linxu-20261115-episode"
+      ],
+      "line": "悬疑",
+      "step": "static",
+      "character_closeup": false,
+      "hands_visible": false,
+      "evidence_id": "",
+      "subject_class": "person",
+      "push_ratio": 0.0,
+      "needs_2048": false,
+      "location_anchors": [
+        "床边木地板接缝",
+        "床头旧充电线",
+        "通往玄关的窄走廊"
+      ]
+    },
+    {
+      "id": "S28",
+      "type": "C",
+      "scene": "bedroom",
+      "cast": "none",
+      "fact": "床边手机屏幕上出现第二个淡蓝定位点。",
+      "visual": "床头手机俯视近景，抽象无字地图上两个淡蓝圆点紧挨着；手机旁是磨损充电线和水渍桌面。",
+      "evidence": "两个独立圆点明确分开，不出现文字或图标。",
+      "shot_type": "C",
+      "scene_id": "bedroom",
+      "has_character": false,
+      "character_ids": [],
+      "line": "悬疑",
+      "step": "static",
+      "character_closeup": false,
+      "hands_visible": false,
+      "evidence_id": "S28",
+      "subject_class": "environment",
+      "push_ratio": 0.0,
+      "needs_2048": false,
+      "location_anchors": [
+        "床边木地板接缝",
+        "床头旧充电线",
+        "通往玄关的窄走廊"
+      ]
+    },
+    {
+      "id": "S29",
+      "type": "M",
+      "scene": "bedroom",
+      "cast": "linxu",
+      "fact": "林旭坐在床头盯着手机上的两个定位点。",
+      "visual": "林旭坐在床沿，肩膀僵硬，手机在手中，视线锁定屏幕；卧室门留在远景。",
+      "evidence": "脸部反应和屏幕亮光同框，另一点不画成实体人。",
+      "shot_type": "M",
+      "scene_id": "bedroom",
+      "has_character": true,
+      "character_ids": [
+        "linxu-20261115-episode"
+      ],
+      "line": "悬疑",
+      "step": "static",
+      "character_closeup": false,
+      "hands_visible": false,
+      "evidence_id": "",
+      "subject_class": "person",
+      "push_ratio": 0.0,
+      "needs_2048": false,
+      "location_anchors": [
+        "床边木地板接缝",
+        "床头旧充电线",
+        "通往玄关的窄走廊"
+      ]
+    },
+    {
+      "id": "S30",
+      "type": "C",
+      "scene": "bedroom",
+      "cast": "none",
+      "fact": "两个定位点重叠后只剩颜色变浅的一个点。",
+      "visual": "无字手机地图屏幕抽象示意，两个浅蓝圆点刚刚重合成为一个颜色更淡的圆点，纯平面图形而非真实软件界面。",
+      "evidence": "一个圆点与底图对比清楚。",
+      "shot_type": "C",
+      "scene_id": "bedroom",
+      "has_character": false,
+      "character_ids": [],
+      "line": "悬疑",
+      "step": "static",
+      "character_closeup": false,
+      "hands_visible": false,
+      "evidence_id": "S30",
+      "subject_class": "environment",
+      "push_ratio": 0.0,
+      "needs_2048": false,
+      "location_anchors": [
+        "床边木地板接缝",
+        "床头旧充电线",
+        "通往玄关的窄走廊"
+      ]
+    },
+    {
+      "id": "S45",
+      "type": "E",
+      "scene": "bedroom",
+      "cast": "none",
+      "fact": "卧室门外的走廊空无一人，尽头是玄关门。",
+      "visual": "固定机位从床边看向打开的卧室门，窄走廊通往最远处的玄关门，地面没有人影。",
+      "evidence": "空走廊与关闭的玄关门同框。",
+      "shot_type": "E",
+      "scene_id": "bedroom",
+      "has_character": false,
+      "character_ids": [],
+      "line": "悬疑",
+      "step": "static",
+      "character_closeup": false,
+      "hands_visible": false,
+      "evidence_id": "",
+      "subject_class": "environment",
+      "push_ratio": 0.0,
+      "needs_2048": false,
+      "location_anchors": [
+        "床边木地板接缝",
+        "床头旧充电线",
+        "通往玄关的窄走廊"
+      ]
+    },
+    {
+      "id": "S31",
+      "type": "M",
+      "scene": "bedroom",
+      "cast": "linxu",
+      "fact": "林旭发现床边圆点没有对应任何可见的人。",
+      "visual": "林旭坐在床沿抬头看向床边空地，手机屏幕还亮着，床下和门口都空无一人。",
+      "evidence": "床边空地与林旭的注视方向同框。",
+      "shot_type": "M",
+      "scene_id": "bedroom",
+      "has_character": true,
+      "character_ids": [
+        "linxu-20261115-episode"
+      ],
+      "line": "悬疑",
+      "step": "static",
+      "character_closeup": false,
+      "hands_visible": false,
+      "evidence_id": "",
+      "subject_class": "person",
+      "push_ratio": 0.0,
+      "needs_2048": false,
+      "location_anchors": [
+        "床边木地板接缝",
+        "床头旧充电线",
+        "通往玄关的窄走廊"
+      ]
+    },
+    {
+      "id": "S32",
+      "type": "C",
+      "scene": "bedroom",
+      "cast": "none",
+      "fact": "导航路线从床边穿过玄关通向楼外小巷。",
+      "visual": "手机屏幕上的抽象无字路线从简化床形图标旁延伸到门口，再沿街道折向一条窄巷；不出现文字、数字、真实品牌界面。",
+      "evidence": "路线的起点、转折和终点巷口清楚。",
+      "shot_type": "C",
+      "scene_id": "bedroom",
+      "has_character": false,
+      "character_ids": [],
+      "line": "悬疑",
+      "step": "static",
+      "character_closeup": false,
+      "hands_visible": false,
+      "evidence_id": "S32",
+      "subject_class": "environment",
+      "push_ratio": 0.0,
+      "needs_2048": false,
+      "location_anchors": [
+        "床边木地板接缝",
+        "床头旧充电线",
+        "通往玄关的窄走廊"
+      ]
+    },
+    {
+      "id": "S33",
+      "type": "M",
+      "scene": "bedroom",
+      "cast": "linxu",
+      "fact": "林旭坐在原地，而地图上的一个圆点离开床位。",
+      "visual": "林旭僵坐在床沿、双手没有动作；手机上的抽象路线旁一个蓝点离开床边位置，另一个仍与他重合。",
+      "evidence": "人物静止与一个点移动形成同框对照。",
+      "shot_type": "M",
+      "scene_id": "bedroom",
+      "has_character": true,
+      "character_ids": [
+        "linxu-20261115-episode"
+      ],
+      "line": "悬疑",
+      "step": "static",
+      "character_closeup": false,
+      "hands_visible": false,
+      "evidence_id": "",
+      "subject_class": "person",
+      "push_ratio": 0.0,
+      "needs_2048": false,
+      "location_anchors": [
+        "床边木地板接缝",
+        "床头旧充电线",
+        "通往玄关的窄走廊"
+      ]
+    },
+    {
+      "id": "S34",
+      "type": "M",
+      "scene": "bedroom",
+      "cast": "none",
+      "fact": "卧室门外的拖鞋声沿走廊逐步接近玄关。",
+      "visual": "从卧室门内看向狭窄走廊，门外地板空着，两只拖鞋的影子没有出现；玄关门在最远处。",
+      "evidence": "空走廊长度和玄关门的位置可辨，不画人或怪物。",
+      "shot_type": "M",
+      "scene_id": "bedroom",
+      "has_character": false,
+      "character_ids": [],
+      "line": "悬疑",
+      "step": "static",
+      "character_closeup": false,
+      "hands_visible": false,
+      "evidence_id": "",
+      "subject_class": "environment",
+      "push_ratio": 0.0,
+      "needs_2048": false,
+      "location_anchors": [
+        "床边木地板接缝",
+        "床头旧充电线",
+        "通往玄关的窄走廊"
+      ]
+    },
+    {
+      "id": "S35",
+      "type": "C",
+      "scene": "bedroom",
+      "cast": "none",
+      "fact": "玄关门锁在无人触碰时转动了一下。",
+      "visual": "旧玄关门把手与锁舌近景，锁芯轻微转动，门外楼道在门缝中空无一人。",
+      "evidence": "手不入画，锁芯转动通过细小角度变化表达。",
+      "shot_type": "C",
+      "scene_id": "bedroom",
+      "has_character": false,
+      "character_ids": [],
+      "line": "悬疑",
+      "step": "static",
+      "character_closeup": false,
+      "hands_visible": false,
+      "evidence_id": "S35",
+      "subject_class": "environment",
+      "push_ratio": 0.0,
+      "needs_2048": false,
+      "location_anchors": [
+        "床边木地板接缝",
+        "床头旧充电线",
+        "通往玄关的窄走廊"
+      ]
+    },
+    {
+      "id": "S46",
+      "type": "E",
+      "scene": "bedroom",
+      "cast": "none",
+      "fact": "玄关到床边之间没有第二条通路。",
+      "visual": "从玄关朝卧室内部看，狭窄走廊只通向床边，门框与木地板连续无侧门。",
+      "evidence": "走廊只有一条路径，墙面有旧水渍和擦痕。",
+      "shot_type": "E",
+      "scene_id": "bedroom",
+      "has_character": false,
+      "character_ids": [],
+      "line": "悬疑",
+      "step": "static",
+      "character_closeup": false,
+      "hands_visible": false,
+      "evidence_id": "",
+      "subject_class": "environment",
+      "push_ratio": 0.0,
+      "needs_2048": false,
+      "location_anchors": [
+        "床边木地板接缝",
+        "床头旧充电线",
+        "通往玄关的窄走廊"
+      ]
+    },
+    {
+      "id": "S47",
+      "type": "M",
+      "scene": "bedroom",
+      "cast": "none",
+      "fact": "地图上的蓝点已经移动到玄关门口。",
+      "visual": "无字抽象地图中一个蓝色圆点沿直线移动到门口符号旁，手机边缘与旧充电线入画，不出现真实软件界面。",
+      "evidence": "圆点位置与代表门口的简化形状关系清楚。",
+      "shot_type": "M",
+      "scene_id": "bedroom",
+      "has_character": false,
+      "character_ids": [],
+      "line": "悬疑",
+      "step": "static",
+      "character_closeup": false,
+      "hands_visible": false,
+      "evidence_id": "",
+      "subject_class": "environment",
+      "push_ratio": 0.0,
+      "needs_2048": false,
+      "location_anchors": [
+        "床边木地板接缝",
+        "床头旧充电线",
+        "通往玄关的窄走廊"
+      ]
+    },
+    {
+      "id": "S48",
+      "type": "M",
+      "scene": "bedroom",
+      "cast": "none",
+      "fact": "地图上的移动蓝点穿出楼栋并转向街道。",
+      "visual": "抽象无字路线图上一个蓝点从简化楼栋轮廓移出，沿线折向街道一侧，另一个点仍留在楼栋位置。",
+      "evidence": "两个点分离，移动方向从室内指向室外。",
+      "shot_type": "M",
+      "scene_id": "bedroom",
+      "has_character": false,
+      "character_ids": [],
+      "line": "悬疑",
+      "step": "static",
+      "character_closeup": false,
+      "hands_visible": false,
+      "evidence_id": "",
+      "subject_class": "environment",
+      "push_ratio": 0.0,
+      "needs_2048": false,
+      "location_anchors": [
+        "床边木地板接缝",
+        "床头旧充电线",
+        "通往玄关的窄走廊"
+      ]
+    },
+    {
+      "id": "S36",
+      "type": "M",
+      "scene": "bedroom",
+      "cast": "linxu",
+      "fact": "地图上的一个点停在楼外，另一个点仍留在林旭身上。",
+      "visual": "林旭坐在床沿低头看手机，抽象地图上一个蓝点停在路线远端，另一个留在床边与人物位置重合；房门远景微开。",
+      "evidence": "两点分离、人物静止、门口三个关系清晰。",
+      "shot_type": "M",
+      "scene_id": "bedroom",
+      "has_character": true,
+      "character_ids": [
+        "linxu-20261115-episode"
+      ],
+      "line": "悬疑",
+      "step": "static",
+      "character_closeup": false,
+      "hands_visible": false,
+      "evidence_id": "",
+      "subject_class": "person",
+      "push_ratio": 0.0,
+      "needs_2048": false,
+      "location_anchors": [
+        "床边木地板接缝",
+        "床头旧充电线",
+        "通往玄关的窄走廊"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+ "fps": 24,
+ "total_intro_s": 14.292,
+ "intro_frames": 343,
+ "body_tail_s": 4.0,
+ "title": {
+  "text": "夜跑路线",
+  "start": 11.042,
+  "dur": 3.0
+ },
+ "hooks": [
+  {
+   "key": "hook1",
+   "start": 0.5,
+   "dur": 3.18,
+   "text": "跑步机三个月没通电，今晚自己亮了。"
+  },
+  {
+   "key": "hook2",
+   "start": 4.167,
+   "dur": 3.38,
+   "text": "屏幕上有人在跑，路线是他家楼下。"
+  },
+  {
+   "key": "hook3",
+   "start": 8.042,
+   "dur": 2.7,
+   "text": "他按了暂停，画面没有停。"
+  }
+ ],
+ "bg_cuts": [
+  0.0,
+  4.167,
+  8.042,
+  11.042,
+  14.292
+ ],
+ "sources": [
+  "E:\\program\\1project\\video\\projects\\悬疑\\episodes\\20261109-nightrun\\image\\stills\\S07.png",
+  "E:\\program\\1project\\video\\projects\\悬疑\\episodes\\20261109-nightrun\\image\\stills\\S03.png",
+  "E:\\program\\1project\\video\\projects\\悬疑\\episodes\\20261109-nightrun\\image\\stills\\S11.png",
+  "E:\\program\\1project\\video\\projects\\悬疑\\episodes\\20261109-nightrun\\image\\stills\\S10.png"
+ ],
+ "body_tail_source": "E:\\program\\1project\\video\\projects\\悬疑\\episodes\\20261109-nightrun\\video\\graded-v2\\S01.mp4"
+}

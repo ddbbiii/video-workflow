@@ -1,0 +1,5 @@
+file 'E:/program/1project/video/projects/悬疑/episodes/20261112-tuoshui/intro/v3/motion-bg/hook1_machine.mp4'
+file 'E:/program/1project/video/projects/悬疑/episodes/20261112-tuoshui/intro/v3/motion-bg/hook1_phone.mp4'
+file 'E:/program/1project/video/projects/悬疑/episodes/20261112-tuoshui/intro/v3/motion-bg/hook2_pipe.mp4'
+file 'E:/program/1project/video/projects/悬疑/episodes/20261112-tuoshui/intro/v3/motion-bg/hook3_pair.mp4'
+file 'E:/program/1project/video/projects/悬疑/episodes/20261112-tuoshui/intro/v3/motion-bg/title.mp4'

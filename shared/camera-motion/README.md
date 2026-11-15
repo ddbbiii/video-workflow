@@ -1,6 +1,6 @@
 # 通用静帧运镜
 
-各助手执行推拉平移前请读取 [共享运镜规则](MOTION_GUIDELINES.md)。其中具体幅度、时长和缓冲参数仅供参考，需逐镜调整。
+各助手执行推拉平移前请读取 [共享运镜规则](MOTION_GUIDELINES.md)。具体幅度、时长和缓冲参数需逐镜调整，但不得低于其中的默认下限；渲染前先跑 `validate_plan.py`。
 
 适用于任何主题。引擎不内置助眠、悬疑或科普节奏，不修改图片、配音或字幕。支持已验证的浮点仿射后端，以及可选的 Blender 正交相机后端。默认仍是 `affine`；缺少 Blender 时请求 `backend:blender` 会明确报错，不会静默回退。
 
@@ -12,6 +12,7 @@
 $py = "E:\program\language\python\Python-3.11.0\python.exe"
 $env:CAMERA_MOTION_BLENDER = "E:\program\blender\4.5.14\blender-4.5.14-windows-x64\blender.exe"  # 可选
 
+& $py shared/camera-motion/validate_plan.py path/to/plan.json
 & $py shared/camera-motion/camera_motion.py path/to/plan.json --out path/to/new-run --validate-only
 & $py shared/camera-motion/camera_motion.py path/to/plan.json --out path/to/new-run
 & $py shared/camera-motion/camera_motion.py path/to/plan.json --out path/to/new-run --resume

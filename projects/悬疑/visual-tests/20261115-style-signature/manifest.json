@@ -1,0 +1,485 @@
+{
+ "run": "20261115-style-signature",
+ "generated_at": "2026-11-15T05:29:03",
+ "channel": "new2",
+ "policy": "v7-new2-dklb-parallel#pin:new2",
+ "size": "1672x941",
+ "print_pos": "desaturated screen-printed comic panel, flat posterized colour, three flat tones per surface, no gradients anywhere, bold black ink linework on walls, doors and props, hard-edged shadow shapes, cold grey-green palette, coarse paper grain, one small warm practical light as a flat warm shape, ordinary Chinese urban interior, 16:9",
+ "v3_pos": "desaturated screen-printed comic panel, flat posterized colour, exactly three flat tones per surface, no gradients, bold black ink linework on walls, doors and props, hard-edged shadow shapes, cold grey-blue palette, no green cast, lamps and windows are pale grey-white flat shapes with no glow, no halo, no volumetric beam, coarse paper grain, ordinary Chinese urban interior, 16:9",
+ "print_neg": "photographic, photorealistic, volumetric light, dust motes, texture detail, soft gradient, bokeh, shallow depth of field, 3d render, cgi, glossy, painterly, concept art, film still, cinematic still, clean new building, spotless, showroom, chibi, big eyes, text, letters, numbers, watermark, UI, gore, monster",
+ "spot": {
+  "A1": "spot colour: only the yellow plastic stool is fully saturated; every other surface stays grey-green",
+  "B2": "spot colour: only the warm bulb is fully saturated amber; every other surface stays grey-green",
+  "C1": "spot colour: only the red cord on the key is fully saturated red; the key, mug and table stay grey-green",
+  "D1": "spot colour: only the light beyond the far doorway is fully saturated amber; every other surface stays grey-green"
+ },
+ "spot_v3": {
+  "A1": "spot colour: only the red plastic stool is saturated red; everything else, including the lamps, is grey-blue",
+  "B2": "spot colour: only the small red indicator light on the electrical meter box is saturated red; the bulb and the sky are pale grey-white, everything else grey-blue",
+  "C1": "spot colour: only the red cord tied to the key is saturated red; the key, the mug and the lamp are grey",
+  "D1": "spot colour: only the red bucket at the far end of the corridor is saturated red; the far doorway light is pale grey-white, everything else grey-blue"
+ },
+ "results": [
+  {
+   "variant": "v0",
+   "source_tag": "A1",
+   "ok": true,
+   "file": "raw/A1-v0.png",
+   "rebuilt": true,
+   "dims": [
+    1672,
+    941
+   ],
+   "metrics": {
+    "std_lum": 26.7,
+    "mean_lum": 62.4,
+    "mean_sat": 34.3,
+    "lap_var": 135.1,
+    "delivery_lap_var": 83.0
+   },
+   "qa": [
+    "std_lum None < 18",
+    "lap_var None < 60",
+    "delivery_lap_var None < 15"
+   ],
+   "elapsed_s": null,
+   "prompt": "desaturated graphic-novel panel, mature simplified cel-shaded anime characters, flat color blocks with hard-edged cel shadows, clean ink linework, cold grey-blue palette, one controlled warm practical light, ordinary Chinese urban interior or street, worn and lived-in surfaces, legible horror staging, clear foreground subject and evidence prop, slightly off-center composition, deep focus, layered foreground occlusion in wide shots, volumetric dust in cold window light, 16:9, 2D cel animation key visual, flat unshaded color areas, hard-edged shadow shapes, no gradients on fabric or walls, clean black linework, anime screencap, camera: medium position, eye level, standing at the stair landing looking down the corridor; lens: 24mm wide-angle, deep focus, near and far both readable; composition: the corridor recedes along the right third line, off-center, never symmetrical; foreground: a rusted steel door frame and the peeling dark-green edge of its door press the left quarter, subject: no people, an empty fourth-floor corridor of an old six-storey walk-up in a southern Chinese city, layers: foreground: the door frame with a strip of grey duct tape across its corner; middle ground: a yellowed plastic stool beside a taped-over electrical junction box, a folded drying rack with two dark shirts hanging on it; background: the far window at the corridor end, its frame swollen and repainted three times, cold grey dusk light beyond it, decay: peeling green paint along the skirting, a dark water stain spreading down from the window frame, rust bleeding from the door hinge, scuffed skirting board, light: cold grey window light from the far end, one single warm practical light leaking under one closed door on the left as the only warm spot in frame, hard constraints: no people, no readable text, no printed signs, no door numbers, no posters, no UI, no glitch bars, Avoid: photograph, photorealistic, 3d render, cgi, live action, film still, cinematic still, 35mm, shallow depth of field, bokeh, motion blur, glossy skin, hyperreal texture, clean new building, spotless, pristine, showroom, symmetrical centered hero shot, chibi, big eyes, text, letters, numbers, labels, watermark, UI, logo, gore, monster, jump-scare face"
+  },
+  {
+   "variant": "v1",
+   "source_tag": "A1",
+   "ok": true,
+   "file": "raw/A1-v1.png",
+   "rebuilt": true,
+   "dims": [
+    1672,
+    941
+   ],
+   "metrics": {
+    "std_lum": 28.8,
+    "mean_lum": 62.2,
+    "mean_sat": 48.2,
+    "lap_var": 385.2,
+    "delivery_lap_var": 235.6
+   },
+   "qa": [
+    "std_lum None < 18",
+    "lap_var None < 60",
+    "delivery_lap_var None < 15"
+   ],
+   "elapsed_s": null,
+   "prompt": "desaturated screen-printed comic panel, flat posterized colour, three flat tones per surface, no gradients anywhere, bold black ink linework on walls, doors and props, hard-edged shadow shapes, cold grey-green palette, coarse paper grain, one small warm practical light as a flat warm shape, ordinary Chinese urban interior, 16:9, camera: medium position, eye level, standing at the stair landing looking down the corridor; lens: 24mm wide-angle, deep focus, near and far both readable; composition: the corridor recedes along the right third line, off-center, never symmetrical; foreground: a rusted steel door frame and the peeling dark-green edge of its door press the left quarter, subject: no people, an empty fourth-floor corridor of an old six-storey walk-up in a southern Chinese city, layers: foreground: the door frame with a strip of grey duct tape across its corner; middle ground: a yellowed plastic stool beside a taped-over electrical junction box, a folded drying rack with two dark shirts hanging on it; background: the far window at the corridor end, its frame swollen and repainted three times, cold grey dusk light beyond it, decay: peeling green paint along the skirting, a dark water stain spreading down from the window frame, rust bleeding from the door hinge, scuffed skirting board, light: cold grey window light from the far end, one single warm practical light leaking under one closed door on the left as the only warm spot in frame, hard constraints: no people, no readable text, no printed signs, no door numbers, no posters, no UI, no glitch bars, Avoid: photographic, photorealistic, volumetric light, dust motes, texture detail, soft gradient, bokeh, shallow depth of field, 3d render, cgi, glossy, painterly, concept art, film still, cinematic still, clean new building, spotless, showroom, chibi, big eyes, text, letters, numbers, watermark, UI, gore, monster"
+  },
+  {
+   "variant": "v2",
+   "source_tag": "A1",
+   "ok": true,
+   "file": "raw/A1-v2.png",
+   "rebuilt": true,
+   "dims": [
+    1672,
+    941
+   ],
+   "metrics": {
+    "std_lum": 28.4,
+    "mean_lum": 69.7,
+    "mean_sat": 42.6,
+    "lap_var": 289.2,
+    "delivery_lap_var": 178.5
+   },
+   "qa": [
+    "std_lum None < 18",
+    "lap_var None < 60",
+    "delivery_lap_var None < 15"
+   ],
+   "elapsed_s": null,
+   "prompt": "desaturated screen-printed comic panel, flat posterized colour, three flat tones per surface, no gradients anywhere, bold black ink linework on walls, doors and props, hard-edged shadow shapes, cold grey-green palette, coarse paper grain, one small warm practical light as a flat warm shape, ordinary Chinese urban interior, 16:9, camera: medium position, eye level, standing at the stair landing looking down the corridor; lens: 24mm wide-angle, deep focus, near and far both readable; composition: the corridor recedes along the right third line, off-center, never symmetrical; foreground: a rusted steel door frame and the peeling dark-green edge of its door press the left quarter, subject: no people, an empty fourth-floor corridor of an old six-storey walk-up in a southern Chinese city, layers: foreground: the door frame with a strip of grey duct tape across its corner; middle ground: a yellowed plastic stool beside a taped-over electrical junction box, a folded drying rack with two dark shirts hanging on it; background: the far window at the corridor end, its frame swollen and repainted three times, cold grey dusk light beyond it, decay: peeling green paint along the skirting, a dark water stain spreading down from the window frame, rust bleeding from the door hinge, scuffed skirting board, light: cold grey window light from the far end, one single warm practical light leaking under one closed door on the left as the only warm spot in frame, hard constraints: no people, no readable text, no printed signs, no door numbers, no posters, no UI, no glitch bars, spot colour: only the yellow plastic stool is fully saturated; every other surface stays grey-green, Avoid: photographic, photorealistic, volumetric light, dust motes, texture detail, soft gradient, bokeh, shallow depth of field, 3d render, cgi, glossy, painterly, concept art, film still, cinematic still, clean new building, spotless, showroom, chibi, big eyes, text, letters, numbers, watermark, UI, gore, monster"
+  },
+  {
+   "variant": "v3",
+   "source_tag": "A1",
+   "ok": true,
+   "file": "raw/A1-v3.png",
+   "dims": [
+    1672,
+    941
+   ],
+   "metrics": {
+    "std_lum": 31.5,
+    "mean_lum": 72.1,
+    "mean_sat": 49.6,
+    "lap_var": 466.6,
+    "delivery_lap_var": 286.7
+   },
+   "qa": [],
+   "elapsed_s": 36.5,
+   "prompt": "desaturated screen-printed comic panel, flat posterized colour, exactly three flat tones per surface, no gradients, bold black ink linework on walls, doors and props, hard-edged shadow shapes, cold grey-blue palette, no green cast, lamps and windows are pale grey-white flat shapes with no glow, no halo, no volumetric beam, coarse paper grain, ordinary Chinese urban interior, 16:9, camera: medium position, eye level, standing at the stair landing looking down the corridor; lens: 24mm wide-angle, deep focus, near and far both readable; composition: the corridor recedes along the right third line, off-center, never symmetrical; foreground: a rusted steel door frame and the peeling dark-green edge of its door press the left quarter, subject: no people, an empty fourth-floor corridor of an old six-storey walk-up in a southern Chinese city, layers: foreground: the door frame with a strip of grey duct tape across its corner; middle ground: a yellowed plastic stool beside a taped-over electrical junction box, a folded drying rack with two dark shirts hanging on it; background: the far window at the corridor end, its frame swollen and repainted three times, cold grey dusk light beyond it, decay: peeling green paint along the skirting, a dark water stain spreading down from the window frame, rust bleeding from the door hinge, scuffed skirting board, light: cold grey window light from the far end, one single warm practical light leaking under one closed door on the left as the only warm spot in frame, hard constraints: no people, no readable text, no printed signs, no door numbers, no posters, no UI, no glitch bars, spot colour: only the red plastic stool is saturated red; everything else, including the lamps, is grey-blue, Avoid: photographic, photorealistic, volumetric light, dust motes, texture detail, soft gradient, bokeh, shallow depth of field, 3d render, cgi, glossy, painterly, concept art, film still, cinematic still, clean new building, spotless, showroom, chibi, big eyes, text, letters, numbers, watermark, UI, gore, monster"
+  },
+  {
+   "variant": "v4",
+   "source_tag": "A1",
+   "ok": true,
+   "file": "raw/A1-v4.png",
+   "dims": [
+    1672,
+    941
+   ],
+   "metrics": {
+    "std_lum": 40.7,
+    "mean_lum": 80.8,
+    "mean_sat": 59.5,
+    "lap_var": 2648.8,
+    "delivery_lap_var": 1640.3
+   },
+   "qa": [],
+   "elapsed_s": 43.1,
+   "prompt": "desaturated screen-printed comic panel, flat posterized colour, exactly three flat tones per surface, no gradients, bold black ink linework on walls, doors and props, hard-edged shadow shapes, cold grey-blue palette, no green cast, lamps and windows are pale grey-white flat shapes with no glow, no halo, no volumetric beam, coarse paper grain, ordinary Chinese urban interior, 16:9, coarse halftone dots in the shadow areas only, shadow tone printed as visible round ink dots about 6 px across at 1672 px width, midtones and highlights clean flat colour, no halftone in highlights, camera: medium position, eye level, standing at the stair landing looking down the corridor; lens: 24mm wide-angle, deep focus, near and far both readable; composition: the corridor recedes along the right third line, off-center, never symmetrical; foreground: a rusted steel door frame and the peeling dark-green edge of its door press the left quarter, subject: no people, an empty fourth-floor corridor of an old six-storey walk-up in a southern Chinese city, layers: foreground: the door frame with a strip of grey duct tape across its corner; middle ground: a yellowed plastic stool beside a taped-over electrical junction box, a folded drying rack with two dark shirts hanging on it; background: the far window at the corridor end, its frame swollen and repainted three times, cold grey dusk light beyond it, decay: peeling green paint along the skirting, a dark water stain spreading down from the window frame, rust bleeding from the door hinge, scuffed skirting board, light: cold grey window light from the far end, one single warm practical light leaking under one closed door on the left as the only warm spot in frame, hard constraints: no people, no readable text, no printed signs, no door numbers, no posters, no UI, no glitch bars, spot colour: only the red plastic stool is saturated red; everything else, including the lamps, is grey-blue, Avoid: photographic, photorealistic, volumetric light, dust motes, texture detail, soft gradient, bokeh, shallow depth of field, 3d render, cgi, glossy, painterly, concept art, film still, cinematic still, clean new building, spotless, showroom, chibi, big eyes, text, letters, numbers, watermark, UI, gore, monster"
+  },
+  {
+   "variant": "v0",
+   "source_tag": "B2",
+   "ok": true,
+   "file": "raw/B2-v0.png",
+   "rebuilt": true,
+   "dims": [
+    1672,
+    941
+   ],
+   "metrics": {
+    "std_lum": 26.4,
+    "mean_lum": 62.7,
+    "mean_sat": 67.6,
+    "lap_var": 79.4,
+    "delivery_lap_var": 49.1
+   },
+   "qa": [
+    "std_lum None < 18",
+    "lap_var None < 60",
+    "delivery_lap_var None < 15"
+   ],
+   "elapsed_s": null,
+   "prompt": "desaturated graphic-novel panel, mature simplified cel-shaded anime characters, flat color blocks with hard-edged cel shadows, clean ink linework, cold grey-blue palette, one controlled warm practical light, ordinary Chinese urban interior or street, worn and lived-in surfaces, legible horror staging, clear foreground subject and evidence prop, slightly off-center composition, deep focus, layered foreground occlusion in wide shots, volumetric dust in cold window light, 16:9, 2D cel animation key visual, flat unshaded color areas, hard-edged shadow shapes, no gradients on fabric or walls, clean black linework, anime screencap, Character reference sheet attached: the same character shown from several angles, same outfit. Keep his exact design — thin 14-year-old Chinese boy, short slightly messy black hair with a side part, narrow dark brown eyes, straight brows, low nose bridge, thin lips, fair skin, navy-blue zip-up school jacket with white piping, white crew-neck T-shirt, grey straight trousers, white canvas sneakers, no glasses, no backpack, no accessories. Render ONE new single scene as described below; do not redraw the reference sheet, do not repeat its layout, no panels, no multiple views, no text., camera: far position, eye level, from the far end of the same corridor; lens: 24mm wide-angle, deep focus; composition: he stands on the right third line near the corridor end, his height about 0.6 of the door height, not centered; foreground: a laundry pole with two dark garments crosses the top left, a metal railing clips the bottom left corner, subject: one person, the same thin 14-year-old Chinese boy in the navy school jacket, grey trousers and white canvas sneakers, back three-quarters to camera, looking toward the half-open steel safety door, layers: foreground: the laundry pole, the hanging garments and the railing, all in sharp focus; middle ground: the boy, a stack of cardboard boxes and a plastic stool against the wall; background: the half-open steel safety door at the corridor end, cold light beyond it, the stairwell edge further out, decay: peeling wall paint, a long water stain along the ceiling edge, rust on the electrical meter box, light: cold light through the safety door, one single warm bulb above a door on the left as the only warm spot, hard constraints: no readable text, no signs, no lettering on the boxes, no extra people, no UI, Avoid: photograph, photorealistic, 3d render, cgi, live action, film still, cinematic still, 35mm, shallow depth of field, bokeh, motion blur, glossy skin, hyperreal texture, clean new building, spotless, pristine, showroom, symmetrical centered hero shot, chibi, big eyes, text, letters, numbers, labels, watermark, UI, logo, gore, monster, jump-scare face"
+  },
+  {
+   "variant": "v1",
+   "source_tag": "B2",
+   "ok": true,
+   "file": "raw/B2-v1.png",
+   "rebuilt": true,
+   "dims": [
+    1672,
+    941
+   ],
+   "metrics": {
+    "std_lum": 29.3,
+    "mean_lum": 77.0,
+    "mean_sat": 26.7,
+    "lap_var": 217.5,
+    "delivery_lap_var": 132.9
+   },
+   "qa": [
+    "std_lum None < 18",
+    "lap_var None < 60",
+    "delivery_lap_var None < 15"
+   ],
+   "elapsed_s": null,
+   "prompt": "desaturated screen-printed comic panel, flat posterized colour, three flat tones per surface, no gradients anywhere, bold black ink linework on walls, doors and props, hard-edged shadow shapes, cold grey-green palette, coarse paper grain, one small warm practical light as a flat warm shape, ordinary Chinese urban interior, 16:9, Character reference sheet attached: the same character shown from several angles, same outfit. Keep his exact design — thin 14-year-old Chinese boy, short slightly messy black hair with a side part, narrow dark brown eyes, straight brows, low nose bridge, thin lips, fair skin, navy-blue zip-up school jacket with white piping, white crew-neck T-shirt, grey straight trousers, white canvas sneakers, no glasses, no backpack, no accessories. Render ONE new single scene as described below; do not redraw the reference sheet, do not repeat its layout, no panels, no multiple views, no text., camera: far position, eye level, from the far end of the same corridor; lens: 24mm wide-angle, deep focus; composition: he stands on the right third line near the corridor end, his height about 0.6 of the door height, not centered; foreground: a laundry pole with two dark garments crosses the top left, a metal railing clips the bottom left corner, subject: one person, the same thin 14-year-old Chinese boy in the navy school jacket, grey trousers and white canvas sneakers, back three-quarters to camera, looking toward the half-open steel safety door, layers: foreground: the laundry pole, the hanging garments and the railing, all in sharp focus; middle ground: the boy, a stack of cardboard boxes and a plastic stool against the wall; background: the half-open steel safety door at the corridor end, cold light beyond it, the stairwell edge further out, decay: peeling wall paint, a long water stain along the ceiling edge, rust on the electrical meter box, light: cold light through the safety door, one single warm bulb above a door on the left as the only warm spot, hard constraints: no readable text, no signs, no lettering on the boxes, no extra people, no UI, Avoid: photographic, photorealistic, volumetric light, dust motes, texture detail, soft gradient, bokeh, shallow depth of field, 3d render, cgi, glossy, painterly, concept art, film still, cinematic still, clean new building, spotless, showroom, chibi, big eyes, text, letters, numbers, watermark, UI, gore, monster"
+  },
+  {
+   "variant": "v2",
+   "source_tag": "B2",
+   "ok": true,
+   "file": "raw/B2-v2.png",
+   "rebuilt": true,
+   "dims": [
+    1671,
+    941
+   ],
+   "metrics": {
+    "std_lum": 22.7,
+    "mean_lum": 55.4,
+    "mean_sat": 37.1,
+    "lap_var": 140.8,
+    "delivery_lap_var": 86.2
+   },
+   "qa": [
+    "size [1671, 941] != 1672x941",
+    "std_lum None < 18",
+    "lap_var None < 60",
+    "delivery_lap_var None < 15"
+   ],
+   "elapsed_s": null,
+   "prompt": "desaturated screen-printed comic panel, flat posterized colour, three flat tones per surface, no gradients anywhere, bold black ink linework on walls, doors and props, hard-edged shadow shapes, cold grey-green palette, coarse paper grain, one small warm practical light as a flat warm shape, ordinary Chinese urban interior, 16:9, Character reference sheet attached: the same character shown from several angles, same outfit. Keep his exact design — thin 14-year-old Chinese boy, short slightly messy black hair with a side part, narrow dark brown eyes, straight brows, low nose bridge, thin lips, fair skin, navy-blue zip-up school jacket with white piping, white crew-neck T-shirt, grey straight trousers, white canvas sneakers, no glasses, no backpack, no accessories. Render ONE new single scene as described below; do not redraw the reference sheet, do not repeat its layout, no panels, no multiple views, no text., camera: far position, eye level, from the far end of the same corridor; lens: 24mm wide-angle, deep focus; composition: he stands on the right third line near the corridor end, his height about 0.6 of the door height, not centered; foreground: a laundry pole with two dark garments crosses the top left, a metal railing clips the bottom left corner, subject: one person, the same thin 14-year-old Chinese boy in the navy school jacket, grey trousers and white canvas sneakers, back three-quarters to camera, looking toward the half-open steel safety door, layers: foreground: the laundry pole, the hanging garments and the railing, all in sharp focus; middle ground: the boy, a stack of cardboard boxes and a plastic stool against the wall; background: the half-open steel safety door at the corridor end, cold light beyond it, the stairwell edge further out, decay: peeling wall paint, a long water stain along the ceiling edge, rust on the electrical meter box, light: cold light through the safety door, one single warm bulb above a door on the left as the only warm spot, hard constraints: no readable text, no signs, no lettering on the boxes, no extra people, no UI, spot colour: only the warm bulb is fully saturated amber; every other surface stays grey-green, Avoid: photographic, photorealistic, volumetric light, dust motes, texture detail, soft gradient, bokeh, shallow depth of field, 3d render, cgi, glossy, painterly, concept art, film still, cinematic still, clean new building, spotless, showroom, chibi, big eyes, text, letters, numbers, watermark, UI, gore, monster"
+  },
+  {
+   "variant": "v3",
+   "source_tag": "B2",
+   "ok": true,
+   "file": "raw/B2-v3.png",
+   "dims": [
+    1672,
+    941
+   ],
+   "metrics": {
+    "std_lum": 43.5,
+    "mean_lum": 95.8,
+    "mean_sat": 46.3,
+    "lap_var": 999.5,
+    "delivery_lap_var": 609.8
+   },
+   "qa": [],
+   "elapsed_s": 78.7,
+   "prompt": "desaturated screen-printed comic panel, flat posterized colour, exactly three flat tones per surface, no gradients, bold black ink linework on walls, doors and props, hard-edged shadow shapes, cold grey-blue palette, no green cast, lamps and windows are pale grey-white flat shapes with no glow, no halo, no volumetric beam, coarse paper grain, ordinary Chinese urban interior, 16:9, Character reference sheet attached: the same character shown from several angles, same outfit. Keep his exact design — thin 14-year-old Chinese boy, short slightly messy black hair with a side part, narrow dark brown eyes, straight brows, low nose bridge, thin lips, fair skin, navy-blue zip-up school jacket with white piping, white crew-neck T-shirt, grey straight trousers, white canvas sneakers, no glasses, no backpack, no accessories. Render ONE new single scene as described below; do not redraw the reference sheet, do not repeat its layout, no panels, no multiple views, no text., camera: far position, eye level, from the far end of the same corridor; lens: 24mm wide-angle, deep focus; composition: he stands on the right third line near the corridor end, his height about 0.6 of the door height, not centered; foreground: a laundry pole with two dark garments crosses the top left, a metal railing clips the bottom left corner, subject: one person, the same thin 14-year-old Chinese boy in the navy school jacket, grey trousers and white canvas sneakers, back three-quarters to camera, looking toward the half-open steel safety door, layers: foreground: the laundry pole, the hanging garments and the railing, all in sharp focus; middle ground: the boy, a stack of cardboard boxes and a plastic stool against the wall; background: the half-open steel safety door at the corridor end, cold light beyond it, the stairwell edge further out, decay: peeling wall paint, a long water stain along the ceiling edge, rust on the electrical meter box, light: cold light through the safety door, one single warm bulb above a door on the left as the only warm spot, hard constraints: no readable text, no signs, no lettering on the boxes, no extra people, no UI, spot colour: only the small red indicator light on the electrical meter box is saturated red; the bulb and the sky are pale grey-white, everything else grey-blue, Avoid: photographic, photorealistic, volumetric light, dust motes, texture detail, soft gradient, bokeh, shallow depth of field, 3d render, cgi, glossy, painterly, concept art, film still, cinematic still, clean new building, spotless, showroom, chibi, big eyes, text, letters, numbers, watermark, UI, gore, monster"
+  },
+  {
+   "variant": "v4",
+   "source_tag": "B2",
+   "ok": true,
+   "file": "raw/B2-v4.png",
+   "dims": [
+    1672,
+    941
+   ],
+   "metrics": {
+    "std_lum": 33.1,
+    "mean_lum": 74.6,
+    "mean_sat": 41.5,
+    "lap_var": 1033.2,
+    "delivery_lap_var": 613.2
+   },
+   "qa": [],
+   "elapsed_s": 48.5,
+   "prompt": "desaturated screen-printed comic panel, flat posterized colour, exactly three flat tones per surface, no gradients, bold black ink linework on walls, doors and props, hard-edged shadow shapes, cold grey-blue palette, no green cast, lamps and windows are pale grey-white flat shapes with no glow, no halo, no volumetric beam, coarse paper grain, ordinary Chinese urban interior, 16:9, coarse halftone dots in the shadow areas only, shadow tone printed as visible round ink dots about 6 px across at 1672 px width, midtones and highlights clean flat colour, no halftone in highlights, Character reference sheet attached: the same character shown from several angles, same outfit. Keep his exact design — thin 14-year-old Chinese boy, short slightly messy black hair with a side part, narrow dark brown eyes, straight brows, low nose bridge, thin lips, fair skin, navy-blue zip-up school jacket with white piping, white crew-neck T-shirt, grey straight trousers, white canvas sneakers, no glasses, no backpack, no accessories. Render ONE new single scene as described below; do not redraw the reference sheet, do not repeat its layout, no panels, no multiple views, no text., camera: far position, eye level, from the far end of the same corridor; lens: 24mm wide-angle, deep focus; composition: he stands on the right third line near the corridor end, his height about 0.6 of the door height, not centered; foreground: a laundry pole with two dark garments crosses the top left, a metal railing clips the bottom left corner, subject: one person, the same thin 14-year-old Chinese boy in the navy school jacket, grey trousers and white canvas sneakers, back three-quarters to camera, looking toward the half-open steel safety door, layers: foreground: the laundry pole, the hanging garments and the railing, all in sharp focus; middle ground: the boy, a stack of cardboard boxes and a plastic stool against the wall; background: the half-open steel safety door at the corridor end, cold light beyond it, the stairwell edge further out, decay: peeling wall paint, a long water stain along the ceiling edge, rust on the electrical meter box, light: cold light through the safety door, one single warm bulb above a door on the left as the only warm spot, hard constraints: no readable text, no signs, no lettering on the boxes, no extra people, no UI, spot colour: only the small red indicator light on the electrical meter box is saturated red; the bulb and the sky are pale grey-white, everything else grey-blue, Avoid: photographic, photorealistic, volumetric light, dust motes, texture detail, soft gradient, bokeh, shallow depth of field, 3d render, cgi, glossy, painterly, concept art, film still, cinematic still, clean new building, spotless, showroom, chibi, big eyes, text, letters, numbers, watermark, UI, gore, monster"
+  },
+  {
+   "variant": "v0",
+   "source_tag": "C1",
+   "ok": true,
+   "file": "raw/C1-v0.png",
+   "rebuilt": true,
+   "dims": [
+    1672,
+    941
+   ],
+   "metrics": {
+    "std_lum": 36.5,
+    "mean_lum": 70.1,
+    "mean_sat": 65.5,
+    "lap_var": 328.5,
+    "delivery_lap_var": 202.8
+   },
+   "qa": [
+    "std_lum None < 18",
+    "lap_var None < 60",
+    "delivery_lap_var None < 15"
+   ],
+   "elapsed_s": null,
+   "prompt": "desaturated graphic-novel panel, mature simplified cel-shaded anime characters, flat color blocks with hard-edged cel shadows, clean ink linework, cold grey-blue palette, one controlled warm practical light, ordinary Chinese urban interior or street, worn and lived-in surfaces, legible horror staging, clear foreground subject and evidence prop, slightly off-center composition, deep focus, layered foreground occlusion in wide shots, volumetric dust in cold window light, 16:9, 2D cel animation key visual, flat unshaded color areas, hard-edged shadow shapes, no gradients on fabric or walls, clean black linework, anime screencap, camera: close position, camera slightly above table height, looking down from the window side; lens: 28mm wide-angle, deep focus; composition: the key lies on the left third line, off-center, the key itself at least one sixth of the frame width; foreground: the corner of a woven placemat and the table edge press the bottom right, subject: one old brass door key with a worn bow and a short length of faded red cord tied through it, lying alone on the table, no people, layers: foreground: the placemat corner and the table edge in sharp focus; middle ground: the bare wooden table top with a ring-shaped water stain and a cigarette burn, a single chipped enamel mug; background: the dark kitchen doorway with one cold window beyond, decay: scratched and water-ringed table top, cracked floor tile behind, chipped enamel on the mug, light: cold grey window light from the right, one single warm bulb above the table as the only warm spot, evidence: the evidence is the brass key: it sits at the left third line, fully visible, uncovered by foreground, at least one sixth of the frame width, hard constraints: no readable text, no engraving, no numbers, no label on the key, no UI, Avoid: photograph, photorealistic, 3d render, cgi, live action, film still, cinematic still, 35mm, shallow depth of field, bokeh, motion blur, glossy skin, hyperreal texture, clean new building, spotless, pristine, showroom, symmetrical centered hero shot, chibi, big eyes, text, letters, numbers, labels, watermark, UI, logo, gore, monster, jump-scare face"
+  },
+  {
+   "variant": "v1",
+   "source_tag": "C1",
+   "ok": true,
+   "file": "raw/C1-v1.png",
+   "rebuilt": true,
+   "dims": [
+    1672,
+    941
+   ],
+   "metrics": {
+    "std_lum": 38.7,
+    "mean_lum": 81.9,
+    "mean_sat": 48.9,
+    "lap_var": 530.9,
+    "delivery_lap_var": 325.8
+   },
+   "qa": [
+    "std_lum None < 18",
+    "lap_var None < 60",
+    "delivery_lap_var None < 15"
+   ],
+   "elapsed_s": null,
+   "prompt": "desaturated screen-printed comic panel, flat posterized colour, three flat tones per surface, no gradients anywhere, bold black ink linework on walls, doors and props, hard-edged shadow shapes, cold grey-green palette, coarse paper grain, one small warm practical light as a flat warm shape, ordinary Chinese urban interior, 16:9, camera: close position, camera slightly above table height, looking down from the window side; lens: 28mm wide-angle, deep focus; composition: the key lies on the left third line, off-center, the key itself at least one sixth of the frame width; foreground: the corner of a woven placemat and the table edge press the bottom right, subject: one old brass door key with a worn bow and a short length of faded red cord tied through it, lying alone on the table, no people, layers: foreground: the placemat corner and the table edge in sharp focus; middle ground: the bare wooden table top with a ring-shaped water stain and a cigarette burn, a single chipped enamel mug; background: the dark kitchen doorway with one cold window beyond, decay: scratched and water-ringed table top, cracked floor tile behind, chipped enamel on the mug, light: cold grey window light from the right, one single warm bulb above the table as the only warm spot, evidence: the evidence is the brass key: it sits at the left third line, fully visible, uncovered by foreground, at least one sixth of the frame width, hard constraints: no readable text, no engraving, no numbers, no label on the key, no UI, Avoid: photographic, photorealistic, volumetric light, dust motes, texture detail, soft gradient, bokeh, shallow depth of field, 3d render, cgi, glossy, painterly, concept art, film still, cinematic still, clean new building, spotless, showroom, chibi, big eyes, text, letters, numbers, watermark, UI, gore, monster"
+  },
+  {
+   "variant": "v2",
+   "source_tag": "C1",
+   "ok": true,
+   "file": "raw/C1-v2.png",
+   "rebuilt": true,
+   "dims": [
+    1672,
+    941
+   ],
+   "metrics": {
+    "std_lum": 44.1,
+    "mean_lum": 88.7,
+    "mean_sat": 55.5,
+    "lap_var": 733.9,
+    "delivery_lap_var": 451.4
+   },
+   "qa": [
+    "std_lum None < 18",
+    "lap_var None < 60",
+    "delivery_lap_var None < 15"
+   ],
+   "elapsed_s": null,
+   "prompt": "desaturated screen-printed comic panel, flat posterized colour, three flat tones per surface, no gradients anywhere, bold black ink linework on walls, doors and props, hard-edged shadow shapes, cold grey-green palette, coarse paper grain, one small warm practical light as a flat warm shape, ordinary Chinese urban interior, 16:9, camera: close position, camera slightly above table height, looking down from the window side; lens: 28mm wide-angle, deep focus; composition: the key lies on the left third line, off-center, the key itself at least one sixth of the frame width; foreground: the corner of a woven placemat and the table edge press the bottom right, subject: one old brass door key with a worn bow and a short length of faded red cord tied through it, lying alone on the table, no people, layers: foreground: the placemat corner and the table edge in sharp focus; middle ground: the bare wooden table top with a ring-shaped water stain and a cigarette burn, a single chipped enamel mug; background: the dark kitchen doorway with one cold window beyond, decay: scratched and water-ringed table top, cracked floor tile behind, chipped enamel on the mug, light: cold grey window light from the right, one single warm bulb above the table as the only warm spot, evidence: the evidence is the brass key: it sits at the left third line, fully visible, uncovered by foreground, at least one sixth of the frame width, hard constraints: no readable text, no engraving, no numbers, no label on the key, no UI, spot colour: only the red cord on the key is fully saturated red; the key, mug and table stay grey-green, Avoid: photographic, photorealistic, volumetric light, dust motes, texture detail, soft gradient, bokeh, shallow depth of field, 3d render, cgi, glossy, painterly, concept art, film still, cinematic still, clean new building, spotless, showroom, chibi, big eyes, text, letters, numbers, watermark, UI, gore, monster"
+  },
+  {
+   "variant": "v3",
+   "source_tag": "C1",
+   "ok": true,
+   "file": "raw/C1-v3.png",
+   "dims": [
+    1672,
+    941
+   ],
+   "metrics": {
+    "std_lum": 42.7,
+    "mean_lum": 82.7,
+    "mean_sat": 41.2,
+    "lap_var": 660.9,
+    "delivery_lap_var": 403.7
+   },
+   "qa": [],
+   "elapsed_s": 36.0,
+   "prompt": "desaturated screen-printed comic panel, flat posterized colour, exactly three flat tones per surface, no gradients, bold black ink linework on walls, doors and props, hard-edged shadow shapes, cold grey-blue palette, no green cast, lamps and windows are pale grey-white flat shapes with no glow, no halo, no volumetric beam, coarse paper grain, ordinary Chinese urban interior, 16:9, camera: close position, camera slightly above table height, looking down from the window side; lens: 28mm wide-angle, deep focus; composition: the key lies on the left third line, off-center, the key itself at least one sixth of the frame width; foreground: the corner of a woven placemat and the table edge press the bottom right, subject: one old brass door key with a worn bow and a short length of faded red cord tied through it, lying alone on the table, no people, layers: foreground: the placemat corner and the table edge in sharp focus; middle ground: the bare wooden table top with a ring-shaped water stain and a cigarette burn, a single chipped enamel mug; background: the dark kitchen doorway with one cold window beyond, decay: scratched and water-ringed table top, cracked floor tile behind, chipped enamel on the mug, light: cold grey window light from the right, one single warm bulb above the table as the only warm spot, evidence: the evidence is the brass key: it sits at the left third line, fully visible, uncovered by foreground, at least one sixth of the frame width, hard constraints: no readable text, no engraving, no numbers, no label on the key, no UI, spot colour: only the red cord tied to the key is saturated red; the key, the mug and the lamp are grey, Avoid: photographic, photorealistic, volumetric light, dust motes, texture detail, soft gradient, bokeh, shallow depth of field, 3d render, cgi, glossy, painterly, concept art, film still, cinematic still, clean new building, spotless, showroom, chibi, big eyes, text, letters, numbers, watermark, UI, gore, monster"
+  },
+  {
+   "variant": "v4",
+   "source_tag": "C1",
+   "ok": true,
+   "file": "raw/C1-v4.png",
+   "dims": [
+    1672,
+    941
+   ],
+   "metrics": {
+    "std_lum": 44.0,
+    "mean_lum": 90.5,
+    "mean_sat": 29.2,
+    "lap_var": 739.8,
+    "delivery_lap_var": 453.6
+   },
+   "qa": [],
+   "elapsed_s": 39.0,
+   "prompt": "desaturated screen-printed comic panel, flat posterized colour, exactly three flat tones per surface, no gradients, bold black ink linework on walls, doors and props, hard-edged shadow shapes, cold grey-blue palette, no green cast, lamps and windows are pale grey-white flat shapes with no glow, no halo, no volumetric beam, coarse paper grain, ordinary Chinese urban interior, 16:9, coarse halftone dots in the shadow areas only, shadow tone printed as visible round ink dots about 6 px across at 1672 px width, midtones and highlights clean flat colour, no halftone in highlights, camera: close position, camera slightly above table height, looking down from the window side; lens: 28mm wide-angle, deep focus; composition: the key lies on the left third line, off-center, the key itself at least one sixth of the frame width; foreground: the corner of a woven placemat and the table edge press the bottom right, subject: one old brass door key with a worn bow and a short length of faded red cord tied through it, lying alone on the table, no people, layers: foreground: the placemat corner and the table edge in sharp focus; middle ground: the bare wooden table top with a ring-shaped water stain and a cigarette burn, a single chipped enamel mug; background: the dark kitchen doorway with one cold window beyond, decay: scratched and water-ringed table top, cracked floor tile behind, chipped enamel on the mug, light: cold grey window light from the right, one single warm bulb above the table as the only warm spot, evidence: the evidence is the brass key: it sits at the left third line, fully visible, uncovered by foreground, at least one sixth of the frame width, hard constraints: no readable text, no engraving, no numbers, no label on the key, no UI, spot colour: only the red cord tied to the key is saturated red; the key, the mug and the lamp are grey, Avoid: photographic, photorealistic, volumetric light, dust motes, texture detail, soft gradient, bokeh, shallow depth of field, 3d render, cgi, glossy, painterly, concept art, film still, cinematic still, clean new building, spotless, showroom, chibi, big eyes, text, letters, numbers, watermark, UI, gore, monster"
+  },
+  {
+   "variant": "v0",
+   "source_tag": "D1",
+   "ok": true,
+   "file": "raw/D1-v0.png",
+   "rebuilt": true,
+   "dims": [
+    1672,
+    941
+   ],
+   "metrics": {
+    "std_lum": 27.2,
+    "mean_lum": 64.5,
+    "mean_sat": 63.2,
+    "lap_var": 401.7,
+    "delivery_lap_var": 248.4
+   },
+   "qa": [
+    "std_lum None < 18",
+    "lap_var None < 60",
+    "delivery_lap_var None < 15"
+   ],
+   "elapsed_s": null,
+   "prompt": "desaturated graphic-novel panel, mature simplified cel-shaded anime characters, flat color blocks with hard-edged cel shadows, clean ink linework, cold grey-blue palette, one controlled warm practical light, ordinary Chinese urban interior or street, worn and lived-in surfaces, legible horror staging, clear foreground subject and evidence prop, slightly off-center composition, deep focus, layered foreground occlusion in wide shots, volumetric dust in cold window light, 16:9, 2D cel animation key visual, flat unshaded color areas, hard-edged shadow shapes, no gradients on fabric or walls, clean black linework, anime screencap, camera: far position, locked-off tripod at chest height, facing the corridor end, the corridor axis sits left of centre; lens: 28mm wide-angle, deep focus; composition: the corridor recedes along the left third, the right third blocked by the railing, never symmetrical; foreground: a rusted iron railing and a rolled bamboo blind leaning at the right edge press the right quarter, subject: no people, a fixed wide shot down an old corridor, layers: foreground: the railing and the rolled blind in sharp focus; middle ground: worn floor tiles, a mop leaning against the wall, a plastic bucket; background: at the corridor end, where a window should be, a door stands wide open, and through it the same corridor continues — the same tiled floor, the same four doors on the same sides, another window at its far end with cold light beyond, an impossible second corridor, decay: cracked floor tiles, a long water stain on the ceiling, scuffed skirting, light: cold daylight from the far end of the duplicate corridor, one single warm light at the left door crack as the only warm spot, hard constraints: no people, no shadow of a person, no monster, no glitch bars, no readable text, no door numbers, no meter boxes, no name plates, no labels, no UI, Avoid: photograph, photorealistic, 3d render, cgi, live action, film still, cinematic still, 35mm, shallow depth of field, bokeh, motion blur, glossy skin, hyperreal texture, clean new building, spotless, pristine, showroom, symmetrical centered hero shot, chibi, big eyes, text, letters, numbers, labels, watermark, UI, logo, gore, monster, jump-scare face"
+  },
+  {
+   "variant": "v1",
+   "source_tag": "D1",
+   "ok": true,
+   "file": "raw/D1-v1.png",
+   "rebuilt": true,
+   "dims": [
+    1672,
+    941
+   ],
+   "metrics": {
+    "std_lum": 35.8,
+    "mean_lum": 75.6,
+    "mean_sat": 47.9,
+    "lap_var": 742.4,
+    "delivery_lap_var": 454.7
+   },
+   "qa": [
+    "std_lum None < 18",
+    "lap_var None < 60",
+    "delivery_lap_var None < 15"
+   ],
+   "elapsed_s": null,
+   "prompt": "desaturated screen-printed comic panel, flat posterized colour, three flat tones per surface, no gradients anywhere, bold black ink linework on walls, doors and props, hard-edged shadow shapes, cold grey-green palette, coarse paper grain, one small warm practical light as a flat warm shape, ordinary Chinese urban interior, 16:9, camera: far position, locked-off tripod at chest height, facing the corridor end, the corridor axis sits left of centre; lens: 28mm wide-angle, deep focus; composition: the corridor recedes along the left third, the right third blocked by the railing, never symmetrical; foreground: a rusted iron railing and a rolled bamboo blind leaning at the right edge press the right quarter, subject: no people, a fixed wide shot down an old corridor, layers: foreground: the railing and the rolled blind in sharp focus; middle ground: worn floor tiles, a mop leaning against the wall, a plastic bucket; background: at the corridor end, where a window should be, a door stands wide open, and through it the same corridor continues — the same tiled floor, the same four doors on the same sides, another window at its far end with cold light beyond, an impossible second corridor, decay: cracked floor tiles, a long water stain on the ceiling, scuffed skirting, light: cold daylight from the far end of the duplicate corridor, one single warm light at the left door crack as the only warm spot, hard constraints: no people, no shadow of a person, no monster, no glitch bars, no readable text, no door numbers, no meter boxes, no name plates, no labels, no UI, Avoid: photographic, photorealistic, volumetric light, dust motes, texture detail, soft gradient, bokeh, shallow depth of field, 3d render, cgi, glossy, painterly, concept art, film still, cinematic still, clean new building, spotless, showroom, chibi, big eyes, text, letters, numbers, watermark, UI, gore, monster"
+  },
+  {
+   "variant": "v2",
+   "source_tag": "D1",
+   "ok": true,
+   "file": "raw/D1-v2.png",
+   "rebuilt": true,
+   "dims": [
+    1672,
+    941
+   ],
+   "metrics": {
+    "std_lum": 30.8,
+    "mean_lum": 73.0,
+    "mean_sat": 41.6,
+    "lap_var": 461.2,
+    "delivery_lap_var": 283.3
+   },
+   "qa": [
+    "std_lum None < 18",
+    "lap_var None < 60",
+    "delivery_lap_var None < 15"
+   ],
+   "elapsed_s": null,
+   "prompt": "desaturated screen-printed comic panel, flat posterized colour, three flat tones per surface, no gradients anywhere, bold black ink linework on walls, doors and props, hard-edged shadow shapes, cold grey-green palette, coarse paper grain, one small warm practical light as a flat warm shape, ordinary Chinese urban interior, 16:9, camera: far position, locked-off tripod at chest height, facing the corridor end, the corridor axis sits left of centre; lens: 28mm wide-angle, deep focus; composition: the corridor recedes along the left third, the right third blocked by the railing, never symmetrical; foreground: a rusted iron railing and a rolled bamboo blind leaning at the right edge press the right quarter, subject: no people, a fixed wide shot down an old corridor, layers: foreground: the railing and the rolled blind in sharp focus; middle ground: worn floor tiles, a mop leaning against the wall, a plastic bucket; background: at the corridor end, where a window should be, a door stands wide open, and through it the same corridor continues — the same tiled floor, the same four doors on the same sides, another window at its far end with cold light beyond, an impossible second corridor, decay: cracked floor tiles, a long water stain on the ceiling, scuffed skirting, light: cold daylight from the far end of the duplicate corridor, one single warm light at the left door crack as the only warm spot, hard constraints: no people, no shadow of a person, no monster, no glitch bars, no readable text, no door numbers, no meter boxes, no name plates, no labels, no UI, spot colour: only the light beyond the far doorway is fully saturated amber; every other surface stays grey-green, Avoid: photographic, photorealistic, volumetric light, dust motes, texture detail, soft gradient, bokeh, shallow depth of field, 3d render, cgi, glossy, painterly, concept art, film still, cinematic still, clean new building, spotless, showroom, chibi, big eyes, text, letters, numbers, watermark, UI, gore, monster"
+  },
+  {
+   "variant": "v3",
+   "source_tag": "D1",
+   "ok": true,
+   "file": "raw/D1-v3.png",
+   "dims": [
+    1672,
+    941
+   ],
+   "metrics": {
+    "std_lum": 43.1,
+    "mean_lum": 74.4,
+    "mean_sat": 59.7,
+    "lap_var": 848.4,
+    "delivery_lap_var": 519.8
+   },
+   "qa": [],
+   "elapsed_s": 36.8,
+   "prompt": "desaturated screen-printed comic panel, flat posterized colour, exactly three flat tones per surface, no gradients, bold black ink linework on walls, doors and props, hard-edged shadow shapes, cold grey-blue palette, no green cast, lamps and windows are pale grey-white flat shapes with no glow, no halo, no volumetric beam, coarse paper grain, ordinary Chinese urban interior, 16:9, camera: far position, locked-off tripod at chest height, facing the corridor end, the corridor axis sits left of centre; lens: 28mm wide-angle, deep focus; composition: the corridor recedes along the left third, the right third blocked by the railing, never symmetrical; foreground: a rusted iron railing and a rolled bamboo blind leaning at the right edge press the right quarter, subject: no people, a fixed wide shot down an old corridor, layers: foreground: the railing and the rolled blind in sharp focus; middle ground: worn floor tiles, a mop leaning against the wall, a plastic bucket; background: at the corridor end, where a window should be, a door stands wide open, and through it the same corridor continues — the same tiled floor, the same four doors on the same sides, another window at its far end with cold light beyond, an impossible second corridor, decay: cracked floor tiles, a long water stain on the ceiling, scuffed skirting, light: cold daylight from the far end of the duplicate corridor, one single warm light at the left door crack as the only warm spot, hard constraints: no people, no shadow of a person, no monster, no glitch bars, no readable text, no door numbers, no meter boxes, no name plates, no labels, no UI, spot colour: only the red bucket at the far end of the corridor is saturated red; the far doorway light is pale grey-white, everything else grey-blue, Avoid: photographic, photorealistic, volumetric light, dust motes, texture detail, soft gradient, bokeh, shallow depth of field, 3d render, cgi, glossy, painterly, concept art, film still, cinematic still, clean new building, spotless, showroom, chibi, big eyes, text, letters, numbers, watermark, UI, gore, monster"
+  },
+  {
+   "variant": "v4",
+   "source_tag": "D1",
+   "ok": true,
+   "file": "raw/D1-v4.png",
+   "dims": [
+    1672,
+    941
+   ],
+   "metrics": {
+    "std_lum": 41.1,
+    "mean_lum": 75.2,
+    "mean_sat": 61.2,
+    "lap_var": 1064.2,
+    "delivery_lap_var": 646.5
+   },
+   "qa": [],
+   "elapsed_s": 38.8,
+   "prompt": "desaturated screen-printed comic panel, flat posterized colour, exactly three flat tones per surface, no gradients, bold black ink linework on walls, doors and props, hard-edged shadow shapes, cold grey-blue palette, no green cast, lamps and windows are pale grey-white flat shapes with no glow, no halo, no volumetric beam, coarse paper grain, ordinary Chinese urban interior, 16:9, coarse halftone dots in the shadow areas only, shadow tone printed as visible round ink dots about 6 px across at 1672 px width, midtones and highlights clean flat colour, no halftone in highlights, camera: far position, locked-off tripod at chest height, facing the corridor end, the corridor axis sits left of centre; lens: 28mm wide-angle, deep focus; composition: the corridor recedes along the left third, the right third blocked by the railing, never symmetrical; foreground: a rusted iron railing and a rolled bamboo blind leaning at the right edge press the right quarter, subject: no people, a fixed wide shot down an old corridor, layers: foreground: the railing and the rolled blind in sharp focus; middle ground: worn floor tiles, a mop leaning against the wall, a plastic bucket; background: at the corridor end, where a window should be, a door stands wide open, and through it the same corridor continues — the same tiled floor, the same four doors on the same sides, another window at its far end with cold light beyond, an impossible second corridor, decay: cracked floor tiles, a long water stain on the ceiling, scuffed skirting, light: cold daylight from the far end of the duplicate corridor, one single warm light at the left door crack as the only warm spot, hard constraints: no people, no shadow of a person, no monster, no glitch bars, no readable text, no door numbers, no meter boxes, no name plates, no labels, no UI, spot colour: only the red bucket at the far end of the corridor is saturated red; the far doorway light is pale grey-white, everything else grey-blue, Avoid: photographic, photorealistic, volumetric light, dust motes, texture detail, soft gradient, bokeh, shallow depth of field, 3d render, cgi, glossy, painterly, concept art, film still, cinematic still, clean new building, spotless, showroom, chibi, big eyes, text, letters, numbers, watermark, UI, gore, monster"
+  }
+ ]
+}

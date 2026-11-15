@@ -1,0 +1,1392 @@
+{
+  "episode": "20261115-henshi",
+  "total": 172,
+  "counts": {
+    "E": 38,
+    "M": 91,
+    "C": 43
+  },
+  "ratios": {
+    "E": 0.2209,
+    "M": 0.5291,
+    "C": 0.25
+  },
+  "shots": [
+    {
+      "id": "S001",
+      "shot_type": "E",
+      "scene_id": "office",
+      "has_character": true,
+      "chapter": "第一章 第0—3天：无声的围堵",
+      "day": "第0天 普通的下班夜"
+    },
+    {
+      "id": "S002",
+      "shot_type": "E",
+      "scene_id": "commute",
+      "has_character": false,
+      "chapter": "第一章 第0—3天：无声的围堵",
+      "day": "第0天 普通的下班夜"
+    },
+    {
+      "id": "S003",
+      "shot_type": "E",
+      "scene_id": "apartment",
+      "has_character": false,
+      "chapter": "第一章 第0—3天：无声的围堵",
+      "day": "第0天 普通的下班夜"
+    },
+    {
+      "id": "S004",
+      "shot_type": "E",
+      "scene_id": "corridor",
+      "has_character": false,
+      "chapter": "第一章 第0—3天：无声的围堵",
+      "day": "第0天 普通的下班夜"
+    },
+    {
+      "id": "S005",
+      "shot_type": "E",
+      "scene_id": "apartment",
+      "has_character": true,
+      "chapter": "第一章 第0—3天：无声的围堵",
+      "day": "第0天 普通的下班夜"
+    },
+    {
+      "id": "S006",
+      "shot_type": "M",
+      "scene_id": "apartment",
+      "has_character": false,
+      "chapter": "第一章 第0—3天：无声的围堵",
+      "day": "第0天 普通的下班夜"
+    },
+    {
+      "id": "S007",
+      "shot_type": "M",
+      "scene_id": "apartment",
+      "has_character": false,
+      "chapter": "第一章 第0—3天：无声的围堵",
+      "day": "第0天 普通的下班夜"
+    },
+    {
+      "id": "S008",
+      "shot_type": "E",
+      "scene_id": "corridor",
+      "has_character": false,
+      "chapter": "第一章 第0—3天：无声的围堵",
+      "day": "第0天 普通的下班夜"
+    },
+    {
+      "id": "S009",
+      "shot_type": "M",
+      "scene_id": "apartment",
+      "has_character": true,
+      "chapter": "第一章 第0—3天：无声的围堵",
+      "day": "第0天 普通的下班夜"
+    },
+    {
+      "id": "S010",
+      "shot_type": "C",
+      "scene_id": "apartment",
+      "has_character": true,
+      "chapter": "第一章 第0—3天：无声的围堵",
+      "day": "第1天 不对劲的围堵"
+    },
+    {
+      "id": "S011",
+      "shot_type": "M",
+      "scene_id": "corridor",
+      "has_character": true,
+      "chapter": "第一章 第0—3天：无声的围堵",
+      "day": "第1天 不对劲的围堵"
+    },
+    {
+      "id": "S012",
+      "shot_type": "M",
+      "scene_id": "apartment",
+      "has_character": false,
+      "chapter": "第一章 第0—3天：无声的围堵",
+      "day": "第1天 不对劲的围堵"
+    },
+    {
+      "id": "S013",
+      "shot_type": "C",
+      "scene_id": "apartment",
+      "has_character": true,
+      "chapter": "第一章 第0—3天：无声的围堵",
+      "day": "第1天 不对劲的围堵"
+    },
+    {
+      "id": "S014",
+      "shot_type": "E",
+      "scene_id": "apartment",
+      "has_character": false,
+      "chapter": "第一章 第0—3天：无声的围堵",
+      "day": "第1天 不对劲的围堵"
+    },
+    {
+      "id": "S015",
+      "shot_type": "M",
+      "scene_id": "apartment",
+      "has_character": false,
+      "chapter": "第一章 第0—3天：无声的围堵",
+      "day": "第1天 不对劲的围堵"
+    },
+    {
+      "id": "S016",
+      "shot_type": "M",
+      "scene_id": "corridor",
+      "has_character": false,
+      "chapter": "第一章 第0—3天：无声的围堵",
+      "day": "第1天 不对劲的围堵"
+    },
+    {
+      "id": "S017",
+      "shot_type": "C",
+      "scene_id": "apartment",
+      "has_character": true,
+      "chapter": "第一章 第0—3天：无声的围堵",
+      "day": "第1天 不对劲的围堵"
+    },
+    {
+      "id": "S018",
+      "shot_type": "M",
+      "scene_id": "apartment",
+      "has_character": true,
+      "chapter": "第一章 第0—3天：无声的围堵",
+      "day": "第1天 不对劲的围堵"
+    },
+    {
+      "id": "S019",
+      "shot_type": "M",
+      "scene_id": "apartment",
+      "has_character": true,
+      "chapter": "第一章 第0—3天：无声的围堵",
+      "day": "第1天 不对劲的围堵"
+    },
+    {
+      "id": "S020",
+      "shot_type": "E",
+      "scene_id": "corridor",
+      "has_character": true,
+      "chapter": "第一章 第0—3天：无声的围堵",
+      "day": "第1天 不对劲的围堵"
+    },
+    {
+      "id": "S021",
+      "shot_type": "C",
+      "scene_id": "corridor",
+      "has_character": true,
+      "chapter": "第一章 第0—3天：无声的围堵",
+      "day": "第1天 不对劲的围堵"
+    },
+    {
+      "id": "S022",
+      "shot_type": "M",
+      "scene_id": "apartment",
+      "has_character": true,
+      "chapter": "第一章 第0—3天：无声的围堵",
+      "day": "第1天 不对劲的围堵"
+    },
+    {
+      "id": "S023",
+      "shot_type": "M",
+      "scene_id": "corridor",
+      "has_character": true,
+      "chapter": "第一章 第0—3天：无声的围堵",
+      "day": "第2天 认出邻居"
+    },
+    {
+      "id": "S024",
+      "shot_type": "C",
+      "scene_id": "corridor",
+      "has_character": true,
+      "chapter": "第一章 第0—3天：无声的围堵",
+      "day": "第2天 认出邻居"
+    },
+    {
+      "id": "S025",
+      "shot_type": "M",
+      "scene_id": "apartment",
+      "has_character": false,
+      "chapter": "第一章 第0—3天：无声的围堵",
+      "day": "第2天 认出邻居"
+    },
+    {
+      "id": "S026",
+      "shot_type": "E",
+      "scene_id": "apartment",
+      "has_character": true,
+      "chapter": "第一章 第0—3天：无声的围堵",
+      "day": "第2天 认出邻居"
+    },
+    {
+      "id": "S027",
+      "shot_type": "M",
+      "scene_id": "corridor",
+      "has_character": true,
+      "chapter": "第一章 第0—3天：无声的围堵",
+      "day": "第2天 认出邻居"
+    },
+    {
+      "id": "S028",
+      "shot_type": "C",
+      "scene_id": "apartment",
+      "has_character": true,
+      "chapter": "第一章 第0—3天：无声的围堵",
+      "day": "第2天 认出邻居"
+    },
+    {
+      "id": "S029",
+      "shot_type": "M",
+      "scene_id": "apartment",
+      "has_character": false,
+      "chapter": "第一章 第0—3天：无声的围堵",
+      "day": "第2天 认出邻居"
+    },
+    {
+      "id": "S030",
+      "shot_type": "M",
+      "scene_id": "corridor",
+      "has_character": true,
+      "chapter": "第一章 第0—3天：无声的围堵",
+      "day": "第2天 认出邻居"
+    },
+    {
+      "id": "S031",
+      "shot_type": "C",
+      "scene_id": "apartment",
+      "has_character": true,
+      "chapter": "第一章 第0—3天：无声的围堵",
+      "day": "第2天 认出邻居"
+    },
+    {
+      "id": "S032",
+      "shot_type": "E",
+      "scene_id": "apartment",
+      "has_character": true,
+      "chapter": "第一章 第0—3天：无声的围堵",
+      "day": "第2天 认出邻居"
+    },
+    {
+      "id": "S033",
+      "shot_type": "M",
+      "scene_id": "corridor",
+      "has_character": true,
+      "chapter": "第一章 第0—3天：无声的围堵",
+      "day": "第2天 认出邻居"
+    },
+    {
+      "id": "S034",
+      "shot_type": "E",
+      "scene_id": "street",
+      "has_character": true,
+      "chapter": "第一章 第0—3天：无声的围堵",
+      "day": "第2天 认出邻居"
+    },
+    {
+      "id": "S035",
+      "shot_type": "E",
+      "scene_id": "street",
+      "has_character": true,
+      "chapter": "第一章 第0—3天：无声的围堵",
+      "day": "第2天 认出邻居"
+    },
+    {
+      "id": "S036",
+      "shot_type": "M",
+      "scene_id": "corridor",
+      "has_character": true,
+      "chapter": "第一章 第0—3天：无声的围堵",
+      "day": "第2天 认出邻居"
+    },
+    {
+      "id": "S037",
+      "shot_type": "M",
+      "scene_id": "corridor",
+      "has_character": true,
+      "chapter": "第一章 第0—3天：无声的围堵",
+      "day": "第2天 认出邻居"
+    },
+    {
+      "id": "S038",
+      "shot_type": "C",
+      "scene_id": "corridor",
+      "has_character": true,
+      "chapter": "第一章 第0—3天：无声的围堵",
+      "day": "第2天 认出邻居"
+    },
+    {
+      "id": "S039",
+      "shot_type": "M",
+      "scene_id": "corridor",
+      "has_character": true,
+      "chapter": "第一章 第0—3天：无声的围堵",
+      "day": "第2天 认出邻居"
+    },
+    {
+      "id": "S040",
+      "shot_type": "M",
+      "scene_id": "apartment",
+      "has_character": true,
+      "chapter": "第一章 第0—3天：无声的围堵",
+      "day": "第3天 第一次试探"
+    },
+    {
+      "id": "S041",
+      "shot_type": "E",
+      "scene_id": "apartment",
+      "has_character": true,
+      "chapter": "第一章 第0—3天：无声的围堵",
+      "day": "第3天 第一次试探"
+    },
+    {
+      "id": "S042",
+      "shot_type": "C",
+      "scene_id": "corridor",
+      "has_character": true,
+      "chapter": "第一章 第0—3天：无声的围堵",
+      "day": "第3天 第一次试探"
+    },
+    {
+      "id": "S043",
+      "shot_type": "M",
+      "scene_id": "apartment",
+      "has_character": false,
+      "chapter": "第一章 第0—3天：无声的围堵",
+      "day": "第3天 第一次试探"
+    },
+    {
+      "id": "S044",
+      "shot_type": "M",
+      "scene_id": "corridor",
+      "has_character": true,
+      "chapter": "第一章 第0—3天：无声的围堵",
+      "day": "第3天 第一次试探"
+    },
+    {
+      "id": "S045",
+      "shot_type": "C",
+      "scene_id": "corridor",
+      "has_character": true,
+      "chapter": "第一章 第0—3天：无声的围堵",
+      "day": "第3天 第一次试探"
+    },
+    {
+      "id": "S046",
+      "shot_type": "M",
+      "scene_id": "corridor",
+      "has_character": false,
+      "chapter": "第一章 第0—3天：无声的围堵",
+      "day": "第3天 第一次试探"
+    },
+    {
+      "id": "S047",
+      "shot_type": "E",
+      "scene_id": "apartment",
+      "has_character": true,
+      "chapter": "第一章 第0—3天：无声的围堵",
+      "day": "第3天 第一次试探"
+    },
+    {
+      "id": "S048",
+      "shot_type": "M",
+      "scene_id": "apartment",
+      "has_character": false,
+      "chapter": "第一章 第0—3天：无声的围堵",
+      "day": "第3天 第一次试探"
+    },
+    {
+      "id": "S049",
+      "shot_type": "C",
+      "scene_id": "apartment",
+      "has_character": false,
+      "chapter": "第一章 第0—3天：无声的围堵",
+      "day": "第3天 第一次试探"
+    },
+    {
+      "id": "S050",
+      "shot_type": "M",
+      "scene_id": "corridor",
+      "has_character": true,
+      "chapter": "第一章 第0—3天：无声的围堵",
+      "day": "第3天 第一次试探"
+    },
+    {
+      "id": "S051",
+      "shot_type": "M",
+      "scene_id": "apartment",
+      "has_character": true,
+      "chapter": "第一章 第0—3天：无声的围堵",
+      "day": "第3天 第一次试探"
+    },
+    {
+      "id": "S052",
+      "shot_type": "C",
+      "scene_id": "apartment",
+      "has_character": true,
+      "chapter": "第一章 第0—3天：无声的围堵",
+      "day": "第3天 第一次试探"
+    },
+    {
+      "id": "S053",
+      "shot_type": "E",
+      "scene_id": "apartment",
+      "has_character": true,
+      "chapter": "第二章 第4—7天：痕迹的真相",
+      "day": "第4天 门把手的秘密"
+    },
+    {
+      "id": "S054",
+      "shot_type": "M",
+      "scene_id": "corridor",
+      "has_character": true,
+      "chapter": "第二章 第4—7天：痕迹的真相",
+      "day": "第4天 门把手的秘密"
+    },
+    {
+      "id": "S055",
+      "shot_type": "M",
+      "scene_id": "corridor",
+      "has_character": true,
+      "chapter": "第二章 第4—7天：痕迹的真相",
+      "day": "第4天 门把手的秘密"
+    },
+    {
+      "id": "S056",
+      "shot_type": "C",
+      "scene_id": "corridor",
+      "has_character": true,
+      "chapter": "第二章 第4—7天：痕迹的真相",
+      "day": "第4天 门把手的秘密"
+    },
+    {
+      "id": "S057",
+      "shot_type": "M",
+      "scene_id": "apartment",
+      "has_character": true,
+      "chapter": "第二章 第4—7天：痕迹的真相",
+      "day": "第4天 门把手的秘密"
+    },
+    {
+      "id": "S058",
+      "shot_type": "M",
+      "scene_id": "corridor",
+      "has_character": true,
+      "chapter": "第二章 第4—7天：痕迹的真相",
+      "day": "第4天 门把手的秘密"
+    },
+    {
+      "id": "S059",
+      "shot_type": "E",
+      "scene_id": "apartment",
+      "has_character": true,
+      "chapter": "第二章 第4—7天：痕迹的真相",
+      "day": "第4天 门把手的秘密"
+    },
+    {
+      "id": "S060",
+      "shot_type": "C",
+      "scene_id": "apartment",
+      "has_character": true,
+      "chapter": "第二章 第4—7天：痕迹的真相",
+      "day": "第4天 门把手的秘密"
+    },
+    {
+      "id": "S061",
+      "shot_type": "M",
+      "scene_id": "apartment",
+      "has_character": true,
+      "chapter": "第二章 第4—7天：痕迹的真相",
+      "day": "第5天 第一个小坑：拖鞋痕迹"
+    },
+    {
+      "id": "S062",
+      "shot_type": "M",
+      "scene_id": "corridor",
+      "has_character": true,
+      "chapter": "第二章 第4—7天：痕迹的真相",
+      "day": "第5天 第一个小坑：拖鞋痕迹"
+    },
+    {
+      "id": "S063",
+      "shot_type": "E",
+      "scene_id": "route",
+      "has_character": true,
+      "chapter": "第二章 第4—7天：痕迹的真相",
+      "day": "第5天 第一个小坑：拖鞋痕迹"
+    },
+    {
+      "id": "S064",
+      "shot_type": "C",
+      "scene_id": "apartment",
+      "has_character": true,
+      "chapter": "第二章 第4—7天：痕迹的真相",
+      "day": "第5天 第一个小坑：拖鞋痕迹"
+    },
+    {
+      "id": "S065",
+      "shot_type": "M",
+      "scene_id": "apartment",
+      "has_character": true,
+      "chapter": "第二章 第4—7天：痕迹的真相",
+      "day": "第5天 第一个小坑：拖鞋痕迹"
+    },
+    {
+      "id": "S066",
+      "shot_type": "E",
+      "scene_id": "route",
+      "has_character": true,
+      "chapter": "第二章 第4—7天：痕迹的真相",
+      "day": "第5天 第一个小坑：拖鞋痕迹"
+    },
+    {
+      "id": "S067",
+      "shot_type": "M",
+      "scene_id": "apartment",
+      "has_character": true,
+      "chapter": "第二章 第4—7天：痕迹的真相",
+      "day": "第6天 不算实验的实验"
+    },
+    {
+      "id": "S068",
+      "shot_type": "M",
+      "scene_id": "apartment",
+      "has_character": false,
+      "chapter": "第二章 第4—7天：痕迹的真相",
+      "day": "第6天 不算实验的实验"
+    },
+    {
+      "id": "S069",
+      "shot_type": "C",
+      "scene_id": "corridor",
+      "has_character": true,
+      "chapter": "第二章 第4—7天：痕迹的真相",
+      "day": "第6天 不算实验的实验"
+    },
+    {
+      "id": "S070",
+      "shot_type": "M",
+      "scene_id": "apartment",
+      "has_character": true,
+      "chapter": "第二章 第4—7天：痕迹的真相",
+      "day": "第6天 不算实验的实验"
+    },
+    {
+      "id": "S071",
+      "shot_type": "C",
+      "scene_id": "corridor",
+      "has_character": true,
+      "chapter": "第二章 第4—7天：痕迹的真相",
+      "day": "第6天 不算实验的实验"
+    },
+    {
+      "id": "S072",
+      "shot_type": "E",
+      "scene_id": "apartment",
+      "has_character": true,
+      "chapter": "第二章 第4—7天：痕迹的真相",
+      "day": "第6天 不算实验的实验"
+    },
+    {
+      "id": "S073",
+      "shot_type": "M",
+      "scene_id": "apartment",
+      "has_character": true,
+      "chapter": "第二章 第4—7天：痕迹的真相",
+      "day": "第6天 不算实验的实验"
+    },
+    {
+      "id": "S074",
+      "shot_type": "M",
+      "scene_id": "apartment",
+      "has_character": true,
+      "chapter": "第二章 第4—7天：痕迹的真相",
+      "day": "第6天 不算实验的实验"
+    },
+    {
+      "id": "S075",
+      "shot_type": "M",
+      "scene_id": "corridor",
+      "has_character": true,
+      "chapter": "第二章 第4—7天：痕迹的真相",
+      "day": "第6天 不算实验的实验"
+    },
+    {
+      "id": "S076",
+      "shot_type": "C",
+      "scene_id": "apartment",
+      "has_character": true,
+      "chapter": "第二章 第4—7天：痕迹的真相",
+      "day": "第6天 不算实验的实验"
+    },
+    {
+      "id": "S077",
+      "shot_type": "M",
+      "scene_id": "apartment",
+      "has_character": false,
+      "chapter": "第二章 第4—7天：痕迹的真相",
+      "day": "第6天 不算实验的实验"
+    },
+    {
+      "id": "S078",
+      "shot_type": "E",
+      "scene_id": "apartment",
+      "has_character": true,
+      "chapter": "第二章 第4—7天：痕迹的真相",
+      "day": "第6天 不算实验的实验"
+    },
+    {
+      "id": "S079",
+      "shot_type": "M",
+      "scene_id": "apartment",
+      "has_character": true,
+      "chapter": "第二章 第4—7天：痕迹的真相",
+      "day": "第7天 死线与权衡"
+    },
+    {
+      "id": "S080",
+      "shot_type": "C",
+      "scene_id": "apartment",
+      "has_character": true,
+      "chapter": "第二章 第4—7天：痕迹的真相",
+      "day": "第7天 死线与权衡"
+    },
+    {
+      "id": "S081",
+      "shot_type": "M",
+      "scene_id": "apartment",
+      "has_character": false,
+      "chapter": "第二章 第4—7天：痕迹的真相",
+      "day": "第7天 死线与权衡"
+    },
+    {
+      "id": "S082",
+      "shot_type": "C",
+      "scene_id": "apartment",
+      "has_character": true,
+      "chapter": "第二章 第4—7天：痕迹的真相",
+      "day": "第7天 死线与权衡"
+    },
+    {
+      "id": "S083",
+      "shot_type": "M",
+      "scene_id": "apartment",
+      "has_character": true,
+      "chapter": "第二章 第4—7天：痕迹的真相",
+      "day": "第7天 死线与权衡"
+    },
+    {
+      "id": "S084",
+      "shot_type": "E",
+      "scene_id": "route",
+      "has_character": true,
+      "chapter": "第二章 第4—7天：痕迹的真相",
+      "day": "第7天 死线与权衡"
+    },
+    {
+      "id": "S085",
+      "shot_type": "M",
+      "scene_id": "apartment",
+      "has_character": false,
+      "chapter": "第二章 第4—7天：痕迹的真相",
+      "day": "第7天 死线与权衡"
+    },
+    {
+      "id": "S086",
+      "shot_type": "M",
+      "scene_id": "apartment",
+      "has_character": true,
+      "chapter": "第二章 第4—7天：痕迹的真相",
+      "day": "第7天 死线与权衡"
+    },
+    {
+      "id": "S087",
+      "shot_type": "C",
+      "scene_id": "apartment",
+      "has_character": true,
+      "chapter": "第二章 第4—7天：痕迹的真相",
+      "day": "第7天 死线与权衡"
+    },
+    {
+      "id": "S088",
+      "shot_type": "M",
+      "scene_id": "apartment",
+      "has_character": true,
+      "chapter": "第二章 第4—7天：痕迹的真相",
+      "day": "第7天 死线与权衡"
+    },
+    {
+      "id": "S089",
+      "shot_type": "C",
+      "scene_id": "apartment",
+      "has_character": true,
+      "chapter": "第二章 第4—7天：痕迹的真相",
+      "day": "第7天 死线与权衡"
+    },
+    {
+      "id": "S090",
+      "shot_type": "E",
+      "scene_id": "apartment",
+      "has_character": true,
+      "chapter": "第二章 第4—7天：痕迹的真相",
+      "day": "第7天 死线与权衡"
+    },
+    {
+      "id": "S091",
+      "shot_type": "M",
+      "scene_id": "street",
+      "has_character": true,
+      "chapter": "第三章 第8—17天：无痕生存术",
+      "day": "第8天 睡眠的陷阱"
+    },
+    {
+      "id": "S092",
+      "shot_type": "M",
+      "scene_id": "apartment",
+      "has_character": true,
+      "chapter": "第三章 第8—17天：无痕生存术",
+      "day": "第8天 睡眠的陷阱"
+    },
+    {
+      "id": "S093",
+      "shot_type": "M",
+      "scene_id": "apartment",
+      "has_character": false,
+      "chapter": "第三章 第8—17天：无痕生存术",
+      "day": "第8天 睡眠的陷阱"
+    },
+    {
+      "id": "S094",
+      "shot_type": "C",
+      "scene_id": "corridor",
+      "has_character": true,
+      "chapter": "第三章 第8—17天：无痕生存术",
+      "day": "第8天 睡眠的陷阱"
+    },
+    {
+      "id": "S095",
+      "shot_type": "M",
+      "scene_id": "street",
+      "has_character": true,
+      "chapter": "第三章 第8—17天：无痕生存术",
+      "day": "第8天 睡眠的陷阱"
+    },
+    {
+      "id": "S096",
+      "shot_type": "E",
+      "scene_id": "apartment",
+      "has_character": true,
+      "chapter": "第三章 第8—17天：无痕生存术",
+      "day": "第8天 睡眠的陷阱"
+    },
+    {
+      "id": "S097",
+      "shot_type": "M",
+      "scene_id": "apartment",
+      "has_character": false,
+      "chapter": "第三章 第8—17天：无痕生存术",
+      "day": "第8天 睡眠的陷阱"
+    },
+    {
+      "id": "S098",
+      "shot_type": "C",
+      "scene_id": "apartment",
+      "has_character": false,
+      "chapter": "第三章 第8—17天：无痕生存术",
+      "day": "第9天 呼吸水雾"
+    },
+    {
+      "id": "S099",
+      "shot_type": "M",
+      "scene_id": "apartment",
+      "has_character": true,
+      "chapter": "第三章 第8—17天：无痕生存术",
+      "day": "第9天 呼吸水雾"
+    },
+    {
+      "id": "S100",
+      "shot_type": "M",
+      "scene_id": "apartment",
+      "has_character": true,
+      "chapter": "第三章 第8—17天：无痕生存术",
+      "day": "第9天 呼吸水雾"
+    },
+    {
+      "id": "S101",
+      "shot_type": "C",
+      "scene_id": "street",
+      "has_character": true,
+      "chapter": "第三章 第8—17天：无痕生存术",
+      "day": "第9天 呼吸水雾"
+    },
+    {
+      "id": "S102",
+      "shot_type": "E",
+      "scene_id": "apartment",
+      "has_character": true,
+      "chapter": "第三章 第8—17天：无痕生存术",
+      "day": "第9天 呼吸水雾"
+    },
+    {
+      "id": "S103",
+      "shot_type": "M",
+      "scene_id": "apartment",
+      "has_character": true,
+      "chapter": "第三章 第8—17天：无痕生存术",
+      "day": "第9天 呼吸水雾"
+    },
+    {
+      "id": "S104",
+      "shot_type": "M",
+      "scene_id": "apartment",
+      "has_character": true,
+      "chapter": "第三章 第8—17天：无痕生存术",
+      "day": "第9天 呼吸水雾"
+    },
+    {
+      "id": "S105",
+      "shot_type": "C",
+      "scene_id": "apartment",
+      "has_character": true,
+      "chapter": "第三章 第8—17天：无痕生存术",
+      "day": "第10—12天 精细化生存"
+    },
+    {
+      "id": "S106",
+      "shot_type": "M",
+      "scene_id": "apartment",
+      "has_character": false,
+      "chapter": "第三章 第8—17天：无痕生存术",
+      "day": "第10—12天 精细化生存"
+    },
+    {
+      "id": "S107",
+      "shot_type": "C",
+      "scene_id": "apartment",
+      "has_character": false,
+      "chapter": "第三章 第8—17天：无痕生存术",
+      "day": "第10—12天 精细化生存"
+    },
+    {
+      "id": "S108",
+      "shot_type": "E",
+      "scene_id": "apartment",
+      "has_character": true,
+      "chapter": "第三章 第8—17天：无痕生存术",
+      "day": "第10—12天 精细化生存"
+    },
+    {
+      "id": "S109",
+      "shot_type": "E",
+      "scene_id": "store",
+      "has_character": true,
+      "chapter": "第三章 第8—17天：无痕生存术",
+      "day": "第10—12天 精细化生存"
+    },
+    {
+      "id": "S110",
+      "shot_type": "M",
+      "scene_id": "apartment",
+      "has_character": true,
+      "chapter": "第三章 第8—17天：无痕生存术",
+      "day": "第10—12天 精细化生存"
+    },
+    {
+      "id": "S111",
+      "shot_type": "M",
+      "scene_id": "apartment",
+      "has_character": true,
+      "chapter": "第三章 第8—17天：无痕生存术",
+      "day": "第10—12天 精细化生存"
+    },
+    {
+      "id": "S112",
+      "shot_type": "M",
+      "scene_id": "apartment",
+      "has_character": true,
+      "chapter": "第三章 第8—17天：无痕生存术",
+      "day": "第10—12天 精细化生存"
+    },
+    {
+      "id": "S113",
+      "shot_type": "C",
+      "scene_id": "apartment",
+      "has_character": false,
+      "chapter": "第三章 第8—17天：无痕生存术",
+      "day": "第13天 第一次外出"
+    },
+    {
+      "id": "S114",
+      "shot_type": "M",
+      "scene_id": "apartment",
+      "has_character": true,
+      "chapter": "第三章 第8—17天：无痕生存术",
+      "day": "第13天 第一次外出"
+    },
+    {
+      "id": "S115",
+      "shot_type": "E",
+      "scene_id": "apartment",
+      "has_character": false,
+      "chapter": "第三章 第8—17天：无痕生存术",
+      "day": "第13天 第一次外出"
+    },
+    {
+      "id": "S116",
+      "shot_type": "M",
+      "scene_id": "corridor",
+      "has_character": true,
+      "chapter": "第三章 第8—17天：无痕生存术",
+      "day": "第13天 第一次外出"
+    },
+    {
+      "id": "S117",
+      "shot_type": "C",
+      "scene_id": "corridor",
+      "has_character": true,
+      "chapter": "第三章 第8—17天：无痕生存术",
+      "day": "第13天 第一次外出"
+    },
+    {
+      "id": "S118",
+      "shot_type": "M",
+      "scene_id": "apartment",
+      "has_character": true,
+      "chapter": "第三章 第8—17天：无痕生存术",
+      "day": "第13天 第一次外出"
+    },
+    {
+      "id": "S119",
+      "shot_type": "E",
+      "scene_id": "store",
+      "has_character": false,
+      "chapter": "第三章 第8—17天：无痕生存术",
+      "day": "第13天 第一次外出"
+    },
+    {
+      "id": "S120",
+      "shot_type": "M",
+      "scene_id": "store",
+      "has_character": true,
+      "chapter": "第三章 第8—17天：无痕生存术",
+      "day": "第13天 第一次外出"
+    },
+    {
+      "id": "S121",
+      "shot_type": "C",
+      "scene_id": "corridor",
+      "has_character": true,
+      "chapter": "第三章 第8—17天：无痕生存术",
+      "day": "第13天 第一次外出"
+    },
+    {
+      "id": "S122",
+      "shot_type": "M",
+      "scene_id": "apartment",
+      "has_character": true,
+      "chapter": "第三章 第8—17天：无痕生存术",
+      "day": "第13天 第一次外出"
+    },
+    {
+      "id": "S123",
+      "shot_type": "M",
+      "scene_id": "apartment",
+      "has_character": true,
+      "chapter": "第三章 第8—17天：无痕生存术",
+      "day": "第13天 第一次外出"
+    },
+    {
+      "id": "S124",
+      "shot_type": "C",
+      "scene_id": "apartment",
+      "has_character": true,
+      "chapter": "第三章 第8—17天：无痕生存术",
+      "day": "第13天 第一次外出"
+    },
+    {
+      "id": "S125",
+      "shot_type": "E",
+      "scene_id": "apartment",
+      "has_character": true,
+      "chapter": "第三章 第8—17天：无痕生存术",
+      "day": "第13天 第一次外出"
+    },
+    {
+      "id": "S126",
+      "shot_type": "M",
+      "scene_id": "route",
+      "has_character": false,
+      "chapter": "第三章 第8—17天：无痕生存术",
+      "day": "第13天 第一次外出"
+    },
+    {
+      "id": "S127",
+      "shot_type": "M",
+      "scene_id": "apartment",
+      "has_character": false,
+      "chapter": "第三章 第8—17天：无痕生存术",
+      "day": "第13天 第一次外出"
+    },
+    {
+      "id": "S128",
+      "shot_type": "C",
+      "scene_id": "store",
+      "has_character": true,
+      "chapter": "第三章 第8—17天：无痕生存术",
+      "day": "第14天 唯一的坐标"
+    },
+    {
+      "id": "S129",
+      "shot_type": "M",
+      "scene_id": "route",
+      "has_character": false,
+      "chapter": "第三章 第8—17天：无痕生存术",
+      "day": "第14天 唯一的坐标"
+    },
+    {
+      "id": "S130",
+      "shot_type": "M",
+      "scene_id": "apartment",
+      "has_character": false,
+      "chapter": "第三章 第8—17天：无痕生存术",
+      "day": "第14天 唯一的坐标"
+    },
+    {
+      "id": "S131",
+      "shot_type": "E",
+      "scene_id": "route",
+      "has_character": true,
+      "chapter": "第三章 第8—17天：无痕生存术",
+      "day": "第14天 唯一的坐标"
+    },
+    {
+      "id": "S132",
+      "shot_type": "C",
+      "scene_id": "corridor",
+      "has_character": true,
+      "chapter": "第三章 第8—17天：无痕生存术",
+      "day": "第14天 唯一的坐标"
+    },
+    {
+      "id": "S133",
+      "shot_type": "M",
+      "scene_id": "route",
+      "has_character": true,
+      "chapter": "第三章 第8—17天：无痕生存术",
+      "day": "第14天 唯一的坐标"
+    },
+    {
+      "id": "S134",
+      "shot_type": "M",
+      "scene_id": "apartment",
+      "has_character": true,
+      "chapter": "第三章 第8—17天：无痕生存术",
+      "day": "第14天 唯一的坐标"
+    },
+    {
+      "id": "S135",
+      "shot_type": "C",
+      "scene_id": "apartment",
+      "has_character": true,
+      "chapter": "第三章 第8—17天：无痕生存术",
+      "day": "第14天 唯一的坐标"
+    },
+    {
+      "id": "S136",
+      "shot_type": "M",
+      "scene_id": "apartment",
+      "has_character": false,
+      "chapter": "第三章 第8—17天：无痕生存术",
+      "day": "第16—17天 雾的征兆"
+    },
+    {
+      "id": "S137",
+      "shot_type": "E",
+      "scene_id": "street",
+      "has_character": true,
+      "chapter": "第三章 第8—17天：无痕生存术",
+      "day": "第16—17天 雾的征兆"
+    },
+    {
+      "id": "S138",
+      "shot_type": "M",
+      "scene_id": "apartment",
+      "has_character": false,
+      "chapter": "第三章 第8—17天：无痕生存术",
+      "day": "第16—17天 雾的征兆"
+    },
+    {
+      "id": "S139",
+      "shot_type": "C",
+      "scene_id": "apartment",
+      "has_character": true,
+      "chapter": "第三章 第8—17天：无痕生存术",
+      "day": "第16—17天 雾的征兆"
+    },
+    {
+      "id": "S140",
+      "shot_type": "M",
+      "scene_id": "street",
+      "has_character": true,
+      "chapter": "第三章 第8—17天：无痕生存术",
+      "day": "第16—17天 雾的征兆"
+    },
+    {
+      "id": "S141",
+      "shot_type": "M",
+      "scene_id": "apartment",
+      "has_character": true,
+      "chapter": "第三章 第8—17天：无痕生存术",
+      "day": "第16—17天 雾的征兆"
+    },
+    {
+      "id": "S142",
+      "shot_type": "C",
+      "scene_id": "apartment",
+      "has_character": false,
+      "chapter": "第三章 第8—17天：无痕生存术",
+      "day": "第16—17天 雾的征兆"
+    },
+    {
+      "id": "S143",
+      "shot_type": "E",
+      "scene_id": "apartment",
+      "has_character": true,
+      "chapter": "第三章 第8—17天：无痕生存术",
+      "day": "第16—17天 雾的征兆"
+    },
+    {
+      "id": "S144",
+      "shot_type": "M",
+      "scene_id": "route",
+      "has_character": true,
+      "chapter": "第三章 第8—17天：无痕生存术",
+      "day": "第16—17天 雾的征兆"
+    },
+    {
+      "id": "S145",
+      "shot_type": "M",
+      "scene_id": "route",
+      "has_character": true,
+      "chapter": "第三章 第8—17天：无痕生存术",
+      "day": "第16—17天 雾的征兆"
+    },
+    {
+      "id": "S146",
+      "shot_type": "C",
+      "scene_id": "apartment",
+      "has_character": true,
+      "chapter": "第三章 第8—17天：无痕生存术",
+      "day": "第16—17天 雾的征兆"
+    },
+    {
+      "id": "S147",
+      "shot_type": "M",
+      "scene_id": "route",
+      "has_character": true,
+      "chapter": "第四章 第18—19天：差一步",
+      "day": "第18天 最后一夜"
+    },
+    {
+      "id": "S148",
+      "shot_type": "E",
+      "scene_id": "corridor",
+      "has_character": true,
+      "chapter": "第四章 第18—19天：差一步",
+      "day": "第18天 最后一夜"
+    },
+    {
+      "id": "S149",
+      "shot_type": "M",
+      "scene_id": "corridor",
+      "has_character": false,
+      "chapter": "第四章 第18—19天：差一步",
+      "day": "第18天 最后一夜"
+    },
+    {
+      "id": "S150",
+      "shot_type": "M",
+      "scene_id": "apartment",
+      "has_character": false,
+      "chapter": "第四章 第18—19天：差一步",
+      "day": "第18天 最后一夜"
+    },
+    {
+      "id": "S151",
+      "shot_type": "C",
+      "scene_id": "apartment",
+      "has_character": true,
+      "chapter": "第四章 第18—19天：差一步",
+      "day": "第18天 最后一夜"
+    },
+    {
+      "id": "S152",
+      "shot_type": "M",
+      "scene_id": "apartment",
+      "has_character": true,
+      "chapter": "第四章 第18—19天：差一步",
+      "day": "第18天 最后一夜"
+    },
+    {
+      "id": "S153",
+      "shot_type": "E",
+      "scene_id": "apartment",
+      "has_character": true,
+      "chapter": "第四章 第18—19天：差一步",
+      "day": "第18天 最后一夜"
+    },
+    {
+      "id": "S154",
+      "shot_type": "M",
+      "scene_id": "apartment",
+      "has_character": true,
+      "chapter": "第四章 第18—19天：差一步",
+      "day": "第18天 最后一夜"
+    },
+    {
+      "id": "S155",
+      "shot_type": "C",
+      "scene_id": "apartment",
+      "has_character": true,
+      "chapter": "第四章 第18—19天：差一步",
+      "day": "第19天 没跑赢"
+    },
+    {
+      "id": "S156",
+      "shot_type": "M",
+      "scene_id": "route",
+      "has_character": false,
+      "chapter": "第四章 第18—19天：差一步",
+      "day": "第19天 没跑赢"
+    },
+    {
+      "id": "S157",
+      "shot_type": "E",
+      "scene_id": "corridor",
+      "has_character": true,
+      "chapter": "第四章 第18—19天：差一步",
+      "day": "第19天 没跑赢"
+    },
+    {
+      "id": "S158",
+      "shot_type": "M",
+      "scene_id": "apartment",
+      "has_character": false,
+      "chapter": "第四章 第18—19天：差一步",
+      "day": "第19天 没跑赢"
+    },
+    {
+      "id": "S159",
+      "shot_type": "C",
+      "scene_id": "corridor",
+      "has_character": true,
+      "chapter": "第四章 第18—19天：差一步",
+      "day": "第19天 没跑赢"
+    },
+    {
+      "id": "S160",
+      "shot_type": "M",
+      "scene_id": "apartment",
+      "has_character": true,
+      "chapter": "第四章 第18—19天：差一步",
+      "day": "第19天 没跑赢"
+    },
+    {
+      "id": "S161",
+      "shot_type": "E",
+      "scene_id": "street",
+      "has_character": true,
+      "chapter": "第四章 第18—19天：差一步",
+      "day": "第19天 没跑赢"
+    },
+    {
+      "id": "S162",
+      "shot_type": "M",
+      "scene_id": "apartment",
+      "has_character": true,
+      "chapter": "第四章 第18—19天：差一步",
+      "day": "第19天 没跑赢"
+    },
+    {
+      "id": "S163",
+      "shot_type": "C",
+      "scene_id": "apartment",
+      "has_character": true,
+      "chapter": "第四章 第18—19天：差一步",
+      "day": "第19天 没跑赢"
+    },
+    {
+      "id": "S164",
+      "shot_type": "M",
+      "scene_id": "apartment",
+      "has_character": true,
+      "chapter": "第四章 第18—19天：差一步",
+      "day": "第19天 没跑赢"
+    },
+    {
+      "id": "S165",
+      "shot_type": "M",
+      "scene_id": "apartment",
+      "has_character": false,
+      "chapter": "第四章 第18—19天：差一步",
+      "day": "第19天 没跑赢"
+    },
+    {
+      "id": "S166",
+      "shot_type": "E",
+      "scene_id": "apartment",
+      "has_character": false,
+      "chapter": "第四章 第18—19天：差一步",
+      "day": "第19天 没跑赢"
+    },
+    {
+      "id": "S167",
+      "shot_type": "C",
+      "scene_id": "apartment",
+      "has_character": true,
+      "chapter": "第四章 第18—19天：差一步",
+      "day": "第19天 没跑赢"
+    },
+    {
+      "id": "S168",
+      "shot_type": "M",
+      "scene_id": "apartment",
+      "has_character": false,
+      "chapter": "第四章 第18—19天：差一步",
+      "day": "第19天 没跑赢"
+    },
+    {
+      "id": "S169",
+      "shot_type": "M",
+      "scene_id": "corridor",
+      "has_character": false,
+      "chapter": "第四章 第18—19天：差一步",
+      "day": "第19天 没跑赢"
+    },
+    {
+      "id": "S170",
+      "shot_type": "C",
+      "scene_id": "street",
+      "has_character": true,
+      "chapter": "第四章 第18—19天：差一步",
+      "day": "第19天 没跑赢"
+    },
+    {
+      "id": "S171",
+      "shot_type": "M",
+      "scene_id": "apartment",
+      "has_character": false,
+      "chapter": "第四章 第18—19天：差一步",
+      "day": "第19天 没跑赢"
+    },
+    {
+      "id": "S172",
+      "shot_type": "E",
+      "scene_id": "apartment",
+      "has_character": false,
+      "chapter": "第四章 第18—19天：差一步",
+      "day": "第19天 没跑赢"
+    }
+  ]
+}

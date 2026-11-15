@@ -10,14 +10,9 @@
 # ===== 二进制素材（用单独备份或 LFS）=====
 /assets/
 
-# ===== 暂停线路（2026-11-06 未在产）=====
+# ===== 退役线路（2026-11-10 归档；数据在 /shared/archive/retired-lines-20261110/）=====
 /projects/悬疑动漫/
 /projects/创意/
-/projects/猎奇/
-/projects/音乐线/
-/projects/抖音特效/
-/projects/unassigned/外卖之谜/
-/projects/unassigned/potato-grow-test/
 
 # ===== 单集产物 =====
 /projects/**/image/
@@ -30,14 +25,6 @@
 /projects/**/assets/
 /projects/**/out/
 /projects/**/g1/
-/4/image/
-/4/audio/
-/4/video/
-/4/assets/
-/编剧3/image/
-/编剧3/audio/
-/编剧3/video/
-/编剧3/assets/
 
 # ===== runs：只放行 scripts 与 subtitles =====
 /projects/**/runs/**
@@ -46,19 +33,6 @@
 !/projects/**/runs/**/scripts/**
 !/projects/**/runs/**/subtitles/
 !/projects/**/runs/**/subtitles/**
-/4/runs/**
-!/4/runs/**/
-!/4/runs/**/scripts/
-!/4/runs/**/scripts/**
-!/4/runs/**/subtitles/
-!/4/runs/**/subtitles/**
-/编剧3/runs/**
-!/编剧3/runs/**/
-!/4/runs/**/
-!/编剧3/runs/**/scripts/
-!/编剧3/runs/**/scripts/**
-!/编剧3/runs/**/subtitles/
-!/编剧3/runs/**/subtitles/**
 
 # 烧录目录：内含 16.8MB 字体副本与 42MB wav
 **/burn/
@@ -92,3 +66,7 @@ __pycache__/
 /.acl-reports/
 /.codex-memory/
 /.workbuddy/
+/.cleanup/
+
+# 图片 API 探测产物（原始响应/出图，体积大且含请求痕迹）
+/shared/image-api/runs/

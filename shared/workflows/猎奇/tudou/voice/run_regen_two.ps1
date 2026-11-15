@@ -1,1 +1,0 @@
-$env:HF_ENDPOINT='https://hf-mirror.com'; $env:PYTHONIOENCODING='utf-8'; Set-Location 'E:\program\1project\video\shared\runtime\engines\tts\voxcpm'; & '.venv\Scripts\python.exe' 'E:\program\1project\video\shared\workflows\猎奇\tudou\voice\regen_two.py'

@@ -1,0 +1,118 @@
+{
+ "schema_version": 1,
+ "backend": "affine",
+ "output": {
+  "width": 1920,
+  "height": 1080,
+  "fps": 24
+ },
+ "overview": false,
+ "transition_s": 0,
+ "shots": [
+  {
+   "id": "hook1_machine",
+   "source": "E:\\program\\1project\\video\\projects\\悬疑\\episodes\\20261112-tuoshui\\image\\final-v2\\bg_machine2.png",
+   "duration_s": 1.5,
+   "start_view": [
+    0.02,
+    0.02,
+    0.96,
+    0.96
+   ],
+   "end_view": [
+    0.06,
+    0.05,
+    0.88,
+    0.88
+   ],
+   "curve": {
+    "type": "ramped_linear",
+    "ramp_s": 0.375
+   }
+  },
+  {
+   "id": "hook1_phone",
+   "source": "E:\\program\\1project\\video\\projects\\悬疑\\episodes\\20261112-tuoshui\\intro\\v2\\plates\\shot1_phone.png",
+   "duration_s": 2.3333333333333335,
+   "start_view": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "end_view": [
+    0.035,
+    0.02,
+    0.93,
+    0.93
+   ],
+   "curve": {
+    "type": "ramped_linear",
+    "ramp_s": 0.5833333333333334
+   }
+  },
+  {
+   "id": "hook2_pipe",
+   "source": "E:\\program\\1project\\video\\projects\\悬疑\\episodes\\20261112-tuoshui\\image\\final-v2\\bg_pipe2.png",
+   "duration_s": 4.458333333333333,
+   "start_view": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "end_view": [
+    0.08,
+    0.05,
+    0.84,
+    0.84
+   ],
+   "curve": {
+    "type": "ramped_linear",
+    "ramp_s": 0.8
+   }
+  },
+  {
+   "id": "hook3_pair",
+   "source": "E:\\program\\1project\\video\\projects\\悬疑\\episodes\\20261112-tuoshui\\intro\\v2\\plates\\shot3_pair.png",
+   "duration_s": 3.75,
+   "start_view": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "end_view": [
+    0.025,
+    0.015,
+    0.95,
+    0.95
+   ],
+   "curve": {
+    "type": "ramped_linear",
+    "ramp_s": 0.8
+   }
+  },
+  {
+   "id": "title",
+   "source": "E:\\program\\1project\\video\\projects\\悬疑\\episodes\\20261112-tuoshui\\image\\final-v2\\bg_gap2.png",
+   "duration_s": 3.0,
+   "start_view": [
+    0.04,
+    0.02,
+    0.92,
+    0.92
+   ],
+   "end_view": [
+    0.1,
+    0.07,
+    0.8,
+    0.8
+   ],
+   "curve": {
+    "type": "ramped_linear",
+    "ramp_s": 0.75
+   }
+  }
+ ]
+}

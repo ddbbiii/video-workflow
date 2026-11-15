@@ -1,0 +1,113 @@
+{
+  "engine_version": "1.1",
+  "engine_sha256": "46d51c50f94f7e04c07f474e375a12409541a022afcfa52addc01c34140c3fb7",
+  "plan": "E:\\program\\1project\\video\\projects\\悬疑\\planning\\片头样片-20261110\\v2-intro\\build\\motion_plan.json",
+  "backend": "affine",
+  "status": "complete",
+  "shots": [
+    {
+      "id": "ib0",
+      "fingerprint": "1f514a85b7a49284da39def5ae66bb1b009b75ccc8404d3d84df10e7629f4135",
+      "status": "complete",
+      "backend": "affine",
+      "video": "E:\\program\\1project\\video\\projects\\悬疑\\planning\\片头样片-20261110\\v2-intro\\build\\motion\\ib0.mp4",
+      "video_sha256": "c341b0fad38fac342e3055b736029723158dcf6b35cfce072c2c9fa4bdf00076",
+      "duration_s": 4.0,
+      "qa": {
+        "source_bounds_checked": true,
+        "required_regions_checked": true,
+        "max_center_step_output_px": 3.2155493553843715e-13,
+        "max_scale_step": 0.00029918488769875573,
+        "scope": "Planned trajectory only; encoded motion and visual texture require separate QA"
+      },
+      "timing": {
+        "backend": "affine",
+        "source_size_rendered": [
+          1969,
+          1108
+        ]
+      },
+      "trajectory_sha256": "acfef525c3f43a878d65608e363d6f5237fe6e10c6fb91e944674c62045f4c90"
+    },
+    {
+      "id": "ib1",
+      "fingerprint": "8b57994e87ebcbe27692fc9046a572b6a15e5651b6212207c8cee783bc2984d8",
+      "status": "complete",
+      "backend": "affine",
+      "video": "E:\\program\\1project\\video\\projects\\悬疑\\planning\\片头样片-20261110\\v2-intro\\build\\motion\\ib1.mp4",
+      "video_sha256": "f50dbbd5b48b5f3ec1f9cce24ad75f4203fc76afb450cea7a0d25d162bed653e",
+      "duration_s": 3.7916666666666665,
+      "qa": {
+        "source_bounds_checked": true,
+        "required_regions_checked": true,
+        "max_center_step_output_px": 2.5421149729252077e-13,
+        "max_scale_step": 0.000317725052884521,
+        "scope": "Planned trajectory only; encoded motion and visual texture require separate QA"
+      },
+      "timing": {
+        "backend": "affine",
+        "source_size_rendered": [
+          1969,
+          1108
+        ]
+      },
+      "trajectory_sha256": "693396b41adad8f0864acfa015211aadd37723337e83e6f228fb8501fff4cfa4"
+    },
+    {
+      "id": "ib2",
+      "fingerprint": "742b83e81ef19d8b19ec007d102bd6816aecc3127da27fc62c86fe29b16a7b9c",
+      "status": "complete",
+      "backend": "affine",
+      "video": "E:\\program\\1project\\video\\projects\\悬疑\\planning\\片头样片-20261110\\v2-intro\\build\\motion\\ib2.mp4",
+      "video_sha256": "bc92d1223640594048456fe0687b880fd4e881b1ab0f7cd2bcf4fec9879dfd2a",
+      "duration_s": 3.0,
+      "qa": {
+        "source_bounds_checked": true,
+        "required_regions_checked": true,
+        "max_center_step_output_px": 3.2155493553843715e-13,
+        "max_scale_step": 0.00041558851670076,
+        "scope": "Planned trajectory only; encoded motion and visual texture require separate QA"
+      },
+      "timing": {
+        "backend": "affine",
+        "source_size_rendered": [
+          1969,
+          1108
+        ]
+      },
+      "trajectory_sha256": "e47b371fe4d1991ccd29cb9f5dcb0c7764c89ebbd80273be6e65f067154fd6a8"
+    },
+    {
+      "id": "ib3",
+      "fingerprint": "abc34676e92e9e73a8621d52c07dad3c3c3fcb02323a7914a50d50591bdfceef",
+      "status": "complete",
+      "backend": "affine",
+      "video": "E:\\program\\1project\\video\\projects\\悬疑\\planning\\片头样片-20261110\\v2-intro\\build\\motion\\ib3.mp4",
+      "video_sha256": "8d1219a76ca6bf6806759ab6dcd4b4b43704e1f8072eebc544bae5798dbc2e0c",
+      "duration_s": 3.125,
+      "qa": {
+        "source_bounds_checked": true,
+        "required_regions_checked": true,
+        "max_center_step_output_px": 2.5421149729252077e-13,
+        "max_scale_step": 0.00039631432788311827,
+        "scope": "Planned trajectory only; encoded motion and visual texture require separate QA"
+      },
+      "timing": {
+        "backend": "affine",
+        "source_size_rendered": [
+          1969,
+          1108
+        ]
+      },
+      "trajectory_sha256": "c3364f080afb932dd866c694016680fd5b34f36970aa9be8d67a85eb1197fac0"
+    }
+  ],
+  "overview": "E:\\program\\1project\\video\\projects\\悬疑\\planning\\片头样片-20261110\\v2-intro\\build\\motion\\overview.mp4",
+  "limitations": [
+    "Affine sampling uses OpenCV 1/32-pixel interpolation table.",
+    "Blender backend uses orthographic camera + emission-textured plane; no parallax.",
+    "No invented parallax, internal animation or depth.",
+    "Rendered temporal tracking must be verified separately from planned trajectory.",
+    "Missing Blender install fails hard; never silent-falls back to affine."
+  ]
+}

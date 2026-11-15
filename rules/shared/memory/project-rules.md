@@ -1,37 +1,27 @@
 # 项目级持久规则（索引）
 
-> 2026-11-06 改为索引：本文件只保留跨线路的“口径与去向”，具体规则在各真源，不在此重复。
-> 摘要原文备份：`shared/archive/rules-premerge-20261106/rules/shared/memory/project-rules.md`。
+> 2026-11-14 起按「纯正文」口径重写：每集只交正文视频 + SRT。具体参数在真源，本文件只保留跨线路口径。
 
-## 目录与入口
+## 终端交付
 
-工作区根目录只允许 `projects/ assets/ rules/ indexes/ shared/ todos/ README.md`；新增线路同步 `indexes/LINE_INDEX.md`。真源：`indexes/DIRECTORY_STRUCTURE.md`、`document-organization.md`。
+- 每集只交两件：`video/final/<线路>_<中文剧名>_正文_vN.mp4`（无片头、无标题、无字幕、无文字层、无音轨、无字幕流）＋ `video/srt/` 下的同基名 `.srt`（覆盖正文，`00:00:00,000` 起，估算时间轴）。
+- 不产：片头、引入、标题卡、章节卡、账号卡、配音、TTS/WAV/分轨、混音、BGM、字幕烧录、ASS、封面、预览、成品卡、成品索引。
+- 不落 `shared/delivery/`、不写卡、不登记。旧成品库与卡片规范已废止。
+- 真源：`rules/shared/delivery.md`、`rules/shared/srt.md`、`rules/shared/video-workflow.md`。
 
-## 成本评估
+## SRT
 
-只算本机占用时间（wall-clock/CPU/GPU）与 token；不算人工、人日、工时。口径与算例：`rules/shared/cost-evaluation.md`。
+- 文本只取锁定稿 `cue`；每条 ≤20 可见字（汉/数/字母各计 1，标点不计）；单行、80% 宽内；只在分句标点拆条。
+- 全部 cue 去标点拼接 == 锁定正文；`check_srt.py` PASS 才交付；注明「估算时间轴，未对真实人声校准」。
+- 与视频分目录放，禁止同名相邻。真源：`rules/shared/srt.md`。
 
-## GPU 统一调度
+## 门禁
 
-由管理聊天统一排队，请求写入 `shared/gpu-queue/requests/`，单卡串行，遵守 GPU 锁。协议、状态机、轮询与暂停规则：`shared/gpu-queue/README.md`。
+- 两道人工门禁：门禁 1 关键动态、门禁 2 正文成片；没有门禁 3。
+- 交付前必跑：`ffprobe` 0 音频流/0 字幕流、像素白黑屏 ≥1s、CFR、时长=帧数/帧率、SRT 门禁；助眠白边门禁照旧。
+- 已交付成品不回改、不重制（2026-11-14）。
 
-## 静帧运镜
+## 记忆与归档
 
-推拉平移默认 affine，幅度可感知、连续、柔和起停、保护主体。参数与边界：`shared/camera-motion/MOTION_GUIDELINES.md`。
-
-## 静态生图与文画匹配
-
-默认独立 GPT 图片 API；关键旁白事实必须可见，不以氛围替代实验/变化/因果。流程与门禁：`video-workflow.md` §2.C；网格细则：`image-grid-generation.md`。
-
-两条跨线路口径保留在此（真源未覆盖）：
-
-- 共享视觉生产默认高清图片配 affine 推拉；真实图生视频只用于低细节、自然内部运动明显且确有必要的少量镜头，**目标约占 20–30%，不是硬性配额**；不得为凑比例牺牲清晰度或事实准确性，争议或清晰度下降时正式版回退 affine。
-- 助眠的长期生图视觉方向见 `rules/助眠解说/visual.md`，仅适用于助眠线路。
-
-## 网格与超分
-
-四格用于 1080p 常规环境、九格用于选景/远景/低细节背景、复杂几何与关键特写优先独立生图；RealESRGAN 用于硬边结构，柔和星云优先 Lanczos；原图/裁剪/优化分别保存不覆盖。完整标准：`image-grid-generation.md`。
-
-## 图生视频
-
-每镜只标一种主要动态方式；只有关键动作需要起止状态图；I2V 失败默认回退静帧推拉，且必须按 `video-workflow.md` §2.D 汇总报备，不得静默。
+- 旧规则（片头、TTS、字幕烧录、成品库）与旧工具链已移入 `E:\program\1project\video-archive\20261114-body-only\`；默认不读，用户点名才恢复。
+- 真源：`rules/shared/video-workflow.md`、`rules/shared/delivery.md`、`rules/shared/srt.md`。

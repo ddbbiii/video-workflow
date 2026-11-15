@@ -1,0 +1,62 @@
+{
+ "source": "E:\\program\\1project\\video\\projects\\人生体验\\planning\\intro-test-v2\\vo_only.wav",
+ "duration_s": 8.43,
+ "max_silence_s": 1.74,
+ "max_silence_limit_s": 2.0,
+ "silences_ge_0_2s": [
+  [
+   0.0,
+   0.34,
+   0.34
+  ],
+  [
+   1.6,
+   3.34,
+   1.74
+  ],
+  [
+   3.36,
+   3.62,
+   0.26
+  ],
+  [
+   5.84,
+   6.12,
+   0.28
+  ],
+  [
+   8.16,
+   8.42,
+   0.26
+  ]
+ ],
+ "title_window": [
+  3.3,
+  8.2
+ ],
+ "title_silence_s": 0.28,
+ "title_silence_limit_s": 0.5,
+ "silences_in_title_window": [
+  [
+   1.6,
+   3.34,
+   1.74
+  ],
+  [
+   3.36,
+   3.62,
+   0.26
+  ],
+  [
+   5.84,
+   6.12,
+   0.28
+  ],
+  [
+   8.16,
+   8.42,
+   0.26
+  ]
+ ],
+ "pass": true
+}

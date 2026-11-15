@@ -1,0 +1,650 @@
+{
+  "schema": 1,
+  "episode": "20261115-wumingjiejing",
+  "shots": [
+    {
+      "id": "S01",
+      "type": "E",
+      "fact": "深夜的写字楼出口空无一人。",
+      "cue_ids": [
+        "S01"
+      ],
+      "cue": "林旭加班到十一点半，走出写字楼时整条街只剩路灯还亮着。",
+      "user_literal": false,
+      "start_s": 0.0,
+      "end_s": 7.184,
+      "source": "E:\\program\\1project\\video\\projects\\悬疑\\episodes\\20261115-wumingjiejing\\image\\stills-raw\\S01.png"
+    },
+    {
+      "id": "S02",
+      "type": "E",
+      "fact": "回家的大路沿老小区围墙笔直延伸。",
+      "cue_ids": [
+        "S02",
+        "S03"
+      ],
+      "cue": "他习惯性点开导航步行回家，线路刚加载完，页面顶部突然弹出一条淡灰色提示：“发现更近路线，预计节省八分钟，是否切换？”他愣了一下。这条路他走了快两年，两边都是老小区围墙，根本没有别的岔路。",
+      "user_literal": false,
+      "start_s": 7.184,
+      "end_s": 30.164,
+      "source": "E:\\program\\1project\\video\\projects\\悬疑\\episodes\\20261115-wumingjiejing\\image\\stills-raw\\S02.png"
+    },
+    {
+      "id": "S03",
+      "type": "M",
+      "fact": "林旭站在写字楼门口点开手机导航。",
+      "cue_ids": [
+        "S04"
+      ],
+      "cue": "点进地图详情，那条所谓的“捷径”是条细得像线的灰色小巷，没有路名，没有标注，搜遍全网地图都查不到这条巷的存在。",
+      "user_literal": false,
+      "start_s": 30.164,
+      "end_s": 43.737,
+      "source": "E:\\program\\1project\\video\\projects\\悬疑\\episodes\\20261115-wumingjiejing\\image\\stills-raw\\S03.png"
+    },
+    {
+      "id": "S04",
+      "type": "M",
+      "fact": "导航出现异常路线时林旭仍停在原地。",
+      "cue_ids": [
+        "S05",
+        "S06"
+      ],
+      "cue": "“系统bug吧。”他嘟囔着站在原地没动，手指悬在屏幕上正准备退出。就在这时，导航语音冷不丁响了：“您已前行一百二十米，路口右转，进入无名道路。”",
+      "user_literal": false,
+      "start_s": 43.737,
+      "end_s": 60.884,
+      "source": "E:\\program\\1project\\video\\projects\\悬疑\\episodes\\20261115-wumingjiejing\\image\\stills-raw\\S04.png"
+    },
+    {
+      "id": "S37",
+      "type": "M",
+      "fact": "林旭站在卷帘门边确认导航时，双脚仍停在原地。",
+      "cue_ids": [
+        "S07"
+      ],
+      "cue": "林旭后背一麻。",
+      "user_literal": false,
+      "start_s": 60.884,
+      "end_s": 62.791,
+      "source": "E:\\program\\1project\\video\\projects\\悬疑\\episodes\\20261115-wumingjiejing\\image\\stills-raw\\S37.png"
+    },
+    {
+      "id": "S38",
+      "type": "C",
+      "fact": "导航预计到达时间出现负值。",
+      "cue_ids": [
+        "S08"
+      ],
+      "cue": "他分明还站在原地，脚都没抬一下。",
+      "user_literal": false,
+      "start_s": 62.791,
+      "end_s": 66.92,
+      "source": "E:\\program\\1project\\video\\projects\\悬疑\\episodes\\20261115-wumingjiejing\\image\\stills-raw\\S38.png"
+    },
+    {
+      "id": "S05",
+      "type": "C",
+      "fact": "手机上的定位圆点在路线图上向前移动。",
+      "cue_ids": [
+        "S09",
+        "S10"
+      ],
+      "cue": "屏幕上的定位小圆点却真的在自己往前挪，一步一步，精准地朝着那条不存在的巷子飘过去。更诡异的是，预计到达时间从“还有12分钟”跳到“还有3分钟”，下一秒，数字跳成了-1分钟。",
+      "user_literal": false,
+      "start_s": 66.92,
+      "end_s": 87.956,
+      "source": "E:\\program\\1project\\video\\projects\\悬疑\\episodes\\20261115-wumingjiejing\\image\\stills-raw\\S05.png"
+    },
+    {
+      "id": "S06",
+      "type": "E",
+      "fact": "老围墙之间出现一条没有路灯的狭窄巷口。",
+      "cue_ids": [
+        "S11"
+      ],
+      "cue": "负数。",
+      "user_literal": false,
+      "start_s": 87.956,
+      "end_s": 89.096,
+      "source": "E:\\program\\1project\\video\\projects\\悬疑\\episodes\\20261115-wumingjiejing\\image\\stills-raw\\S06.png"
+    },
+    {
+      "id": "S07",
+      "type": "E",
+      "fact": "巷子尽头的蓝色便利店灯牌透出熟悉的光。",
+      "cue_ids": [
+        "S12",
+        "S13"
+      ],
+      "cue": "就像他已经走过头了。他猛地按熄屏幕，手心全是汗。",
+      "user_literal": false,
+      "start_s": 89.096,
+      "end_s": 95.409,
+      "source": "E:\\program\\1project\\video\\projects\\悬疑\\episodes\\20261115-wumingjiejing\\image\\stills-raw\\S07.png"
+    },
+    {
+      "id": "S08",
+      "type": "M",
+      "fact": "林旭站在巷口回头看向逐盏熄灭的路灯。",
+      "cue_ids": [
+        "S14"
+      ],
+      "cue": "夜风卷着落叶擦过脚边，他不敢再看手机，埋头沿着平时的大路快走。",
+      "user_literal": false,
+      "start_s": 95.409,
+      "end_s": 103.427,
+      "source": "E:\\program\\1project\\video\\projects\\悬疑\\episodes\\20261115-wumingjiejing\\image\\stills-raw\\S08.png"
+    },
+    {
+      "id": "S40",
+      "type": "M",
+      "fact": "林旭抬头辨认巷子尽头那块熟悉的蓝色灯牌。",
+      "cue_ids": [
+        "S15",
+        "S16"
+      ],
+      "cue": "可越走越觉得不对——路边的店招牌他越来越陌生，原本该是水果店的位置变成了一扇斑驳的木门，门牌上的字是倒着写的。他抬头，自己面前赫然是一条漆黑狭窄的巷口。",
+      "user_literal": false,
+      "start_s": 103.427,
+      "end_s": 123.074,
+      "source": "E:\\program\\1project\\video\\projects\\悬疑\\episodes\\20261115-wumingjiejing\\image\\stills-raw\\S40.png"
+    },
+    {
+      "id": "S09",
+      "type": "M",
+      "fact": "林旭攥着手机走进巷子。",
+      "cue_ids": [
+        "S17"
+      ],
+      "cue": "墙皮剥落，巷子里没有一盏灯，像有人在城市里生生撕开了一道口子。",
+      "user_literal": false,
+      "start_s": 123.074,
+      "end_s": 131.092,
+      "source": "E:\\program\\1project\\video\\projects\\悬疑\\episodes\\20261115-wumingjiejing\\image\\stills-raw\\S09-retry2.png"
+    },
+    {
+      "id": "S10",
+      "type": "M",
+      "fact": "林旭在没有路灯的巷子里停步聆听。",
+      "cue_ids": [
+        "S18"
+      ],
+      "cue": "而他的手机不知什么时候又亮了，导航语音压得很低，几乎像贴在耳边说话：“您已到达无名道路入口，请直行。”",
+      "user_literal": false,
+      "start_s": 131.092,
+      "end_s": 143.554,
+      "source": "E:\\program\\1project\\video\\projects\\悬疑\\episodes\\20261115-wumingjiejing\\image\\stills-raw\\S10.png"
+    },
+    {
+      "id": "S39",
+      "type": "E",
+      "fact": "巷子中段没有岔路，两侧高墙夹出唯一通道。",
+      "cue_ids": [
+        "S19",
+        "S20"
+      ],
+      "cue": "林旭鬼使神差地迈了进去。巷子里静得反常，没有虫鸣，没有远处的车声，连他自己的脚步声都像是被墙壁吞掉了。",
+      "user_literal": false,
+      "start_s": 143.554,
+      "end_s": 156.812,
+      "source": "E:\\program\\1project\\video\\projects\\悬疑\\episodes\\20261115-wumingjiejing\\image\\stills-raw\\S39-retry2.png"
+    },
+    {
+      "id": "S11",
+      "type": "C",
+      "fact": "巷内墙根排水沟一直延伸到黑暗深处。",
+      "cue_ids": [
+        "S21"
+      ],
+      "cue": "两侧的高墙挤得人喘不过气，他走了大概三十秒，眼前猛地一亮——",
+      "user_literal": false,
+      "start_s": 156.812,
+      "end_s": 164.274,
+      "source": "E:\\program\\1project\\video\\projects\\悬疑\\episodes\\20261115-wumingjiejing\\image\\stills-raw\\S11.png"
+    },
+    {
+      "id": "S12",
+      "type": "C",
+      "fact": "林旭脚下越过巷内一条明显的地砖裂缝。",
+      "cue_ids": [
+        "S22",
+        "S23"
+      ],
+      "cue": "他站在了自家小区单元楼的楼下。真的近了很多。",
+      "user_literal": false,
+      "start_s": 164.274,
+      "end_s": 170.31,
+      "source": "E:\\program\\1project\\video\\projects\\悬疑\\episodes\\20261115-wumingjiejing\\image\\stills-raw\\S12-retry3.png"
+    },
+    {
+      "id": "S41",
+      "type": "M",
+      "fact": "林旭从巷子尽头跨回小区入口一侧。",
+      "cue_ids": [
+        "S24"
+      ],
+      "cue": "他回头看，身后只有小区的围墙，严严实实，根本没有什么巷口。",
+      "user_literal": false,
+      "start_s": 170.31,
+      "end_s": 177.494,
+      "source": "E:\\program\\1project\\video\\projects\\悬疑\\episodes\\20261115-wumingjiejing\\image\\stills-raw\\S41.png"
+    },
+    {
+      "id": "S42",
+      "type": "C",
+      "fact": "巷子尽头的墙面封闭，没有开口通往小区。",
+      "cue_ids": [
+        "S25",
+        "S26"
+      ],
+      "cue": "那天晚上他以为是自己太累眼花，直到第二天临睡前翻手机，无意间点开了“我的足迹”里的历史行程回放。昨晚十一点十七分那条记录还在，缩略图上，那条灰色的无名小巷清清楚楚地画在那里。",
+      "user_literal": false,
+      "start_s": 177.494,
+      "end_s": 199.918,
+      "source": "E:\\program\\1project\\video\\projects\\悬疑\\episodes\\20261115-wumingjiejing\\image\\stills-raw\\S42-retry3.png"
+    },
+    {
+      "id": "S13",
+      "type": "E",
+      "fact": "单元楼门口的绿色信箱和缺角地砖标出熟悉的小区入口。",
+      "cue_ids": [
+        "S27"
+      ],
+      "cue": "他点进去看轨迹回放。",
+      "user_literal": false,
+      "start_s": 199.918,
+      "end_s": 202.658,
+      "source": "E:\\program\\1project\\video\\projects\\悬疑\\episodes\\20261115-wumingjiejing\\image\\stills-raw\\S13.png"
+    },
+    {
+      "id": "S14",
+      "type": "E",
+      "fact": "单元门内侧是通往楼梯的平台，没有巷口。",
+      "cue_ids": [
+        "S28"
+      ],
+      "cue": "代表他的蓝色小圆点从写字楼出发，沿着大路走了一段，突然拐进了那条不存在的巷子。",
+      "user_literal": false,
+      "start_s": 202.658,
+      "end_s": 212.898,
+      "source": "E:\\program\\1project\\video\\projects\\悬疑\\episodes\\20261115-wumingjiejing\\image\\stills-raw\\S14.png"
+    },
+    {
+      "id": "S15",
+      "type": "M",
+      "fact": "林旭从小区门口走向单元楼。",
+      "cue_ids": [
+        "S29",
+        "S30"
+      ],
+      "cue": "走到巷子中段的时候，圆点顿了一下。然后，从圆点里又分裂出了第二个一模一样的蓝色小点。",
+      "user_literal": false,
+      "start_s": 212.898,
+      "end_s": 223.934,
+      "source": "E:\\program\\1project\\video\\projects\\悬疑\\episodes\\20261115-wumingjiejing\\image\\stills-raw\\S15.png"
+    },
+    {
+      "id": "S16",
+      "type": "M",
+      "fact": "林旭站在楼下回头确认身后的墙没有巷口。",
+      "cue_ids": [
+        "S31"
+      ],
+      "cue": "一个继续往前走，穿过巷子，回到了他家小区。",
+      "user_literal": false,
+      "start_s": 223.934,
+      "end_s": 229.174,
+      "source": "E:\\program\\1project\\video\\projects\\悬疑\\episodes\\20261115-wumingjiejing\\image\\stills-raw\\S16.png"
+    },
+    {
+      "id": "S17",
+      "type": "C",
+      "fact": "单元楼外侧围墙连续封住了巷子可能出现的位置。",
+      "cue_ids": [
+        "S32",
+        "S33"
+      ],
+      "cue": "另一个，停在了巷子的正中间，再也没有动过。林旭的手指僵在屏幕上。",
+      "user_literal": false,
+      "start_s": 229.174,
+      "end_s": 237.432,
+      "source": "E:\\program\\1project\\video\\projects\\悬疑\\episodes\\20261115-wumingjiejing\\image\\stills-raw\\S17.png"
+    },
+    {
+      "id": "S18",
+      "type": "M",
+      "fact": "林旭回家后将手机和钥匙放在玄关柜上。",
+      "cue_ids": [
+        "S34"
+      ],
+      "cue": "他把进度条拉到最后，行程详情里的一行数字让他后背瞬间发凉：全程1.2公里，总耗时-7分12秒。",
+      "user_literal": false,
+      "start_s": 237.432,
+      "end_s": 249.061,
+      "source": "E:\\program\\1project\\video\\projects\\悬疑\\episodes\\20261115-wumingjiejing\\image\\stills-raw\\S18.png"
+    },
+    {
+      "id": "S43",
+      "type": "M",
+      "fact": "林旭在单元楼下停住脚步，确认自己已回到家。",
+      "cue_ids": [
+        "S35"
+      ],
+      "cue": "换句话说，导航记录里他到达小区的时间，比他从写字楼出发的时间，还要早七分十二秒。",
+      "user_literal": false,
+      "start_s": 249.061,
+      "end_s": 259.301,
+      "source": "E:\\program\\1project\\video\\projects\\悬疑\\episodes\\20261115-wumingjiejing\\image\\stills-raw\\S43.png"
+    },
+    {
+      "id": "S19",
+      "type": "E",
+      "fact": "卧室、床边和通往玄关的窄走廊同处一室。",
+      "cue_ids": [
+        "S36",
+        "S37"
+      ],
+      "cue": "他咽了口唾沫，把回放进度条重新拖回巷口的位置，放大，一帧一帧地看。就在他的圆点走进巷子前两秒，巷口的位置，本来就有一个淡淡的、几乎透明的灰点。",
+      "user_literal": false,
+      "start_s": 259.301,
+      "end_s": 277.281,
+      "source": "E:\\program\\1project\\video\\projects\\悬疑\\episodes\\20261115-wumingjiejing\\image\\stills-raw\\S19.png"
+    },
+    {
+      "id": "S20",
+      "type": "E",
+      "fact": "床边旧充电线连接手机，玄关走廊在远处。",
+      "cue_ids": [
+        "S38"
+      ],
+      "cue": "那个灰点，和他的圆点重合之后，才分裂成了两个。",
+      "user_literal": false,
+      "start_s": 277.281,
+      "end_s": 283.077,
+      "source": "E:\\program\\1project\\video\\projects\\悬疑\\episodes\\20261115-wumingjiejing\\image\\stills-raw\\S20.png"
+    },
+    {
+      "id": "S21",
+      "type": "M",
+      "fact": "林旭把两只拖鞋随意踢在玄关边。",
+      "cue_ids": [
+        "S39",
+        "S40"
+      ],
+      "cue": "他退出详情页，想再搜一次那条巷子的位置，页面却突然刷新。那条行程记录消失了。",
+      "user_literal": false,
+      "start_s": 283.077,
+      "end_s": 293.001,
+      "source": "E:\\program\\1project\\video\\projects\\悬疑\\episodes\\20261115-wumingjiejing\\image\\stills-raw\\S21.png"
+    },
+    {
+      "id": "S22",
+      "type": "M",
+      "fact": "第二天林旭站在门边看见拖鞋并排朝向屋内。",
+      "cue_ids": [
+        "S41"
+      ],
+      "cue": "那条小巷也从地图上彻底抹去，仿佛从来都没存在过。",
+      "user_literal": false,
+      "start_s": 293.001,
+      "end_s": 299.352,
+      "source": "E:\\program\\1project\\video\\projects\\悬疑\\episodes\\20261115-wumingjiejing\\image\\stills-raw\\S22-retry2.png"
+    },
+    {
+      "id": "S23",
+      "type": "C",
+      "fact": "两只拖鞋并排摆好，鞋尖都朝向屋内。",
+      "cue_ids": [
+        "S42"
+      ],
+      "cue": "他松了口气，安慰自己是系统故障，数据错乱而已。",
+      "user_literal": false,
+      "start_s": 299.352,
+      "end_s": 305.148,
+      "source": "E:\\program\\1project\\video\\projects\\悬疑\\episodes\\20261115-wumingjiejing\\image\\stills-raw\\S23.png"
+    },
+    {
+      "id": "S24",
+      "type": "M",
+      "fact": "林旭把一只拖鞋翻成鞋底朝上并拍照。",
+      "cue_ids": [
+        "S43",
+        "S44"
+      ],
+      "cue": "接下来的几天，一切都很正常。他照常加班，照常走大路回家，导航再也没弹过那条无名捷径。只是他渐渐发现了一点不对劲。",
+      "user_literal": false,
+      "start_s": 305.148,
+      "end_s": 319.517,
+      "source": "E:\\program\\1project\\video\\projects\\悬疑\\episodes\\20261115-wumingjiejing\\image\\stills-raw\\S24.png"
+    },
+    {
+      "id": "S25",
+      "type": "C",
+      "fact": "林旭拍照标记过的拖鞋又被摆回并排朝内。",
+      "cue_ids": [
+        "S45"
+      ],
+      "cue": "家里的东西总在细微地移位：牙刷头的朝向和他睡前摆的相反，冰箱里的牛奶少了半盒，玄关的拖鞋永远摆得比他脱的时候更整齐。",
+      "user_literal": false,
+      "start_s": 319.517,
+      "end_s": 334.757,
+      "source": "E:\\program\\1project\\video\\projects\\悬疑\\episodes\\20261115-wumingjiejing\\image\\stills-raw\\S25.png"
+    },
+    {
+      "id": "S44",
+      "type": "E",
+      "fact": "床与卧室门分处房间两端，门外连接玄关走廊。",
+      "cue_ids": [
+        "S46",
+        "S47"
+      ],
+      "cue": "他以为是自己记性差，直到周三那天，他在公司收到了门禁推送。APP显示，中午十二点十七分，他的门禁卡刷开了他家单元楼的大门。",
+      "user_literal": false,
+      "start_s": 334.757,
+      "end_s": 350.515,
+      "source": "E:\\program\\1project\\video\\projects\\悬疑\\episodes\\20261115-wumingjiejing\\image\\stills-raw\\S44-retry3.png"
+    },
+    {
+      "id": "S26",
+      "type": "M",
+      "fact": "林旭站在玄关门外握着钥匙迟迟没有开门。",
+      "cue_ids": [
+        "S48"
+      ],
+      "cue": "可那个时间，他明明坐在公司会议室里开会，卡就在他口袋里。",
+      "user_literal": false,
+      "start_s": 350.515,
+      "end_s": 357.699,
+      "source": "E:\\program\\1project\\video\\projects\\悬疑\\episodes\\20261115-wumingjiejing\\image\\stills-raw\\S26.png"
+    },
+    {
+      "id": "S27",
+      "type": "M",
+      "fact": "林旭在卧室里听见门外没有回应。",
+      "cue_ids": [
+        "S49",
+        "S50"
+      ],
+      "cue": "他心里发沉，下班立刻冲回家，家里一切如常，没有外人闯入的痕迹。他翻出门口的监控录像，调到十二点十七分——",
+      "user_literal": false,
+      "start_s": 357.699,
+      "end_s": 370.679,
+      "source": "E:\\program\\1project\\video\\projects\\悬疑\\episodes\\20261115-wumingjiejing\\image\\stills-raw\\S27.png"
+    },
+    {
+      "id": "S28",
+      "type": "C",
+      "fact": "床边手机屏幕上出现第二个淡蓝定位点。",
+      "cue_ids": [
+        "S51"
+      ],
+      "cue": "画面里空无一人，单元门却自己开了，又轻轻合上。",
+      "user_literal": true,
+      "start_s": 370.679,
+      "end_s": 376.475,
+      "source": "E:\\program\\1project\\video\\projects\\悬疑\\episodes\\20261115-wumingjiejing\\image\\stills-raw\\S28.png"
+    },
+    {
+      "id": "S29",
+      "type": "M",
+      "fact": "林旭坐在床头盯着手机上的两个定位点。",
+      "cue_ids": [
+        "S52"
+      ],
+      "cue": "像有个看不见的人，走了进去。",
+      "user_literal": false,
+      "start_s": 376.475,
+      "end_s": 380.048,
+      "source": "E:\\program\\1project\\video\\projects\\悬疑\\episodes\\20261115-wumingjiejing\\image\\stills-raw\\S29.png"
+    },
+    {
+      "id": "S30",
+      "type": "C",
+      "fact": "两个定位点重叠后只剩颜色变浅的一个点。",
+      "cue_ids": [
+        "S53",
+        "S54"
+      ],
+      "cue": "那天夜里他没敢睡，攥着手机坐在床头。熬到凌晨两点，他鬼使神差地又点开了导航。",
+      "user_literal": false,
+      "start_s": 380.048,
+      "end_s": 389.972,
+      "source": "E:\\program\\1project\\video\\projects\\悬疑\\episodes\\20261115-wumingjiejing\\image\\stills-raw\\S30.png"
+    },
+    {
+      "id": "S45",
+      "type": "E",
+      "fact": "卧室门外的走廊空无一人，尽头是玄关门。",
+      "cue_ids": [
+        "S55"
+      ],
+      "cue": "首页默认定位在他的卧室，蓝色圆点安安静静待在床的位置。",
+      "user_literal": false,
+      "start_s": 389.972,
+      "end_s": 397.156,
+      "source": "E:\\program\\1project\\video\\projects\\悬疑\\episodes\\20261115-wumingjiejing\\image\\stills-raw\\S45-retry3.png"
+    },
+    {
+      "id": "S31",
+      "type": "M",
+      "fact": "林旭发现床边圆点没有对应任何可见的人。",
+      "cue_ids": [
+        "S56",
+        "S57"
+      ],
+      "cue": "他指尖发抖，点开了实时轨迹图层。下一秒，他的呼吸顿住了——",
+      "user_literal": false,
+      "start_s": 397.156,
+      "end_s": 404.303,
+      "source": "E:\\program\\1project\\video\\projects\\悬疑\\episodes\\20261115-wumingjiejing\\image\\stills-raw\\S31.png"
+    },
+    {
+      "id": "S32",
+      "type": "C",
+      "fact": "导航路线从床边穿过玄关通向楼外小巷。",
+      "cue_ids": [
+        "S58"
+      ],
+      "cue": "圆点旁边，缓缓浮起了第二个一模一样的淡蓝色小点。",
+      "user_literal": false,
+      "start_s": 404.303,
+      "end_s": 410.654,
+      "source": "E:\\program\\1project\\video\\projects\\悬疑\\episodes\\20261115-wumingjiejing\\image\\stills-raw\\S32.png"
+    },
+    {
+      "id": "S33",
+      "type": "M",
+      "fact": "林旭坐在原地，而地图上的一个圆点离开床位。",
+      "cue_ids": [
+        "S59",
+        "S60"
+      ],
+      "cue": "它就贴在床边的位置，和他的坐标几乎完全重合，像有人正站在床下，和他面对着面。没有弹窗，没有额外提示，导航页面和平常没有任何区别。",
+      "user_literal": false,
+      "start_s": 410.654,
+      "end_s": 426.967,
+      "source": "E:\\program\\1project\\video\\projects\\悬疑\\episodes\\20261115-wumingjiejing\\image\\stills-raw\\S33-retry3.png"
+    },
+    {
+      "id": "S34",
+      "type": "M",
+      "fact": "卧室门外的拖鞋声沿走廊逐步接近玄关。",
+      "cue_ids": [
+        "S61"
+      ],
+      "cue": "可林旭眼睁睁看着，那个淡蓝色的点正慢慢渗进他的蓝色圆点里，像墨水晕开在水里。",
+      "user_literal": false,
+      "start_s": 426.967,
+      "end_s": 436.929,
+      "source": "E:\\program\\1project\\video\\projects\\悬疑\\episodes\\20261115-wumingjiejing\\image\\stills-raw\\S34.png"
+    },
+    {
+      "id": "S35",
+      "type": "C",
+      "fact": "玄关门锁在无人触碰时转动了一下。",
+      "cue_ids": [
+        "S62"
+      ],
+      "cue": "两秒后，屏幕上只剩下一个圆点，颜色浅了半个色号，不仔细看根本分辨不出差别。",
+      "user_literal": false,
+      "start_s": 436.929,
+      "end_s": 446.336,
+      "source": "E:\\program\\1project\\video\\projects\\悬疑\\episodes\\20261115-wumingjiejing\\image\\stills-raw\\S35.png"
+    },
+    {
+      "id": "S46",
+      "type": "E",
+      "fact": "玄关到床边之间没有第二条通路。",
+      "cue_ids": [
+        "S63",
+        "S64"
+      ],
+      "cue": "紧接着，导航自动跳转到了路线规划页。起点标着“我的位置”，终点栏一片空白，路线却已经画好了——一路通向玄关，下楼梯，穿出小区，最后拐进了那条早已从地图上消失的无名小巷。",
+      "user_literal": false,
+      "start_s": 446.336,
+      "end_s": 466.816,
+      "source": "E:\\program\\1project\\video\\projects\\悬疑\\episodes\\20261115-wumingjiejing\\image\\stills-raw\\S46-retry4.png"
+    },
+    {
+      "id": "S47",
+      "type": "M",
+      "fact": "地图上的蓝点已经移动到玄关门口。",
+      "cue_ids": [
+        "S65"
+      ],
+      "cue": "熟悉的机械女声轻轻播报，语气和那晚分毫不差：“路线已生成。请直行，出发。”",
+      "user_literal": false,
+      "start_s": 466.816,
+      "end_s": 475.389,
+      "source": "E:\\program\\1project\\video\\projects\\悬疑\\episodes\\20261115-wumingjiejing\\image\\stills-raw\\S47.png"
+    },
+    {
+      "id": "S48",
+      "type": "M",
+      "fact": "地图上的移动蓝点穿出楼栋并转向街道。",
+      "cue_ids": [
+        "S66",
+        "S67"
+      ],
+      "cue": "林旭浑身发冷，刚想按熄屏幕，却看见代表自己的那个浅蓝圆点，自己动了。它慢悠悠地离开了床的位置，一步一步，朝着卧室门口走去。",
+      "user_literal": false,
+      "start_s": 475.389,
+      "end_s": 490.869,
+      "source": "E:\\program\\1project\\video\\projects\\悬疑\\episodes\\20261115-wumingjiejing\\image\\stills-raw\\S48.png"
+    },
+    {
+      "id": "S36",
+      "type": "M",
+      "fact": "地图上的一个点停在楼外，另一个点仍留在林旭身上。",
+      "cue_ids": [
+        "S68"
+      ],
+      "cue": "而他自己，明明还坐在原地，连手指都没抬一下。",
+      "user_literal": false,
+      "start_s": 490.869,
+      "end_s": 496.387,
+      "source": "E:\\program\\1project\\video\\projects\\悬疑\\episodes\\20261115-wumingjiejing\\image\\stills-raw\\S36-retry3.png"
+    }
+  ]
+}

@@ -1,0 +1,939 @@
+{
+  "schema": "image-channel-policy/1",
+  "version": "v7-new2-dklb-parallel",
+  "updated": "2026-11-15",
+  "active": "v7-new2-dklb-parallel",
+  "source_of_truth": "本文件是通道路由的唯一事实源；规则文档只写原则，具体阈值与启停以这里为准",
+  "channels": {
+    "old": {
+      "base_url": "https://dklapi.com/v1",
+      "key_env": "IMAGE_RELAY_KEY_1K",
+      "model": "gpt-image-2.5-sunburst",
+      "size": "2048x1152",
+      "price_cny": 0.16,
+      "strengths": [
+        "细节与结构",
+        "三视图一致性",
+        "证据可读性",
+        "2048 原生"
+      ],
+      "note": "2026-11-12 对比：真 2048 原生渲染，质量上限；单价高，仅质量救援/回滚用",
+      "status": "legacy-key"
+    },
+    "dkl-b": {
+      "base_url": "https://dklapi.com/v1",
+      "key_env": "IMAGE_API_KEY_DKL",
+      "model": "gpt-image-2.5-sunburst",
+      "size": "2048x1152",
+      "size_tolerance": 0,
+      "price_cny": 0.018,
+      "strengths": [
+        "与 old 同站同模型，2048 原生",
+        "new2 不可用时的默认降级通道",
+        "实测 18–100 s 出图，比 old 快",
+        "与 new2 同价（0.018 元）"
+      ],
+      "weaknesses": [
+        "返回 CDN URL，需二次下载",
+        "与 new2 渲染风格不同，同一集不能混用"
+      ],
+      "note": "2026-11-14 用户提供的新 key（wire_api=responses，http_headers 带 x-openai-actor-authorization: local-image-extension）；同日实测 /v1/models 列出 gpt-image-2 / 2.5 / 2.5-sunburst / 2.6 等 8 个型号，/images/generations 返回 2048x1152 PNG；单价 0.018 元由用户 2026-11-14 口头确认",
+      "status": "active-backup"
+    },
+    "dkl2": {
+      "base_url": "https://dklapi.com/v1",
+      "key_env": "IMAGE_API_KEY_DKL2",
+      "model": "gpt-image-2.5-sunburst",
+      "size": "2048x1152",
+      "size_tolerance": 0,
+      "price_cny": 0.015,
+      "strengths": [
+        "2048 原生",
+        "与 old 同站同模型",
+        "1080p 感知锐度与 old 持平（2026-11-12 三题对比）",
+        "单价低于 new2"
+      ],
+      "weaknesses": [
+        "返回 CDN URL，需二次下载（旧脚本会卡住，用 curl 断点续传）"
+      ],
+      "note": "2026-11-12 用户充值后的新 key；三题对比（2x2 网格 / 证据特写 / 人物全身）交付锐度与 old 持平。0.015 元为站点标价，dklapi 不出账单，未逐张核验",
+      "status": "retired-2026-11-12",
+      "retired_note": "用户 2026-11-12 决定删除该 key、不再维护：重抽 4 样本后写实题材与 new2 打平、动漫题材只及 new2 的 1/2，2048 为 1280 放大。key 已从用户环境变量移除"
+    },
+    "new1": {
+      "base_url": "https://api.mxwell.ai/v1",
+      "key_env": "IMAGE_API_KEY_MX",
+      "model": "gpt-image-2.5-sunburst",
+      "size": "2048x1152",
+      "size_tolerance": 0,
+      "price_cny": 0.02,
+      "weaknesses": [
+        "约 25% 返回 2016x1152",
+        "偶发整图发灰",
+        "手部与三视图不合格",
+        "细节约为 old 的一半"
+      ],
+      "note": "临时优先消耗余额；只接大景/空镜",
+      "status": "deprecated-2026-11-11",
+      "deprecated_note": "用户要求废弃，不再使用；第二张即 403 额度耗尽"
+    },
+    "new2": {
+      "base_url": "https://xxcapi.com/v1",
+      "key_env": "IMAGE_API_KEY_XXC",
+      "model": "AZ-gpt-image-2.5-sunburst",
+      "size": "1672x941",
+      "size_tolerance": 0,
+      "price_cny": 0.018,
+      "weaknesses": [
+        "固定 1672x941（网格格子仅 836x471）",
+        "只开通 AZ 型号",
+        "大推近更快见底"
+      ],
+      "note": "长期默认通道（v5-new2-old）；1672x941 原生，2x2 拆格仅 836x471",
+      "status": "active"
+    },
+    "yy": {
+      "base_url": "https://yy.shagentai.com/v1",
+      "key_env": "IMAGE_API_KEY_YY",
+      "model": "gpt-image-2.5",
+      "size": "2048x1152",
+      "size_tolerance": 0,
+      "price_cny": null,
+      "models_seen": [
+        "gpt-image-2-cdn",
+        "gpt-image-2.5",
+        "gpt-image-2.5-cdn",
+        "gpt-image-2.5-flare-adx2",
+        "gpt-image-2.5-flare-cdn",
+        "gpt-image-2.6-cdn"
+      ],
+      "weaknesses": [
+        "账户额度 $0.000000，2026-11-11 与 2026-11-12 三次探测均 403 insufficient_user_quota"
+      ],
+      "note": "站点与 key 均通、模型可列，但账户未充值，无法出图；充好后跑 shared/image-api/compare_channels.py 三题对比，通过再转正",
+      "status": "pending-funding-2026-11-12"
+    }
+  },
+  "policies": {
+    "interim-v1": {
+      "since": "2026-11-09",
+      "reason": "用户要求优先消耗 NEW1 余额，允许加严门禁避免问题",
+      "enabled_channels": [
+        "old",
+        "new1"
+      ],
+      "disabled_channels": [
+        "new2"
+      ],
+      "routes": [
+        {
+          "step": "grid",
+          "when": {
+            "line": "助眠",
+            "subject_class": "environment",
+            "character_ids": "empty",
+            "evidence_id": "empty",
+            "push_ratio_max": 0.09
+          },
+          "channel": "new1"
+        },
+        {
+          "step": "grid",
+          "when": {
+            "line": "悬疑",
+            "subject_class": "environment",
+            "character_ids": "empty",
+            "evidence_id": "empty",
+            "push_ratio_max": 0.06
+          },
+          "channel": "new1"
+        },
+        {
+          "step": "single",
+          "when": {
+            "line": "助眠",
+            "subject_class": "environment",
+            "character_ids": "empty",
+            "evidence_id": "empty"
+          },
+          "channel": "new1"
+        },
+        {
+          "step": "single",
+          "when": {
+            "line": "悬疑",
+            "subject_class": "environment",
+            "character_ids": "empty",
+            "evidence_id": "empty",
+            "push_ratio_max": 0.06
+          },
+          "channel": "new1"
+        },
+        {
+          "step": "backdrop",
+          "when": {
+            "text_free": true
+          },
+          "channel": "new1"
+        },
+        {
+          "step": "grid",
+          "when": {
+            "any_of": [
+              "character_ids_nonempty",
+              "evidence_id_nonempty",
+              "subject_class_in:mechanical,macro,prop",
+              "push_ratio_gt:0.09"
+            ]
+          },
+          "channel": "old"
+        },
+        {
+          "step": "single",
+          "when": {
+            "any_of": [
+              "character_closeup",
+              "hands_visible",
+              "evidence_id_nonempty",
+              "subject_class_in:mechanical,macro,prop",
+              "push_ratio_gt:0.09",
+              "needs_2048"
+            ]
+          },
+          "channel": "old"
+        },
+        {
+          "step": "turnsheet",
+          "channel": "old"
+        },
+        {
+          "step": "variant",
+          "when": {
+            "base_asset_channel": "old"
+          },
+          "channel": "old"
+        },
+        {
+          "step": "variant",
+          "when": {
+            "base_asset_channel": "new1"
+          },
+          "channel": "new1"
+        },
+        {
+          "step": "reverse",
+          "when": {
+            "any_of": [
+              "character_ids_nonempty",
+              "evidence_id_nonempty"
+            ]
+          },
+          "channel": "old"
+        },
+        {
+          "step": "rescue",
+          "channel": "old"
+        },
+        {
+          "step": "retry",
+          "channel": "inherit"
+        },
+        {
+          "step": "edit",
+          "channel": "inherit"
+        }
+      ],
+      "gates": {
+        "size_assert": true,
+        "reject_if_std_lum_lt": 20,
+        "reject_if_native_lap_var_lt": 60,
+        "reject_if_delivery_lap_var_lt": 18,
+        "unified_lut": true
+      },
+      "retry": {
+        "same_channel_max": 1,
+        "then": "old",
+        "record_fallback": true
+      },
+      "stop_conditions": [
+        "new1 余额 <= 10 次调用",
+        "连续 20 次门禁拒绝率 > 30%",
+        "出现一次进成片后才发现糊图或尺寸错"
+      ],
+      "depletion": {
+        "signal_error_code": "insufficient_user_quota",
+        "http_status": 403,
+        "action": "abort_run",
+        "fallback": false,
+        "notify_user": true,
+        "stop_file": "STOP-new1-depleted.json",
+        "warn_calls_left": null,
+        "note": "用户 2026-11-09：不做主动余额检查；403 insufficient_user_quota 即视为耗尽，立即中止整批并告知，禁止静默回退。余额约 4 元 ≈ 200 次调用。"
+      }
+    },
+    "v1": {
+      "since": "待启用",
+      "reason": "长期方案：OLD × NEW2 双通道",
+      "enabled_channels": [
+        "old",
+        "new2"
+      ],
+      "disabled_channels": [
+        "new1"
+      ],
+      "routes": [
+        {
+          "step": "grid",
+          "when": {
+            "line": "助眠",
+            "subject_class": "environment",
+            "character_ids": "empty",
+            "evidence_id": "empty",
+            "push_ratio_max": 0.09
+          },
+          "channel": "new2"
+        },
+        {
+          "step": "grid",
+          "when": {
+            "line": "悬疑",
+            "subject_class": "environment",
+            "character_ids": "empty",
+            "evidence_id": "empty",
+            "push_ratio_max": 0.06
+          },
+          "channel": "new2"
+        },
+        {
+          "step": "single",
+          "when": {
+            "line": "助眠",
+            "subject_class": "environment",
+            "character_ids": "empty",
+            "evidence_id": "empty"
+          },
+          "channel": "new2"
+        },
+        {
+          "step": "single",
+          "when": {
+            "line": "悬疑",
+            "subject_class": "environment",
+            "character_ids": "empty",
+            "evidence_id": "empty",
+            "push_ratio_max": 0.06
+          },
+          "channel": "new2"
+        },
+        {
+          "step": "single",
+          "when": {
+            "subject_class": "person",
+            "character_closeup": false,
+            "hands_visible": false
+          },
+          "channel": "new2"
+        },
+        {
+          "step": "turnsheet",
+          "channel": "old"
+        },
+        {
+          "step": "grid",
+          "when": {
+            "any_of": [
+              "character_ids_nonempty",
+              "evidence_id_nonempty",
+              "subject_class_in:mechanical,macro,prop",
+              "push_ratio_gt:0.09"
+            ]
+          },
+          "channel": "old"
+        },
+        {
+          "step": "single",
+          "when": {
+            "any_of": [
+              "character_closeup",
+              "hands_visible",
+              "evidence_id_nonempty",
+              "subject_class_in:mechanical,macro,prop",
+              "push_ratio_gt:0.06",
+              "needs_2048"
+            ]
+          },
+          "channel": "old"
+        },
+        {
+          "step": "variant",
+          "when": {
+            "base_asset_channel": "old"
+          },
+          "channel": "old"
+        },
+        {
+          "step": "variant",
+          "when": {
+            "base_asset_channel": "new2"
+          },
+          "channel": "new2"
+        },
+        {
+          "step": "reverse",
+          "when": {
+            "any_of": [
+              "character_ids_nonempty",
+              "evidence_id_nonempty"
+            ]
+          },
+          "channel": "old"
+        },
+        {
+          "step": "rescue",
+          "channel": "old"
+        },
+        {
+          "step": "retry",
+          "channel": "inherit"
+        },
+        {
+          "step": "edit",
+          "channel": "inherit"
+        }
+      ],
+      "gates": {
+        "size_assert": true,
+        "reject_if_std_lum_lt": 18,
+        "reject_if_native_lap_var_lt": 60,
+        "reject_if_delivery_lap_var_lt": 20,
+        "threshold_calibrated_per_channel": true,
+        "unified_lut": true
+      },
+      "retry": {
+        "same_channel_max": 2,
+        "then": "old",
+        "record_fallback": true
+      },
+      "depletion": {
+        "signal_error_code": "insufficient_user_quota",
+        "http_status": 403,
+        "action": "abort_run",
+        "fallback": false,
+        "notify_user": true,
+        "stop_file": "STOP-new1-depleted.json",
+        "warn_calls_left": null,
+        "note": "用户 2026-11-09：不做主动余额检查；403 insufficient_user_quota 即视为耗尽，立即中止整批并告知，禁止静默回退。余额约 4 元 ≈ 200 次调用。"
+      }
+    },
+    "interim-v2": {
+      "since": "2026-11-09",
+      "reason": "用户授权大胆使用新通道，接受更多返工，把成本压到最低；old 仅作兜底",
+      "enabled_channels": [
+        "new1",
+        "old"
+      ],
+      "disabled_channels": [
+        "new2"
+      ],
+      "default_channel": "new1",
+      "routes": [
+        {
+          "step": "turnsheet",
+          "channel": "new1",
+          "note": "允许返工；连续 2 次不过再 old"
+        },
+        {
+          "step": "evidence",
+          "channel": "new1",
+          "note": "文书类优先改后期道具卡"
+        },
+        {
+          "step": "single",
+          "channel": "new1"
+        },
+        {
+          "step": "grid",
+          "channel": "new1"
+        },
+        {
+          "step": "variant",
+          "channel": "inherit"
+        },
+        {
+          "step": "reverse",
+          "channel": "new1"
+        },
+        {
+          "step": "backdrop",
+          "channel": "new1"
+        },
+        {
+          "step": "retry",
+          "channel": "inherit"
+        },
+        {
+          "step": "edit",
+          "channel": "inherit"
+        }
+      ],
+      "old_only_if": [
+        "同一镜在 new1 上连续 3 次未过闸门",
+        "三视图连续 2 次不一致（角色锚点例外可提前 old）",
+        "new1 返回 403 额度耗尽（此时整批中断，不自动转 old）"
+      ],
+      "gates": {
+        "size_assert": true,
+        "reject_if_std_lum_lt": 20,
+        "reject_if_native_lap_var_lt": 60,
+        "reject_if_delivery_lap_var_lt": 15,
+        "unified_lut": true
+      },
+      "retry": {
+        "same_channel_max": 3,
+        "then": "old",
+        "record_fallback": true
+      },
+      "depletion": {
+        "signal_error_code": "insufficient_user_quota",
+        "http_status": 403,
+        "action": "abort_run",
+        "fallback": false,
+        "notify_user": true,
+        "stop_file": "STOP-new1-depleted.json",
+        "warn_calls_left": null,
+        "note": "用户 2026-11-09：不做主动余额检查；403 insufficient_user_quota 即视为耗尽，立即中止整批并告知，禁止静默回退。余额约 4 元 ≈ 200 次调用。"
+      },
+      "cost_note": "new1 期望 ≈0.027 元/张（1.33 次/张）；即使 50% 返工也只要 0.04，仍远低于 old 0.16"
+    },
+    "v2-lines": {
+      "since": "2026-11-09",
+      "reason": "用户指定：悬疑线优先 NEW2，助眠线优先 NEW1；各自失败后降级 OLD",
+      "lines": {
+        "助眠": {
+          "primary": "new1",
+          "primary_size": "2048x1152",
+          "retry_max": 3,
+          "fallback": "old",
+          "note": "new1 纹理细节好于悬疑场景，首过率预计更高；3 次不过回 old"
+        },
+        "悬疑": {
+          "primary": "new2",
+          "primary_size": "1672x941",
+          "retry_max": 3,
+          "fallback": "old",
+          "note": "new2 尺寸稳定、单镜交付接近 old；固定 1672 宽，2x2 拆格仅 836，证据/特写优先 single"
+        }
+      },
+      "routes": [
+        {
+          "line": "助眠",
+          "step": "*",
+          "channel": "new1"
+        },
+        {
+          "line": "悬疑",
+          "step": "*",
+          "channel": "new2"
+        }
+      ],
+      "old_direct_if": [
+        "同一镜在新通道连续 3 次未过闸门",
+        "三视图/角色锚点连续 2 次一致性不过（可提前 old）",
+        "文书类证据（建议直接后期道具卡，不进生图）"
+      ],
+      "gates": {
+        "size_assert": {
+          "new1": "2048x1152",
+          "new2": "1672x941",
+          "old": "2048x1152"
+        },
+        "reject_if_std_lum_lt": 18,
+        "reject_if_native_lap_var_lt": {
+          "new1": 60,
+          "new2": 60,
+          "old": 60
+        },
+        "reject_if_delivery_lap_var_lt": {
+          "new1": 15,
+          "new2": 15,
+          "old": 15
+        },
+        "unified_lut": true,
+        "threshold_note": "阈值按各通道自身样本校准；new2 单镜交付锐度 73-215，new1 约 40-60，old 150-280"
+      },
+      "retry": {
+        "same_channel_max": 3,
+        "then": "old",
+        "record_fallback": true
+      },
+      "depletion": {
+        "signal_error_code": "insufficient_user_quota",
+        "http_status": 403,
+        "action": "abort_run",
+        "fallback": false,
+        "notify_user": true,
+        "stop_file": "STOP-new1-depleted.json",
+        "warn_calls_left": null,
+        "note": "用户 2026-11-09：不做主动余额检查；403 insufficient_user_quota 即视为耗尽，立即中止整批并告知，禁止静默回退。余额约 4 元 ≈ 200 次调用。"
+      },
+      "cost_note": "助眠 new1 ≈0.029/张（含返工）；悬疑 new2 ≈0.019/张；回退按 old 0.16 计"
+    },
+    "v3-new2-old": {
+      "since": "2026-11-11",
+      "reason": "用户 2026-11-11 明确：new1 直接废弃，以后只用 new2 + old；new1 在第二张即 403 insufficient_user_quota",
+      "enabled_channels": [
+        "new2",
+        "old"
+      ],
+      "disabled_channels": [
+        "new1"
+      ],
+      "default_channel": "new2",
+      "primary_size": "1672x941",
+      "routes": [
+        {
+          "step": "turnsheet",
+          "channel": "new2",
+          "note": "角色定装允许返工；不一致连续 2 次才 old"
+        },
+        {
+          "step": "single",
+          "channel": "new2"
+        },
+        {
+          "step": "grid",
+          "channel": "new2",
+          "note": "2x2 拆格后仅 836x471，只用于低细节环境"
+        },
+        {
+          "step": "evidence",
+          "channel": "new2",
+          "note": "文书类证据优先后期道具卡"
+        },
+        {
+          "step": "backdrop",
+          "channel": "new2"
+        },
+        {
+          "step": "variant",
+          "channel": "inherit"
+        },
+        {
+          "step": "reverse",
+          "channel": "new2"
+        },
+        {
+          "step": "retry",
+          "channel": "inherit"
+        },
+        {
+          "step": "edit",
+          "channel": "inherit"
+        }
+      ],
+      "old_direct_if": [
+        "同一镜在 new2 连续 3 次未过闸门",
+        "三视图/角色锚点连续 2 次一致性不过（可提前 old）",
+        "需要 2048 原生分辨率或 dklapi 恢复后做质量兜底",
+        "文书类证据（建议直接后期道具卡，不进生图）"
+      ],
+      "gates": {
+        "size_assert": {
+          "new2": "1672x941",
+          "old": "2048x1152"
+        },
+        "reject_if_std_lum_lt": 18,
+        "reject_if_native_lap_var_lt": 60,
+        "reject_if_delivery_lap_var_lt": 15,
+        "unified_lut": true
+      },
+      "retry": {
+        "same_channel_max": 3,
+        "then": "old",
+        "record_fallback": true
+      },
+      "depletion": {
+        "signal_error_code": "insufficient_user_quota",
+        "http_status": 403,
+        "action": "switch_to_old_then_abort",
+        "fallback": true,
+        "notify_user": true,
+        "stop_file": "STOP-new2-depleted.json",
+        "note": "new2 耗尽先转 old；old 也不可用（502/403）即整批中断并告知"
+      },
+      "cost_note": "new2 0.018 元/张；60 张全量重制约 1.1 元，返工 20% 约 1.3 元"
+    },
+    "v4-dkl2-first": {
+      "since": "2026-11-12",
+      "reason": "用户 2026-11-12 充值 dkl 新 key（0.015 元，2048 原生）。同日三题对比（2x2 网格 / 证据特写 / 人物全身）：dkl2 在 1080p 交付的感知锐度与 old 持平（G 110/103、S2 27/32、S1 17/19），高于 new2 的原生分辨率，单价低于 new2，故升为默认；new2 降为第一顺位兜底",
+      "enabled_channels": [
+        "dkl2",
+        "new2",
+        "old"
+      ],
+      "disabled_channels": [
+        "new1",
+        "yy"
+      ],
+      "default_channel": "dkl2",
+      "primary_size": "2048x1152",
+      "routes": [
+        {
+          "step": "*",
+          "channel": "dkl2"
+        }
+      ],
+      "old_direct_if": [
+        "同一镜在 dkl2 连续 2 次未过闸门 → new2；再 1 次不过 → old",
+        "三视图/角色锚点连续 2 次一致性不过（可提前 old）",
+        "dkl2 返回 403/额度错误（先转 new2，不整批中断）",
+        "文书类证据（建议直接后期道具卡，不进生图）"
+      ],
+      "gates": {
+        "size_assert": {
+          "dkl2": "2048x1152",
+          "new2": "1672x941",
+          "old": "2048x1152"
+        },
+        "reject_if_std_lum_lt": 18,
+        "reject_if_native_lap_var_lt": 60,
+        "reject_if_delivery_lap_var_lt": 15,
+        "unified_lut": true
+      },
+      "retry": {
+        "same_channel_max": 2,
+        "then": "new2",
+        "record_fallback": true
+      },
+      "depletion": {
+        "signal_error_code": "insufficient_user_quota",
+        "http_status": 403,
+        "action": "switch_to_new2_then_abort",
+        "fallback": true,
+        "notify_user": true,
+        "stop_file": "STOP-dkl2-depleted.json",
+        "note": "dkl2 耗尽先转 new2；new2 也不可用（403/502）即整批中断并告知"
+      },
+      "cost_note": "dkl2 0.015 元/张：60 张全量重制约 0.9 元；new2 0.018 元兜底；old 0.16 元仅质量救援"
+    },
+    "v5-new2-old": {
+      "since": "2026-11-12",
+      "reason": "用户 2026-11-12 删除 dkl2（不再维护）：回到 new2 为主、old 兜底的 v3 路由",
+      "enabled_channels": [
+        "new2",
+        "old"
+      ],
+      "disabled_channels": [
+        "dkl2",
+        "new1",
+        "yy"
+      ],
+      "default_channel": "new2",
+      "primary_size": "1672x941",
+      "routes": [
+        {
+          "step": "turnsheet",
+          "channel": "new2",
+          "note": "角色定装允许返工；不一致连续 2 次才 old"
+        },
+        {
+          "step": "single",
+          "channel": "new2"
+        },
+        {
+          "step": "grid",
+          "channel": "new2",
+          "note": "2x2 拆格后仅 836x471，只用于低细节环境"
+        },
+        {
+          "step": "evidence",
+          "channel": "new2",
+          "note": "文书类证据优先后期道具卡"
+        },
+        {
+          "step": "backdrop",
+          "channel": "new2"
+        },
+        {
+          "step": "variant",
+          "channel": "inherit"
+        },
+        {
+          "step": "reverse",
+          "channel": "new2"
+        },
+        {
+          "step": "retry",
+          "channel": "inherit"
+        },
+        {
+          "step": "edit",
+          "channel": "inherit"
+        }
+      ],
+      "old_direct_if": [
+        "同一镜在 new2 连续 3 次未过闸门",
+        "三视图/角色锚点连续 2 次一致性不过（可提前 old）",
+        "需要 2048 原生分辨率或 dklapi 恢复后做质量兜底",
+        "文书类证据（建议直接后期道具卡，不进生图）"
+      ],
+      "gates": {
+        "size_assert": {
+          "new2": "1672x941",
+          "old": "2048x1152"
+        },
+        "reject_if_std_lum_lt": 18,
+        "reject_if_native_lap_var_lt": 60,
+        "reject_if_delivery_lap_var_lt": 15,
+        "unified_lut": true
+      },
+      "retry": {
+        "same_channel_max": 3,
+        "then": "old",
+        "record_fallback": true
+      },
+      "depletion": {
+        "signal_error_code": "insufficient_user_quota",
+        "http_status": 403,
+        "action": "switch_to_old_then_abort",
+        "fallback": true,
+        "notify_user": true,
+        "stop_file": "STOP-new2-depleted.json",
+        "note": "new2 耗尽先转 old；old 也不可用（502/403）即整批中断并告知"
+      },
+      "cost_note": "new2 0.018 元/张；60 张全量重制约 1.1 元，返工 20% 约 1.3 元",
+      "supersedes": "v4-dkl2-first"
+    },
+    "v7-new2-dklb-parallel": {
+      "since": "2026-11-15",
+      "reason": "用户 2026-11-15：new2 与 dkl-b 并发同时生图，提高总体并发",
+      "enabled_channels": [
+        "new2",
+        "dkl-b",
+        "old"
+      ],
+      "disabled_channels": [
+        "dkl2",
+        "new1",
+        "yy"
+      ],
+      "default_channel": "parallel",
+      "parallel_channels": [
+        "new2",
+        "dkl-b"
+      ],
+      "dispatch": {
+        "mode": "round_robin",
+        "unit": "shot_or_image_request",
+        "balance": "尽量均分待生成镜头；同一镜头的重试沿用原通道，只有通道失败/耗尽时才转移该镜头",
+        "same_episode_mixed_channels": true,
+        "same_request_single_channel": true,
+        "max_in_flight_per_channel": 1,
+        "target_total_in_flight": 2
+      },
+      "auto_fallback": [
+        "new2",
+        "dkl-b"
+      ],
+      "manual_only": [
+        "old"
+      ],
+      "primary_size": "1672x941",
+      "routes": [
+        {
+          "step": "*",
+          "channel": "parallel",
+          "channels": ["new2", "dkl-b"],
+          "dispatch": "round_robin",
+          "note": "镜头级交替均衡派单，两通道同时运行；单次网格请求不可拆分，固定分配到一个通道"
+        },
+        {
+          "step": "fallback",
+          "channel": "other_parallel_channel",
+          "note": "单镜通道连续重试失败或通道额度耗尽时，仅将失败镜头转交另一可用通道；不重跑已完成镜头"
+        },
+        {
+          "step": "rescue",
+          "channel": "old",
+          "note": "只在质量不理想、或用户明确要求画质时手工指定，不进自动链"
+        }
+      ],
+      "gates": {
+        "size_assert": {
+          "new2": "1672x941",
+          "dkl-b": "2048x1152",
+          "old": "2048x1152"
+        },
+        "reject_if_std_lum_lt": 18,
+        "reject_if_native_lap_var_lt": 60,
+        "reject_if_delivery_lap_var_lt": 15,
+        "unified_lut": true
+      },
+      "retry": {
+        "same_channel_max": 2,
+        "transient_codes": [
+          429,
+          500,
+          502,
+          503,
+          504
+        ],
+        "then": "other_parallel_channel",
+        "record_fallback": true
+      },
+      "depletion": {
+        "signal_error_code": "insufficient_user_quota",
+        "http_status": 403,
+        "action": "drain_remaining_work_to_other_parallel_channel",
+        "fallback": true,
+        "notify_user": true,
+        "stop_file": "STOP-new2-depleted.json",
+        "note": "任一通道耗尽则将未完成镜头交给另一通道；两者均不可用时中断剩余任务并告知，不静默转 old（old 单价 8–10 倍）"
+      },
+      "cost_note": "new2 与 dkl-b 同为 0.018 元/张（dkl-b 2048×1152，new2 1672×941）：99 张全量约 ¥1.8；old 0.16 元/张，只做质量救援",
+      "style_fit_gate": {
+        "since": "2026-11-14",
+        "reason": "EP03 v3 实测：dkl-b 2048 原生会补柔和明暗，平涂题材被拉向写实；通道选择不能只看价格与可用性",
+        "pilot_shots": 6,
+        "criteria": [
+          "参考图与成图均无喷枪过渡、无柔光边",
+          "每个部位 ≤3 平色",
+          "人物镜 1:1 目检无 3D 感"
+        ],
+        "on_fail": "先修参考图或换通道；不达标不进全量"
+      }
+    }
+  },
+  "change_log": [
+    {
+      "at": "2026-11-15",
+      "by": "user",
+      "change": "v7 将 new2 与 dkl-b 改为镜头级轮询并发；允许同集混用通道，单次请求保持单通道，单通道失败只转移失败镜头",
+      "evidence": "用户指令：生图规则改为 dkl-b 和 new2 并发同时做，以提高并发"
+    },
+    {
+      "at": "2026-11-14",
+      "by": "user",
+      "change": "v6 策略新增 style_fit_gate：批量前 6 镜小样过平涂度门禁",
+      "evidence": "projects/人生体验/episodes/20261114-sanzhong/qa/root-cause-v3.md"
+    },
+    {
+      "at": "2026-11-14",
+      "by": "user",
+      "change": "新增 dkl-b（dklapi 新 key，2048×1152，0.018 元）作为 new2 的自动降级通道；old 降为仅人工质量兜底；active 切到 v6-new2-dklb-old",
+      "evidence": "项目 20261113-tumu 小样：new2 当日全段 502，dkl-b 实测可出图（S01/S51 已用 dkl-b 生成于 image/pilot-v21/）"
+    },
+    {
+      "at": "2026-11-12",
+      "by": "user",
+      "change": "新增 dkl2（0.015 元，2048x1152）并设为默认；new2 降为兜底；old 旧 key 标记 legacy；yy 登记为 pending-funding（账户余额 $0，无法出图）",
+      "evidence": "shared/image-api/runs/20261112-113201-channels-3way/REPORT.md"
+    },
+    {
+      "at": "2026-11-12",
+      "by": "user",
+      "change": "删除 dkl2（用户要求不再维护）：key 从用户环境变量移除，通道标记 retired，active 回到 v5-new2-old（new2 主用、old 兜底）",
+      "evidence": "shared/image-api/runs/20261112-114824-dkl3way-2x2/REPORT-repeats.md"
+    }
+  ]
+}

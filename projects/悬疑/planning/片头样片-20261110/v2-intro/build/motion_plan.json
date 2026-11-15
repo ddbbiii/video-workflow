@@ -1,0 +1,97 @@
+{
+ "schema_version": 1,
+ "backend": "affine",
+ "output": {
+  "width": 1920,
+  "height": 1080,
+  "fps": 24
+ },
+ "transition_s": 0,
+ "overview": "V2 intro",
+ "shots": [
+  {
+   "id": "ib0",
+   "source": "E:\\program\\1project\\video\\projects\\悬疑\\episodes\\20261109-nightrun\\image\\stills\\S07.png",
+   "duration_s": 4.0,
+   "start_view": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "end_view": [
+    0.0122,
+    0.0122,
+    0.9756,
+    0.9756
+   ],
+   "curve": {
+    "type": "ramped_linear",
+    "ramp_s": 0.4
+   }
+  },
+  {
+   "id": "ib1",
+   "source": "E:\\program\\1project\\video\\projects\\悬疑\\episodes\\20261109-nightrun\\image\\stills\\S03.png",
+   "duration_s": 3.7916666666666665,
+   "start_view": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "end_view": [
+    0.0122,
+    0.0122,
+    0.9756,
+    0.9756
+   ],
+   "curve": {
+    "type": "ramped_linear",
+    "ramp_s": 0.4
+   }
+  },
+  {
+   "id": "ib2",
+   "source": "E:\\program\\1project\\video\\projects\\悬疑\\episodes\\20261109-nightrun\\image\\stills\\S11.png",
+   "duration_s": 3.0,
+   "start_view": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "end_view": [
+    0.0122,
+    0.0122,
+    0.9756,
+    0.9756
+   ],
+   "curve": {
+    "type": "ramped_linear",
+    "ramp_s": 0.4
+   }
+  },
+  {
+   "id": "ib3",
+   "source": "E:\\program\\1project\\video\\projects\\悬疑\\episodes\\20261109-nightrun\\image\\stills\\S10.png",
+   "duration_s": 3.125,
+   "start_view": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "end_view": [
+    0.0122,
+    0.0122,
+    0.9756,
+    0.9756
+   ],
+   "curve": {
+    "type": "ramped_linear",
+    "ramp_s": 0.4
+   }
+  }
+ ]
+}

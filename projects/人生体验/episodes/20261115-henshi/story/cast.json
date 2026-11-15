@@ -1,0 +1,862 @@
+{
+  "S001": {
+    "cast": "catman",
+    "closeup_part": "none",
+    "view_angle": "front"
+  },
+  "S002": {
+    "cast": "none",
+    "closeup_part": "none",
+    "view_angle": "none"
+  },
+  "S003": {
+    "cast": "none",
+    "closeup_part": "none",
+    "view_angle": "none"
+  },
+  "S004": {
+    "cast": "none",
+    "closeup_part": "none",
+    "view_angle": "none"
+  },
+  "S005": {
+    "cast": "catman",
+    "closeup_part": "none",
+    "view_angle": "front"
+  },
+  "S006": {
+    "cast": "none",
+    "closeup_part": "none",
+    "view_angle": "none"
+  },
+  "S007": {
+    "cast": "none",
+    "closeup_part": "none",
+    "view_angle": "none"
+  },
+  "S008": {
+    "cast": "none",
+    "closeup_part": "none",
+    "view_angle": "none"
+  },
+  "S009": {
+    "cast": "catman",
+    "closeup_part": "none",
+    "view_angle": "front"
+  },
+  "S010": {
+    "cast": "catman",
+    "closeup_part": "face",
+    "view_angle": "three-quarter"
+  },
+  "S011": {
+    "cast": "chen",
+    "closeup_part": "none",
+    "view_angle": "front"
+  },
+  "S012": {
+    "cast": "none",
+    "closeup_part": "none",
+    "view_angle": "none"
+  },
+  "S013": {
+    "cast": "catman+chen",
+    "closeup_part": "face",
+    "view_angle": "three-quarter"
+  },
+  "S014": {
+    "cast": "none",
+    "closeup_part": "none",
+    "view_angle": "none"
+  },
+  "S015": {
+    "cast": "none",
+    "closeup_part": "none",
+    "view_angle": "none"
+  },
+  "S016": {
+    "cast": "none",
+    "closeup_part": "none",
+    "view_angle": "none"
+  },
+  "S017": {
+    "cast": "catman",
+    "closeup_part": "face",
+    "view_angle": "three-quarter"
+  },
+  "S018": {
+    "cast": "catman+chen",
+    "closeup_part": "none",
+    "view_angle": "front"
+  },
+  "S019": {
+    "cast": "catman+chen",
+    "closeup_part": "none",
+    "view_angle": "front"
+  },
+  "S020": {
+    "cast": "chen",
+    "closeup_part": "none",
+    "view_angle": "front"
+  },
+  "S021": {
+    "cast": "chen",
+    "closeup_part": "face",
+    "view_angle": "three-quarter"
+  },
+  "S022": {
+    "cast": "catman",
+    "closeup_part": "none",
+    "view_angle": "front"
+  },
+  "S023": {
+    "cast": "catman+chen",
+    "closeup_part": "none",
+    "view_angle": "front"
+  },
+  "S024": {
+    "cast": "catman+chen",
+    "closeup_part": "face",
+    "view_angle": "three-quarter"
+  },
+  "S025": {
+    "cast": "none",
+    "closeup_part": "none",
+    "view_angle": "none"
+  },
+  "S026": {
+    "cast": "catman",
+    "closeup_part": "none",
+    "view_angle": "front"
+  },
+  "S027": {
+    "cast": "catman+chen",
+    "closeup_part": "none",
+    "view_angle": "front"
+  },
+  "S028": {
+    "cast": "catman",
+    "closeup_part": "paw",
+    "view_angle": "front"
+  },
+  "S029": {
+    "cast": "none",
+    "closeup_part": "none",
+    "view_angle": "none"
+  },
+  "S030": {
+    "cast": "chen",
+    "closeup_part": "none",
+    "view_angle": "front"
+  },
+  "S031": {
+    "cast": "catman+chen",
+    "closeup_part": "face",
+    "view_angle": "three-quarter"
+  },
+  "S032": {
+    "cast": "catman",
+    "closeup_part": "none",
+    "view_angle": "front"
+  },
+  "S033": {
+    "cast": "chen",
+    "closeup_part": "none",
+    "view_angle": "front"
+  },
+  "S034": {
+    "cast": "catman",
+    "closeup_part": "none",
+    "view_angle": "front"
+  },
+  "S035": {
+    "cast": "catman+chen",
+    "closeup_part": "none",
+    "view_angle": "front"
+  },
+  "S036": {
+    "cast": "catman",
+    "closeup_part": "none",
+    "view_angle": "front"
+  },
+  "S037": {
+    "cast": "chen",
+    "closeup_part": "none",
+    "view_angle": "front"
+  },
+  "S038": {
+    "cast": "catman",
+    "closeup_part": "face",
+    "view_angle": "three-quarter"
+  },
+  "S039": {
+    "cast": "catman",
+    "closeup_part": "none",
+    "view_angle": "front"
+  },
+  "S040": {
+    "cast": "catman",
+    "closeup_part": "none",
+    "view_angle": "front"
+  },
+  "S041": {
+    "cast": "catman",
+    "closeup_part": "none",
+    "view_angle": "front"
+  },
+  "S042": {
+    "cast": "catman",
+    "closeup_part": "face",
+    "view_angle": "three-quarter"
+  },
+  "S043": {
+    "cast": "none",
+    "closeup_part": "none",
+    "view_angle": "none"
+  },
+  "S044": {
+    "cast": "catman",
+    "closeup_part": "paw",
+    "view_angle": "front"
+  },
+  "S045": {
+    "cast": "catman",
+    "closeup_part": "face",
+    "view_angle": "three-quarter"
+  },
+  "S046": {
+    "cast": "none",
+    "closeup_part": "none",
+    "view_angle": "none"
+  },
+  "S047": {
+    "cast": "catman",
+    "closeup_part": "none",
+    "view_angle": "front"
+  },
+  "S048": {
+    "cast": "none",
+    "closeup_part": "none",
+    "view_angle": "none"
+  },
+  "S049": {
+    "cast": "none",
+    "closeup_part": "none",
+    "view_angle": "none"
+  },
+  "S050": {
+    "cast": "catman+chen",
+    "closeup_part": "none",
+    "view_angle": "front"
+  },
+  "S051": {
+    "cast": "catman",
+    "closeup_part": "none",
+    "view_angle": "front"
+  },
+  "S052": {
+    "cast": "chen",
+    "closeup_part": "face",
+    "view_angle": "three-quarter"
+  },
+  "S053": {
+    "cast": "catman",
+    "closeup_part": "none",
+    "view_angle": "front"
+  },
+  "S054": {
+    "cast": "catman",
+    "closeup_part": "paw",
+    "view_angle": "front"
+  },
+  "S055": {
+    "cast": "chen",
+    "closeup_part": "none",
+    "view_angle": "front"
+  },
+  "S056": {
+    "cast": "catman",
+    "closeup_part": "paw",
+    "view_angle": "front"
+  },
+  "S057": {
+    "cast": "chen",
+    "closeup_part": "none",
+    "view_angle": "front"
+  },
+  "S058": {
+    "cast": "catman",
+    "closeup_part": "paw",
+    "view_angle": "front"
+  },
+  "S059": {
+    "cast": "catman+chen",
+    "closeup_part": "none",
+    "view_angle": "front"
+  },
+  "S060": {
+    "cast": "catman",
+    "closeup_part": "face",
+    "view_angle": "three-quarter"
+  },
+  "S061": {
+    "cast": "catman",
+    "closeup_part": "none",
+    "view_angle": "front"
+  },
+  "S062": {
+    "cast": "chen",
+    "closeup_part": "none",
+    "view_angle": "front"
+  },
+  "S063": {
+    "cast": "catman+chen",
+    "closeup_part": "none",
+    "view_angle": "front"
+  },
+  "S064": {
+    "cast": "catman",
+    "closeup_part": "face",
+    "view_angle": "three-quarter"
+  },
+  "S065": {
+    "cast": "catman",
+    "closeup_part": "none",
+    "view_angle": "front"
+  },
+  "S066": {
+    "cast": "catman",
+    "closeup_part": "none",
+    "view_angle": "front"
+  },
+  "S067": {
+    "cast": "catman",
+    "closeup_part": "none",
+    "view_angle": "front"
+  },
+  "S068": {
+    "cast": "none",
+    "closeup_part": "none",
+    "view_angle": "none"
+  },
+  "S069": {
+    "cast": "catman",
+    "closeup_part": "face",
+    "view_angle": "three-quarter"
+  },
+  "S070": {
+    "cast": "chen",
+    "closeup_part": "none",
+    "view_angle": "front"
+  },
+  "S071": {
+    "cast": "catman",
+    "closeup_part": "paw",
+    "view_angle": "front"
+  },
+  "S072": {
+    "cast": "chen",
+    "closeup_part": "none",
+    "view_angle": "front"
+  },
+  "S073": {
+    "cast": "catman",
+    "closeup_part": "none",
+    "view_angle": "front"
+  },
+  "S074": {
+    "cast": "catman",
+    "closeup_part": "none",
+    "view_angle": "front"
+  },
+  "S075": {
+    "cast": "chen",
+    "closeup_part": "none",
+    "view_angle": "front"
+  },
+  "S076": {
+    "cast": "catman",
+    "closeup_part": "face",
+    "view_angle": "three-quarter"
+  },
+  "S077": {
+    "cast": "none",
+    "closeup_part": "none",
+    "view_angle": "none"
+  },
+  "S078": {
+    "cast": "catman",
+    "closeup_part": "none",
+    "view_angle": "front"
+  },
+  "S079": {
+    "cast": "catman",
+    "closeup_part": "paw",
+    "view_angle": "front"
+  },
+  "S080": {
+    "cast": "catman+chen",
+    "closeup_part": "face",
+    "view_angle": "three-quarter"
+  },
+  "S081": {
+    "cast": "none",
+    "closeup_part": "none",
+    "view_angle": "none"
+  },
+  "S082": {
+    "cast": "catman",
+    "closeup_part": "face",
+    "view_angle": "three-quarter"
+  },
+  "S083": {
+    "cast": "catman",
+    "closeup_part": "none",
+    "view_angle": "front"
+  },
+  "S084": {
+    "cast": "catman+chen",
+    "closeup_part": "none",
+    "view_angle": "front"
+  },
+  "S085": {
+    "cast": "none",
+    "closeup_part": "none",
+    "view_angle": "none"
+  },
+  "S086": {
+    "cast": "catman",
+    "closeup_part": "none",
+    "view_angle": "front"
+  },
+  "S087": {
+    "cast": "catman",
+    "closeup_part": "face",
+    "view_angle": "three-quarter"
+  },
+  "S088": {
+    "cast": "catman",
+    "closeup_part": "none",
+    "view_angle": "front"
+  },
+  "S089": {
+    "cast": "catman",
+    "closeup_part": "face",
+    "view_angle": "three-quarter"
+  },
+  "S090": {
+    "cast": "catman",
+    "closeup_part": "none",
+    "view_angle": "front"
+  },
+  "S091": {
+    "cast": "catman+chen",
+    "closeup_part": "none",
+    "view_angle": "front"
+  },
+  "S092": {
+    "cast": "catman",
+    "closeup_part": "none",
+    "view_angle": "front"
+  },
+  "S093": {
+    "cast": "none",
+    "closeup_part": "none",
+    "view_angle": "none"
+  },
+  "S094": {
+    "cast": "catman",
+    "closeup_part": "face",
+    "view_angle": "three-quarter"
+  },
+  "S095": {
+    "cast": "chen",
+    "closeup_part": "none",
+    "view_angle": "front"
+  },
+  "S096": {
+    "cast": "catman",
+    "closeup_part": "none",
+    "view_angle": "front"
+  },
+  "S097": {
+    "cast": "none",
+    "closeup_part": "none",
+    "view_angle": "none"
+  },
+  "S098": {
+    "cast": "none",
+    "closeup_part": "none",
+    "view_angle": "none"
+  },
+  "S099": {
+    "cast": "catman",
+    "closeup_part": "none",
+    "view_angle": "front"
+  },
+  "S100": {
+    "cast": "catman",
+    "closeup_part": "paw",
+    "view_angle": "front"
+  },
+  "S101": {
+    "cast": "catman+chen",
+    "closeup_part": "face",
+    "view_angle": "three-quarter"
+  },
+  "S102": {
+    "cast": "catman",
+    "closeup_part": "none",
+    "view_angle": "front"
+  },
+  "S103": {
+    "cast": "catman",
+    "closeup_part": "none",
+    "view_angle": "front"
+  },
+  "S104": {
+    "cast": "catman",
+    "closeup_part": "none",
+    "view_angle": "front"
+  },
+  "S105": {
+    "cast": "catman",
+    "closeup_part": "face",
+    "view_angle": "three-quarter"
+  },
+  "S106": {
+    "cast": "none",
+    "closeup_part": "none",
+    "view_angle": "none"
+  },
+  "S107": {
+    "cast": "none",
+    "closeup_part": "none",
+    "view_angle": "none"
+  },
+  "S108": {
+    "cast": "catman",
+    "closeup_part": "none",
+    "view_angle": "front"
+  },
+  "S109": {
+    "cast": "catman",
+    "closeup_part": "none",
+    "view_angle": "front"
+  },
+  "S110": {
+    "cast": "catman",
+    "closeup_part": "paw",
+    "view_angle": "front"
+  },
+  "S111": {
+    "cast": "catman",
+    "closeup_part": "paw",
+    "view_angle": "front"
+  },
+  "S112": {
+    "cast": "catman+chen",
+    "closeup_part": "none",
+    "view_angle": "front"
+  },
+  "S113": {
+    "cast": "none",
+    "closeup_part": "none",
+    "view_angle": "none"
+  },
+  "S114": {
+    "cast": "catman",
+    "closeup_part": "none",
+    "view_angle": "front"
+  },
+  "S115": {
+    "cast": "none",
+    "closeup_part": "none",
+    "view_angle": "none"
+  },
+  "S116": {
+    "cast": "catman",
+    "closeup_part": "paw",
+    "view_angle": "front"
+  },
+  "S117": {
+    "cast": "catman+chen",
+    "closeup_part": "face",
+    "view_angle": "three-quarter"
+  },
+  "S118": {
+    "cast": "catman",
+    "closeup_part": "none",
+    "view_angle": "front"
+  },
+  "S119": {
+    "cast": "none",
+    "closeup_part": "none",
+    "view_angle": "none"
+  },
+  "S120": {
+    "cast": "catman",
+    "closeup_part": "paw",
+    "view_angle": "front"
+  },
+  "S121": {
+    "cast": "chen",
+    "closeup_part": "face",
+    "view_angle": "three-quarter"
+  },
+  "S122": {
+    "cast": "catman",
+    "closeup_part": "none",
+    "view_angle": "front"
+  },
+  "S123": {
+    "cast": "catman",
+    "closeup_part": "none",
+    "view_angle": "front"
+  },
+  "S124": {
+    "cast": "catman",
+    "closeup_part": "face",
+    "view_angle": "three-quarter"
+  },
+  "S125": {
+    "cast": "catman+chen",
+    "closeup_part": "none",
+    "view_angle": "front"
+  },
+  "S126": {
+    "cast": "none",
+    "closeup_part": "none",
+    "view_angle": "none"
+  },
+  "S127": {
+    "cast": "none",
+    "closeup_part": "none",
+    "view_angle": "none"
+  },
+  "S128": {
+    "cast": "catman",
+    "closeup_part": "face",
+    "view_angle": "three-quarter"
+  },
+  "S129": {
+    "cast": "none",
+    "closeup_part": "none",
+    "view_angle": "none"
+  },
+  "S130": {
+    "cast": "none",
+    "closeup_part": "none",
+    "view_angle": "none"
+  },
+  "S131": {
+    "cast": "catman",
+    "closeup_part": "none",
+    "view_angle": "front"
+  },
+  "S132": {
+    "cast": "catman",
+    "closeup_part": "face",
+    "view_angle": "three-quarter"
+  },
+  "S133": {
+    "cast": "catman",
+    "closeup_part": "none",
+    "view_angle": "front"
+  },
+  "S134": {
+    "cast": "catman",
+    "closeup_part": "none",
+    "view_angle": "front"
+  },
+  "S135": {
+    "cast": "catman",
+    "closeup_part": "face",
+    "view_angle": "three-quarter"
+  },
+  "S136": {
+    "cast": "none",
+    "closeup_part": "none",
+    "view_angle": "none"
+  },
+  "S137": {
+    "cast": "chen",
+    "closeup_part": "none",
+    "view_angle": "front"
+  },
+  "S138": {
+    "cast": "none",
+    "closeup_part": "none",
+    "view_angle": "none"
+  },
+  "S139": {
+    "cast": "catman",
+    "closeup_part": "face",
+    "view_angle": "three-quarter"
+  },
+  "S140": {
+    "cast": "catman",
+    "closeup_part": "none",
+    "view_angle": "front"
+  },
+  "S141": {
+    "cast": "catman",
+    "closeup_part": "none",
+    "view_angle": "front"
+  },
+  "S142": {
+    "cast": "none",
+    "closeup_part": "none",
+    "view_angle": "none"
+  },
+  "S143": {
+    "cast": "catman",
+    "closeup_part": "none",
+    "view_angle": "front"
+  },
+  "S144": {
+    "cast": "catman",
+    "closeup_part": "none",
+    "view_angle": "front"
+  },
+  "S145": {
+    "cast": "catman",
+    "closeup_part": "none",
+    "view_angle": "front"
+  },
+  "S146": {
+    "cast": "catman",
+    "closeup_part": "face",
+    "view_angle": "three-quarter"
+  },
+  "S147": {
+    "cast": "catman",
+    "closeup_part": "none",
+    "view_angle": "front"
+  },
+  "S148": {
+    "cast": "catman+chen",
+    "closeup_part": "none",
+    "view_angle": "front"
+  },
+  "S149": {
+    "cast": "none",
+    "closeup_part": "none",
+    "view_angle": "none"
+  },
+  "S150": {
+    "cast": "none",
+    "closeup_part": "none",
+    "view_angle": "none"
+  },
+  "S151": {
+    "cast": "catman",
+    "closeup_part": "face",
+    "view_angle": "three-quarter"
+  },
+  "S152": {
+    "cast": "catman",
+    "closeup_part": "none",
+    "view_angle": "front"
+  },
+  "S153": {
+    "cast": "catman",
+    "closeup_part": "none",
+    "view_angle": "front"
+  },
+  "S154": {
+    "cast": "catman",
+    "closeup_part": "none",
+    "view_angle": "front"
+  },
+  "S155": {
+    "cast": "catman",
+    "closeup_part": "face",
+    "view_angle": "three-quarter"
+  },
+  "S156": {
+    "cast": "none",
+    "closeup_part": "none",
+    "view_angle": "none"
+  },
+  "S157": {
+    "cast": "catman",
+    "closeup_part": "none",
+    "view_angle": "front"
+  },
+  "S158": {
+    "cast": "none",
+    "closeup_part": "none",
+    "view_angle": "none"
+  },
+  "S159": {
+    "cast": "chen",
+    "closeup_part": "face",
+    "view_angle": "three-quarter"
+  },
+  "S160": {
+    "cast": "catman",
+    "closeup_part": "none",
+    "view_angle": "front"
+  },
+  "S161": {
+    "cast": "chen",
+    "closeup_part": "none",
+    "view_angle": "front"
+  },
+  "S162": {
+    "cast": "catman",
+    "closeup_part": "none",
+    "view_angle": "front"
+  },
+  "S163": {
+    "cast": "catman",
+    "closeup_part": "face",
+    "view_angle": "three-quarter"
+  },
+  "S164": {
+    "cast": "catman",
+    "closeup_part": "none",
+    "view_angle": "front"
+  },
+  "S165": {
+    "cast": "none",
+    "closeup_part": "none",
+    "view_angle": "none"
+  },
+  "S166": {
+    "cast": "none",
+    "closeup_part": "none",
+    "view_angle": "none"
+  },
+  "S167": {
+    "cast": "catman",
+    "closeup_part": "paw",
+    "view_angle": "front"
+  },
+  "S168": {
+    "cast": "none",
+    "closeup_part": "none",
+    "view_angle": "none"
+  },
+  "S169": {
+    "cast": "none",
+    "closeup_part": "none",
+    "view_angle": "none"
+  },
+  "S170": {
+    "cast": "catman",
+    "closeup_part": "face",
+    "view_angle": "three-quarter"
+  },
+  "S171": {
+    "cast": "none",
+    "closeup_part": "none",
+    "view_angle": "none"
+  },
+  "S172": {
+    "cast": "none",
+    "closeup_part": "none",
+    "view_angle": "none"
+  }
+}
