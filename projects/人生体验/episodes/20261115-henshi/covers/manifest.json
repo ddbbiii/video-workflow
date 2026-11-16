@@ -1,0 +1,15 @@
+{
+  "episode": "20261115-henshi",
+  "cover": "E:\\program\\1project\\video\\projects\\人生体验\\episodes\\20261115-henshi\\covers\\cover-v1.png",
+  "source": "E:\\program\\1project\\video\\projects\\人生体验\\episodes\\20261115-henshi\\image\\frames-apocalypse-v4\\S159.png",
+  "purpose": "text-free 16:9 video cover",
+  "dimensions": {
+    "width": 1920,
+    "height": 1080
+  },
+  "generation": "Direct export from approved apocalypse-v4 frame S159; no regeneration or edits.",
+  "acceptance": "PASS: 1920x1080, horizontal 16:9, no text or watermark; silent corridor crowd clearly expresses the episode premise.",
+  "sha256": "6b37968d3711045428bb027da540bea4e72d287da2d11d29af7d2f65374a6536",
+  "source_sha256": "6b37968d3711045428bb027da540bea4e72d287da2d11d29af7d2f65374a6536",
+  "source_matches_output": true
+}

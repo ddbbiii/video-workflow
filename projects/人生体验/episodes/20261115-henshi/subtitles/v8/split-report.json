@@ -1,0 +1,1211 @@
+{
+ "source": "projects/人生体验/episodes/20261115-henshi/subtitles/v8/sentences.srt",
+ "out": "projects/人生体验/episodes/20261115-henshi/subtitles/v8/body-draft.srt",
+ "max_chars": 20,
+ "src_cues": 171,
+ "out_cues": 287,
+ "chars_min": 2,
+ "chars_max": 20,
+ "chars_mean": 13.45,
+ "short_cues": [],
+ "word_splits": [],
+ "per_source": [
+  {
+   "index": "1",
+   "source": "晚上九点四十分，你拎着帆布包走出写字楼。",
+   "source_chars": 18,
+   "cues": 1,
+   "word_split": []
+  },
+  {
+   "index": "2",
+   "source": "晚高峰的地铁晃了四十分钟。",
+   "source_chars": 12,
+   "cues": 1,
+   "word_split": []
+  },
+  {
+   "index": "3",
+   "source": "回到出租屋时已经十点半。",
+   "source_chars": 11,
+   "cues": 1,
+   "word_split": []
+  },
+  {
+   "index": "4",
+   "source": "钥匙插进锁孔拧动，金属门把手凉得指尖一缩。",
+   "source_chars": 19,
+   "cues": 1,
+   "word_split": []
+  },
+  {
+   "index": "5",
+   "source": "你顺手把外卖盒放在玄关地上，胳膊肘撑着窗台刷了二十分钟短视频，玻璃上蒙了一层淡淡的水雾。",
+   "source_chars": 41,
+   "cues": 3,
+   "word_split": []
+  },
+  {
+   "index": "6",
+   "source": "洗完澡换上薄睡衣，脏衣服随手搭在椅背上，定好七点半的闹钟，关灯躺平。",
+   "source_chars": 30,
+   "cues": 2,
+   "word_split": []
+  },
+  {
+   "index": "7",
+   "source": "和过去几百个夜晚没有任何区别。",
+   "source_chars": 14,
+   "cues": 1,
+   "word_split": []
+  },
+  {
+   "index": "8",
+   "source": "凌晨两点零七分，楼道里传来一声短促的尖叫，然后戛然而止。",
+   "source_chars": 25,
+   "cues": 2,
+   "word_split": []
+  },
+  {
+   "index": "9",
+   "source": "你被吵醒，皱着眉翻了个身，嘟囔了一句“大半夜发什么疯”，裹紧被子又睡了过去。",
+   "source_chars": 32,
+   "cues": 3,
+   "word_split": []
+  },
+  {
+   "index": "10",
+   "source": "天刚亮你就醒了，外面异常安静，连清晨的车流声都消失了。",
+   "source_chars": 24,
+   "cues": 2,
+   "word_split": []
+  },
+  {
+   "index": "11",
+   "source": "凑到猫眼看，楼道里站着几个人。",
+   "source_chars": 13,
+   "cues": 1,
+   "word_split": []
+  },
+  {
+   "index": "12",
+   "source": "一个穿着睡衣，背靠着墙，头歪向一边；另一个垂着手臂，身体僵直地晃来晃去。",
+   "source_chars": 31,
+   "cues": 2,
+   "word_split": []
+  },
+  {
+   "index": "13",
+   "source": "你一开始以为他们是出了什么意外，隔着门问了一声：“你们还好吗？”",
+   "source_chars": 27,
+   "cues": 2,
+   "word_split": []
+  },
+  {
+   "index": "14",
+   "source": "没人回答。",
+   "source_chars": 4,
+   "cues": 1,
+   "word_split": []
+  },
+  {
+   "index": "15",
+   "source": "靠得最近的那个人慢慢抬起头，脸几乎贴上猫眼。",
+   "source_chars": 20,
+   "cues": 1,
+   "word_split": []
+  },
+  {
+   "index": "16",
+   "source": "你吓得退开，反锁房门，把鞋柜推过去顶住门。",
+   "source_chars": 18,
+   "cues": 1,
+   "word_split": []
+  },
+  {
+   "index": "17",
+   "source": "你还不知道他们是什么，只觉得这些人不太对劲。",
+   "source_chars": 20,
+   "cues": 1,
+   "word_split": []
+  },
+  {
+   "index": "18",
+   "source": "你捂住嘴不敢出声，连呼吸都放轻，心想只要安静，他们也许就会离开。",
+   "source_chars": 28,
+   "cues": 2,
+   "word_split": []
+  },
+  {
+   "index": "19",
+   "source": "但整整一天过去，门外的人没走，反而越聚越多。",
+   "source_chars": 19,
+   "cues": 1,
+   "word_split": []
+  },
+  {
+   "index": "20",
+   "source": "他们不撞门，不说话，只是安安静静地贴在门板附近，偶尔缓缓挪动几步。",
+   "source_chars": 29,
+   "cues": 3,
+   "word_split": []
+  },
+  {
+   "index": "21",
+   "source": "你很疑惑——你明明连杯水都没敢倒，一点声音都没出。",
+   "source_chars": 21,
+   "cues": 2,
+   "word_split": []
+  },
+  {
+   "index": "22",
+   "source": "你隔着猫眼观察了很久，发现楼道里有一个人穿着隔壁老刘常穿的蓝色外套。",
+   "source_chars": 32,
+   "cues": 2,
+   "word_split": []
+  },
+  {
+   "index": "23",
+   "source": "老刘住在你隔壁，昨天早上还在楼道里跟你打过招呼。",
+   "source_chars": 22,
+   "cues": 2,
+   "word_split": []
+  },
+  {
+   "index": "24",
+   "source": "可现在的他脸色灰白，嘴角挂着暗红色的痕迹，脖子上有一道不规则的伤口。",
+   "source_chars": 31,
+   "cues": 2,
+   "word_split": []
+  },
+  {
+   "index": "25",
+   "source": "他就那么靠着墙站着，眼睛半睁，像是根本没看见你。",
+   "source_chars": 21,
+   "cues": 2,
+   "word_split": []
+  },
+  {
+   "index": "26",
+   "source": "你隔着门喊了两声“老刘”，他没有反应。",
+   "source_chars": 15,
+   "cues": 1,
+   "word_split": []
+  },
+  {
+   "index": "27",
+   "source": "你又用指节敲了敲门。",
+   "source_chars": 9,
+   "cues": 1,
+   "word_split": []
+  },
+  {
+   "index": "28",
+   "source": "声音不大，但足以让隔壁听见。",
+   "source_chars": 12,
+   "cues": 1,
+   "word_split": []
+  },
+  {
+   "index": "29",
+   "source": "楼道里的人没有一个转头，老刘也没有动。",
+   "source_chars": 17,
+   "cues": 1,
+   "word_split": []
+  },
+  {
+   "index": "30",
+   "source": "你试着验证“声音会把他们引过来”的猜想。",
+   "source_chars": 17,
+   "cues": 1,
+   "word_split": []
+  },
+  {
+   "index": "31",
+   "source": "你把枕头扔在地上，闷响一声；又用指甲轻轻刮了刮墙面，细碎的声响。",
+   "source_chars": 28,
+   "cues": 2,
+   "word_split": []
+  },
+  {
+   "index": "32",
+   "source": "门外的人还是没有反应。",
+   "source_chars": 10,
+   "cues": 1,
+   "word_split": []
+  },
+  {
+   "index": "33",
+   "source": "你慢慢退回客厅，走到窗边看了看楼下。",
+   "source_chars": 16,
+   "cues": 1,
+   "word_split": []
+  },
+  {
+   "index": "34",
+   "source": "墙根有几个人影在游荡，你盯了一会儿，他们没有抬头，也没有朝你的窗户靠近。",
+   "source_chars": 32,
+   "cues": 2,
+   "word_split": []
+  },
+  {
+   "index": "35",
+   "source": "你重新看向猫眼。",
+   "source_chars": 7,
+   "cues": 1,
+   "word_split": []
+  },
+  {
+   "index": "36",
+   "source": "老刘仍旧站在原地，肩膀一动不动。",
+   "source_chars": 14,
+   "cues": 1,
+   "word_split": []
+  },
+  {
+   "index": "37",
+   "source": "你开始害怕的，不只是楼道里有没有人。",
+   "source_chars": 16,
+   "cues": 1,
+   "word_split": []
+  },
+  {
+   "index": "38",
+   "source": "你不知道门外那些东西还算不算活人。",
+   "source_chars": 16,
+   "cues": 1,
+   "word_split": []
+  },
+  {
+   "index": "39",
+   "source": "你决定做个冒险的小测试。",
+   "source_chars": 11,
+   "cues": 1,
+   "word_split": []
+  },
+  {
+   "index": "40",
+   "source": "你把一串备用钥匙放在门边，又找来一只干净的塑料瓶。",
+   "source_chars": 23,
+   "cues": 2,
+   "word_split": []
+  },
+  {
+   "index": "41",
+   "source": "楼道里暂时没有脚步声，你把门打开一条窄缝，用长柄夹子先把塑料瓶放到门外，再迅速关上。",
+   "source_chars": 38,
+   "cues": 2,
+   "word_split": []
+  },
+  {
+   "index": "42",
+   "source": "十分钟过去，附近的人没有一只朝瓶子的方向移动。",
+   "source_chars": 21,
+   "cues": 2,
+   "word_split": []
+  },
+  {
+   "index": "43",
+   "source": "你等到楼道再次安静下来，才把自己握了十分钟的钥匙串放到同一个位置。",
+   "source_chars": 31,
+   "cues": 2,
+   "word_split": []
+  },
+  {
+   "index": "44",
+   "source": "你关上门，贴在猫眼后面看。",
+   "source_chars": 11,
+   "cues": 1,
+   "word_split": []
+  },
+  {
+   "index": "45",
+   "source": "过了一会儿，离得最近的两个人慢慢转过身，一步一步朝钥匙串挪了过去。",
+   "source_chars": 30,
+   "cues": 2,
+   "word_split": []
+  },
+  {
+   "index": "46",
+   "source": "你后背泛起一阵凉意。",
+   "source_chars": 9,
+   "cues": 1,
+   "word_split": []
+  },
+  {
+   "index": "47",
+   "source": "那串钥匙没有发出声音。",
+   "source_chars": 10,
+   "cues": 1,
+   "word_split": []
+  },
+  {
+   "index": "48",
+   "source": "它们却像是闻到了什么，直直地朝它靠近。",
+   "source_chars": 17,
+   "cues": 1,
+   "word_split": []
+  },
+  {
+   "index": "49",
+   "source": "你想起老刘灰白的脸，想起他脖子上的伤口，想起他听见你喊名字也没有反应。",
+   "source_chars": 32,
+   "cues": 2,
+   "word_split": []
+  },
+  {
+   "index": "50",
+   "source": "直到这时，你才终于把那个词说出口：",
+   "source_chars": 15,
+   "cues": 1,
+   "word_split": []
+  },
+  {
+   "index": "51",
+   "source": "丧尸。",
+   "source_chars": 2,
+   "cues": 1,
+   "word_split": []
+  },
+  {
+   "index": "52",
+   "source": "你开始针对性验证。",
+   "source_chars": 8,
+   "cues": 1,
+   "word_split": []
+  },
+  {
+   "index": "53",
+   "source": "早上，你用湿抹布反复擦了三遍门把手，也擦了门外一小块地面。",
+   "source_chars": 26,
+   "cues": 2,
+   "word_split": []
+  },
+  {
+   "index": "54",
+   "source": "接下来的两个小时里，门口的丧尸慢慢散开了一些，不再死死贴在门板上。",
+   "source_chars": 30,
+   "cues": 3,
+   "word_split": []
+  },
+  {
+   "index": "55",
+   "source": "下午，你用纸巾隔着手握住门把手，再把门外那块地面擦干净。",
+   "source_chars": 25,
+   "cues": 2,
+   "word_split": []
+  },
+  {
+   "index": "56",
+   "source": "半小时后，散开的丧尸又慢慢聚了回来。",
+   "source_chars": 16,
+   "cues": 1,
+   "word_split": []
+  },
+  {
+   "index": "57",
+   "source": "你不知道是门把手、地面，还是开门时漏出去的气味把它们引了回来。",
+   "source_chars": 28,
+   "cues": 2,
+   "word_split": []
+  },
+  {
+   "index": "58",
+   "source": "但你注意到，门口的丧尸总会聚在你开门、倒垃圾和换气的地方。",
+   "source_chars": 26,
+   "cues": 2,
+   "word_split": []
+  },
+  {
+   "index": "59",
+   "source": "你把这几次情况记在本子上：人碰过、待过的地方，似乎会留下它们能察觉的东西。",
+   "source_chars": 33,
+   "cues": 2,
+   "word_split": []
+  },
+  {
+   "index": "60",
+   "source": "你发现了更多规律。",
+   "source_chars": 8,
+   "cues": 1,
+   "word_split": []
+  },
+  {
+   "index": "61",
+   "source": "常坐的那把餐椅正对着的窗外，丧尸数量总比别的窗台多；玄关放了两天的外卖盒旁边，门外的丧尸也明显更密。",
+   "source_chars": 46,
+   "cues": 4,
+   "word_split": []
+  },
+  {
+   "index": "62",
+   "source": "你踩着拖鞋在屋里走了一下午，傍晚时偶然发现，你常走的那条路线对应的窗外墙根，慢慢聚了几只丧尸。",
+   "source_chars": 43,
+   "cues": 3,
+   "word_split": []
+  },
+  {
+   "index": "63",
+   "source": "你一开始没反应过来，直到低头看见拖鞋底沾着的皮屑和灰尘。",
+   "source_chars": 26,
+   "cues": 2,
+   "word_split": []
+  },
+  {
+   "index": "64",
+   "source": "你不确定它们是不是顺着空气里的气味找过来的，但你不敢继续赌。",
+   "source_chars": 28,
+   "cues": 3,
+   "word_split": []
+  },
+  {
+   "index": "65",
+   "source": "你把拖鞋装进垃圾袋，改穿干净袜子在屋里走；常走的路线也用湿拖把擦了一遍。",
+   "source_chars": 33,
+   "cues": 2,
+   "word_split": []
+  },
+  {
+   "index": "66",
+   "source": "你不敢把门长时间打开，也没有仪器测量痕迹。",
+   "source_chars": 19,
+   "cues": 1,
+   "word_split": []
+  },
+  {
+   "index": "67",
+   "source": "能做的只有几次短暂的观察。",
+   "source_chars": 12,
+   "cues": 1,
+   "word_split": []
+  },
+  {
+   "index": "68",
+   "source": "早上，你把一小块干净布料放到门外，关门后从猫眼观察。",
+   "source_chars": 23,
+   "cues": 2,
+   "word_split": []
+  },
+  {
+   "index": "69",
+   "source": "附近的丧尸没有明显反应。",
+   "source_chars": 11,
+   "cues": 1,
+   "word_split": []
+  },
+  {
+   "index": "70",
+   "source": "中午，你握住另一块布料一会儿，再趁楼道安静时把它放到差不多的位置。",
+   "source_chars": 30,
+   "cues": 2,
+   "word_split": []
+  },
+  {
+   "index": "71",
+   "source": "过了一阵，有两只丧尸慢慢挪了过去。",
+   "source_chars": 15,
+   "cues": 1,
+   "word_split": []
+  },
+  {
+   "index": "72",
+   "source": "你不敢确定这是布料上的痕迹引起的，还是它们刚好在移动。",
+   "source_chars": 25,
+   "cues": 2,
+   "word_split": []
+  },
+  {
+   "index": "73",
+   "source": "傍晚，你把布料收回来。",
+   "source_chars": 9,
+   "cues": 1,
+   "word_split": []
+  },
+  {
+   "index": "74",
+   "source": "楼道里的丧尸没有跟着门口的动作冲过来，只在原地停了一会儿。",
+   "source_chars": 27,
+   "cues": 2,
+   "word_split": []
+  },
+  {
+   "index": "75",
+   "source": "你把记录写进本子，却没写“规律已经确认”。",
+   "source_chars": 17,
+   "cues": 1,
+   "word_split": []
+  },
+  {
+   "index": "76",
+   "source": "样本太少，变化也不稳定。",
+   "source_chars": 10,
+   "cues": 1,
+   "word_split": []
+  },
+  {
+   "index": "77",
+   "source": "你只能先相信：人留下的痕迹可能会吸引它们，新的、明显的痕迹似乎更容易被发现。",
+   "source_chars": 34,
+   "cues": 2,
+   "word_split": []
+  },
+  {
+   "index": "78",
+   "source": "完成第一轮去痕迹改造后，你很快想通了更麻烦的问题：单点痕迹能擦，但整个房间都住着人，痕迹迟早会越积越多。",
+   "source_chars": 47,
+   "cues": 3,
+   "word_split": []
+  },
+  {
+   "index": "79",
+   "source": "你翻看这几天的记录，试着按丧尸数量画了一条增长曲线。",
+   "source_chars": 24,
+   "cues": 2,
+   "word_split": []
+  },
+  {
+   "index": "80",
+   "source": "数字少得可怜，观察的位置也不一样。",
+   "source_chars": 15,
+   "cues": 1,
+   "word_split": []
+  },
+  {
+   "index": "81",
+   "source": "你画出来的线忽高忽低，根本算不出什么时候会彻底堵死。",
+   "source_chars": 24,
+   "cues": 2,
+   "word_split": []
+  },
+  {
+   "index": "82",
+   "source": "你不是没想过立刻就走。",
+   "source_chars": 10,
+   "cues": 1,
+   "word_split": []
+  },
+  {
+   "index": "83",
+   "source": "但窗外的街道空荡荡的，你连外面有多少丧尸、往哪走安全都不知道，空手冲出去，和送死没区别。",
+   "source_chars": 39,
+   "cues": 2,
+   "word_split": []
+  },
+  {
+   "index": "84",
+   "source": "信息为零的时候，固守看起来是成本最低的选择。",
+   "source_chars": 20,
+   "cues": 1,
+   "word_split": []
+  },
+  {
+   "index": "85",
+   "source": "你给自己定下计划：先苟着，摸透规则，补够物资，暂定第19天出发。",
+   "source_chars": 27,
+   "cues": 2,
+   "word_split": []
+  },
+  {
+   "index": "86",
+   "source": "这不是算出来的安全日，只是你给自己留的期限。",
+   "source_chars": 20,
+   "cues": 1,
+   "word_split": []
+  },
+  {
+   "index": "87",
+   "source": "你在笔记本上画了一条粗略的增长线，旁边写着“估计，误差很大”。",
+   "source_chars": 26,
+   "cues": 2,
+   "word_split": []
+  },
+  {
+   "index": "88",
+   "source": "你以为只要每天继续观察，就能在危险真正到来前看懂它。",
+   "source_chars": 24,
+   "cues": 2,
+   "word_split": []
+  },
+  {
+   "index": "89",
+   "source": "可你手里的记录，连一条可靠的曲线都算不上。",
+   "source_chars": 19,
+   "cues": 1,
+   "word_split": []
+  },
+  {
+   "index": "90",
+   "source": "清晨醒来，你心头一沉——卧室窗外，又聚了七八只丧尸，贴着玻璃站着。",
+   "source_chars": 27,
+   "cues": 2,
+   "word_split": []
+  },
+  {
+   "index": "91",
+   "source": "你睡了七个小时，躺在床上，皮肤接触床单，体温和皮屑留在上面，一整晚的时间，形成了一个明显的痕迹锚点。",
+   "source_chars": 44,
+   "cues": 3,
+   "word_split": []
+  },
+  {
+   "index": "92",
+   "source": "窗户没有关严，屋里的气味顺着缝隙散了出去。",
+   "source_chars": 19,
+   "cues": 1,
+   "word_split": []
+  },
+  {
+   "index": "93",
+   "source": "你立刻卷起床单，装进垃圾袋，等到楼道安静时才拿出去。",
+   "source_chars": 23,
+   "cues": 2,
+   "word_split": []
+  },
+  {
+   "index": "94",
+   "source": "直到下午，窗外的丧尸才慢慢散开。",
+   "source_chars": 14,
+   "cues": 1,
+   "word_split": []
+  },
+  {
+   "index": "95",
+   "source": "你开始每晚换地方睡：今晚睡沙发，明晚睡地板，后晚去玄关打地铺。",
+   "source_chars": 27,
+   "cues": 2,
+   "word_split": []
+  },
+  {
+   "index": "96",
+   "source": "每次睡之前铺一层一次性床单，醒了就卷走收好，尽量不在一个地方留下连续的痕迹。",
+   "source_chars": 35,
+   "cues": 2,
+   "word_split": []
+  },
+  {
+   "index": "97",
+   "source": "降温了，室内温度很低。",
+   "source_chars": 9,
+   "cues": 1,
+   "word_split": []
+  },
+  {
+   "index": "98",
+   "source": "你站在窗边想看看外面，刚凑过去几秒，玻璃上就蒙了一层呼吸的水雾。",
+   "source_chars": 29,
+   "cues": 2,
+   "word_split": []
+  },
+  {
+   "index": "99",
+   "source": "你没当回事，擦干净就走开了。",
+   "source_chars": 12,
+   "cues": 1,
+   "word_split": []
+  },
+  {
+   "index": "100",
+   "source": "半小时后再回来，窗外居然聚了四只丧尸，正对着你刚才哈气的位置。",
+   "source_chars": 28,
+   "cues": 2,
+   "word_split": []
+  },
+  {
+   "index": "101",
+   "source": "你不确定它们是不是被水雾吸引。",
+   "source_chars": 14,
+   "cues": 1,
+   "word_split": []
+  },
+  {
+   "index": "102",
+   "source": "也可能是你扶过窗框，或者那一带原本就有更多痕迹。",
+   "source_chars": 22,
+   "cues": 2,
+   "word_split": []
+  },
+  {
+   "index": "103",
+   "source": "可从那天起，你不再把脸凑近玻璃，观察外面都隔着半米，尽量不碰窗台。",
+   "source_chars": 29,
+   "cues": 2,
+   "word_split": []
+  },
+  {
+   "index": "104",
+   "source": "你的生活变得极轻、极慢，像一道影子一样在屋子里移动。",
+   "source_chars": 23,
+   "cues": 2,
+   "word_split": []
+  },
+  {
+   "index": "105",
+   "source": "走路尽量走房间中间，不蹭到墙面和家具；每天捡一遍地上掉的头发，包好收起来；喝水用吸管，不碰杯口；吃饭慢慢嚼，不让餐具碰出声。",
+   "source_chars": 54,
+   "cues": 4,
+   "word_split": []
+  },
+  {
+   "index": "106",
+   "source": "物资开始紧张，泡面只剩三桶，瓶装水还有半箱。",
+   "source_chars": 19,
+   "cues": 1,
+   "word_split": []
+  },
+  {
+   "index": "107",
+   "source": "你没急着出门——规则还没摸透，长途移动等于在身后留下一串可能的痕迹。",
+   "source_chars": 30,
+   "cues": 2,
+   "word_split": []
+  },
+  {
+   "index": "108",
+   "source": "你先规划了小区内的短途路线：走楼梯，尽量不碰扶手，目标是小区门口的超市，五百米距离。",
+   "source_chars": 37,
+   "cues": 3,
+   "word_split": []
+  },
+  {
+   "index": "109",
+   "source": "你反复在脑子里演练开门、关门、擦掉碰过的地方。",
+   "source_chars": 20,
+   "cues": 1,
+   "word_split": []
+  },
+  {
+   "index": "110",
+   "source": "可你知道，脚底、衣服和呼吸留下的东西不可能全擦干净。",
+   "source_chars": 23,
+   "cues": 2,
+   "word_split": []
+  },
+  {
+   "index": "111",
+   "source": "你能做的只是少碰、少留，赌丧尸不会立刻跟来。",
+   "source_chars": 19,
+   "cues": 1,
+   "word_split": []
+  },
+  {
+   "index": "112",
+   "source": "阴天，空气发闷。",
+   "source_chars": 6,
+   "cues": 1,
+   "word_split": []
+  },
+  {
+   "index": "113",
+   "source": "你出发了。",
+   "source_chars": 4,
+   "cues": 1,
+   "word_split": []
+  },
+  {
+   "index": "114",
+   "source": "戴两层一次性手套，用胳膊肘顶开房门，踮着脚走出去，再轻轻带上门。",
+   "source_chars": 28,
+   "cues": 2,
+   "word_split": []
+  },
+  {
+   "index": "115",
+   "source": "你擦了门把手，却没法擦掉脚下走过的每一级台阶，也没法控制衣服擦过扶手时留下的痕迹。",
+   "source_chars": 38,
+   "cues": 3,
+   "word_split": []
+  },
+  {
+   "index": "116",
+   "source": "楼道里的丧尸慢悠悠晃着，你从它们身边走过去，它们没有立刻转向你。",
+   "source_chars": 29,
+   "cues": 2,
+   "word_split": []
+  },
+  {
+   "index": "117",
+   "source": "五百米的路，你走了四十分钟。",
+   "source_chars": 12,
+   "cues": 1,
+   "word_split": []
+  },
+  {
+   "index": "118",
+   "source": "超市里一片狼藉，货架倒了一半，但角落还有不少没被拿走的泡面和瓶装水。",
+   "source_chars": 31,
+   "cues": 2,
+   "word_split": []
+  },
+  {
+   "index": "119",
+   "source": "你用超市里的新购物袋垫着手，搬了两箱水和五包泡面，原路返回。",
+   "source_chars": 27,
+   "cues": 2,
+   "word_split": []
+  },
+  {
+   "index": "120",
+   "source": "回到楼里时，楼梯转角多了两只丧尸。",
+   "source_chars": 15,
+   "cues": 1,
+   "word_split": []
+  },
+  {
+   "index": "121",
+   "source": "它们没有追上来，只停在你走过的台阶旁，朝着那一带慢慢挪动。",
+   "source_chars": 26,
+   "cues": 2,
+   "word_split": []
+  },
+  {
+   "index": "122",
+   "source": "你不敢确认它们是不是被你引来的。",
+   "source_chars": 15,
+   "cues": 1,
+   "word_split": []
+  },
+  {
+   "index": "123",
+   "source": "回到家关上门的那一刻，你松了口气——短途移动似乎没有立刻引来围堵。",
+   "source_chars": 29,
+   "cues": 2,
+   "word_split": []
+  },
+  {
+   "index": "124",
+   "source": "你把两只丧尸的位置画在笔记本上。",
+   "source_chars": 15,
+   "cues": 1,
+   "word_split": []
+  },
+  {
+   "index": "125",
+   "source": "这次出门没出事，但并不能证明路线安全。",
+   "source_chars": 17,
+   "cues": 1,
+   "word_split": []
+  },
+  {
+   "index": "126",
+   "source": "每趟外出，都可能把痕迹留在回家的路上。",
+   "source_chars": 17,
+   "cues": 1,
+   "word_split": []
+  },
+  {
+   "index": "127",
+   "source": "你在超市收银台捡到了一个还能用的收音机。",
+   "source_chars": 19,
+   "cues": 1,
+   "word_split": []
+  },
+  {
+   "index": "128",
+   "source": "调试了很久，终于收到一段断断续续的官方广播：城郊体育馆安置点，每天中午十二点有接驳车，持续到第19天。",
+   "source_chars": 46,
+   "cues": 3,
+   "word_split": []
+  },
+  {
+   "index": "129",
+   "source": "第19天最后一班车离开后，安置点停止接应。",
+   "source_chars": 19,
+   "cues": 1,
+   "word_split": []
+  },
+  {
+   "index": "130",
+   "source": "你没法确认广播是不是最新的，只把城郊体育馆当成唯一有明确方向的逃生目标——五公里路程，沿途多是老居民区，比主干道更容易避开空旷地带。",
+   "source_chars": 60,
+   "cues": 4,
+   "word_split": []
+  },
+  {
+   "index": "131",
+   "source": "你还有几天可以出发，但每天多留一天，物资就少一点，门外的影子也多一点。",
+   "source_chars": 31,
+   "cues": 2,
+   "word_split": []
+  },
+  {
+   "index": "132",
+   "source": "你决定等一个可能有利的天气，再赶在第19天中午前到体育馆。",
+   "source_chars": 27,
+   "cues": 2,
+   "word_split": []
+  },
+  {
+   "index": "133",
+   "source": "天气越来越潮，你把雾天当成一个机会：也许潮湿的空气能让痕迹不那么容易飘远。",
+   "source_chars": 34,
+   "cues": 2,
+   "word_split": []
+  },
+  {
+   "index": "134",
+   "source": "你没有证据，只能赌它比晴天好。",
+   "source_chars": 13,
+   "cues": 1,
+   "word_split": []
+  },
+  {
+   "index": "135",
+   "source": "第16天起，空气明显闷了下来。",
+   "source_chars": 13,
+   "cues": 1,
+   "word_split": []
+  },
+  {
+   "index": "136",
+   "source": "墙面返潮，玻璃一摸一层水，远处的楼顶整天蒙在灰蒙蒙的雾气里，连楼下丧尸的轮廓都变得模糊。",
+   "source_chars": 40,
+   "cues": 3,
+   "word_split": []
+  },
+  {
+   "index": "137",
+   "source": "夜里开窗，能闻到泥土和潮气混在一起的味道，烟飘出去半米就沉了下去。",
+   "source_chars": 30,
+   "cues": 2,
+   "word_split": []
+  },
+  {
+   "index": "138",
+   "source": "你很熟悉这种征兆——秋冬的老城区，这种天气再憋一两天，可能会下一场大雾。",
+   "source_chars": 31,
+   "cues": 2,
+   "word_split": []
+  },
+  {
+   "index": "139",
+   "source": "你对着笔记本重新看了一遍：第8天、12天、17天，窗外那片墙根附近的影子一次比一次多。",
+   "source_chars": 38,
+   "cues": 2,
+   "word_split": []
+  },
+  {
+   "index": "140",
+   "source": "但你把不同位置、不同时间看到的影子记在了一起，以为数量还是在慢慢增加。",
+   "source_chars": 32,
+   "cues": 3,
+   "word_split": []
+  },
+  {
+   "index": "141",
+   "source": "趁大雾出发，可能看不清路，也可能让痕迹不那么容易扩散。",
+   "source_chars": 24,
+   "cues": 2,
+   "word_split": []
+  },
+  {
+   "index": "142",
+   "source": "你没有把握，只能在笔记本上写下“雾天，或许更安全”。",
+   "source_chars": 21,
+   "cues": 2,
+   "word_split": []
+  },
+  {
+   "index": "143",
+   "source": "五公里的路，按你上次五百米走四十分钟算，至少要六个多小时。",
+   "source_chars": 26,
+   "cues": 2,
+   "word_split": []
+  },
+  {
+   "index": "144",
+   "source": "你把闹钟调到凌晨三点半，决定四点出门，尽量在中午前赶到体育馆。",
+   "source_chars": 28,
+   "cues": 2,
+   "word_split": []
+  },
+  {
+   "index": "145",
+   "source": "你把能想到的风险都列了出来，却把那些不完整的记录，当成了足够可靠的答案。",
+   "source_chars": 33,
+   "cues": 2,
+   "word_split": []
+  },
+  {
+   "index": "146",
+   "source": "下午你出门补了一次物资，这次走了和上次不同的路线。",
+   "source_chars": 23,
+   "cues": 2,
+   "word_split": []
+  },
+  {
+   "index": "147",
+   "source": "回来时，楼梯转角的丧尸比昨天更多了些，但你没法确定它们是被你的痕迹引来的，还是正在向别处移动。",
+   "source_chars": 43,
+   "cues": 3,
+   "word_split": []
+  },
+  {
+   "index": "148",
+   "source": "潮气越来越重，楼道的墙面已经开始渗水，空气里雾蒙蒙的。",
+   "source_chars": 24,
+   "cues": 2,
+   "word_split": []
+  },
+  {
+   "index": "149",
+   "source": "按经验，后半夜雾就会彻底降下来。",
+   "source_chars": 14,
+   "cues": 1,
+   "word_split": []
+  },
+  {
+   "index": "150",
+   "source": "你收拾好背包，等着天一亮、雾最浓的时候出发。",
+   "source_chars": 19,
+   "cues": 1,
+   "word_split": []
+  },
+  {
+   "index": "151",
+   "source": "为了不浪费体力，你很早就躺下了。",
+   "source_chars": 14,
+   "cues": 1,
+   "word_split": []
+  },
+  {
+   "index": "152",
+   "source": "临睡前，你又检查了一遍背包，来回走了几趟，把东西重新摆放。",
+   "source_chars": 25,
+   "cues": 2,
+   "word_split": []
+  },
+  {
+   "index": "153",
+   "source": "你以为这点活动不算什么，却没留意到门口和走廊里的影子，整晚都没有散开。",
+   "source_chars": 32,
+   "cues": 3,
+   "word_split": []
+  },
+  {
+   "index": "154",
+   "source": "凌晨三点四十，你醒得比闹钟早了几分钟。",
+   "source_chars": 17,
+   "cues": 1,
+   "word_split": []
+  },
+  {
+   "index": "155",
+   "source": "四点出门，走五公里，按上次的速度，应该能在中午前赶到体育馆。",
+   "source_chars": 26,
+   "cues": 2,
+   "word_split": []
+  },
+  {
+   "index": "156",
+   "source": "你没开灯，径直走到玄关，凑向猫眼。",
+   "source_chars": 14,
+   "cues": 1,
+   "word_split": []
+  },
+  {
+   "index": "157",
+   "source": "视野里塞满了灰白色的身影。",
+   "source_chars": 12,
+   "cues": 1,
+   "word_split": []
+  },
+  {
+   "index": "158",
+   "source": "楼道里密密麻麻全是丧尸，从家门口堆到楼梯转角，贴着墙、贴着门板，一动不动，像凝固的黑影。",
+   "source_chars": 38,
+   "cues": 3,
+   "word_split": []
+  },
+  {
+   "index": "159",
+   "source": "你退后半步，没慌，也没意外。",
+   "source_chars": 11,
+   "cues": 1,
+   "word_split": []
+  },
+  {
+   "index": "160",
+   "source": "走到窗边往下看，整栋楼的墙根下全是丧尸，层层叠叠围着这一层，看不到头。",
+   "source_chars": 31,
+   "cues": 2,
+   "word_split": []
+  },
+  {
+   "index": "161",
+   "source": "你翻开笔记本，前几天的数字还歪歪扭扭地记在纸上。",
+   "source_chars": 22,
+   "cues": 2,
+   "word_split": []
+  },
+  {
+   "index": "162",
+   "source": "你把不同位置、不同时间看到的影子当成同一组数据，以为数量只是慢慢增加。",
+   "source_chars": 32,
+   "cues": 3,
+   "word_split": []
+  },
+  {
+   "index": "163",
+   "source": "现在你终于明白，自己根本没看懂它们是怎么变多的。",
+   "source_chars": 22,
+   "cues": 2,
+   "word_split": []
+  },
+  {
+   "index": "164",
+   "source": "差了几个小时。",
+   "source_chars": 6,
+   "cues": 1,
+   "word_split": []
+  },
+  {
+   "index": "165",
+   "source": "雾快来了。",
+   "source_chars": 4,
+   "cues": 1,
+   "word_split": []
+  },
+  {
+   "index": "166",
+   "source": "你放下背包，退到这几天一直擦过的房间中央。",
+   "source_chars": 19,
+   "cues": 1,
+   "word_split": []
+  },
+  {
+   "index": "167",
+   "source": "那里不一定安全，但至少离门远一点。",
+   "source_chars": 15,
+   "cues": 1,
+   "word_split": []
+  },
+  {
+   "index": "168",
+   "source": "门外的黑影还在慢慢变多，安静得像涨起来的潮水。",
+   "source_chars": 21,
+   "cues": 2,
+   "word_split": []
+  },
+  {
+   "index": "169",
+   "source": "窗外渐渐发白，你等着雾落下来。",
+   "source_chars": 13,
+   "cues": 1,
+   "word_split": []
+  },
+  {
+   "index": "170",
+   "source": "第十九天。",
+   "source_chars": 4,
+   "cues": 1,
+   "word_split": []
+  },
+  {
+   "index": "171",
+   "source": "没跑赢。",
+   "source_chars": 3,
+   "cues": 1,
+   "word_split": []
+  }
+ ]
+}

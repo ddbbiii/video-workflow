@@ -67,6 +67,15 @@ __pycache__/
 /.codex-memory/
 /.workbuddy/
 /.cleanup/
+/.acl-recovery/
+/.dsh-acl-recovery/
+/.tmp/
+
+# 本机模型、实验产物与媒体库不进入 Git
+/models/
+/work/
+/音效库/
+/yolo11n-seg.pt
 
 # 图片 API 探测产物（原始响应/出图，体积大且含请求痕迹）
 /shared/image-api/runs/

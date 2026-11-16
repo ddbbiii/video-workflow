@@ -1,0 +1,22 @@
+desaturated graphic-novel panel, mature simplified cel-shaded anime characters, flat color blocks with hard-edged cel shadows, clean ink linework, cold grey-blue palette, one controlled warm practical light, ordinary Chinese urban interior or street, worn and lived-in surfaces, legible horror staging, clear foreground subject and evidence prop, slightly off-center composition, deep focus, layered foreground occlusion in wide shots, volumetric dust in cold window light, 16:9
+2D cel animation key visual, flat unshaded color areas, hard-edged shadow shapes, no gradients on fabric or walls, clean black linework, anime screencap
+Horror cover artwork communicating: a navigation app brought something home.
+An ordinary Chinese apartment entrance late at night, viewed from inside the home toward the open door.
+Exactly ONE real adult Chinese man, 30, short black hair, charcoal commuter jacket, light grey shirt,
+black trousers, worn black shoes. He stands frozen just inside the threshold in three-quarter back view,
+holding a luminous blue smartphone low in his right hand. His face is mostly unseen.
+The main unmistakable abnormal evidence: TWO enormous human silhouettes cast onto the pale grey interior wall,
+although there is only ONE physical man. One normal shadow corresponds to him. The OTHER is a much taller,
+pitch-black human shadow with a tilted head, hunched shoulders and a long arm already reaching into the home,
+its fingers hooked around the inside edge of the doorway, independent of the man's relaxed arm.
+The second silhouette is only a flat cast shadow on the wall, NOT a physical second person, no eyes or face.
+The disconnected shadow dominates the image and extends above the man's head like a silent intruder.
+Old water-stained wall, peeling paint on doorframe, scuffed tiles, slippers at threshold, ordinary inhabited home.
+Very oppressive narrow doorway, heavy dark foreground frame, cold grey-blue ambient tones,
+one small weak warm corridor bulb behind the man. Keep the wall bright enough that both shadow outlines
+read immediately even at thumbnail size. Large stark graphic shadow shapes, restrained red accent on door latch.
+No gore, no ghost woman, no glowing eyes, no additional physical humans, no floating objects,
+no text anywhere, no typography, no logos, no watermark, no collage, no panels.
+The phone screen is blank dark blue; navigation graphics will be added deterministically later.
+VERTICAL 9:16 final canvas overrides the generic aspect-ratio style token. Man in lower-middle, giant shadow visible on wall above and right. Reserve top 24 percent as dark uncluttered wall for title, all key shadow evidence between 28 and 83 percent height.
+Avoid: photograph, photorealistic, 3d render, cgi, live action, film still, cinematic still, 35mm, shallow depth of field, bokeh, motion blur, glossy skin, hyperreal texture, clean new building, spotless, pristine, showroom, symmetrical centered hero shot, chibi, big eyes, text, letters, numbers, labels, watermark, UI, logo, gore, monster, jump-scare face

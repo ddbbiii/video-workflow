@@ -1,0 +1,44 @@
+[
+  {
+    "file": "E:\\program\\1project\\video\\projects\\悬疑\\episodes\\20261115-wumingjiejing\\covers\\导航把谁带回了家-shadow-v1-landscape-1920x1080.png",
+    "dimensions": [
+      1920,
+      1080
+    ],
+    "sha256": "318939f8727c9a43633ef48b071ab497c038c2f3c79c39ebc80bcb04f7abb34c",
+    "source": "shadow-v1-raw/shadow-landscape-v1.png",
+    "text_layers": [
+      "导航把谁",
+      "带回了家"
+    ],
+    "font": "simhei.ttf",
+    "generation": {
+      "channel": "dkl-b",
+      "model": "gpt-image-2.5-sunburst",
+      "policy": "v7-new2-dklb-parallel"
+    },
+    "qa": "Visual review of reduced preview: one physical man, two readable shadows; title accurate and clear; shadow evidence unobstructed. Portrait includes a dark hand at right edge as implied offscreen danger.",
+    "next_step": "User review"
+  },
+  {
+    "file": "E:\\program\\1project\\video\\projects\\悬疑\\episodes\\20261115-wumingjiejing\\covers\\导航把谁带回了家-shadow-v1-portrait-1080x1920.png",
+    "dimensions": [
+      1080,
+      1920
+    ],
+    "sha256": "63883a35686d534e749596a06791102a409d0a4d6fd39836bef30258a52939c8",
+    "source": "shadow-v1-raw/shadow-portrait-v1.png",
+    "text_layers": [
+      "导航把谁",
+      "带回了家"
+    ],
+    "font": "simhei.ttf",
+    "generation": {
+      "channel": "dkl-b",
+      "model": "gpt-image-2.5-sunburst",
+      "policy": "v7-new2-dklb-parallel"
+    },
+    "qa": "Visual review of reduced preview: one physical man, two readable shadows; title accurate and clear; shadow evidence unobstructed. Portrait includes a dark hand at right edge as implied offscreen danger.",
+    "next_step": "User review"
+  }
+]

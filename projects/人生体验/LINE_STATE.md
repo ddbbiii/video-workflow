@@ -9,13 +9,14 @@
 | 文件 | 状态 |
 |---|---|
 | `README.md` | 纯正文口径；已登记镜头配比规则 |
-| `style.md` | **v3.5**：两层画风（人物平涂 / 环境允许渐变材质多光源）+ 去人读图/锚点/负向清单 |
+| `style.md` | **v3.7**：人物画法、环境画法与当前验收口径；详见规则正文 |
 | `character.md` | **v7**：主角 v7 四视图（猫爪赤脚）+ 配角简笔圆头小人 |
-| `color-script.md` | **v1.4**：色相按章统计（章均 ≥3、不许整片单色、可 muted），R/B ≤1.15 |
+| `color-script.md` | **v1.5**：量化数据用于诊断，不作为单镜审美停机门禁；颜色与光按章/镜头规划 |
 | `../shared/shot-composition.md` | E/M/C 22/53/25，门禁 `check_shot_mix.py` |
 
 ## 现有单集
 
+- `episodes/20261115-henshi/`《痕尸末世十九天》：2026-11-15已完成，172镜/14:09.5，QA全PASS；正文 `video/final/人生体验_痕尸末世十九天_正文_v2.mp4`，独立字幕 `video/srt/人生体验_痕尸末世十九天_正文_v2.srt`（估算时间轴）。
 - `episodes/20261114-sanzhong/`（EP03「你第三次重复就死了」）：**无成片**，数据与工具保留，待重出。
 - `episodes/20261113-tumu/`：`video/final/人生体验_奖励自己一个土木工程_成片_v5.mp4` + `video/srt/…_成片_v5.srt`；`video/archive/`、`video/intro-v*.mp4`、`subtitles/r*` 为历史产物，保持原样。
 - EP01 `20261110-biye/` 目录已丢失，只在旧记录里存在，不再维护。

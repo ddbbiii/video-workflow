@@ -1,0 +1,19 @@
+{
+  "shot": "shadow-landscape-v1",
+  "channel": "dkl-b",
+  "attempt": 1,
+  "endpoint": "generations",
+  "prompt": "desaturated graphic-novel panel, mature simplified cel-shaded anime characters, flat color blocks with hard-edged cel shadows, clean ink linework, cold grey-blue palette, one controlled warm practical light, ordinary Chinese urban interior or street, worn and lived-in surfaces, legible horror staging, clear foreground subject and evidence prop, slightly off-center composition, deep focus, layered foreground occlusion in wide shots, volumetric dust in cold window light, 16:9\n2D cel animation key visual, flat unshaded color areas, hard-edged shadow shapes, no gradients on fabric or walls, clean black linework, anime screencap\nHorror cover artwork communicating: a navigation app brought something home.\nAn ordinary Chinese apartment entrance late at night, viewed from inside the home toward the open door.\nExactly ONE real adult Chinese man, 30, short black hair, charcoal commuter jacket, light grey shirt,\nblack trousers, worn black shoes. He stands frozen just inside the threshold in three-quarter back view,\nholding a luminous blue smartphone low in his right hand. His face is mostly unseen.\nThe main unmistakable abnormal evidence: TWO enormous human silhouettes cast onto the pale grey interior wall,\nalthough there is only ONE physical man. One normal shadow corresponds to him. The OTHER is a much taller,\npitch-black human shadow with a tilted head, hunched shoulders and a long arm already reaching into the home,\nits fingers hooked around the inside edge of the doorway, independent of the man's relaxed arm.\nThe second silhouette is only a flat cast shadow on the wall, NOT a physical second person, no eyes or face.\nThe disconnected shadow dominates the image and extends above the man's head like a silent intruder.\nOld water-stained wall, peeling paint on doorframe, scuffed tiles, slippers at threshold, ordinary inhabited home.\nVery oppressive narrow doorway, heavy dark foreground frame, cold grey-blue ambient tones,\none small weak warm corridor bulb behind the man. Keep the wall bright enough that both shadow outlines\nread immediately even at thumbnail size. Large stark graphic shadow shapes, restrained red accent on door latch.\nNo gore, no ghost woman, no glowing eyes, no additional physical humans, no floating objects,\nno text anywhere, no typography, no logos, no watermark, no collage, no panels.\nThe phone screen is blank dark blue; navigation graphics will be added deterministically later.\nWIDE 16:9 poster. Man on right third, giant abnormal shadow on right half. Reserve left 40 percent as dark empty wall for title; preserve complete head, hand and shadow on right.\nAvoid: photograph, photorealistic, 3d render, cgi, live action, film still, cinematic still, 35mm, shallow depth of field, bokeh, motion blur, glossy skin, hyperreal texture, clean new building, spotless, pristine, showroom, symmetrical centered hero shot, chibi, big eyes, text, letters, numbers, labels, watermark, UI, logo, gore, monster, jump-scare face",
+  "request_size": "2048x1152",
+  "price_cny": 0.018,
+  "http_status": 200,
+  "elapsed_s": 37.7,
+  "delivery": "url",
+  "dims": [
+    2048,
+    1152
+  ],
+  "sha256": "f599cd361c1cc6daa6cc081fb235103246cc36fbf5cba768a5011fff08054e93",
+  "ok": true,
+  "file": "shadow-v1-raw/shadow-landscape-v1.png"
+}

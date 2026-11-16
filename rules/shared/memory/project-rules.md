@@ -25,3 +25,7 @@
 
 - 旧规则（片头、TTS、字幕烧录、成品库）与旧工具链已移入 `E:\program\1project\video-archive\20261114-body-only\`；默认不读，用户点名才恢复。
 - 真源：`rules/shared/video-workflow.md`、`rules/shared/delivery.md`、`rules/shared/srt.md`。
+
+## 用户单独要求封面时（2026-11-15）
+
+- 只出横版 16:9 无字图，不加标题、钩子、账号、集数、水印，不自动出竖版。旧封面排字和横竖双版规则已删除。以画面表达主题；有合格无字底图直接复用。

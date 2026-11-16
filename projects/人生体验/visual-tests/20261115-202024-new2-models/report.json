@@ -1,0 +1,132 @@
+{
+  "size_requested": "1672x941",
+  "reference": "E:\\program\\1project\\video\\projects\\人生体验\\episodes\\20261113-tumu\\image\\refs\\cat-face-crop.png",
+  "results": [
+    {
+      "model": "AZ-gpt-image-2.5-sunburst",
+      "shot": "S01-character",
+      "status": 200,
+      "elapsed_s": 90.9,
+      "ok": true,
+      "file": "E:\\program\\1project\\video\\projects\\人生体验\\visual-tests\\20261115-202024-new2-models\\raw\\sunburst-S01-character.png",
+      "dims": [
+        1672,
+        941
+      ],
+      "bytes": 2496949,
+      "delivery": "b64_json"
+    },
+    {
+      "model": "AZ-gpt-image-2",
+      "shot": "S01-character",
+      "status": 200,
+      "elapsed_s": 65.9,
+      "ok": true,
+      "file": "E:\\program\\1project\\video\\projects\\人生体验\\visual-tests\\20261115-202024-new2-models\\raw\\image-2-S01-character.png",
+      "dims": [
+        1672,
+        941
+      ],
+      "bytes": 2318939,
+      "delivery": "b64_json"
+    },
+    {
+      "model": "AZ-gpt-image-2.5-flare",
+      "shot": "S01-character",
+      "status": 200,
+      "elapsed_s": 39.1,
+      "ok": true,
+      "file": "E:\\program\\1project\\video\\projects\\人生体验\\visual-tests\\20261115-202024-new2-models\\raw\\flare-S01-character.png",
+      "dims": [
+        1672,
+        941
+      ],
+      "bytes": 2390654,
+      "delivery": "b64_json"
+    },
+    {
+      "model": "AZ-gpt-image-2.5-sunburst",
+      "shot": "S21-action",
+      "status": 200,
+      "elapsed_s": 38.6,
+      "ok": true,
+      "file": "E:\\program\\1project\\video\\projects\\人生体验\\visual-tests\\20261115-202024-new2-models\\raw\\sunburst-S21-action.png",
+      "dims": [
+        1672,
+        941
+      ],
+      "bytes": 2366110,
+      "delivery": "b64_json"
+    },
+    {
+      "model": "AZ-gpt-image-2",
+      "shot": "S21-action",
+      "status": 200,
+      "elapsed_s": 40.2,
+      "ok": true,
+      "file": "E:\\program\\1project\\video\\projects\\人生体验\\visual-tests\\20261115-202024-new2-models\\raw\\image-2-S21-action.png",
+      "dims": [
+        1672,
+        941
+      ],
+      "bytes": 2131706,
+      "delivery": "b64_json"
+    },
+    {
+      "model": "AZ-gpt-image-2.5-flare",
+      "shot": "S21-action",
+      "status": 200,
+      "elapsed_s": 39.0,
+      "ok": true,
+      "file": "E:\\program\\1project\\video\\projects\\人生体验\\visual-tests\\20261115-202024-new2-models\\raw\\flare-S21-action.png",
+      "dims": [
+        1672,
+        941
+      ],
+      "bytes": 2457980,
+      "delivery": "b64_json"
+    },
+    {
+      "model": "AZ-gpt-image-2.5-sunburst",
+      "shot": "S51-detail",
+      "status": 200,
+      "elapsed_s": 44.4,
+      "ok": true,
+      "file": "E:\\program\\1project\\video\\projects\\人生体验\\visual-tests\\20261115-202024-new2-models\\raw\\sunburst-S51-detail.png",
+      "dims": [
+        1672,
+        941
+      ],
+      "bytes": 2645197,
+      "delivery": "b64_json"
+    },
+    {
+      "model": "AZ-gpt-image-2",
+      "shot": "S51-detail",
+      "status": 200,
+      "elapsed_s": 39.1,
+      "ok": true,
+      "file": "E:\\program\\1project\\video\\projects\\人生体验\\visual-tests\\20261115-202024-new2-models\\raw\\image-2-S51-detail.png",
+      "dims": [
+        1672,
+        941
+      ],
+      "bytes": 2784630,
+      "delivery": "b64_json"
+    },
+    {
+      "model": "AZ-gpt-image-2.5-flare",
+      "shot": "S51-detail",
+      "status": 200,
+      "elapsed_s": 43.6,
+      "ok": true,
+      "file": "E:\\program\\1project\\video\\projects\\人生体验\\visual-tests\\20261115-202024-new2-models\\raw\\flare-S51-detail.png",
+      "dims": [
+        1672,
+        941
+      ],
+      "bytes": 2881202,
+      "delivery": "b64_json"
+    }
+  ]
+}

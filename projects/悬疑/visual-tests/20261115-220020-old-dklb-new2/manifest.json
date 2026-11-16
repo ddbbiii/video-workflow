@@ -1,0 +1,357 @@
+{
+  "run": "20261115-220020-old-dklb-new2",
+  "style_pos": "desaturated graphic-novel panel, mature simplified cel-shaded anime characters, flat color blocks with hard-edged cel shadows, clean ink linework, cold grey-blue palette, one controlled warm practical light, ordinary Chinese urban interior or street, worn and lived-in surfaces, legible horror staging, clear foreground subject and evidence prop, slightly off-center composition, deep focus, layered foreground occlusion in wide shots, volumetric dust in cold window light, 16:9",
+  "style_neg": "photograph, photorealistic, 3d render, cgi, live action, film still, cinematic still, 35mm, shallow depth of field, bokeh, motion blur, glossy skin, hyperreal texture, clean new building, spotless, pristine, showroom, symmetrical centered hero shot, chibi, big eyes, text, letters, numbers, labels, watermark, UI, logo, gore, monster, jump-scare face",
+  "cel_boost": "2D cel animation key visual, flat unshaded color areas, hard-edged shadow shapes, no gradients on fabric or walls, clean black linework, anime screencap",
+  "shots": [
+    {
+      "tag": "S1-corridor",
+      "name": "empty corridor",
+      "cel": false,
+      "body": "Dim fourth-floor corridor of an old six-storey Chinese apartment building. Camera at the stair landing looking down the corridor, 24mm deep focus, slightly off-center; rusted door frame presses the left foreground. Peeling green paint along the skirting, a dark water stain below the far window, yellowed plastic stool and drying rack with two dark shirts in the middle ground, swollen repainted window at the far end. Cold grey dusk window light; one narrow warm light leaks under a closed door. No people, no readable text."
+    },
+    {
+      "tag": "S2-investigator",
+      "name": "investigator and junction box",
+      "cel": true,
+      "body": "Medium-long shot from behind of a lean Chinese male investigator in his late thirties, short black hair, dark work jacket and grey trousers, standing beside an open beige metal electrical junction box. His right hand holds a small flashlight directed at the box; five fingers readable. Camera outside the doorway at eye level, 24mm deep focus, investigator on the right third; chipped door frame occludes the left foreground. Peeling paint, rust on the box hinge, taped repair on the wall, coiled extension cord on the floor. Cold corridor light with one weak warm practical light. Face not visible; no readable text."
+    },
+    {
+      "tag": "S3-latch",
+      "name": "damaged latch evidence close-up",
+      "cel": true,
+      "body": "Close evidence view of a beige metal junction box latch: steel plate bent outward and torn, hinge buckled, rust and chipped enamel clearly visible, dust on the rim. Camera just left of the box, slightly above, deep focus; latch fills at least one third of the image and sits off-center. A scuffed painted wall and a strip of old repair tape remain visible around it. Cold raking light from the right, one subtle warm reflection only. No hands, no labels, no text."
+    },
+    {
+      "tag": "S4-anomaly",
+      "name": "spatial anomaly",
+      "cel": false,
+      "body": "Wide view from a half-open apartment doorway into a worn ordinary Chinese living room. A wall calendar hangs beside a water-stained doorframe; a plastic stool and slippers sit in the foreground. In the deep background, the open doorway appears to lead back into the same living room from an impossible angle, while all furniture remains ordinary and undamaged. Keep the anomaly legible but subtle, no supernatural figure. Peeling wallpaper, scuffed floor tiles, taped crack repair. Camera outside the door, 24mm deep focus, door edge occludes the left third. Cold grey-blue light, one warm table lamp. Calendar has no legible marks or text."
+    }
+  ],
+  "results": [
+    {
+      "channel": "old",
+      "model": "gpt-image-2.5-sunburst",
+      "shot": "S1-corridor",
+      "started_at": "2026-11-15T22:00:20+08:00",
+      "http_status": 200,
+      "elapsed_s": 128.7,
+      "requested_size": "2048x1152",
+      "price_estimate_cny": 0.16,
+      "price_basis": "仓库记录的单张价",
+      "ok": true,
+      "file": "E:\\program\\1project\\video\\projects\\悬疑\\visual-tests\\20261115-220020-old-dklb-new2\\raw\\old-S1-corridor.png",
+      "dims": [
+        2048,
+        1152
+      ],
+      "bytes": 2976340,
+      "delivery": "b64_json",
+      "usage": {
+        "prompt_tokens": 341,
+        "completion_tokens": 947,
+        "total_tokens": 1288,
+        "input_tokens": 341,
+        "output_tokens": 947,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 341
+        },
+        "output_tokens_details": {
+          "image_tokens": 947,
+          "text_tokens": 0
+        }
+      }
+    },
+    {
+      "channel": "dkl-b",
+      "model": "gpt-image-2.5-sunburst",
+      "shot": "S1-corridor",
+      "started_at": "2026-11-15T22:00:20+08:00",
+      "http_status": 200,
+      "elapsed_s": 24.7,
+      "requested_size": "2048x1152",
+      "price_estimate_cny": 0.018,
+      "price_basis": "用户确认的单张价",
+      "ok": true,
+      "file": "E:\\program\\1project\\video\\projects\\悬疑\\visual-tests\\20261115-220020-old-dklb-new2\\raw\\dkl-b-S1-corridor.png",
+      "dims": [
+        2048,
+        1152
+      ],
+      "bytes": 2311943,
+      "delivery": "url",
+      "usage": null
+    },
+    {
+      "channel": "new2-image-2",
+      "model": "AZ-gpt-image-2",
+      "shot": "S1-corridor",
+      "started_at": "2026-11-15T22:00:20+08:00",
+      "http_status": 200,
+      "elapsed_s": 59.2,
+      "requested_size": "1672x941",
+      "price_estimate_cny": 0.0193,
+      "price_basis": "用户刚核对的 AZ-gpt-image-2 三张账单均价",
+      "ok": true,
+      "file": "E:\\program\\1project\\video\\projects\\悬疑\\visual-tests\\20261115-220020-old-dklb-new2\\raw\\new2-image-2-S1-corridor.png",
+      "dims": [
+        1672,
+        941
+      ],
+      "bytes": 1988958,
+      "delivery": "b64_json",
+      "usage": {
+        "input_tokens": 295,
+        "output_tokens": 1640,
+        "total_tokens": 1935,
+        "input_tokens_details": {
+          "text_tokens": 295
+        }
+      }
+    },
+    {
+      "channel": "old",
+      "model": "gpt-image-2.5-sunburst",
+      "shot": "S2-investigator",
+      "started_at": "2026-11-15T22:02:29+08:00",
+      "http_status": 200,
+      "elapsed_s": 36.2,
+      "requested_size": "2048x1152",
+      "price_estimate_cny": 0.16,
+      "price_basis": "仓库记录的单张价",
+      "ok": true,
+      "file": "E:\\program\\1project\\video\\projects\\悬疑\\visual-tests\\20261115-220020-old-dklb-new2\\raw\\old-S2-investigator.png",
+      "dims": [
+        2048,
+        1152
+      ],
+      "bytes": 2742306,
+      "delivery": "url",
+      "usage": {
+        "prompt_tokens": 403,
+        "completion_tokens": 1013,
+        "total_tokens": 1416,
+        "input_tokens": 403,
+        "output_tokens": 1013,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 403
+        },
+        "output_tokens_details": {
+          "image_tokens": 1013,
+          "text_tokens": 0
+        }
+      }
+    },
+    {
+      "channel": "dkl-b",
+      "model": "gpt-image-2.5-sunburst",
+      "shot": "S2-investigator",
+      "started_at": "2026-11-15T22:02:29+08:00",
+      "http_status": 200,
+      "elapsed_s": 27.7,
+      "requested_size": "2048x1152",
+      "price_estimate_cny": 0.018,
+      "price_basis": "用户确认的单张价",
+      "ok": true,
+      "file": "E:\\program\\1project\\video\\projects\\悬疑\\visual-tests\\20261115-220020-old-dklb-new2\\raw\\dkl-b-S2-investigator.png",
+      "dims": [
+        2048,
+        1152
+      ],
+      "bytes": 2087855,
+      "delivery": "url",
+      "usage": null
+    },
+    {
+      "channel": "new2-image-2",
+      "model": "AZ-gpt-image-2",
+      "shot": "S2-investigator",
+      "started_at": "2026-11-15T22:02:29+08:00",
+      "http_status": 200,
+      "elapsed_s": 54.3,
+      "requested_size": "1672x941",
+      "price_estimate_cny": 0.0193,
+      "price_basis": "用户刚核对的 AZ-gpt-image-2 三张账单均价",
+      "ok": true,
+      "file": "E:\\program\\1project\\video\\projects\\悬疑\\visual-tests\\20261115-220020-old-dklb-new2\\raw\\new2-image-2-S2-investigator.png",
+      "dims": [
+        1672,
+        941
+      ],
+      "bytes": 1817224,
+      "delivery": "b64_json",
+      "usage": {
+        "input_tokens": 349,
+        "output_tokens": 1640,
+        "total_tokens": 1989,
+        "input_tokens_details": {
+          "text_tokens": 349
+        }
+      }
+    },
+    {
+      "channel": "old",
+      "model": "gpt-image-2.5-sunburst",
+      "shot": "S3-latch",
+      "started_at": "2026-11-15T22:03:56+08:00",
+      "http_status": 200,
+      "elapsed_s": 36.8,
+      "requested_size": "2048x1152",
+      "price_estimate_cny": 0.16,
+      "price_basis": "仓库记录的单张价",
+      "ok": true,
+      "file": "E:\\program\\1project\\video\\projects\\悬疑\\visual-tests\\20261115-220020-old-dklb-new2\\raw\\old-S3-latch.png",
+      "dims": [
+        2048,
+        1152
+      ],
+      "bytes": 2916257,
+      "delivery": "b64_json",
+      "usage": {
+        "prompt_tokens": 364,
+        "completion_tokens": 1090,
+        "total_tokens": 1454,
+        "input_tokens": 364,
+        "output_tokens": 1090,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 364
+        },
+        "output_tokens_details": {
+          "image_tokens": 1090,
+          "text_tokens": 0
+        }
+      }
+    },
+    {
+      "channel": "dkl-b",
+      "model": "gpt-image-2.5-sunburst",
+      "shot": "S3-latch",
+      "started_at": "2026-11-15T22:03:56+08:00",
+      "http_status": 200,
+      "elapsed_s": 33.8,
+      "requested_size": "2048x1152",
+      "price_estimate_cny": 0.018,
+      "price_basis": "用户确认的单张价",
+      "ok": true,
+      "file": "E:\\program\\1project\\video\\projects\\悬疑\\visual-tests\\20261115-220020-old-dklb-new2\\raw\\dkl-b-S3-latch.png",
+      "dims": [
+        2048,
+        1152
+      ],
+      "bytes": 1987799,
+      "delivery": "url",
+      "usage": null
+    },
+    {
+      "channel": "new2-image-2",
+      "model": "AZ-gpt-image-2",
+      "shot": "S3-latch",
+      "started_at": "2026-11-15T22:03:56+08:00",
+      "http_status": 502,
+      "elapsed_s": 32.1,
+      "requested_size": "1672x941",
+      "price_estimate_cny": 0.0193,
+      "price_basis": "用户刚核对的 AZ-gpt-image-2 三张账单均价",
+      "ok": false,
+      "error": "{\"error\":{\"message\":\"openai_error\",\"type\":\"bad_response_status_code\",\"param\":\"\",\"code\":\"bad_response_status_code\"}}"
+    },
+    {
+      "channel": "new2-image-2",
+      "model": "AZ-gpt-image-2",
+      "shot": "S3-latch",
+      "started_at": "2026-11-15T22:07:45+08:00",
+      "http_status": 502,
+      "elapsed_s": 34.3,
+      "requested_size": "1672x941",
+      "price_estimate_cny": 0.0193,
+      "price_basis": "用户刚核对的 AZ-gpt-image-2 三张账单均价",
+      "ok": false,
+      "error": "{\"error\":{\"message\":\"openai_error\",\"type\":\"bad_response_status_code\",\"param\":\"\",\"code\":\"bad_response_status_code\"}}"
+    },
+    {
+      "channel": "old",
+      "model": "gpt-image-2.5-sunburst",
+      "shot": "S4-anomaly",
+      "started_at": "2026-11-15T22:04:33+08:00",
+      "http_status": 200,
+      "elapsed_s": 33.1,
+      "requested_size": "2048x1152",
+      "price_estimate_cny": 0.16,
+      "price_basis": "仓库记录的单张价",
+      "ok": true,
+      "file": "E:\\program\\1project\\video\\projects\\悬疑\\visual-tests\\20261115-220020-old-dklb-new2\\raw\\old-S4-anomaly.png",
+      "dims": [
+        2048,
+        1152
+      ],
+      "bytes": 2705528,
+      "delivery": "url",
+      "usage": {
+        "prompt_tokens": 370,
+        "completion_tokens": 961,
+        "total_tokens": 1331,
+        "input_tokens": 370,
+        "output_tokens": 961,
+        "input_tokens_details": {
+          "image_tokens": 0,
+          "text_tokens": 370
+        },
+        "output_tokens_details": {
+          "image_tokens": 961,
+          "text_tokens": 0
+        }
+      }
+    },
+    {
+      "channel": "dkl-b",
+      "model": "gpt-image-2.5-sunburst",
+      "shot": "S4-anomaly",
+      "started_at": "2026-11-15T22:04:33+08:00",
+      "http_status": 200,
+      "elapsed_s": 27.9,
+      "requested_size": "2048x1152",
+      "price_estimate_cny": 0.018,
+      "price_basis": "用户确认的单张价",
+      "ok": true,
+      "file": "E:\\program\\1project\\video\\projects\\悬疑\\visual-tests\\20261115-220020-old-dklb-new2\\raw\\dkl-b-S4-anomaly.png",
+      "dims": [
+        2048,
+        1152
+      ],
+      "bytes": 2329444,
+      "delivery": "url",
+      "usage": null
+    },
+    {
+      "channel": "new2-image-2",
+      "model": "AZ-gpt-image-2",
+      "shot": "S4-anomaly",
+      "started_at": "2026-11-15T22:04:33+08:00",
+      "http_status": 200,
+      "elapsed_s": 56.5,
+      "requested_size": "1672x941",
+      "price_estimate_cny": 0.0193,
+      "price_basis": "用户刚核对的 AZ-gpt-image-2 三张账单均价",
+      "ok": true,
+      "file": "E:\\program\\1project\\video\\projects\\悬疑\\visual-tests\\20261115-220020-old-dklb-new2\\raw\\new2-image-2-S4-anomaly.png",
+      "dims": [
+        1672,
+        941
+      ],
+      "bytes": 2025855,
+      "delivery": "b64_json",
+      "usage": {
+        "input_tokens": 318,
+        "output_tokens": 1640,
+        "total_tokens": 1958,
+        "input_tokens_details": {
+          "text_tokens": 318
+        }
+      }
+    }
+  ]
+}

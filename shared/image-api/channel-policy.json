@@ -1,8 +1,8 @@
 {
   "schema": "image-channel-policy/1",
-  "version": "v7-new2-dklb-parallel",
+  "version": "v8-new2-dklb-parallel",
   "updated": "2026-11-15",
-  "active": "v7-new2-dklb-parallel",
+  "active": "v8-new2-dklb-parallel",
   "source_of_truth": "本文件是通道路由的唯一事实源；规则文档只写原则，具体阈值与启停以这里为准",
   "channels": {
     "old": {
@@ -17,8 +17,9 @@
         "证据可读性",
         "2048 原生"
       ],
-      "note": "2026-11-12 对比：真 2048 原生渲染，质量上限；单价高，仅质量救援/回滚用",
-      "status": "legacy-key"
+      "note": "2026-11-15 同提示词 4 镜对照：只在 1 张撕裂门闩证据特写优于 dkl-b（18 vs 16），其余无普遍提升；成本约为 dkl-b 的 8.9 倍。通道已退役，保留定义仅供历史审计，不再调用。",
+      "status": "retired-2026-11-15",
+      "retired_note": "用户依据 2026-11-15 old/dkl-b/new2 对照决定退役；报告 projects/悬疑/visual-tests/20261115-220020-old-dklb-new2/ASSESSMENT.md"
     },
     "dkl-b": {
       "base_url": "https://dklapi.com/v1",
@@ -807,10 +808,59 @@
     "v7-new2-dklb-parallel": {
       "since": "2026-11-15",
       "reason": "用户 2026-11-15：new2 与 dkl-b 并发同时生图，提高总体并发",
+      "enabled_channels": ["new2", "dkl-b", "old"],
+      "disabled_channels": ["dkl2", "new1", "yy"],
+      "default_channel": "parallel",
+      "parallel_channels": ["new2", "dkl-b"],
+      "dispatch": {
+        "mode": "round_robin",
+        "unit": "shot_or_image_request",
+        "balance": "尽量均分待生成镜头；同一镜头的重试沿用原通道，只有通道失败/耗尽时才转移该镜头",
+        "same_episode_mixed_channels": true,
+        "same_request_single_channel": true,
+        "max_in_flight_per_channel": 1,
+        "target_total_in_flight": 2
+      },
+      "auto_fallback": ["new2", "dkl-b"],
+      "manual_only": ["old"],
+      "primary_size": "1672x941",
+      "routes": [
+        {"step": "*", "channel": "parallel", "channels": ["new2", "dkl-b"], "dispatch": "round_robin",
+         "note": "镜头级交替均衡派单，两通道同时运行；单次网格请求不可拆分，固定分配到一个通道"},
+        {"step": "fallback", "channel": "other_parallel_channel",
+         "note": "单镜通道连续重试失败或通道额度耗尽时，仅将失败镜头转交另一可用通道；不重跑已完成镜头"},
+        {"step": "rescue", "channel": "old", "note": "只在质量不理想、或用户明确要求画质时手工指定，不进自动链"}
+      ],
+      "gates": {
+        "size_assert": {"new2": "1672x941", "dkl-b": "2048x1152", "old": "2048x1152"},
+        "reject_if_std_lum_lt": 18,
+        "reject_if_native_lap_var_lt": 60,
+        "reject_if_delivery_lap_var_lt": 15,
+        "unified_lut": true
+      },
+      "retry": {"same_channel_max": 2, "transient_codes": [429, 500, 502, 503, 504],
+        "then": "other_parallel_channel", "record_fallback": true},
+      "depletion": {
+        "signal_error_code": "insufficient_user_quota", "http_status": 403,
+        "action": "drain_remaining_work_to_other_parallel_channel", "fallback": true, "notify_user": true,
+        "stop_file": "STOP-new2-depleted.json",
+        "note": "任一通道耗尽则将未完成镜头交给另一可用通道；两者均不可用时中断剩余任务并告知，不静默转 old（old 单价 8–10 倍）"
+      },
+      "cost_note": "new2 与 dkl-b 同为 0.018 元/张（dkl-b 2048×1152，new2 1672×941）；99 张全量约 ¥1.8；old 0.16 元/张，只做质量救援",
+      "style_fit_gate": {
+        "since": "2026-11-14",
+        "reason": "EP03 v3 实测：dkl-b 2048 原生会补柔和明暗，平涂题材被拉向写实；通道选择不能只看价格与可用性",
+        "pilot_shots": 6,
+        "criteria": ["参考图与成图均无喷枪过渡、无柔光边", "每个部位 ≤3 平色", "人物镜 1:1 目检无 3D 感"],
+        "on_fail": "先修参考图或换通道；不达标不进全量"
+      }
+    },
+    "v8-new2-dklb-parallel": {
+      "since": "2026-11-15",
+      "reason": "2026-11-15：延续 new2 与 dkl-b 镜头级并发；依据同提示词对照将 old 退役",
       "enabled_channels": [
         "new2",
-        "dkl-b",
-        "old"
+        "dkl-b"
       ],
       "disabled_channels": [
         "dkl2",
@@ -835,9 +885,7 @@
         "new2",
         "dkl-b"
       ],
-      "manual_only": [
-        "old"
-      ],
+      "manual_only": [],
       "primary_size": "1672x941",
       "routes": [
         {
@@ -854,15 +902,14 @@
         },
         {
           "step": "rescue",
-          "channel": "old",
-          "note": "只在质量不理想、或用户明确要求画质时手工指定，不进自动链"
+          "channel": null,
+          "note": "old 已退役；质量不达标时先重抽或转另一可用通道，不调用旧 key"
         }
       ],
       "gates": {
         "size_assert": {
           "new2": "1672x941",
-          "dkl-b": "2048x1152",
-          "old": "2048x1152"
+          "dkl-b": "2048x1152"
         },
         "reject_if_std_lum_lt": 18,
         "reject_if_native_lap_var_lt": 60,
@@ -890,7 +937,8 @@
         "stop_file": "STOP-new2-depleted.json",
         "note": "任一通道耗尽则将未完成镜头交给另一通道；两者均不可用时中断剩余任务并告知，不静默转 old（old 单价 8–10 倍）"
       },
-      "cost_note": "new2 与 dkl-b 同为 0.018 元/张（dkl-b 2048×1152，new2 1672×941）：99 张全量约 ¥1.8；old 0.16 元/张，只做质量救援",
+      "cost_note": "new2 与 dkl-b 镜头级轮询并发（dkl-b 2048×1152，new2 输出 1672×941）；old 0.16 元/张，已退役，不进入生产路由",
+      "supersedes": "v7-new2-dklb-parallel",
       "style_fit_gate": {
         "since": "2026-11-14",
         "reason": "EP03 v3 实测：dkl-b 2048 原生会补柔和明暗，平涂题材被拉向写实；通道选择不能只看价格与可用性",
@@ -905,6 +953,12 @@
     }
   },
   "change_log": [
+    {
+      "at": "2026-11-15",
+      "by": "user",
+      "change": "依据 old / dkl-b / new2 同提示词悬疑对照，将 old 标记退役并从 v7 当前可用通道及救援路由移除；保留 dkl-b 与 new2",
+      "evidence": "projects/悬疑/visual-tests/20261115-220020-old-dklb-new2/ASSESSMENT.md；old 相对 dkl-b 仅 S3 高 2 分，4 镜均分低 0.5 分，单张约贵 8.9 倍"
+    },
     {
       "at": "2026-11-15",
       "by": "user",

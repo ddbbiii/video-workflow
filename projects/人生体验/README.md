@@ -1,7 +1,7 @@
 # 人生体验 · 项目入口
 
 - 状态与进度：[LINE_STATE.md](LINE_STATE.md)。
-- 定位：把"另一种人生"压成一条片子，第二人称"你"从头过一遍；16:9 横版。
+- 定位：把"另一种人生"压成一条片子，用第二人称“你”从头过一遍；16:9 横版。
 - 规则：[线路规则](../../rules/人生体验/README.md)（画风 `style.md`、主角 `character.md`）；流程 [video-workflow](../../rules/shared/video-workflow.md)、[delivery](../../rules/shared/delivery.md)、[srt](../../rules/shared/srt.md)。
 
 ## 现有单集

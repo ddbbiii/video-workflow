@@ -1,0 +1,23 @@
+[
+  {
+    "shots": [
+      "S023"
+    ],
+    "text": "你隔着猫眼观察了很久，发现楼道里有一个人穿着隔壁老刘常穿的蓝色外套。",
+    "error": "clause >20 chars (or wider than 0 px) without a legal breakpoint: '发现楼道里有一个人穿着隔壁老刘常穿的蓝色外套' (add punctuation, revise the script, or pass --allow-word-split)"
+  },
+  {
+    "shots": [
+      "S065"
+    ],
+    "text": "你不确定它们是不是顺着空气里的气味找过来的，但你不敢继续赌。",
+    "error": "clause >20 chars (or wider than 0 px) without a legal breakpoint: '你不确定它们是不是顺着空气里的气味找过来的' (add punctuation, revise the script, or pass --allow-word-split)"
+  },
+  {
+    "shots": [
+      "S131"
+    ],
+    "text": "你没法确认广播是不是最新的，只把城郊体育馆当成唯一有明确方向的逃生目标——五公里路程，沿途多是老居民区，比主干道更容易避开空旷地带。",
+    "error": "clause >20 chars (or wider than 0 px) without a legal breakpoint: '只把城郊体育馆当成唯一有明确方向的逃生目标' (add punctuation, revise the script, or pass --allow-word-split)"
+  }
+]
