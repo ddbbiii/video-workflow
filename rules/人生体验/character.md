@@ -36,7 +36,7 @@
 
 ## 四、定装资产
 
-当前主角定装统一位于 `assets/人生体验/characters/catman-20261113/character-reference/`：`turnaround.png` 为选定的轻微面部加强三视图，`face-style-D.png` 为画风基准，`expressions/` 为 24 张单档表情，`identity-source-original.png` 与 `ref-face.png` 用于身份核对。后续只维护这一套正式素材；细则见 `references.md`。
+当前主角定装统一位于 `assets/人生体验/characters/catman-20261113/character-reference/`：`turnaround.png` 为正式三视图，`face-style-D.png` 为画风基准，`expressions/` 为 24 张单档表情，`identity-source-original.png` 与 `ref-face.png` 用于身份核对。后续只维护这一套正式素材；细则见 `references.md`。
 
 **参考图口径见 `references.md`（唯一真源）**。`ref-look-user-20261113.png` 只作为目标观感供人工查看，不送入生图。
 

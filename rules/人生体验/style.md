@@ -152,8 +152,8 @@ No text, letters, numbers, subtitles, watermark, logo, UI, comic symbols or soun
 ## 六、生图约定
 
 - 生图原始尺寸与通道按 `shared/image-api/channel-policy.json` 当前 active 策略；进入本线视频时间线的静帧统一验收为 1920×1080，并在 sidecar 中记录原始尺寸与归一化方式。
-- **脸/表情参考**：一律使用 `image/refs/ref-face.png`（唯一脸部参考，1024²，由用户那只猫裁出）；表情靠提示词写（只动眼皮/瞳孔/嘴角），**不发任何表情拼图**。
-- **站姿/全身参考**：需要 v8 四视图（猫爪、赤脚、平涂），**v8 未出前站姿/全身镜不得开跑**；配角镜附 `ref-helper-a/b/c.png` 对应定装。参考组合与全部源图记进 sidecar；缺图即停。
+- **脸/表情参考**：使用角色正式包 `character-reference/face-style-D.png` 与所需单档 `expressions/<情绪>.png`；**不发任何表情拼图**。
+- **站姿/全身参考**：使用角色正式包 `turnaround.png` 中对应的正面、侧面或背面视图；配角镜附 `ref-helper-a/b/c.png` 对应定装。参考组合与全部源图记进 sidecar；缺图即停。
 - **每镜提示词** = 风格块（§四，无色名）+ 场景事实卡 + 「色彩与光线」行 + 对应角色/角度/表情参考说明 + 道具归属 + 负面。以实际发送给 API 的完整 prompt 验收，不以模板存在代替。
 - **分层生成**：`cast=none` 且 cue/fact 确认无人时一遍出图，使用 rich 环境和明确无人约束；`cast` 含角色时走两遍——先生成无人环境底图，再以「场景｜全部角色参考」合成单幅画面。无人镜不得残留任何角色专用描述。具体预检与停机条件见 `still-production.md`。
 
@@ -164,7 +164,7 @@ No text, letters, numbers, subtitles, watermark, logo, UI, comic symbols or soun
 - [ ] 每部位 ≤3 个平色，**没有喷枪式过渡**（脸颊、鼻梁、衣服褶皱上不能出现平滑灰阶）；
 - [ ] 没有柔光边、没有 AO、没有环境光漫射；
 - [ ] 线宽一致、没有粗细变化；
-- [ ] 与 `ref-face.png` 并排看是同一张脸。
+- [ ] 与正式包 `character-reference/ref-face.png` 并排看是同一张脸。
 
 任何一条不过 → 先修参考图，再谈批量。2026-11-14 EP03 v3 就是标准脸带柔光，导致全片偏"3D 渲染"。
 - 「色彩与光线」行必填三段（色值取该集 `image/color-plan.json`）：

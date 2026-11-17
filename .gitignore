@@ -94,13 +94,3 @@ __pycache__/
 /assets/**/*.safetensors
 /assets/**/*.zip
 /assets/**/*.7z
-
-# 已被正式角色包取代的探索素材仍在本机，避免误纳入跨机同步。
-/assets/人生体验/characters/catman-20261113/reference-v8/
-/assets/人生体验/characters/catman-20261113/reference-v9-candidate/
-/assets/人生体验/characters/catman-20261113/reference-v9-d-candidate/
-/assets/人生体验/characters/catman-20261113/reference-v9-identity-locked/
-/assets/人生体验/characters/catman-20261113/character-reference/face-emphasis/
-/assets/人生体验/characters/catman-20261113/character-reference/turnaround-d-redrawn.png
-/assets/人生体验/characters/catman-20261113/character-reference/turnaround-preview.jpg
-/assets/人生体验/characters/catman-20261113/character-reference/turnaround-reference-board.png

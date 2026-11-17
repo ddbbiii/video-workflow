@@ -1,0 +1,18 @@
+{
+  "purpose": "Face identity refinement candidate for the approved catman turnaround",
+  "created_at": "2026-11-17",
+  "endpoint": "https://xxcapi.com/v1/images/edits",
+  "model": "AZ-gpt-image-2",
+  "inputs": {
+    "edit_target": "assets/人生体验/characters/catman-20261113/character-reference/turnaround.png",
+    "identity_reference": "assets/人生体验/characters/catman-20261113/character-reference/ref-face.png",
+    "style_reference": "assets/人生体验/characters/catman-20261113/character-reference/face-style-D.png"
+  },
+  "attempts": [
+    {"http_status": 504, "request": "three image inputs"},
+    {"http_status": 504, "request": "single turnaround image"},
+    {"http_status": 502, "request": "single turnaround image after prompt correction"}
+  ],
+  "result": null,
+  "status": "API returned openai_error for all attempts; no candidate image was produced and the formal turnaround was not changed."
+}

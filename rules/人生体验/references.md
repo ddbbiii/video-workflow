@@ -1,10 +1,6 @@
 # 人生体验 · 角色参考图（唯一口径）
 
-> 2026-11-17：主角素材统一维护在 `assets/人生体验/characters/catman-20261113/character-reference/`。三视图采用用户选定的轻微面部加强稿；24 格表情保持原样。旧探索稿不再作为生产参考。
-
-> 背景：2026-11-15 凌晨那批参考图（`ref-v3-*.png`、`ref-canonical.png`、`ref-helper-a/b/c.png`、`v7-front/v7-three.png`）
-> 用户明确「不是我想要参考的」——它们是 AI 重绘/写实对比/通用卡通人，**与那只猫不是同一张脸**。
-> 本文件只定「哪些图算数」；外形规格仍看 `character.md` §二/§三。
+主角正式参考只维护在 `assets/人生体验/characters/catman-20261113/character-reference/`。候选图和比较记录放在 `projects/人生体验/visual-tests/`；通过的最终文件才进入正式目录。素材用途见本文件，角色规格见 `character.md`。
 
 ## 一、身份来源与正式参考
 
@@ -12,14 +8,14 @@
 
 | 文件 | 用途 |
 |---|---|
-| `character-reference/identity-source-original.png` | 用户提供的原猫身份来源 |
-| `character-reference/ref-face.png` | 原猫标准脸，供身份核对 |
+| `character-reference/identity-source-original.png` | 原猫身份来源 |
+| `character-reference/ref-face.png` | 标准脸，供身份核对 |
 | `character-reference/turnaround.png` | 正面、左侧面、背面三视图，轻微面部加强 |
 | `character-reference/face-style-D.png` | 当前平涂画风的单脸基准 |
 | `character-reference/expressions/<情绪>.png` | 24 张单档表情；每镜只取所需的一张 |
 | `character-reference/expressions-24-contact.jpg` | 表情浏览表，不送入生图 |
 
-生图时以 `turnaround.png` 锁定全身比例、服装和角度，以对应的单张 `expressions/<情绪>.png` 锁定表情。原猫标准脸用于人工核对毛色、纹样和折耳身份。三视图仍需逐镜检查条纹漂移与衣服褶皱变化。
+正式资产清单见同目录 `manifest.json`。生图时以 `turnaround.png` 锁定全身比例、服装和角度，以对应的单张 `expressions/<情绪>.png` 锁定表情。原猫标准脸用于人工核对身份。三视图仍需逐镜检查条纹漂移与衣服褶皱变化。
 
 ## 二、配角
 

@@ -15,7 +15,7 @@ from PIL import Image
 
 ROOT = Path(__file__).resolve().parents[4]
 OUT = Path(__file__).resolve().parent
-REFERENCE = ROOT / "assets" / "人生体验" / "characters" / "catman-20261113" / "reference-v8" / "ref-face.png"
+REFERENCE = ROOT / "assets" / "人生体验" / "characters" / "catman-20261113" / "character-reference" / "ref-face.png"
 BASE = os.environ.get("IMAGE_API_BASE_URL_XXC", "https://xxcapi.com/v1").rstrip("/")
 MODEL = "AZ-gpt-image-2"
 SIZE = "1672x941"

@@ -3,7 +3,7 @@
 - 单集路径：`projects/人生体验/episodes/20261115-henshi/`
 - 状态：已完成；2026-11-15 按用户“继续跑到成品视频吧”授权交付正文视频及配套SRT。172镜，849.5秒，1920×1080、30fps；全片解码、CFR、黑白帧、字幕及交付门禁全部PASS。
 - 剧本：`story/script-v1.md`，用户认可底稿并要求持久化；旁白约 3,859 可见字，按 4.8 字/秒约 13:24，含句间停顿预计约 14 分钟。
-- 画风与角色：当前 `rules/人生体验/style.md` v3.5、`character.md` v7；主角采用用户确认的 v8 标准脸、六档表情和四视图（`image/refs/ref-face.png`、`image/refs/expr-v8/`、`image/refs/turnaround-v8*.png`），配角继续使用三张有效 helper 定装。
+- 画风与角色：遵循 `rules/人生体验/style.md` 与 `character.md`；主角正式参考统一取 `assets/人生体验/characters/catman-20261113/character-reference/`，本集已有镜头参考副本仅作本集素材，不作为角色资产真源；配角继续使用有效 helper 定装。
 - 色彩：本集专用 `image/color-plan.json`；至少 6 镜覆盖日/夜、室内/室外、单人/多人小样及量化验收后再批量。
 - 生图通道：唯一事实源 `shared/image-api/channel-policy.json`，当前 `v7-new2-dklb-parallel`；new2/dkl-b 镜头级轮询、单通道最多 1 个在途请求，old 仅人工救援。旧版 v6 记录失效。
 - 交付规格：正文视觉视频 + SRT；1920×1080、30fps、0 音频流、0 字幕流；不生成配音、BGM、片头、标题卡或烧录字幕。
