@@ -5,14 +5,14 @@
 
 ## 0 一句话
 
-本机已有 `douyin-media-mcp`（`E:\program\1project\douyin-media-mcp`），工作区封装为 `shared/tools/douyin-ref/fetch_ref.py`。一条命令下载视频与 manifest；浏览器解析必须用完全访问权限跑（见 §3）。
+工具仓库 `douyin-media-mcp` 默认与本仓库并列，路径为 `../douyin-media-mcp/`；也可通过 `DOUYIN_MCP_ROOT` 指定其他位置。工作区封装为 `shared/tools/douyin-ref/fetch_ref.py`。一条命令下载视频与 manifest；浏览器解析必须用完全访问权限跑（见 §3）。
 
 ## 1 三件东西
 
 | 件 | 位置 | 作用 |
 |---|---|---|
-| MCP 服务 | `E:\program\1project\douyin-media-mcp` | stdio MCP，暴露 3 个工具；版本 `0.1.0.dev0`，MIT |
-| 运行环境 | `<MCP>\.venv\Scripts\python.exe` | 已装 httpx / playwright / mcp / pydantic |
+| MCP 服务 | `../douyin-media-mcp/`（相对于本仓库根目录） | stdio MCP，暴露 3 个工具；版本 `0.1.0.dev0`，MIT |
+| 运行环境 | MCP 仓库内的虚拟环境 | Windows: `.venv/Scripts/python.exe`；macOS/Linux: `.venv/bin/python` |
 | 工作区封装 | `shared/tools/douyin-ref/fetch_ref.py` | 直接调 service 层，命令行用；不依赖 MCP 握手 |
 
 MCP 工具：`resolve_douyin_url`（只解析）、`download_douyin_media`（下载+封装+验收）、`probe_media`（本地媒体验收）。
@@ -23,20 +23,21 @@ MCP 工具：`resolve_douyin_url`（只解析）、`download_douyin_media`（下
 ```toml
 [mcp_servers.douyin-media]
 command = "uv"
-args = ["--directory", "E:\\program\\1project\\douyin-media-mcp", "run", "douyin-media-mcp"]
+args = ["--directory", "<douyin-media-mcp repository path>", "run", "douyin-media-mcp"]
 startup_timeout_sec = 30
 tool_timeout_sec = 1800
 ```
 
 ## 2 标准流程
 
-```powershell
-& "E:\program\1project\douyin-media-mcp\.venv\Scripts\python.exe" `
-  "E:\program\1project\video\shared\tools\douyin-ref\fetch_ref.py" `
-  "https://v.douyin.com/XXXXXX/" `
-  --out "E:\program\1project\video\work\refs\20261110" `
+```sh
+python shared/tools/douyin-ref/fetch_ref.py \
+  "https://v.douyin.com/XXXXXX/" \
+  --out work/refs/20261110 \
   --overwrite
 ```
+
+从仓库根目录运行。如果 `douyin-media-mcp` 不在并列目录中，先设置 `DOUYIN_MCP_ROOT` 指向其位置，再运行封装脚本。
 
 1. 链接可以是 `v.douyin.com/...` 短链，也可以是 `www.douyin.com/video/<aweme_id>`。
 2. `--quality`：`best`（默认）/ `1080p` / `720p`；**这是偏好不是保证**，以返回值 `width/height` 为准。
@@ -69,7 +70,7 @@ tool_timeout_sec = 1800
 | `media_mode: video_only` + 警告 | 独立音轨没捕获到 | 可接受；需要音频时重试一次，或在文档里注明"无音轨" |
 | 请求 1080p 得到 720p | 页面当次只给 720p | 以返回值为准，不反复重试 |
 | `SIGNED_URL_EXPIRED` | 签名地址过期 | 重跑（签名地址不落盘、不复用） |
-| `FFMPEG_NOT_FOUND` | PATH 里没有 ffmpeg | 设 `DOUYIN_MCP_FFMPEG` / `DOUYIN_MCP_FFPROBE` 指向绝对路径 |
+| `FFMPEG_NOT_FOUND` | PATH 里没有 ffmpeg | 将 ffmpeg/ffprobe 加入 `PATH`，或通过 `DOUYIN_MCP_FFMPEG` / `DOUYIN_MCP_FFPROBE` 指定可执行文件位置 |
 | 解析为空、页面 404 | 作品被删/限流/需要登录 | 换链接或让用户确认；不要用第三方接口硬抓 |
 
 ## 6 归档

@@ -319,7 +319,7 @@ corridor light from behind, face not visible
 
 ## 八、风格资产
 
-- LoRA：`assets/悬疑/styles/rainnight/style-suspense-rainnight-sdxl-v1.safetensors` 保留存档；SDXL LoRA 与现用 GPT 图片 API 不兼容，**不再用于生产**。
+- 旧 SDXL LoRA 已归档到 `../video-archive/20261117-retired-assets/assets/悬疑/styles/rainnight/`；与现用图片 API 不兼容，**不再用于生产**。
 - 风格锚点：以 2026-11-10 已验收的赛璐璐资产为准，例 `assets/悬疑/characters/zhouxu-20261110-pool/three-view.png`；2026-11-12 两集不作为风格基准。
 - 每个新故事可新建主角；长期复用的角色再单独立规范。
 

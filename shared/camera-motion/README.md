@@ -8,18 +8,17 @@
 
 依赖 Python、NumPy、Pillow、OpenCV，系统 PATH 提供 FFmpeg/ffprobe。Blender 后端另需 Blender 4.5 LTS（已在 4.5.14 便携版验证）。
 
-```powershell
-$py = "E:\program\language\python\Python-3.11.0\python.exe"
-$env:CAMERA_MOTION_BLENDER = "E:\program\blender\4.5.14\blender-4.5.14-windows-x64\blender.exe"  # 可选
-
-& $py shared/camera-motion/validate_plan.py path/to/plan.json
-& $py shared/camera-motion/camera_motion.py path/to/plan.json --out path/to/new-run --validate-only
-& $py shared/camera-motion/camera_motion.py path/to/plan.json --out path/to/new-run
-& $py shared/camera-motion/camera_motion.py path/to/plan.json --out path/to/new-run --resume
-& $py shared/camera-motion/camera_motion.py path/to/plan.json --out path/to/new-run --blender $env:CAMERA_MOTION_BLENDER
-& $py -m unittest discover -s shared/camera-motion -p "test_*.py"
-& $py shared/camera-motion/verify_motion.py path/to/new-run
+```sh
+python shared/camera-motion/validate_plan.py path/to/plan.json
+python shared/camera-motion/camera_motion.py path/to/plan.json --out path/to/new-run --validate-only
+python shared/camera-motion/camera_motion.py path/to/plan.json --out path/to/new-run
+python shared/camera-motion/camera_motion.py path/to/plan.json --out path/to/new-run --resume
+python shared/camera-motion/camera_motion.py path/to/plan.json --out path/to/new-run --blender blender
+python -m unittest discover -s shared/camera-motion -p 'test_*.py'
+python shared/camera-motion/verify_motion.py path/to/new-run
 ```
+
+从仓库根目录运行以上命令。Blender 可执行文件可以加入 `PATH`；否则通过 `--blender` 传入本机位置，或在 shell 中设置 `CAMERA_MOTION_BLENDER`。
 
 每个镜头包含：唯一 `id`、相对配置文件的 `source`、`duration_s`、`start_view`/`end_view`，可选 `curve` 和 `required_regions`。取景框是原图归一化 `[x,y,width,height]`，必须位于图片内部并匹配输出画幅。不同画幅需显式指定裁切框，不拉伸、不自动猜裁切。关键主体区域必须同时包含在起止框内。
 

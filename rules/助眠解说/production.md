@@ -2,7 +2,7 @@
 
 > 合并自 `production-scheduling.md`、`execution-continuity.md`、`account-identity.md`（2026-11-06）。
 > 2026-11-14：本线只做正文，不产音频、不做片头；调度条目按此收敛。
-> 原文备份：`E:\program\1project\video-archive\20261114-body-only\rules-obsolete\`。
+> 原文备份：仓库旁 `../video-archive/20261114-body-only/rules-obsolete/`。
 
 ## 账号
 

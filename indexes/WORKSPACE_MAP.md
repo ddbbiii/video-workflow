@@ -33,7 +33,7 @@
 
 - 成品：每集 `video/final/<线路>_<中文剧名>_正文_vN.mp4` + `video/srt/` 同基名 `.srt`。
 - `shared/delivery/finals/` 已废止；其中的旧文件不再维护，属于历史成品。
-- 历史规则与工具归档在工作区外：`E:\program\1project\video-archive\20261114-body-only\`。
+- 历史规则与工具归档在仓库旁：`../video-archive/20261114-body-only/`。
 
 ## 4 待处理
 

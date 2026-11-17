@@ -1,6 +1,6 @@
 # 当前目录结构
 
-本文件是整个 E:/program/1project/video 的目录真源（2026-11-14 纯正文版）。
+本文件是整个 video 仓库的目录真源（2026-11-14 纯正文版）。
 
 ```text
 video/
@@ -51,7 +51,7 @@ projects/<线路>/episodes/<集>/
 
 - 每集只有两件成品：`video/final/<线路>_<中文剧名>_正文_vN.mp4` ＋ `video/srt/` 同基名 `.srt`。
 - 不再有 `shared/delivery/finals/` 成品库、成品卡与成品索引。
-- 历史归档在工作区外：`E:\program\1project\video-archive\`。`shared/archive/` 只保留旧退役线路，默认不读。
+- 历史归档在仓库旁：`../video-archive/`。`shared/archive/` 只保留旧退役线路，默认不读。
 
 ## 维护
 

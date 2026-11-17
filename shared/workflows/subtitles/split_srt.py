@@ -15,7 +15,6 @@ afterwards as the gate.
 Usage:
   python split_srt.py in.srt --out out.srt --cues-json cues.json \
       --report report.json --max-chars 20 \
-      --font assets/shared/subtitles/style-r4/fonts/SourceHanSansSC-Heavy.otf \
       --overrides overrides.json
 """
 import argparse
@@ -31,8 +30,6 @@ TS = re.compile(
     r"(\d{1,2}):(\d{2}):(\d{2})[,.](\d{1,3})\s*-->\s*"
     r"(\d{1,2}):(\d{2}):(\d{2})[,.](\d{1,3})"
 )
-DEFAULT_FONT = (Path(__file__).resolve().parents[3] / "assets" / "shared" /
-                "subtitles" / "style-r4" / "fonts" / "SourceHanSansSC-Heavy.otf")
 TAIL = "，。；：、！？——……,.!?;:"
 BREAK_CHARS = "，、；：。！？"
 
@@ -268,7 +265,7 @@ def main(argv=None):
     ap.add_argument("--allow-word-split", action="store_true",
                     help="fallback: split an unbreakable clause on jieba word boundaries")
     ap.add_argument("--font", default="",
-                    help="font file for the 80%% width check (default: style_r4 if present)")
+                    help="optional font file for a renderer-specific width check")
     ap.add_argument("--style-size", type=int, default=96)
     ap.add_argument("--k", type=float, default=0.6875)
     ap.add_argument("--canvas-width", type=int, default=1920)
@@ -281,7 +278,7 @@ def main(argv=None):
                      json.loads(Path(args.overrides).read_text(encoding="utf-8")).items()}
 
     width_fn, max_px = None, args.max_width_frac * args.canvas_width
-    font_path = args.font or (str(DEFAULT_FONT) if DEFAULT_FONT.exists() else "")
+    font_path = args.font
     if font_path:
         width_fn = make_width_fn(font_path, args.k, args.style_size)
 

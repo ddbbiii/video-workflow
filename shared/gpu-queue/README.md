@@ -3,7 +3,7 @@
 2026-10-06 用户指定本聊天统一管理 GPU 使用。
 
 - 管理聊天：`01a10e62-835a-78b2-8c7b-6d79e97ce195`。
-- 共享队列目录：`E:\program\1project\video\shared\gpu-queue`。
+- 共享队列目录：`shared/gpu-queue/`（相对于仓库根目录）。
 - 其他助手将请求写入 `requests/<唯一任务ID>.json`，不要在提交请求时启动 GPU 工作。写入请求即进入统一调度，不需要所属会话逐项催办或重复确认。
 - 调度顺序：显式 `priority` 越高越优先；未填写 `priority` 时按 `submitted_at` 先到先执行。同一优先级按提交时间稳定排序。一次只放行一个 GPU 重任务，等待中的任务可继续 CPU 准备工作。
 - 管理助手自动检查资源、锁和前序任务，写入 `granted` 后直接安排执行，不发送普通过程通知；执行助手写入 `running`、PID、日志路径，完成后写入 `completed` 或 `failed`。

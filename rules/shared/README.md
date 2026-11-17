@@ -1,6 +1,6 @@
 # 规则库入口（纯正文版）
 
-> 2026-11-14 起：每集只交**正文视频 + SRT**，不做片头/标题/字幕/配音。规则库已按此收敛；旧规则原文在 `E:\program\1project\video-archive\20261114-body-only\rules-obsolete\`，**默认不读**。
+> 2026-11-14 起：每集只交**正文视频 + SRT**，不做片头/标题/字幕/配音。规则库已按此收敛；旧规则原文在 `../video-archive/20261114-body-only/rules-obsolete/`，**默认不读**。
 > 原则：不要一次读完，按当前阶段取用；冲突时用户最新指令 > `video-workflow.md` > 线路规则 > 本目录。
 
 ## 按阶段加载
@@ -65,4 +65,4 @@
 - 2026-11-14：**构图占比改口径 + 悬疑线同步**。用户指令：「悬疑线也考虑参考这个构图行为」。落地：shot-composition.md 新增 §五「构图语法」作为两条线共用真源（机位/焦段/站位/前景 + 人物高≈门高 0.6）；悬疑/visual.md 新增 §4.1.1（本线默认 24–28mm 深焦、中/远机位、门外与走廊尽端），README 加载顺序同步。
 - 2026-11-14：**构图占比改口径（人生体验线）**。用户指令：「人高也需要符合常理，关键是构图的人物占比，不应该通过控制人物的绝对大小来控制」「把规则持久化下来」。落地：`shot-composition.md` §三.3 改为「占比靠机位/焦段/站位/前景，人物高约为门高 0.55–0.65，不得压小」；`shot-composition.md` §三.4 要求三层信息各写具体物件。人生体验线同步：`style.md` v3.2 新增「构图语法」「三层信息清单」，`color-script.md` v1.2 新增「每场至少两个色相」，并明确继承 `shared/camera-motion/MOTION_GUIDELINES.md`、禁用 `zoompan`。
 - 2026-11-14：**悬疑线 / 人生体验线启用镜头配比 E/M/C = 22/53/25**。用户指令：「针对悬疑线和人生副本线，你都按这个规则改好比例」。落地：新建 `shot-composition.md`（三类镜头定义、配额、进场三连、连续镜限制、场地锚点、验收），新增门禁脚本 `shared/workflows/body-only/check_shot_mix.py`，两条线的 README 已登记。已交付成片不回改。
-- 2026-11-14：**全线路改为纯正文交付**。用户指令：「成品视频只包括完整的正文，不包含引入+标题+字幕+配音，只输出一个视频+对应的SRT文件就行」「配音我自己解决」「旧成品不用再改，只改规则和脚本」。落地：重写 `video-workflow.md`、新建 `delivery.md` 与 `srt.md`、重写 `README.md` 与两份 `project-rules.md`；三条线规则去掉片头/TTS/烧录/成品库；新增交付门禁 `shared/workflows/body-only/check_delivery.py`；旧规则与工具链移入工作区外归档 `E:\program\1project\video-archive\20261114-body-only\`。已交付成品不回改。
+- 2026-11-14：**全线路改为纯正文交付**。用户指令：「成品视频只包括完整的正文，不包含引入+标题+字幕+配音，只输出一个视频+对应的SRT文件就行」「配音我自己解决」「旧成品不用再改，只改规则和脚本」。落地：重写 `video-workflow.md`、新建 `delivery.md` 与 `srt.md`、重写 `README.md` 与两份 `project-rules.md`；三条线规则去掉片头/TTS/烧录/成品库；新增交付门禁 `shared/workflows/body-only/check_delivery.py`；旧规则与工具链移入仓库旁 `../video-archive/20261114-body-only/`。已交付成品不回改。

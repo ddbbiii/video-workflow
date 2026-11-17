@@ -7,8 +7,7 @@
 /shared/exchange/
 /shared/work/
 
-# ===== 二进制素材（用单独备份或 LFS）=====
-/assets/
+# ===== 可复用二进制素材由 Git LFS 同步 =====
 
 # ===== 退役线路（2026-11-10 归档；数据在 /shared/archive/retired-lines-20261110/）=====
 /projects/悬疑动漫/
@@ -64,7 +63,6 @@ __pycache__/
 /FindCity_AI_Photo_Library/
 /FindCity_AI_Photo_Library.7z
 /.acl-reports/
-/.codex-memory/
 /.workbuddy/
 /.cleanup/
 /.acl-recovery/
@@ -79,3 +77,30 @@ __pycache__/
 
 # 图片 API 探测产物（原始响应/出图，体积大且含请求痕迹）
 /shared/image-api/runs/
+
+# 可复用素材与项目级记忆需要随 Windows/Mac 工作区同步。
+!/assets/**
+!/.codex-memory/**
+
+# Historical audio, fonts, model weights, and source archives live in ../video-archive/.
+/assets/**/audio/
+/assets/**/fonts/
+/assets/**/*.wav
+/assets/**/*.mp3
+/assets/**/*.flac
+/assets/**/*.ogg
+/assets/**/*.ttf
+/assets/**/*.otf
+/assets/**/*.safetensors
+/assets/**/*.zip
+/assets/**/*.7z
+
+# 已被正式角色包取代的探索素材仍在本机，避免误纳入跨机同步。
+/assets/人生体验/characters/catman-20261113/reference-v8/
+/assets/人生体验/characters/catman-20261113/reference-v9-candidate/
+/assets/人生体验/characters/catman-20261113/reference-v9-d-candidate/
+/assets/人生体验/characters/catman-20261113/reference-v9-identity-locked/
+/assets/人生体验/characters/catman-20261113/character-reference/face-emphasis/
+/assets/人生体验/characters/catman-20261113/character-reference/turnaround-d-redrawn.png
+/assets/人生体验/characters/catman-20261113/character-reference/turnaround-preview.jpg
+/assets/人生体验/characters/catman-20261113/character-reference/turnaround-reference-board.png

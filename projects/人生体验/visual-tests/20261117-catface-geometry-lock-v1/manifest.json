@@ -1,0 +1,86 @@
+{
+  "purpose": "Face-focused anime-rendering comparison with strict identity and marking locks",
+  "channel": "new2",
+  "model": "AZ-gpt-image-2",
+  "endpoint": "https://xxcapi.com/v1/images/edits",
+  "reference": "E:\\program\\1project\\video\\assets\\人生体验\\characters\\catman-20261113\\reference-v8\\ref-face.png",
+  "requested_dimensions": "1672x941",
+  "identity_lock": "Preserve this exact individual cat's visible facial geometry and identity. Do not redesign or beautify. Keep the same broad round cheek silhouette, the same small outward-folded ears lying close to the skull, the same eye spacing and eye size, same large near-black pupils with narrow amber rings, same small pink nose, same short muzzle width, same cream muzzle pads, same white whiskers, same forehead blaze/M and the same orange cheek-mark positions and shapes. Do not enlarge the eyes, narrow the cheeks, lengthen the muzzle, erect the ears, move the markings, invent new spots, or replace the cat with a generic orange cat. Use Image 1 only for identity geometry and marking placement. Do not carry over its photographic fur, lighting, or surface texture.",
+  "common_prompt": "Create a face-focused horizontal 16:9 2D anime story illustration. The protagonist is a cat-headed person with this exact orange Scottish Fold face. Show head, short neck, shoulders and upper chest; the cat face is large and clearly readable, taking roughly half the frame height. Head sits naturally into the short neck and grey hoodie opening; no floating head or pasted seam. The protagonist's body is a compact upright human form in a grey hoodie; if paws are visible, they are rounded cat paws. Include one small but clearly visible supporting character at frame right in the required simple cartoon design: smooth round head, two dot eyes, one short line mouth, no nose and no detailed facial features, white mitten hands without fingers, plain dark simple clothes. Never render the supporting character as an ordinary realistic person. Both characters share a clean illustrated language, but the supporting figure stays much simpler. Apartment corridor, closed door and wall lamp in soft focus, muted cool-neutral palette with a small warm lamp accent. Medium-close two-shot, protagonist at left and supporting figure at right. No text, watermark, logo, UI, photorealism, 3D, plastic toy look, photographic fur strands, soft photo highlights, extra people or extra limbs.",
+  "variant_prompts": {
+    "01-clean-cel": "Render the cat face as clean cel anime: precise consistent dark grey-blue contour, broad flat color shapes, a few short intentional fur accents, and two or three clean hard-edged shadow shapes. Keep the facial geometry and markings exactly as specified.",
+    "02-gentle-ink": "Render as refined hand-drawn anime ink: clean slightly hand-drawn contours, controlled line accents around the eyes, muzzle and tabby markings, flat color masses and restrained cel shadows. No pencil smudging, scratchy crosshatching or photoreal fur detail. Keep every facial feature in its original position and proportion.",
+    "03-graphic-flat": "Render as restrained graphic anime: crisp outer contour, simple interior lines, grouped flat fur colors. Reproduce the source tabby markings in the same locations and with the same direction; do not turn them into abstract cheek patches or decorative symbols. Keep the source face proportions unchanged.",
+    "04-soft-illustration": "Render as softly painted 2D anime illustration: controlled brush-shaped color transitions on the face, clean designed contour and restrained soft background depth. The face must remain an illustration, with no individual realistic hairs, photographic shine or airbrushed skin-like shading. Keep exact source facial geometry and marking placement."
+  },
+  "full_prompts": {
+    "01-clean-cel": "Preserve this exact individual cat's visible facial geometry and identity. Do not redesign or beautify. Keep the same broad round cheek silhouette, the same small outward-folded ears lying close to the skull, the same eye spacing and eye size, same large near-black pupils with narrow amber rings, same small pink nose, same short muzzle width, same cream muzzle pads, same white whiskers, same forehead blaze/M and the same orange cheek-mark positions and shapes. Do not enlarge the eyes, narrow the cheeks, lengthen the muzzle, erect the ears, move the markings, invent new spots, or replace the cat with a generic orange cat. Use Image 1 only for identity geometry and marking placement. Do not carry over its photographic fur, lighting, or surface texture. Create a face-focused horizontal 16:9 2D anime story illustration. The protagonist is a cat-headed person with this exact orange Scottish Fold face. Show head, short neck, shoulders and upper chest; the cat face is large and clearly readable, taking roughly half the frame height. Head sits naturally into the short neck and grey hoodie opening; no floating head or pasted seam. The protagonist's body is a compact upright human form in a grey hoodie; if paws are visible, they are rounded cat paws. Include one small but clearly visible supporting character at frame right in the required simple cartoon design: smooth round head, two dot eyes, one short line mouth, no nose and no detailed facial features, white mitten hands without fingers, plain dark simple clothes. Never render the supporting character as an ordinary realistic person. Both characters share a clean illustrated language, but the supporting figure stays much simpler. Apartment corridor, closed door and wall lamp in soft focus, muted cool-neutral palette with a small warm lamp accent. Medium-close two-shot, protagonist at left and supporting figure at right. No text, watermark, logo, UI, photorealism, 3D, plastic toy look, photographic fur strands, soft photo highlights, extra people or extra limbs. Render the cat face as clean cel anime: precise consistent dark grey-blue contour, broad flat color shapes, a few short intentional fur accents, and two or three clean hard-edged shadow shapes. Keep the facial geometry and markings exactly as specified.",
+    "02-gentle-ink": "Preserve this exact individual cat's visible facial geometry and identity. Do not redesign or beautify. Keep the same broad round cheek silhouette, the same small outward-folded ears lying close to the skull, the same eye spacing and eye size, same large near-black pupils with narrow amber rings, same small pink nose, same short muzzle width, same cream muzzle pads, same white whiskers, same forehead blaze/M and the same orange cheek-mark positions and shapes. Do not enlarge the eyes, narrow the cheeks, lengthen the muzzle, erect the ears, move the markings, invent new spots, or replace the cat with a generic orange cat. Use Image 1 only for identity geometry and marking placement. Do not carry over its photographic fur, lighting, or surface texture. Create a face-focused horizontal 16:9 2D anime story illustration. The protagonist is a cat-headed person with this exact orange Scottish Fold face. Show head, short neck, shoulders and upper chest; the cat face is large and clearly readable, taking roughly half the frame height. Head sits naturally into the short neck and grey hoodie opening; no floating head or pasted seam. The protagonist's body is a compact upright human form in a grey hoodie; if paws are visible, they are rounded cat paws. Include one small but clearly visible supporting character at frame right in the required simple cartoon design: smooth round head, two dot eyes, one short line mouth, no nose and no detailed facial features, white mitten hands without fingers, plain dark simple clothes. Never render the supporting character as an ordinary realistic person. Both characters share a clean illustrated language, but the supporting figure stays much simpler. Apartment corridor, closed door and wall lamp in soft focus, muted cool-neutral palette with a small warm lamp accent. Medium-close two-shot, protagonist at left and supporting figure at right. No text, watermark, logo, UI, photorealism, 3D, plastic toy look, photographic fur strands, soft photo highlights, extra people or extra limbs. Render as refined hand-drawn anime ink: clean slightly hand-drawn contours, controlled line accents around the eyes, muzzle and tabby markings, flat color masses and restrained cel shadows. No pencil smudging, scratchy crosshatching or photoreal fur detail. Keep every facial feature in its original position and proportion.",
+    "03-graphic-flat": "Preserve this exact individual cat's visible facial geometry and identity. Do not redesign or beautify. Keep the same broad round cheek silhouette, the same small outward-folded ears lying close to the skull, the same eye spacing and eye size, same large near-black pupils with narrow amber rings, same small pink nose, same short muzzle width, same cream muzzle pads, same white whiskers, same forehead blaze/M and the same orange cheek-mark positions and shapes. Do not enlarge the eyes, narrow the cheeks, lengthen the muzzle, erect the ears, move the markings, invent new spots, or replace the cat with a generic orange cat. Use Image 1 only for identity geometry and marking placement. Do not carry over its photographic fur, lighting, or surface texture. Create a face-focused horizontal 16:9 2D anime story illustration. The protagonist is a cat-headed person with this exact orange Scottish Fold face. Show head, short neck, shoulders and upper chest; the cat face is large and clearly readable, taking roughly half the frame height. Head sits naturally into the short neck and grey hoodie opening; no floating head or pasted seam. The protagonist's body is a compact upright human form in a grey hoodie; if paws are visible, they are rounded cat paws. Include one small but clearly visible supporting character at frame right in the required simple cartoon design: smooth round head, two dot eyes, one short line mouth, no nose and no detailed facial features, white mitten hands without fingers, plain dark simple clothes. Never render the supporting character as an ordinary realistic person. Both characters share a clean illustrated language, but the supporting figure stays much simpler. Apartment corridor, closed door and wall lamp in soft focus, muted cool-neutral palette with a small warm lamp accent. Medium-close two-shot, protagonist at left and supporting figure at right. No text, watermark, logo, UI, photorealism, 3D, plastic toy look, photographic fur strands, soft photo highlights, extra people or extra limbs. Render as restrained graphic anime: crisp outer contour, simple interior lines, grouped flat fur colors. Reproduce the source tabby markings in the same locations and with the same direction; do not turn them into abstract cheek patches or decorative symbols. Keep the source face proportions unchanged.",
+    "04-soft-illustration": "Preserve this exact individual cat's visible facial geometry and identity. Do not redesign or beautify. Keep the same broad round cheek silhouette, the same small outward-folded ears lying close to the skull, the same eye spacing and eye size, same large near-black pupils with narrow amber rings, same small pink nose, same short muzzle width, same cream muzzle pads, same white whiskers, same forehead blaze/M and the same orange cheek-mark positions and shapes. Do not enlarge the eyes, narrow the cheeks, lengthen the muzzle, erect the ears, move the markings, invent new spots, or replace the cat with a generic orange cat. Use Image 1 only for identity geometry and marking placement. Do not carry over its photographic fur, lighting, or surface texture. Create a face-focused horizontal 16:9 2D anime story illustration. The protagonist is a cat-headed person with this exact orange Scottish Fold face. Show head, short neck, shoulders and upper chest; the cat face is large and clearly readable, taking roughly half the frame height. Head sits naturally into the short neck and grey hoodie opening; no floating head or pasted seam. The protagonist's body is a compact upright human form in a grey hoodie; if paws are visible, they are rounded cat paws. Include one small but clearly visible supporting character at frame right in the required simple cartoon design: smooth round head, two dot eyes, one short line mouth, no nose and no detailed facial features, white mitten hands without fingers, plain dark simple clothes. Never render the supporting character as an ordinary realistic person. Both characters share a clean illustrated language, but the supporting figure stays much simpler. Apartment corridor, closed door and wall lamp in soft focus, muted cool-neutral palette with a small warm lamp accent. Medium-close two-shot, protagonist at left and supporting figure at right. No text, watermark, logo, UI, photorealism, 3D, plastic toy look, photographic fur strands, soft photo highlights, extra people or extra limbs. Render as softly painted 2D anime illustration: controlled brush-shaped color transitions on the face, clean designed contour and restrained soft background depth. The face must remain an illustration, with no individual realistic hairs, photographic shine or airbrushed skin-like shading. Keep exact source facial geometry and marking placement."
+  },
+  "results": [
+    {
+      "variant": "01-clean-cel",
+      "status": 200,
+      "elapsed_s": 43.2,
+      "ok": true,
+      "file": "E:\\program\\1project\\video\\projects\\人生体验\\visual-tests\\20261117-catface-geometry-lock-v1\\01-clean-cel.png",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "bytes": 1634210,
+      "delivery": "b64_json"
+    },
+    {
+      "variant": "02-gentle-ink",
+      "status": 200,
+      "elapsed_s": 46.8,
+      "ok": true,
+      "file": "E:\\program\\1project\\video\\projects\\人生体验\\visual-tests\\20261117-catface-geometry-lock-v1\\02-gentle-ink.png",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "bytes": 1505757,
+      "delivery": "b64_json"
+    },
+    {
+      "variant": "03-graphic-flat",
+      "status": 200,
+      "elapsed_s": 38.9,
+      "ok": true,
+      "file": "E:\\program\\1project\\video\\projects\\人生体验\\visual-tests\\20261117-catface-geometry-lock-v1\\03-graphic-flat.png",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "bytes": 1634391,
+      "delivery": "b64_json"
+    },
+    {
+      "variant": "04-soft-illustration",
+      "status": 200,
+      "elapsed_s": 46.3,
+      "ok": true,
+      "file": "E:\\program\\1project\\video\\projects\\人生体验\\visual-tests\\20261117-catface-geometry-lock-v1\\04-soft-illustration.png",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "bytes": 2537724,
+      "delivery": "b64_json"
+    }
+  ],
+  "contact_sheet": "E:\\program\\1project\\video\\projects\\人生体验\\visual-tests\\20261117-catface-geometry-lock-v1\\contact-sheet.jpg",
+  "acceptance": {
+    "01-clean-cel": "Partial only: broad face silhouette, eye spacing, nose and folded ears remain recognizable, but fine photographic-looking fur still dominates and cheek/forehead stripe details drift. Not approved as a final anime face reference.",
+    "02-gentle-ink": "Rejected as a solution: linework is cleaner, but the face still carries realistic fur rendering and some facial proportions/mark placement shift.",
+    "03-graphic-flat": "Rejected: stronger graphic treatment changes eye-to-face proportions and turns the tabby pattern into redesigned marks.",
+    "04-soft-illustration": "Partial only: the face remains fairly recognizable, but realistic fur texture is still prominent and the style does not match the flat body language closely enough.",
+    "support_character": "Pass: all four samples use the simple round head, dot eyes, short line mouth, white mitten hands and plain clothes; no realistic side character appears.",
+    "overall": "No candidate is approved as a final identity or style reference. Larger face framing improved inspection, but the model still transfers realistic fur and drifts on markings when the anime treatment becomes stronger."
+  },
+  "next_step": "Build a user-approved illustrated face master by preserving the source face geometry and manually simplifying its fur/mark shapes; resume full-scene comparisons only after that identity reference is accepted."
+}

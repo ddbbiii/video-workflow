@@ -1,7 +1,8 @@
 # -*- coding: utf-8 -*-
 """抖音参考片获取：本机 douyin-media-mcp 的薄封装。
 
-MCP 本体在 E:\\program\\1project\\douyin-media-mcp（stdio MCP，三种工具）。
+MCP 本体通常与 video 仓库并列放置于 `../douyin-media-mcp/`（stdio MCP，三种工具）；
+也可通过 `DOUYIN_MCP_ROOT` 指定位置。
 本脚本不做协议握手，直接调它的 service 层，供工作区命令行使用。
 
 用法（工作区根目录）：
@@ -24,8 +25,11 @@ import sys
 from datetime import datetime
 from pathlib import Path
 
-MCP_ROOT = Path(os.environ.get("DOUYIN_MCP_ROOT", r"E:\program\1project\douyin-media-mcp"))
 WORKSPACE = Path(__file__).resolve().parents[3]
+MCP_ROOT = Path(os.environ.get("DOUYIN_MCP_ROOT", "../douyin-media-mcp")).expanduser()
+if not MCP_ROOT.is_absolute():
+    MCP_ROOT = WORKSPACE / MCP_ROOT
+MCP_ROOT = MCP_ROOT.resolve()
 
 
 def clean_env() -> None:

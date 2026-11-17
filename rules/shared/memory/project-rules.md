@@ -23,7 +23,7 @@
 
 ## 记忆与归档
 
-- 旧规则（片头、TTS、字幕烧录、成品库）与旧工具链已移入 `E:\program\1project\video-archive\20261114-body-only\`；默认不读，用户点名才恢复。
+- 旧规则（片头、TTS、字幕烧录、成品库）与旧工具链已移入仓库旁 `../video-archive/20261114-body-only/`；默认不读，用户点名才恢复。
 - 真源：`rules/shared/video-workflow.md`、`rules/shared/delivery.md`、`rules/shared/srt.md`。
 
 ## 用户单独要求封面时（2026-11-15）

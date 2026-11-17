@@ -1,0 +1,429 @@
+{
+  "purpose": "Redrawn D-style three-view candidate plus 24-expression comparison sheet",
+  "created_at": "2026-11-17T12:21:12+08:00",
+  "channel": "new2",
+  "model": "AZ-gpt-image-2",
+  "endpoint": "https://xxcapi.com/v1/images/edits",
+  "requested_dimensions": "1536x1024",
+  "reference_board": "E:\\program\\1project\\video\\assets\\人生体验\\characters\\catman-20261113\\character-reference\\turnaround-reference-board.png",
+  "turnaround": {
+    "reference_sources": {
+      "approved_v8_front": "E:\\program\\1project\\video\\assets\\人生体验\\characters\\catman-20261113\\reference-v8\\turnaround-v8-front.png",
+      "approved_v8_side": "E:\\program\\1project\\video\\assets\\人生体验\\characters\\catman-20261113\\reference-v8\\turnaround-v8-side.png",
+      "approved_v8_back": "E:\\program\\1project\\video\\assets\\人生体验\\characters\\catman-20261113\\reference-v8\\turnaround-v8-back.png",
+      "D_style_face": "E:\\program\\1project\\video\\assets\\人生体验\\characters\\catman-20261113\\character-reference\\face-style-D.png",
+      "original_face_identity": "E:\\program\\1project\\video\\assets\\人生体验\\characters\\catman-20261113\\reference-v8\\ref-face.png"
+    },
+    "prompt": "The uploaded reference board has five labeled panels. Use panels A, B and C ONLY for the already approved body turn views and their exact view directions/body proportions. Use panel D ONLY for the selected D graphic-flat anime rendering language. Use panel E ONLY for the exact real-cat coat colors and tabby marking map. Create a genuinely newly redrawn three-view turnaround, not a pasted or assembled copy: exactly three equal vertical panels, left-to-right FRONT, pure LEFT-FACING SIDE, BACK. Full body in every panel, identical scale and stance, feet visible. Same compact upright human body of about 3 to 3.2 head-heights, extremely short neck, narrow shoulders, grey hoodie, black trousers, rounded cat-paw hands, bare cat-paw feet, no shoes, no tail. D style: bold clean dark grey-blue outer contour, broad flat color regions, a few crisp controlled shadow shapes; no photographic fur, no soft photo shading. Identity is critical: same broad round orange-and-cream Scottish Fold head, same folded ears, same eye spacing and size, same pink nose and short muzzle. Preserve the coat map from panel E exactly in every view: pale cream-orange base, same cream blaze and forehead M, same orange cheek bands in the same places, same cream muzzle and chest bib. Do not change hue, saturation, stripe count, stripe direction, stripe width, marking positions or white/cream areas. In side view, render a plausible left-facing profile of this same cat; in back view show the same orange/cream coat and folded ears from behind. Plain white background. No text, labels, panel borders, collage look, extra characters, extra limbs, human fingers, socks, shoes, or altered markings.",
+    "result": {
+      "status": 200,
+      "elapsed_s": 43.1,
+      "prompt": "The uploaded reference board has five labeled panels. Use panels A, B and C ONLY for the already approved body turn views and their exact view directions/body proportions. Use panel D ONLY for the selected D graphic-flat anime rendering language. Use panel E ONLY for the exact real-cat coat colors and tabby marking map. Create a genuinely newly redrawn three-view turnaround, not a pasted or assembled copy: exactly three equal vertical panels, left-to-right FRONT, pure LEFT-FACING SIDE, BACK. Full body in every panel, identical scale and stance, feet visible. Same compact upright human body of about 3 to 3.2 head-heights, extremely short neck, narrow shoulders, grey hoodie, black trousers, rounded cat-paw hands, bare cat-paw feet, no shoes, no tail. D style: bold clean dark grey-blue outer contour, broad flat color regions, a few crisp controlled shadow shapes; no photographic fur, no soft photo shading. Identity is critical: same broad round orange-and-cream Scottish Fold head, same folded ears, same eye spacing and size, same pink nose and short muzzle. Preserve the coat map from panel E exactly in every view: pale cream-orange base, same cream blaze and forehead M, same orange cheek bands in the same places, same cream muzzle and chest bib. Do not change hue, saturation, stripe count, stripe direction, stripe width, marking positions or white/cream areas. In side view, render a plausible left-facing profile of this same cat; in back view show the same orange/cream coat and folded ears from behind. Plain white background. No text, labels, panel borders, collage look, extra characters, extra limbs, human fingers, socks, shoes, or altered markings.",
+      "delivery": "b64_json",
+      "ok": true,
+      "file": "E:\\program\\1project\\video\\assets\\人生体验\\characters\\catman-20261113\\character-reference\\turnaround-d-redrawn.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 1455357,
+      "sha256": "341d6332e19e4b9e87f9d9435790fcfceb8d3db5fcf790d652ddbc2829bbe8f0"
+    },
+    "visual_qa": {
+      "layout": "Pass: front, left-facing profile, and back views, full body visible at consistent scale.",
+      "style": "Pass as D direction: bold clean contours, flat color groups and restrained shadows.",
+      "identity": "Needs user review: orange/cream folded-ear cat identity is clear at thumbnail scale. Exact stripe topology and side/back coat-map fidelity cannot be certified from the preview; compare against the original before use.",
+      "body": "Gray hoodie, black trousers, compact proportions and bare cat-like feet are visible."
+    },
+    "acceptance": "Historical D-style redraw. The active three-view image is turnaround.png, selected from the subtle face-emphasis result by the user."
+  },
+  "expressions": {
+    "base": "E:\\program\\1project\\video\\assets\\人生体验\\characters\\catman-20261113\\character-reference\\face-style-D.png",
+    "count": 24,
+    "existing_16_copied_without_modification": true,
+    "new_variants": [
+      [
+        "joyful-laugh",
+        "Joyful laugh: eyes curve into happy crescents but retain the same eye placement; mouth opens in a clear cheerful laugh with a small visible dark mouth interior, no teeth, no tongue, no changed muzzle."
+      ],
+      [
+        "sad-tears",
+        "Sad with tears: upper eyelids lift slightly, pupils look down, two small clean tear shapes sit below the eyes, mouth corners turn down clearly; do not alter face outline or markings."
+      ],
+      [
+        "surprised",
+        "Surprised: eyes open wider without changing their size or spacing, pupils centered, mouth opens into a small round shape; no giant eyes and no face deformation."
+      ],
+      [
+        "fear-panic",
+        "Fear/panic: eyelids raised, pupils slightly contracted, gaze fixed forward, mouth open in a tense small gasp; dramatic but controlled, no screaming distortion."
+      ],
+      [
+        "intense-anger",
+        "Intense anger: eyelids lower strongly, pupils fixed in a sharp direct gaze, mouth opens in a firm angry call with visible dark mouth interior but no teeth; keep head and muzzle geometry unchanged."
+      ],
+      [
+        "disgust",
+        "Disgust: one eyelid lowers more than the other, gaze shifts sideways, mouth tightens with a slight asymmetric curl; clearly displeased but do not warp cheeks or nose."
+      ],
+      [
+        "deep-grief",
+        "Deep grief: eyelids press closed, two bold but simple tear streams on the cream cheek areas, mouth opens in a sorrowful cry; preserve all fur colors and stripe marks beneath/around tears."
+      ],
+      [
+        "exhausted",
+        "Exhaustion: eyelids nearly closed, pupils low, mouth slightly open as if breathing out, expression visibly drained; no change to cheek silhouette, fur colors or tabby map."
+      ]
+    ],
+    "identity_lock_prompt": "Edit the supplied D-style face image directly. Preserve its exact face outline, head proportions, folded ears, eye placement and spacing, nose, muzzle, whiskers, cream/orange colors, forehead blaze/M, and every stripe's count, location, direction, width and color. Preserve the D graphic-flat line weight, crop, white background and composition. Change only eyelids, gaze/pupils, mouth expression, and the specifically requested emotion marks such as tears. Do not redesign, slim, enlarge eyes, move markings, recolor fur, add extra stripes, photorealize, or add objects/text.",
+    "results": [
+      {
+        "expression": "neutral",
+        "source": "E:\\program\\1project\\video\\assets\\人生体验\\characters\\catman-20261113\\character-reference\\face-style-D.png",
+        "file": "E:\\program\\1project\\video\\assets\\人生体验\\characters\\catman-20261113\\character-reference\\expressions\\neutral.png",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "bytes": 1694181,
+        "sha256": "315ea83bf3ff9c2ffee039d56a0049826bcb7db3529ae28e441d2222633177b1",
+        "ok": true,
+        "copied_unchanged": true
+      },
+      {
+        "expression": "tired",
+        "source": "E:\\program\\1project\\video\\assets\\人生体验\\characters\\catman-20261113\\reference-v9-d-candidate\\expressions\\tired.png",
+        "file": "E:\\program\\1project\\video\\assets\\人生体验\\characters\\catman-20261113\\character-reference\\expressions\\tired.png",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "bytes": 1784463,
+        "sha256": "e2addabd399b1b4efbf7a78ede86700717cf152c4892dad232cafe9b3935894b",
+        "ok": true,
+        "copied_unchanged": true
+      },
+      {
+        "expression": "dazed",
+        "source": "E:\\program\\1project\\video\\assets\\人生体验\\characters\\catman-20261113\\reference-v9-d-candidate\\expressions\\dazed.png",
+        "file": "E:\\program\\1project\\video\\assets\\人生体验\\characters\\catman-20261113\\character-reference\\expressions\\dazed.png",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "bytes": 1721800,
+        "sha256": "3dddb76d08ced6909fabab048dac1dca4e32a2cdaac4f2602ce929bd2f9bff00",
+        "ok": true,
+        "copied_unchanged": true
+      },
+      {
+        "expression": "awkward",
+        "source": "E:\\program\\1project\\video\\assets\\人生体验\\characters\\catman-20261113\\reference-v9-d-candidate\\expressions\\awkward.png",
+        "file": "E:\\program\\1project\\video\\assets\\人生体验\\characters\\catman-20261113\\character-reference\\expressions\\awkward.png",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "bytes": 1720096,
+        "sha256": "1b48d3bc360863dbd0da08e224de24224b3555d34f062477fea146ec72425c6d",
+        "ok": true,
+        "copied_unchanged": true
+      },
+      {
+        "expression": "restrained-smile",
+        "source": "E:\\program\\1project\\video\\assets\\人生体验\\characters\\catman-20261113\\reference-v9-d-candidate\\expressions\\restrained-smile.png",
+        "file": "E:\\program\\1project\\video\\assets\\人生体验\\characters\\catman-20261113\\character-reference\\expressions\\restrained-smile.png",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "bytes": 1806986,
+        "sha256": "979686a0d6e86d125aa0aa628d56f669991bc2c5527eb509d94629641c2a2a85",
+        "ok": true,
+        "copied_unchanged": true
+      },
+      {
+        "expression": "holding-back",
+        "source": "E:\\program\\1project\\video\\assets\\人生体验\\characters\\catman-20261113\\reference-v9-d-candidate\\expressions\\holding-back.png",
+        "file": "E:\\program\\1project\\video\\assets\\人生体验\\characters\\catman-20261113\\character-reference\\expressions\\holding-back.png",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "bytes": 1829480,
+        "sha256": "068e2be25761c33f792513d0dd9308e412b8e58ba5aa8b777d1588173cad31b7",
+        "ok": true,
+        "copied_unchanged": true
+      },
+      {
+        "expression": "hopeful",
+        "source": "E:\\program\\1project\\video\\assets\\人生体验\\characters\\catman-20261113\\reference-v9-d-candidate\\expressions\\hopeful.png",
+        "file": "E:\\program\\1project\\video\\assets\\人生体验\\characters\\catman-20261113\\character-reference\\expressions\\hopeful.png",
+        "dimensions": [
+          1535,
+          1024
+        ],
+        "bytes": 1675925,
+        "sha256": "d3926e99a231509ad40324b2c27137ef1dbc16ec310813224e24a90fea892c49",
+        "ok": true,
+        "copied_unchanged": true
+      },
+      {
+        "expression": "disappointed",
+        "source": "E:\\program\\1project\\video\\assets\\人生体验\\characters\\catman-20261113\\reference-v9-d-candidate\\expressions\\disappointed.png",
+        "file": "E:\\program\\1project\\video\\assets\\人生体验\\characters\\catman-20261113\\character-reference\\expressions\\disappointed.png",
+        "dimensions": [
+          1535,
+          1024
+        ],
+        "bytes": 1700055,
+        "sha256": "44e9c106f115dcff4410b5101f4bb0bb775bf69405c4a28f2577709a30811da6",
+        "ok": true,
+        "copied_unchanged": true
+      },
+      {
+        "expression": "determined",
+        "source": "E:\\program\\1project\\video\\assets\\人生体验\\characters\\catman-20261113\\reference-v9-d-candidate\\expressions\\determined.png",
+        "file": "E:\\program\\1project\\video\\assets\\人生体验\\characters\\catman-20261113\\character-reference\\expressions\\determined.png",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "bytes": 1802028,
+        "sha256": "c0bc30f6a870f3001798ecf2f48d61345fcd16038d5792ec2877787be58dc3c6",
+        "ok": true,
+        "copied_unchanged": true
+      },
+      {
+        "expression": "joyful",
+        "source": "E:\\program\\1project\\video\\assets\\人生体验\\characters\\catman-20261113\\reference-v9-d-candidate\\expressions\\joyful.png",
+        "file": "E:\\program\\1project\\video\\assets\\人生体验\\characters\\catman-20261113\\character-reference\\expressions\\joyful.png",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "bytes": 1806429,
+        "sha256": "cdfb6a91c226807e4ab22994ac8169526157b999cde2d94556aa0200c420dd76",
+        "ok": true,
+        "copied_unchanged": true
+      },
+      {
+        "expression": "controlled-anger",
+        "source": "E:\\program\\1project\\video\\assets\\人生体验\\characters\\catman-20261113\\reference-v9-d-candidate\\expressions\\controlled-anger.png",
+        "file": "E:\\program\\1project\\video\\assets\\人生体验\\characters\\catman-20261113\\character-reference\\expressions\\controlled-anger.png",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "bytes": 1752867,
+        "sha256": "7596267234c4b738f826ae69be56129c1e43ec7bafa37fdd5190bdd200c1c556",
+        "ok": true,
+        "copied_unchanged": true
+      },
+      {
+        "expression": "worried",
+        "source": "E:\\program\\1project\\video\\assets\\人生体验\\characters\\catman-20261113\\reference-v9-d-candidate\\expressions\\worried.png",
+        "file": "E:\\program\\1project\\video\\assets\\人生体验\\characters\\catman-20261113\\character-reference\\expressions\\worried.png",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "bytes": 1184476,
+        "sha256": "c68c124b6fa874138d3885a09447d33d516ff5c2a51174623c8e69612ffc8065",
+        "ok": true,
+        "copied_unchanged": true
+      },
+      {
+        "expression": "relieved",
+        "source": "E:\\program\\1project\\video\\assets\\人生体验\\characters\\catman-20261113\\reference-v9-d-candidate\\expressions\\relieved.png",
+        "file": "E:\\program\\1project\\video\\assets\\人生体验\\characters\\catman-20261113\\character-reference\\expressions\\relieved.png",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "bytes": 1703451,
+        "sha256": "5e96a131d0e9081dbd9711491c6beb8f6d9395fdb55926939221b8ff10d95cf8",
+        "ok": true,
+        "copied_unchanged": true
+      },
+      {
+        "expression": "curious",
+        "source": "E:\\program\\1project\\video\\assets\\人生体验\\characters\\catman-20261113\\reference-v9-d-candidate\\expressions\\curious.png",
+        "file": "E:\\program\\1project\\video\\assets\\人生体验\\characters\\catman-20261113\\character-reference\\expressions\\curious.png",
+        "dimensions": [
+          1535,
+          1024
+        ],
+        "bytes": 1694390,
+        "sha256": "bdb3d8ab9d0febf6e7eb8b7af63e9df6457981ab1abca6e761a9217bb0167a99",
+        "ok": true,
+        "copied_unchanged": true
+      },
+      {
+        "expression": "confused",
+        "source": "E:\\program\\1project\\video\\assets\\人生体验\\characters\\catman-20261113\\reference-v9-d-candidate\\expressions\\confused.png",
+        "file": "E:\\program\\1project\\video\\assets\\人生体验\\characters\\catman-20261113\\character-reference\\expressions\\confused.png",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "bytes": 1797685,
+        "sha256": "dfc32018acac409d60218e3d3b97cc7eeab4fe089171991dc617b775236dad85",
+        "ok": true,
+        "copied_unchanged": true
+      },
+      {
+        "expression": "resigned",
+        "source": "E:\\program\\1project\\video\\assets\\人生体验\\characters\\catman-20261113\\reference-v9-d-candidate\\expressions\\resigned.png",
+        "file": "E:\\program\\1project\\video\\assets\\人生体验\\characters\\catman-20261113\\character-reference\\expressions\\resigned.png",
+        "dimensions": [
+          1535,
+          1024
+        ],
+        "bytes": 1671136,
+        "sha256": "a34169deff4b09a6ba616b7e1d62643c0384c93d46f8d5c8af8d22d83f560748",
+        "ok": true,
+        "copied_unchanged": true
+      },
+      {
+        "status": 200,
+        "elapsed_s": 48.8,
+        "prompt": "Edit the supplied D-style face image directly. Preserve its exact face outline, head proportions, folded ears, eye placement and spacing, nose, muzzle, whiskers, cream/orange colors, forehead blaze/M, and every stripe's count, location, direction, width and color. Preserve the D graphic-flat line weight, crop, white background and composition. Change only eyelids, gaze/pupils, mouth expression, and the specifically requested emotion marks such as tears. Do not redesign, slim, enlarge eyes, move markings, recolor fur, add extra stripes, photorealize, or add objects/text. Expression: Joyful laugh: eyes curve into happy crescents but retain the same eye placement; mouth opens in a clear cheerful laugh with a small visible dark mouth interior, no teeth, no tongue, no changed muzzle.",
+        "delivery": "b64_json",
+        "ok": true,
+        "file": "E:\\program\\1project\\video\\assets\\人生体验\\characters\\catman-20261113\\character-reference\\expressions\\joyful-laugh.png",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "bytes": 1756154,
+        "sha256": "268ba9abe5e3adeba5760f4d15efa491ec18d757d742a75b41d0fe1987304fc2",
+        "expression": "joyful-laugh"
+      },
+      {
+        "status": 200,
+        "elapsed_s": 41.0,
+        "prompt": "Edit the supplied D-style face image directly. Preserve its exact face outline, head proportions, folded ears, eye placement and spacing, nose, muzzle, whiskers, cream/orange colors, forehead blaze/M, and every stripe's count, location, direction, width and color. Preserve the D graphic-flat line weight, crop, white background and composition. Change only eyelids, gaze/pupils, mouth expression, and the specifically requested emotion marks such as tears. Do not redesign, slim, enlarge eyes, move markings, recolor fur, add extra stripes, photorealize, or add objects/text. Expression: Sad with tears: upper eyelids lift slightly, pupils look down, two small clean tear shapes sit below the eyes, mouth corners turn down clearly; do not alter face outline or markings.",
+        "delivery": "b64_json",
+        "ok": true,
+        "file": "E:\\program\\1project\\video\\assets\\人生体验\\characters\\catman-20261113\\character-reference\\expressions\\sad-tears.png",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "bytes": 1797019,
+        "sha256": "049140c4cdf6d9a919a4969b94f1fb69628d6fca6ed7b0d0872ad46015b5dd57",
+        "expression": "sad-tears"
+      },
+      {
+        "status": 200,
+        "elapsed_s": 38.2,
+        "prompt": "Edit the supplied D-style face image directly. Preserve its exact face outline, head proportions, folded ears, eye placement and spacing, nose, muzzle, whiskers, cream/orange colors, forehead blaze/M, and every stripe's count, location, direction, width and color. Preserve the D graphic-flat line weight, crop, white background and composition. Change only eyelids, gaze/pupils, mouth expression, and the specifically requested emotion marks such as tears. Do not redesign, slim, enlarge eyes, move markings, recolor fur, add extra stripes, photorealize, or add objects/text. Expression: Surprised: eyes open wider without changing their size or spacing, pupils centered, mouth opens into a small round shape; no giant eyes and no face deformation.",
+        "delivery": "b64_json",
+        "ok": true,
+        "file": "E:\\program\\1project\\video\\assets\\人生体验\\characters\\catman-20261113\\character-reference\\expressions\\surprised.png",
+        "dimensions": [
+          1535,
+          1024
+        ],
+        "bytes": 1705791,
+        "sha256": "996bc08b668ef52c8ec2fca28a2e8a4ddba8f5f38ef6c40c5c151746964ad3dc",
+        "expression": "surprised"
+      },
+      {
+        "status": 200,
+        "elapsed_s": 37.5,
+        "prompt": "Edit the supplied D-style face image directly. Preserve its exact face outline, head proportions, folded ears, eye placement and spacing, nose, muzzle, whiskers, cream/orange colors, forehead blaze/M, and every stripe's count, location, direction, width and color. Preserve the D graphic-flat line weight, crop, white background and composition. Change only eyelids, gaze/pupils, mouth expression, and the specifically requested emotion marks such as tears. Do not redesign, slim, enlarge eyes, move markings, recolor fur, add extra stripes, photorealize, or add objects/text. Expression: Fear/panic: eyelids raised, pupils slightly contracted, gaze fixed forward, mouth open in a tense small gasp; dramatic but controlled, no screaming distortion.",
+        "delivery": "b64_json",
+        "ok": true,
+        "file": "E:\\program\\1project\\video\\assets\\人生体验\\characters\\catman-20261113\\character-reference\\expressions\\fear-panic.png",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "bytes": 1736004,
+        "sha256": "89f0799051ee69a430a25c1a411b72b17afc7a3dcd833e1f56f47579846dc547",
+        "expression": "fear-panic"
+      },
+      {
+        "status": 200,
+        "elapsed_s": 43.2,
+        "prompt": "Edit the supplied D-style face image directly. Preserve its exact face outline, head proportions, folded ears, eye placement and spacing, nose, muzzle, whiskers, cream/orange colors, forehead blaze/M, and every stripe's count, location, direction, width and color. Preserve the D graphic-flat line weight, crop, white background and composition. Change only eyelids, gaze/pupils, mouth expression, and the specifically requested emotion marks such as tears. Do not redesign, slim, enlarge eyes, move markings, recolor fur, add extra stripes, photorealize, or add objects/text. Expression: Intense anger: eyelids lower strongly, pupils fixed in a sharp direct gaze, mouth opens in a firm angry call with visible dark mouth interior but no teeth; keep head and muzzle geometry unchanged.",
+        "delivery": "b64_json",
+        "ok": true,
+        "file": "E:\\program\\1project\\video\\assets\\人生体验\\characters\\catman-20261113\\character-reference\\expressions\\intense-anger.png",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "bytes": 1192648,
+        "sha256": "c524e5d6f413549ab6112759fc8c1dcb0d83bd14156a397f3825852163cdf1c6",
+        "expression": "intense-anger"
+      },
+      {
+        "status": 200,
+        "elapsed_s": 37.6,
+        "prompt": "Edit the supplied D-style face image directly. Preserve its exact face outline, head proportions, folded ears, eye placement and spacing, nose, muzzle, whiskers, cream/orange colors, forehead blaze/M, and every stripe's count, location, direction, width and color. Preserve the D graphic-flat line weight, crop, white background and composition. Change only eyelids, gaze/pupils, mouth expression, and the specifically requested emotion marks such as tears. Do not redesign, slim, enlarge eyes, move markings, recolor fur, add extra stripes, photorealize, or add objects/text. Expression: Disgust: one eyelid lowers more than the other, gaze shifts sideways, mouth tightens with a slight asymmetric curl; clearly displeased but do not warp cheeks or nose.",
+        "delivery": "b64_json",
+        "ok": true,
+        "file": "E:\\program\\1project\\video\\assets\\人生体验\\characters\\catman-20261113\\character-reference\\expressions\\disgust.png",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "bytes": 1728546,
+        "sha256": "cbae9fd47f5bb174f72a55cd11dc9d5e8ba60094fc5e29535b3834dcc0972110",
+        "expression": "disgust"
+      },
+      {
+        "status": 200,
+        "elapsed_s": 39.5,
+        "prompt": "Edit the supplied D-style face image directly. Preserve its exact face outline, head proportions, folded ears, eye placement and spacing, nose, muzzle, whiskers, cream/orange colors, forehead blaze/M, and every stripe's count, location, direction, width and color. Preserve the D graphic-flat line weight, crop, white background and composition. Change only eyelids, gaze/pupils, mouth expression, and the specifically requested emotion marks such as tears. Do not redesign, slim, enlarge eyes, move markings, recolor fur, add extra stripes, photorealize, or add objects/text. Expression: Deep grief: eyelids press closed, two bold but simple tear streams on the cream cheek areas, mouth opens in a sorrowful cry; preserve all fur colors and stripe marks beneath/around tears.",
+        "delivery": "b64_json",
+        "ok": true,
+        "file": "E:\\program\\1project\\video\\assets\\人生体验\\characters\\catman-20261113\\character-reference\\expressions\\deep-grief.png",
+        "dimensions": [
+          1535,
+          1024
+        ],
+        "bytes": 1704885,
+        "sha256": "37738d4c2efa433befdc5e9adc9b3b2b43be30208fe488a992c07ae99ba8b11f",
+        "expression": "deep-grief"
+      },
+      {
+        "status": 200,
+        "elapsed_s": 37.9,
+        "prompt": "Edit the supplied D-style face image directly. Preserve its exact face outline, head proportions, folded ears, eye placement and spacing, nose, muzzle, whiskers, cream/orange colors, forehead blaze/M, and every stripe's count, location, direction, width and color. Preserve the D graphic-flat line weight, crop, white background and composition. Change only eyelids, gaze/pupils, mouth expression, and the specifically requested emotion marks such as tears. Do not redesign, slim, enlarge eyes, move markings, recolor fur, add extra stripes, photorealize, or add objects/text. Expression: Exhaustion: eyelids nearly closed, pupils low, mouth slightly open as if breathing out, expression visibly drained; no change to cheek silhouette, fur colors or tabby map.",
+        "delivery": "b64_json",
+        "ok": true,
+        "file": "E:\\program\\1project\\video\\assets\\人生体验\\characters\\catman-20261113\\character-reference\\expressions\\exhausted.png",
+        "dimensions": [
+          1535,
+          1024
+        ],
+        "bytes": 1235512,
+        "sha256": "a8f6a52b79872e1b96bdceb0ab13590c3bfd628527a363f22ec9086c1bfda996",
+        "expression": "exhausted"
+      }
+    ],
+    "contact_sheet": "E:\\program\\1project\\video\\assets\\人生体验\\characters\\catman-20261113\\character-reference\\expressions-24-contact.jpg",
+      "acceptance": {
+        "contact_sheet_reviewed": true,
+        "visual_qa": "The 24 states remain recognizable as the same orange-and-cream folded-ear cat at thumbnail scale. The eight additions provide stronger contrast: laugh, tears, surprise, panic, intense anger, disgust, grief and exhaustion. Minor generated variation in fur strokes remains possible; raw images were left unmodified.",
+        "style": "The D graphic-flat look and white face-only layout are consistent across the sheet.",
+        "dimensions": "All raw images remain at returned sizes; any 1535-pixel-wide images were not stretched."
+      }
+  },
+  "active_reference": {
+    "turnaround": "E:\\program\\1project\\video\\assets\\人生体验\\characters\\catman-20261113\\character-reference\\turnaround.png",
+    "selection": "subtle facial-feature emphasis, selected by user on 2026-11-17",
+    "sha256": "1b469371ed0ae7e4d0d0d191a9bd0611c5e6d5e237bba1f4733c532d2dca3e86",
+    "identity_source": "E:\\program\\1project\\video\\assets\\人生体验\\characters\\catman-20261113\\character-reference\\identity-source-original.png",
+    "identity_check_face": "E:\\program\\1project\\video\\assets\\人生体验\\characters\\catman-20261113\\character-reference\\ref-face.png",
+    "expressions": "E:\\program\\1project\\video\\assets\\人生体验\\characters\\catman-20261113\\character-reference\\expressions",
+    "visual_qa": "Three full-body views are present. The original exploration noted minor stripe redrawing and hoodie-fold drift; inspect those details in production shots."
+  },
+  "errors": [],
+  "next_step": "Use active_reference for new production shots. Historical source paths in this manifest document provenance, not current references."
+}
+

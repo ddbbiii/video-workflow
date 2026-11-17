@@ -1,0 +1,47 @@
+{
+  "purpose": "A/B concept test for cat-head integration in the life-experience line",
+  "channel": "new2",
+  "model": "AZ-gpt-image-2",
+  "endpoint": "https://xxcapi.com/v1/images/edits",
+  "reference": "E:\\program\\1project\\video\\assets\\人生体验\\characters\\catman-20261113\\reference-v8\\ref-face.png",
+  "requested_dimensions": "1672x941",
+  "common_prompt": "Create a polished 2D hand-drawn narrative illustration in a horizontal 16:9 frame. Use Image 1 only as the protagonist's identity reference. The protagonist is the same orange Scottish Fold cat-headed person: compact round head, full cheeks, short muzzle, small ears folded forward, large round black eyes with a narrow amber rim and a small highlight, pink nose, cream muzzle, white whiskers, cream-orange tabby markings including the forehead M, and a white chest bib. He has a short stocky upright human body about 3.2 head-heights, very short neck, narrow shoulders, grey hoodie and black trousers; hands and feet are small rounded cat paws, no shoes, no tail. The head, short neck and hoodie collar must read as one deliberately designed character silhouette: the hood and collar gently support the base of the head, shoulders sit naturally beneath it, and there is no visible seam, floating head, or pasted-on effect. One consistent dark grey-blue outline weight and coherent light direction across head and body. Character uses clean flat fills and restrained hard-edged shadows; background is a carefully painted apartment corridor with a visible doorway and wall lamp, subtle depth, contact shadow, and soft ambient light. Medium shot, three-quarter view, character slightly off-center, relaxed neutral expression, both cat paws visible near the hoodie hem. Cool-neutral muted palette with a small warm lamp accent. No text, letters, numbers, watermark, logo, photoreal human skin, 3D render, plastic toy look, extra limbs, or human fingers.",
+  "variant_prompts": {
+    "A-graphic-face": "Variant A: preserve the cat's recognizable identity anchors and expression, but translate the face into the same graphic hand-drawn language as the body. Render fur as a few broad, clean flat shapes; keep only a small number of short tabby strokes. Simplify tiny fur strands and fine facial texture. The eyes, folded ears, round cheeks, short muzzle, nose, whiskers and M marking remain clear and recognizable.",
+    "B-feature-preserved": "Variant B: preserve the reference cat's facial features and markings as closely as possible: the exact round cheek silhouette, folded ear shape, eye spacing and shape, short muzzle, pink nose, cream muzzle, white whiskers, forehead M and cheek tabby pattern. Keep the face more detailed than Variant A, while rendering its fur in controlled illustrated strokes and giving its outlines, shadow direction and edge quality the same hand-drawn finish as the hoodie and body. Do not change the identity or make the head larger than the reference character proportions."
+  },
+  "results": [
+    {
+      "variant": "A-graphic-face",
+      "status": 200,
+      "elapsed_s": 43.9,
+      "ok": true,
+      "file": "E:\\program\\1project\\video\\projects\\人生体验\\visual-tests\\20261117-cathead-integration-v1\\A-graphic-face.png",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "bytes": 1852726,
+      "delivery": "b64_json"
+    },
+    {
+      "variant": "B-feature-preserved",
+      "status": 200,
+      "elapsed_s": 41.2,
+      "ok": true,
+      "file": "E:\\program\\1project\\video\\projects\\人生体验\\visual-tests\\20261117-cathead-integration-v1\\B-feature-preserved.png",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "bytes": 2184392,
+      "delivery": "b64_json"
+    }
+  ],
+  "contact_sheet": "E:\\program\\1project\\video\\projects\\人生体验\\visual-tests\\20261117-cathead-integration-v1\\contact-sheet.jpg",
+  "acceptance": {
+    "A-graphic-face": "PASS as a style exploration. The head-body rendering contrast is reduced, but the simplified face shifts the character toward a mascot-like design and loses some of the desired facial specificity.",
+    "B-feature-preserved": "PASS as the stronger direction. Folded ears, eye spacing, cheeks, muzzle, nose and tabby markings remain recognizable; the hoodie collar and shared outline treatment connect the head to the body. The face remains more detailed than the body, but reads as an illustrated character rather than a pasted photo."
+  },
+  "next_step": "Use B as the preferred direction for the next life-experience style sample; retain the current face identity and tune only fur texture density and head-to-hood transition."
+}

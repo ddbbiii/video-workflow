@@ -1,7 +1,7 @@
 # 助眠解说规则 · 入口
 
 > 本目录是助眠线路规则的唯一真源。2026-11-14 按「纯正文」口径收敛：删片头、配音、字幕烧录、成品库相关模块。
-> 重组前原文备份：`E:\program\1project\video-archive\20261114-body-only\rules-obsolete\`。
+> 重组前原文备份：仓库旁 `../video-archive/20261114-body-only/rules-obsolete/`。
 
 ## 模块
 

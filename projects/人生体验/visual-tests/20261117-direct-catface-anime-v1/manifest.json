@@ -1,0 +1,90 @@
+{
+  "purpose": "Four anime rendering styles applied directly to the uploaded cat-face image",
+  "channel": "new2",
+  "model": "AZ-gpt-image-2",
+  "endpoint": "https://xxcapi.com/v1/images/edits",
+  "reference": "E:\\Temp\\codex-clipboard-8c0cdac7-cca4-4e5e-8cc0-8e76ab5f09f2.png",
+  "reference_dimensions": [
+    1764,
+    1177
+  ],
+  "requested_dimensions": "1536x1024",
+  "identity_and_composition_lock": "Edit Image 1 directly. This is a style-rendering change only. Preserve the exact original composition, camera, crop, framing, head size and placement, orientation, pose, and plain white background. Show only the same cat face as in the source: no body, shoulders, clothing, props, scene, added objects, text, or border. Preserve identity geometry exactly: broad full cheek silhouette; exact eye spacing, shape, and size; folded ear shape and placement; nose placement and shape; muzzle width and proportions; whiskers; and the exact placement, shape, and direction of every forehead blaze and stripe. Do not slim or reshape the face, enlarge the eyes, move features, change markings, beautify, or make a generic kawaii redesign. Do not retain photographic fur rendering, photorealistic texture, glossy photo highlights, or 3D volume. Keep the result clearly drawn as 2D anime art.",
+  "style_prompts": {
+    "A-clean-cel": "Render in clean cel anime: crisp, confident contour lines; broad, simple flat color fills; a few carefully placed flat shadow shapes; minimal interior linework. Keep the original colors and all identity details in their exact original positions.",
+    "B-hand-ink": "Render as hand-drawn anime ink art: assured, slightly organic ink contours and only a few purposeful strokes that clarify the original stripes, muzzle, and whiskers. Use restrained flat color groups and very limited shadow. No scratchy sketching or extra decorative strokes.",
+    "C-storybook-painted": "Render as a soft Japanese storybook painting in drawn anime style. Simplify fur into a few broad, grouped painted shapes with gentle brush edges, while keeping the cheek, eyes, ears, muzzle, nose, whiskers, and markings geometrically identical to the source. Keep the white background white. It must still look illustrated, not photographic.",
+    "D-bold-graphic": "Render as elegant graphic 2D animation art: a bold but refined outer contour, clean interior lines, broad flat color regions, and a small number of controlled shadow shapes. Keep the same source colors and marking layout, with no poster elements, graphic framing, or added design."
+  },
+  "full_prompts": {
+    "A-clean-cel": "Edit Image 1 directly. This is a style-rendering change only. Preserve the exact original composition, camera, crop, framing, head size and placement, orientation, pose, and plain white background. Show only the same cat face as in the source: no body, shoulders, clothing, props, scene, added objects, text, or border. Preserve identity geometry exactly: broad full cheek silhouette; exact eye spacing, shape, and size; folded ear shape and placement; nose placement and shape; muzzle width and proportions; whiskers; and the exact placement, shape, and direction of every forehead blaze and stripe. Do not slim or reshape the face, enlarge the eyes, move features, change markings, beautify, or make a generic kawaii redesign. Do not retain photographic fur rendering, photorealistic texture, glossy photo highlights, or 3D volume. Keep the result clearly drawn as 2D anime art. Render in clean cel anime: crisp, confident contour lines; broad, simple flat color fills; a few carefully placed flat shadow shapes; minimal interior linework. Keep the original colors and all identity details in their exact original positions.",
+    "B-hand-ink": "Edit Image 1 directly. This is a style-rendering change only. Preserve the exact original composition, camera, crop, framing, head size and placement, orientation, pose, and plain white background. Show only the same cat face as in the source: no body, shoulders, clothing, props, scene, added objects, text, or border. Preserve identity geometry exactly: broad full cheek silhouette; exact eye spacing, shape, and size; folded ear shape and placement; nose placement and shape; muzzle width and proportions; whiskers; and the exact placement, shape, and direction of every forehead blaze and stripe. Do not slim or reshape the face, enlarge the eyes, move features, change markings, beautify, or make a generic kawaii redesign. Do not retain photographic fur rendering, photorealistic texture, glossy photo highlights, or 3D volume. Keep the result clearly drawn as 2D anime art. Render as hand-drawn anime ink art: assured, slightly organic ink contours and only a few purposeful strokes that clarify the original stripes, muzzle, and whiskers. Use restrained flat color groups and very limited shadow. No scratchy sketching or extra decorative strokes.",
+    "C-storybook-painted": "Edit Image 1 directly. This is a style-rendering change only. Preserve the exact original composition, camera, crop, framing, head size and placement, orientation, pose, and plain white background. Show only the same cat face as in the source: no body, shoulders, clothing, props, scene, added objects, text, or border. Preserve identity geometry exactly: broad full cheek silhouette; exact eye spacing, shape, and size; folded ear shape and placement; nose placement and shape; muzzle width and proportions; whiskers; and the exact placement, shape, and direction of every forehead blaze and stripe. Do not slim or reshape the face, enlarge the eyes, move features, change markings, beautify, or make a generic kawaii redesign. Do not retain photographic fur rendering, photorealistic texture, glossy photo highlights, or 3D volume. Keep the result clearly drawn as 2D anime art. Render as a soft Japanese storybook painting in drawn anime style. Simplify fur into a few broad, grouped painted shapes with gentle brush edges, while keeping the cheek, eyes, ears, muzzle, nose, whiskers, and markings geometrically identical to the source. Keep the white background white. It must still look illustrated, not photographic.",
+    "D-bold-graphic": "Edit Image 1 directly. This is a style-rendering change only. Preserve the exact original composition, camera, crop, framing, head size and placement, orientation, pose, and plain white background. Show only the same cat face as in the source: no body, shoulders, clothing, props, scene, added objects, text, or border. Preserve identity geometry exactly: broad full cheek silhouette; exact eye spacing, shape, and size; folded ear shape and placement; nose placement and shape; muzzle width and proportions; whiskers; and the exact placement, shape, and direction of every forehead blaze and stripe. Do not slim or reshape the face, enlarge the eyes, move features, change markings, beautify, or make a generic kawaii redesign. Do not retain photographic fur rendering, photorealistic texture, glossy photo highlights, or 3D volume. Keep the result clearly drawn as 2D anime art. Render as elegant graphic 2D animation art: a bold but refined outer contour, clean interior lines, broad flat color regions, and a small number of controlled shadow shapes. Keep the same source colors and marking layout, with no poster elements, graphic framing, or added design."
+  },
+  "results": [
+    {
+      "variant": "A-clean-cel",
+      "status": 200,
+      "elapsed_s": 51.4,
+      "ok": true,
+      "file": "E:\\program\\1project\\video\\projects\\人生体验\\visual-tests\\20261117-direct-catface-anime-v1\\A-clean-cel.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 1710792,
+      "delivery": "b64_json"
+    },
+    {
+      "variant": "B-hand-ink",
+      "status": 200,
+      "elapsed_s": 42.3,
+      "ok": true,
+      "file": "E:\\program\\1project\\video\\projects\\人生体验\\visual-tests\\20261117-direct-catface-anime-v1\\B-hand-ink.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 1857296,
+      "delivery": "b64_json"
+    },
+    {
+      "variant": "C-storybook-painted",
+      "status": 200,
+      "elapsed_s": 43.8,
+      "ok": true,
+      "file": "E:\\program\\1project\\video\\projects\\人生体验\\visual-tests\\20261117-direct-catface-anime-v1\\C-storybook-painted.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 2156206,
+      "delivery": "b64_json"
+    },
+    {
+      "variant": "D-bold-graphic",
+      "status": 200,
+      "elapsed_s": 41.8,
+      "ok": true,
+      "file": "E:\\program\\1project\\video\\projects\\人生体验\\visual-tests\\20261117-direct-catface-anime-v1\\D-bold-graphic.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 1694181,
+      "delivery": "b64_json"
+    }
+  ],
+  "contact_sheet": "E:\\program\\1project\\video\\projects\\人生体验\\visual-tests\\20261117-direct-catface-anime-v1\\contact-sheet.jpg",
+  "acceptance": {
+    "contact_sheet_reviewed": true,
+    "composition": "All four retain a face-only horizontal crop on white with no body, props, or added scene elements.",
+    "identity_geometry": "Broad cheek silhouette, folded ears, eye spacing, nose, muzzle, whiskers, and stripe/blaze layout remain recognizable across the four thumbnails; this thumbnail review does not certify pixel-level geometric identity.",
+    "A-clean-cel": "Clean contour and flatter fills, though substantial fine fur marks remain.",
+    "B-hand-ink": "Intentional drawn linework; finer fur strokes remain more numerous than the requested few.",
+    "C-storybook-painted": "Softest painterly treatment, with grouped fur forms and drawn appearance.",
+    "D-bold-graphic": "Most clearly graphic 2D result, with bold contour, flat groups, and controlled shadows.",
+    "overall": "All four are acceptable as style explorations. Treat D as the strongest flat animation treatment and C as the strongest soft storybook treatment. Verify detailed identity geometry at full size before any production use."
+  }
+}

@@ -12,7 +12,7 @@
 ## 二、字数与断句
 
 - **每条 ≤20 可见字**：汉字、数字、拉丁字母各计 1；标点、空格、省略号、破折号不计。
-- 单行，不换行；渲染宽度 ≤画幅 80%。
+- 单行，不换行；纯 SRT 不锁定播放端字体，因此默认只验字数。指定渲染字体时再验宽度 ≤画幅 80%。
 - 只在分句标点处拆：`。！？` → `；：` → `，、` → `—— ……`；不按字符硬切。
 - 一句拆成多条时，该句起止不变，按各条可见字数占比分时，条间零空档、零重叠。
 - 全部 cue 去标点按序拼接，必须与锁定正文完全一致（G1）。
@@ -43,12 +43,12 @@ python shared/workflows/subtitles/split_srt.py <ep>/subtitles/r1/sentences.srt `
 python shared/workflows/subtitles/check_srt.py <ep>/video/srt/<线路>_<剧名>_正文_vN.srt --json <ep>/qa/srt.json
 ```
 
-- `check_srt.py` 退出码非 0 不得交付；`over_limit`、`over_width`、时间轴倒挂/重叠必须为 0。
+- `check_srt.py` 退出码非 0 不得交付；`over_limit`、时间轴倒挂/重叠必须为 0。指定 `--font` 时 `over_width` 也必须为 0。
 - 分句本身 >20 字且无标点：默认 FAIL，退回改稿；已锁定无法改稿时才可加 `--allow-word-split`，并在报告披露。
 
 ## 五、验收与留档
 
-- 单集 `qa/srt_qa.md` 至少写：cue 数、锁定句数、最大字数、最大渲染宽、`check_srt.py` PASS 输出、首末条时间、估算说明。
+- 单集 `qa/srt_qa.md` 至少写：cue 数、锁定句数、最大字数、`check_srt.py` PASS 输出、首末条时间、估算说明；指定渲染字体时补记最大宽度。
 - SRT 与视频同基名、分目录：视频 `video/final/`，SRT `video/srt/`。
 - 不生成 ASS；不做烧录；不做字体部署；不跑 ASR。
 - 用户委托对轨/烧录时，按当次委托单独处理，不沿用估算时间轴，也不恢复旧 style_r4 默认流程。

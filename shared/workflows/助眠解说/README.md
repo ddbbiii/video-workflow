@@ -1,7 +1,7 @@
 # 助眠解说 · 执行件索引
 
 > 本目录只放可复用的脚本、配置样例与命令，不放规则。规则真源：`rules/助眠解说/`。
-> 2026-11-14：配音（TTS）、片头执行件全部移入 `E:\program\1project\video-archive\20261114-body-only\workflows-obsolete\`，默认不读。
+> 2026-11-14：配音（TTS）、片头执行件全部移入仓库旁 `../video-archive/20261114-body-only/workflows-obsolete/`，默认不读。
 
 ## 可复用
 

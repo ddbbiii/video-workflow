@@ -1,0 +1,78 @@
+{
+  "purpose": "Four-direction style test for cat-head integration with one supporting human character",
+  "channel": "new2",
+  "model": "AZ-gpt-image-2",
+  "endpoint": "https://xxcapi.com/v1/images/edits",
+  "reference": "E:\\program\\1project\\video\\assets\\人生体验\\characters\\catman-20261113\\reference-v8\\ref-face.png",
+  "requested_dimensions": "1672x941",
+  "common_prompt": "Illustrate a 16:9 hand-drawn 2D story scene in a lived-in apartment corridor. Use Image 1 only as the protagonist's identity reference. Show the same orange Scottish Fold cat-headed person: broad round face, full cheeks, short muzzle, small folded ears close to the crown, large dark round eyes with a narrow amber rim, pink nose, cream muzzle, white whiskers, cream-orange tabby markings including the forehead M, and white chest bib. Compact upright human body about 3.2 head-heights, very short neck, gray hoodie, black trousers, rounded cat-paw hands and bare cat-paw feet, no tail. Beside him is the same ordinary human supporting character in every version: a young adult Chinese man with short straight black hair, natural adult body proportions, muted navy jacket over a light shirt and dark trousers. He stands facing the cat character in a calm conversation, hands relaxed. Render both characters with the same clean dark grey-blue outline, flat colors and restrained hard-edged shadows; the human remains recognizably human, not a cat and not a blank mannequin. Background: modest apartment corridor with one doorway, wall lamp, potted plant and subtle wall wear; carefully painted environment with soft depth and contact shadows. Medium-full two-shot, both characters visible from head to mid-shin, cat character on the right and human on the left, similar visual weight, clear space between them. Neutral conversational expressions, no dramatic action. No text, letters, numbers, logo, watermark, photoreal human, 3D render, plastic toy look, extra limbs, human fingers on the cat character, shoes on the cat character, or tail.",
+  "variant_prompts": {
+    "01-balanced-render": "Direction 1, balanced rendering: retain all distinctive facial features and tabby pattern. Use medium fur detail, with a few clean illustrated strokes rather than photographic strands. The cat face and body share one outline weight, one light direction, and the same hard-edged shadow language. Shape the hoodie collar and hood so they gently support the head and visually join the very short neck to the shoulders.",
+    "02-proportion-bridge": "Direction 2, proportion bridge: retain the same facial features and face detail, but make the cat head modestly smaller, about ten percent relative to the previous proportions, and make the shoulders a little broader. Keep the compact 3.2-head-height body and very short neck. Use a clearly shaped hood opening and collar that support the head without hiding the face. Do not turn him into a generic human or a full cat.",
+    "03-bib-collar-flow": "Direction 3, bib and collar flow: keep the current head scale and all facial identity features. Retain the white chest bib, and let the pale inner edge of the hoodie opening visually echo and frame the bib so the face-to-chest transition feels designed as one character. Simplify fur to fewer broader strokes while keeping the forehead M, cheek stripes, eyes, muzzle, nose and whiskers clearly recognizable. Do not turn the bib into a shirt or cover it with the hoodie.",
+    "04-richer-body-language": "Direction 4, body language: keep the current head scale, face details and markings. Give the hoodie and trousers slightly richer hand-drawn treatment with a few deliberate fabric folds, two or three flat tones per garment and the same subtle line character used around the cat face. Keep shadows hard-edged and restrained. The human supporting character uses the same illustration finish. The face may remain the most detailed area, but avoid any photographic or 3D rendering."
+  },
+  "results": [
+    {
+      "variant": "01-balanced-render",
+      "status": 200,
+      "elapsed_s": 46.4,
+      "ok": true,
+      "file": "E:\\program\\1project\\video\\projects\\人生体验\\visual-tests\\20261117-cathead-directions-v1\\01-balanced-render.png",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "bytes": 2151025,
+      "delivery": "b64_json"
+    },
+    {
+      "variant": "02-proportion-bridge",
+      "status": 200,
+      "elapsed_s": 78.1,
+      "ok": true,
+      "file": "E:\\program\\1project\\video\\projects\\人生体验\\visual-tests\\20261117-cathead-directions-v1\\02-proportion-bridge.png",
+      "dimensions": [
+        1671,
+        941
+      ],
+      "bytes": 1304188,
+      "delivery": "b64_json"
+    },
+    {
+      "variant": "03-bib-collar-flow",
+      "status": 200,
+      "elapsed_s": 113.1,
+      "ok": true,
+      "file": "E:\\program\\1project\\video\\projects\\人生体验\\visual-tests\\20261117-cathead-directions-v1\\03-bib-collar-flow.png",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "bytes": 2097559,
+      "delivery": "b64_json"
+    },
+    {
+      "variant": "04-richer-body-language",
+      "status": 200,
+      "elapsed_s": 38.5,
+      "ok": true,
+      "file": "E:\\program\\1project\\video\\projects\\人生体验\\visual-tests\\20261117-cathead-directions-v1\\04-richer-body-language.png",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "bytes": 1990588,
+      "delivery": "b64_json"
+    }
+  ],
+  "contact_sheet": "E:\\program\\1project\\video\\projects\\人生体验\\visual-tests\\20261117-cathead-directions-v1\\contact-sheet.jpg",
+  "acceptance": {
+    "01-balanced-render": "Strongest middle direction in the contact sheet: face identity remains clear, fur detail is moderated, and collar/outline treatment makes the head-body transition read more intentionally. The human supporting character is clearly human and shares the illustrated linework.",
+    "02-proportion-bridge": "Useful proportion direction: the head reads smaller against a broader body, though face detail still contrasts with the flatter clothing. Actual output is 1671x941, one pixel narrower than requested.",
+    "03-bib-collar-flow": "Face identity and markings remain recognizable; the pale collar framing gives a designed transition, though the round head still dominates and feels more mascot-like than direction 01.",
+    "04-richer-body-language": "The clothing has more illustrated folds and tonal depth, which narrows the rendering gap with the detailed face. This is the most textured body treatment while remaining a 2D illustration.",
+    "supporting_character": "Present in all four samples as the same young adult human; no photorealistic rendering. Same scene and left-right staging are sufficiently consistent for visual comparison."
+  },
+  "next_step": "Use direction 01 as the preferred midpoint, with direction 04 as an alternate. Ask the user which balance they prefer before changing persistent character or style rules."
+}

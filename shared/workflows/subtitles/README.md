@@ -30,9 +30,9 @@ python shared/workflows/subtitles/check_srt.py <ep>/video/srt/<线路>_<剧名>_
 
 ## 字数门禁
 
-- 默认 20 字、80% 画幅宽；字体只用 `assets/shared/subtitles/style-r4/fonts/` 做行宽估算，不意味着要烧录。
+- 默认每条最多 20 可见字。纯 SRT 的实际宽度由播放端字体决定；只有用户指定渲染字体时才用 `--font` 做 80% 画幅宽度检查。
 - 只数可见字符：汉字、数字、拉丁字母各计 1；标点、空格、省略号、破折号不计。
-- `over_limit` 与 `over_width` 必须为 0；`RESULT: PASS` 才能交付。
+- `over_limit` 必须为 0；指定 `--font` 时 `over_width` 也必须为 0。`RESULT: PASS` 才能交付。
 - 加 `--json` 写入单集 `qa/`，保留 PASS 证据。
 
 ## 拆条
@@ -44,4 +44,4 @@ python shared/workflows/subtitles/check_srt.py <ep>/video/srt/<线路>_<剧名>_
 ## 不做
 
 - 不生成 ASS、不做 `build_one_line` 式单行排版、不做 fontsdir 烧录、不做烧录后字高/白边实测。
-- 旧工具 `build_one_line.py`、`qa_subs.py` 已移入 `E:\program\1project\video-archive\20261114-body-only\scripts-obsolete\subtitles\`。
+- 旧工具 `build_one_line.py`、`qa_subs.py` 已移入仓库旁 `../video-archive/20261114-body-only/scripts-obsolete/subtitles/`。

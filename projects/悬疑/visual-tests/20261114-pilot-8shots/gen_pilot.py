@@ -25,7 +25,6 @@ import time
 import urllib.error
 import urllib.request
 import uuid
-import winreg
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime
 from pathlib import Path
@@ -265,8 +264,7 @@ def key_for(env_name: str) -> str:
     value = os.environ.get(env_name, "").strip()
     if value:
         return value
-    with winreg.OpenKey(winreg.HKEY_CURRENT_USER, "Environment") as handle:
-        return winreg.QueryValueEx(handle, env_name)[0]
+    raise SystemExit(f"缺少环境变量 {env_name}；请在当前终端或本机密钥管理器中设置，不要写入仓库。")
 
 
 def active_channel() -> dict:

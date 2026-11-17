@@ -22,8 +22,6 @@ TS = re.compile(
     r"(\d{1,2}):(\d{2}):(\d{2})[,.](\d{1,3})\s*-->\s*"
     r"(\d{1,2}):(\d{2}):(\d{2})[,.](\d{1,3})"
 )
-DEFAULT_FONT = (Path(__file__).resolve().parents[3] / "assets" / "shared" /
-                "subtitles" / "style-r4" / "fonts" / "SourceHanSansSC-Heavy.otf")
 
 def visible_len(text):
     """Count visible characters: letters + numbers, no punctuation/symbols."""
@@ -66,7 +64,7 @@ def main(argv=None):
                     help="optional floor; reported as warning only")
     ap.add_argument("--overlap-ms", type=int, default=1)
     ap.add_argument("--font", default="",
-                    help="font file for the 80%% width check (default: style_r4 if present)")
+                    help="optional font file for a renderer-specific width check")
     ap.add_argument("--style-size", type=int, default=96)
     ap.add_argument("--k", type=float, default=0.6875,
                     help="rendered/layout width ratio for this font+renderer")
@@ -74,7 +72,7 @@ def main(argv=None):
     ap.add_argument("--max-width-frac", type=float, default=0.8)
     ap.add_argument("--json", action="store_true")
     args = ap.parse_args(argv)
-    font_path = args.font or (str(DEFAULT_FONT) if DEFAULT_FONT.exists() else "")
+    font_path = args.font
 
     cues = read_srt(args.srt)
     if not cues:

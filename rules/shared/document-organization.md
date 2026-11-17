@@ -47,7 +47,7 @@
 - `episodes/`：单集内容；
 - `assets/`：线路资产索引和参考资料；
 - `logs/`：线路级运行记录；
-- `archive/`：旧版本和暂不使用的资产（长期归档在工作区外 `E:\program\1project\video-archive\`）。
+- `archive/`：旧版本和暂不使用的资产（长期归档在仓库旁 `../video-archive/`）。
 
 单集级按需分为：
 

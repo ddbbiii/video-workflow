@@ -1,0 +1,146 @@
+{
+  "purpose": "Anime-rendering style exploration for the life-experience cat protagonist, with the required simple cartoon supporting character",
+  "channel": "new2",
+  "model": "AZ-gpt-image-2",
+  "endpoint": "https://xxcapi.com/v1/images/edits",
+  "reference": "E:\\program\\1project\\video\\assets\\人生体验\\characters\\catman-20261113\\reference-v8\\ref-face.png",
+  "requested_dimensions": "1672x941",
+  "common_prompt": "Create a horizontal 16:9 hand-drawn 2D anime story illustration. Use Image 1 solely to preserve the protagonist's identity and facial geometry; do not copy its photographic fur texture, lighting, or surface rendering. The protagonist is the same orange Scottish Fold cat-headed person: preserve the round cheek silhouette, small ears folded forward, eye spacing and size, short muzzle, pink nose, cream muzzle pads, white whiskers, forehead M and cheek tabby placement. Keep these recognizable features, but render them as deliberate illustrated shapes, not a realistic cat photograph. He has a compact upright human body about 3 to 3.2 head-heights, very short neck, grey hoodie, black trousers, rounded cat-paw hands and bare cat-paw feet, no tail. The head sits naturally into the short neck and hoodie collar; no floating head or pasted-on seam. Include exactly one supporting character, always in the established simple cartoon style: a smooth round head, exactly two small dot eyes, one short line mouth, no nose or detailed facial features, small white mitten hands without fingers, plain dark simple clothes built from a few flat shapes. Keep the supporting figure minimal, secondary, and consistent. Absolutely no realistic or detailed human rendering for the supporting character. Both figures share the chosen direction's 2D illustrated language, but keep the supporting figure simpler. Apartment corridor, same closed door and wall lamp, readable depth, muted cool-neutral palette with a small warm lamp accent, medium two-shot at eye level, protagonist at frame left and supporting character at frame right, both visible from head to mid-thigh. No text, letters, numbers, logo, watermark, UI, extra people, photorealism, 3D rendering, photographic fur strands, plastic toy appearance, or extra limbs.",
+  "direction_prompts": {
+    "01-cel-anime": "Direction 1, crisp cel anime: clean confident dark grey-blue contour of one consistent weight, broad flat fur shapes, only a few intentional tabby strokes, simplified but recognizable facial planes, and two or three hard-edged cel-shadow shapes. Keep the eyes and facial proportions from the reference; no soft airbrush shading or individual fur strands.",
+    "02-inked-anime": "Direction 2, hand-inked anime: elegant deliberate ink contours with slight hand-drawn character, controlled fine strokes limited to the face's tabby markings and whisker roots, broad clean color shapes, and restrained cel shadows. The result must still read as an animation illustration, not a realistic animal portrait or pencil study.",
+    "03-retro-graphic": "Direction 3, retro graphic anime: stronger outer silhouette, clear inner contour accents, limited flat color groups, and tabby markings drawn as graphic patches. Keep the exact familiar cheek, ear, eye, muzzle and nose proportions; energetic graphic design without changing the cat's identity. No halftone noise, grain, or photographic fur.",
+    "04-painted-anime": "Direction 4, gentle painted anime: broad controlled illustrated fur strokes and soft painted depth in the corridor, while keeping facial shapes, hoodie, and body clearly designed and non-photographic. Use restrained painterly color transitions only as clean drawn shapes; no grain, no paper texture, no individual realistic hairs. Give the clothes enough illustrated folds to harmonize with the face."
+  },
+  "scene_prompts": {
+    "A-standing": "Scene A: both characters stand side by side beside the closed apartment door, calmly facing slightly toward the viewer. The protagonist's relaxed cat paws rest near the hoodie hem. The supporting character's two white mittens hang simply at the sides.",
+    "B-gesture": "Scene B: same corridor, same door, same lighting, camera distance, and left-right staging. The protagonist turns his head slightly and listens. The round-headed supporting character makes one small readable white-mitten gesture toward the closed door. Keep both silhouettes and faces clear."
+  },
+  "full_prompts_by_image": {
+    "01-cel-anime__A-standing": "Create a horizontal 16:9 hand-drawn 2D anime story illustration. Use Image 1 solely to preserve the protagonist's identity and facial geometry; do not copy its photographic fur texture, lighting, or surface rendering. The protagonist is the same orange Scottish Fold cat-headed person: preserve the round cheek silhouette, small ears folded forward, eye spacing and size, short muzzle, pink nose, cream muzzle pads, white whiskers, forehead M and cheek tabby placement. Keep these recognizable features, but render them as deliberate illustrated shapes, not a realistic cat photograph. He has a compact upright human body about 3 to 3.2 head-heights, very short neck, grey hoodie, black trousers, rounded cat-paw hands and bare cat-paw feet, no tail. The head sits naturally into the short neck and hoodie collar; no floating head or pasted-on seam. Include exactly one supporting character, always in the established simple cartoon style: a smooth round head, exactly two small dot eyes, one short line mouth, no nose or detailed facial features, small white mitten hands without fingers, plain dark simple clothes built from a few flat shapes. Keep the supporting figure minimal, secondary, and consistent. Absolutely no realistic or detailed human rendering for the supporting character. Both figures share the chosen direction's 2D illustrated language, but keep the supporting figure simpler. Apartment corridor, same closed door and wall lamp, readable depth, muted cool-neutral palette with a small warm lamp accent, medium two-shot at eye level, protagonist at frame left and supporting character at frame right, both visible from head to mid-thigh. No text, letters, numbers, logo, watermark, UI, extra people, photorealism, 3D rendering, photographic fur strands, plastic toy appearance, or extra limbs. Direction 1, crisp cel anime: clean confident dark grey-blue contour of one consistent weight, broad flat fur shapes, only a few intentional tabby strokes, simplified but recognizable facial planes, and two or three hard-edged cel-shadow shapes. Keep the eyes and facial proportions from the reference; no soft airbrush shading or individual fur strands. Scene A: both characters stand side by side beside the closed apartment door, calmly facing slightly toward the viewer. The protagonist's relaxed cat paws rest near the hoodie hem. The supporting character's two white mittens hang simply at the sides.",
+    "01-cel-anime__B-gesture": "Create a horizontal 16:9 hand-drawn 2D anime story illustration. Use Image 1 solely to preserve the protagonist's identity and facial geometry; do not copy its photographic fur texture, lighting, or surface rendering. The protagonist is the same orange Scottish Fold cat-headed person: preserve the round cheek silhouette, small ears folded forward, eye spacing and size, short muzzle, pink nose, cream muzzle pads, white whiskers, forehead M and cheek tabby placement. Keep these recognizable features, but render them as deliberate illustrated shapes, not a realistic cat photograph. He has a compact upright human body about 3 to 3.2 head-heights, very short neck, grey hoodie, black trousers, rounded cat-paw hands and bare cat-paw feet, no tail. The head sits naturally into the short neck and hoodie collar; no floating head or pasted-on seam. Include exactly one supporting character, always in the established simple cartoon style: a smooth round head, exactly two small dot eyes, one short line mouth, no nose or detailed facial features, small white mitten hands without fingers, plain dark simple clothes built from a few flat shapes. Keep the supporting figure minimal, secondary, and consistent. Absolutely no realistic or detailed human rendering for the supporting character. Both figures share the chosen direction's 2D illustrated language, but keep the supporting figure simpler. Apartment corridor, same closed door and wall lamp, readable depth, muted cool-neutral palette with a small warm lamp accent, medium two-shot at eye level, protagonist at frame left and supporting character at frame right, both visible from head to mid-thigh. No text, letters, numbers, logo, watermark, UI, extra people, photorealism, 3D rendering, photographic fur strands, plastic toy appearance, or extra limbs. Direction 1, crisp cel anime: clean confident dark grey-blue contour of one consistent weight, broad flat fur shapes, only a few intentional tabby strokes, simplified but recognizable facial planes, and two or three hard-edged cel-shadow shapes. Keep the eyes and facial proportions from the reference; no soft airbrush shading or individual fur strands. Scene B: same corridor, same door, same lighting, camera distance, and left-right staging. The protagonist turns his head slightly and listens. The round-headed supporting character makes one small readable white-mitten gesture toward the closed door. Keep both silhouettes and faces clear.",
+    "02-inked-anime__A-standing": "Create a horizontal 16:9 hand-drawn 2D anime story illustration. Use Image 1 solely to preserve the protagonist's identity and facial geometry; do not copy its photographic fur texture, lighting, or surface rendering. The protagonist is the same orange Scottish Fold cat-headed person: preserve the round cheek silhouette, small ears folded forward, eye spacing and size, short muzzle, pink nose, cream muzzle pads, white whiskers, forehead M and cheek tabby placement. Keep these recognizable features, but render them as deliberate illustrated shapes, not a realistic cat photograph. He has a compact upright human body about 3 to 3.2 head-heights, very short neck, grey hoodie, black trousers, rounded cat-paw hands and bare cat-paw feet, no tail. The head sits naturally into the short neck and hoodie collar; no floating head or pasted-on seam. Include exactly one supporting character, always in the established simple cartoon style: a smooth round head, exactly two small dot eyes, one short line mouth, no nose or detailed facial features, small white mitten hands without fingers, plain dark simple clothes built from a few flat shapes. Keep the supporting figure minimal, secondary, and consistent. Absolutely no realistic or detailed human rendering for the supporting character. Both figures share the chosen direction's 2D illustrated language, but keep the supporting figure simpler. Apartment corridor, same closed door and wall lamp, readable depth, muted cool-neutral palette with a small warm lamp accent, medium two-shot at eye level, protagonist at frame left and supporting character at frame right, both visible from head to mid-thigh. No text, letters, numbers, logo, watermark, UI, extra people, photorealism, 3D rendering, photographic fur strands, plastic toy appearance, or extra limbs. Direction 2, hand-inked anime: elegant deliberate ink contours with slight hand-drawn character, controlled fine strokes limited to the face's tabby markings and whisker roots, broad clean color shapes, and restrained cel shadows. The result must still read as an animation illustration, not a realistic animal portrait or pencil study. Scene A: both characters stand side by side beside the closed apartment door, calmly facing slightly toward the viewer. The protagonist's relaxed cat paws rest near the hoodie hem. The supporting character's two white mittens hang simply at the sides.",
+    "02-inked-anime__B-gesture": "Create a horizontal 16:9 hand-drawn 2D anime story illustration. Use Image 1 solely to preserve the protagonist's identity and facial geometry; do not copy its photographic fur texture, lighting, or surface rendering. The protagonist is the same orange Scottish Fold cat-headed person: preserve the round cheek silhouette, small ears folded forward, eye spacing and size, short muzzle, pink nose, cream muzzle pads, white whiskers, forehead M and cheek tabby placement. Keep these recognizable features, but render them as deliberate illustrated shapes, not a realistic cat photograph. He has a compact upright human body about 3 to 3.2 head-heights, very short neck, grey hoodie, black trousers, rounded cat-paw hands and bare cat-paw feet, no tail. The head sits naturally into the short neck and hoodie collar; no floating head or pasted-on seam. Include exactly one supporting character, always in the established simple cartoon style: a smooth round head, exactly two small dot eyes, one short line mouth, no nose or detailed facial features, small white mitten hands without fingers, plain dark simple clothes built from a few flat shapes. Keep the supporting figure minimal, secondary, and consistent. Absolutely no realistic or detailed human rendering for the supporting character. Both figures share the chosen direction's 2D illustrated language, but keep the supporting figure simpler. Apartment corridor, same closed door and wall lamp, readable depth, muted cool-neutral palette with a small warm lamp accent, medium two-shot at eye level, protagonist at frame left and supporting character at frame right, both visible from head to mid-thigh. No text, letters, numbers, logo, watermark, UI, extra people, photorealism, 3D rendering, photographic fur strands, plastic toy appearance, or extra limbs. Direction 2, hand-inked anime: elegant deliberate ink contours with slight hand-drawn character, controlled fine strokes limited to the face's tabby markings and whisker roots, broad clean color shapes, and restrained cel shadows. The result must still read as an animation illustration, not a realistic animal portrait or pencil study. Scene B: same corridor, same door, same lighting, camera distance, and left-right staging. The protagonist turns his head slightly and listens. The round-headed supporting character makes one small readable white-mitten gesture toward the closed door. Keep both silhouettes and faces clear.",
+    "03-retro-graphic__A-standing": "Create a horizontal 16:9 hand-drawn 2D anime story illustration. Use Image 1 solely to preserve the protagonist's identity and facial geometry; do not copy its photographic fur texture, lighting, or surface rendering. The protagonist is the same orange Scottish Fold cat-headed person: preserve the round cheek silhouette, small ears folded forward, eye spacing and size, short muzzle, pink nose, cream muzzle pads, white whiskers, forehead M and cheek tabby placement. Keep these recognizable features, but render them as deliberate illustrated shapes, not a realistic cat photograph. He has a compact upright human body about 3 to 3.2 head-heights, very short neck, grey hoodie, black trousers, rounded cat-paw hands and bare cat-paw feet, no tail. The head sits naturally into the short neck and hoodie collar; no floating head or pasted-on seam. Include exactly one supporting character, always in the established simple cartoon style: a smooth round head, exactly two small dot eyes, one short line mouth, no nose or detailed facial features, small white mitten hands without fingers, plain dark simple clothes built from a few flat shapes. Keep the supporting figure minimal, secondary, and consistent. Absolutely no realistic or detailed human rendering for the supporting character. Both figures share the chosen direction's 2D illustrated language, but keep the supporting figure simpler. Apartment corridor, same closed door and wall lamp, readable depth, muted cool-neutral palette with a small warm lamp accent, medium two-shot at eye level, protagonist at frame left and supporting character at frame right, both visible from head to mid-thigh. No text, letters, numbers, logo, watermark, UI, extra people, photorealism, 3D rendering, photographic fur strands, plastic toy appearance, or extra limbs. Direction 3, retro graphic anime: stronger outer silhouette, clear inner contour accents, limited flat color groups, and tabby markings drawn as graphic patches. Keep the exact familiar cheek, ear, eye, muzzle and nose proportions; energetic graphic design without changing the cat's identity. No halftone noise, grain, or photographic fur. Scene A: both characters stand side by side beside the closed apartment door, calmly facing slightly toward the viewer. The protagonist's relaxed cat paws rest near the hoodie hem. The supporting character's two white mittens hang simply at the sides.",
+    "03-retro-graphic__B-gesture": "Create a horizontal 16:9 hand-drawn 2D anime story illustration. Use Image 1 solely to preserve the protagonist's identity and facial geometry; do not copy its photographic fur texture, lighting, or surface rendering. The protagonist is the same orange Scottish Fold cat-headed person: preserve the round cheek silhouette, small ears folded forward, eye spacing and size, short muzzle, pink nose, cream muzzle pads, white whiskers, forehead M and cheek tabby placement. Keep these recognizable features, but render them as deliberate illustrated shapes, not a realistic cat photograph. He has a compact upright human body about 3 to 3.2 head-heights, very short neck, grey hoodie, black trousers, rounded cat-paw hands and bare cat-paw feet, no tail. The head sits naturally into the short neck and hoodie collar; no floating head or pasted-on seam. Include exactly one supporting character, always in the established simple cartoon style: a smooth round head, exactly two small dot eyes, one short line mouth, no nose or detailed facial features, small white mitten hands without fingers, plain dark simple clothes built from a few flat shapes. Keep the supporting figure minimal, secondary, and consistent. Absolutely no realistic or detailed human rendering for the supporting character. Both figures share the chosen direction's 2D illustrated language, but keep the supporting figure simpler. Apartment corridor, same closed door and wall lamp, readable depth, muted cool-neutral palette with a small warm lamp accent, medium two-shot at eye level, protagonist at frame left and supporting character at frame right, both visible from head to mid-thigh. No text, letters, numbers, logo, watermark, UI, extra people, photorealism, 3D rendering, photographic fur strands, plastic toy appearance, or extra limbs. Direction 3, retro graphic anime: stronger outer silhouette, clear inner contour accents, limited flat color groups, and tabby markings drawn as graphic patches. Keep the exact familiar cheek, ear, eye, muzzle and nose proportions; energetic graphic design without changing the cat's identity. No halftone noise, grain, or photographic fur. Scene B: same corridor, same door, same lighting, camera distance, and left-right staging. The protagonist turns his head slightly and listens. The round-headed supporting character makes one small readable white-mitten gesture toward the closed door. Keep both silhouettes and faces clear.",
+    "04-painted-anime__A-standing": "Create a horizontal 16:9 hand-drawn 2D anime story illustration. Use Image 1 solely to preserve the protagonist's identity and facial geometry; do not copy its photographic fur texture, lighting, or surface rendering. The protagonist is the same orange Scottish Fold cat-headed person: preserve the round cheek silhouette, small ears folded forward, eye spacing and size, short muzzle, pink nose, cream muzzle pads, white whiskers, forehead M and cheek tabby placement. Keep these recognizable features, but render them as deliberate illustrated shapes, not a realistic cat photograph. He has a compact upright human body about 3 to 3.2 head-heights, very short neck, grey hoodie, black trousers, rounded cat-paw hands and bare cat-paw feet, no tail. The head sits naturally into the short neck and hoodie collar; no floating head or pasted-on seam. Include exactly one supporting character, always in the established simple cartoon style: a smooth round head, exactly two small dot eyes, one short line mouth, no nose or detailed facial features, small white mitten hands without fingers, plain dark simple clothes built from a few flat shapes. Keep the supporting figure minimal, secondary, and consistent. Absolutely no realistic or detailed human rendering for the supporting character. Both figures share the chosen direction's 2D illustrated language, but keep the supporting figure simpler. Apartment corridor, same closed door and wall lamp, readable depth, muted cool-neutral palette with a small warm lamp accent, medium two-shot at eye level, protagonist at frame left and supporting character at frame right, both visible from head to mid-thigh. No text, letters, numbers, logo, watermark, UI, extra people, photorealism, 3D rendering, photographic fur strands, plastic toy appearance, or extra limbs. Direction 4, gentle painted anime: broad controlled illustrated fur strokes and soft painted depth in the corridor, while keeping facial shapes, hoodie, and body clearly designed and non-photographic. Use restrained painterly color transitions only as clean drawn shapes; no grain, no paper texture, no individual realistic hairs. Give the clothes enough illustrated folds to harmonize with the face. Scene A: both characters stand side by side beside the closed apartment door, calmly facing slightly toward the viewer. The protagonist's relaxed cat paws rest near the hoodie hem. The supporting character's two white mittens hang simply at the sides.",
+    "04-painted-anime__B-gesture": "Create a horizontal 16:9 hand-drawn 2D anime story illustration. Use Image 1 solely to preserve the protagonist's identity and facial geometry; do not copy its photographic fur texture, lighting, or surface rendering. The protagonist is the same orange Scottish Fold cat-headed person: preserve the round cheek silhouette, small ears folded forward, eye spacing and size, short muzzle, pink nose, cream muzzle pads, white whiskers, forehead M and cheek tabby placement. Keep these recognizable features, but render them as deliberate illustrated shapes, not a realistic cat photograph. He has a compact upright human body about 3 to 3.2 head-heights, very short neck, grey hoodie, black trousers, rounded cat-paw hands and bare cat-paw feet, no tail. The head sits naturally into the short neck and hoodie collar; no floating head or pasted-on seam. Include exactly one supporting character, always in the established simple cartoon style: a smooth round head, exactly two small dot eyes, one short line mouth, no nose or detailed facial features, small white mitten hands without fingers, plain dark simple clothes built from a few flat shapes. Keep the supporting figure minimal, secondary, and consistent. Absolutely no realistic or detailed human rendering for the supporting character. Both figures share the chosen direction's 2D illustrated language, but keep the supporting figure simpler. Apartment corridor, same closed door and wall lamp, readable depth, muted cool-neutral palette with a small warm lamp accent, medium two-shot at eye level, protagonist at frame left and supporting character at frame right, both visible from head to mid-thigh. No text, letters, numbers, logo, watermark, UI, extra people, photorealism, 3D rendering, photographic fur strands, plastic toy appearance, or extra limbs. Direction 4, gentle painted anime: broad controlled illustrated fur strokes and soft painted depth in the corridor, while keeping facial shapes, hoodie, and body clearly designed and non-photographic. Use restrained painterly color transitions only as clean drawn shapes; no grain, no paper texture, no individual realistic hairs. Give the clothes enough illustrated folds to harmonize with the face. Scene B: same corridor, same door, same lighting, camera distance, and left-right staging. The protagonist turns his head slightly and listens. The round-headed supporting character makes one small readable white-mitten gesture toward the closed door. Keep both silhouettes and faces clear."
+  },
+  "results": [
+    {
+      "variant": "01-cel-anime__A-standing",
+      "status": 200,
+      "elapsed_s": 40.3,
+      "ok": true,
+      "file": "E:\\program\\1project\\video\\projects\\人生体验\\visual-tests\\20261117-catface-anime-options-v1\\01-cel-anime__A-standing.png",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "bytes": 1702223,
+      "delivery": "b64_json"
+    },
+    {
+      "variant": "01-cel-anime__B-gesture",
+      "status": 200,
+      "elapsed_s": 37.5,
+      "ok": true,
+      "file": "E:\\program\\1project\\video\\projects\\人生体验\\visual-tests\\20261117-catface-anime-options-v1\\01-cel-anime__B-gesture.png",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "bytes": 1518630,
+      "delivery": "b64_json"
+    },
+    {
+      "variant": "02-inked-anime__A-standing",
+      "status": 200,
+      "elapsed_s": 48.1,
+      "ok": true,
+      "file": "E:\\program\\1project\\video\\projects\\人生体验\\visual-tests\\20261117-catface-anime-options-v1\\02-inked-anime__A-standing.png",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "bytes": 1751892,
+      "delivery": "b64_json"
+    },
+    {
+      "variant": "02-inked-anime__B-gesture",
+      "status": 200,
+      "elapsed_s": 38.3,
+      "ok": true,
+      "file": "E:\\program\\1project\\video\\projects\\人生体验\\visual-tests\\20261117-catface-anime-options-v1\\02-inked-anime__B-gesture.png",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "bytes": 1740639,
+      "delivery": "b64_json"
+    },
+    {
+      "variant": "03-retro-graphic__A-standing",
+      "status": 200,
+      "elapsed_s": 38.3,
+      "ok": true,
+      "file": "E:\\program\\1project\\video\\projects\\人生体验\\visual-tests\\20261117-catface-anime-options-v1\\03-retro-graphic__A-standing.png",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "bytes": 1714015,
+      "delivery": "b64_json"
+    },
+    {
+      "variant": "03-retro-graphic__B-gesture",
+      "status": 200,
+      "elapsed_s": 38.6,
+      "ok": true,
+      "file": "E:\\program\\1project\\video\\projects\\人生体验\\visual-tests\\20261117-catface-anime-options-v1\\03-retro-graphic__B-gesture.png",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "bytes": 1978309,
+      "delivery": "b64_json"
+    },
+    {
+      "variant": "04-painted-anime__A-standing",
+      "status": 200,
+      "elapsed_s": 39.8,
+      "ok": true,
+      "file": "E:\\program\\1project\\video\\projects\\人生体验\\visual-tests\\20261117-catface-anime-options-v1\\04-painted-anime__A-standing.png",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "bytes": 1704651,
+      "delivery": "b64_json"
+    },
+    {
+      "variant": "04-painted-anime__B-gesture",
+      "status": 200,
+      "elapsed_s": 41.4,
+      "ok": true,
+      "file": "E:\\program\\1project\\video\\projects\\人生体验\\visual-tests\\20261117-catface-anime-options-v1\\04-painted-anime__B-gesture.png",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "bytes": 1558941,
+      "delivery": "b64_json"
+    }
+  ],
+  "contact_sheet": "E:\\program\\1project\\video\\projects\\人生体验\\visual-tests\\20261117-catface-anime-options-v1\\contact-sheet.jpg",
+  "acceptance": {
+    "contact_sheet_reviewed": true,
+    "01-cel-anime": "REJECTED by user: the face does not resemble the original cat closely enough.",
+    "02-inked-anime": "REJECTED by user: the face does not resemble the original cat closely enough.",
+    "03-retro-graphic": "REJECTED by user: the face does not resemble the original cat closely enough; graphic cheek patches alter identity markings.",
+    "04-painted-anime": "REJECTED by user: the face does not resemble the original cat closely enough.",
+    "support_character": "All eight panels show the specified simple round head, dot eyes, short line mouth, white mitten hands, and plain dark clothes; no realistic human side character appears.",
+    "overall": "User rejected all four directions for facial identity drift. None is approved as a character or style reference."
+  },
+  "next_step": "Restart with large-face, face-focused samples. Lock facial geometry and marking placement before comparing anime rendering; do not use this batch as a reference."
+}

@@ -1,7 +1,7 @@
 # 助眠音频节奏（只用于排时间轴）
 
 > 2026-11-14：本线不产任何音频。本文件只保留估算语速与停顿，用于镜头时长和 SRT；配音、混音、BGM 全部由用户手动。
-> 旧 TTS 引擎、声线、BGM、混音规则已归档：`E:\program\1project\video-archive\20261114-body-only\rules-obsolete\`。
+> 旧 TTS 引擎、声线、BGM、混音规则已归档：仓库旁 `../video-archive/20261114-body-only/rules-obsolete/`。
 
 ## 语速
 

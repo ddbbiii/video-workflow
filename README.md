@@ -2,6 +2,10 @@
 
 整个工作区采用 `projects/`、`assets/`、`rules/` 分层布局，目录真源：`indexes/DIRECTORY_STRUCTURE.md`。
 
+本文和维护文档中的仓库内路径均相对于仓库根目录；除非特别说明，不写入本机盘符或用户目录。
+
+新机器交接（48 GB Apple Silicon Mac）：[`indexes/MAC_HANDOFF.md`](indexes/MAC_HANDOFF.md)。
+
 - `projects/对应线路/`：项目、单集、草稿、日志、归档。
 - `assets/对应线路/`：可复用角色、场景和道具。
 - `rules/对应线路/`：线路规则；`rules/shared/`：全局规则。
@@ -21,6 +25,6 @@
 
 线路为助眠解说、悬疑、小球、人生体验、萌宠；状态见各项目 `LINE_STATE.md`。退役线路（猎奇、音乐线、抖音特效）与外卖之谜、potato-grow-test 已整体归档到 `shared/archive/retired-lines-20261110/`，不再维护。
 
-历史规则、旧片头/TTS/烧录工具链归档在工作区外：`E:\program\1project\video-archive\20261114-body-only\`。默认不读，只有用户点名才恢复。
+历史规则、旧片头/TTS/烧录工具链归档在仓库旁：`../video-archive/20261114-body-only/`。默认不读，只有用户点名才恢复。
 
 根目录规范包含 `projects/`、`assets/`、`rules/`、`indexes/`、`shared/`、`todos/` 和本文件。完整职责见 `indexes/DIRECTORY_STRUCTURE.md`。

@@ -1,5 +1,7 @@
 # MD 文档入口
 
+- Mac 工作站交接：`indexes/MAC_HANDOFF.md`
+
 - 全局规则：`rules/shared/README.md`
 - 流程真源：`rules/shared/video-workflow.md`
 - 交付真源：`rules/shared/delivery.md`
@@ -15,6 +17,6 @@
 - 线路索引：`indexes/LINE_INDEX.md`
 - 资产索引：`indexes/ASSET_REGISTRY.md`
 - 迁移核验：`indexes/LAYOUT_MIGRATION.md`
-- 历史归档（工作区外，默认不读）：`E:\program\1project\video-archive\`
+- 历史归档（仓库旁，默认不读）：`../video-archive/`
 
 MD 拆分和版本管理见 `rules/shared/document-organization.md`。

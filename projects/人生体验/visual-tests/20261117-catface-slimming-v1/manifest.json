@@ -1,0 +1,89 @@
+{
+  "purpose": "Controlled face-fullness comparison based on the approved graphic-flat style image",
+  "channel": "new2",
+  "model": "AZ-gpt-image-2",
+  "endpoint": "https://xxcapi.com/v1/images/edits",
+  "edit_target": "E:\\program\\1project\\video\\projects\\人生体验\\visual-tests\\20261117-catface-geometry-lock-v1\\03-graphic-flat.png",
+  "requested_dimensions": "1672x941",
+  "edit_scope": "Change only the specified cheek/jaw fullness treatment; preserve all other source-image content.",
+  "common_prompt": "Edit Image 1. Preserve the entire image as the source: same graphic-flat 2D style, same framing, same pose, same cat identity, same eyes, folded ears, nose, muzzle, whiskers, white bib, tabby markings, hoodie, body, background, corridor, lighting, colors and outlines. Keep the simple round-headed supporting character exactly unchanged: round head, dot eyes, short line mouth, white mitten hands and plain dark clothes. Make only the explicitly requested subtle adjustment to the protagonist's cheek/jaw fullness. Do not change the whole head scale, eye size or spacing, face height, ear position, nose, muzzle length, marking shape or location, expression, neck, collar, body, side character, background, linework style, palette or composition. No text, added details, realistic fur, photorealism, 3D, or other edits.",
+  "variant_prompts": {
+    "01-cheek-tuck-3pct": "Barely-there cheek tuck: reduce only the widest left and right cheek bulge by about 3 percent, using a very subtle inward curve. Keep the chin/jaw, face height and all facial features fixed. The change should be difficult to notice at first glance.",
+    "02-cheek-reduction-5pct": "Gentle cheek reduction: move only the widest outer cheek contour inward by about 5 percent on each side. Keep the forehead, temples, lower jaw, face height, eyes and all markings fixed. Do not scale the whole head.",
+    "03-lower-jaw-taper-6pct": "Slightly taper the lower cheeks into the jaw: narrow the lower cheek/jaw contour by about 5 to 7 percent, blending smoothly from below the eyes. Keep the upper cheek width, head height, eyes, ears, muzzle, nose and every tabby marking exactly in place. Do not make the chin pointed.",
+    "04-flat-shading-no-geometry": "Do not move or redraw any face outline or feature. Keep the cheek silhouette and all markings exactly unchanged. Reduce only the impression of puffiness by simplifying the cheek shading into flatter, cleaner graphic color shapes, without moving, resizing or recoloring the tabby marks."
+  },
+  "full_prompts_by_image": {
+    "01-cheek-tuck-3pct": "Edit Image 1. Preserve the entire image as the source: same graphic-flat 2D style, same framing, same pose, same cat identity, same eyes, folded ears, nose, muzzle, whiskers, white bib, tabby markings, hoodie, body, background, corridor, lighting, colors and outlines. Keep the simple round-headed supporting character exactly unchanged: round head, dot eyes, short line mouth, white mitten hands and plain dark clothes. Make only the explicitly requested subtle adjustment to the protagonist's cheek/jaw fullness. Do not change the whole head scale, eye size or spacing, face height, ear position, nose, muzzle length, marking shape or location, expression, neck, collar, body, side character, background, linework style, palette or composition. No text, added details, realistic fur, photorealism, 3D, or other edits. Barely-there cheek tuck: reduce only the widest left and right cheek bulge by about 3 percent, using a very subtle inward curve. Keep the chin/jaw, face height and all facial features fixed. The change should be difficult to notice at first glance.",
+    "02-cheek-reduction-5pct": "Edit Image 1. Preserve the entire image as the source: same graphic-flat 2D style, same framing, same pose, same cat identity, same eyes, folded ears, nose, muzzle, whiskers, white bib, tabby markings, hoodie, body, background, corridor, lighting, colors and outlines. Keep the simple round-headed supporting character exactly unchanged: round head, dot eyes, short line mouth, white mitten hands and plain dark clothes. Make only the explicitly requested subtle adjustment to the protagonist's cheek/jaw fullness. Do not change the whole head scale, eye size or spacing, face height, ear position, nose, muzzle length, marking shape or location, expression, neck, collar, body, side character, background, linework style, palette or composition. No text, added details, realistic fur, photorealism, 3D, or other edits. Gentle cheek reduction: move only the widest outer cheek contour inward by about 5 percent on each side. Keep the forehead, temples, lower jaw, face height, eyes and all markings fixed. Do not scale the whole head.",
+    "03-lower-jaw-taper-6pct": "Edit Image 1. Preserve the entire image as the source: same graphic-flat 2D style, same framing, same pose, same cat identity, same eyes, folded ears, nose, muzzle, whiskers, white bib, tabby markings, hoodie, body, background, corridor, lighting, colors and outlines. Keep the simple round-headed supporting character exactly unchanged: round head, dot eyes, short line mouth, white mitten hands and plain dark clothes. Make only the explicitly requested subtle adjustment to the protagonist's cheek/jaw fullness. Do not change the whole head scale, eye size or spacing, face height, ear position, nose, muzzle length, marking shape or location, expression, neck, collar, body, side character, background, linework style, palette or composition. No text, added details, realistic fur, photorealism, 3D, or other edits. Slightly taper the lower cheeks into the jaw: narrow the lower cheek/jaw contour by about 5 to 7 percent, blending smoothly from below the eyes. Keep the upper cheek width, head height, eyes, ears, muzzle, nose and every tabby marking exactly in place. Do not make the chin pointed.",
+    "04-flat-shading-no-geometry": "Edit Image 1. Preserve the entire image as the source: same graphic-flat 2D style, same framing, same pose, same cat identity, same eyes, folded ears, nose, muzzle, whiskers, white bib, tabby markings, hoodie, body, background, corridor, lighting, colors and outlines. Keep the simple round-headed supporting character exactly unchanged: round head, dot eyes, short line mouth, white mitten hands and plain dark clothes. Make only the explicitly requested subtle adjustment to the protagonist's cheek/jaw fullness. Do not change the whole head scale, eye size or spacing, face height, ear position, nose, muzzle length, marking shape or location, expression, neck, collar, body, side character, background, linework style, palette or composition. No text, added details, realistic fur, photorealism, 3D, or other edits. Do not move or redraw any face outline or feature. Keep the cheek silhouette and all markings exactly unchanged. Reduce only the impression of puffiness by simplifying the cheek shading into flatter, cleaner graphic color shapes, without moving, resizing or recoloring the tabby marks."
+  },
+  "results": [
+    {
+      "variant": "01-cheek-tuck-3pct",
+      "status": 200,
+      "elapsed_s": 43.0,
+      "ok": true,
+      "file": "E:\\program\\1project\\video\\projects\\人生体验\\visual-tests\\20261117-catface-slimming-v1\\01-cheek-tuck-3pct.png",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "bytes": 1773576,
+      "delivery": "b64_json"
+    },
+    {
+      "variant": "02-cheek-reduction-5pct",
+      "status": 200,
+      "elapsed_s": 38.3,
+      "ok": true,
+      "file": "E:\\program\\1project\\video\\projects\\人生体验\\visual-tests\\20261117-catface-slimming-v1\\02-cheek-reduction-5pct.png",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "bytes": 1726400,
+      "delivery": "b64_json"
+    },
+    {
+      "variant": "03-lower-jaw-taper-6pct",
+      "status": 200,
+      "elapsed_s": 40.3,
+      "ok": true,
+      "file": "E:\\program\\1project\\video\\projects\\人生体验\\visual-tests\\20261117-catface-slimming-v1\\03-lower-jaw-taper-6pct.png",
+      "dimensions": [
+        1673,
+        940
+      ],
+      "bytes": 1732453,
+      "delivery": "b64_json"
+    },
+    {
+      "variant": "04-flat-shading-no-geometry",
+      "status": 200,
+      "elapsed_s": 42.2,
+      "ok": true,
+      "file": "E:\\program\\1project\\video\\projects\\人生体验\\visual-tests\\20261117-catface-slimming-v1\\04-flat-shading-no-geometry.png",
+      "dimensions": [
+        1672,
+        940
+      ],
+      "bytes": 1712013,
+      "delivery": "b64_json"
+    }
+  ],
+  "contact_sheet": "E:\\program\\1project\\video\\projects\\人生体验\\visual-tests\\20261117-catface-slimming-v1\\contact-sheet.jpg",
+  "acceptance": {
+    "generation": "All four API requests returned successful images.",
+    "visual_review": {
+      "contact_sheet": "All four preserve the graphic-flat look, simple round-headed supporting character, corridor, framing and overall cat identity; no obvious scene changes or major identity drift.",
+      "01-cheek-tuck-3pct": "Barely perceptible cheek tuck.",
+      "02-cheek-reduction-5pct": "Slightly narrower outer cheeks.",
+      "03-lower-jaw-taper-6pct": "Clearest change: lower cheeks and jaw taper while the chin remains rounded.",
+      "04-flat-shading-no-geometry": "Closest to the original face silhouette; cheek shading changes subtly."
+    },
+    "dimensions": "Outputs 03 and 04 are each one pixel off in width or height; raw images are preserved as returned."
+  },
+  "next_step": "User will manually choose a slimming treatment; this comparison does not update production character rules."
+}

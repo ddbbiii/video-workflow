@@ -34,21 +34,15 @@
 - **头是唯一保留细节的部位**：毛用 2–3 个平色 + 几笔短线表现，保留额头 M 纹、脸颊虎斑、白围兜、折耳边、粉鼻、白胡须。
 - 身体和衣服是大色块；环境可有手绘层次。主角不做写实毛、不做照片感、不做 3D、不做吉祥物玩偶感。
 
-## 四、定装资产（2026-11-15 第 2 次修订：只认三份）
+## 四、定装资产
 
-**参考图口径见 `references.md`（唯一真源）**，本节只列结论：
+当前主角定装统一位于 `assets/人生体验/characters/catman-20261113/character-reference/`：`turnaround.png` 为选定的轻微面部加强三视图，`face-style-D.png` 为画风基准，`expressions/` 为 24 张单档表情，`identity-source-original.png` 与 `ref-face.png` 用于身份核对。后续只维护这一套正式素材；细则见 `references.md`。
 
-| 文件 | 用途 |
-|---|---|
-| `reference-v8/identity-source-original.png` | 用户于 2026-11-15 新提供的身份来源（那只猫本猫） |
-| `reference-v8/ref-face.png` | 标准脸（1024²，已验收） |
-| `ref-look-user-20261113.png` | 目标观感，只给人看，不进生图 |
-| `reference-v8/turnaround-v8.png` 及 front/three/side/back 裁片 | 四视图，已验收 |
-| `reference-v8/ref-expr-*.png` | 六档单张表情，已验收 |
+**参考图口径见 `references.md`（唯一真源）**。`ref-look-user-20261113.png` 只作为目标观感供人工查看，不送入生图。
 
 - `turnaround-v6-2d.png`、`turnaround-v7-2d.png`：**作废**（人手 + 黑鞋，与 v6「猫爪、不穿鞋」冲突）。
 - `express-v1.png`、`ref-canonical.png`、`ref-v3-*.png`、`v7-front/v7-three.png`、`ref-hand-cat.png`：**作废**；旧文件只在 EP03 的 `_deprecated-20261115/` 归档中留作追溯。`ref-helper-a/b/c.png` 仍是有效配角定装，不得标为作废。
-- 2026-11-15 早前那套「ref-v3 双面板 / 只发该档表情 / 配角简笔圆头小人」的写法一并作废。
+- 2026-11-15 早前那套 `ref-v3` 双面板与旧表情参考提交流程已作废；配角的**简笔圆头小人风格继续有效**，细则见 `references.md` §二。
 
 
 ## 五、生图配方（每镜）
@@ -59,7 +53,7 @@
 
 ```text
 通道：见 shared/image-api/channel-policy.json 当前 active 策略；角色镜走 /images/edits，并逐镜记录实际通道
-参考图：脸部/表情镜一律使用 image/refs/ref-face.png（唯一脸部参考，表情写在提示词里）；站姿/全身镜需要 v8 四视图，未出前暂停该类镜；配角使用对应 ref-helper-<型>.png
+参考图：脸部/表情镜使用 character-reference/face-style-D.png 与所需单档表情；站姿/全身镜使用 character-reference/turnaround.png；配角使用对应 ref-helper-<型>.png
 prompt = 风格块（style.md §四，无色名）
        + 场景事实卡（中文：环境/动作/服装/道具/光位）
        + 色彩与光线行（必填，色值取该集 image/color-plan.json）
@@ -73,7 +67,7 @@ prompt = 风格块（style.md §四，无色名）
           NO human fingers, NO human toes, NO shoes, no tail. Grey hoodie one flat tone, black trousers one flat
           tone, trouser hems just above the bare paws. Only the protagonist is a cat-headed, cat-pawed person;
           every other person is a very simple round-headed cartoon figure: round head, two dot eyes, short line mouth, white mitten hands with no fingers, plain dark clothes — deliberately simpler than the protagonist."
-       + "The face reference locks only facial identity, markings and this one expression. The v7 turnaround
+       + "The face reference locks only facial identity, markings and this one expression. The turnaround
           reference locks body proportions, silhouette, paws and clothing. Neither reference sets the colour
           grade, background colours or lighting."
        + 表情行：表情（只动眼皮、瞳孔、嘴角，不张嘴大喊、不哭变形）：<档位>——<幅度描述>。
@@ -84,11 +78,9 @@ prompt = 风格块（style.md §四，无色名）
 > **v6.1 修正（2026-11-14）**：① 人物在场改由 `cast / closeup_part / view_angle` 字段决定，不再从 `visual` 中文猜（EP03 有 16 镜因此没发参考图、猫被画成灰白猫）；② 老陈必须有定装参考（§4.1）；③ 侧面/背面不做脸部特写（§4.2）；④ 手部特写必须发手部参考。
 > **道具归属**：谁拿什么写进该集 `story/props.json`，并加「不要把道具塞进另一个人手里」；绷带、伤口这类状态同样要写清属于谁。
 
-## 六、表情（6 档，只动眼皮/瞳孔/嘴角）
+## 六、表情
 
-平静（默认）／疲惫（上眼皮压一半、视线微垂）／发愣（瞳孔略放大、视偏、嘴微张一点）／难堪（视线偏开、嘴角压平）／勉强笑（单侧嘴角抬起一点）／发憋（眉压低、嘴角下压、下唇抿住）。
-**每镜只取一档**，写在该集 `story/expressions.json`；参考图只发这一档。
-**不做**：张嘴大喊、哭变形、龇牙、夸张惊讶、爱心眼、卖萌。
+正式素材有 24 张单档表情，具体文件见 `character-reference/expressions/`。**每镜只取一档**，写在该集 `story/expressions.json`；参考图只发这一档。表情变化以眼皮、瞳孔、嘴角为主，允许已验收表情图中的受控泪痕或张口，不改猫脸轮廓与虎斑。
 
 ## 七、验收（任一不过重出）
 
@@ -98,8 +90,8 @@ prompt = 风格块（style.md §四，无色名）
 - [ ] **人脸角度合规**：`side` / `back` 镜没有脸部情绪特写（§4.2）；
 - [ ] **手部合规**：主角是猫爪（三趾线、肉垫），老陈是正常人手（五指、指甲、无关节缝、无木偶感）；
 - [ ] 参考图本身合规：每部位 ≤3 平色、无喷枪过渡、无柔光边（`style.md` §六）；
-- [ ] 站姿镜同时使用 `ref-face.png` 与 v8 全身角度参考；配角镜使用对应 `ref-helper-a/b/c.png`；
-- [ ] 折耳向前折贴、无立耳；黑瞳+窄琥珀边+高光；与 `ref-face.png` 并排看是同一只猫；
+- [ ] 站姿镜使用 `character-reference/turnaround.png`；配角镜使用对应 `ref-helper-a/b/c.png`；
+- [ ] 折耳向前折贴、无立耳；黑瞳+窄琥珀边+高光；与 `character-reference/ref-face.png` 并排看是同一只猫；
 - [ ] 约 3–3.2 头身、脖子极短直接坐窄肩、头宽略大于肩；
 - [ ] **手/脚是猫爪**：三趾线、肉垫、无人手手指、不穿鞋；无尾巴；
 - [ ] 头是唯一保留细节的部位，身体与场景是 2–3 个平色块，无渐变无颗粒无纸纹；
