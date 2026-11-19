@@ -1,0 +1,22 @@
+{
+  "backend": "affine-static",
+  "render_fps": 24,
+  "matrix": [
+    [
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      1.0,
+      0.0
+    ]
+  ],
+  "id": "S31",
+  "frames": 459,
+  "duration_s": 19.125,
+  "source_sha256": "4f3be3b368085c0d35a80c97427240f831a9387ff55e2042fad3d7c8974f9df8",
+  "video_sha256": "5699cb19bb6b65e1297a6c522f8ce1b8191873b927d29031059321bb3370d517",
+  "elapsed_s": 3.26
+}

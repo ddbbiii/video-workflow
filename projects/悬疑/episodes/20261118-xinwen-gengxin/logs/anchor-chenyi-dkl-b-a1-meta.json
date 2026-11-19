@@ -1,0 +1,44 @@
+{
+  "shot": "anchor-chenyi",
+  "channel": "dkl-b",
+  "attempt": 1,
+  "endpoint": "generations",
+  "prompt": "desaturated graphic-novel panel, mature simplified cel-shaded anime characters, flat color blocks with hard-edged cel shadows, clean ink linework, cold grey-blue palette, one controlled warm practical light, ordinary Chinese urban interior or street, worn and lived-in surfaces, legible horror staging, clear foreground subject and evidence prop, slightly off-center composition, deep focus, layered foreground occlusion in wide shots, volumetric dust in cold window light, 16:9\n2D cel animation key visual, flat unshaded color areas, hard-edged shadow shapes, no gradients on fabric or walls, clean black linework, anime screencap\nSingle full-body three-quarter front character reference, neutral standing pose, plain cool grey background. Character: one Chinese woman aged 29, average adult build, black hair tied in a low ponytail with a few side-parted wisps, round face, dark eyes, gently curved brow tails, ivory knit sweater, dark-green home trousers, light-grey slippers, no jewelry, no glasses, no distinctive marks. Flat grey background and exact same design throughout. No text, labels, numbers, border, UI or watermark.\nAvoid: photograph, photorealistic, 3d render, cgi, live action, film still, cinematic still, 35mm, shallow depth of field, bokeh, motion blur, glossy skin, hyperreal texture, clean new building, spotless, pristine, showroom, symmetrical centered hero shot, chibi, big eyes, text, letters, numbers, labels, watermark, UI, logo, gore, monster, jump-scare face",
+  "request_size": "2048x1152",
+  "price_cny": 0.018,
+  "http_status": 200,
+  "elapsed_s": 41.8,
+  "delivery": "url",
+  "dims": [
+    2048,
+    1152
+  ],
+  "sha256": "dc814df8bc9ac3c93b35a6cc06c05ce6478d0c56b3670f4acf84886aaace0018",
+  "ok": true,
+  "file": "image/raw/anchor-chenyi.png",
+  "metrics": {
+    "std_lum": 37.7,
+    "mean_lum": 135.0,
+    "mean_sat": 12.5,
+    "lap_var": 214.1,
+    "delivery_lap_var": 253.9
+  },
+  "qa": [],
+  "attempt_log": [
+    {
+      "attempt": 1,
+      "http_status": 200,
+      "elapsed_s": 41.8,
+      "dims": [
+        2048,
+        1152
+      ],
+      "qa": []
+    }
+  ],
+  "channel_policy": "v8-new2-dklb-parallel",
+  "disabled_channel": "new2 (repeated HTTP 502 in active episode)",
+  "model": "gpt-image-2.5-sunburst",
+  "base_url": "https://dklapi.com/v1",
+  "request_id": "not-returned-by-relay"
+}

@@ -1,0 +1,44 @@
+{
+  "shot": "S35-r2",
+  "channel": "dkl-b",
+  "attempt": 1,
+  "endpoint": "edits",
+  "prompt": "desaturated graphic-novel panel, mature simplified cel-shaded anime characters, flat color blocks with hard-edged cel shadows, clean ink linework, cold grey-blue palette, one controlled warm practical light, ordinary Chinese urban interior or street, worn and lived-in surfaces, legible horror staging, clear foreground subject and evidence prop, slightly off-center composition, deep focus, layered foreground occlusion in wide shots, volumetric dust in cold window light, 16:9\n2D cel animation key visual, flat unshaded color areas, hard-edged shadow shapes, no gradients on fabric or walls, clean black linework, anime screencap\nLEFT large region is the exact empty scene master; RIGHT reference strip is identity-only. Output ONE complete full-frame scene, not a collage or panel. Exactly the character identities specified by the attached reference images. Every depicted protagonist is an adult Chinese woman; no men, boys, male faces or masculine substitutions. Zhou Ning is the woman with a long oval face, narrow dark eyes, straight brows, shoulder-length center-parted straight black hair, dark-red cardigan over charcoal knit top and black trousers; keep this identity and outfit unless the shot itself explicitly describes the leaving-home outer jacket. Chen Yi is the woman with a round face, dark eyes, black hair tied in a low ponytail with side-parted wisps, ivory knit sweater and dark-green trousers; keep her clearly female, with the same low ponytail and outfit. Preserve the shot action, character placement, count and framing described below. The reference strip is identity-only; do not reproduce it or its layout.\nZhou Ning holds a phone to her ear in the same living room while Chen Yi appears only as a small unidentifiable portrait silhouette on a second device; Zhou Ning looks relieved but guarded, no readable UI.\nKeep the same worn environment, lighting and cel-animation style. No readable text, letters, numbers, logos, UI, subtitles or watermark.\nAvoid: photograph, photorealistic, 3d render, cgi, live action, film still, cinematic still, 35mm, shallow depth of field, bokeh, motion blur, glossy skin, hyperreal texture, clean new building, spotless, pristine, showroom, symmetrical centered hero shot, chibi, big eyes, text, letters, numbers, labels, watermark, UI, logo, gore, monster, jump-scare face",
+  "request_size": "2048x1152",
+  "price_cny": 0.018,
+  "http_status": 200,
+  "elapsed_s": 48.5,
+  "delivery": "url",
+  "dims": [
+    2048,
+    1152
+  ],
+  "sha256": "4d8a524cdac363079926291af36e680afcbe63e009af875b33c3892754e49933",
+  "ok": true,
+  "file": "image/raw/S35-r2.png",
+  "metrics": {
+    "std_lum": 37.5,
+    "mean_lum": 64.1,
+    "mean_sat": 44.0,
+    "lap_var": 88.9,
+    "delivery_lap_var": 105.0
+  },
+  "qa": [],
+  "attempt_log": [
+    {
+      "attempt": 1,
+      "http_status": 200,
+      "elapsed_s": 48.5,
+      "dims": [
+        2048,
+        1152
+      ],
+      "qa": []
+    }
+  ],
+  "channel_policy": "v8-new2-dklb-parallel",
+  "disabled_channel": "new2 (repeated HTTP 502 in active episode)",
+  "model": "gpt-image-2.5-sunburst",
+  "base_url": "https://dklapi.com/v1",
+  "request_id": "not-returned-by-relay"
+}

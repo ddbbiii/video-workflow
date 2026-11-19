@@ -1,0 +1,22 @@
+{
+  "backend": "affine-static",
+  "render_fps": 24,
+  "matrix": [
+    [
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      1.0,
+      0.0
+    ]
+  ],
+  "id": "S19B",
+  "frames": 176,
+  "duration_s": 7.333333333333333,
+  "source_sha256": "645b929aab8f0ec3cc593f6585b5a96cae4277630d80b204013d1507f1998398",
+  "video_sha256": "381b71cdbe31e4b5af2dd0282359d0dff0b972111866a5fe4d45765a64ce2411",
+  "elapsed_s": 1.7
+}

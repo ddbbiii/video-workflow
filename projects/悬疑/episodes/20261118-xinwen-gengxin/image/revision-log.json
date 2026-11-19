@@ -1,0 +1,110 @@
+{
+  "S02B": {
+    "rejected_file": "image/rejected/S02B-r1.png",
+    "rejected_sha256": "a48f8ab6fa3af02d3d35c0a2224df7916217c2b1e3afa126806f090fe0ff12a7",
+    "accepted_file": "image/final/S02B.png",
+    "accepted_sha256": "cda040c5e281446f1dc4a252350f043925be1811c28390d1d72ef2dc1da4e4a3",
+    "reason": "r1 rendered Chen Yi as male; r2 prompt maps each female identity and outfit explicitly"
+  },
+  "S24": {
+    "rejected_file": "image/rejected/S24-r1.png",
+    "rejected_sha256": "c24dad5099d30da4a41dbb4e02caf0e83f16c310b14ab870c1fafed7f8ac6dc6",
+    "accepted_file": "image/final/S24.png",
+    "accepted_sha256": "2874bdfbe2a5b4dc48d8946bc9815a1bd310f025a08a49aae0a93d48260dc9a4",
+    "reason": "S24 tabletop ornament was upright while the phone photograph showed it toppled; corrected physical prop orientation to match the screen photograph."
+  },
+  "S25A": {
+    "rejected_versions": [
+      {
+        "file": "image/rejected/S25A-r1.png",
+        "sha256": "c913f7b28bea5bc3db88777d8924bb732b01af9860131e9acc316ab9561b6405",
+        "reason": "prop remained upright"
+      },
+      {
+        "file": "image/rejected/S25A-r2.png",
+        "sha256": "6b12ac6764602ab0a71cc6846dc89da1e1fc923dab6f27020d431ccd8bd73404",
+        "reason": "collage/inset composition"
+      }
+    ],
+    "accepted_file": "image/final/S25A.png",
+    "accepted_sha256": "7f6afc8e05519159cb80e286d2be832542ef9e04b45f152bbed64d4f7ff561be",
+    "reason": "Restored single full-frame composition and corrected toppled prop orientation."
+  },
+  "S08B": {
+    "rejected_file": "image/rejected/S08B-r1.png",
+    "rejected_sha256": "b9119e385ae1507463de6d59e0bbab0477d841742ff33cefcb761075bcea8312",
+    "accepted_file": "image/final/S08B.png",
+    "accepted_sha256": "4afd33e5f52f506519ee5af361f031c1fd466353baef9483acb34b49a592d4b0",
+    "reason": "Corrected gender/identity drift against locked female character anchors; regenerated using exact Zhou Ning and Chen Yi references."
+  },
+  "S09": {
+    "rejected_file": "image/rejected/S09-r1.png",
+    "rejected_sha256": "e5a87589f090653f7bc1ebf600f5b69f821e742edcb3a90187a5b108c3aead9e",
+    "accepted_file": "image/final/S09.png",
+    "accepted_sha256": "6374a910869c2267b7699ec964e95b819d455de57c17b296e921c444e0e2b81f",
+    "reason": "Corrected gender/identity drift against locked female character anchors; regenerated using exact Zhou Ning and Chen Yi references."
+  },
+  "S10": {
+    "rejected_file": "image/rejected/S10-r1.png",
+    "rejected_sha256": "d0247e14bf1e92615a077b1568f34b537d98c3d912a95ea0186bc5cbc8616692",
+    "accepted_file": "image/final/S10.png",
+    "accepted_sha256": "411c45b11be87e6a1814e49f9b39918a00aeb0947f9e3553c090e29e80bac6bf",
+    "reason": "Corrected gender/identity drift against locked female character anchors; regenerated using exact Zhou Ning and Chen Yi references."
+  },
+  "S17": {
+    "rejected_file": "image/rejected/S17-r1.png",
+    "rejected_sha256": "0afb2f133423dab64c2642e30b2d38988b97e3bb8e02b8013000803ccfe25587",
+    "accepted_file": "image/final/S17.png",
+    "accepted_sha256": "828098006ec377a259c58d22abe0cfdfd0d4e353c81130e317007c2083aabb56",
+    "reason": "Corrected gender/identity drift against locked female character anchors; regenerated using exact Zhou Ning and Chen Yi references."
+  },
+  "S20": {
+    "rejected_file": "image/rejected/S20-r1.png",
+    "rejected_sha256": "d1ba416458334d7ff49d6a74a6402901d35bbf4e0c6602eb49229c904216c00b",
+    "accepted_file": "image/final/S20.png",
+    "accepted_sha256": "f92fa02ef8fbf6ef96cbc9728b2afe049b2b976c879415454e5a5b8b37595145",
+    "reason": "Corrected gender/identity drift against locked female character anchors; regenerated using exact Zhou Ning and Chen Yi references."
+  },
+  "S23": {
+    "rejected_file": "image/rejected/S23-r1.png",
+    "rejected_sha256": "0f2120029d6245c8d7520fea3b3b8298a28653f3c5a611bb0a3ec17939bcf263",
+    "accepted_file": "image/final/S23.png",
+    "accepted_sha256": "0df5376ebdf40cfe13042ec59f7d4238b3425e380d5d6df23e20be85c7861725",
+    "reason": "Corrected gender/identity drift against locked female character anchors; regenerated using exact Zhou Ning and Chen Yi references."
+  },
+  "S26": {
+    "rejected_file": "image/rejected/S26-r1.png",
+    "rejected_sha256": "93960f581d72aae30ad62be28856a5772e24935de5d49c3864ac3f3845486a66",
+    "accepted_file": "image/final/S26.png",
+    "accepted_sha256": "7de9c39ff576662cacb7616085d077530cf9c54a442413e3637c9269ef917059",
+    "reason": "Corrected gender/identity drift against locked female character anchors; regenerated using exact Zhou Ning and Chen Yi references."
+  },
+  "S30A": {
+    "rejected_file": "image/rejected/S30A-r1.png",
+    "rejected_sha256": "b1ecc0e9990495781a06fae93f611c2618e75025a9f9d353c1c73cbb2f54e51d",
+    "accepted_file": "image/final/S30A.png",
+    "accepted_sha256": "7284d085ffb7b4ffdfd42603ff50a11b2a4c7f03727641ee273161d6ad4152de",
+    "reason": "Corrected gender/identity drift against locked female character anchors; regenerated using exact Zhou Ning and Chen Yi references."
+  },
+  "S31": {
+    "rejected_file": "image/rejected/S31-r1.png",
+    "rejected_sha256": "256fda0d3413367c37b0ee28e1dc61d4a8eb9cf9129a6e46c068b2fc65141511",
+    "accepted_file": "image/final/S31.png",
+    "accepted_sha256": "4f3be3b368085c0d35a80c97427240f831a9387ff55e2042fad3d7c8974f9df8",
+    "reason": "Corrected gender/identity drift against locked female character anchors; regenerated using exact Zhou Ning and Chen Yi references."
+  },
+  "S35": {
+    "rejected_file": "image/rejected/S35-r1.png",
+    "rejected_sha256": "0521fa5c4d571f76d3ff064ccfed6db4425b469c703ee5bcb7181c7c1bc0ff0c",
+    "accepted_file": "image/final/S35.png",
+    "accepted_sha256": "4d8a524cdac363079926291af36e680afcbe63e009af875b33c3892754e49933",
+    "reason": "Corrected gender/identity drift against locked female character anchors; regenerated using exact Zhou Ning and Chen Yi references."
+  },
+  "S08A": {
+    "rejected_file": "image/rejected/S08A-r1.png",
+    "rejected_sha256": "d06f96ed962ed23d0b593ba772beb1edf18f684542452c898fadbfdb23fb72f0",
+    "accepted_file": "image/final/S08A.png",
+    "accepted_sha256": "2a3b94c3b1aae0ba570b2a29084c9416cb9f5d5cd6653b8e78d19c414671d12c",
+    "reason": "Corrected male identity drift for Chen Yi using locked female character anchors."
+  }
+}

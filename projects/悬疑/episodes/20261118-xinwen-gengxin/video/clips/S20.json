@@ -1,0 +1,22 @@
+{
+  "backend": "affine-static",
+  "render_fps": 24,
+  "matrix": [
+    [
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      1.0,
+      0.0
+    ]
+  ],
+  "id": "S20",
+  "frames": 406,
+  "duration_s": 16.916666666666668,
+  "source_sha256": "f92fa02ef8fbf6ef96cbc9728b2afe049b2b976c879415454e5a5b8b37595145",
+  "video_sha256": "9d549eedf0621c2c1dca82fff1b340bc8b377f715c51ba7100b88e0ef7370616",
+  "elapsed_s": 3.48
+}

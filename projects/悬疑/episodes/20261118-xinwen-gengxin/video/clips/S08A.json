@@ -1,0 +1,22 @@
+{
+  "backend": "affine-static",
+  "render_fps": 24,
+  "matrix": [
+    [
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      1.0,
+      0.0
+    ]
+  ],
+  "id": "S08A",
+  "frames": 83,
+  "duration_s": 3.4583333333333335,
+  "source_sha256": "2a3b94c3b1aae0ba570b2a29084c9416cb9f5d5cd6653b8e78d19c414671d12c",
+  "video_sha256": "d142e27aeee9889bd207efead072ad423e5dcbfc4bfad75deaf4941c72a2518b",
+  "elapsed_s": 0.82
+}

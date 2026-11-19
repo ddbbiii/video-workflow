@@ -1,0 +1,43 @@
+{
+ "total": 44,
+ "counts": {
+  "C": 10,
+  "M": 23,
+  "E": 11
+ },
+ "ratios": {
+  "E": 0.25,
+  "M": 0.5227,
+  "C": 0.2273
+ },
+ "scenes": 9,
+ "per_scene": {
+  "tabletop": 12,
+  "living-room": 16,
+  "phone-photo": 5,
+  "window": 4,
+  "doorway": 1,
+  "hall-monitor": 1,
+  "police-station": 2,
+  "friends-home": 1,
+  "bedroom": 2
+ },
+ "worst_run_without_e": 4,
+ "worst_run_with_character": 4,
+ "entry_without_e": [
+  [
+   "tabletop",
+   "S01"
+  ],
+  [
+   "living-room",
+   "S02A"
+  ]
+ ],
+ "fact_missing": [],
+ "fact_duplicate": [],
+ "fails": [],
+ "notes": [
+  "进场缺 E 的场地（首现处 ±1 镜内无 E）：2 个，如 [('tabletop', 'S01'), ('living-room', 'S02A')]"
+ ]
+}

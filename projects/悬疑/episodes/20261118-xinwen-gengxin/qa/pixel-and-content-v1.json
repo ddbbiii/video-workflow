@@ -1,0 +1,14 @@
+{
+  "pass": true,
+  "frames": 14199,
+  "fps": 24,
+  "duration_s": 591.625,
+  "decoded_frames": 14199,
+  "pixel_scan": "every frame: signalstats plus 98%-coverage black/white detection",
+  "black_intervals_ge_1s": [],
+  "white_intervals_ge_1s": [],
+  "cfr_max_step_error_s": 6.666667028767947e-07,
+  "narration_exact_match": true,
+  "video_sha256": "3e25ea530d93107b4fa891ac1fadecc56632e4402f17b92e4f9e5e0048bb0b0f",
+  "srt_sha256": "05b6aff21f97b2c201e41ce1b94468e6597b98ca41804e6ad90538db535003a7"
+}

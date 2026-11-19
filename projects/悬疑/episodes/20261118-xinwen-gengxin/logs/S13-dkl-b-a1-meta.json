@@ -1,0 +1,44 @@
+{
+  "shot": "S13",
+  "channel": "dkl-b",
+  "attempt": 1,
+  "endpoint": "edits",
+  "prompt": "desaturated graphic-novel panel, mature simplified cel-shaded anime characters, flat color blocks with hard-edged cel shadows, clean ink linework, cold grey-blue palette, one controlled warm practical light, ordinary Chinese urban interior or street, worn and lived-in surfaces, legible horror staging, clear foreground subject and evidence prop, slightly off-center composition, deep focus, layered foreground occlusion in wide shots, volumetric dust in cold window light, 16:9\n2D cel animation key visual, flat unshaded color areas, hard-edged shadow shapes, no gradients on fabric or walls, clean black linework, anime screencap\nLEFT large region is the environment master; RIGHT reference strip is identity-only. Output ONE complete single image of the described scene; do not copy the strip, panels, or reference poses. Keep exact face, hair, body and outfit from the references. \nThe phone fills the frame with a second uncaptioned news photograph: same kind of roadside tree, a different-color compact car and changed landscape; Zhou Ning's thumb hovers beside the screen.\nKeep the same worn set and camera-readable evidence. No readable text, letters, numbers, symbols, platform logos, UI, subtitles or watermark.\nAvoid: photograph, photorealistic, 3d render, cgi, live action, film still, cinematic still, 35mm, shallow depth of field, bokeh, motion blur, glossy skin, hyperreal texture, clean new building, spotless, pristine, showroom, symmetrical centered hero shot, chibi, big eyes, text, letters, numbers, labels, watermark, UI, logo, gore, monster, jump-scare face",
+  "request_size": "2048x1152",
+  "price_cny": 0.018,
+  "http_status": 200,
+  "elapsed_s": 71.2,
+  "delivery": "url",
+  "dims": [
+    2048,
+    1152
+  ],
+  "sha256": "99ce29730d3c7df3d21098455067de6c6c82cb2ca93a596de2cf18c5d129e06c",
+  "ok": true,
+  "file": "image/raw/S13.png",
+  "metrics": {
+    "std_lum": 34.4,
+    "mean_lum": 71.5,
+    "mean_sat": 52.5,
+    "lap_var": 154.4,
+    "delivery_lap_var": 185.9
+  },
+  "qa": [],
+  "attempt_log": [
+    {
+      "attempt": 1,
+      "http_status": 200,
+      "elapsed_s": 71.2,
+      "dims": [
+        2048,
+        1152
+      ],
+      "qa": []
+    }
+  ],
+  "channel_policy": "v8-new2-dklb-parallel",
+  "disabled_channel": "new2 (repeated HTTP 502 in active episode)",
+  "model": "gpt-image-2.5-sunburst",
+  "base_url": "https://dklapi.com/v1",
+  "request_id": "not-returned-by-relay"
+}

@@ -1,0 +1,44 @@
+{
+  "shot": "plate-bedroom",
+  "channel": "dkl-b",
+  "attempt": 1,
+  "endpoint": "generations",
+  "prompt": "desaturated graphic-novel panel, mature simplified cel-shaded anime characters, flat color blocks with hard-edged cel shadows, clean ink linework, cold grey-blue palette, one controlled warm practical light, ordinary Chinese urban interior or street, worn and lived-in surfaces, legible horror staging, clear foreground subject and evidence prop, slightly off-center composition, deep focus, layered foreground occlusion in wide shots, volumetric dust in cold window light, 16:9\nEmpty environment master, no people, no faces, no figures or reflections. A lived-in bedroom at night, rumpled cotton bedding, worn bedside table, old window frame with peeling paint, water stain near the sill, slippers and a hanging jacket, dim cool light with a single warm bedside lamp, no people, no text.\nKeep 16:9 deep-focus composition, readable wear and ordinary household use. No text, letters, numbers, signs, labels, UI, logos or watermarks.\nAvoid: photograph, photorealistic, 3d render, cgi, live action, film still, cinematic still, 35mm, shallow depth of field, bokeh, motion blur, glossy skin, hyperreal texture, clean new building, spotless, pristine, showroom, symmetrical centered hero shot, chibi, big eyes, text, letters, numbers, labels, watermark, UI, logo, gore, monster, jump-scare face",
+  "request_size": "2048x1152",
+  "price_cny": 0.018,
+  "http_status": 200,
+  "elapsed_s": 26.9,
+  "delivery": "url",
+  "dims": [
+    2048,
+    1152
+  ],
+  "sha256": "900328b7df6e714db8f6f94566e9e4f79f8fb8c4405033fc4247e1810d964546",
+  "ok": true,
+  "file": "image/raw/plate-bedroom.png",
+  "metrics": {
+    "std_lum": 23.8,
+    "mean_lum": 50.9,
+    "mean_sat": 49.6,
+    "lap_var": 98.3,
+    "delivery_lap_var": 115.2
+  },
+  "qa": [],
+  "attempt_log": [
+    {
+      "attempt": 1,
+      "http_status": 200,
+      "elapsed_s": 26.9,
+      "dims": [
+        2048,
+        1152
+      ],
+      "qa": []
+    }
+  ],
+  "channel_policy": "v8-new2-dklb-parallel",
+  "disabled_channel": "new2 (repeated HTTP 502 in active episode)",
+  "model": "gpt-image-2.5-sunburst",
+  "base_url": "https://dklapi.com/v1",
+  "request_id": "not-returned-by-relay"
+}

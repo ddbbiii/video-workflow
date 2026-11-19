@@ -1,0 +1,44 @@
+{
+  "shot": "S24",
+  "channel": "dkl-b",
+  "attempt": 1,
+  "endpoint": "edits",
+  "prompt": "desaturated graphic-novel panel, mature simplified cel-shaded anime characters, flat color blocks with hard-edged cel shadows, clean ink linework, cold grey-blue palette, one controlled warm practical light, ordinary Chinese urban interior or street, worn and lived-in surfaces, legible horror staging, clear foreground subject and evidence prop, slightly off-center composition, deep focus, layered foreground occlusion in wide shots, volumetric dust in cold window light, 16:9\n2D cel animation key visual, flat unshaded color areas, hard-edged shadow shapes, no gradients on fabric or walls, clean black linework, anime screencap\nUse the attached empty environment master for exact location and prop continuity. Output one complete scene. \nThe large uncaptioned phone photograph shows the same cream ceramic house ornament lying on its side, chipped red roof corner and tiny blue door matching the physical ornament at frame edge; identical orientation and pale water ring, no people or text.\nKeep the same worn set and camera-readable evidence. No readable text, letters, numbers, symbols, platform logos, UI, subtitles or watermark.\nAvoid: photograph, photorealistic, 3d render, cgi, live action, film still, cinematic still, 35mm, shallow depth of field, bokeh, motion blur, glossy skin, hyperreal texture, clean new building, spotless, pristine, showroom, symmetrical centered hero shot, chibi, big eyes, text, letters, numbers, labels, watermark, UI, logo, gore, monster, jump-scare face",
+  "request_size": "2048x1152",
+  "price_cny": 0.018,
+  "http_status": 200,
+  "elapsed_s": 26.7,
+  "delivery": "url",
+  "dims": [
+    2048,
+    1152
+  ],
+  "sha256": "c24dad5099d30da4a41dbb4e02caf0e83f16c310b14ab870c1fafed7f8ac6dc6",
+  "ok": true,
+  "file": "image/raw/S24.png",
+  "metrics": {
+    "std_lum": 31.0,
+    "mean_lum": 71.7,
+    "mean_sat": 43.8,
+    "lap_var": 75.1,
+    "delivery_lap_var": 91.5
+  },
+  "qa": [],
+  "attempt_log": [
+    {
+      "attempt": 1,
+      "http_status": 200,
+      "elapsed_s": 26.7,
+      "dims": [
+        2048,
+        1152
+      ],
+      "qa": []
+    }
+  ],
+  "channel_policy": "v8-new2-dklb-parallel",
+  "disabled_channel": "new2 (repeated HTTP 502 in active episode)",
+  "model": "gpt-image-2.5-sunburst",
+  "base_url": "https://dklapi.com/v1",
+  "request_id": "not-returned-by-relay"
+}

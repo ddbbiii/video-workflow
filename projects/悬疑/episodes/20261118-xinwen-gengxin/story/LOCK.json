@@ -1,0 +1,9 @@
+{
+  "script": "script-v1.md",
+  "sha256": "61d0e23afb214882400a158f9f39b6c0d67971e1e80b7bf047fe61c48d74b21b",
+  "status": "user-approved-for-production",
+  "cue_count": 38,
+  "visible_chars": 2097,
+  "estimated_duration_s": 591.625,
+  "note": "旁白逐字锁定；HASH 在分镜计划生成时写入。估算时间轴，未对真实人声校准。"
+}

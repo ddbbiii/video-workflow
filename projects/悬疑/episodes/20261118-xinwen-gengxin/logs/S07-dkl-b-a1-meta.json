@@ -1,0 +1,44 @@
+{
+  "shot": "S07",
+  "channel": "dkl-b",
+  "attempt": 1,
+  "endpoint": "edits",
+  "prompt": "desaturated graphic-novel panel, mature simplified cel-shaded anime characters, flat color blocks with hard-edged cel shadows, clean ink linework, cold grey-blue palette, one controlled warm practical light, ordinary Chinese urban interior or street, worn and lived-in surfaces, legible horror staging, clear foreground subject and evidence prop, slightly off-center composition, deep focus, layered foreground occlusion in wide shots, volumetric dust in cold window light, 16:9\nUse the attached empty environment master for exact location and prop continuity. Output one complete scene. \nThe same uncaptioned news photograph: a compact car with a crushed front beside a thick roadside tree, photographed from a distant angle; phone bezel and worn coffee table establish this is a screen, with no readable text.\nKeep the same worn set and camera-readable evidence. No readable text, letters, numbers, symbols, platform logos, UI, subtitles or watermark.\nAvoid: photograph, photorealistic, 3d render, cgi, live action, film still, cinematic still, 35mm, shallow depth of field, bokeh, motion blur, glossy skin, hyperreal texture, clean new building, spotless, pristine, showroom, symmetrical centered hero shot, chibi, big eyes, text, letters, numbers, labels, watermark, UI, logo, gore, monster, jump-scare face",
+  "request_size": "2048x1152",
+  "price_cny": 0.018,
+  "http_status": 200,
+  "elapsed_s": 45.1,
+  "delivery": "url",
+  "dims": [
+    2048,
+    1152
+  ],
+  "sha256": "dd90cc950e94e196cc440c8e64ba29c6f3ba97422eb54d654898940124d8ec72",
+  "ok": true,
+  "file": "image/raw/S07.png",
+  "metrics": {
+    "std_lum": 33.5,
+    "mean_lum": 78.2,
+    "mean_sat": 51.2,
+    "lap_var": 88.9,
+    "delivery_lap_var": 107.4
+  },
+  "qa": [],
+  "attempt_log": [
+    {
+      "attempt": 1,
+      "http_status": 200,
+      "elapsed_s": 45.1,
+      "dims": [
+        2048,
+        1152
+      ],
+      "qa": []
+    }
+  ],
+  "channel_policy": "v8-new2-dklb-parallel",
+  "disabled_channel": "new2 (repeated HTTP 502 in active episode)",
+  "model": "gpt-image-2.5-sunburst",
+  "base_url": "https://dklapi.com/v1",
+  "request_id": "not-returned-by-relay"
+}
