@@ -38,7 +38,7 @@
 0. 新单/续跑：先 `input-spec.md` §0，用 `../../shared/workflows/悬疑/EPISODE_INPUT_TEMPLATE.md` 填单；
 1. 全局流程：`../shared/video-workflow.md`；
 2. 剧本：`../shared/script-workflow.md` + 本目录 `narrative.md`；
-3. 按阶段：`visual.md`（先取 §二 风格块、判主角契合度、锁 2×2 三视图与 `CHARACTER_LOCK.md`，之后才批量生图）、`audio.md`（只取语速）；
+3. 引入文案与画面先读 `../shared/intro.md`（一般1～2画面、默认共两短段，开头强化吸引力）；按阶段：`visual.md`（先取 §二 风格块、判主角契合度、锁 2×2 三视图与 `CHARACTER_LOCK.md`，之后才批量生图）、`audio.md`（只取语速）；
 4. 镜头配比与构图：`../shared/shot-composition.md`（E/M/C = 22/53/25、进场三连、场地锚点、**§五 构图语法与序列验收**、**§六 `fact` 字段**），本线默认档位见 `visual.md` §4.1.1；门禁 `shared/workflows/body-only/check_shot_mix.py --require-fact`；
 5. 执行件：推拉 `shared/camera-motion/`；生图只走 `shared/image-api/`；SRT `shared/workflows/subtitles/`。
 

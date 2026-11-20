@@ -1,0 +1,30 @@
+{
+  "approved_option": 1,
+  "delivery": "两张无字引入图单独准备，未剪入正文成片",
+  "shots": [
+    {
+      "id": "INTRO01",
+      "cue": "纸箱刚挪开，一群蟑螂就沿着墙脚散了。搭档猛地松手，箱子又砸回了垃圾堆。",
+      "scene_id": "kitchen-full",
+      "cast": "partner",
+      "fact": "橙衣搭档松手后仰，纸箱一角已落回垃圾，露出的墙脚有多只蟑螂散开。",
+      "shot_type": "M",
+      "visual": "Low oblique medium view, camera near kitchen floor looking diagonally along the cabinet plinth. Foreground left a single collapsed wet cardboard box has just landed tilted against garbage, revealing a dark filthy gap behind it. A conspicuous cluster of realistically SMALL cockroaches, about 2-4 cm long, fans out along the newly exposed floor-wall seam, sharp readable silhouettes, not giant insects, no swarm in the air. Midground right ONE orange-shirt partner has recoiled backwards with both small pale-blue mitten hands RELEASED and held away from box, body leaning back, startled short open mouth and dot eyes. Capture ONE frozen moment after release, not a sequence. Cockroaches and exposed seam in central lower-middle above bottom fifth. Keep cupboard, dirty sea-green wall tiles, crowded stove and sink consistent; room still full of waste. No surprise symbols or motion marks.",
+      "file": "image/intro/v2/人生体验_清理垃圾屋_引入_01_v2.png",
+      "sha256": "2f7c6fb030f17f9ad4bea2a105fcdc1ce65a2791a9464e5c977ee7afca8bc2cd",
+      "request_log": "logs/requests/round-intro-01.json"
+    },
+    {
+      "id": "INTRO02",
+      "cue": "你们才刚清到厨房。外面那张被垃圾埋住的沙发，还等着你们往外挪。",
+      "scene_id": "living-full",
+      "cast": "none",
+      "fact": "同一客厅蓝灰沙发被垃圾埋住，仅露出半截靠背，铁床和窗户作为场地锚点；无人。",
+      "shot_type": "M",
+      "visual": "A compelling tight medium environmental shot of the SAME blue-grey sofa almost buried in takeaway waste, camera just above rubbish height in living room, angled diagonally toward sofa back. The partially exposed stained blue-grey backrest dominates center, the whole seat and base remain buried beneath mounds of leaking takeaway bags, greasy white food containers, damp collapsed cardboard and tangled cat hair, litter and small dried feces among local floor debris. Framing feels blocked and suffocating by layered close foreground rubbish; sofa back recognizable ABOVE bottom fifth. Preserve peeling wall, same iron bed and rear-right window partly visible behind sofa as continuity anchors. This is BEFORE sofa moved: no cleared floor, no revealed sofa underside, no clean corridor. NO people, heads, hands or body parts, no cats. Daylight makes dirt readable, no global brown filter.",
+      "file": "image/intro/v2/人生体验_清理垃圾屋_引入_02_v2.png",
+      "sha256": "ef1de06259834d55582f97f68371c7358b4aa638712e6ad643a4e23378147ffd",
+      "request_log": "logs/requests/intro-02.json"
+    }
+  ]
+}
