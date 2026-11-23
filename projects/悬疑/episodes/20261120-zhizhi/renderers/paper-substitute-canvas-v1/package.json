@@ -1,0 +1,7 @@
+{
+  "name": "paper-substitute-canvas-v1",
+  "private": true,
+  "type": "module",
+  "scripts": {"render": "node render.mjs"},
+  "dependencies": {"playwright": "^1.56.1"}
+}

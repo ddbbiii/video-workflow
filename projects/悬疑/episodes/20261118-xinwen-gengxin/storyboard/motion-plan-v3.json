@@ -1,0 +1,2222 @@
+{
+  "schema_version": 1,
+  "backend": "affine",
+  "output": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 60
+  },
+  "transition_s": 0,
+  "shots": [
+    {
+      "id": "S01",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261118-xinwen-gengxin/image/final/S01.png",
+      "duration_s": 16.083333333333332,
+      "frames": 965,
+      "span_s": 16.066666666666666,
+      "start_view": [
+        0.044,
+        0.044,
+        0.912,
+        0.912
+      ],
+      "end_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.12,
+          0.12,
+          0.76,
+          0.76
+        ]
+      ],
+      "delivery_frames": 386,
+      "timeline_start_frame": 0,
+      "motion": "affine"
+    },
+    {
+      "id": "S02",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261118-xinwen-gengxin/image/final/S02.png",
+      "duration_s": 24.716666666666665,
+      "frames": 1483,
+      "span_s": 24.7,
+      "start_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "end_view": [
+        0.044,
+        0.044,
+        0.912,
+        0.912
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.12,
+          0.12,
+          0.76,
+          0.76
+        ]
+      ],
+      "delivery_frames": 593,
+      "timeline_start_frame": 386,
+      "motion": "affine"
+    },
+    {
+      "id": "S03",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261118-xinwen-gengxin/image/final/S03.png",
+      "duration_s": 10.833333333333334,
+      "frames": 650,
+      "span_s": 10.816666666666666,
+      "start_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "end_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.12,
+          0.12,
+          0.76,
+          0.76
+        ]
+      ],
+      "delivery_frames": 260,
+      "timeline_start_frame": 979,
+      "motion": "static"
+    },
+    {
+      "id": "S04",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261118-xinwen-gengxin/image/final/S04.png",
+      "duration_s": 7.216666666666667,
+      "frames": 433,
+      "span_s": 7.2,
+      "start_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "end_view": [
+        0.044,
+        0.044,
+        0.912,
+        0.912
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.12,
+          0.12,
+          0.76,
+          0.76
+        ]
+      ],
+      "delivery_frames": 173,
+      "timeline_start_frame": 1239,
+      "motion": "affine"
+    },
+    {
+      "id": "S05",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261118-xinwen-gengxin/image/final/S05.png",
+      "duration_s": 16.083333333333332,
+      "frames": 965,
+      "span_s": 16.066666666666666,
+      "start_view": [
+        0.044,
+        0.044242295430393166,
+        0.912,
+        0.9115154091392137
+      ],
+      "end_view": [
+        0,
+        0.0002656748140275611,
+        1,
+        0.9994686503719449
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.12,
+          0.12,
+          0.76,
+          0.76
+        ]
+      ],
+      "delivery_frames": 386,
+      "timeline_start_frame": 1412,
+      "motion": "affine"
+    },
+    {
+      "id": "S06",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261118-xinwen-gengxin/image/final/S06.png",
+      "duration_s": 19.416666666666668,
+      "frames": 1165,
+      "span_s": 19.4,
+      "start_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "end_view": [
+        0.044,
+        0.044,
+        0.912,
+        0.912
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.12,
+          0.12,
+          0.76,
+          0.76
+        ]
+      ],
+      "delivery_frames": 466,
+      "timeline_start_frame": 1798,
+      "motion": "affine"
+    },
+    {
+      "id": "S07",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261118-xinwen-gengxin/image/final/S07.png",
+      "duration_s": 8.35,
+      "frames": 501,
+      "span_s": 8.333333333333334,
+      "start_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "end_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.12,
+          0.12,
+          0.76,
+          0.76
+        ]
+      ],
+      "delivery_frames": 200,
+      "timeline_start_frame": 2264,
+      "motion": "static"
+    },
+    {
+      "id": "S08",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261118-xinwen-gengxin/image/final/S08.png",
+      "duration_s": 4.416666666666667,
+      "frames": 265,
+      "span_s": 4.4,
+      "start_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "end_view": [
+        0.044,
+        0.044,
+        0.912,
+        0.912
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.12,
+          0.12,
+          0.76,
+          0.76
+        ]
+      ],
+      "delivery_frames": 106,
+      "timeline_start_frame": 2464,
+      "motion": "affine"
+    },
+    {
+      "id": "S09",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261118-xinwen-gengxin/image/final/S09.png",
+      "duration_s": 10.0,
+      "frames": 600,
+      "span_s": 9.983333333333333,
+      "start_view": [
+        0.044,
+        0.044,
+        0.912,
+        0.912
+      ],
+      "end_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.12,
+          0.12,
+          0.76,
+          0.76
+        ]
+      ],
+      "delivery_frames": 240,
+      "timeline_start_frame": 2570,
+      "motion": "affine"
+    },
+    {
+      "id": "S10",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261118-xinwen-gengxin/image/final/S10.png",
+      "duration_s": 9.716666666666667,
+      "frames": 583,
+      "span_s": 9.7,
+      "start_view": [
+        0,
+        0.0002656748140275611,
+        1,
+        0.9994686503719449
+      ],
+      "end_view": [
+        0.044,
+        0.044242295430393166,
+        0.912,
+        0.9115154091392137
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.12,
+          0.12,
+          0.76,
+          0.76
+        ]
+      ],
+      "delivery_frames": 233,
+      "timeline_start_frame": 2810,
+      "motion": "affine"
+    },
+    {
+      "id": "S11",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261118-xinwen-gengxin/image/final/S11.png",
+      "duration_s": 13.883333333333333,
+      "frames": 833,
+      "span_s": 13.866666666666667,
+      "start_view": [
+        0.02,
+        0.05,
+        0.9,
+        0.9
+      ],
+      "end_view": [
+        0.08,
+        0.05,
+        0.9,
+        0.9
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.12,
+          0.12,
+          0.76,
+          0.76
+        ]
+      ],
+      "delivery_frames": 333,
+      "timeline_start_frame": 3043,
+      "motion": "affine"
+    },
+    {
+      "id": "S12",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261118-xinwen-gengxin/image/final/S12.png",
+      "duration_s": 5.0,
+      "frames": 300,
+      "span_s": 4.983333333333333,
+      "start_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "end_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.12,
+          0.12,
+          0.76,
+          0.76
+        ]
+      ],
+      "delivery_frames": 120,
+      "timeline_start_frame": 3376,
+      "motion": "static"
+    },
+    {
+      "id": "S13",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261118-xinwen-gengxin/image/final/S13.png",
+      "duration_s": 10.55,
+      "frames": 633,
+      "span_s": 10.533333333333333,
+      "start_view": [
+        0.044,
+        0.044,
+        0.912,
+        0.912
+      ],
+      "end_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.12,
+          0.12,
+          0.76,
+          0.76
+        ]
+      ],
+      "delivery_frames": 253,
+      "timeline_start_frame": 3496,
+      "motion": "affine"
+    },
+    {
+      "id": "S14",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261118-xinwen-gengxin/image/final/S14.png",
+      "duration_s": 13.333333333333334,
+      "frames": 800,
+      "span_s": 13.316666666666666,
+      "start_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "end_view": [
+        0.044,
+        0.044,
+        0.912,
+        0.912
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.12,
+          0.12,
+          0.76,
+          0.76
+        ]
+      ],
+      "delivery_frames": 320,
+      "timeline_start_frame": 3749,
+      "motion": "affine"
+    },
+    {
+      "id": "S15",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261118-xinwen-gengxin/image/final/S15.png",
+      "duration_s": 11.916666666666666,
+      "frames": 715,
+      "span_s": 11.9,
+      "start_view": [
+        0.02,
+        0.05,
+        0.9,
+        0.9
+      ],
+      "end_view": [
+        0.08,
+        0.05,
+        0.9,
+        0.9
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.12,
+          0.12,
+          0.76,
+          0.76
+        ]
+      ],
+      "delivery_frames": 286,
+      "timeline_start_frame": 4069,
+      "motion": "affine"
+    },
+    {
+      "id": "S16",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261118-xinwen-gengxin/image/final/S16.png",
+      "duration_s": 11.383333333333333,
+      "frames": 683,
+      "span_s": 11.366666666666667,
+      "start_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "end_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.12,
+          0.12,
+          0.76,
+          0.76
+        ]
+      ],
+      "delivery_frames": 273,
+      "timeline_start_frame": 4355,
+      "motion": "static"
+    },
+    {
+      "id": "S17",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261118-xinwen-gengxin/image/final/S17.png",
+      "duration_s": 9.716666666666667,
+      "frames": 583,
+      "span_s": 9.7,
+      "start_view": [
+        0.044,
+        0.044,
+        0.912,
+        0.912
+      ],
+      "end_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.12,
+          0.12,
+          0.76,
+          0.76
+        ]
+      ],
+      "delivery_frames": 233,
+      "timeline_start_frame": 4628,
+      "motion": "affine"
+    },
+    {
+      "id": "S18",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261118-xinwen-gengxin/image/final/S18.png",
+      "duration_s": 16.383333333333333,
+      "frames": 983,
+      "span_s": 16.366666666666667,
+      "start_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "end_view": [
+        0.044,
+        0.044,
+        0.912,
+        0.912
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.12,
+          0.12,
+          0.76,
+          0.76
+        ]
+      ],
+      "delivery_frames": 393,
+      "timeline_start_frame": 4861,
+      "motion": "affine"
+    },
+    {
+      "id": "S19",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261118-xinwen-gengxin/image/final/S19.png",
+      "duration_s": 3.8833333333333333,
+      "frames": 233,
+      "span_s": 3.8666666666666667,
+      "start_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "end_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.12,
+          0.12,
+          0.76,
+          0.76
+        ]
+      ],
+      "delivery_frames": 93,
+      "timeline_start_frame": 5254,
+      "motion": "static"
+    },
+    {
+      "id": "S20",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261118-xinwen-gengxin/image/final/S20.png",
+      "duration_s": 15.25,
+      "frames": 915,
+      "span_s": 15.233333333333333,
+      "start_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "end_view": [
+        0.044,
+        0.044,
+        0.912,
+        0.912
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.12,
+          0.12,
+          0.76,
+          0.76
+        ]
+      ],
+      "delivery_frames": 366,
+      "timeline_start_frame": 5347,
+      "motion": "affine"
+    },
+    {
+      "id": "S21",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261118-xinwen-gengxin/image/final/S21.png",
+      "duration_s": 6.383333333333334,
+      "frames": 383,
+      "span_s": 6.366666666666666,
+      "start_view": [
+        0.044,
+        0.044,
+        0.912,
+        0.912
+      ],
+      "end_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.12,
+          0.12,
+          0.76,
+          0.76
+        ]
+      ],
+      "delivery_frames": 153,
+      "timeline_start_frame": 5713,
+      "motion": "affine"
+    },
+    {
+      "id": "S22",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261118-xinwen-gengxin/image/final/S22.png",
+      "duration_s": 3.3333333333333335,
+      "frames": 200,
+      "span_s": 3.316666666666667,
+      "start_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "end_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.12,
+          0.12,
+          0.76,
+          0.76
+        ]
+      ],
+      "delivery_frames": 80,
+      "timeline_start_frame": 5866,
+      "motion": "static"
+    },
+    {
+      "id": "S23",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261118-xinwen-gengxin/image/final/S23.png",
+      "duration_s": 13.05,
+      "frames": 783,
+      "span_s": 13.033333333333333,
+      "start_view": [
+        0.02,
+        0.05,
+        0.9,
+        0.9
+      ],
+      "end_view": [
+        0.08,
+        0.05,
+        0.9,
+        0.9
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.12,
+          0.12,
+          0.76,
+          0.76
+        ]
+      ],
+      "delivery_frames": 313,
+      "timeline_start_frame": 5946,
+      "motion": "affine"
+    },
+    {
+      "id": "S24",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261118-xinwen-gengxin/image/final/S24.png",
+      "duration_s": 16.083333333333332,
+      "frames": 965,
+      "span_s": 16.066666666666666,
+      "start_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "end_view": [
+        0.044,
+        0.044,
+        0.912,
+        0.912
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.12,
+          0.12,
+          0.76,
+          0.76
+        ]
+      ],
+      "delivery_frames": 386,
+      "timeline_start_frame": 6259,
+      "motion": "affine"
+    },
+    {
+      "id": "S25",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261118-xinwen-gengxin/image/final/S25.png",
+      "duration_s": 12.75,
+      "frames": 765,
+      "span_s": 12.733333333333333,
+      "start_view": [
+        0.044,
+        0.044,
+        0.912,
+        0.912
+      ],
+      "end_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.12,
+          0.12,
+          0.76,
+          0.76
+        ]
+      ],
+      "delivery_frames": 306,
+      "timeline_start_frame": 6645,
+      "motion": "affine"
+    },
+    {
+      "id": "S26",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261118-xinwen-gengxin/image/final/S26.png",
+      "duration_s": 5.833333333333333,
+      "frames": 350,
+      "span_s": 5.816666666666666,
+      "start_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "end_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.12,
+          0.12,
+          0.76,
+          0.76
+        ]
+      ],
+      "delivery_frames": 140,
+      "timeline_start_frame": 6951,
+      "motion": "static"
+    },
+    {
+      "id": "S27",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261118-xinwen-gengxin/image/final/S27.png",
+      "duration_s": 8.35,
+      "frames": 501,
+      "span_s": 8.333333333333334,
+      "start_view": [
+        0.02,
+        0.05,
+        0.9,
+        0.9
+      ],
+      "end_view": [
+        0.08,
+        0.05,
+        0.9,
+        0.9
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.12,
+          0.12,
+          0.76,
+          0.76
+        ]
+      ],
+      "delivery_frames": 200,
+      "timeline_start_frame": 7091,
+      "motion": "affine"
+    },
+    {
+      "id": "S28",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261118-xinwen-gengxin/image/final/S28.png",
+      "duration_s": 13.583333333333334,
+      "frames": 815,
+      "span_s": 13.566666666666666,
+      "start_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "end_view": [
+        0.044,
+        0.044,
+        0.912,
+        0.912
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.12,
+          0.12,
+          0.76,
+          0.76
+        ]
+      ],
+      "delivery_frames": 326,
+      "timeline_start_frame": 7291,
+      "motion": "affine"
+    },
+    {
+      "id": "S29",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261118-xinwen-gengxin/image/final/S29.png",
+      "duration_s": 18.05,
+      "frames": 1083,
+      "span_s": 18.033333333333335,
+      "start_view": [
+        0.044,
+        0.044,
+        0.912,
+        0.912
+      ],
+      "end_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.12,
+          0.12,
+          0.76,
+          0.76
+        ]
+      ],
+      "delivery_frames": 433,
+      "timeline_start_frame": 7617,
+      "motion": "affine"
+    },
+    {
+      "id": "S30",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261118-xinwen-gengxin/image/final/S30.png",
+      "duration_s": 10.0,
+      "frames": 600,
+      "span_s": 9.983333333333333,
+      "start_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "end_view": [
+        0.044,
+        0.044,
+        0.912,
+        0.912
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.12,
+          0.12,
+          0.76,
+          0.76
+        ]
+      ],
+      "delivery_frames": 240,
+      "timeline_start_frame": 8050,
+      "motion": "affine"
+    },
+    {
+      "id": "S31",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261118-xinwen-gengxin/image/final/S31.png",
+      "duration_s": 3.5833333333333335,
+      "frames": 215,
+      "span_s": 3.566666666666667,
+      "start_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "end_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.12,
+          0.12,
+          0.76,
+          0.76
+        ]
+      ],
+      "delivery_frames": 86,
+      "timeline_start_frame": 8290,
+      "motion": "state-composite"
+    },
+    {
+      "id": "S32",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261118-xinwen-gengxin/image/final/S32.png",
+      "duration_s": 6.666666666666667,
+      "frames": 400,
+      "span_s": 6.65,
+      "start_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "end_view": [
+        0.044,
+        0.044,
+        0.912,
+        0.912
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.12,
+          0.12,
+          0.76,
+          0.76
+        ]
+      ],
+      "delivery_frames": 160,
+      "timeline_start_frame": 8376,
+      "motion": "affine"
+    },
+    {
+      "id": "S33",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261118-xinwen-gengxin/image/final/S33.png",
+      "duration_s": 12.75,
+      "frames": 765,
+      "span_s": 12.733333333333333,
+      "start_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "end_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.12,
+          0.12,
+          0.76,
+          0.76
+        ]
+      ],
+      "delivery_frames": 306,
+      "timeline_start_frame": 8536,
+      "motion": "static"
+    },
+    {
+      "id": "S34",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261118-xinwen-gengxin/image/final/S34.png",
+      "duration_s": 15.833333333333334,
+      "frames": 950,
+      "span_s": 15.816666666666666,
+      "start_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "end_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.12,
+          0.12,
+          0.76,
+          0.76
+        ]
+      ],
+      "delivery_frames": 380,
+      "timeline_start_frame": 8842,
+      "motion": "static"
+    },
+    {
+      "id": "S35",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261118-xinwen-gengxin/image/final/S35.png",
+      "duration_s": 6.666666666666667,
+      "frames": 400,
+      "span_s": 6.65,
+      "start_view": [
+        0.02,
+        0.05,
+        0.9,
+        0.9
+      ],
+      "end_view": [
+        0.08,
+        0.05,
+        0.9,
+        0.9
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.12,
+          0.12,
+          0.76,
+          0.76
+        ]
+      ],
+      "delivery_frames": 160,
+      "timeline_start_frame": 9222,
+      "motion": "affine"
+    },
+    {
+      "id": "S36",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261118-xinwen-gengxin/image/final/S36.png",
+      "duration_s": 15.25,
+      "frames": 915,
+      "span_s": 15.233333333333333,
+      "start_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "end_view": [
+        0.044,
+        0.044,
+        0.912,
+        0.912
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.12,
+          0.12,
+          0.76,
+          0.76
+        ]
+      ],
+      "delivery_frames": 366,
+      "timeline_start_frame": 9382,
+      "motion": "affine"
+    },
+    {
+      "id": "S37",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261118-xinwen-gengxin/image/final/S37.png",
+      "duration_s": 12.5,
+      "frames": 750,
+      "span_s": 12.483333333333333,
+      "start_view": [
+        0.044,
+        0.044,
+        0.912,
+        0.912
+      ],
+      "end_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.12,
+          0.12,
+          0.76,
+          0.76
+        ]
+      ],
+      "delivery_frames": 300,
+      "timeline_start_frame": 9748,
+      "motion": "affine"
+    },
+    {
+      "id": "S38",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261118-xinwen-gengxin/image/final/S38.png",
+      "duration_s": 7.75,
+      "frames": 465,
+      "span_s": 7.733333333333333,
+      "start_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "end_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.12,
+          0.12,
+          0.76,
+          0.76
+        ]
+      ],
+      "delivery_frames": 186,
+      "timeline_start_frame": 10048,
+      "motion": "static"
+    },
+    {
+      "id": "S39",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261118-xinwen-gengxin/image/final/S39.png",
+      "duration_s": 8.583333333333334,
+      "frames": 515,
+      "span_s": 8.566666666666666,
+      "start_view": [
+        0.02,
+        0.05,
+        0.9,
+        0.9
+      ],
+      "end_view": [
+        0.08,
+        0.05,
+        0.9,
+        0.9
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.12,
+          0.12,
+          0.76,
+          0.76
+        ]
+      ],
+      "delivery_frames": 206,
+      "timeline_start_frame": 10234,
+      "motion": "affine"
+    },
+    {
+      "id": "S40",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261118-xinwen-gengxin/image/final/S40.png",
+      "duration_s": 14.716666666666667,
+      "frames": 883,
+      "span_s": 14.7,
+      "start_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "end_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.12,
+          0.12,
+          0.76,
+          0.76
+        ]
+      ],
+      "delivery_frames": 353,
+      "timeline_start_frame": 10440,
+      "motion": "static"
+    },
+    {
+      "id": "S41",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261118-xinwen-gengxin/image/final/S41.png",
+      "duration_s": 18.883333333333333,
+      "frames": 1133,
+      "span_s": 18.866666666666667,
+      "start_view": [
+        0.044,
+        0.044,
+        0.912,
+        0.912
+      ],
+      "end_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.12,
+          0.12,
+          0.76,
+          0.76
+        ]
+      ],
+      "delivery_frames": 453,
+      "timeline_start_frame": 10793,
+      "motion": "affine"
+    },
+    {
+      "id": "S42",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261118-xinwen-gengxin/image/final/S42.png",
+      "duration_s": 16.383333333333333,
+      "frames": 983,
+      "span_s": 16.366666666666667,
+      "start_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "end_view": [
+        0.044,
+        0.044,
+        0.912,
+        0.912
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.12,
+          0.12,
+          0.76,
+          0.76
+        ]
+      ],
+      "delivery_frames": 393,
+      "timeline_start_frame": 11246,
+      "motion": "affine"
+    },
+    {
+      "id": "S43",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261118-xinwen-gengxin/image/final/S43.png",
+      "duration_s": 7.216666666666667,
+      "frames": 433,
+      "span_s": 7.2,
+      "start_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "end_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.12,
+          0.12,
+          0.76,
+          0.76
+        ]
+      ],
+      "delivery_frames": 173,
+      "timeline_start_frame": 11639,
+      "motion": "static"
+    },
+    {
+      "id": "S44",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261118-xinwen-gengxin/image/final/S44.png",
+      "duration_s": 14.166666666666666,
+      "frames": 850,
+      "span_s": 14.15,
+      "start_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "end_view": [
+        0.044,
+        0.044,
+        0.912,
+        0.912
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.12,
+          0.12,
+          0.76,
+          0.76
+        ]
+      ],
+      "delivery_frames": 340,
+      "timeline_start_frame": 11812,
+      "motion": "affine"
+    },
+    {
+      "id": "S45",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261118-xinwen-gengxin/image/final/S45.png",
+      "duration_s": 11.916666666666666,
+      "frames": 715,
+      "span_s": 11.9,
+      "start_view": [
+        0.044,
+        0.044,
+        0.912,
+        0.912
+      ],
+      "end_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.12,
+          0.12,
+          0.76,
+          0.76
+        ]
+      ],
+      "delivery_frames": 286,
+      "timeline_start_frame": 12152,
+      "motion": "affine"
+    },
+    {
+      "id": "S46",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261118-xinwen-gengxin/image/final/S46.png",
+      "duration_s": 11.383333333333333,
+      "frames": 683,
+      "span_s": 11.366666666666667,
+      "start_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "end_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.12,
+          0.12,
+          0.76,
+          0.76
+        ]
+      ],
+      "delivery_frames": 273,
+      "timeline_start_frame": 12438,
+      "motion": "static"
+    },
+    {
+      "id": "S47",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261118-xinwen-gengxin/image/final/S47.png",
+      "duration_s": 23.583333333333332,
+      "frames": 1415,
+      "span_s": 23.566666666666666,
+      "start_view": [
+        0.02,
+        0.05,
+        0.9,
+        0.9
+      ],
+      "end_view": [
+        0.08,
+        0.05,
+        0.9,
+        0.9
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.12,
+          0.12,
+          0.76,
+          0.76
+        ]
+      ],
+      "delivery_frames": 566,
+      "timeline_start_frame": 12711,
+      "motion": "affine"
+    },
+    {
+      "id": "S48",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261118-xinwen-gengxin/image/final/S48.png",
+      "duration_s": 6.666666666666667,
+      "frames": 400,
+      "span_s": 6.65,
+      "start_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "end_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.12,
+          0.12,
+          0.76,
+          0.76
+        ]
+      ],
+      "delivery_frames": 160,
+      "timeline_start_frame": 13277,
+      "motion": "static"
+    },
+    {
+      "id": "S49",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261118-xinwen-gengxin/image/final/S49.png",
+      "duration_s": 7.216666666666667,
+      "frames": 433,
+      "span_s": 7.2,
+      "start_view": [
+        0.044,
+        0.044,
+        0.912,
+        0.912
+      ],
+      "end_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.12,
+          0.12,
+          0.76,
+          0.76
+        ]
+      ],
+      "delivery_frames": 173,
+      "timeline_start_frame": 13437,
+      "motion": "affine"
+    },
+    {
+      "id": "S50",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261118-xinwen-gengxin/image/final/S50.png",
+      "duration_s": 3.05,
+      "frames": 183,
+      "span_s": 3.033333333333333,
+      "start_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "end_view": [
+        0.044,
+        0.044,
+        0.912,
+        0.912
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.12,
+          0.12,
+          0.76,
+          0.76
+        ]
+      ],
+      "delivery_frames": 73,
+      "timeline_start_frame": 13610,
+      "motion": "affine"
+    },
+    {
+      "id": "S51",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261118-xinwen-gengxin/image/final/S51.png",
+      "duration_s": 3.3333333333333335,
+      "frames": 200,
+      "span_s": 3.316666666666667,
+      "start_view": [
+        0.02,
+        0.05,
+        0.9,
+        0.9
+      ],
+      "end_view": [
+        0.08,
+        0.05,
+        0.9,
+        0.9
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.12,
+          0.12,
+          0.76,
+          0.76
+        ]
+      ],
+      "delivery_frames": 80,
+      "timeline_start_frame": 13683,
+      "motion": "affine"
+    },
+    {
+      "id": "S52",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261118-xinwen-gengxin/image/final/S52.png",
+      "duration_s": 7.75,
+      "frames": 465,
+      "span_s": 7.733333333333333,
+      "start_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "end_view": [
+        0.044,
+        0.044,
+        0.912,
+        0.912
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.12,
+          0.12,
+          0.76,
+          0.76
+        ]
+      ],
+      "delivery_frames": 186,
+      "timeline_start_frame": 13763,
+      "motion": "affine"
+    },
+    {
+      "id": "S53",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261118-xinwen-gengxin/image/final/S53.png",
+      "duration_s": 18.883333333333333,
+      "frames": 1133,
+      "span_s": 18.866666666666667,
+      "start_view": [
+        0.044,
+        0.044,
+        0.912,
+        0.912
+      ],
+      "end_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.12,
+          0.12,
+          0.76,
+          0.76
+        ]
+      ],
+      "delivery_frames": 453,
+      "timeline_start_frame": 13949,
+      "motion": "affine"
+    },
+    {
+      "id": "S54",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261118-xinwen-gengxin/image/final/S54.png",
+      "duration_s": 6.083333333333333,
+      "frames": 365,
+      "span_s": 6.066666666666666,
+      "start_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "end_view": [
+        0.044,
+        0.044,
+        0.912,
+        0.912
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.12,
+          0.12,
+          0.76,
+          0.76
+        ]
+      ],
+      "delivery_frames": 146,
+      "timeline_start_frame": 14402,
+      "motion": "affine"
+    },
+    {
+      "id": "S55",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261118-xinwen-gengxin/image/final/S55.png",
+      "duration_s": 4.716666666666667,
+      "frames": 283,
+      "span_s": 4.7,
+      "start_view": [
+        0.02,
+        0.05,
+        0.9,
+        0.9
+      ],
+      "end_view": [
+        0.08,
+        0.05,
+        0.9,
+        0.9
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.12,
+          0.12,
+          0.76,
+          0.76
+        ]
+      ],
+      "delivery_frames": 113,
+      "timeline_start_frame": 14548,
+      "motion": "affine"
+    },
+    {
+      "id": "S56",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261118-xinwen-gengxin/image/final/S56.png",
+      "duration_s": 3.05,
+      "frames": 183,
+      "span_s": 3.033333333333333,
+      "start_view": [
+        0,
+        0.0002656748140275611,
+        1,
+        0.9994686503719449
+      ],
+      "end_view": [
+        0,
+        0.0002656748140275611,
+        1,
+        0.9994686503719449
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.12,
+          0.12,
+          0.76,
+          0.76
+        ]
+      ],
+      "delivery_frames": 73,
+      "timeline_start_frame": 14661,
+      "motion": "static"
+    },
+    {
+      "id": "S57",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261118-xinwen-gengxin/image/final/S57.png",
+      "duration_s": 14.166666666666666,
+      "frames": 850,
+      "span_s": 14.15,
+      "start_view": [
+        0.044,
+        0.044,
+        0.912,
+        0.912
+      ],
+      "end_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.12,
+          0.12,
+          0.76,
+          0.76
+        ]
+      ],
+      "delivery_frames": 340,
+      "timeline_start_frame": 14734,
+      "motion": "affine"
+    },
+    {
+      "id": "S58",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261118-xinwen-gengxin/image/final/S58.png",
+      "duration_s": 6.383333333333334,
+      "frames": 383,
+      "span_s": 6.366666666666666,
+      "start_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "end_view": [
+        0.044,
+        0.044,
+        0.912,
+        0.912
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.12,
+          0.12,
+          0.76,
+          0.76
+        ]
+      ],
+      "delivery_frames": 153,
+      "timeline_start_frame": 15074,
+      "motion": "affine"
+    },
+    {
+      "id": "S59",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261118-xinwen-gengxin/image/final/S59.png",
+      "duration_s": 6.666666666666667,
+      "frames": 400,
+      "span_s": 6.65,
+      "start_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "end_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.12,
+          0.12,
+          0.76,
+          0.76
+        ]
+      ],
+      "delivery_frames": 160,
+      "timeline_start_frame": 15227,
+      "motion": "static"
+    },
+    {
+      "id": "S60",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261118-xinwen-gengxin/image/final/S60.png",
+      "duration_s": 7.5,
+      "frames": 450,
+      "span_s": 7.483333333333333,
+      "start_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "end_view": [
+        0.044,
+        0.044,
+        0.912,
+        0.912
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.12,
+          0.12,
+          0.76,
+          0.76
+        ]
+      ],
+      "delivery_frames": 180,
+      "timeline_start_frame": 15387,
+      "motion": "affine"
+    },
+    {
+      "id": "S61",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261118-xinwen-gengxin/image/final/S61.png",
+      "duration_s": 6.083333333333333,
+      "frames": 365,
+      "span_s": 6.066666666666666,
+      "start_view": [
+        0.044,
+        0.044,
+        0.912,
+        0.912
+      ],
+      "end_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.12,
+          0.12,
+          0.76,
+          0.76
+        ]
+      ],
+      "delivery_frames": 146,
+      "timeline_start_frame": 15567,
+      "motion": "affine"
+    },
+    {
+      "id": "S62",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261118-xinwen-gengxin/image/final/S62.png",
+      "duration_s": 13.05,
+      "frames": 783,
+      "span_s": 13.033333333333333,
+      "start_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "end_view": [
+        0.044,
+        0.044,
+        0.912,
+        0.912
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.12,
+          0.12,
+          0.76,
+          0.76
+        ]
+      ],
+      "delivery_frames": 313,
+      "timeline_start_frame": 15713,
+      "motion": "affine"
+    },
+    {
+      "id": "S63",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261118-xinwen-gengxin/image/final/S63.png",
+      "duration_s": 12.5,
+      "frames": 750,
+      "span_s": 12.483333333333333,
+      "start_view": [
+        0.02,
+        0.05,
+        0.9,
+        0.9
+      ],
+      "end_view": [
+        0.08,
+        0.05,
+        0.9,
+        0.9
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.12,
+          0.12,
+          0.76,
+          0.76
+        ]
+      ],
+      "delivery_frames": 300,
+      "timeline_start_frame": 16026,
+      "motion": "affine"
+    },
+    {
+      "id": "S64",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261118-xinwen-gengxin/image/final/S64.png",
+      "duration_s": 3.8833333333333333,
+      "frames": 233,
+      "span_s": 3.8666666666666667,
+      "start_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "end_view": [
+        0.044,
+        0.044,
+        0.912,
+        0.912
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.12,
+          0.12,
+          0.76,
+          0.76
+        ]
+      ],
+      "delivery_frames": 93,
+      "timeline_start_frame": 16326,
+      "motion": "affine"
+    },
+    {
+      "id": "S65",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261118-xinwen-gengxin/image/final/S65.png",
+      "duration_s": 3.3333333333333335,
+      "frames": 200,
+      "span_s": 3.316666666666667,
+      "start_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "end_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.12,
+          0.12,
+          0.76,
+          0.76
+        ]
+      ],
+      "delivery_frames": 80,
+      "timeline_start_frame": 16419,
+      "motion": "static"
+    }
+  ]
+}

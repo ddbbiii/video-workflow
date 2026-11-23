@@ -26,10 +26,13 @@ from datetime import datetime
 from pathlib import Path
 
 WORKSPACE = Path(__file__).resolve().parents[3]
-MCP_ROOT = Path(os.environ.get("DOUYIN_MCP_ROOT", "../douyin-media-mcp")).expanduser()
-if not MCP_ROOT.is_absolute():
-    MCP_ROOT = WORKSPACE / MCP_ROOT
-MCP_ROOT = MCP_ROOT.resolve()
+_configured_root = os.environ.get("DOUYIN_MCP_ROOT")
+if _configured_root:
+    MCP_ROOT = Path(_configured_root).expanduser().resolve()
+else:
+    _adjacent_root = (WORKSPACE / "../douyin-media-mcp").resolve()
+    _codex_root = (Path.home() / ".codex/mcp/douyin-media-mcp").resolve()
+    MCP_ROOT = _adjacent_root if _adjacent_root.exists() else _codex_root
 
 
 def clean_env() -> None:

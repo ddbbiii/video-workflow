@@ -1,0 +1,19 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><style>html,body{margin:0;background:#050609;overflow:hidden}canvas{display:block;width:1080px;height:1920px}</style></head><body><canvas id="frame" width="1080" height="1920"></canvas><script>
+const c=document.querySelector('#frame'),x=c.getContext('2d'),W=1080,H=1920;
+const A={bed:new Image(),latch:new Image(),face:new Image(),head:new Image(),torso:new Image(),upper:new Image(),fore:new Image()};
+for(const [k,p] of Object.entries({bed:'puppet-raw-v2/bg-bedside.png',latch:'puppet-raw-v2/bg-latch.png',face:'puppet-raw-v2/bg-face.png',head:'puppet-assets-v2/head.png',torso:'puppet-assets-v2/torso.png',upper:'puppet-assets-v2/upper-arm-r.png',fore:'puppet-assets-v2/forearm-r.png'}))A[k].src=p;
+let ready=false;Promise.all(Object.values(A).map(i=>i.decode())).then(()=>{ready=true;window.renderFrame(0)});
+const ease=t=>t<.5?2*t*t:1-Math.pow(-2*t+2,2)/2;
+function bg(im,zoom=1,panX=0,panY=0){const s=Math.max(W/im.width,H/im.height)*zoom;const dw=im.width*s,dh=im.height*s;x.save();x.translate(W/2+panX,H/2+panY);x.drawImage(im,-dw/2,-dh/2,dw,dh);x.restore()}
+function part(im,px,py,w,h,rot=0,ax=.5,ay=.5,alpha=1){x.save();x.translate(px+w*ax,py+h*ay);x.rotate(rot);x.globalAlpha=alpha;x.drawImage(im,-w*ax,-h*ay,w,h);x.restore()}
+function caption(a,b=''){x.save();x.textAlign='center';x.font='700 46px sans-serif';x.fillStyle='#f5ead8';x.shadowColor='#000';x.shadowBlur=18;x.fillText(a,W/2,160);x.font='28px sans-serif';x.fillStyle='#d5c4ad';if(b)x.fillText(b,W/2,210);x.restore()}
+function vignette(){const g=x.createRadialGradient(540,850,120,540,960,980);g.addColorStop(0,'transparent');g.addColorStop(1,'rgba(0,0,0,.66)');x.fillStyle=g;x.fillRect(0,0,W,H)}
+function drawDoll(t){const p=Math.min(1,t/3),raise=ease(p),headTurn=Math.sin(p*Math.PI)*.08;const torsoX=360,torsoY=890,tw=440,th=540;part(A.torso,torsoX,torsoY,tw,th,0,.5,.5);part(A.head,430,610,250,250,headTurn,.5,.82);
+  // hierarchical right arm: upper arm pivots at shoulder, forearm at elbow, hand at wrist
+  const sh={x:700,y:930}, ur=raise*(-.95), elbow={x:sh.x+Math.sin(ur)*175,y:sh.y-Math.cos(ur)*175};part(A.upper,sh.x-82,sh.y-10,164,250,ur,.5,.08);
+  const fr=raise*(-1.15)-.05;part(A.fore,elbow.x-68,elbow.y-8,136,220,fr,.5,.08);
+}
+function draw(t){if(!ready){x.fillStyle='#050609';x.fillRect(0,0,W,H);return}x.clearRect(0,0,W,H);if(t<3){bg(A.bed,1.06,-25,20);caption('纸替第一次抬起右手','肩膀、肘部、手腕分别运动');drawDoll(t)}else if(t<5.5){const q=(t-3)/2.5;bg(A.latch,1.03,0,10);x.fillStyle='rgba(5,7,12,.18)';x.fillRect(0,0,W,H);caption('门闩发出一声轻响','屋里没有风');const glow=.15+.25*ease(q);x.fillStyle=`rgba(152,198,242,${glow})`;x.fillRect(0,0,W,H)}else{const q=(t-5.5)/2.5;bg(A.face,1.10,-40,-20);x.fillStyle='rgba(3,5,9,.28)';x.fillRect(0,0,W,H);caption('它偏过头，看向门外','墨水从眼角慢慢流下来');part(A.head,405,650,300,300,Math.sin(q*Math.PI)*.15,.5,.82);x.save();x.strokeStyle='#191518';x.lineWidth=10;x.lineCap='round';x.globalAlpha=ease(q);x.beginPath();x.moveTo(554,865);x.lineTo(554,1080);x.moveTo(654,865);x.lineTo(654,1040);x.stroke();x.restore()}
+  vignette()}
+window.renderFrame=f=>draw(f/24);draw(0);
+</script></body></html>

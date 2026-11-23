@@ -45,6 +45,9 @@
 *.log
 
 # ===== 媒体与缓存兜底 =====
+**/node_modules/
+**/.venv/
+.DS_Store
 *.wav
 *.mp4
 *.mkv
@@ -59,7 +62,15 @@ __pycache__/
 *.bak-*
 ~$*
 
+# Motion Studio build outputs and local preview cache
+/projects/小球/episodes/20261122-escape-rings/studio/node_modules/
+/projects/小球/episodes/20261122-escape-rings/studio/dist/
+/projects/小球/episodes/20261122-escape-rings/studio/previews/
+/projects/小球/episodes/20261122-escape-rings/studio/release/
+/projects/小球/episodes/20261122-escape-rings/studio/tsconfig.tsbuildinfo
+
 # ===== 工作区杂项 =====
+/.venv/
 /FindCity_AI_Photo_Library/
 /FindCity_AI_Photo_Library.7z
 /.acl-reports/
@@ -81,6 +92,7 @@ __pycache__/
 # 可复用素材与项目级记忆需要随 Windows/Mac 工作区同步。
 !/assets/**
 !/.codex-memory/**
+.DS_Store
 
 # Historical audio, fonts, model weights, and source archives live in ../video-archive/.
 /assets/**/audio/

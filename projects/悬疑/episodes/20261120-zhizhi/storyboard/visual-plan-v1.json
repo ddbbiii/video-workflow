@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "style": "悬疑线 STYLE_POS + STYLE_NEG；含道具与手部时追加 CEL_BOOST",
+  "world": "奶奶出殡后的乡下老屋卧室，单一房间连续拍摄；木梁、旧木床、矮凳、木门、旧窗、床头小灯。",
+  "palette": "低饱和冷灰蓝夜色，局部一盏小暖灯；暗部保留纸人、门闩和枕边细节。",
+  "effigy": {
+    "height_cm": 45,
+    "reference": "image/anchors/paper-effigy-reference.png",
+    "fixed_design": "flat white paper face, two black ink-dot eyes, round red cheeks, red-and-green folded paper robe, bamboo ribs at joints",
+    "position_sequence": ["footstool", "bedside_floor", "pillow"]
+  },
+  "room": {
+    "id": "bedroom",
+    "source": "image/plates/bedroom-reference.png",
+    "preserve": ["window on same wall", "bed at same side", "footstool at bed foot", "wooden door and latch opposite bed"],
+    "wear": ["peeling wall paint", "water stain", "scuffed wood"],
+    "life_trace": ["thermos", "worn bedding", "old stool"]
+  },
+  "narrator": {
+    "perspective": "first-person POV; no face",
+    "paper_state_only_at_end": true,
+    "back_view": "one frame only, plain modern home clothes, no face"
+  }
+}

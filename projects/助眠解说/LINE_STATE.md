@@ -23,7 +23,7 @@
 
 1. 新单按 `input-spec.md` v2.0 填单（标题/主题/引入/章节大纲）；
 2. 按 3.8 字/秒排镜头与 SRT；
-3. 交付只放 `video/final/` 与 `video/srt/`。
+3. 交付视频与同基名 SRT 一起放 `video/final/`。
 
 ## 明确不做
 

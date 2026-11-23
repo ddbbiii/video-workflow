@@ -1,0 +1,11 @@
+{
+  "name": "escape-rings-simulation",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "trace": "node generate_trace.mjs"
+  },
+  "dependencies": {
+    "matter-js": "0.20.0"
+  }
+}

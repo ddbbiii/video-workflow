@@ -1,9 +1,9 @@
 {
-  "script": "script-v1.md",
-  "sha256": "61d0e23afb214882400a158f9f39b6c0d67971e1e80b7bf047fe61c48d74b21b",
-  "status": "user-approved-for-production",
-  "cue_count": 38,
-  "visible_chars": 2097,
-  "estimated_duration_s": 591.625,
-  "note": "旁白逐字锁定；HASH 在分镜计划生成时写入。估算时间轴，未对真实人声校准。"
+  "version": 7,
+  "script": "story/script-v7.md",
+  "sha256": "98e595e364e383573cb806e207e25dc7a04538e62b519cbb92e47c60d4bc193e",
+  "approved_basis": "用户确认：行，直接开始生成重置这一期吧，直到出成品视频；最终结尾：可它从来没说，死的是自己。",
+  "status": "locked",
+  "paragraphs": 65,
+  "ordering_note": "离开前回看杯子调整到实际离开段之前；无字句改写"
 }

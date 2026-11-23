@@ -1,22 +1,19 @@
 {
-  "backend": "affine-static",
-  "render_fps": 24,
-  "matrix": [
-    [
-      1.0,
-      0.0,
-      0.0
-    ],
-    [
-      0.0,
-      1.0,
-      0.0
-    ]
-  ],
-  "id": "S23",
-  "frames": 366,
-  "duration_s": 15.25,
-  "source_sha256": "0df5376ebdf40cfe13042ec59f7d4238b3425e380d5d6df23e20be85c7861725",
-  "video_sha256": "7d7599e432b3363257303444afa850001051da85b09fb10516d9b226fdc46038",
-  "elapsed_s": 3.61
+  "shot": "S23",
+  "fingerprint": "57f7a9992e2660e944cc4877fb7583c3e6c1e311514ba4e9e5e0c114753ad875",
+  "video_sha256": "b8e7d82e3e7c17e181d4c898b9832d33b62d8bd009ccf64c721babc7f3534ad5",
+  "render_fps": 60,
+  "delivery_fps": 24,
+  "source_frames": 783,
+  "delivery_frames": 313,
+  "engine_sha256": "4be53358cef60e9890b96c434ce555429ed80a386f11f8e8423f1311cf7ae99f",
+  "trajectory_qa": {
+    "source_bounds_checked": true,
+    "required_regions_checked": true,
+    "max_center_step_output_px": 0.1715817694374664,
+    "max_scale_step": 2.220446049250313e-16,
+    "scope": "Planned trajectory only; encoded motion and visual texture require separate QA"
+  },
+  "kind": "affine",
+  "source_sha256": "a7b598b867418070171fe8d9785f75ef90b8eb76e40d6c85386588771aa0ad21"
 }

@@ -18,5 +18,5 @@
 ## 路径
 
 - 视频：`projects/助眠解说/episodes/<slug>/video/final/助眠_<中文剧名>_正文_vN.mp4`
-- SRT：同集 `video/srt/助眠_<中文剧名>_正文_vN.srt`（禁止与视频同目录）
+- SRT：与视频同目录 `video/final/助眠_<中文剧名>_正文_vN.srt`（独立文件，不烧录）
 - 不落 `shared/delivery/`，不写成品卡，不登记索引。

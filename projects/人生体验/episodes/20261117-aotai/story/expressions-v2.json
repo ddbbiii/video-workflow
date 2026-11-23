@@ -1,0 +1,54 @@
+{
+  "episode": "人生体验《鳌太线凌晨进山》v2",
+  "note": "每镜统一使用中性表情，猫头人仅作体验者视觉化身。",
+  "shots": {
+    "S01": {
+      "expression": "neutral",
+      "reference": "assets/人生体验/characters/catman-20261113/character-reference/expressions/neutral.png"
+    },
+    "S27": {
+      "expression": "neutral",
+      "reference": "assets/人生体验/characters/catman-20261113/character-reference/expressions/neutral.png"
+    },
+    "S29": {
+      "expression": "neutral",
+      "reference": "assets/人生体验/characters/catman-20261113/character-reference/expressions/neutral.png"
+    },
+    "S55": {
+      "expression": "neutral",
+      "reference": "assets/人生体验/characters/catman-20261113/character-reference/expressions/neutral.png"
+    },
+    "S56": {
+      "expression": "neutral",
+      "reference": "assets/人生体验/characters/catman-20261113/character-reference/expressions/neutral.png"
+    },
+    "S66": {
+      "expression": "neutral",
+      "reference": "assets/人生体验/characters/catman-20261113/character-reference/expressions/neutral.png"
+    },
+    "S67": {
+      "expression": "neutral",
+      "reference": "assets/人生体验/characters/catman-20261113/character-reference/expressions/neutral.png"
+    },
+    "S72": {
+      "expression": "neutral",
+      "reference": "assets/人生体验/characters/catman-20261113/character-reference/expressions/neutral.png"
+    },
+    "S73": {
+      "expression": "neutral",
+      "reference": "assets/人生体验/characters/catman-20261113/character-reference/expressions/neutral.png"
+    },
+    "S76": {
+      "expression": "neutral",
+      "reference": "assets/人生体验/characters/catman-20261113/character-reference/expressions/neutral.png"
+    },
+    "S77": {
+      "expression": "neutral",
+      "reference": "assets/人生体验/characters/catman-20261113/character-reference/expressions/neutral.png"
+    },
+    "S86": {
+      "expression": "neutral",
+      "reference": "assets/人生体验/characters/catman-20261113/character-reference/expressions/neutral.png"
+    }
+  }
+}

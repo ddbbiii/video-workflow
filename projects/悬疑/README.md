@@ -2,6 +2,8 @@
 
 > 规则真源在 `rules/悬疑/`，本目录只放单集、planning 与视觉测试。
 
+当前选材入口：[`planning/CURRENT.md`](planning/CURRENT.md)。2026-11-19 用户已废弃全部旧的未开做故事，旧候选与旧 shortlist 不再作为制作输入；归档见 [`archive/未开做故事废弃-20261119/README.md`](archive/未开做故事废弃-20261119/README.md)。
+
 ## 目录
 
 ```
@@ -15,12 +17,12 @@ projects/悬疑/
 
 ## 开工顺序
 
-1. 读 `../../rules/悬疑/input-spec.md`，填 8 项必填；
+1. 选素材先按 `../../rules/悬疑/story-selection.md` 判定素材类型、完成 100 分评分并选定叙述视角；再读 `../../rules/悬疑/input-spec.md`，填 8 项必填；
 2. 读 `../../rules/shared/video-workflow.md`（最高优先级）；
 3. 读 `../../rules/悬疑/production.md`，建单集目录；
 4. 写稿前先出「故事主线大纲 + 悬念预算表 + 总字数预算」，过门禁 A；
 5. 分镜批量前锁 2×2 拼版三视图与 `storyboard/CHARACTER_LOCK.md`；
-6. 出 SRT 与交付按 `../../rules/shared/srt.md`、`../../rules/shared/delivery.md`。
+6. 交付范围先读 `../../rules/悬疑/delivery.md`；正文 SRT 与技术 QA 按 `../../rules/shared/srt.md`、`../../rules/shared/delivery.md`。
 
 ## 当前
 
@@ -31,5 +33,5 @@ projects/悬疑/
 
 ## 边界
 
-- 新集只交正文视频 + SRT；不做片头、配音、混音、烧录、封面、成品库。
+- 新集交付引入图片、正文视频、正文字幕；引入不做字幕、不剪入正文视频。规则真源：`../../rules/悬疑/delivery.md`。不做配音、混音、烧录、封面、成品库。
 - 单集特例写进该集 `PROJECT_STATE`。

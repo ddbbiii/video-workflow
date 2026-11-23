@@ -1,0 +1,13 @@
+{
+  "name": "escape-rings-p5-renderer",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "render": "node capture.mjs"
+  },
+  "dependencies": {
+    "p5": "^1.11.11",
+    "playwright": "^1.56.1",
+    "vite": "^7.1.12"
+  }
+}

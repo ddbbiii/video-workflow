@@ -2,6 +2,7 @@
 
 2026-11-09 建线，规则尚未成形。在补齐前：
 
+- 标题创作或改标题时，统一遵守 `../shared/title.md`。
 - 流程与门禁一律沿用 `rules/shared/video-workflow.md`（剧本锁定 → 分镜 → 动态 → 门禁 1/2 → SRT → 交付）。
 - SRT 沿用 `rules/shared/srt.md`；交付沿用 `rules/shared/delivery.md`。
 - **2026-11-14 起全线路纯正文**：每集只交正文视频 + SRT；不做片头、标题卡、配音、混音、BGM、字幕烧录、封面、成品库。

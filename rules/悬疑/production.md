@@ -12,7 +12,7 @@
 
 ## 单集目标
 
-- 时长 8–20 分钟，默认 15；
+- 故事总时长按需要确定，原则上不超过 25 分钟，不设 5 分钟最低要求，不为凑时长扩写。超过 25 分钟的故事须压缩或改选，不通过拆集突破总时长上限；
 - 成片 16:9 / 1920×1080 / 24fps。
 
 ## 目录结构
@@ -22,7 +22,7 @@ projects/悬疑/episodes/<YYYYMMDD>-<slug>/
   PROJECT_STATE.md      当前阶段、已完成、下一步
   story/                故事包、旁白锁定稿、故事主线大纲、悬念预算表、总字数预算
   storyboard/           镜头节拍、视觉事实卡、CHARACTER_LOCK.md
-  image/                参考图、分镜图、通过图
+  image/                参考图、分镜图、通过图；引入图片在 intro/vN/
   video/                动态、剪辑工程、正文成片（final/）；SRT 在 srt/
   qa/                   自查与交付级 QA
   logs/                 运行日志
@@ -48,6 +48,6 @@ projects/悬疑/episodes/<YYYYMMDD>-<slug>/
 ## 门禁
 
 - 本线两道：**门禁 A 剧本锁定**、**门禁 B 正文成片**（定义见 `input-spec.md`）。
-- 本线不做片头：成片 0 秒即正文第一帧。
+- 交付三类：引入图片 + 正文视频 + 正文 SRT，具体按 `delivery.md`。引入按当集确认方案单独交付，不制作引入字幕；正文视频 0 秒即正文第一帧。
 - 成片沿用 `rules/shared/video-workflow.md` 的相应门禁与 `delivery.md` 的交付门禁。
 - 偏离必须先说明、获批再执行，不得先做后报。

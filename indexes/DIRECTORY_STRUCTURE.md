@@ -36,8 +36,7 @@ projects/<线路>/episodes/<集>/
   storyboard/          分镜表、事实约束卡、角色锁
   image/               静帧、参考图、贴片、联系表
   video/
-    final/             正文成片（唯一成品）
-    srt/               同基名 SRT（禁止与 mp4 同目录）
+    final/             正文 MP4 与对应的同基名 SRT（两件交付物）
     motion/            动态分段与轨迹
     *.py / *.json      拼装脚本、motion_plan、timeline
   qa/                  交付级 QA：ffprobe、像素扫描、SRT 报告
@@ -49,7 +48,7 @@ projects/<线路>/episodes/<集>/
 
 ## 成品与归档
 
-- 每集只有两件成品：`video/final/<线路>_<中文剧名>_正文_vN.mp4` ＋ `video/srt/` 同基名 `.srt`。
+- 每集只有两件成品：`video/final/` 下同基名 `<线路>_<中文剧名>_正文_vN.mp4` 与 `.srt`。
 - 不再有 `shared/delivery/finals/` 成品库、成品卡与成品索引。
 - 历史归档在仓库旁：`../video-archive/`。`shared/archive/` 只保留旧退役线路，默认不读。
 

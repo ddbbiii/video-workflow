@@ -7,7 +7,7 @@
   - 段子重演：Qwen-Image-Edit / Z-Image 出首帧 → MiniMax H3 480×864 / 124 帧（16GB 短窗，单段 ≤5.2 秒）→ ffmpeg 剪辑。
   - 动作迁移（已验证）：驱动视频 → DWPose 骨架 → Wan2.2 Animate 14B int8 + lightx2v 4-step，832×480 / 77 帧 / 6 步 → 竖版剪辑。
 - 门禁：沿用 `rules/shared/video-workflow.md` 的两道门（关键动态 → 正文成片）；本线规则待补，补前不得跳过门禁。
-- 交付：正文视频 + SRT，留在单集 `video/final/` 与 `video/srt/`；不落成品库、不做片头/配音/字幕烧录（2026-11-14 全线路口径）。
+- 交付：正文视频 + 同基名 SRT，一起留在单集 `video/final/`；不落成品库、不做片头/配音/字幕烧录（2026-11-14 全线路口径）。
 
 ## 当前进度
 

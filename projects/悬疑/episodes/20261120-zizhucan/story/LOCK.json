@@ -1,0 +1,12 @@
+{
+  "script_sha256": "57db628dc35928dfb0a0549a69140edda4bfacad1dd093e115c89c4dd10fcf98",
+  "shot_plan_sha256": "9de8fe610ce9448b5d5afdc0145b7d243337b9e705c5b849797f5090aaca42f6",
+  "locked_at": "2026-11-20 Asia/Shanghai",
+  "approval": "用户授权制作直到成品；制作前完成普通通信逻辑校正",
+  "narration_lint": "PASS",
+  "shots": 44,
+  "visible_chars": 2483,
+  "estimated_seconds": 726.1666666666666,
+  "continuity_fix": "十一年消息由老周长期保存的家人群聊提供；借老周手机联系家人，不假定失踪者SIM卡十一年不断号或聊天平台保存全部离线消息。",
+  "shot_mix_note": "所有fact非空；E/M/C按2026-11-15现行规则只作诊断，不为比例中断连续动作。"
+}

@@ -1,0 +1,38 @@
+{
+  "episode": "人生体验《鳌太线凌晨进山》",
+  "global_catman_assets": {
+    "turnaround": "assets/人生体验/characters/catman-20261113/character-reference/turnaround.png",
+    "face_style": "assets/人生体验/characters/catman-20261113/character-reference/face-style-D.png",
+    "expression_dir": "assets/人生体验/characters/catman-20261113/character-reference/expressions/"
+  },
+  "episode_state": {
+    "clothing": "全局灰色连帽衫与黑裤基础上，加一件低饱和深蓝冬季外层；不改头脸、比例、猫爪、赤脚和无尾巴；可背一只无品牌小型登山包。",
+    "condition": "雾雪、疲劳、衣物受潮；不画伤口和血。"
+  },
+  "roles": {
+    "helper-a": {
+      "reference": "assets/人生体验/characters/catman-20261113/character-reference/ref-helper-a.png",
+      "description": "青年男性，深蓝外套，圆头、点眼、短线嘴、白手套手"
+    },
+    "helper-b": {
+      "reference": "assets/人生体验/characters/catman-20261113/character-reference/ref-helper-b.png",
+      "description": "中年男性，军绿色外套，圆头、点眼、短线嘴、白手套手"
+    },
+    "helper-c": {
+      "reference": "assets/人生体验/characters/catman-20261113/character-reference/ref-helper-c.png",
+      "description": "女性队员，紫灰外套，圆头、点眼、短线嘴、白手套手"
+    },
+    "helper-d": {
+      "reference": "assets/人生体验/characters/catman-20261113/character-reference/ref-helper-d.png",
+      "description": "男性队员，褐色外套，圆头、点眼、短线嘴、白手套手"
+    },
+    "rescue-worker": {
+      "reference": "assets/人生体验/characters/catman-20261113/character-reference/ref-rescue-worker.png",
+      "description": "救援人员，橙色救援外套，圆头、点眼、短线嘴、白手套手"
+    },
+    "purple-woman": {
+      "reference": "assets/人生体验/characters/catman-20261113/character-reference/ref-purple-woman.png",
+      "description": "传说中的不可识别紫色剪影，只作虚构现象，不画五官，不对应真实人物"
+    }
+  }
+}

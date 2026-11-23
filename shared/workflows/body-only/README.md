@@ -11,7 +11,7 @@
 ```powershell
 python shared/workflows/body-only/check_delivery.py `
   --video <ep>/video/final/<线路>_<剧名>_正文_vN.mp4 `
-  --srt   <ep>/video/srt/<线路>_<剧名>_正文_vN.srt `
+  --srt   <ep>/video/final/<线路>_<剧名>_正文_vN.srt `
   --json  <ep>/qa/delivery.json
 ```
 

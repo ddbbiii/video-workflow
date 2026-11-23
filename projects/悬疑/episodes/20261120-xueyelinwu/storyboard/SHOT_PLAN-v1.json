@@ -1,0 +1,26 @@
+{
+  "title": "雪夜林屋",
+  "fps": 24,
+  "size": [1920, 1080],
+  "cps": 3.6,
+  "shots": [
+    {"id":"S01","cue_ids":["S01","S02"],"scene":"暴风雪中的三名徒步者在长白山林间艰难前行；最后方的大孙被风雪吞没，空出的人位留在队伍后方。","kind":"E","motion":"affine_push"},
+    {"id":"S02","cue_ids":["S03"],"scene":"山坳里的石墙木屋被暴雪围住，三名湿透的年轻徒步者推门进入，门外森林几乎不可见。","kind":"M","motion":"static"},
+    {"id":"S03","cue_ids":["S04","S05"],"scene":"独眼守林老人坐在火炉旁；刀疤与缺失的眼睛在炉火侧光中可见，身旁靠着双管猎枪。","kind":"M","motion":"affine_push"},
+    {"id":"S04","cue_ids":["S06","S07"],"scene":"火炉添柴的手与铁门闩特写；老人把猎枪抱在怀里，背景是熟睡的年轻人。","kind":"M","motion":"static"},
+    {"id":"S05","cue_ids":["S08","S09"],"scene":"夜深，火炉只剩暗红余烬，木门与横插门闩独自占据画面；屋内无人入镜。","kind":"C","motion":"affine_push"},
+    {"id":"S06","cue_ids":["S10","S11"],"scene":"门前老赵伸手要开门，老人用猎枪拦住他；门外暗影贴近门板。","kind":"M","motion":"static"},
+    {"id":"S07","cue_ids":["S12","S13"],"scene":"无人木屋全景，门闩锁着，炉边斧头、火炉与门的位置关系清楚；门外影子遮住门缝。","kind":"E","motion":"affine_push"},
+    {"id":"S08","cue_ids":["S14","S15"],"scene":"叙述者贴近老赵耳边低语，斧头放在两人之间；老人远在门边，隔着炉火。","kind":"M","motion":"static"},
+    {"id":"S09","cue_ids":["S16","S17","S18"],"scene":"叙述者望向门外，老赵的手悬在斧头上；持枪老人隔着火炉站在门边。","kind":"M","motion":"affine_push"},
+    {"id":"S10","cue_ids":["S19","S20"],"scene":"木门板紧闭，门闩清晰可见；门外没有可辨认的人脸，只有贴门的暗影。","kind":"C","motion":"static"},
+    {"id":"S11","cue_ids":["S21","S22"],"scene":"老赵的手停在斧头上，老人举枪守门，额头冒汗；火炉在两人之间。","kind":"C","motion":"affine_push"},
+    {"id":"S12","cue_ids":["S23","S24"],"scene":"木屋纵深全景，门闩仍牢牢卡在墙槽里，门板外侧浮现三道轻微震动的痕迹；室内无人入镜。","kind":"E","motion":"static"},
+    {"id":"S13","cue_ids":["S25","S26"],"scene":"门外暗影贴着木门，室内三人隔开距离僵立；灯火将影子投在石墙上。","kind":"M","motion":"affine_push"},
+    {"id":"S14","cue_ids":["S27","S28","S29"],"scene":"叙述者僵住，视线落在门闩和斧头上；老人汗湿的脸在炉火边缘。","kind":"M","motion":"static"},
+    {"id":"S15","cue_ids":["S30","S31"],"scene":"清晨木屋内部空镜，铁门闩仍插在原位，门外雪光照进来，门边没有脚印。","kind":"E","motion":"static"},
+    {"id":"S16","cue_ids":["S32"],"scene":"老人带两名年轻人走进清晨雪林，屋后雪地平整，没有尸体也没有脚印。","kind":"M","motion":"affine_push"},
+    {"id":"S17","cue_ids":["S33"],"scene":"担架上的大孙被救援毯盖住，只露出缝着蓝布的手套；手套的补丁与来时穿戴一致。","kind":"C","motion":"static"},
+    {"id":"S18","cue_ids":["S34","S35","S36"],"scene":"老赵站在雪地担架旁，攥着蓝布缝补的手套，远处是林屋；他听见叙述者说出最后的发现。","kind":"M","motion":"affine_push"}
+  ]
+}

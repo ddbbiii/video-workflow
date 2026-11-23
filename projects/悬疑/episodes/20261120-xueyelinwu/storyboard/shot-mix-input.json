@@ -1,0 +1,242 @@
+{
+  "shots": [
+    {
+      "id": "S01",
+      "shot_type": "E",
+      "scene_id": "forest",
+      "has_character": true,
+      "fact": "三名二十出头的中国男性徒步者在下午突变的长白山暴雪中前行；背包、冬季徒步服和远处被雪抹去的脚印清楚可见。"
+    },
+    {
+      "id": "S02",
+      "shot_type": "M",
+      "scene_id": "forest",
+      "has_character": false,
+      "fact": "一阵横向风雪吞没林间队伍最后方的人位；雪停后，只剩空白雪坡与稀疏树干，没有人物轮廓。"
+    },
+    {
+      "id": "S03",
+      "shot_type": "M",
+      "scene_id": "ravine",
+      "has_character": true,
+      "fact": "老赵在雪崩开的沟沿失足，叙述者抓住背包带救他；远处树间亮起一束手电，穿旧棉袄的守林老人站在风雪里。"
+    },
+    {
+      "id": "S04",
+      "shot_type": "E",
+      "scene_id": "hut-exterior",
+      "has_character": true,
+      "fact": "山坳石墙木屋的无窗外墙与高门槛，守林老人将两名湿透的青年带进屋；暴雪封住山坳。"
+    },
+    {
+      "id": "S05",
+      "shot_type": "M",
+      "scene_id": "hut",
+      "has_character": false,
+      "fact": "无窗木屋内，卷起的粗麻绳、树枝上的布条记号和火炉旁融雪水壶；门闩与床边物件明确，无人物。"
+    },
+    {
+      "id": "S06",
+      "shot_type": "M",
+      "scene_id": "hut",
+      "has_character": true,
+      "fact": "老赵抓住守林人的棉袄要求继续搜人；老人掰开他的手，随后检查猎枪并坐到无窗木屋的门边。"
+    },
+    {
+      "id": "S07",
+      "shot_type": "C",
+      "scene_id": "hut",
+      "has_character": false,
+      "fact": "夜里炉边的蓝布补丁手套与睡袋，木门上的横铁闩仍牢牢插住；火光将空屋照出清晰层次。"
+    },
+    {
+      "id": "S08",
+      "shot_type": "C",
+      "scene_id": "hut",
+      "has_character": true,
+      "fact": "凌晨手机显示光映在叙述者与老赵脸上，老赵攥住同伴手臂；无窗木门传来三下敲击，守林人仍坐在门边。"
+    },
+    {
+      "id": "S09",
+      "shot_type": "E",
+      "scene_id": "hut",
+      "has_character": true,
+      "fact": "叙述者听见门外叫老赵，老赵起身逼近木门，守林人举枪拦住；铁门闩和门边空间关系清楚。"
+    },
+    {
+      "id": "S10",
+      "shot_type": "M",
+      "scene_id": "hut",
+      "has_character": true,
+      "fact": "门边对峙：守林人持枪命令停下，老赵坚持门外是朋友，叙述者站在两人之间；无窗木屋结构稳定。"
+    },
+    {
+      "id": "S11",
+      "shot_type": "M",
+      "scene_id": "hut",
+      "has_character": true,
+      "fact": "老赵隔着门询问大孙如何走散；叙述者不动，门外只有厚木板与铁闩，没有可见人影。"
+    },
+    {
+      "id": "S12",
+      "shot_type": "C",
+      "scene_id": "hut",
+      "has_character": false,
+      "fact": "门闩特写和炉边叙述者的手；门外提起旅店黄狗与缺耳细节，老赵的影子在火光中僵住。"
+    },
+    {
+      "id": "S13",
+      "shot_type": "E",
+      "scene_id": "hut",
+      "has_character": true,
+      "fact": "老赵冲向门被老人抬枪制止，门外急促拍击；画面表现对峙全貌，厚门封闭。"
+    },
+    {
+      "id": "S14",
+      "shot_type": "M",
+      "scene_id": "hut",
+      "has_character": true,
+      "fact": "叙述者与老赵同时转向守林人；老人握枪的手收紧，三人被炉火与门板隔开。"
+    },
+    {
+      "id": "S15",
+      "shot_type": "M",
+      "scene_id": "hut",
+      "has_character": true,
+      "fact": "老赵抄起炉边拨火棍与守林人对峙，叙述者拦在中间；炉柴塌落，火星照亮紧张的脸。"
+    },
+    {
+      "id": "S16",
+      "shot_type": "C",
+      "scene_id": "flashback",
+      "has_character": true,
+      "fact": "冷色冬季水库回忆：薄冰裂开，老赵陷入冰水边缘，手抓碎裂冰面；无文字、无伤口。"
+    },
+    {
+      "id": "S17",
+      "shot_type": "M",
+      "scene_id": "flashback",
+      "has_character": true,
+      "fact": "大孙趴在冰面，把灰色围巾伸给落水的老赵，冰面裂纹延伸；回忆画面清晰但克制。"
+    },
+    {
+      "id": "S18",
+      "shot_type": "E",
+      "scene_id": "hut",
+      "has_character": false,
+      "fact": "无窗木屋里，矮床紧贴石墙，床底可见麻绳与旧鞋，炉边拨火棍落地；留出门与床的空间关系。"
+    },
+    {
+      "id": "S19",
+      "shot_type": "M",
+      "scene_id": "hut",
+      "has_character": true,
+      "fact": "叙述者贴近老赵耳边低声交代，矮床和门在画面两端；随后他转向门外拖延时间。"
+    },
+    {
+      "id": "S20",
+      "shot_type": "C",
+      "scene_id": "hut",
+      "has_character": false,
+      "fact": "木门前突然静下来，铁闩纹丝不动；炉边老赵望向叙述者，空屋压住声音。"
+    },
+    {
+      "id": "S21",
+      "shot_type": "M",
+      "scene_id": "hut",
+      "has_character": true,
+      "fact": "老赵的手被叙述者握住，守林人从门边起身举枪；门外再次叫老赵，三人都没有靠近门。"
+    },
+    {
+      "id": "S22",
+      "shot_type": "M",
+      "scene_id": "hut",
+      "has_character": false,
+      "fact": "从屋内贴近门板的视角，厚木板与铁闩占画面，门外衣料摩擦留下轻微震动，无人物或人形影子。"
+    },
+    {
+      "id": "S23",
+      "shot_type": "M",
+      "scene_id": "hut",
+      "has_character": true,
+      "fact": "老赵后退碰落拨火棍，铁棍在石地上滚动；守林人把两名青年从门边推向炉火。"
+    },
+    {
+      "id": "S24",
+      "shot_type": "C",
+      "scene_id": "hut",
+      "has_character": false,
+      "fact": "无窗木屋的封闭全景，三下敲击让厚木门微微震动，炉边空出一块暗处；不出现门外实体。"
+    },
+    {
+      "id": "S25",
+      "shot_type": "M",
+      "scene_id": "hut",
+      "has_character": true,
+      "fact": "老赵蜷在炉边发抖，叙述者捂住他的嘴；守林人站在门与火炉之间，火光克制。"
+    },
+    {
+      "id": "S26",
+      "shot_type": "E",
+      "scene_id": "hut",
+      "has_character": false,
+      "fact": "无窗木门和守林人手中的猎枪特写；枪口始终朝下，门闩未动，没人能看见门外是什么。"
+    },
+    {
+      "id": "S27",
+      "shot_type": "C",
+      "scene_id": "hut",
+      "has_character": false,
+      "fact": "门槛与木门下沿近景，一道看不见来源的擦痕沿门底横向延伸，炉边有烧红木炭；不出现怪物。"
+    },
+    {
+      "id": "S28",
+      "shot_type": "M",
+      "scene_id": "hut",
+      "has_character": true,
+      "fact": "守林人用火钳夹起烧红木炭放在门缝前，另外两人留在后方；门外安静，炭火细节清楚。"
+    },
+    {
+      "id": "S29",
+      "shot_type": "M",
+      "scene_id": "hut",
+      "has_character": true,
+      "fact": "凌晨远处传来求救，老赵猛地望向门，叙述者按住他肩膀；老人仍守在门边，不打开门。"
+    },
+    {
+      "id": "S30",
+      "shot_type": "E",
+      "scene_id": "hut-exterior",
+      "has_character": false,
+      "fact": "日光穿过无窗木屋门缝；厚门打开后门槛堆雪，屋外无人，足迹和树上记号被风雪覆盖。"
+    },
+    {
+      "id": "S31",
+      "shot_type": "M",
+      "scene_id": "ravine",
+      "has_character": true,
+      "fact": "白天救援队在倒树下找到冻伤的大孙，雪沟与远处搜寻路线清楚；画面不展示伤口。"
+    },
+    {
+      "id": "S32",
+      "shot_type": "C",
+      "scene_id": "rescue",
+      "has_character": true,
+      "fact": "担架旁老赵替盖毯下的大孙拉好外套拉链，把蓝布补丁手套放好；救援人员取下灰色旧围巾，老赵伸手抓住。"
+    },
+    {
+      "id": "S33",
+      "shot_type": "M",
+      "scene_id": "afterward",
+      "has_character": true,
+      "fact": "多年后夜晚，喝醉的老赵攥着灰色围巾问话，叙述者沉默；背景仅有暗色室内与旧木桌。"
+    },
+    {
+      "id": "S34",
+      "shot_type": "E",
+      "scene_id": "forest",
+      "has_character": false,
+      "fact": "雪夜空林回忆，风雪吞没脚印，画面留出身后无人的树间空隙，像有极远处的声音传来；无文字、无人物影子。"
+    }
+  ]
+}

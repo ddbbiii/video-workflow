@@ -1,0 +1,35 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><style>html,body{margin:0;background:#050609;overflow:hidden}canvas{display:block;width:1080px;height:1920px}</style></head><body><canvas id="frame" width="1080" height="1920"></canvas><script>
+const c=document.querySelector('#frame'),ctx=c.getContext('2d'),W=1080,H=1920,TAU=Math.PI*2;
+const bg=new Image(),paper=new Image(); bg.src='new-assets/bedroom-new.png';paper.src='new-assets/paper-cutout.png';
+let ready=false;Promise.all([bg.decode(),paper.decode()]).then(()=>{ready=true;window.renderFrame(0)});
+const off=document.createElement('canvas'),ox=off.getContext('2d');off.width=paper.width;off.height=paper.height;
+function prep(){off.width=paper.naturalWidth;off.height=paper.naturalHeight;ox.clearRect(0,0,off.width,off.height);ox.drawImage(paper,0,0)}
+function ease(t){return t<.5?2*t*t:1-Math.pow(-2*t+2,2)/2}function clamp(v,a=0,b=1){return Math.max(a,Math.min(b,v))}
+function fitImage(im,zoom=1,panX=0,panY=0,tint=0){const iw=im.width,ih=im.height,scale=Math.max(W/iw,H/ih)*zoom;const dw=iw*scale,dh=ih*scale;ctx.save();ctx.translate(W/2+panX,H/2+panY);ctx.filter=tint?`brightness(${1-tint}) saturate(${1-tint*.5})`:'';ctx.drawImage(im,-dw/2,-dh/2,dw,dh);ctx.restore()}
+function vignette(){const g=ctx.createRadialGradient(W*.5,H*.45,100,W*.5,H*.5,900);g.addColorStop(0,'rgba(0,0,0,0)');g.addColorStop(1,'rgba(0,0,0,.62)');ctx.fillStyle=g;ctx.fillRect(0,0,W,H)}
+function grain(t){ctx.save();ctx.globalAlpha=.09;for(let i=0;i<850;i++){const x=((i*97+t*19)%W),y=((i*53+t*31)%H);ctx.fillStyle=i%2?'#fff':'#000';ctx.fillRect(x,y,1,1)}ctx.restore()}
+function caption(text,sub=''){ctx.save();ctx.textAlign='center';ctx.font='700 48px sans-serif';ctx.fillStyle='#f5ead8';ctx.shadowColor='#000';ctx.shadowBlur=16;ctx.fillText(text,W/2,165);if(sub){ctx.font='28px sans-serif';ctx.fillStyle='#cdbfae';ctx.fillText(sub,W/2,214)}ctx.restore()}
+function spritePart(sx,sy,sw,sh,dx,dy,dw,dh,rot=0,alpha=1){ctx.save();ctx.translate(dx+dw/2,dy+dh/2);ctx.rotate(rot);ctx.globalAlpha=alpha;ctx.drawImage(off,sx,sy,sw,sh,-dw/2,-dh/2,dw,dh);ctx.restore()}
+function doll(x,y,scale=1,tilt=0,armL=0,armR=0,headTilt=0,alpha=1){const baseW=420*scale,baseH=590*scale;ctx.save();ctx.translate(x,y);ctx.rotate(tilt);const sx=paper.width/2-210, sy=140;
+  // legs behind torso
+  spritePart(sx+38,sy+610,150,250,-baseW*.30,baseH*.28,baseW*.34,baseH*.40,0,alpha);spritePart(sx+250,sy+610,150,250,baseW*.02,baseH*.28,baseW*.34,baseH*.40,0,alpha);
+  // torso
+  spritePart(sx,sy+255,420,390,-baseW/2,baseH*.02,baseW,baseH*.62,0,alpha);
+  // arms with independent rotations
+  spritePart(sx-40,sy+260,150,300,-baseW*.50,baseH*.06,baseW*.32,baseH*.55,armL,alpha);spritePart(sx+310,sy+260,150,300,baseW*.18,baseH*.06,baseW*.32,baseH*.55,armR,alpha);
+  // head on top
+  spritePart(sx+75,sy,270,280,-baseW*.32,-baseH*.40,baseW*.64,baseH*.48,headTilt,alpha);ctx.restore()}
+function doorGlow(q){ctx.save();ctx.fillStyle='#8ea4c4';ctx.globalAlpha=.18+.18*q;ctx.beginPath();ctx.moveTo(870,400);ctx.lineTo(1030,340);ctx.lineTo(1030,1560);ctx.lineTo(870,1450);ctx.closePath();ctx.fill();ctx.restore()}
+function draw(t){if(!ready){ctx.fillStyle='#050609';ctx.fillRect(0,0,W,H);return}if(!off._done){prep();off._done=true}const q=t,scene=Math.min(7,Math.floor(q/3)),u=(q%3)/3;ctx.clearRect(0,0,W,H);
+  const zoom=[1.04,1.1,1.18,1.06,1.23,1.12,1.32,1.02][scene];fitImage(bg,zoom,(scene===2?-80:scene===4?50:0),(scene===1?40:scene===5?-30:0),scene===5?.13:0);doorGlow(scene>=6?ease(u):0);
+  if(scene===0){caption('奶奶出殡后的第三晚','老屋里，只剩下我和二叔');doll(760,1050,.92,0,0,0,0,1);}
+  if(scene===1){caption('二叔把“纸替”放在床前','八字轻的人，夜里要有东西挡一劫');doll(780,1040,.93,0,0,0,0,1);ctx.save();ctx.globalAlpha=.35+.18*Math.sin(u*TAU);ctx.fillStyle='#e7bd79';ctx.beginPath();ctx.arc(600,1040,180,0,TAU);ctx.fill();ctx.restore()}
+  if(scene===2){caption('门闩，自己动了一下','屋里没有风');doll(740,1050,.94,0,-.03,.03,-.02,1);ctx.fillStyle='#d4b278';ctx.fillRect(920,710,32,150);ctx.fillStyle='#171318';ctx.fillRect(895,850,62,26)}
+  if(scene===3){caption('纸替抬起了手','像是在数门外的脚步');doll(650,1050,.98,.015,-.42,-.38,.02,1);ctx.fillStyle='rgba(0,0,0,.35)';ctx.fillRect(0,0,W,H)}
+  if(scene===4){caption('墨水，从它的眼角流下来','可那不是墨水');doll(620,1080,1.1,ease(u)*.12,-.1,.1,ease(u)*.08,1);ctx.save();ctx.strokeStyle='#1b1718';ctx.lineWidth=8;ctx.lineCap='round';ctx.globalAlpha=ease(u);ctx.beginPath();ctx.moveTo(555,850);ctx.lineTo(555,980+90*ease(u));ctx.moveTo(650,850);ctx.lineTo(650,960+120*ease(u));ctx.stroke();ctx.restore()}
+  if(scene===5){caption('二叔说：别回头','可门外，传来了我的声音');doll(560,1090,1.0,0,0,.22,0,1);ctx.fillStyle='rgba(8,8,12,.5)';ctx.fillRect(0,0,W,H);ctx.fillStyle='#d8c9b8';ctx.font='34px sans-serif';ctx.textAlign='center';ctx.fillText('“开门，是我。”',W/2,1430)}
+  if(scene===6){caption('我低头看见自己的手','已经变成了纸');ctx.fillStyle='#0a090d';ctx.fillRect(0,0,W,H);ctx.globalAlpha=.9;fitImage(bg,1.35,70,-20,.25);ctx.fillStyle='rgba(4,3,6,.58)';ctx.fillRect(0,0,W,H);doll(535,1120,1.35,0,-.12,.18,.04,1);ctx.fillStyle='#f1e4cf';ctx.font='36px sans-serif';ctx.textAlign='center';ctx.fillText('门外的脚步，越走越远。',W/2,1510)}
+  if(scene===7){caption('第二天，二叔不见了','床前只剩一张新的纸替');ctx.fillStyle='rgba(0,0,0,.45)';ctx.fillRect(0,0,W,H);doll(500,1260,.42,0,0,0,0,.98);ctx.fillStyle='#e6d6bd';ctx.font='32px sans-serif';ctx.textAlign='center';ctx.fillText('纸上写着：',W/2,1450);ctx.font='700 44px serif';ctx.fillStyle='#c94c48';ctx.fillText('“轮到你了。”',W/2,1515)}
+  vignette();grain(Math.floor(t*24));}
+window.renderFrame=f=>draw(f/24);draw(0);
+</script></body></html>

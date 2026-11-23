@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "episode_id": "20261122-escape-rings",
+  "episode_name": "逃离十重圆环",
+  "model_id": "matter-ring-escape-v1",
+  "adapter_version": 1,
+  "simulation": {
+    "trace": "simulation/trace.json",
+    "seed": 31,
+    "fps": 30
+  },
+  "ending": {
+    "source_frame": 301,
+    "minimum_tail_seconds": 0.25
+  },
+  "output": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 60,
+    "frame_count": 720,
+    "quality": "high",
+    "minimum_frames": 30,
+    "maximum_frames": 18000,
+    "frame_count_policy": "trim-or-hold"
+  },
+  "parameters": {
+    "speed": 1,
+    "ballColor": "#f4f7f8",
+    "ballRadius": 26,
+    "trailMode": "glow",
+    "trailLength": 6,
+    "backgroundColor": "#080b12",
+    "backgroundImage": "/assets/motion-studio-background.svg",
+    "impactStrength": 1,
+    "ballImage": "/assets/motion-studio-ball.svg",
+    "collisionSound": "",
+    "audioVolume": 0.75,
+    "audioRate": 1
+  },
+  "asset_limit_bytes": 41943040
+}

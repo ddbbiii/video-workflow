@@ -16,17 +16,17 @@ python shared/workflows/subtitles/estimate_timing.py <ep>/story/script-v1.md `
   --out <ep>/subtitles/r1/sentences.srt `
   --json <ep>/subtitles/r1/sentences.json --cps 3.8
 python shared/workflows/subtitles/split_srt.py <ep>/subtitles/r1/sentences.srt `
-  --out <ep>/video/srt/<线路>_<剧名>_正文_vN.srt `
+  --out <ep>/video/final/<线路>_<剧名>_正文_vN.srt `
   --cues-json <ep>/subtitles/r1/cues.json `
   --report <ep>/subtitles/r1/split_report.json
-python shared/workflows/subtitles/check_srt.py <ep>/video/srt/<线路>_<剧名>_正文_vN.srt --json <ep>/qa/srt.json
+python shared/workflows/subtitles/check_srt.py <ep>/video/final/<线路>_<剧名>_正文_vN.srt --json <ep>/qa/srt.json
 ```
 
 - 剧本旁白写成 `S12　……` 一行一句；章标题写成 `## 第N章 ……`（只决定章间停顿）；制作提示写在下一行 `　　visual：`，不进 cue。
 - 语速取本线值：助眠 3.8、悬疑 3.6、人生体验 4.8 可见字/秒；没有配音时这是唯一时间依据。
 - `--offset` 永远为 0：SRT 只覆盖正文，不含片头偏移。
 - 拆条与时间分配由 `split_srt.py` 负责；交付前必须跑 `check_srt.py`，退出码非 0 不得交付。
-- 交付件命名 `<线路>_<中文剧名>_正文_<版本>.srt`，放单集 `video/srt/`，UTF-8 无 BOM。
+- 交付件命名 `<线路>_<中文剧名>_正文_<版本>.srt`，与视频同放单集 `video/final/`，UTF-8 无 BOM。
 
 ## 字数门禁
 

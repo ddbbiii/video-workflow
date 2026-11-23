@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "skills": {
+    "zhihu-search": {
+      "source": "klarkxy/zhihu-search",
+      "commit": "3892a7ca4b21b8931ad60157815f7bc467e31d13",
+      "sourceType": "github",
+      "skillPath": "skills/zhihu-search/SKILL.md",
+      "computedHash": "0176b4af600bb7e564c84703028cfaeffa7a472b6f928194a8578a1a3076511e"
+    }
+  }
+}

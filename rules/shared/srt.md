@@ -35,12 +35,12 @@ python shared/workflows/subtitles/estimate_timing.py <ep>/story/script-v1.md `
 
 # 2) 拆到 ≤20 字
 python shared/workflows/subtitles/split_srt.py <ep>/subtitles/r1/sentences.srt `
-  --out <ep>/video/srt/<线路>_<剧名>_正文_vN.srt `
+  --out <ep>/video/final/<线路>_<剧名>_正文_vN.srt `
   --cues-json <ep>/subtitles/r1/cues.json `
   --report <ep>/subtitles/r1/split_report.json
 
 # 3) 门禁
-python shared/workflows/subtitles/check_srt.py <ep>/video/srt/<线路>_<剧名>_正文_vN.srt --json <ep>/qa/srt.json
+python shared/workflows/subtitles/check_srt.py <ep>/video/final/<线路>_<剧名>_正文_vN.srt --json <ep>/qa/srt.json
 ```
 
 - `check_srt.py` 退出码非 0 不得交付；`over_limit`、时间轴倒挂/重叠必须为 0。指定 `--font` 时 `over_width` 也必须为 0。
@@ -49,6 +49,6 @@ python shared/workflows/subtitles/check_srt.py <ep>/video/srt/<线路>_<剧名>_
 ## 五、验收与留档
 
 - 单集 `qa/srt_qa.md` 至少写：cue 数、锁定句数、最大字数、`check_srt.py` PASS 输出、首末条时间、估算说明；指定渲染字体时补记最大宽度。
-- SRT 与视频同基名、分目录：视频 `video/final/`，SRT `video/srt/`。
+- SRT 与正文视频同目录、同基名，均放在 `video/final/`；SRT 保持独立文件，不烧录进 MP4。
 - 不生成 ASS；不做烧录；不做字体部署；不跑 ASR。
 - 用户委托对轨/烧录时，按当次委托单独处理，不沿用估算时间轴，也不恢复旧 style_r4 默认流程。

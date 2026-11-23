@@ -1,0 +1,26 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Main,STHeiti Medium,42,&H00FFFFFF,&H00FFFFFF,&H00101010,&H99000000,1,0,1,5,1,2,55,55,170,134
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:04.00,Main,,0,0,0,,奶奶出殡后的夜晚，老屋里只剩我和二叔
+Dialogue: 0,0:00:04.00,0:00:08.00,Main,,0,0,0,,二叔把四十五厘米高的纸替放在床脚
+Dialogue: 0,0:00:08.00,0:00:12.00,Main,,0,0,0,,他说，纸替能替八字轻的人挡一劫
+Dialogue: 0,0:00:12.00,0:00:16.00,Main,,0,0,0,,门闩插好，窗也关着
+Dialogue: 0,0:00:16.00,0:00:20.00,Main,,0,0,0,,纸人穿着红绿纸衣，脸上只有两个墨点
+Dialogue: 0,0:00:20.00,0:00:24.00,Main,,0,0,0,,灯芯跳了一下，我闭上了眼
+Dialogue: 0,0:00:24.00,0:00:28.00,Main,,0,0,0,,再睁眼时，它已经站到床边
+Dialogue: 0,0:00:28.00,0:00:32.00,Main,,0,0,0,,门窗没动，可我的身体动不了了
+Dialogue: 0,0:00:32.00,0:00:36.00,Main,,0,0,0,,黑墨沿着白纸脸颊流下来
+Dialogue: 0,0:00:36.00,0:00:40.00,Main,,0,0,0,,它站在枕边，竹篾从纸袖里露出来
+Dialogue: 0,0:00:40.00,0:00:44.00,Main,,0,0,0,,它转身朝门挪去，一步，一声轻响
+Dialogue: 0,0:00:44.00,0:00:48.00,Main,,0,0,0,,它仍然只有四十五厘米高
+Dialogue: 0,0:00:48.00,0:00:52.00,Main,,0,0,0,,门闩自己退开，门外传来二叔的声音
+Dialogue: 0,0:00:52.00,0:00:56.00,Main,,0,0,0,,穿着我衣服的人，从房间里走了出去
+Dialogue: 0,0:00:56.00,0:01:00.00,Main,,0,0,0,,低头时，我看见了纸糊的小手
+Dialogue: 0,0:01:00.00,0:01:04.00,Main,,0,0,0,,门外那个人说话的声音，是我的声音

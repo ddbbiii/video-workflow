@@ -1,0 +1,1508 @@
+{
+  "schema_version": 1,
+  "backend": "affine",
+  "output": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 60
+  },
+  "transition_s": 0,
+  "shots": [
+    {
+      "id": "S01",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261120-zizhucan/image/final/S01.png",
+      "duration_s": 17.666666666666668,
+      "frames": 1060,
+      "span_s": 17.65,
+      "start_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "end_view": [
+        0.044,
+        0.044,
+        0.912,
+        0.912
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.14,
+          0.14,
+          0.72,
+          0.72
+        ]
+      ],
+      "delivery_frames": 424,
+      "timeline_start_frame": 0,
+      "motion": "affine"
+    },
+    {
+      "id": "S02",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261120-zizhucan/image/final/S02.png",
+      "duration_s": 16.55,
+      "frames": 993,
+      "span_s": 16.533333333333335,
+      "start_view": [
+        0.044,
+        0.044,
+        0.912,
+        0.912
+      ],
+      "end_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.14,
+          0.14,
+          0.72,
+          0.72
+        ]
+      ],
+      "delivery_frames": 397,
+      "timeline_start_frame": 424,
+      "motion": "affine"
+    },
+    {
+      "id": "S03",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261120-zizhucan/image/final/S03.png",
+      "duration_s": 16.3,
+      "frames": 978,
+      "span_s": 16.283333333333335,
+      "start_view": [
+        0.02,
+        0.05,
+        0.9,
+        0.9
+      ],
+      "end_view": [
+        0.08,
+        0.05,
+        0.9,
+        0.9
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.14,
+          0.14,
+          0.72,
+          0.72
+        ]
+      ],
+      "delivery_frames": 391,
+      "timeline_start_frame": 821,
+      "motion": "affine"
+    },
+    {
+      "id": "S04",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261120-zizhucan/image/final/S04.png",
+      "duration_s": 16.583333333333332,
+      "frames": 995,
+      "span_s": 16.566666666666666,
+      "start_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "end_view": [
+        0.044,
+        0.044,
+        0.912,
+        0.912
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.14,
+          0.14,
+          0.72,
+          0.72
+        ]
+      ],
+      "delivery_frames": 398,
+      "timeline_start_frame": 1212,
+      "motion": "affine"
+    },
+    {
+      "id": "S05",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261120-zizhucan/image/final/S05.png",
+      "duration_s": 18.216666666666665,
+      "frames": 1093,
+      "span_s": 18.2,
+      "start_view": [
+        0.044,
+        0.044,
+        0.912,
+        0.912
+      ],
+      "end_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.14,
+          0.14,
+          0.72,
+          0.72
+        ]
+      ],
+      "delivery_frames": 437,
+      "timeline_start_frame": 1610,
+      "motion": "affine"
+    },
+    {
+      "id": "S06",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261120-zizhucan/image/final/S06.png",
+      "duration_s": 17.083333333333332,
+      "frames": 1025,
+      "span_s": 17.066666666666666,
+      "start_view": [
+        0.02,
+        0.05,
+        0.9,
+        0.9
+      ],
+      "end_view": [
+        0.08,
+        0.05,
+        0.9,
+        0.9
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.14,
+          0.14,
+          0.72,
+          0.72
+        ]
+      ],
+      "delivery_frames": 410,
+      "timeline_start_frame": 2047,
+      "motion": "affine"
+    },
+    {
+      "id": "S07",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261120-zizhucan/image/final/S07.png",
+      "duration_s": 16.583333333333332,
+      "frames": 995,
+      "span_s": 16.566666666666666,
+      "start_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "end_view": [
+        0.044,
+        0.044,
+        0.912,
+        0.912
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.14,
+          0.14,
+          0.72,
+          0.72
+        ]
+      ],
+      "delivery_frames": 398,
+      "timeline_start_frame": 2457,
+      "motion": "affine"
+    },
+    {
+      "id": "S08",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261120-zizhucan/image/final/S08.png",
+      "duration_s": 16.3,
+      "frames": 978,
+      "span_s": 16.283333333333335,
+      "start_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "end_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.14,
+          0.14,
+          0.72,
+          0.72
+        ]
+      ],
+      "delivery_frames": 391,
+      "timeline_start_frame": 2855,
+      "motion": "static"
+    },
+    {
+      "id": "S09",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261120-zizhucan/image/final/S09.png",
+      "duration_s": 16.833333333333332,
+      "frames": 1010,
+      "span_s": 16.816666666666666,
+      "start_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "end_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.14,
+          0.14,
+          0.72,
+          0.72
+        ]
+      ],
+      "delivery_frames": 404,
+      "timeline_start_frame": 3246,
+      "motion": "static"
+    },
+    {
+      "id": "S10",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261120-zizhucan/image/final/S10.png",
+      "duration_s": 17.633333333333333,
+      "frames": 1058,
+      "span_s": 17.616666666666667,
+      "start_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "end_view": [
+        0.044,
+        0.044,
+        0.912,
+        0.912
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.14,
+          0.14,
+          0.72,
+          0.72
+        ]
+      ],
+      "delivery_frames": 423,
+      "timeline_start_frame": 3650,
+      "motion": "affine"
+    },
+    {
+      "id": "S11",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261120-zizhucan/image/final/S11.png",
+      "duration_s": 16.0,
+      "frames": 960,
+      "span_s": 15.983333333333333,
+      "start_view": [
+        0.044,
+        0.044,
+        0.912,
+        0.912
+      ],
+      "end_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.14,
+          0.14,
+          0.72,
+          0.72
+        ]
+      ],
+      "delivery_frames": 384,
+      "timeline_start_frame": 4073,
+      "motion": "affine"
+    },
+    {
+      "id": "S12",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261120-zizhucan/image/final/S12.png",
+      "duration_s": 15.466666666666667,
+      "frames": 928,
+      "span_s": 15.45,
+      "start_view": [
+        0.02,
+        0.05,
+        0.9,
+        0.9
+      ],
+      "end_view": [
+        0.08,
+        0.05,
+        0.9,
+        0.9
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.14,
+          0.14,
+          0.72,
+          0.72
+        ]
+      ],
+      "delivery_frames": 371,
+      "timeline_start_frame": 4457,
+      "motion": "affine"
+    },
+    {
+      "id": "S13",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261120-zizhucan/image/final/S13.png",
+      "duration_s": 14.083333333333334,
+      "frames": 845,
+      "span_s": 14.066666666666666,
+      "start_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "end_view": [
+        0.044,
+        0.044,
+        0.912,
+        0.912
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.14,
+          0.14,
+          0.72,
+          0.72
+        ]
+      ],
+      "delivery_frames": 338,
+      "timeline_start_frame": 4828,
+      "motion": "affine"
+    },
+    {
+      "id": "S14",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261120-zizhucan/image/final/S14.png",
+      "duration_s": 16.55,
+      "frames": 993,
+      "span_s": 16.533333333333335,
+      "start_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "end_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.14,
+          0.14,
+          0.72,
+          0.72
+        ]
+      ],
+      "delivery_frames": 397,
+      "timeline_start_frame": 5166,
+      "motion": "static"
+    },
+    {
+      "id": "S15",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261120-zizhucan/image/final/S15.png",
+      "duration_s": 16.05,
+      "frames": 963,
+      "span_s": 16.033333333333335,
+      "start_view": [
+        0.02,
+        0.05,
+        0.9,
+        0.9
+      ],
+      "end_view": [
+        0.08,
+        0.05,
+        0.9,
+        0.9
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.14,
+          0.14,
+          0.72,
+          0.72
+        ]
+      ],
+      "delivery_frames": 385,
+      "timeline_start_frame": 5563,
+      "motion": "affine"
+    },
+    {
+      "id": "S16",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261120-zizhucan/image/final/S16.png",
+      "duration_s": 17.666666666666668,
+      "frames": 1060,
+      "span_s": 17.65,
+      "start_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "end_view": [
+        0.044,
+        0.044,
+        0.912,
+        0.912
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.14,
+          0.14,
+          0.72,
+          0.72
+        ]
+      ],
+      "delivery_frames": 424,
+      "timeline_start_frame": 5948,
+      "motion": "affine"
+    },
+    {
+      "id": "S17",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261120-zizhucan/image/final/S17.png",
+      "duration_s": 17.133333333333333,
+      "frames": 1028,
+      "span_s": 17.116666666666667,
+      "start_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "end_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.14,
+          0.14,
+          0.72,
+          0.72
+        ]
+      ],
+      "delivery_frames": 411,
+      "timeline_start_frame": 6372,
+      "motion": "static"
+    },
+    {
+      "id": "S18",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261120-zizhucan/image/final/S18.png",
+      "duration_s": 16.583333333333332,
+      "frames": 995,
+      "span_s": 16.566666666666666,
+      "start_view": [
+        0.02,
+        0.05,
+        0.9,
+        0.9
+      ],
+      "end_view": [
+        0.08,
+        0.05,
+        0.9,
+        0.9
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.14,
+          0.14,
+          0.72,
+          0.72
+        ]
+      ],
+      "delivery_frames": 398,
+      "timeline_start_frame": 6783,
+      "motion": "affine"
+    },
+    {
+      "id": "S19",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261120-zizhucan/image/final/S19.png",
+      "duration_s": 16.583333333333332,
+      "frames": 995,
+      "span_s": 16.566666666666666,
+      "start_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "end_view": [
+        0.044,
+        0.044,
+        0.912,
+        0.912
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.14,
+          0.14,
+          0.72,
+          0.72
+        ]
+      ],
+      "delivery_frames": 398,
+      "timeline_start_frame": 7181,
+      "motion": "affine"
+    },
+    {
+      "id": "S20",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261120-zizhucan/image/final/S20.png",
+      "duration_s": 16.25,
+      "frames": 975,
+      "span_s": 16.233333333333334,
+      "start_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "end_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.14,
+          0.14,
+          0.72,
+          0.72
+        ]
+      ],
+      "delivery_frames": 390,
+      "timeline_start_frame": 7579,
+      "motion": "static"
+    },
+    {
+      "id": "S21",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261120-zizhucan/image/final/S21.png",
+      "duration_s": 16.0,
+      "frames": 960,
+      "span_s": 15.983333333333333,
+      "start_view": [
+        0.02,
+        0.05,
+        0.9,
+        0.9
+      ],
+      "end_view": [
+        0.08,
+        0.05,
+        0.9,
+        0.9
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.14,
+          0.14,
+          0.72,
+          0.72
+        ]
+      ],
+      "delivery_frames": 384,
+      "timeline_start_frame": 7969,
+      "motion": "affine"
+    },
+    {
+      "id": "S22",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261120-zizhucan/image/final/S22.png",
+      "duration_s": 16.25,
+      "frames": 975,
+      "span_s": 16.233333333333334,
+      "start_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "end_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.14,
+          0.14,
+          0.72,
+          0.72
+        ]
+      ],
+      "delivery_frames": 390,
+      "timeline_start_frame": 8353,
+      "motion": "static"
+    },
+    {
+      "id": "S23",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261120-zizhucan/image/final/S23.png",
+      "duration_s": 15.75,
+      "frames": 945,
+      "span_s": 15.733333333333333,
+      "start_view": [
+        0.044,
+        0.044,
+        0.912,
+        0.912
+      ],
+      "end_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.14,
+          0.14,
+          0.72,
+          0.72
+        ]
+      ],
+      "delivery_frames": 378,
+      "timeline_start_frame": 8743,
+      "motion": "affine"
+    },
+    {
+      "id": "S24",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261120-zizhucan/image/final/S24.png",
+      "duration_s": 16.833333333333332,
+      "frames": 1010,
+      "span_s": 16.816666666666666,
+      "start_view": [
+        0.02,
+        0.05,
+        0.9,
+        0.9
+      ],
+      "end_view": [
+        0.08,
+        0.05,
+        0.9,
+        0.9
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.14,
+          0.14,
+          0.72,
+          0.72
+        ]
+      ],
+      "delivery_frames": 404,
+      "timeline_start_frame": 9121,
+      "motion": "affine"
+    },
+    {
+      "id": "S25",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261120-zizhucan/image/final/S25.png",
+      "duration_s": 16.0,
+      "frames": 960,
+      "span_s": 15.983333333333333,
+      "start_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "end_view": [
+        0.044,
+        0.044,
+        0.912,
+        0.912
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.14,
+          0.14,
+          0.72,
+          0.72
+        ]
+      ],
+      "delivery_frames": 384,
+      "timeline_start_frame": 9525,
+      "motion": "affine"
+    },
+    {
+      "id": "S26",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261120-zizhucan/image/final/S26.png",
+      "duration_s": 15.166666666666666,
+      "frames": 910,
+      "span_s": 15.15,
+      "start_view": [
+        0.044,
+        0.044,
+        0.912,
+        0.912
+      ],
+      "end_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.14,
+          0.14,
+          0.72,
+          0.72
+        ]
+      ],
+      "delivery_frames": 364,
+      "timeline_start_frame": 9909,
+      "motion": "affine"
+    },
+    {
+      "id": "S27",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261120-zizhucan/image/final/S27.png",
+      "duration_s": 15.466666666666667,
+      "frames": 928,
+      "span_s": 15.45,
+      "start_view": [
+        0.02,
+        0.05,
+        0.9,
+        0.9
+      ],
+      "end_view": [
+        0.08,
+        0.05,
+        0.9,
+        0.9
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.14,
+          0.14,
+          0.72,
+          0.72
+        ]
+      ],
+      "delivery_frames": 371,
+      "timeline_start_frame": 10273,
+      "motion": "affine"
+    },
+    {
+      "id": "S28",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261120-zizhucan/image/final/S28.png",
+      "duration_s": 15.75,
+      "frames": 945,
+      "span_s": 15.733333333333333,
+      "start_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "end_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.14,
+          0.14,
+          0.72,
+          0.72
+        ]
+      ],
+      "delivery_frames": 378,
+      "timeline_start_frame": 10644,
+      "motion": "static"
+    },
+    {
+      "id": "S29",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261120-zizhucan/image/final/S29.png",
+      "duration_s": 15.75,
+      "frames": 945,
+      "span_s": 15.733333333333333,
+      "start_view": [
+        0.044,
+        0.044,
+        0.912,
+        0.912
+      ],
+      "end_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.14,
+          0.14,
+          0.72,
+          0.72
+        ]
+      ],
+      "delivery_frames": 378,
+      "timeline_start_frame": 11022,
+      "motion": "affine"
+    },
+    {
+      "id": "S30",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261120-zizhucan/image/final/S30.png",
+      "duration_s": 18.25,
+      "frames": 1095,
+      "span_s": 18.233333333333334,
+      "start_view": [
+        0.02,
+        0.05,
+        0.9,
+        0.9
+      ],
+      "end_view": [
+        0.08,
+        0.05,
+        0.9,
+        0.9
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.14,
+          0.14,
+          0.72,
+          0.72
+        ]
+      ],
+      "delivery_frames": 438,
+      "timeline_start_frame": 11400,
+      "motion": "affine"
+    },
+    {
+      "id": "S31",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261120-zizhucan/image/final/S31.png",
+      "duration_s": 18.25,
+      "frames": 1095,
+      "span_s": 18.233333333333334,
+      "start_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "end_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.14,
+          0.14,
+          0.72,
+          0.72
+        ]
+      ],
+      "delivery_frames": 438,
+      "timeline_start_frame": 11838,
+      "motion": "static"
+    },
+    {
+      "id": "S32",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261120-zizhucan/image/final/S32.png",
+      "duration_s": 16.3,
+      "frames": 978,
+      "span_s": 16.283333333333335,
+      "start_view": [
+        0.044,
+        0.044,
+        0.912,
+        0.912
+      ],
+      "end_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.14,
+          0.14,
+          0.72,
+          0.72
+        ]
+      ],
+      "delivery_frames": 391,
+      "timeline_start_frame": 12276,
+      "motion": "affine"
+    },
+    {
+      "id": "S33",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261120-zizhucan/image/final/S33.png",
+      "duration_s": 15.716666666666667,
+      "frames": 943,
+      "span_s": 15.7,
+      "start_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "end_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.14,
+          0.14,
+          0.72,
+          0.72
+        ]
+      ],
+      "delivery_frames": 377,
+      "timeline_start_frame": 12667,
+      "motion": "static"
+    },
+    {
+      "id": "S34",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261120-zizhucan/image/final/S34.png",
+      "duration_s": 16.583333333333332,
+      "frames": 995,
+      "span_s": 16.566666666666666,
+      "start_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "end_view": [
+        0.044,
+        0.044,
+        0.912,
+        0.912
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.14,
+          0.14,
+          0.72,
+          0.72
+        ]
+      ],
+      "delivery_frames": 398,
+      "timeline_start_frame": 13044,
+      "motion": "affine"
+    },
+    {
+      "id": "S35",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261120-zizhucan/image/final/S35.png",
+      "duration_s": 14.333333333333334,
+      "frames": 860,
+      "span_s": 14.316666666666666,
+      "start_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "end_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.14,
+          0.14,
+          0.72,
+          0.72
+        ]
+      ],
+      "delivery_frames": 344,
+      "timeline_start_frame": 13442,
+      "motion": "static"
+    },
+    {
+      "id": "S36",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261120-zizhucan/image/final/S36.png",
+      "duration_s": 16.583333333333332,
+      "frames": 995,
+      "span_s": 16.566666666666666,
+      "start_view": [
+        0.02,
+        0.05,
+        0.9,
+        0.9
+      ],
+      "end_view": [
+        0.08,
+        0.05,
+        0.9,
+        0.9
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.14,
+          0.14,
+          0.72,
+          0.72
+        ]
+      ],
+      "delivery_frames": 398,
+      "timeline_start_frame": 13786,
+      "motion": "affine"
+    },
+    {
+      "id": "S37",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261120-zizhucan/image/final/S37.png",
+      "duration_s": 15.75,
+      "frames": 945,
+      "span_s": 15.733333333333333,
+      "start_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "end_view": [
+        0.044,
+        0.044,
+        0.912,
+        0.912
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.14,
+          0.14,
+          0.72,
+          0.72
+        ]
+      ],
+      "delivery_frames": 378,
+      "timeline_start_frame": 14184,
+      "motion": "affine"
+    },
+    {
+      "id": "S38",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261120-zizhucan/image/final/S38.png",
+      "duration_s": 16.25,
+      "frames": 975,
+      "span_s": 16.233333333333334,
+      "start_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "end_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.14,
+          0.14,
+          0.72,
+          0.72
+        ]
+      ],
+      "delivery_frames": 390,
+      "timeline_start_frame": 14562,
+      "motion": "static"
+    },
+    {
+      "id": "S39",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261120-zizhucan/image/final/S39.png",
+      "duration_s": 17.966666666666665,
+      "frames": 1078,
+      "span_s": 17.95,
+      "start_view": [
+        0.02,
+        0.05,
+        0.9,
+        0.9
+      ],
+      "end_view": [
+        0.08,
+        0.05,
+        0.9,
+        0.9
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.14,
+          0.14,
+          0.72,
+          0.72
+        ]
+      ],
+      "delivery_frames": 431,
+      "timeline_start_frame": 14952,
+      "motion": "affine"
+    },
+    {
+      "id": "S40",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261120-zizhucan/image/final/S40.png",
+      "duration_s": 19.05,
+      "frames": 1143,
+      "span_s": 19.033333333333335,
+      "start_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "end_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.14,
+          0.14,
+          0.72,
+          0.72
+        ]
+      ],
+      "delivery_frames": 457,
+      "timeline_start_frame": 15383,
+      "motion": "static"
+    },
+    {
+      "id": "S41",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261120-zizhucan/image/final/S41.png",
+      "duration_s": 18.75,
+      "frames": 1125,
+      "span_s": 18.733333333333334,
+      "start_view": [
+        0.044,
+        0.044,
+        0.912,
+        0.912
+      ],
+      "end_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.14,
+          0.14,
+          0.72,
+          0.72
+        ]
+      ],
+      "delivery_frames": 450,
+      "timeline_start_frame": 15840,
+      "motion": "affine"
+    },
+    {
+      "id": "S42",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261120-zizhucan/image/final/S42.png",
+      "duration_s": 16.0,
+      "frames": 960,
+      "span_s": 15.983333333333333,
+      "start_view": [
+        0.02,
+        0.05,
+        0.9,
+        0.9
+      ],
+      "end_view": [
+        0.08,
+        0.05,
+        0.9,
+        0.9
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.14,
+          0.14,
+          0.72,
+          0.72
+        ]
+      ],
+      "delivery_frames": 384,
+      "timeline_start_frame": 16290,
+      "motion": "affine"
+    },
+    {
+      "id": "S43",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261120-zizhucan/image/final/S43.png",
+      "duration_s": 17.666666666666668,
+      "frames": 1060,
+      "span_s": 17.65,
+      "start_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "end_view": [
+        0.044,
+        0.044,
+        0.912,
+        0.912
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.14,
+          0.14,
+          0.72,
+          0.72
+        ]
+      ],
+      "delivery_frames": 424,
+      "timeline_start_frame": 16674,
+      "motion": "affine"
+    },
+    {
+      "id": "S44",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261120-zizhucan/image/final/S44.png",
+      "duration_s": 13.75,
+      "frames": 825,
+      "span_s": 13.733333333333333,
+      "start_view": [
+        0.044,
+        0.044,
+        0.912,
+        0.912
+      ],
+      "end_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.14,
+          0.14,
+          0.72,
+          0.72
+        ]
+      ],
+      "delivery_frames": 330,
+      "timeline_start_frame": 17098,
+      "motion": "affine"
+    }
+  ]
+}

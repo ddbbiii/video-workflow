@@ -31,7 +31,7 @@
 
 ## 3 成品与归档
 
-- 成品：每集 `video/final/<线路>_<中文剧名>_正文_vN.mp4` + `video/srt/` 同基名 `.srt`。
+- 成品：每集 `video/final/` 下同基名的正文 MP4 + SRT。
 - `shared/delivery/finals/` 已废止；其中的旧文件不再维护，属于历史成品。
 - 历史规则与工具归档在仓库旁：`../video-archive/20261114-body-only/`。
 

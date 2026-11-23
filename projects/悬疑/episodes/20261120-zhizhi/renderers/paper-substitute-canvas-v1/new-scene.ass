@@ -1,0 +1,13 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Main,STHeiti Medium,42,&H00FFFFFF,&H00FFFFFF,&H00101010,&HAA000000,1,0,1,5,1,2,80,80,70,134
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:04.00,Main,,0,0,0,,二叔把四十五厘米高的纸替放在床脚
+Dialogue: 0,0:04:00.00,0:08:00.00,Main,,0,0,0,,他说，纸替能替八字轻的人挡一劫
+Dialogue: 0,0:08:00.00,0:12:00.00,Main,,0,0,0,,我闭上眼，再睁眼时，它已经站到床边
+Dialogue: 0,0:12:00.00,0:16:00.00,Main,,0,0,0,,它的墨眼，流出了水

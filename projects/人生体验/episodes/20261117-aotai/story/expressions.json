@@ -1,0 +1,13 @@
+{
+  "episode": "人生体验《鳌太线凌晨进山》",
+  "note": "观察者猫头人表情只承载旁观叙述，不映射真实队员情绪；本集统一使用中性表情。",
+  "shots": {
+    "S05": {"expression": "neutral", "reference": "assets/人生体验/characters/catman-20261113/character-reference/expressions/neutral.png"},
+    "S09": {"expression": "neutral", "reference": "assets/人生体验/characters/catman-20261113/character-reference/expressions/neutral.png"},
+    "S14": {"expression": "neutral", "reference": "assets/人生体验/characters/catman-20261113/character-reference/expressions/neutral.png"},
+    "S22": {"expression": "neutral", "reference": "assets/人生体验/characters/catman-20261113/character-reference/expressions/neutral.png"},
+    "S35": {"expression": "neutral", "reference": "assets/人生体验/characters/catman-20261113/character-reference/expressions/neutral.png"},
+    "S47": {"expression": "neutral", "reference": "assets/人生体验/characters/catman-20261113/character-reference/expressions/neutral.png"},
+    "S53": {"expression": "neutral", "reference": "assets/人生体验/characters/catman-20261113/character-reference/expressions/neutral.png"}
+  }
+}

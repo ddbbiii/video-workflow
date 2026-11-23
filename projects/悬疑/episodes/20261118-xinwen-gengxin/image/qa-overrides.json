@@ -1,9 +1,0 @@
-{
-  "S02A": {
-    "approved_at": "2026-11-18 14:05:07 Asia/Shanghai",
-    "basis": "User's same-run instruction: \"没什么问题，直接开始跑，直到出成成品视频吧\"; Codex visually inspected the returned candidate.",
-    "decision": "Keep this candidate after visual inspection; exact 2048x1152, delivery_lap_var 68.5, all other image gates pass. Native lap_var 58.7 is 1.3 below the 60 threshold. The second request returned HTTP 424 image_route_not_created with no image.",
-    "failed_gate": ["lap_var 58.7 < 60"],
-    "sha256": "6bdc026e6ca0c7039ff7a683b6119dc3647ce1d70d9c17dc531ffcce7b5f1aa5"
-  }
-}

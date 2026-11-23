@@ -1,0 +1,29 @@
+{
+  "name": "01-room-wide",
+  "prompt": "Two-layer hand-drawn 2D illustration, 16:9. Clean flat fills describe the rendering technique, not pristine\nphysical condition. Apply the specified story-driven wear, stains and damage using restrained hard-edged shapes;\npreserve identity and the established style. Characters and props use flat fills, at most two or three\nhard-edged tones per object, one consistent dark grey-blue outline weight; no gradients, airbrush, soft shading,\npaper texture or film grain on characters or props. The environment is a carefully painted background and may use\nrestrained gradients, ambient occlusion, material texture, depth and motivated lighting appropriate to the scene. Show a visible\nlight source, its falloff, contact shadows and cast shadows. Keep character shadows hard-edged. Use the episode's\npalette and light plan; do not impose a global colour grade. Avoid empty wall plus person, featureless flat\nbackgrounds, and frames made of only two large colour fields. Keep the location and viewing direction readable.\nNo text, letters, numbers, subtitles, watermark, logo, UI, comic symbols or sound-effect marks.\n\nWide establishing view, camera outside the open doorway, eye height, 24mm. Left foreground dark doorframe, middle ground towering irregular mountains of hundreds of crumpled takeaway bags and used food tubs, right rear half-buried sagging blue-grey sofa and iron bed, far wall a visible daylight window. A tiny Chinese rental apartment severely neglected for months, once housed more than ten cats; all cats have already been removed. Trash piles 0.6 to 1.2 meters high bury the sofa seat and almost all the floor. Distinct dirty white meal containers with greasy lids, crushed clear drink cups with dark liquid and mold, leaking translucent delivery bags, cat food tins, flattened damp cardboard. There is a small compressed sleeping hollow on the otherwise buried bed. Multiple overflowing litter trays with recognizable brown cat feces spill into exposed floor patches, broad urine stains at wall bases, tangled mats of cat hair. Peeling plaster corner, folding table buried under takeaway containers. Make this genuinely shocking domestic squalor, overwhelmingly dense but objects remain legible, not decorative clutter or neatly stacked boxes. No clear walking aisle. Daylight reveals everything.\n\nColors and lighting: Overcast morning, visible window at rear right, 6000K cool-neutral daylight, readable midtones; dirt is local, no overall brown or green filter. Palette: #E1E4DE, #99AAA7, #655B50, #7D929C, #292D2E. Accent: one muted brick-red takeaway bag, no other saturated patches. Allow a secondary environmental hue; keep subtle neutral, blue-grey and sea-green differences. No people, human body parts, anthropomorphic characters, living cats, dead animals, text, logos, borders, split panels, photographic rendering, 3D rendering, paper grain or cinematic darkness. Keep key evidence above bottom fifth; bottom fifth may contain nonessential continuing clutter.",
+  "prompt_sha256": "192cb3aea6de8e5b6b48d286c4a5688dd9b7411453275ee8efedd4445c1bc13c",
+  "shot_type": "E",
+  "scene_id": "living",
+  "has_character": false,
+  "cast": "none",
+  "closeup_part": "none",
+  "view_angle": "N/A",
+  "fact": "全屋外卖垃圾淹没家具，几乎没有落脚处",
+  "cue": "",
+  "visual": "Wide establishing view, camera outside the open doorway, eye height, 24mm. Left foreground dark doorframe, middle ground towering irregular mountains of hundreds of crumpled takeaway bags and used food tubs, right rear half-buried sagging blue-grey sofa and iron bed, far wall a visible daylight window. A tiny Chinese rental apartment severely neglected for months, once housed more than ten cats; all cats have already been removed. Trash piles 0.6 to 1.2 meters high bury the sofa seat and almost all the floor. Distinct dirty white meal containers with greasy lids, crushed clear drink cups with dark liquid and mold, leaking translucent delivery bags, cat food tins, flattened damp cardboard. There is a small compressed sleeping hollow on the otherwise buried bed. Multiple overflowing litter trays with recognizable brown cat feces spill into exposed floor patches, broad urine stains at wall bases, tangled mats of cat hair. Peeling plaster corner, folding table buried under takeaway containers. Make this genuinely shocking domestic squalor, overwhelmingly dense but objects remain legible, not decorative clutter or neatly stacked boxes. No clear walking aisle. Daylight reveals everything.",
+  "references": [],
+  "stage": "environment-only concept",
+  "channel": "new2",
+  "model": "AZ-gpt-image-2.5-sunburst",
+  "endpoint": "https://xxcapi.com/v1/images/generations",
+  "policy": "v8-new2-dklb-parallel",
+  "queue": "new2",
+  "qa": "图片完整解码通过；已目检，无人环境、垃圾与猫排泄物可辨认；仅概念小样，不代表用户验收。",
+  "request_id": null,
+  "status": "completed",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "elapsed_s": 73.4
+}

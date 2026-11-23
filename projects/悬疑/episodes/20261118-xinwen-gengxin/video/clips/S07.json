@@ -1,22 +1,19 @@
 {
-  "backend": "affine-static",
-  "render_fps": 24,
-  "matrix": [
-    [
-      1.0,
-      0.0,
-      0.0
-    ],
-    [
-      0.0,
-      1.0,
-      0.0
-    ]
-  ],
-  "id": "S07",
-  "frames": 392,
-  "duration_s": 16.333333333333332,
-  "source_sha256": "dd90cc950e94e196cc440c8e64ba29c6f3ba97422eb54d654898940124d8ec72",
-  "video_sha256": "78e9f6abf5f7bd7aa2e2b57abb1977d2b013840bd4582ae089246c6ef203576d",
-  "elapsed_s": 3.3
+  "shot": "S07",
+  "fingerprint": "16e5ccc81c1fc92010ba002f8c47418fde3333ea177cc48dfecb93e88a6dd3a6",
+  "video_sha256": "43df71442d2631aadc33cb53cfa946a8a2853a52c55854fb4c11016f102198e8",
+  "render_fps": 60,
+  "delivery_fps": 24,
+  "source_frames": 501,
+  "delivery_frames": 200,
+  "engine_sha256": "4be53358cef60e9890b96c434ce555429ed80a386f11f8e8423f1311cf7ae99f",
+  "trajectory_qa": {
+    "source_bounds_checked": true,
+    "required_regions_checked": true,
+    "max_center_step_output_px": 0.0,
+    "max_scale_step": 0.0,
+    "scope": "Planned trajectory only; encoded motion and visual texture require separate QA"
+  },
+  "kind": "static",
+  "source_sha256": "9e216bafb918908f0257f9e1e57bde124ba0ed8c3080dfd25616bebdeb9a2b63"
 }

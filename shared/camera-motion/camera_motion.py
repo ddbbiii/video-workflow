@@ -12,7 +12,7 @@ import cv2
 import numpy as np
 from PIL import Image, ImageOps
 
-ENGINE_VERSION = '1.1'
+ENGINE_VERSION = '1.2'
 SUPPORTED_BACKENDS = ('affine', 'blender')
 
 
@@ -195,9 +195,10 @@ def trajectory_qa(shot, settings):
 
 def make_overview(entries, plan, dest):
     inputs, filters = [], []
+    fps = plan['output']['fps']
     for i, entry in enumerate(entries):
         inputs += ['-i', entry['video']]
-        filters.append(f'[{i}:v]settb=AVTB,setpts=PTS-STARTPTS[v{i}]')
+        filters.append(f'[{i}:v]settb=AVTB,setpts=PTS-STARTPTS,fps={fps}[v{i}]')
     transition = plan.get('transition_s', 0)
     prior = 'v0'
     elapsed = entries[0]['duration_s']

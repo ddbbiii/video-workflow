@@ -15,7 +15,7 @@
 
 ## 交付
 
-每集只交 `video/final/助眠_<中文剧名>_正文_vN.mp4` ＋ `video/srt/` 同基名 `.srt`。
+每集只交 `video/final/` 下同基名的 MP4 正文视频与 SRT。
 不产片头、配音、混音、BGM、字幕烧录、封面、成品库。
 
 目录布局见 `../../indexes/DIRECTORY_STRUCTURE.md`；资产验收以项目状态和 manifest 为准。
