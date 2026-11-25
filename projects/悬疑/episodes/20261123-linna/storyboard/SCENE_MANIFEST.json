@@ -1,0 +1,170 @@
+[
+  {
+    "id": "village",
+    "file": "image/plates/village.png",
+    "sha256": "db63004cbd38318f98f4cd8d891e7d354012085fbe3efdd75b56174a20e453d0",
+    "definition": "A narrow present-day Chinese mountain village lane in summer. Grey courtyard wall, faded green metal doors, hanging cotton laundry, yellow plastic stool, two enamel basins, cultivated hills beyond. Chipped wall corner and damp stain below window.",
+    "status": "reviewed_pass"
+  },
+  {
+    "id": "street",
+    "file": "image/plates/street.png",
+    "sha256": "0c0fcfd29c3a5a4f19937a5630c37de4e20b453640e0847026c43d2d7e39e566",
+    "definition": "Ordinary small Chinese town shopping street in summer, closed unmarked shop shutters, a plain parked emergency van without markings in far distance, scratched bicycle rack, chipped paving and plastic stool at doorstep.",
+    "status": "reviewed_pass"
+  },
+  {
+    "id": "office",
+    "file": "image/plates/office.png",
+    "sha256": "c5dbe3aa386af6e2d178ddc6f7ad75ce6aa70f21280efca697c219ab452e1590",
+    "definition": "Modest Chinese county police office, scratched wooden working desk on right, one warm desk lamp, plain case folders and dark-screen phone, enamel mug, steel cabinet behind, cool barred window on left, peeling pale wall paint and scuffed skirting.",
+    "status": "reviewed_pass"
+  },
+  {
+    "id": "home",
+    "file": "image/plates/home.png",
+    "sha256": "d9d27469bd53a261f85cce3f40d8ee3bc4e3d44ba9516c5e612f48e8f92fa720",
+    "definition": "Lived-in Chinese village home in summer, small wooden table, two rice bowls, two mismatched chairs, schoolbag by window, slippers at threshold, chipped enamel cup and patched table edge, no memorial.",
+    "status": "reviewed_pass"
+  },
+  {
+    "id": "station",
+    "file": "image/plates/station.png",
+    "sha256": "724d49d0083278a4d3c1e0b488b96ac8a3e98af04c1b203a1dd82f9060b7f34e",
+    "definition": "Chinese county police station corridor, pale blue lower walls, closed plain wooden office doors, worn metal waiting bench, thermos on small table, chipped threshold and scuffed skirting. No emblems, numbers or signs.",
+    "status": "reviewed_pass"
+  },
+  {
+    "id": "meeting",
+    "file": "image/plates/meeting.png",
+    "sha256": "29022e3a79fe5eeccd9c42c8b4390ffc9537f5999dd788c3f69ec6580d49feb0",
+    "definition": "Chinese county police meeting room with long rectangular scratched wood table, six plain chairs, plain closed folders and enamel cups, cool window left and one restrained warm desk lamp, peeling paint and scuffed floor.",
+    "status": "reviewed_pass"
+  },
+  {
+    "id": "lab",
+    "file": "image/plates/lab.png",
+    "sha256": "3871569677d9c9d01bdcbf56ab9d1a7cb2665b18fdda26904a73c1fc886c9020",
+    "definition": "Modest forensic laboratory workbench, capped opaque sample tubes in rack, sealed paper envelopes, closed plain report folders, enamel cup on distant side desk, chipped painted stool and scratched bench rim. No exposed specimens or biological material, no anatomy.",
+    "status": "reviewed_pass"
+  },
+  {
+    "id": "interview",
+    "file": "image/plates/interview.png",
+    "sha256": "66d4ddb2c93892d4ffbe936ea22efe702739d2b05d9837390662b7ecc36de501",
+    "definition": "Chinese police interview room, a rectangular scratched wooden desk separating interviewee chair on right from two investigator chairs on left, barred window on back wall, plain closed folders and water cups, chipped blue lower wall and taped chair repair. No restraints or interrogation devices.",
+    "status": "reviewed_pass"
+  },
+  {
+    "id": "zhanghome",
+    "file": "image/plates/zhanghome.png",
+    "sha256": "29128f8ba08a1b5dd41eab1b00c311bb867216c90a24da6d6c1585bc8a8082f0",
+    "definition": "Lived-in village home with low wooden table, worn sofa, muted floral curtain, schoolbag and small travel bag beside doorway, thermos and two plain cups, chipped floor tile and scratched table edge.",
+    "status": "reviewed_pass"
+  },
+  {
+    "id": "school",
+    "file": "image/plates/school.png",
+    "sha256": "e59be90be89664d9516040c24467a7c34e495f892e494fdca9e6f00b271282a0",
+    "definition": "Modest Chinese town middle school courtyard, two-storey classroom building, open walkway, old painted steel railings, a bicycle stand and worn bench, chipped stair edges and patched wall paint. No school name, signs, flags or symbols.",
+    "status": "reviewed_pass"
+  },
+  {
+    "id": "schooloffice",
+    "file": "image/plates/schooloffice.png",
+    "sha256": "7270d24fd0c10c50b543cb473da1dd7f132923e0181e9e4e9dbec598b8179c6b",
+    "definition": "Modest middle-school teachers office, scratched desk with plain exercise books and a pencil cup, two chairs, book cabinet, cool window and small warm lamp, chipped enamel mug and worn floor. No writing or posters.",
+    "status": "reviewed_pass"
+  },
+  {
+    "id": "classroom",
+    "file": "image/plates/classroom.png",
+    "sha256": "e5b51066591b3fe90b9e65665399f9612a39646382f80811346b257e3146159b",
+    "definition": "Ordinary empty Chinese middle-school classroom, rows of worn wooden desks and chairs, plain dark board without writing, cool window to left, closed exercise book and pencil case on a desk, chipped desk edges and rubbed floor.",
+    "status": "reviewed_pass"
+  },
+  {
+    "id": "restaurant",
+    "file": "image/plates/restaurant.png",
+    "sha256": "76c058f3cfe14b5c255f651261b46f919593d413a18cef09c105df693e187235",
+    "definition": "Modest Chinese town noodle shop, scratched square tables, stacked bowls, plain chopsticks and enamel thermos, service counter at rear right, chipped floor tiles and faded wall paint, no menus or lettering.",
+    "status": "reviewed_pass"
+  },
+  {
+    "id": "hospital",
+    "file": "image/plates/hospital.png",
+    "sha256": "7f916fe059cf1dbcf22f99aab6bbab05da94dfdc31d2ab0b06d01981e27fce8c",
+    "definition": "Ordinary county hospital waiting corridor, closed examination-room door, plain metal linked chairs, small closed report folder and schoolbag on chair, chipped skirting and scuffed doorframe, no medical procedure, anatomy, signs or writing.",
+    "status": "reviewed_pass"
+  },
+  {
+    "id": "stationlobby",
+    "file": "image/plates/stationlobby.png",
+    "sha256": "c3d1ce011cafe3e51c94775a777e85a09b0fba9d1ea96808ad6a22f50fcf7919",
+    "definition": "Chinese county police station waiting lobby with plain reception desk, old metal bench, pale blue lower walls and outer glass entrance, scratched desk rim and taped chair repair, enamel thermos behind reception. No signs, lettering or emblems.",
+    "status": "reviewed_pass"
+  },
+  {
+    "id": "liuhome",
+    "file": "image/plates/liuhome.png",
+    "sha256": "1327ea0748afabaa8634e9afdd3d4ed96a0eeb9842c0901a6495ef454d457db8",
+    "definition": "Retired teachers modest apartment, plain brown wooden entrance door, cloth grocery bag by threshold, shelf of unmarked books, small study desk with exercise book and folded reading glasses, two tea cups and slippers, scuffed wooden chair and patched table corner.",
+    "status": "reviewed_pass"
+  },
+  {
+    "id": "shop",
+    "file": "image/plates/shop.png",
+    "sha256": "eb634775c069c8cb3c63abb37ebd8eac3b33dd460c73865104f787a14b1852aa",
+    "definition": "Small Chinese town general-goods shop, low service counter, shelves of plain ceramic trinkets and stationery, two small broken ceramic fragments on counter corner, scratched laminate and chipped tile, plastic stool, no brand or writing.",
+    "status": "reviewed_pass"
+  },
+  {
+    "id": "casino",
+    "file": "image/plates/casino.png",
+    "sha256": "2cacd905830f9a56a2faa9cf21043de1b1b9e68033945847e1916721875a9a27",
+    "definition": "Worn backroom of a small Chinese city gaming venue, square green-topped table and ordinary chairs, plain unmarked face-down card backs, closed ledger, thermos and plastic stool, faded wall paint and chipped table corner. No betting instructions or visible numbers.",
+    "status": "reviewed_pass"
+  },
+  {
+    "id": "stationplatform",
+    "file": "image/plates/stationplatform.png",
+    "sha256": "e8275c629edbc9887e5a1f237fa2425a37cf3413e56e8c869a58be5beb33d610",
+    "definition": "Ordinary Chinese intercity railway platform, distant passenger train, two worn metal benches, plain wheelie suitcase near bench, chipped platform tile and scuffed bench legs. No signs, destination names or lettering.",
+    "status": "reviewed_pass"
+  },
+  {
+    "id": "factory",
+    "file": "image/plates/factory.png",
+    "sha256": "efc8e5ff4d2ec622becd92acdb5fd79e4b99cd26093f269acbb25e88c97c3b70",
+    "definition": "Small Chinese light-industry factory workshop entrance, idle sewing tables beyond, worn navy work gloves on scratched lunch table, two enamel lunch tins and plain visitor ledger, chipped paint on doorframe and scuffed concrete floor.",
+    "status": "reviewed_pass"
+  },
+  {
+    "id": "winterhome",
+    "file": "image/plates/winterhome.png",
+    "sha256": "56620f26d0086efef43ef3cda698239ac32e65c6882f7be8f4ab6f93e979476f",
+    "definition": "Modest Chinese winter living room on lunar new-year eve, worn grey sofa with sunken cushion near dark old television, low wood dining table with simple dishes and two sets of bowls, adult slippers, patched sofa seam and scratched floor, dark cold window. No festive writing, person or body.",
+    "status": "reviewed_pass"
+  },
+  {
+    "id": "hotel",
+    "file": "image/plates/hotel.png",
+    "sha256": "c11c423af6c9fdd9cea54ac3c2d7b431019b32774f7777e5277382c2f723acf3",
+    "definition": "Empty ordinary small-city hotel corridor, plain closed brown room doors, worn blue carpet and scratched skirting, small plain wheeled suitcase beside wall. Cool ceiling light with one weak warm wall lamp, no room number or signs.",
+    "status": "reviewed_pass"
+  },
+  {
+    "id": "snowstreet",
+    "file": "image/plates/snowstreet.png",
+    "sha256": "01904266b498822d280b1a522702c98560e4034870c46dc45a5f170c74faf502",
+    "definition": "Chinese county-town lane on a snowy winter night, closed shop doors and distant plain police-station entrance light, slush along kerb, scuffed concrete wall and a parked bicycle under eave. No signs or writing.",
+    "status": "reviewed_pass"
+  },
+  {
+    "id": "court",
+    "file": "image/plates/court.png",
+    "sha256": "b0f20bc45cc50b520a20cbf2c16d16f4c1fc564c9e4602985b6a93dde3cd6c75",
+    "definition": "Empty modest Chinese courtroom viewed from back row, dark wooden benches and raised plain judicial desk, window daylight, worn chair edges, scratched wood and plain water cup. No emblem, seals, flags, symbols or any lettering.",
+    "status": "reviewed_pass"
+  }
+]

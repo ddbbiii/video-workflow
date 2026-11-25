@@ -1,0 +1,28 @@
+{
+  "episode": {
+    "slug": "YYYYMMDD-short-name",
+    "target_level": null
+  },
+  "video": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "simulation": {
+    "drop_interval_seconds": 0.3,
+    "base_diameter_px": 82,
+    "diameter_growth_per_level": 1.2,
+    "stop_after_target_level": true
+  },
+  "audio": {
+    "stop_other_sounds_when_target_level_plays": true,
+    "suppress_lower_level_sounds_after_target": true
+  },
+  "levels": [
+    {
+      "level": 1,
+      "image": "assets/levels/Level-01.png",
+      "sound": null
+    }
+  ]
+}

@@ -1,4 +1,0 @@
-$env:PYTORCH_CUDA_ALLOC_CONF = 'expandable_segments:True'
-$env:HF_ENDPOINT = 'https://hf-mirror.com'
-$env:PYTHONIOENCODING = 'utf-8'
-& powershell -NoProfile -ExecutionPolicy Bypass -File 'E:\program\1project\video\shared\runtime\engines\tts\voxcpm\run_shots.ps1' -Jobs 'E:\program\1project\video\shared\workflows\助眠解说\b-geomagnetic-reversal\tts\ch2-6_A_v4\jobs\jobs_rewrite3_seed23_c07.json' -Log 'E:\program\1project\video\shared\runtime\engines\tts\logs\vo-rewrite3-seed23-c07.log'

@@ -1,7 +1,7 @@
-# 当前工作流总览
+# 工作流总览（历史快照）
 
-> 建立：2026-11-06　用途：拆解到 Mac 前的现状基线
-> 真源：`rules/shared/video-workflow.md`（固定顺序与门禁）、`rules/助眠解说/*`（线路细则）、`shared/workflows/`（可复用执行件）
+> 建立：2026-11-06　用途：拆解到 Mac 前的现状基线；仅供历史参考，不作当前执行入口。
+> 助眠解说线已于 2026-11-25 废除，资料冻结于 `shared/archive/retired-lines-20261125/助眠解说/`。当前规则真源见 `rules/shared/README.md` 与 `indexes/ACTIVE_LINES.md`。
 
 ## 1. 线路现状：五条线，一条主力在产
 

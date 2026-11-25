@@ -1,13 +1,20 @@
 # 小球线路状态
 
+- 当前候选：`episodes/20261124-rings-300-gravity480/`，重力 240→480，其余有效参数不变；300 层、243.95 秒，最长等待约 32.44 秒，待用户比较。已认可基线仍为 240，现行规则已持久化到 `rules/小球/`。
+
+- 当前重力试验：`episodes/20261124-rings-300-gravity/`，向下 240 场景单位/秒²，300 层、162.6 秒；保留原调速和镜头算法，碰撞/穿环音效重新对齐，编码与完整解码检查通过，用户已认可并授权持久化；480 翻倍候选已生成，尚未改为默认。
+
+- 当前待审完整试听：`episodes/20261124-rings-300-sfx/`，300 层、160 秒、1080×1920/60 fps；穿环与碰撞使用两种短音效，完整解码与事件对齐检查通过，无配乐或旁白。沿已认可 C 版方向调整长轨迹稳定与平滑缩放，待用户判断完整节奏。
+
 - 状态：`debugging`（调试中，2026-11-10 建线）
 - 定位：小球／物件滚落、连锁、物理巧合类竖版短视频；一遍看完、撞击节奏、无旁白或极少旁白。
-- 当前工程：`episodes/20261122-escape-rings/`（十重圆环首次接触即破横向测试）；Matter.js 共享轨迹通过 10/10 同事件帧反向 QA。技术路线暂定 Motion Canvas 第一、p5.js 第二、PixiJS 第三。Motion Studio 独立维护于 `../motion-studio/`，GitHub 私有仓库 `ddbbiii/motion-studio`；小球线仅保留入口索引与 `VIDEO_OUTPUT_SPEC.md`，单集通过 `studio/episode.json` 连接适配器并保存项目数据。Pillow 暂停迭代。
+- 历史引擎对照：`episodes/20261122-escape-rings/`（十重圆环首次接触即破横向测试）；Matter.js 共享轨迹通过 10/10 同事件帧反向 QA。当时对照顺序为 Motion Canvas、p5.js、PixiJS；现行圆环试听采用预生成轨迹与 Canvas 2D，不继承该历史排序。Motion Studio 独立维护于 `../motion-studio/`，GitHub 私有仓库 `ddbbiii/motion-studio`；小球线仅保留入口索引与 `VIDEO_OUTPUT_SPEC.md`，单集通过 `studio/episode.json` 连接适配器并保存项目数据。Pillow 暂停迭代。
+- 历史音乐对照：`episodes/20261123-sand-rings/`，1000 层完整音乐试听约 34.57 秒；连续底乐在最后 10% 与 3% 进度逐级增强，并在完成后淡出，1000 次穿层逐次触发老吴音效；待用户审看，详见单集 README。
 - 目标规格：1080×1920 竖版，抖音成品；单支时长与更新频率待首支成品后定。
-- 规则／资产：`rules/小球/`、`assets/小球/` 尚未建立；建立前沿用 `rules/shared/video-workflow.md` 两道门禁。
-- 交付：正文视频 + 同基名 SRT，一起留在单集 `video/final/`；不落成品库、不做片头/配音/字幕烧录（2026-11-14 全线路口径）。
+- 规则：`rules/小球/README.md` 与 `production.md` 已建立，为当前圆环玩法固定入口。
+- 圆环玩法交付：含碰撞/穿环音效的完整 MP4，无旁白、字幕、SRT；现行规则见 `../../rules/小球/production.md`。
 
 ## 已知限制
 
-- 当前 Motion Studio 只接受已打包的 `matter-ring-escape-v1` 适配器；单集 manifest 可校验接入，但未知模型需先开发并打包对应运行时。Windows 实机验证尚未完成。
-- 当前测试视频不是线路最终交付；线路常规静音视频与独立 SRT 交付规则不变。
+- Motion Studio 已接入 `matter-ring-escape-v1` 与 `gravity-rings-v1`；300 层重力基线单集已提供 studio/episode.json，可调非负重力倍数、重算实时轨迹、保存及生成视频。1×=240，层数保持300；Windows 实机验证尚未完成。
+- 现行圆环玩法为含事件音效的 MP4，无旁白、字幕或 SRT；详见小球线规则，不再沿用历史静音/SRT口径。

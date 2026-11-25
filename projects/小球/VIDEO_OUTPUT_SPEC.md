@@ -19,8 +19,9 @@
 - `schema_version`：正整数；当前只接受 `1`。
 - `episode_id`：稳定单集标识，须与轨迹及 Studio 当前支持的适配器一致。
 - `episode_name`：界面显示名称。
-- `model_id`：物理/渲染适配器标识；当前 Motion Studio 安装了 `matter-ring-escape-v1`。
+- `model_id`：物理/渲染适配器标识；当前 Motion Studio 支持 `matter-ring-escape-v1` 和 `gravity-rings-v1`（均为 adapter_version 1）。
 - `adapter_version`：正整数适配器版本；必须与 Studio 已安装运行时完全匹配。适配器由 Motion Studio 管理，不随单集复制。
+- `simulation.config`：`gravity-rings-v1` 使用的模拟配置相对路径；不得包含绝对路径或 `..`。倍数变化重算完整轨迹，层数保持配置的 `total`。
 - `simulation.trace`：相对单集目录的 JSON 轨迹路径；不得包含绝对路径或 `..`。
 - `simulation.seed`：生成该轨迹的确定性随机种子。预览和导出必须读取同一份预生成轨迹，不得各自重新抽样。
 - `simulation.fps`：轨迹采样帧率，正整数；与轨迹中的 `fps` 相等。
@@ -50,3 +51,24 @@
 导出前检查清单兼容性、轨迹帧率与结构、输出参数区间、引用素材存在性。导出后以实际文件探测结果核对编码、宽高、帧率、帧数、时长和完整解码；验收值来自本次项目输出设置，不得硬编码为 30 fps、360 帧或 12 秒。
 
 当前十重圆环清单示例：`episodes/20261122-escape-rings/studio/episode.json`。Motion Studio 独立项目及版本见线路入口 README 的软件索引记录。
+
+## 成片交付链接
+
+每次完成并验收成片后，交付信息必须附带可点击的 Motion Studio 工程链接，链接指向本集目录而不是 MP4：
+
+```text
+motionstudio://open?episode=<URL 编码后的单集绝对路径>
+```
+
+例如目录 `/Users/mac/Documents/video-workflow/projects/小球/episodes/20261124-rings-300-gravity` 应将完整路径按 URL 查询参数编码后放入 `episode`。在 Markdown 中将协议链接作为链接目标，点击后由已安装的 Motion Studio 打开该集；若应用未运行则启动应用。此链接绑定生成机器上的本地路径，不能作为跨电脑分享链接。每次交付同时列出单集目录，便于核对目标；尚未验收的候选视频不提供成片交付链接。
+
+## 重力圆环与 Motion Studio
+
+入口示例：`episodes/20261124-rings-300-gravity/studio/episode.json`。打开包含它的单集目录，在「场景设置 → 物理 → 向下重力倍数」调整。
+
+- `parameters.gravityMultiplier`：非负有限数，默认 1；`gravity = 240 × multiplier`，0 关闭重力。滑杆为快捷范围，数值输入不设固定倍数上限；数值溢出、求解无法完成时明确报错，不替换为旧轨迹。
+- 不改变单集层数。本期固定 300 层；默认仍为已认可的 1×，2× 是可调候选。
+- 调节后自动暂停播放并重算碰撞、穿环和相机轨迹；成功后回到开头。重算期间或失败后禁止用旧轨迹生成预览。项目保存和撤回/重做覆盖倍数。
+- 实时画面与视频生成共用 SVG 场景函数；导出读取本次轨迹快照。两类事件分别发声，共用事件时间；可单独替换碰撞素材，穿环保留明亮提示。
+- 倍数不设固定上限不等于成片长度无限。本期清单允许最多 216000 帧（60 fps 时一小时）；超出应明确报错，可调整回放速度或单集输出范围。不会静默截掉未完成的层。
+- 已验证 0×、1×、2×、2.1× 的完整 300 层、保存重载和一致事件；快速/原画生成链路均通过小尺寸集成样本及完整解码。Windows 实机尚未验证。

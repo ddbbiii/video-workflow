@@ -12,6 +12,10 @@
 - 外卖之谜：原 `projects/unassigned/` 下的未分配项目，冻结。
 - potato-grow-test：动画测试工程，不属于小球线现行工程，冻结。
 
+## 2026-11-25 退役
+
+- 助眠解说：线路废除，项目、规则、资产和专属工作流冻结于 `shared/archive/retired-lines-20261125/助眠解说/`；悬疑线复用的通用视觉技术规则保留于 `rules/shared/visual-production-tech-legacy.md`。
+
 ## 更早的退役
 
 - 原「创意」线路（太空猫）于 2026-11-09 退役删除；银渐层实拍原图迁入 `assets/萌宠/characters/silver-grumpy/`，动漫三视图不再保留。

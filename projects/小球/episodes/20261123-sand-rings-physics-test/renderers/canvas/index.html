@@ -1,0 +1,134 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>小球物理碰撞试片</title>
+<style>body{margin:0;background:#13151b;color:#ddd;font:14px system-ui;display:grid;place-items:center;min-height:100vh}main{display:grid;gap:10px;grid-template-columns:auto 260px;padding:16px}aside{grid-column:2;grid-row:1 / 3;align-self:start;background:#20242d;padding:18px;border-radius:10px;width:230px}label{display:grid;grid-template-columns:1fr 105px;gap:8px;align-items:center;margin:14px 0}aside input{width:95px;padding:5px;background:#13151b;color:#eee;border:1px solid #555;border-radius:4px}aside p{line-height:1.6;color:#aaa}nav{grid-column:1}@media(max-width:740px){main{grid-template-columns:1fr}aside{grid-column:1;grid-row:auto;width:auto}canvas{max-width:90vw;height:auto;max-height:80vh}}canvas{height:min(87vh,960px);width:auto;background:#000;border-radius:8px}nav{display:flex;gap:12px;align-items:center}button{background:#303541;border:0;color:white;padding:8px 14px;border-radius:5px}input{flex:1}</style>
+<main><canvas id="scene" width="1080" height="1920"></canvas><nav><button id="play">播放</button><button id="reset">重播</button><input id="seek" type="range" min="0" max="10" step="0.0166667" value="0"></nav><aside><h3>小球物理碰撞试片</h3><p>起点、发射方向和缺口朝向独立随机。同一个开局编号可以重复播放。</p>
+<label>开局编号<input id="seed" type="number" min="1" max="4294967295"></label>
+<label>圆环层数<input id="total" type="number" min="1" max="5000"></label>
+<label>弹射速度<input id="speed" type="number" min="100" max="1200"></label>
+<label>圆环补入速度<input id="feedSpeed" type="number" min="20" max="500"></label>
+<label>缺口宽度（度）<input id="gapWidth" type="number" min="30" max="160" step="any"></label>
+<label>旋转速度<input id="angularSpeed" type="number" min="-2" max="2" step="any"></label>
+<label>起点随机范围<input id="startRadius" type="number" min="0" max="180"></label>
+<button id="apply">应用设置</button> <button id="random">换个随机开局</button><p id="status"></p><p>每穿过一层播放一次老吴音效；碰壁播放独立弹击声。设置影响画面预览，已导出的视频保持不变。</p></aside></main>
+<script type="module">
+import {collisionCuesFor} from '../../audio/collision.mjs';
+import {buildCamera,cameraAt,cameraPositionAt} from "./camera.mjs";
+import {simulate,ringShape} from "../../simulation/model.mjs";
+let trace=await fetch('../../simulation/trace.json').then(r=>r.json());
+const cues=await fetch('../../audio/cues.json').then(r=>r.json());
+let c=trace.config,camera=buildCamera(trace);const canvas=document.querySelector('canvas'),output=canvas.getContext('2d');
+const scene=document.createElement('canvas');scene.width=c.width*2;scene.height=c.height*2;const ctx=scene.getContext('2d');
+output.imageSmoothingEnabled=true;output.imageSmoothingQuality='high';
+let passes=trace.events.filter(e=>e.type==='pass'),bounces=trace.events.filter(e=>e.type==='bounce');
+const collisionCues=()=>collisionCuesFor(trace);
+const audio=new Audio('../../audio/pass-sfx.wav');
+let currentDuration=cues.duration,changed=false,audioContext=null,audioBuffer=null,sources=[];
+function stopSound(){audio.pause();for(const s of sources){try{s.stop();}catch{}}sources=[];}
+async function startSound(t){
+ if(!changed){audio.currentTime=t;await audio.play();return;}
+ audioContext??=new AudioContext();await audioContext.resume();
+ audioBuffer??=await fetch('../../assets/audio/老吴_07.wav').then(r=>r.arrayBuffer()).then(b=>audioContext.decodeAudioData(b));
+ let maxOverlap=1;for(const e of passes)maxOverlap=Math.max(maxOverlap,passes.filter(p=>p.time<=e.time&&p.time+audioBuffer.duration>e.time).length);
+ const gain=audioContext.createGain();gain.gain.value=Math.min(cues.gain,0.82/maxOverlap);gain.connect(audioContext.destination);
+ for(const e of collisionCues()){if(e.time<t)continue;const startAt=audioContext.currentTime+e.time-t;const osc=audioContext.createOscillator(),amp=audioContext.createGain();osc.type='sine';osc.frequency.setValueAtTime(1100,startAt);osc.frequency.exponentialRampToValueAtTime(400,startAt+.065);amp.gain.setValueAtTime(e.level,startAt);amp.gain.exponentialRampToValueAtTime(.0001,startAt+.09);osc.connect(amp);amp.connect(audioContext.destination);osc.start(startAt);osc.stop(startAt+.1);sources.push(osc);}
+ for(const e of passes){if(e.time+audioBuffer.duration<=t)continue;const source=audioContext.createBufferSource();source.buffer=audioBuffer;source.connect(gain);source.start(audioContext.currentTime+Math.max(0,e.time-t),Math.max(0,t-e.time));sources.push(source);}
+}
+
+const TAU=Math.PI*2;
+const radius=(id,t)=>c.initialRadius+id*c.spacing-stateAt(t).offset;
+const gap=(id,t)=>{const shape=trace.shapes[id];return shape.phase+shape.speed*t;};
+const hue=(id)=>(190+id*1.65)%360;
+const color=(id,alpha=1)=>`hsla(${hue(id)},78%,60%,${alpha})`;
+const fract=x=>x-Math.floor(x);
+const rnd=(id,n)=>fract(Math.sin(id*127.1+n*311.7)*43758.5453);
+function stateAt(t){
+  const p=Math.min(trace.states.length-1,Math.max(0,t*c.fps)),i=Math.floor(p),a=trace.states[i],b=trace.states[Math.min(i+1,trace.states.length-1)],u=p-i;
+  const hit=bounces.find(e=>e.time>a.time&&e.time<=b.time);
+  let x=a.x+(b.x-a.x)*u,y=a.y+(b.y-a.y)*u;
+  if(hit){
+   // Interpolate on each side of the impact, avoiding a rounded corner across it.
+   if(t<=hit.time){const f=(t-a.time)/Math.max(1e-8,hit.time-a.time);x=a.x+(hit.x-a.x)*f;y=a.y+(hit.y-a.y)*f;}
+   else {const f=(t-hit.time)/Math.max(1e-8,b.time-hit.time);x=hit.x+(b.x-hit.x)*f;y=hit.y+(b.y-hit.y)*f;}
+  }
+  return {...a,x,y,offset:a.offset+(b.offset-a.offset)*u,angle:a.angle+(b.angle-a.angle)*u};
+}
+function draw(t){
+  const physicsTime=Math.min(t,(trace.states.length-1)/c.fps);
+  const state=stateAt(physicsTime),consumed=passes.filter(e=>e.time<=physicsTime).length;
+  ctx.setTransform(2,0,0,2,0,0);
+  const scale=cameraAt(camera,physicsTime,c.fps),cameraPos=cameraPositionAt(camera,physicsTime,c.fps);
+  ctx.fillStyle='#020204';ctx.fillRect(0,0,c.width,c.height);
+  ctx.save();ctx.translate(c.center.x,c.center.y);ctx.scale(scale,scale);ctx.translate(-cameraPos.x,-cameraPos.y);
+  // Only screen-visible logical layers are drawn; no fake layer counter.
+  for(let id=consumed;id<c.total;id++){
+    const r=radius(id,physicsTime);if(r>Math.hypot(cameraPos.x,cameraPos.y)+1250/scale)break;if(r<=0)continue;
+    const a=gap(id,physicsTime),h=trace.shapes[id].width/2;
+    ctx.beginPath();ctx.arc(0,0,r,a+h,a+TAU-h);ctx.strokeStyle=color(id);ctx.lineWidth=c.thickness;ctx.stroke();
+
+  }
+  // Each passed arc breaks into particles at its own event, preserving its silhouette.
+  for(const e of passes){
+    const age=t-e.time;if(age<0||age>1.8)continue;
+    const n=Math.max(200,Math.round(e.radius*1.1));
+    ctx.fillStyle=color(e.id,Math.pow(1-age/1.8,1.3)*0.8);
+    for(let j=0;j<n;j++){
+      const a=e.gap+e.gapWidth/2+(TAU-e.gapWidth)*(j+0.5)/n;
+      const random=rnd(e.id,j),sweep=age*(0.14+random*0.22);
+      const r=e.radius-age*(45+random*70);
+      const x=r*Math.cos(a+sweep)+(random-0.5)*age*65;
+      const y=r*Math.sin(a+sweep)+100*age*age;
+      const sz=1.5+random*1.6;ctx.fillRect(x,y,sz,sz);
+    }
+  }
+  for(const e of bounces){const age=t-e.time;if(age<0||age>.12)continue;
+    const strength=Math.min(1,e.normalImpulse/900),fade=1-age/.12;
+    const px=e.x-e.nx*c.ballRadius,py=e.y-e.ny*c.ballRadius;
+    ctx.fillStyle=`rgba(255,244,201,${fade*strength})`;
+    ctx.beginPath();ctx.arc(px,py,3+strength*5,0,TAU);ctx.fill();
+    ctx.strokeStyle=`rgba(255,232,169,${fade*strength*.8})`;ctx.lineWidth=1.6/scale;
+    for(let j=0;j<7;j++){const angle=Math.atan2(e.ny,e.nx)+(j-3)*.34;
+     const travel=age*(110+strength*160),sx=px+Math.cos(angle)*travel,sy=py+Math.sin(angle)*travel;
+     ctx.beginPath();ctx.moveTo(sx,sy);ctx.lineTo(sx+Math.cos(angle)*5,sy+Math.sin(angle)*5);ctx.stroke();}
+  }
+  const mainHue=(30+physicsTime*48)%360;
+  // Motion trail uses past simulated positions, never extrapolated positions.
+  const lastImpact=bounces.findLast(e=>e.time<=physicsTime);
+  for(let j=20;j>=1;j--){const past=physicsTime-j*.005;if(lastImpact&&past<lastImpact.time)continue;const old=stateAt(Math.max(0,past));ctx.save();ctx.translate(old.x,old.y);ctx.rotate(old.angle);
+    ctx.fillStyle=`hsla(${mainHue},100%,54%,${0.022*(1-j/21)})`;const r=c.ballRadius*(1-j/35);ctx.beginPath();ctx.arc(0,0,r,0,TAU);ctx.fill();ctx.restore();}
+  ctx.save();ctx.translate(state.x,state.y);
+  const impactAge=lastImpact?physicsTime-lastImpact.time:Infinity;
+  if(impactAge<.08){
+   const strength=Math.min(1,lastImpact.normalImpulse/900),squash=.18*strength*Math.sin(Math.PI*impactAge/.08);
+   const a=Math.atan2(lastImpact.ny,lastImpact.nx);ctx.rotate(a);ctx.scale(1-squash,1/(1-squash));ctx.rotate(-a);
+  }
+  ctx.rotate(state.angle);
+  ctx.shadowColor=`hsl(${mainHue},100%,55%)`;ctx.shadowBlur=24;
+  ctx.strokeStyle=`hsl(${mainHue},100%,75%)`;ctx.lineWidth=2;
+  const fill=ctx.createRadialGradient(-5,-6,1,0,0,c.ballRadius);fill.addColorStop(0,'#fff7dd');fill.addColorStop(.35,`hsl(${mainHue},95%,68%)`);fill.addColorStop(1,`hsl(${mainHue},90%,30%)`);ctx.fillStyle=fill;
+  ctx.beginPath();ctx.arc(0,0,c.ballRadius,0,TAU);ctx.fill();ctx.stroke();
+  ctx.shadowBlur=0;ctx.strokeStyle='rgba(255,255,255,.5)';ctx.lineWidth=1.5;ctx.beginPath();ctx.arc(0,0,c.ballRadius*.65,-.6,.7);ctx.stroke();
+  ctx.restore();ctx.restore();
+  output.setTransform(1,0,0,1,0,0);output.drawImage(scene,0,0,c.width,c.height);
+  output.font='400 28px system-ui';output.textAlign='center';output.textBaseline='middle';output.fillStyle='rgba(225,231,240,.65)';output.fillText(String(c.total-consumed),c.width/2,c.height/2);
+}
+window.__drawFrame=i=>draw(i/c.fps);window.__drawTime=draw;window.__duration=cues.duration;
+draw(0);window.__ready=true;
+const seek=document.querySelector('#seek');seek.max=cues.duration;
+let playing=false,start=0;
+function tick(){if(!playing)return;const t=Math.min(currentDuration,(performance.now()-start)/1000);draw(t);seek.value=t;if(t>=currentDuration){playing=false;document.querySelector('#play').textContent='播放';return;}requestAnimationFrame(tick);}
+document.querySelector('#play').onclick=()=>{playing=!playing;document.querySelector('#play').textContent=playing?'暂停':'播放';if(playing){start=performance.now()-Number(seek.value)*1000;startSound(Number(seek.value));tick();}else stopSound();};
+document.querySelector('#reset').onclick=()=>{stopSound();audio.currentTime=0;playing=false;seek.value=0;draw(0);document.querySelector('#play').textContent='播放';};
+seek.oninput=()=>{stopSound();playing=false;draw(Number(seek.value));document.querySelector('#play').textContent='播放';};
+const fields=['seed','total','speed','feedSpeed','gapWidth','angularSpeed','startRadius'];
+function showSettings(){for(const key of fields)document.getElementById(key).value=key==='gapWidth'?c[key]*180/Math.PI:c[key];document.getElementById('status').textContent=`已穿过 ${trace.result.passes} 层 · ${trace.result.bounces} 次反弹 · 时长 ${(trace.result.completeTime??c.duration).toFixed(2)} 秒`;}
+showSettings();
+async function regenerate(randomize){
+ stopSound();playing=false;document.querySelector('#play').textContent='播放';
+ if(randomize)document.getElementById('seed').value=crypto.getRandomValues(new Uint32Array(1))[0]||1;
+ const next={...c};for(const key of fields){const field=document.getElementById(key);if(!field.checkValidity()){field.reportValidity();return;}next[key]=Number(field.value);}next.gapWidth*=Math.PI/180;
+ if(!Number.isInteger(next.seed)||!Number.isInteger(next.total)){document.getElementById('status').textContent='开局编号和层数需填写整数';return;}
+ if(next.startRadius+next.ballRadius>=next.initialRadius-next.thickness/2){document.getElementById('status').textContent='起点范围必须留在最内圈以内';return;}
+ document.getElementById('status').textContent='正在生成完整轨迹…';await new Promise(requestAnimationFrame);
+ try{const generated=simulate(next);trace=generated;c=trace.config;camera=buildCamera(trace);passes=trace.events.filter(e=>e.type==='pass');bounces=trace.events.filter(e=>e.type==='bounce');currentDuration=Math.ceil(Math.max(c.duration,(passes.at(-1)?.time??0)+cues.source_duration+0.12)*c.fps)/c.fps;changed=true;seek.max=currentDuration;seek.value=0;draw(0);showSettings();}catch(e){document.getElementById('status').textContent='当前设置未能完成：'+e.message;}
+}
+document.getElementById('apply').onclick=()=>regenerate(false);document.getElementById('random').onclick=()=>regenerate(true);
+</script></html>

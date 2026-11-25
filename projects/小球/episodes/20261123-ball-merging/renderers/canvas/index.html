@@ -1,0 +1,347 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>逐级合球预览</title>
+  <style>
+    * { box-sizing: border-box; }
+    html, body { margin: 0; width: 100%; height: 100%; overflow: hidden; background: #0d1717; }
+    canvas { display: block; width: 100vw; height: 100vh; }
+  </style>
+</head>
+<body>
+<canvas id="scene" width="1080" height="1920"></canvas>
+<script type="module">
+import {collisionBounce} from './collision-bounce.js';
+const canvas = document.querySelector('#scene');
+const ctx = canvas.getContext('2d');
+const trace = await (await fetch('/simulation/trace.json')).json();
+const bounceOptions = {bounceEnabled:true,bounceStrength:.35,bounceDuration:.28};
+const endingEvent = trace.events.find((event) => event.type === 'merge' && event.tier === trace.target_tier);
+const finalImpactHoldFrames = 2;
+const endingFrame = (endingEvent?.frame ?? trace.duration_frames - 1) + finalImpactHoldFrames;
+const finalContactBalls = endingEvent
+  ? trace.states[endingEvent.frame - 1].balls.filter((ball) => endingEvent.source_ids.includes(ball.id))
+  : [];
+const contactA = finalContactBalls[0];
+const contactB = finalContactBalls[1];
+const contactDx = contactB ? contactB.x - contactA.x : 1;
+const contactDy = contactB ? contactB.y - contactA.y : 0;
+const contactDistance = Math.hypot(contactDx, contactDy) || 1;
+const contactAngle = Math.atan2(contactDy, contactDx);
+const contactPoint = contactA
+  ? { x: contactA.x + contactDx / contactDistance * contactA.radius, y: contactA.y + contactDy / contactDistance * contactA.radius }
+  : endingEvent;
+const collisionHits = new Map();
+for (const e of trace.events) {
+  const ids = e.type === 'collision' ? [e.ball_id] : e.type === 'merge' ? [e.ball_id] : [];
+  for (const id of ids) {
+    if (!collisionHits.has(id)) collisionHits.set(id, []);
+    const hitFrame = e.type === 'merge' && e.ball_id === endingEvent?.ball_id ? endingFrame : e.frame;
+    collisionHits.get(id).push({time:hitFrame/trace.fps,normalX:e.normal_x??0,normalY:e.normal_y??1,intensity:e.intensity??.75});
+  }
+}
+const faceMode = new URLSearchParams(location.search).get('faces');
+const catImages = faceMode ? await Promise.all(Array.from({ length: 8 }, (_, i) => new Promise((resolve, reject) => {
+  const img = new Image();
+  img.onload = () => resolve(img);
+  img.onerror = reject;
+  img.src = `/assets/cat-faces/ai-frontal-v1/textures/Level-${String(i + 1).padStart(2, '0')}.png`;
+}))) : [];
+const catBounds = catImages.map(img => {
+  const c = document.createElement('canvas'); c.width = c.height = 512;
+  const cx = c.getContext('2d'); cx.drawImage(img, 0, 0);
+  const pixels = cx.getImageData(0, 0, 512, 512).data;
+  let l = 512, t = 512, r = 0, b = 0;
+  for (let y = 0; y < 512; y++) for (let x = 0; x < 512; x++) {
+    if (pixels[(y * 512 + x) * 4 + 3] > 24) { l = Math.min(l, x); t = Math.min(t, y); r = Math.max(r, x); b = Math.max(b, y); }
+  }
+  return [l, t, r - l + 1, b - t + 1];
+});
+const flask = new Path2D();
+trace.flask_outline.forEach(([x, y], i) => i === 0 ? flask.moveTo(x, y) : flask.lineTo(x, y));
+const glass = ctx.createLinearGradient(0, 390, 0, 1490);
+glass.addColorStop(0, 'rgba(27,53,51,0.38)');
+glass.addColorStop(0.60, 'rgba(12,31,30,0.76)');
+glass.addColorStop(1, 'rgba(13,38,34,0.94)');
+const rim = ctx.createLinearGradient(145, 400, 935, 1490);
+rim.addColorStop(0, '#9ce0d5');
+rim.addColorStop(0.50, '#41857d');
+rim.addColorStop(1, '#85d9c8');
+window.__trace = trace;
+window.__drawFrame = drawFrame;
+window.__traceReady = true;
+
+function drawBall(ball, frame, collisionFrame, impactSqueeze = 0, squeezeAngle = contactAngle) {
+  const color = trace.tier_colors[Math.min(ball.tier, trace.tier_colors.length - 1)];
+  const r = ball.radius;
+  const bornFrame = ball.id === endingEvent?.ball_id ? endingFrame : ball.born_frame;
+  const bornAge = frame - bornFrame;
+  const grow = ball.tier > 0 && bornAge >= 0 && bornAge < 5 ? 0.9 + 0.1 * Math.sin(bornAge / 4 * Math.PI / 2) : 1;
+  const drawR = r * grow;
+  ctx.save();
+  ctx.translate(ball.x, ball.y);
+  const bounce = collisionBounce(collisionFrame/trace.fps, collisionHits.get(ball.id)??[],bounceOptions);
+  ctx.rotate(bounce.angle);
+  ctx.scale(bounce.normalScale,bounce.tangentScale);
+  ctx.rotate(-bounce.angle);
+  if (impactSqueeze > 0) {
+    ctx.rotate(squeezeAngle);
+    ctx.scale(1 - impactSqueeze, 1 + impactSqueeze * 0.52);
+    ctx.rotate(-squeezeAngle);
+  }
+  if (!faceMode || faceMode === 'character') ctx.rotate(ball.angle);
+  if (faceMode === 'character') {
+    const index = Math.min(Math.max(0, ball.tier), 7);
+    const [x, y, w, h] = catBounds[index];
+    const scale = drawR * 2 / Math.max(w, h);
+    const spriteW = w * scale, spriteH = h * scale;
+    ctx.drawImage(catImages[index], x, y, w, h, -spriteW / 2, -spriteH / 2, spriteW, spriteH);
+    ctx.restore();
+    return;
+  }
+  ctx.shadowColor = `${color}88`;
+  ctx.shadowBlur = 22 + ball.tier * 3;
+  ctx.beginPath();
+  ctx.arc(0, 0, drawR, 0, Math.PI * 2);
+  const grad = ctx.createRadialGradient(-drawR * 0.34, -drawR * 0.42, drawR * 0.05, 0, 0, drawR);
+  grad.addColorStop(0, '#ffffff');
+  grad.addColorStop(0.12, color);
+  grad.addColorStop(0.72, color);
+  grad.addColorStop(1, '#172525');
+  ctx.fillStyle = grad;
+  ctx.fill();
+  if (faceMode && ball.tier > 0) {
+    const index = Math.min(ball.tier, 7);
+    const img = catImages[index];
+    ctx.save();
+    if (faceMode === 'round') {
+      ctx.beginPath(); ctx.arc(0, 0, drawR * 0.94, 0, Math.PI * 2); ctx.clip();
+      ctx.drawImage(img, -drawR * 1.02, -drawR * 1.02, drawR * 2.04, drawR * 2.04);
+    } else {
+      const [x, y, w, h] = catBounds[index];
+      const size = drawR * 1.96;
+      const faceH = h / w * size;
+      ctx.drawImage(img, x, y, w, h, -size / 2, -faceH / 2 - drawR * 0.28, size, faceH);
+    }
+    ctx.restore();
+  }
+  ctx.shadowBlur = 0;
+  ctx.strokeStyle = 'rgba(255,255,255,0.66)';
+  ctx.lineWidth = 3;
+  ctx.stroke();
+  if (!faceMode || ball.tier === 0) {
+  ctx.beginPath();
+  ctx.ellipse(-drawR * 0.22, -drawR * 0.28, drawR * 0.22, drawR * 0.1, -0.6, 0, Math.PI * 2);
+  ctx.fillStyle = 'rgba(255,255,255,0.58)';
+  ctx.fill();
+  }
+  ctx.restore();
+}
+
+function drawFrame(frame) {
+  const contactFrame = endingEvent ? endingEvent.frame - 1 : -1;
+  let sceneFrame;
+  let impactSqueeze = 0;
+  if (!endingEvent || frame < endingEvent.frame) {
+    sceneFrame = frame;
+  } else if (frame < endingFrame) {
+    sceneFrame = contactFrame;
+    impactSqueeze = ((frame - endingEvent.frame + 1) / finalImpactHoldFrames) * 0.12;
+  } else {
+    sceneFrame = Math.min(frame - finalImpactHoldFrames, endingEvent.frame);
+  }
+  const state = trace.states[Math.max(0, Math.min(trace.states.length - 1, sceneFrame))];
+  const ordinaryContacts = frame === sceneFrame
+    ? trace.events.filter((event) => event.type === 'merge' && event !== endingEvent && frame >= event.frame && frame < event.frame + 2)
+    : [];
+  const contactResultIds = new Set(ordinaryContacts.map((event) => event.ball_id));
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
+  const bg = ctx.createLinearGradient(0, 0, 1080, 1920);
+  bg.addColorStop(0, '#122121');
+  bg.addColorStop(0.55, '#101a1a');
+  bg.addColorStop(1, '#172322');
+  ctx.fillStyle = bg;
+  ctx.fillRect(0, 0, 1080, 1920);
+
+  const glow = ctx.createRadialGradient(540, 1110, 180, 540, 1110, 750);
+  glow.addColorStop(0, 'rgba(55,116,102,0.16)');
+  glow.addColorStop(1, 'rgba(55,116,102,0)');
+  ctx.fillStyle = glow;
+  ctx.fillRect(0, 0, 1080, 1920);
+
+  ctx.save();
+  ctx.translate(0, 135);
+  ctx.save();
+  ctx.fillStyle = glass;
+  ctx.fill(flask);
+  ctx.strokeStyle = 'rgba(101,208,190,0.15)';
+  ctx.lineWidth = 22;
+  ctx.lineJoin = 'round';
+  ctx.lineCap = 'round';
+  ctx.stroke(flask);
+  ctx.shadowColor = 'rgba(56,223,190,0.25)';
+  ctx.shadowBlur = 19;
+  ctx.strokeStyle = rim;
+  ctx.lineWidth = 7;
+  ctx.stroke(flask);
+  const [leftX, mouthY] = trace.flask_outline[0];
+  const [rightX] = trace.flask_outline.at(-1);
+  ctx.beginPath();
+  ctx.moveTo(leftX, mouthY + 32);
+  ctx.lineTo(leftX, mouthY + 7);
+  ctx.quadraticCurveTo(leftX, mouthY, leftX - 9, mouthY);
+  ctx.lineTo(leftX - 21, mouthY);
+  ctx.moveTo(rightX, mouthY + 32);
+  ctx.lineTo(rightX, mouthY + 7);
+  ctx.quadraticCurveTo(rightX, mouthY, rightX + 9, mouthY);
+  ctx.lineTo(rightX + 21, mouthY);
+  ctx.strokeStyle = '#9ad6cd';
+  ctx.lineWidth = 9;
+  ctx.stroke();
+  ctx.restore();
+
+  if (endingEvent) drawEndingGlow(frame, endingEvent);
+  state.balls.filter((ball) => !contactResultIds.has(ball.id)).slice().sort((a, b) => a.y - b.y).forEach((ball) => {
+    const isFinalPair = endingEvent && endingEvent.source_ids.includes(ball.id) && frame >= endingEvent.frame && frame < endingFrame;
+    drawBall(ball, frame, sceneFrame, isFinalPair ? impactSqueeze : 0);
+  });
+  for (const event of ordinaryContacts) {
+    const previous = trace.states[Math.max(0, event.frame - 1)].balls;
+    const [sourceA, sourceB] = event.source_ids.map((id) => previous.find((ball) => ball.id === id));
+    if (!sourceA || !sourceB) continue;
+    const dx = sourceB.x - sourceA.x;
+    const dy = sourceB.y - sourceA.y;
+    const distance = Math.hypot(dx, dy) || 1;
+    const normalX = dx / distance, normalY = dy / distance;
+    const angle = Math.atan2(normalY, normalX);
+    for (const [ball, side] of [[sourceA, -1], [sourceB, 1]]) {
+      const contactAge = frame - event.frame;
+      const centerOffset = contactAge === 0 ? 0.91 : 0.84;
+      const squeeze = contactAge === 0 ? 0.07 : 0.14;
+      drawBall({ ...ball, x: event.x + normalX * side * ball.radius * centerOffset, y: event.y + normalY * side * ball.radius * centerOffset }, frame, event.frame - 1, squeeze, angle);
+    }
+  }
+  if (endingEvent) drawFinalContactSpark(frame, endingEvent);
+  for (const event of trace.events) {
+    const life = 8 + event.tier * 2;
+    if (event.type !== 'merge' || event.frame > (endingEvent?.frame ?? Infinity) || frame < event.frame) continue;
+    const eventFrame = event.ball_id === endingEvent?.ball_id ? endingFrame : event.frame;
+    if (frame >= eventFrame + life) continue;
+    const age = frame - eventFrame;
+    const radius = trace.base_radius * trace.radius_growth ** event.tier + age * (4 + event.tier);
+    ctx.save();
+    ctx.globalAlpha = 0.82 * (1 - age / life) ** 1.5;
+    ctx.strokeStyle = trace.tier_colors[event.tier];
+    ctx.lineWidth = 4 + event.tier;
+    ctx.beginPath();
+    ctx.arc(event.x, event.y, radius, 0, Math.PI * 2);
+    ctx.stroke();
+    ctx.restore();
+  }
+  if (endingEvent) drawEndingBurst(frame, endingEvent);
+  ctx.restore();
+}
+
+function drawEndingGlow(frame, event) {
+  const age = (frame - endingFrame) / trace.fps;
+  if (age < 0 || age > 0.55) return;
+  const fade = 1 - age / 0.55;
+  const radius = trace.base_radius * trace.radius_growth ** event.tier + 180 * (1 - fade);
+  const glow = ctx.createRadialGradient(event.x, event.y, 0, event.x, event.y, radius);
+  glow.addColorStop(0, `rgba(255,248,220,${0.38 * fade})`);
+  glow.addColorStop(0.48, `rgba(245,214,255,${0.17 * fade})`);
+  glow.addColorStop(1, 'rgba(245,214,255,0)');
+  ctx.save();
+  ctx.fillStyle = glow;
+  ctx.beginPath();
+  ctx.arc(event.x, event.y, radius, 0, Math.PI * 2);
+  ctx.fill();
+  ctx.restore();
+}
+
+function drawEndingBurst(frame, event) {
+  const age = (frame - endingFrame) / trace.fps;
+  if (age < 0 || age > 1.7) return;
+  const ballRadius = trace.base_radius * trace.radius_growth ** event.tier;
+  const ringColor = trace.tier_colors[event.tier];
+
+  ctx.save();
+  for (const [delay, startOffset, speed, color, dash] of [
+    [0, 12, 235, '#fff2bd', []],
+    [0.12, 42, 195, ringColor, [12, 12]],
+    [0.25, 76, 165, '#9ce0d5', []],
+  ]) {
+    const progress = (age - delay) / 1.12;
+    if (progress < 0 || progress > 1) continue;
+    ctx.globalAlpha = 0.78 * (1 - progress) ** 1.25;
+    ctx.strokeStyle = color;
+    ctx.lineWidth = 5 * (1 - progress) + 1.2;
+    ctx.setLineDash(dash);
+    ctx.beginPath();
+    ctx.arc(event.x, event.y, ballRadius + startOffset + speed * progress, 0, Math.PI * 2);
+    ctx.stroke();
+  }
+
+  ctx.setLineDash([]);
+  for (let i = 0; i < 42; i++) {
+    const delay = (i % 6) * 0.018;
+    const progress = (age - delay) / 1.35;
+    if (progress < 0 || progress > 1) continue;
+    const angle = i * 2.399963229728653 + event.ball_id * 0.17;
+    const distance = ballRadius + 8 + progress * (88 + (i * 37) % 185);
+    const x = event.x + Math.cos(angle) * distance;
+    const y = event.y + Math.sin(angle) * distance;
+    const alpha = (1 - progress) ** 1.4;
+    const size = 2 + (i % 4) * 0.75;
+    ctx.globalAlpha = alpha;
+    ctx.fillStyle = i % 3 === 0 ? '#fff2bd' : ringColor;
+    ctx.beginPath();
+    ctx.arc(x, y, size, 0, Math.PI * 2);
+    ctx.fill();
+    if (i % 7 === 0) {
+      ctx.strokeStyle = '#fff8dc';
+      ctx.lineWidth = 1.5;
+      ctx.beginPath();
+      ctx.moveTo(x - size * 2.2, y);
+      ctx.lineTo(x + size * 2.2, y);
+      ctx.moveTo(x, y - size * 2.2);
+      ctx.lineTo(x, y + size * 2.2);
+      ctx.stroke();
+    }
+  }
+  ctx.restore();
+}
+
+function drawFinalContactSpark(frame, event) {
+  const contactFrame = event.frame - 1;
+  if (!contactPoint || frame < contactFrame || frame >= endingFrame) return;
+  const strength = frame === contactFrame ? 0.48 : 1;
+  const radius = 10 + strength * 12;
+  const glow = ctx.createRadialGradient(contactPoint.x, contactPoint.y, 0, contactPoint.x, contactPoint.y, radius * 2.4);
+  glow.addColorStop(0, `rgba(255,248,220,${0.88 * strength})`);
+  glow.addColorStop(0.28, `rgba(255,221,147,${0.48 * strength})`);
+  glow.addColorStop(1, 'rgba(255,221,147,0)');
+  ctx.save();
+  ctx.globalCompositeOperation = 'screen';
+  ctx.fillStyle = glow;
+  ctx.beginPath();
+  ctx.arc(contactPoint.x, contactPoint.y, radius * 2.4, 0, Math.PI * 2);
+  ctx.fill();
+  ctx.globalAlpha = strength;
+  ctx.strokeStyle = '#fff6d5';
+  ctx.lineWidth = 2.5;
+  ctx.beginPath();
+  ctx.moveTo(contactPoint.x - 10, contactPoint.y);
+  ctx.lineTo(contactPoint.x + 10, contactPoint.y);
+  ctx.moveTo(contactPoint.x, contactPoint.y - 10);
+  ctx.lineTo(contactPoint.x, contactPoint.y + 10);
+  ctx.stroke();
+  ctx.restore();
+}
+
+drawFrame(0);
+</script>
+</body>
+</html>

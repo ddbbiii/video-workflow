@@ -1,0 +1,271 @@
+[
+  {
+    "character_id": "narrator",
+    "grade": "A",
+    "reference": "image/anchors/narrator-sheet.png",
+    "definition": "Chinese male detective aged 28, lean build, short straight black hair, narrow oval face, straight eyebrows, dark brown eyes, light blue short-sleeved police shirt with plain dark shoulder tabs, charcoal trousers and black shoes. No readable badge, no lettering, no numbers.",
+    "shots": [
+      "S002",
+      "S004",
+      "S007",
+      "S010",
+      "S014",
+      "S019",
+      "S022",
+      "S025",
+      "S027",
+      "S029",
+      "S032",
+      "S034",
+      "S037",
+      "S039",
+      "S043",
+      "S045",
+      "S052",
+      "S054",
+      "S060",
+      "S063",
+      "S070",
+      "S072",
+      "S074",
+      "S082",
+      "S084",
+      "S085",
+      "S088",
+      "S091",
+      "S092",
+      "S095",
+      "S099",
+      "S101",
+      "S102",
+      "S105",
+      "S138"
+    ],
+    "sha256": "ca6a780aca4df6196152fe931a072423180d16675577e2160452aa64bad5d2d4",
+    "status": "locked_visual_review_pass",
+    "reuse": "episode-only"
+  },
+  {
+    "character_id": "feng",
+    "grade": "B",
+    "reference": "image/anchors/feng.png",
+    "definition": "Chinese male detective aged 48, stocky build, square face, short black crew cut with grey temples, heavy brows, light blue short-sleeved police shirt with plain dark shoulder tabs, dark grey trousers and black shoes.",
+    "shots": [
+      "S007",
+      "S041",
+      "S045",
+      "S070",
+      "S075",
+      "S079",
+      "S082",
+      "S088",
+      "S089",
+      "S090",
+      "S091",
+      "S092",
+      "S095"
+    ],
+    "sha256": "5c71eecd96c4f216eedde343660d91af9816fb5743ef74cdfe71bcba868b9996",
+    "status": "locked_visual_review_pass",
+    "reuse": "episode-only"
+  },
+  {
+    "character_id": "linna",
+    "grade": "A",
+    "reference": "image/anchors/linna-sheet.png",
+    "definition": "Chinese schoolgirl aged thirteen, ordinary youthful face, straight black hair in a low ponytail, no makeup, loose pale mint short-sleeved cotton T-shirt, straight dark blue jeans and plain white sneakers. Fully clothed, ordinary age-appropriate everyday appearance, no jewelry.",
+    "shots": [
+      "S005",
+      "S021",
+      "S055",
+      "S057",
+      "S067",
+      "S113"
+    ],
+    "sha256": "a9621c57ca16f80203b73bdfa4d2322d0e0d91be641d52dad3c9107b5778365a",
+    "status": "locked_visual_review_pass",
+    "reuse": "episode-only"
+  },
+  {
+    "character_id": "zhangli",
+    "grade": "B",
+    "reference": "image/anchors/zhangli.png",
+    "definition": "Chinese schoolgirl aged fourteen, round youthful face, straight black shoulder-length bob with full fringe, loose dusty blue short-sleeved cotton shirt buttoned normally, dark grey straight trousers, white sneakers. Fully clothed, no makeup or jewelry.",
+    "shots": [
+      "S019",
+      "S021",
+      "S022",
+      "S023",
+      "S039",
+      "S040",
+      "S041",
+      "S043",
+      "S047",
+      "S049",
+      "S052"
+    ],
+    "sha256": "1db6e31c67514967a30ab621b23b3432d006d0a33d45dc7a5cae5fe10e137d71",
+    "status": "locked_visual_review_pass",
+    "reuse": "episode-only"
+  },
+  {
+    "character_id": "grandpa",
+    "grade": "B",
+    "reference": "image/anchors/grandpa.png",
+    "definition": "Chinese grandfather aged seventy, thin build, deeply lined narrow face, short grey hair, faded brown cotton short-sleeved shirt, charcoal loose trousers, black cloth shoes, old straw farming hat carried in hand.",
+    "shots": [
+      "S005",
+      "S010",
+      "S011",
+      "S013",
+      "S014"
+    ],
+    "sha256": "4d1ff86afbc3d652bf18c0317c6d5e27960c3b8a7aec72f3296826aa51b16e6d",
+    "status": "locked_visual_review_pass",
+    "reuse": "episode-only"
+  },
+  {
+    "character_id": "caoshan",
+    "grade": "B",
+    "reference": "image/anchors/caoshan.png",
+    "definition": "Chinese woman aged forty, sturdy build, round face, black hair in a practical short ponytail, muted plum cotton short-sleeved blouse, plain dark trousers and black flat shoes, no jewelry.",
+    "shots": [
+      "S019",
+      "S022",
+      "S039",
+      "S047",
+      "S049",
+      "S050"
+    ],
+    "sha256": "ace219e3384722c7be92e1f71e79e5c83b58efc47d0a06d79415f312775523b0",
+    "status": "locked_visual_review_pass",
+    "reuse": "episode-only"
+  },
+  {
+    "character_id": "teacher",
+    "grade": "B",
+    "reference": "image/anchors/teacher.png",
+    "definition": "Chinese female middle-school teacher aged forty-four, lean build, long oval face, rectangular black glasses, short black bob tucked behind ears, plain navy cotton shirt and grey trousers, black flat shoes.",
+    "shots": [
+      "S029",
+      "S030",
+      "S032"
+    ],
+    "sha256": "3caeb636dc321c3bed433255fb2f4ad4a64a2e6fa924716e18569d53ddfc413e",
+    "status": "locked_visual_review_pass",
+    "reuse": "episode-only"
+  },
+  {
+    "character_id": "liujia",
+    "grade": "B",
+    "reference": "image/anchors/liujia.png",
+    "definition": "Chinese woman aged forty-two, slender build, angular face, black hair tied in a low neat bun, navy short-sleeved blouse, brown trousers, black flat shoes, plain brown handbag.",
+    "shots": [
+      "S034",
+      "S036",
+      "S054",
+      "S060",
+      "S061",
+      "S066",
+      "S115",
+      "S116"
+    ],
+    "sha256": "1cb5bb1455bca6991253d787cddda1c14fcd4c92c532a9e954d517dec6a2faf4",
+    "status": "locked_visual_review_pass",
+    "reuse": "episode-only"
+  },
+  {
+    "character_id": "liuyang",
+    "grade": "B",
+    "reference": "image/anchors/liuyang.png",
+    "definition": "Chinese retired male teacher aged sixty-eight, slim build, kind lined oval face, thinning short grey hair, thin square silver glasses, light grey summer cardigan over off-white cotton shirt, charcoal trousers and brown cloth shoes.",
+    "shots": [
+      "S055",
+      "S058",
+      "S062",
+      "S063",
+      "S064",
+      "S067",
+      "S070"
+    ],
+    "sha256": "a24d89953469549d4dbb743c1330c36432671d8bef91ccbe6a97bd797a9ed76e",
+    "status": "locked_visual_review_pass",
+    "reuse": "episode-only"
+  },
+  {
+    "character_id": "father",
+    "grade": "B",
+    "reference": "image/anchors/father.png",
+    "definition": "Chinese male factory worker aged forty-one, medium build, broad face with a receding short black haircut, faint stubble, faded khaki short-sleeved workshirt, dark brown trousers and black work shoes.",
+    "shots": [
+      "S058",
+      "S066",
+      "S072",
+      "S073",
+      "S074",
+      "S076",
+      "S079",
+      "S085",
+      "S086",
+      "S088",
+      "S089",
+      "S108",
+      "S110",
+      "S115",
+      "S117",
+      "S120",
+      "S122",
+      "S124",
+      "S126"
+    ],
+    "sha256": "bc2c24cfa1b4b74d6d82f4fb328eb69f9a4d499d01444cee106eb0344fce195c",
+    "status": "locked_visual_review_pass",
+    "reuse": "episode-only"
+  },
+  {
+    "character_id": "mother",
+    "grade": "B",
+    "reference": "image/anchors/mother.png",
+    "definition": "Chinese female factory worker aged forty, lean build, tired long face, black hair tied low, plain grey cotton blouse and dark trousers, black flat shoes. Winter state adds a burgundy padded jacket over the same blouse; face and hair remain unchanged.",
+    "shots": [
+      "S102",
+      "S105",
+      "S106",
+      "S126",
+      "S128",
+      "S131",
+      "S132",
+      "S133",
+      "S134"
+    ],
+    "sha256": "b9d9d6430b370f2e4ea3bbfb6630f55c8a83b08db5d4e3541ab5fbafdedaa867",
+    "status": "locked_visual_review_pass",
+    "reuse": "episode-only"
+  },
+  {
+    "character_id": "chen",
+    "grade": "B",
+    "reference": "image/anchors/chen.png",
+    "definition": "Chinese man aged fifty, heavy-set build, broad square face, neatly combed black hair with slight grey temples, plain charcoal suit jacket over dark blue open-neck shirt, dark trousers and black shoes.",
+    "shots": [
+      "S110",
+      "S119"
+    ],
+    "sha256": "32ec4fec51aa10d5ab4ba85b07fc90ebfb978eb7c13b37a4582e922b529cba9c",
+    "status": "locked_visual_review_pass",
+    "reuse": "episode-only"
+  },
+  {
+    "character_id": "manager",
+    "grade": "B",
+    "reference": "image/anchors/manager.png",
+    "definition": "Chinese man aged forty-five, medium build, short cropped black hair, narrow face, plain grey polo shirt and dark trousers.",
+    "shots": [
+      "S095",
+      "S119"
+    ],
+    "sha256": "45404e240c2fb2bda1a08577f1b91199f1dcab803820fefe96343cc7b35d56c0",
+    "status": "locked_visual_review_pass",
+    "reuse": "episode-only"
+  }
+]

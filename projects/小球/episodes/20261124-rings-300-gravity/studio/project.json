@@ -1,0 +1,56 @@
+{
+  "episode_id": "20261124-rings-300-gravity",
+  "episode_name": "300 层圆环 · 向下重力",
+  "model_id": "gravity-rings-v1",
+  "seed": 1873287513,
+  "saved_at": "2026-11-24T08:36:16.156Z",
+  "parameters": {
+    "speed": 1,
+    "ballColor": "#ffc44f",
+    "ballRadius": 10,
+    "trailMode": "glow",
+    "trailLength": 9,
+    "backgroundColor": "#030609",
+    "backgroundImage": "",
+    "impactStrength": 1,
+    "bounceEnabled": true,
+    "bounceStrength": 0.35,
+    "bounceDuration": 0.28,
+    "ballImage": "",
+    "collisionSound": "",
+    "audioVolume": 0.75,
+    "audioRate": 1,
+    "gravityMultiplier": 1
+  },
+  "assets": [
+    {
+      "name": "默认球体贴图",
+      "filename": "motion-studio-ball.svg",
+      "type": "image",
+      "mime": "image/svg+xml",
+      "url": "/assets/motion-studio-ball.svg"
+    },
+    {
+      "name": "默认背景图",
+      "filename": "motion-studio-background.svg",
+      "type": "image",
+      "mime": "image/svg+xml",
+      "url": "/assets/motion-studio-background.svg"
+    },
+    {
+      "name": "默认撞击音效",
+      "filename": "motion-studio-default-impact.wav",
+      "type": "audio",
+      "mime": "audio/wav",
+      "url": "/assets/motion-studio-default-impact.wav"
+    }
+  ],
+  "defaults_version": 1,
+  "output": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 60,
+    "frameCount": 9759,
+    "quality": "high"
+  }
+}

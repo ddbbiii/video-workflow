@@ -25,7 +25,7 @@
 - 不落成品库、不写成品卡、不登记索引。
 - 规则见 [`rules/shared/delivery.md`](rules/shared/delivery.md)、[`rules/shared/srt.md`](rules/shared/srt.md)；流程见 [`rules/shared/video-workflow.md`](rules/shared/video-workflow.md)。
 
-线路为助眠解说、悬疑、小球、人生体验、萌宠；状态见各项目 `LINE_STATE.md`。退役线路（猎奇、音乐线、抖音特效）与外卖之谜、potato-grow-test 已整体归档到 `shared/archive/retired-lines-20261110/`，不再维护。
+当前维护线路为悬疑、小球、人生体验、萌宠；状态见各项目 `LINE_STATE.md`。退役线路（助眠解说、猎奇、音乐线、抖音特效）与外卖之谜、potato-grow-test 已归档到 `shared/archive/`，不再维护。
 
 历史规则、旧片头/TTS/烧录工具链归档在仓库旁：`../video-archive/20261114-body-only/`。默认不读，只有用户点名才恢复。
 

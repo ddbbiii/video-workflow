@@ -1,0 +1,63 @@
+{
+  "policy": "v8-new2-dklb-parallel",
+  "mode": "single",
+  "reason": "母题定装镜：一张可辨菲涅耳透镜的灯室基底供三种版式共用",
+  "file": "lamp-room.png",
+  "channel": "dkl-b",
+  "model": "gpt-image-2.5-sunburst",
+  "attempts": [
+    {
+      "channel": "new2",
+      "http_status": null,
+      "elapsed_s": null,
+      "ok": false,
+      "status": "timeout"
+    },
+    {
+      "channel": "dkl-b",
+      "http_status": 200,
+      "elapsed_s": 94.4,
+      "ok": true
+    }
+  ],
+  "fallback_from": "new2",
+  "dimensions": [
+    2048,
+    1152
+  ],
+  "sha256": "6edbca748af28b4850514cfd8a30a4d346e7e7289efcaf44af5153ffe20c22e1",
+  "fact": "空无一人的灯室仍在运作，右侧菲涅耳透镜清晰可辨。",
+  "prompt": "desaturated graphic-novel panel, mature simplified cel-shaded anime characters, flat color blocks with hard-edged cel shadows, clean ink linework, cold grey-blue palette, one controlled warm practical light, ordinary Chinese urban interior or street, worn and lived-in surfaces, legible horror staging, clear foreground subject and evidence prop, slightly off-center composition, deep focus, layered foreground occlusion in wide shots, volumetric dust in cold window light, 16:9\n\nThe exact story location is a Scottish island lighthouse lantern room in winter, circa 1900. Historical Scottish lighthouse engineering applies to all architecture and props. One operating first-order Fresnel lens and its brass pedestal occupy the right third, with sharply legible stacked horizontal glass prisms and concentric bullseye rings, partly illuminated by the single subdued amber oil flame inside. Unoccupied room. Medium-wide view from just inside the spiral stair entrance, 26 mm deep focus, eye level, oblique composition. The close iron stair rail and salt-worn door jamb barely clip the far left edge. At left in the midground, keep a quiet panel of worn cool gray interior with a low used stool and folded oil rag, uncluttered with no flat graphic panel. The round iron-framed sloping lantern room windows reveal a dark ocean, thin horizontal horizon and pale moonlit clouds, no visible moon. Rubbed stair rail paint, tarnished brass and salt deposits on lower window frames. Restrained slate blue and cool gray light from the windows, amber confined to the lens, lifted dark detail. Clean ink contours, flat cel shadow shapes, observable period mechanics. The viewer must immediately see an empty but operating lantern room. No humans, no loose papers, no books, no silhouettes or figures in the lens, no electric fittings, no visible camera, no date, no markings, no overlays, no vignette or border. Single full-bleed frame.\n\nAvoid: photograph, photorealistic, 3d render, cgi, live action, film still, cinematic still, 35mm, shallow depth of field, bokeh, motion blur, glossy skin, hyperreal texture, clean new building, spotless, pristine, showroom, symmetrical centered hero shot, chibi, big eyes, text, letters, numbers, labels, watermark, UI, logo, gore, monster, jump-scare face",
+  "outputs": {
+    "lamp-room.png": [
+      2048,
+      1152
+    ],
+    "diary-page.png": [
+      1000,
+      498
+    ],
+    "A-small.png": [
+      1920,
+      1080
+    ],
+    "B-medium.png": [
+      1920,
+      1080
+    ],
+    "C-large.png": [
+      1920,
+      1080
+    ],
+    "comparison.jpg": [
+      1040,
+      2007
+    ]
+  },
+  "qa": {
+    "status": "样图静帧已检查，等待版式意见",
+    "scene": "灯室、海面、透镜与暖色灯焰可辨；三版同底图、同取景",
+    "overlay": "同页仅含示例日期和正文，三版独立显示同一示例时刻",
+    "notes": "A 的上方数字压在玻璃上，存在感最弱；B 在底座区域清晰可读；C 的亮数字与透镜同时显眼。三版纸页均保留主要透镜结构。"
+  }
+}

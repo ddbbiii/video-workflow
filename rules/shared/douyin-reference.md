@@ -41,10 +41,11 @@ python shared/tools/douyin-ref/fetch_ref.py \
 
 1. 链接可以是 `v.douyin.com/...` 短链，也可以是 `www.douyin.com/video/<aweme_id>`。
 2. `--quality`：`best`（默认）/ `1080p` / `720p`；**这是偏好不是保证**，以返回值 `width/height` 为准。
-3. 返回 `status: "completed"` 才算成功；`media_mode: "video_only"` 表示没抓到独立音轨，视频仍可用。
-4. 输出目录（默认 `work/refs/<YYYYMMDD>/`）里会多一个 `<视频>.manifest.json`：时长、分辨率、码率、sha256、候选选择理由，**不含 Cookie 与签名 URL**。
-5. 抽帧验收：`ffmpeg -i <视频> -vf "fps=1/20,scale=480:-1,tile=4x5" -frames:v 1 sheet.jpg`，先看结构再逐段拆。
-6. 拆解结论写进对应线路的 `planning/参考拆解-<日期>.md`，并把本文件路径放在"取证"一节。
+3. 返回 `status: "completed"` 才算成功；`media_mode` 按最终文件实际音视频流判断。页面没有独立音频候选不代表作品无声：音频可能已封装在视频流中，MCP 会保留它。
+4. 需要单独分析音频时设置 `keep_separate_streams: true`；返回的 `.audio.m4a` 与 `.video.mp4` 分别是独立音轨和纯视频轨。
+5. 输出目录（默认 `work/refs/<YYYYMMDD>/`）里会多一个 `<视频>.manifest.json`：时长、分辨率、码率、sha256、候选选择理由，**不含 Cookie 与签名 URL**。
+6. 抽帧验收：`ffmpeg -i <视频> -vf "fps=1/20,scale=480:-1,tile=4x5" -frames:v 1 sheet.jpg`，先看结构再逐段拆。
+7. 拆解结论写进对应线路的 `planning/参考拆解-<日期>.md`，并把本文件路径放在"取证"一节。
 
 ## 3 权限与沙箱（必须知道）
 
@@ -67,7 +68,7 @@ python shared/tools/douyin-ref/fetch_ref.py \
 |---|---|---|
 | `PermissionError [WinError 5]`、`CreateFile`、管道相关 | 沙箱禁止子进程管道 | 用完全访问重跑本命令 |
 | `AUTH_REQUIRED` / `HUMAN_ACTION_REQUIRED` | 需登录或验证码 | 让用户在自己的浏览器打开一次；不自动绕过 |
-| `media_mode: video_only` + 警告 | 独立音轨没捕获到 | 可接受；需要音频时重试一次，或在文档里注明"无音轨" |
+| `media_mode: video_only` + 警告 | 检查确认最终媒体确实没有音轨 | 画面仍可用；需要声音时可尝试 MCP 的其他授权解析路径，不能把未取得音频描述成已验证的原声 |
 | 请求 1080p 得到 720p | 页面当次只给 720p | 以返回值为准，不反复重试 |
 | `SIGNED_URL_EXPIRED` | 签名地址过期 | 重跑（签名地址不落盘、不复用） |
 | `FFMPEG_NOT_FOUND` | PATH 里没有 ffmpeg | 将 ffmpeg/ffprobe 加入 `PATH`，或通过 `DOUYIN_MCP_FFMPEG` / `DOUYIN_MCP_FFPROBE` 指定可执行文件位置 |

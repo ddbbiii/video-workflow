@@ -16,7 +16,7 @@
 - `shared/camera-motion/verify_motion.py`：编码后连续帧 ECC 对比预期运动，低纹理/失败标不确定。
 - `shared/camera-motion/test_camera_motion.py`：曲线、亚像素、画幅/边界、横竖屏、不同长度、恢复测试。
 - `shared/camera-motion/README.md`：当前使用与限制。
-- `projects/助眠解说/legacy-source/zhumian/b-geomagnetic-reversal/gen_rebuild/batch02_motion_generic.json`：真实项目接入示例。
+- 助眠线曾用于验证通用镜头接入；原始示例配置不在当前仓库中。
 - 同集 `gen_rebuild/runs/20261006-032431-batch02-landscape/video_generic_v1/`：5段基准视频、总览、trajectory、qa。
 
 目前 Python、OpenCV、NumPy、Pillow、FFmpeg/ffprobe 可用。之前 PATH 中未找到 Blender；实现前重新检查本机安装，不假设存在。没有 Git 仓库可依赖，不执行 git reset/checkout 或清理旧资产。

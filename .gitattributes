@@ -2,3 +2,4 @@ assets/**/*.png filter=lfs diff=lfs merge=lfs -text
 assets/**/*.jpg filter=lfs diff=lfs merge=lfs -text
 assets/**/*.jpeg filter=lfs diff=lfs merge=lfs -text
 assets/**/*.mp4 filter=lfs diff=lfs merge=lfs -text
+assets/shared/audio/老吴/*.wav filter=lfs diff=lfs merge=lfs -text

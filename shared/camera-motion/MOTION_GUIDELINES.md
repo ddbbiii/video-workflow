@@ -27,4 +27,4 @@
 
 **默认下限（2026-11-07）**：常规推近 ≥9%，拉远 ≥8%，时长 >25 s 的长镜 ≥7%，横移 ≥6%。低于下限的镜头必须在 SHOT_PLAN 写明理由并获用户确认；渲染前跑 `validate_plan.py`，缺源、黑/纯色源、低于下限均 FAIL。13–16% 仍是 9 秒样片的参考值，不是所有时长的硬指标。
 
-参考配置：`../../projects/助眠解说/legacy-source/zhumian/b-geomagnetic-reversal/gen_rebuild/batch03_motion_affine_stronger.json`。这批获得用户播放认可，不代表其他构图已验收。
+历史记录：助眠线曾对一组镜头使用更强 affine 参数并获得用户播放认可；该批原始配置不在当前仓库中，不代表其他构图已验收。

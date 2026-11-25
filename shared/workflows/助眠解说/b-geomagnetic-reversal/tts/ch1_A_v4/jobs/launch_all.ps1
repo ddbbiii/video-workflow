@@ -1,2 +1,0 @@
-New-Item -ItemType Directory -Force 'E:\program\1project\video\projects\助眠解说\episodes\b-geomagnetic-reversal\audio\vo-raw\ch1_A_v4\logs' | Out-Null
-Start-Process powershell -WindowStyle Hidden -ArgumentList '-NoProfile','-ExecutionPolicy','Bypass','-File','E:\program\1project\video\shared\workflows\助眠解说\b-geomagnetic-reversal\tts\ch1_A_v4\jobs\run_all.ps1' -PassThru | Select-Object -ExpandProperty Id

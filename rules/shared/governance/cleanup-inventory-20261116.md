@@ -6,7 +6,7 @@
 
 | 路径 | 原因 | 保留依据 | 预计释放 |
 |---|---|---|---:|
-| `projects/助眠解说/episodes/catching-a-second/runs/20261112-cas-b01/intro/` | 纯正文交付后废止的旧片头批量渲染与预览 | 当前正文、SRT、QA、manifest 不依赖该目录 | 200 个文件，507,922,869 字节（0.473 GiB） |
+| `shared/archive/retired-lines-20261125/助眠解说/projects/episodes/catching-a-second/runs/20261112-cas-b01/intro/` | 纯正文交付后废止的旧片头批量渲染与预览 | 当前正文、SRT、QA、manifest 不依赖该目录 | 200 个文件，507,922,869 字节（0.473 GiB） |
 
 ## 暂不删除
 

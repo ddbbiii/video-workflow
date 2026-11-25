@@ -1,0 +1,30 @@
+<!doctype html><meta charset="utf-8"><canvas width="1080" height="1920"></canvas>
+<style>body{margin:0;background:#030609}canvas{width:100vw;height:100vh;object-fit:contain}</style>
+<script>
+const canvas=document.querySelector('canvas'),ctx=canvas.getContext('2d'),TAU=Math.PI*2;
+let trace,c,hits,passes;
+window.loadVariant=async name=>{trace=await fetch('simulation/trace.json').then(r=>r.json());c=trace.config;hits=trace.events.filter(e=>e.type==='bounce');passes=trace.events.filter(e=>e.type==='pass');draw(0);};
+function state(t){const p=Math.max(0,Math.min(trace.states.length-1,t*c.fps)),i=Math.floor(p),u=p-i,a=trace.states[i],b=trace.states[Math.min(i+1,trace.states.length-1)];return {...a,x:a.x+(b.x-a.x)*u,y:a.y+(b.y-a.y)*u,offset:a.offset+(b.offset-a.offset)*u};}
+function draw(t){
+ const s=state(t),consumed=passes.filter(e=>e.time<=t).length;
+ const cp=Math.min(trace.camera.length-1,t*60),ci=Math.floor(cp),cu=cp-ci,scale=trace.camera[ci]*(1-cu)+trace.camera[Math.min(ci+1,trace.camera.length-1)]*cu;
+ ctx.setTransform(1,0,0,1,0,0);ctx.fillStyle='#030609';ctx.fillRect(0,0,1080,1920);
+ ctx.save();ctx.translate(540,960);ctx.scale(scale,scale);
+ for(let id=consumed;id<c.total;id++){
+  const r=c.initialRadius+id*c.spacing-s.offset;if(r>650)break;if(r<=0)continue;
+  const shape=trace.shapes[id],a=shape.phase+shape.speed*t,h=shape.width/2;
+  const alpha=Math.max(.18,.9-(id-consumed)*.032);
+  ctx.strokeStyle=`hsla(${(190+id*8)%360},80%,66%,${alpha})`;ctx.lineWidth=c.thickness;
+  ctx.beginPath();ctx.arc(0,0,r,a+h,a+TAU-h);ctx.stroke();
+  // Rounded endpoints use the same collision radius as the physical arc.
+  ctx.fillStyle=ctx.strokeStyle;for(const angle of [a-h,a+h]){ctx.beginPath();ctx.arc(r*Math.cos(angle),r*Math.sin(angle),c.thickness/2,0,TAU);ctx.fill();}
+ }
+ for(const e of passes){const age=t-e.time;if(age<0||age>.35)continue;ctx.strokeStyle=`rgba(110,230,255,${.45*(1-age/.35)})`;ctx.lineWidth=1;ctx.beginPath();ctx.arc(0,0,e.radius+age*18,e.gap+e.gapWidth/2,e.gap+TAU-e.gapWidth/2);ctx.stroke();}
+ for(const e of hits){const age=t-e.time;if(age<0||age>.13)continue;ctx.strokeStyle=`rgba(255,237,186,${1-age/.13})`;ctx.lineWidth=1.5;ctx.beginPath();ctx.arc(e.x-e.nx*c.ballRadius,e.y-e.ny*c.ballRadius,3+age*75,0,TAU);ctx.stroke();}
+ const last=hits.findLast(e=>e.time<=t);
+ for(let j=9;j>=1;j--){const pt=t-j*.004;if(pt<0||(last&&pt<last.time))continue;const p=state(pt);ctx.fillStyle=`rgba(255,193,77,${.1*(1-j/10)})`;ctx.beginPath();ctx.arc(p.x,p.y,c.ballRadius*(1-j*.035),0,TAU);ctx.fill();}
+ ctx.shadowColor='#ffbc52';ctx.shadowBlur=12;const fill=ctx.createRadialGradient(s.x-3,s.y-4,1,s.x,s.y,c.ballRadius);fill.addColorStop(0,'#fffbed');fill.addColorStop(.4,'#ffd76c');fill.addColorStop(1,'#e88d22');ctx.fillStyle=fill;ctx.beginPath();ctx.arc(s.x,s.y,c.ballRadius,0,TAU);ctx.fill();ctx.shadowBlur=0;ctx.strokeStyle='#fff4c9';ctx.lineWidth=.9;ctx.stroke();ctx.restore();
+ const fade=Math.max(0,Math.min(1,(t-(trace.output.duration-.30))/.30));if(fade>0){ctx.fillStyle=`rgba(3,6,9,${fade})`;ctx.fillRect(0,0,1080,1920);}
+}
+window.drawFrame=i=>draw(i/60);
+</script>

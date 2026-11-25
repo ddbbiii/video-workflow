@@ -3,20 +3,20 @@
   "episode_name": "逃离十重圆环",
   "model_id": "matter-ring-escape-v1",
   "seed": 31,
-  "saved_at": "2026-11-23T00:50:13.225Z",
+  "saved_at": "2026-11-23T02:25:36.870Z",
   "parameters": {
     "speed": 1.55,
     "ballColor": "#f4f7f8",
-    "ballRadius": 26,
+    "ballRadius": 10,
     "trailMode": "off",
-    "trailLength": 6,
+    "trailLength": 2,
     "backgroundColor": "#080b12",
     "backgroundImage": "/assets/motion-studio-background.svg",
     "impactStrength": 1,
     "ballImage": "/assets/motion-studio-ball.svg",
     "collisionSound": "/assets/motion-studio-default-impact.wav",
     "audioVolume": 0.75,
-    "audioRate": 1
+    "audioRate": 0.5
   },
   "assets": [
     {
@@ -41,12 +41,12 @@
       "url": "/assets/motion-studio-default-impact.wav"
     }
   ],
+  "defaults_version": 1,
   "output": {
     "width": 1080,
     "height": 1920,
     "fps": 60,
     "frameCount": 720,
     "quality": "high"
-  },
-  "defaults_version": 1
+  }
 }

@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "episode_id": "20261124-rings-300-gravity",
+  "episode_name": "300 层圆环 · 向下重力",
+  "model_id": "gravity-rings-v1",
+  "adapter_version": 1,
+  "simulation": {
+    "config": "simulation/config.json",
+    "seed": 1873287513,
+    "fps": 60
+  },
+  "ending": {
+    "source_frame": 9717,
+    "minimum_tail_seconds": 0.7
+  },
+  "output": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 60,
+    "frame_count": 9759,
+    "quality": "high",
+    "minimum_frames": 1,
+    "maximum_frames": 216000,
+    "frame_count_policy": "trim-or-hold"
+  },
+  "parameters": {
+    "gravityMultiplier": 1,
+    "speed": 1,
+    "ballRadius": 10,
+    "ballColor": "#ffc44f",
+    "backgroundColor": "#030609",
+    "ballImage": "",
+    "backgroundImage": "",
+    "collisionSound": "",
+    "trailLength": 9
+  },
+  "asset_limit_bytes": 41943040
+}

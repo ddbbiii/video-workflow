@@ -1,3 +1,0 @@
-cues=565  chars min/mean/max=4/13.33/20  max_allowed=20  over_limit=0
-rendered max_width=1518 px (79.1%)  over_width=0
-RESULT: PASS

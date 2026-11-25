@@ -1,0 +1,2358 @@
+{
+  "schema_version": 1,
+  "backend": "affine",
+  "output": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 60
+  },
+  "transition_s": 0,
+  "shots": [
+    {
+      "id": "S001",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261123-linna/image/raw/S001.png",
+      "duration_s": 8.35,
+      "frames": 501,
+      "span_s": 8.333333333333334,
+      "start_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "end_view": [
+        0.044,
+        0.044,
+        0.912,
+        0.912
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.15,
+          0.15,
+          0.7,
+          0.7
+        ]
+      ],
+      "delivery_frames": 200,
+      "timeline_start_frame": 0,
+      "motion": "affine"
+    },
+    {
+      "id": "S002",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261123-linna/image/raw/S002.png",
+      "duration_s": 17.8,
+      "frames": 1068,
+      "span_s": 17.783333333333335,
+      "start_view": [
+        0.044,
+        0.044,
+        0.912,
+        0.912
+      ],
+      "end_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.15,
+          0.15,
+          0.7,
+          0.7
+        ]
+      ],
+      "delivery_frames": 427,
+      "timeline_start_frame": 200,
+      "motion": "affine"
+    },
+    {
+      "id": "S003",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261123-linna/image/raw/S003.png",
+      "duration_s": 2.8,
+      "frames": 168,
+      "span_s": 2.783333333333333,
+      "start_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "end_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.15,
+          0.15,
+          0.7,
+          0.7
+        ]
+      ],
+      "delivery_frames": 67,
+      "timeline_start_frame": 627,
+      "motion": "static"
+    },
+    {
+      "id": "S004",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261123-linna/image/raw/S004.png",
+      "duration_s": 12.5,
+      "frames": 750,
+      "span_s": 12.483333333333333,
+      "start_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "end_view": [
+        0.044,
+        0.044,
+        0.912,
+        0.912
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.15,
+          0.15,
+          0.7,
+          0.7
+        ]
+      ],
+      "delivery_frames": 300,
+      "timeline_start_frame": 694,
+      "motion": "affine"
+    },
+    {
+      "id": "S005",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261123-linna/image/raw/S005.png",
+      "duration_s": 9.75,
+      "frames": 585,
+      "span_s": 9.733333333333333,
+      "start_view": [
+        0.044,
+        0.044,
+        0.912,
+        0.912
+      ],
+      "end_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.15,
+          0.15,
+          0.7,
+          0.7
+        ]
+      ],
+      "delivery_frames": 234,
+      "timeline_start_frame": 994,
+      "motion": "affine"
+    },
+    {
+      "id": "S006",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261123-linna/image/raw/S006.png",
+      "duration_s": 29.166666666666668,
+      "frames": 1750,
+      "span_s": 29.15,
+      "start_view": [
+        0.015,
+        0.05,
+        0.9,
+        0.9
+      ],
+      "end_view": [
+        0.085,
+        0.05,
+        0.9,
+        0.9
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.15,
+          0.15,
+          0.7,
+          0.7
+        ]
+      ],
+      "delivery_frames": 700,
+      "timeline_start_frame": 1228,
+      "motion": "affine"
+    },
+    {
+      "id": "S007",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261123-linna/image/raw/S007.png",
+      "duration_s": 31.133333333333333,
+      "frames": 1868,
+      "span_s": 31.116666666666667,
+      "start_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "end_view": [
+        0.044,
+        0.044,
+        0.912,
+        0.912
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.15,
+          0.15,
+          0.7,
+          0.7
+        ]
+      ],
+      "delivery_frames": 747,
+      "timeline_start_frame": 1928,
+      "motion": "affine"
+    },
+    {
+      "id": "S008",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261123-linna/image/raw/S008.png",
+      "duration_s": 22.5,
+      "frames": 1350,
+      "span_s": 22.483333333333334,
+      "start_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "end_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.15,
+          0.15,
+          0.7,
+          0.7
+        ]
+      ],
+      "delivery_frames": 540,
+      "timeline_start_frame": 2675,
+      "motion": "static"
+    },
+    {
+      "id": "S009",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261123-linna/image/raw/S009.png",
+      "duration_s": 26.966666666666665,
+      "frames": 1618,
+      "span_s": 26.95,
+      "start_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "end_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.15,
+          0.15,
+          0.7,
+          0.7
+        ]
+      ],
+      "delivery_frames": 647,
+      "timeline_start_frame": 3215,
+      "motion": "static"
+    },
+    {
+      "id": "S010",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261123-linna/image/raw/S010.png",
+      "duration_s": 21.666666666666668,
+      "frames": 1300,
+      "span_s": 21.65,
+      "start_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "end_view": [
+        0.044,
+        0.044,
+        0.912,
+        0.912
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.15,
+          0.15,
+          0.7,
+          0.7
+        ]
+      ],
+      "delivery_frames": 520,
+      "timeline_start_frame": 3862,
+      "motion": "affine"
+    },
+    {
+      "id": "S011",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261123-linna/image/raw/S011.png",
+      "duration_s": 20.833333333333332,
+      "frames": 1250,
+      "span_s": 20.816666666666666,
+      "start_view": [
+        0.044,
+        0.044,
+        0.912,
+        0.912
+      ],
+      "end_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.15,
+          0.15,
+          0.7,
+          0.7
+        ]
+      ],
+      "delivery_frames": 500,
+      "timeline_start_frame": 4382,
+      "motion": "affine"
+    },
+    {
+      "id": "S012",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261123-linna/image/raw/S012.png",
+      "duration_s": 15.3,
+      "frames": 918,
+      "span_s": 15.283333333333333,
+      "start_view": [
+        0.015,
+        0.05,
+        0.9,
+        0.9
+      ],
+      "end_view": [
+        0.085,
+        0.05,
+        0.9,
+        0.9
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.15,
+          0.15,
+          0.7,
+          0.7
+        ]
+      ],
+      "delivery_frames": 367,
+      "timeline_start_frame": 4882,
+      "motion": "affine"
+    },
+    {
+      "id": "S013",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261123-linna/image/raw/S013.png",
+      "duration_s": 26.133333333333333,
+      "frames": 1568,
+      "span_s": 26.116666666666667,
+      "start_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "end_view": [
+        0.044,
+        0.044,
+        0.912,
+        0.912
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.15,
+          0.15,
+          0.7,
+          0.7
+        ]
+      ],
+      "delivery_frames": 627,
+      "timeline_start_frame": 5249,
+      "motion": "affine"
+    },
+    {
+      "id": "S014",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261123-linna/image/raw/S014.png",
+      "duration_s": 18.083333333333332,
+      "frames": 1085,
+      "span_s": 18.066666666666666,
+      "start_view": [
+        0.044,
+        0.044,
+        0.912,
+        0.912
+      ],
+      "end_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.15,
+          0.15,
+          0.7,
+          0.7
+        ]
+      ],
+      "delivery_frames": 434,
+      "timeline_start_frame": 5876,
+      "motion": "affine"
+    },
+    {
+      "id": "S015",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261123-linna/image/raw/S015.png",
+      "duration_s": 5.0,
+      "frames": 300,
+      "span_s": 4.983333333333333,
+      "start_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "end_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.15,
+          0.15,
+          0.7,
+          0.7
+        ]
+      ],
+      "delivery_frames": 120,
+      "timeline_start_frame": 6310,
+      "motion": "static"
+    },
+    {
+      "id": "S016",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261123-linna/image/raw/S016.png",
+      "duration_s": 30.0,
+      "frames": 1800,
+      "span_s": 29.983333333333334,
+      "start_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "end_view": [
+        0.044,
+        0.044,
+        0.912,
+        0.912
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.15,
+          0.15,
+          0.7,
+          0.7
+        ]
+      ],
+      "delivery_frames": 720,
+      "timeline_start_frame": 6430,
+      "motion": "affine"
+    },
+    {
+      "id": "S017",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261123-linna/image/raw/S017.png",
+      "duration_s": 10.3,
+      "frames": 618,
+      "span_s": 10.283333333333333,
+      "start_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "end_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.15,
+          0.15,
+          0.7,
+          0.7
+        ]
+      ],
+      "delivery_frames": 247,
+      "timeline_start_frame": 7150,
+      "motion": "static"
+    },
+    {
+      "id": "S018",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261123-linna/image/raw/S018.png",
+      "duration_s": 31.133333333333333,
+      "frames": 1868,
+      "span_s": 31.116666666666667,
+      "start_view": [
+        0.015,
+        0.05,
+        0.9,
+        0.9
+      ],
+      "end_view": [
+        0.085,
+        0.05,
+        0.9,
+        0.9
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.15,
+          0.15,
+          0.7,
+          0.7
+        ]
+      ],
+      "delivery_frames": 747,
+      "timeline_start_frame": 7397,
+      "motion": "affine"
+    },
+    {
+      "id": "S019",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261123-linna/image/raw/S019.png",
+      "duration_s": 14.466666666666667,
+      "frames": 868,
+      "span_s": 14.45,
+      "start_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "end_view": [
+        0.044,
+        0.044,
+        0.912,
+        0.912
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.15,
+          0.15,
+          0.7,
+          0.7
+        ]
+      ],
+      "delivery_frames": 347,
+      "timeline_start_frame": 8144,
+      "motion": "affine"
+    },
+    {
+      "id": "S020",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261123-linna/image/raw/S020.png",
+      "duration_s": 11.133333333333333,
+      "frames": 668,
+      "span_s": 11.116666666666667,
+      "start_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "end_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.15,
+          0.15,
+          0.7,
+          0.7
+        ]
+      ],
+      "delivery_frames": 267,
+      "timeline_start_frame": 8491,
+      "motion": "static"
+    },
+    {
+      "id": "S021",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261123-linna/image/raw/S021.png",
+      "duration_s": 15.3,
+      "frames": 918,
+      "span_s": 15.283333333333333,
+      "start_view": [
+        0.015,
+        0.05,
+        0.9,
+        0.9
+      ],
+      "end_view": [
+        0.085,
+        0.05,
+        0.9,
+        0.9
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.15,
+          0.15,
+          0.7,
+          0.7
+        ]
+      ],
+      "delivery_frames": 367,
+      "timeline_start_frame": 8758,
+      "motion": "affine"
+    },
+    {
+      "id": "S022",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261123-linna/image/raw/S022.png",
+      "duration_s": 23.083333333333332,
+      "frames": 1385,
+      "span_s": 23.066666666666666,
+      "start_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "end_view": [
+        0.044,
+        0.044,
+        0.912,
+        0.912
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.15,
+          0.15,
+          0.7,
+          0.7
+        ]
+      ],
+      "delivery_frames": 554,
+      "timeline_start_frame": 9125,
+      "motion": "affine"
+    },
+    {
+      "id": "S023",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261123-linna/image/raw/S023.png",
+      "duration_s": 26.666666666666668,
+      "frames": 1600,
+      "span_s": 26.65,
+      "start_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "end_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.15,
+          0.15,
+          0.7,
+          0.7
+        ]
+      ],
+      "delivery_frames": 640,
+      "timeline_start_frame": 9679,
+      "motion": "static"
+    },
+    {
+      "id": "S024",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261123-linna/image/raw/S024.png",
+      "duration_s": 10.3,
+      "frames": 618,
+      "span_s": 10.283333333333333,
+      "start_view": [
+        0.015,
+        0.05,
+        0.9,
+        0.9
+      ],
+      "end_view": [
+        0.085,
+        0.05,
+        0.9,
+        0.9
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.15,
+          0.15,
+          0.7,
+          0.7
+        ]
+      ],
+      "delivery_frames": 247,
+      "timeline_start_frame": 10319,
+      "motion": "affine"
+    },
+    {
+      "id": "S025",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261123-linna/image/raw/S025.png",
+      "duration_s": 35.583333333333336,
+      "frames": 2135,
+      "span_s": 35.56666666666667,
+      "start_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "end_view": [
+        0.044,
+        0.044,
+        0.912,
+        0.912
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.15,
+          0.15,
+          0.7,
+          0.7
+        ]
+      ],
+      "delivery_frames": 854,
+      "timeline_start_frame": 10566,
+      "motion": "affine"
+    },
+    {
+      "id": "S026",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261123-linna/image/raw/S026.png",
+      "duration_s": 18.333333333333332,
+      "frames": 1100,
+      "span_s": 18.316666666666666,
+      "start_view": [
+        0.044,
+        0.044,
+        0.912,
+        0.912
+      ],
+      "end_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.15,
+          0.15,
+          0.7,
+          0.7
+        ]
+      ],
+      "delivery_frames": 440,
+      "timeline_start_frame": 11420,
+      "motion": "affine"
+    },
+    {
+      "id": "S027",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261123-linna/image/raw/S027.png",
+      "duration_s": 10.583333333333334,
+      "frames": 635,
+      "span_s": 10.566666666666666,
+      "start_view": [
+        0.015,
+        0.05,
+        0.9,
+        0.9
+      ],
+      "end_view": [
+        0.085,
+        0.05,
+        0.9,
+        0.9
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.15,
+          0.15,
+          0.7,
+          0.7
+        ]
+      ],
+      "delivery_frames": 254,
+      "timeline_start_frame": 11860,
+      "motion": "affine"
+    },
+    {
+      "id": "S028",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261123-linna/image/raw/S028.png",
+      "duration_s": 15.0,
+      "frames": 900,
+      "span_s": 14.983333333333333,
+      "start_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "end_view": [
+        0.044,
+        0.044,
+        0.912,
+        0.912
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.15,
+          0.15,
+          0.7,
+          0.7
+        ]
+      ],
+      "delivery_frames": 360,
+      "timeline_start_frame": 12114,
+      "motion": "affine"
+    },
+    {
+      "id": "S029",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261123-linna/image/raw/S029.png",
+      "duration_s": 14.75,
+      "frames": 885,
+      "span_s": 14.733333333333333,
+      "start_view": [
+        0.044,
+        0.044,
+        0.912,
+        0.912
+      ],
+      "end_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.15,
+          0.15,
+          0.7,
+          0.7
+        ]
+      ],
+      "delivery_frames": 354,
+      "timeline_start_frame": 12474,
+      "motion": "affine"
+    },
+    {
+      "id": "S030",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261123-linna/image/raw/S030.png",
+      "duration_s": 20.0,
+      "frames": 1200,
+      "span_s": 19.983333333333334,
+      "start_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "end_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.15,
+          0.15,
+          0.7,
+          0.7
+        ]
+      ],
+      "delivery_frames": 480,
+      "timeline_start_frame": 12828,
+      "motion": "static"
+    },
+    {
+      "id": "S031",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261123-linna/image/raw/S031.png",
+      "duration_s": 39.75,
+      "frames": 2385,
+      "span_s": 39.733333333333334,
+      "start_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "end_view": [
+        0.044,
+        0.044,
+        0.912,
+        0.912
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.15,
+          0.15,
+          0.7,
+          0.7
+        ]
+      ],
+      "delivery_frames": 954,
+      "timeline_start_frame": 13308,
+      "motion": "affine"
+    },
+    {
+      "id": "S032",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261123-linna/image/raw/S032.png",
+      "duration_s": 23.333333333333332,
+      "frames": 1400,
+      "span_s": 23.316666666666666,
+      "start_view": [
+        0.044,
+        0.044,
+        0.912,
+        0.912
+      ],
+      "end_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.15,
+          0.15,
+          0.7,
+          0.7
+        ]
+      ],
+      "delivery_frames": 560,
+      "timeline_start_frame": 14262,
+      "motion": "affine"
+    },
+    {
+      "id": "S033",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261123-linna/image/raw/S033.png",
+      "duration_s": 14.166666666666666,
+      "frames": 850,
+      "span_s": 14.15,
+      "start_view": [
+        0.015,
+        0.05,
+        0.9,
+        0.9
+      ],
+      "end_view": [
+        0.085,
+        0.05,
+        0.9,
+        0.9
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.15,
+          0.15,
+          0.7,
+          0.7
+        ]
+      ],
+      "delivery_frames": 340,
+      "timeline_start_frame": 14822,
+      "motion": "affine"
+    },
+    {
+      "id": "S034",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261123-linna/image/raw/S034.png",
+      "duration_s": 20.583333333333332,
+      "frames": 1235,
+      "span_s": 20.566666666666666,
+      "start_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "end_view": [
+        0.044,
+        0.044,
+        0.912,
+        0.912
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.15,
+          0.15,
+          0.7,
+          0.7
+        ]
+      ],
+      "delivery_frames": 494,
+      "timeline_start_frame": 15162,
+      "motion": "affine"
+    },
+    {
+      "id": "S035",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261123-linna/image/raw/S035.png",
+      "duration_s": 17.25,
+      "frames": 1035,
+      "span_s": 17.233333333333334,
+      "start_view": [
+        0.044,
+        0.044,
+        0.912,
+        0.912
+      ],
+      "end_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.15,
+          0.15,
+          0.7,
+          0.7
+        ]
+      ],
+      "delivery_frames": 414,
+      "timeline_start_frame": 15656,
+      "motion": "affine"
+    },
+    {
+      "id": "S036",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261123-linna/image/raw/S036.png",
+      "duration_s": 14.75,
+      "frames": 885,
+      "span_s": 14.733333333333333,
+      "start_view": [
+        0.015,
+        0.05,
+        0.9,
+        0.9
+      ],
+      "end_view": [
+        0.085,
+        0.05,
+        0.9,
+        0.9
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.15,
+          0.15,
+          0.7,
+          0.7
+        ]
+      ],
+      "delivery_frames": 354,
+      "timeline_start_frame": 16070,
+      "motion": "affine"
+    },
+    {
+      "id": "S037",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261123-linna/image/raw/S037.png",
+      "duration_s": 6.666666666666667,
+      "frames": 400,
+      "span_s": 6.65,
+      "start_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "end_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.15,
+          0.15,
+          0.7,
+          0.7
+        ]
+      ],
+      "delivery_frames": 160,
+      "timeline_start_frame": 16424,
+      "motion": "static"
+    },
+    {
+      "id": "S038",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261123-linna/image/raw/S038.png",
+      "duration_s": 10.583333333333334,
+      "frames": 635,
+      "span_s": 10.566666666666666,
+      "start_view": [
+        0.044,
+        0.044,
+        0.912,
+        0.912
+      ],
+      "end_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.15,
+          0.15,
+          0.7,
+          0.7
+        ]
+      ],
+      "delivery_frames": 254,
+      "timeline_start_frame": 16584,
+      "motion": "affine"
+    },
+    {
+      "id": "S039",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261123-linna/image/raw/S039.png",
+      "duration_s": 31.966666666666665,
+      "frames": 1918,
+      "span_s": 31.95,
+      "start_view": [
+        0.015,
+        0.05,
+        0.9,
+        0.9
+      ],
+      "end_view": [
+        0.085,
+        0.05,
+        0.9,
+        0.9
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.15,
+          0.15,
+          0.7,
+          0.7
+        ]
+      ],
+      "delivery_frames": 767,
+      "timeline_start_frame": 16838,
+      "motion": "affine"
+    },
+    {
+      "id": "S040",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261123-linna/image/raw/S040.png",
+      "duration_s": 27.8,
+      "frames": 1668,
+      "span_s": 27.783333333333335,
+      "start_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "end_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.15,
+          0.15,
+          0.7,
+          0.7
+        ]
+      ],
+      "delivery_frames": 667,
+      "timeline_start_frame": 17605,
+      "motion": "static"
+    },
+    {
+      "id": "S041",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261123-linna/image/raw/S041.png",
+      "duration_s": 25.833333333333332,
+      "frames": 1550,
+      "span_s": 25.816666666666666,
+      "start_view": [
+        0.044,
+        0.044,
+        0.912,
+        0.912
+      ],
+      "end_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.15,
+          0.15,
+          0.7,
+          0.7
+        ]
+      ],
+      "delivery_frames": 620,
+      "timeline_start_frame": 18272,
+      "motion": "affine"
+    },
+    {
+      "id": "S042",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261123-linna/image/raw/S042.png",
+      "duration_s": 5.0,
+      "frames": 300,
+      "span_s": 4.983333333333333,
+      "start_view": [
+        0.015,
+        0.05,
+        0.9,
+        0.9
+      ],
+      "end_view": [
+        0.085,
+        0.05,
+        0.9,
+        0.9
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.15,
+          0.15,
+          0.7,
+          0.7
+        ]
+      ],
+      "delivery_frames": 120,
+      "timeline_start_frame": 18892,
+      "motion": "affine"
+    },
+    {
+      "id": "S043",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261123-linna/image/raw/S043.png",
+      "duration_s": 8.633333333333333,
+      "frames": 518,
+      "span_s": 8.616666666666667,
+      "start_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "end_view": [
+        0.044,
+        0.044,
+        0.912,
+        0.912
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.15,
+          0.15,
+          0.7,
+          0.7
+        ]
+      ],
+      "delivery_frames": 207,
+      "timeline_start_frame": 19012,
+      "motion": "affine"
+    },
+    {
+      "id": "S044",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261123-linna/image/raw/S044.png",
+      "duration_s": 21.133333333333333,
+      "frames": 1268,
+      "span_s": 21.116666666666667,
+      "start_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "end_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.15,
+          0.15,
+          0.7,
+          0.7
+        ]
+      ],
+      "delivery_frames": 507,
+      "timeline_start_frame": 19219,
+      "motion": "static"
+    },
+    {
+      "id": "S045",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261123-linna/image/raw/S045.png",
+      "duration_s": 27.5,
+      "frames": 1650,
+      "span_s": 27.483333333333334,
+      "start_view": [
+        0.015,
+        0.05,
+        0.9,
+        0.9
+      ],
+      "end_view": [
+        0.085,
+        0.05,
+        0.9,
+        0.9
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.15,
+          0.15,
+          0.7,
+          0.7
+        ]
+      ],
+      "delivery_frames": 660,
+      "timeline_start_frame": 19726,
+      "motion": "affine"
+    },
+    {
+      "id": "S046",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261123-linna/image/raw/S046.png",
+      "duration_s": 6.133333333333334,
+      "frames": 368,
+      "span_s": 6.116666666666666,
+      "start_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "end_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.15,
+          0.15,
+          0.7,
+          0.7
+        ]
+      ],
+      "delivery_frames": 147,
+      "timeline_start_frame": 20386,
+      "motion": "static"
+    },
+    {
+      "id": "S047",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261123-linna/image/raw/S047.png",
+      "duration_s": 21.966666666666665,
+      "frames": 1318,
+      "span_s": 21.95,
+      "start_view": [
+        0.044,
+        0.044,
+        0.912,
+        0.912
+      ],
+      "end_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.15,
+          0.15,
+          0.7,
+          0.7
+        ]
+      ],
+      "delivery_frames": 527,
+      "timeline_start_frame": 20533,
+      "motion": "affine"
+    },
+    {
+      "id": "S048",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261123-linna/image/raw/S048.png",
+      "duration_s": 4.75,
+      "frames": 285,
+      "span_s": 4.733333333333333,
+      "start_view": [
+        0.015,
+        0.05,
+        0.9,
+        0.9
+      ],
+      "end_view": [
+        0.085,
+        0.05,
+        0.9,
+        0.9
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.15,
+          0.15,
+          0.7,
+          0.7
+        ]
+      ],
+      "delivery_frames": 114,
+      "timeline_start_frame": 21060,
+      "motion": "affine"
+    },
+    {
+      "id": "S049",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261123-linna/image/raw/S049.png",
+      "duration_s": 35.583333333333336,
+      "frames": 2135,
+      "span_s": 35.56666666666667,
+      "start_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "end_view": [
+        0.044,
+        0.044,
+        0.912,
+        0.912
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.15,
+          0.15,
+          0.7,
+          0.7
+        ]
+      ],
+      "delivery_frames": 854,
+      "timeline_start_frame": 21174,
+      "motion": "affine"
+    },
+    {
+      "id": "S050",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261123-linna/image/raw/S050.png",
+      "duration_s": 39.166666666666664,
+      "frames": 2350,
+      "span_s": 39.15,
+      "start_view": [
+        0.044,
+        0.044,
+        0.912,
+        0.912
+      ],
+      "end_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.15,
+          0.15,
+          0.7,
+          0.7
+        ]
+      ],
+      "delivery_frames": 940,
+      "timeline_start_frame": 22028,
+      "motion": "affine"
+    },
+    {
+      "id": "S051",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261123-linna/image/raw/S051.png",
+      "duration_s": 22.5,
+      "frames": 1350,
+      "span_s": 22.483333333333334,
+      "start_view": [
+        0.015,
+        0.05,
+        0.9,
+        0.9
+      ],
+      "end_view": [
+        0.085,
+        0.05,
+        0.9,
+        0.9
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.15,
+          0.15,
+          0.7,
+          0.7
+        ]
+      ],
+      "delivery_frames": 540,
+      "timeline_start_frame": 22968,
+      "motion": "affine"
+    },
+    {
+      "id": "S052",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261123-linna/image/raw/S052.png",
+      "duration_s": 20.833333333333332,
+      "frames": 1250,
+      "span_s": 20.816666666666666,
+      "start_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "end_view": [
+        0.044,
+        0.044,
+        0.912,
+        0.912
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.15,
+          0.15,
+          0.7,
+          0.7
+        ]
+      ],
+      "delivery_frames": 500,
+      "timeline_start_frame": 23508,
+      "motion": "affine"
+    },
+    {
+      "id": "S053",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261123-linna/image/raw/S053.png",
+      "duration_s": 7.5,
+      "frames": 450,
+      "span_s": 7.483333333333333,
+      "start_view": [
+        0.044,
+        0.044,
+        0.912,
+        0.912
+      ],
+      "end_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.15,
+          0.15,
+          0.7,
+          0.7
+        ]
+      ],
+      "delivery_frames": 180,
+      "timeline_start_frame": 24008,
+      "motion": "affine"
+    },
+    {
+      "id": "S054",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261123-linna/image/raw/S054.png",
+      "duration_s": 23.633333333333333,
+      "frames": 1418,
+      "span_s": 23.616666666666667,
+      "start_view": [
+        0.015,
+        0.05,
+        0.9,
+        0.9
+      ],
+      "end_view": [
+        0.085,
+        0.05,
+        0.9,
+        0.9
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.15,
+          0.15,
+          0.7,
+          0.7
+        ]
+      ],
+      "delivery_frames": 567,
+      "timeline_start_frame": 24188,
+      "motion": "affine"
+    },
+    {
+      "id": "S055",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261123-linna/image/raw/S055.png",
+      "duration_s": 18.333333333333332,
+      "frames": 1100,
+      "span_s": 18.316666666666666,
+      "start_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "end_view": [
+        0.044,
+        0.044,
+        0.912,
+        0.912
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.15,
+          0.15,
+          0.7,
+          0.7
+        ]
+      ],
+      "delivery_frames": 440,
+      "timeline_start_frame": 24755,
+      "motion": "affine"
+    },
+    {
+      "id": "S056",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261123-linna/image/raw/S056.png",
+      "duration_s": 16.966666666666665,
+      "frames": 1018,
+      "span_s": 16.95,
+      "start_view": [
+        0.044,
+        0.044,
+        0.912,
+        0.912
+      ],
+      "end_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.15,
+          0.15,
+          0.7,
+          0.7
+        ]
+      ],
+      "delivery_frames": 407,
+      "timeline_start_frame": 25195,
+      "motion": "affine"
+    },
+    {
+      "id": "S057",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261123-linna/image/raw/S057.png",
+      "duration_s": 14.166666666666666,
+      "frames": 850,
+      "span_s": 14.15,
+      "start_view": [
+        0.015,
+        0.05,
+        0.9,
+        0.9
+      ],
+      "end_view": [
+        0.085,
+        0.05,
+        0.9,
+        0.9
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.15,
+          0.15,
+          0.7,
+          0.7
+        ]
+      ],
+      "delivery_frames": 340,
+      "timeline_start_frame": 25602,
+      "motion": "affine"
+    },
+    {
+      "id": "S058",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261123-linna/image/raw/S058.png",
+      "duration_s": 15.0,
+      "frames": 900,
+      "span_s": 14.983333333333333,
+      "start_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "end_view": [
+        0.044,
+        0.044,
+        0.912,
+        0.912
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.15,
+          0.15,
+          0.7,
+          0.7
+        ]
+      ],
+      "delivery_frames": 360,
+      "timeline_start_frame": 25942,
+      "motion": "affine"
+    },
+    {
+      "id": "S059",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261123-linna/image/raw/S059.png",
+      "duration_s": 11.666666666666666,
+      "frames": 700,
+      "span_s": 11.65,
+      "start_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "end_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.15,
+          0.15,
+          0.7,
+          0.7
+        ]
+      ],
+      "delivery_frames": 280,
+      "timeline_start_frame": 26302,
+      "motion": "static"
+    },
+    {
+      "id": "S060",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261123-linna/image/raw/S060.png",
+      "duration_s": 15.0,
+      "frames": 900,
+      "span_s": 14.983333333333333,
+      "start_view": [
+        0.015,
+        0.05,
+        0.9,
+        0.9
+      ],
+      "end_view": [
+        0.085,
+        0.05,
+        0.9,
+        0.9
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.15,
+          0.15,
+          0.7,
+          0.7
+        ]
+      ],
+      "delivery_frames": 360,
+      "timeline_start_frame": 26582,
+      "motion": "affine"
+    },
+    {
+      "id": "S061",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261123-linna/image/raw/S061.png",
+      "duration_s": 40.833333333333336,
+      "frames": 2450,
+      "span_s": 40.81666666666667,
+      "start_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "end_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.15,
+          0.15,
+          0.7,
+          0.7
+        ]
+      ],
+      "delivery_frames": 980,
+      "timeline_start_frame": 26942,
+      "motion": "static"
+    },
+    {
+      "id": "S062",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261123-linna/image/raw/S062.png",
+      "duration_s": 23.333333333333332,
+      "frames": 1400,
+      "span_s": 23.316666666666666,
+      "start_view": [
+        0.044,
+        0.044,
+        0.912,
+        0.912
+      ],
+      "end_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.15,
+          0.15,
+          0.7,
+          0.7
+        ]
+      ],
+      "delivery_frames": 560,
+      "timeline_start_frame": 27922,
+      "motion": "affine"
+    },
+    {
+      "id": "S063",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261123-linna/image/raw/S063.png",
+      "duration_s": 16.433333333333334,
+      "frames": 986,
+      "span_s": 16.416666666666668,
+      "start_view": [
+        0.015,
+        0.05,
+        0.9,
+        0.9
+      ],
+      "end_view": [
+        0.085,
+        0.05,
+        0.9,
+        0.9
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.15,
+          0.15,
+          0.7,
+          0.7
+        ]
+      ],
+      "delivery_frames": 394,
+      "timeline_start_frame": 28482,
+      "motion": "affine"
+    },
+    {
+      "id": "S064",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261123-linna/image/raw/S064.png",
+      "duration_s": 20.3,
+      "frames": 1218,
+      "span_s": 20.283333333333335,
+      "start_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "end_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.15,
+          0.15,
+          0.7,
+          0.7
+        ]
+      ],
+      "delivery_frames": 487,
+      "timeline_start_frame": 28876,
+      "motion": "static"
+    },
+    {
+      "id": "S065",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261123-linna/image/raw/S065.png",
+      "duration_s": 30.3,
+      "frames": 1818,
+      "span_s": 30.283333333333335,
+      "start_view": [
+        0.044,
+        0.044,
+        0.912,
+        0.912
+      ],
+      "end_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.15,
+          0.15,
+          0.7,
+          0.7
+        ]
+      ],
+      "delivery_frames": 727,
+      "timeline_start_frame": 29363,
+      "motion": "affine"
+    },
+    {
+      "id": "S066",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261123-linna/image/raw/S066.png",
+      "duration_s": 24.466666666666665,
+      "frames": 1468,
+      "span_s": 24.45,
+      "start_view": [
+        0.015,
+        0.05,
+        0.9,
+        0.9
+      ],
+      "end_view": [
+        0.085,
+        0.05,
+        0.9,
+        0.9
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.15,
+          0.15,
+          0.7,
+          0.7
+        ]
+      ],
+      "delivery_frames": 587,
+      "timeline_start_frame": 30090,
+      "motion": "affine"
+    },
+    {
+      "id": "S067",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261123-linna/image/raw/S067.png",
+      "duration_s": 12.25,
+      "frames": 735,
+      "span_s": 12.233333333333333,
+      "start_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "end_view": [
+        0.044,
+        0.044,
+        0.912,
+        0.912
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.15,
+          0.15,
+          0.7,
+          0.7
+        ]
+      ],
+      "delivery_frames": 294,
+      "timeline_start_frame": 30677,
+      "motion": "affine"
+    },
+    {
+      "id": "S068",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261123-linna/image/raw/S068.png",
+      "duration_s": 15.833333333333334,
+      "frames": 950,
+      "span_s": 15.816666666666666,
+      "start_view": [
+        0.044,
+        0.044,
+        0.912,
+        0.912
+      ],
+      "end_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.15,
+          0.15,
+          0.7,
+          0.7
+        ]
+      ],
+      "delivery_frames": 380,
+      "timeline_start_frame": 30971,
+      "motion": "affine"
+    },
+    {
+      "id": "S069",
+      "source": "/Users/mac/Documents/video-workflow/projects/悬疑/episodes/20261123-linna/image/raw/S069.png",
+      "duration_s": 5.3,
+      "frames": 318,
+      "span_s": 5.283333333333333,
+      "start_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "end_view": [
+        0,
+        0.0,
+        1,
+        1.0
+      ],
+      "curve": {
+        "type": "ramped_linear",
+        "ramp_s": 0.6
+      },
+      "required_regions": [
+        [
+          0.15,
+          0.15,
+          0.7,
+          0.7
+        ]
+      ],
+      "delivery_frames": 127,
+      "timeline_start_frame": 31351,
+      "motion": "static"
+    }
+  ]
+}

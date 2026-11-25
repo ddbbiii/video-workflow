@@ -1,0 +1,38 @@
+{
+  "shots": [
+    {
+      "id": "I01",
+      "line": "悬疑",
+      "step": "composite",
+      "character_ids": [
+        "intro-villagers"
+      ],
+      "character_closeup": false,
+      "hands_visible": true,
+      "evidence_id": "",
+      "subject_class": "character",
+      "push_ratio": 0,
+      "needs_2048": false,
+      "fact": "村民在女孩死后围拢议论",
+      "cast": "intro-villagers",
+      "shot_type": "M"
+    },
+    {
+      "id": "I02",
+      "line": "悬疑",
+      "step": "composite",
+      "character_ids": [
+        "narrator"
+      ],
+      "character_closeup": false,
+      "hands_visible": true,
+      "evidence_id": "",
+      "subject_class": "character",
+      "push_ratio": 0,
+      "needs_2048": false,
+      "fact": "刑警重新检查调查材料，尚未锁定真凶",
+      "cast": "narrator",
+      "shot_type": "M"
+    }
+  ]
+}

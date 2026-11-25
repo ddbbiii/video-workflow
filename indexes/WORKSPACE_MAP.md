@@ -24,7 +24,7 @@
 | `shared/lip-tools` | 128 GB | 口型/换脸工具链，已不参与生产 |
 | `shared/project-tools` | 14 GB | 工具、训练脚本、参考 |
 | `shared/archive` | 3 GB | 旧退役线路归档（工作区内保留） |
-| `projects/助眠解说` | 21 GB | `catching-a-second` 为主 |
+| 助眠解说归档 | <2 MB（本地工作树） | 冻结于 `shared/archive/retired-lines-20261125/助眠解说/` |
 | `projects/悬疑` | 3 GB | 两集 |
 | `projects/人生体验` | 2 GB | 一集 |
 | `shared/delivery` | 0.6 GB | **旧成品库，已废止**，待归档 |

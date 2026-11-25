@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """抖音参考片获取：本机 douyin-media-mcp 的薄封装。
 
-MCP 本体通常与 video 仓库并列放置于 `../douyin-media-mcp/`（stdio MCP，三种工具）；
+MCP 本体优先从 `../douyin-media-mcp/` 查找，其次使用 `~/.codex/mcp/douyin-media-mcp/`；
 也可通过 `DOUYIN_MCP_ROOT` 指定位置。
 本脚本不做协议握手，直接调它的 service 层，供工作区命令行使用。
 
@@ -44,7 +44,14 @@ def clean_env() -> None:
     os.environ["PYTHONDONTWRITEBYTECODE"] = "1"
 
 
-async def run(url: str, out_dir: Path, quality: str, name: str | None, overwrite: bool) -> dict:
+async def run(
+    url: str,
+    out_dir: Path,
+    quality: str,
+    name: str | None,
+    overwrite: bool,
+    keep_separate_streams: bool,
+) -> dict:
     sys.path.insert(0, str(MCP_ROOT / "src"))
     from douyin_media_mcp.service import DouyinMediaService
 
@@ -56,6 +63,7 @@ async def run(url: str, out_dir: Path, quality: str, name: str | None, overwrite
         quality=quality,  # type: ignore[arg-type]
         filename=name,
         overwrite=overwrite,
+        keep_separate_streams=keep_separate_streams,
     )
 
 
@@ -70,12 +78,26 @@ def main() -> int:
     parser.add_argument("--quality", default="best", choices=["best", "1080p", "720p"])
     parser.add_argument("--name", default=None, help="输出文件名（默认 douyin-<aweme_id>.mp4）")
     parser.add_argument("--overwrite", action="store_true")
+    parser.add_argument(
+        "--keep-separate-streams",
+        action="store_true",
+        help="额外导出纯视频轨与独立音频轨，便于音轨分析",
+    )
     args = parser.parse_args()
 
     clean_env()
     out_dir = Path(args.out)
     try:
-        result = asyncio.run(run(args.url, out_dir, args.quality, args.name, args.overwrite))
+        result = asyncio.run(
+            run(
+                args.url,
+                out_dir,
+                args.quality,
+                args.name,
+                args.overwrite,
+                args.keep_separate_streams,
+            )
+        )
     except Exception as exc:  # noqa: BLE001
         payload = getattr(exc, "payload", None)
         print(json.dumps(payload() if callable(payload) else {"status": "error", "error": repr(exc)},
