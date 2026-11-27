@@ -1,8 +1,8 @@
 {
   "schema": "image-channel-policy/1",
-  "version": "v8-new2-dklb-parallel",
-  "updated": "2026-11-15",
-  "active": "v8-new2-dklb-parallel",
+  "version": "v9-dklb-only",
+  "updated": "2026-11-27",
+  "active": "v9-dklb-only",
   "source_of_truth": "本文件是通道路由的唯一事实源；规则文档只写原则，具体阈值与启停以这里为准",
   "channels": {
     "old": {
@@ -39,7 +39,7 @@
         "与 new2 渲染风格不同，同一集不能混用"
       ],
       "note": "2026-11-14 用户提供的新 key（wire_api=responses，http_headers 带 x-openai-actor-authorization: local-image-extension）；同日实测 /v1/models 列出 gpt-image-2 / 2.5 / 2.5-sunburst / 2.6 等 8 个型号，/images/generations 返回 2048x1152 PNG；单价 0.018 元由用户 2026-11-14 口头确认",
-      "status": "active-backup"
+      "status": "active"
     },
     "dkl2": {
       "base_url": "https://dklapi.com/v1",
@@ -90,8 +90,9 @@
         "只开通 AZ 型号",
         "大推近更快见底"
       ],
-      "note": "长期默认通道（v5-new2-old）；1672x941 原生，2x2 拆格仅 836x471",
-      "status": "active"
+      "note": "已由用户 2026-11-27 指定退役；后续生产统一使用 dkl-b",
+      "status": "retired-2026-11-27",
+      "retired_note": "用户明确要求不再考虑 NEW2 生图"
     },
     "yy": {
       "base_url": "https://yy.shagentai.com/v1",
@@ -950,6 +951,25 @@
         ],
         "on_fail": "先修参考图或换通道；不达标不进全量"
       }
+    },
+    "v9-dklb-only": {
+      "since": "2026-11-27",
+      "reason": "用户明确要求停止 NEW2 生图，后续生产统一使用 dkl-b",
+      "enabled_channels": ["dkl-b"],
+      "disabled_channels": ["new2", "old", "dkl2", "new1", "yy"],
+      "default_channel": "dkl-b",
+      "parallel_channels": [],
+      "dispatch": {"mode": "single_channel", "unit": "shot_or_image_request", "same_episode_mixed_channels": false, "same_request_single_channel": true, "max_in_flight_per_channel": 1, "target_total_in_flight": 1},
+      "auto_fallback": [],
+      "manual_only": [],
+      "primary_size": "2048x1152",
+      "routes": [{"step": "*", "channel": "dkl-b", "note": "所有生产图片和网格请求统一使用 dkl-b"}],
+      "gates": {"size_assert": {"dkl-b": "2048x1152"}, "reject_if_std_lum_lt": 18, "reject_if_native_lap_var_lt": 60, "reject_if_delivery_lap_var_lt": 15, "unified_lut": true},
+      "retry": {"same_channel_max": 2, "transient_codes": [429, 500, 502, 503, 504], "then": "stop_and_notify", "record_fallback": false},
+      "depletion": {"signal_error_code": "insufficient_user_quota", "http_status": 403, "action": "stop_remaining_work", "fallback": false, "notify_user": true, "stop_file": "STOP-dklb-depleted.json"},
+      "cost_note": "dkl-b 2048x1152，当前唯一生产通道",
+      "supersedes": "v8-new2-dklb-parallel",
+      "style_fit_gate": {"pilot_shots": 6, "criteria": ["参考图与成图均无喷枪过渡、无柔光边", "每个部位 ≤3 平色", "人物镜 1:1 目检无 3D 感"], "on_fail": "先修参考图或停止批量，不切换其他通道"}
     }
   },
   "change_log": [

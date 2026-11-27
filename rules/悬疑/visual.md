@@ -332,9 +332,9 @@ corridor light from behind, face not visible
 
 **生图只走 GPT 图片 API**：
 
-- 路由唯一事实源：`shared/image-api/channel-policy.json`；当前 `v8-new2-dklb-parallel`：`new2`（1672×941）与 `dkl-b`（2048×1152）镜头级轮询并发，同一集允许混用；单次请求固定一个通道，失败只转移失败镜头；`old` 已于 2026-11-15 退役，不再调用。
+- 路由唯一事实源：`shared/image-api/channel-policy.json`；当前 `v9-dklb-only`：所有生产图片和网格请求统一使用 `dkl-b`（2048×1152）；`new2`、`old` 和其他通道不自动调用。
 - 角色锚点按 `channel-policy.json` 的镜头级轮询分配；关键角色先做小样验收，禁止路由到已退役通道。证据、手部、推近 >6% 用 single；环境与人物全身/中景用 2×2。
-- 赛璐璐稳定性按当前启用通道分别验收：`dkl-b` 批量前执行 6 镜画风小样门禁；`new2` 固定 1672×941。具体尺寸与退役状态以 `channel-policy.json` 为准；尺寸断言只判技术合格，不判风格。
+- 赛璐璐稳定性按 `dkl-b` 批量前 6 镜画风小样门禁验收；尺寸断言只判技术合格，不判风格。
 - 记录：manifest 增 `channel`、`attempts`、`qa`、`fallback_from`、`fact`（抽检可读性用）；交付报告出通道构成。
 
 **本地文生图禁用（2026-11-12 用户指令）**：ComfyUI / Qwen-Image / Z-Image / 内置 Codex 出图一律不得用于分镜、试生、风格测试或兜底。原因：本地模型没有赛璐璐锚点约束，2026-11-12 两集用 Qwen-Image 2512 全量出图，风格直接漂成照片/半写实。

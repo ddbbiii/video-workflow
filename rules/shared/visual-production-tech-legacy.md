@@ -78,9 +78,9 @@ no diagrams, no UI, no PPT layout, no watermark
 
 路由唯一事实源：`shared/image-api/channel-policy.json`。本节只写本线原则。
 
-- **当前 `v8-new2-dklb-parallel`**：`new2` 与 `dkl-b` 镜头级轮询并发，同一集允许混用；单次请求固定一个通道，失败时只转移失败镜头。`old` 已于 2026-11-15 退役，不再调用。
-- 尺寸按通道断言（`dkl-b` 2048×1152，`new2` 1672×941）；全局标准差 ≥18；原生锐度 ≥60；1080p 交付锐度 ≥15。
-- `dkl-b` 按策略文件先通过画风小样门禁；`new2` 略偏暖艳，可轻降饱和/压高光后再入轨。
+- **当前 `v9-dklb-only`**：所有生产图片和网格请求统一使用 `dkl-b`，不切换 `new2` 或其他通道。
+- 尺寸按 `dkl-b` 断言为 2048×1152；全局标准差 ≥18；原生锐度 ≥60；1080p 交付锐度 ≥15。
+- `dkl-b` 按策略文件先通过画风小样门禁；门禁失败时修正参考图或停止批量。
 - 记录：manifest 增 `channel`、`attempts`、`qa`、`fallback_from`；交付报告出通道构成。
 
 

@@ -133,10 +133,10 @@
 ## 4 当前默认技术
 
 - 静态图：独立 GPT 图片 API，按通道路由选站。唯一事实源 `shared/image-api/channel-policy.json`（通道、单价、路由规则、门禁阈值、启停条件）；规则文档只写原则。
-  - 当前策略 `v8-new2-dklb-parallel`（2026-11-15）：`new2` 与 `dkl-b` 两队并行生图，镜头/独立图请求按轮询均衡分配；同一集允许混用这两个通道。`old` 已依据 2026-11-15 同提示词对照退役，不再调用；报告见 `projects/悬疑/visual-tests/20261115-220020-old-dklb-new2/ASSESSMENT.md`。
+  - 当前策略 `v9-dklb-only`（2026-11-27）：所有生产图片和网格请求统一使用 `dkl-b`，2048×1152；`new2` 不再考虑，其他通道不作为自动回退。
   - 并发边界：单次 API 请求（含整张网格）固定一个通道，不拆请求；同一镜头的重试留在原通道，连续失败或通道耗尽时只把该失败镜头/未开始镜头转给另一可用通道，不重跑已完成镜头。任一通道不可用时另一队继续；两者都不可用才停止剩余任务并告知。
   - 路由由字段决定：`SHOT_PLAN` 必填 `line/step/character_ids/character_closeup/hands_visible/evidence_id/subject_class/push_ratio/needs_2048`；缺字段报错，禁止默认用某家。队列按策略文件执行镜头级轮询分配；调用端遵循分配结果，不能自行改站。
-  - `dkl-b` 批量前仍须通过策略文件规定的画风小样门禁；尺寸断言、废图闸、白名单前置、统一 LUT 按策略文件执行；每次调用写 sidecar（channel/model/endpoint/price/request_id/dims/qa/fallback_from），并记录并发队列分配。
+  - `dkl-b` 批量前须通过策略文件规定的画风小样门禁；尺寸断言、废图闸、白名单前置、统一 LUT 按策略文件执行；每次调用写 sidecar（channel/model/endpoint/price/request_id/dims/qa），并记录请求状态。
   - 密钥只从环境变量读取，不回显、不落盘。
 - 动态：关键 H3 I2V（EasyCache ON，16GB 短窗分片约 5 s/段 + first_frame 接龙）；微动 Wan 2.2（EasyCache 默认关，开启须目检）；特殊物理/旧 LTX 镜用 LTX 2.3 distilled + ManualSigmas。Hunyuan 仅实验。
 - 声音：**不产任何音频**。不跑 TTS、不产 WAV/分轨、不混音、不加 BGM。配音与混音由用户用自己的工具完成。

@@ -36,15 +36,13 @@ python -m pip install numpy pillow opencv-python-headless jieba
 
 ## 2. API 凭证
 
-图片 API 密钥只设置为当前用户环境变量或密钥管理器项目，不写进脚本、文档、shell 历史或 Git。当前活跃策略以 `shared/image-api/channel-policy.json` 为准，版本为 `v8-new2-dklb-parallel`，需要以下变量：
+图片 API 密钥只设置为当前用户环境变量或密钥管理器项目，不写进脚本、文档、shell 历史或 Git。当前活跃策略以 `shared/image-api/channel-policy.json` 为准，版本为 `v9-dklb-only`，只需要 `dkl-b` 变量：
 
-- `IMAGE_API_KEY_XXC`：`new2`
 - `IMAGE_API_KEY_DKL`：`dkl-b`
 
 macOS 當前終端可先這樣設置（替換佔位內容，命令不含真實密鑰）：
 
 ```sh
-export IMAGE_API_KEY_XXC='<从密钥管理器取得>'
 export IMAGE_API_KEY_DKL='<从密钥管理器取得>'
 ```
 
